@@ -1,0 +1,50 @@
+name: Process software suggestions
+
+on:
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: software-suggestion-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  process-suggestion:
+    if: contains(github.event.issue.labels.*.name, 'software-suggestion') && !github.event.issue.pull_request
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: scripts/requirements.txt
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+      - name: Validate suggestion, check duplicates, and classify with Gemini
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: python scripts/process_software_suggestion.py
+      - name: Generate software detail pages and sitemap
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PAGE_CONTEXT_BATCHES_PER_RUN: "1"
+          PAGE_CONTEXT_BATCH_SIZE: "1"
+        run: python scripts/generate_software_pages.py
+      - name: Commit validated directory updates
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/software_list.csv data/software_sources.json data/software_context.json sitemap.xml software/
+          git diff --cached --quiet && exit 0
+          git commit -m "Add verified software suggestion"
+          git push
