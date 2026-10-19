@@ -514,13 +514,13 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
   <div class="modal">
     <button class="modal-close" onclick="closeModal()">✕</button>
     <h2>Suggest a Software</h2>
-    <p class="modal-sub">We'll review your suggestion and add it after verification. A GitHub token with <code>public_repo</code> scope is needed to open the issue — <a href="https://github.com/settings/tokens/new?scopes=public_repo&description=IsItFree+Suggest" target="_blank">generate one here</a>.</p>
+    <p class="modal-sub">Suggest a tool in seconds. GitHub will securely record it, check for duplicates, and use AI to prepare new entries for review—no token needed.</p>
     <div class="form-group"><label>Software Name *</label><input type="text" id="f-name" placeholder="e.g. Figma"/></div>
     <div class="form-row">
       <div class="form-group">
         <label>Category *</label>
         <select id="f-category">
-          <option value="">Select…</option>
+          <option value="">Let AI determine</option>
           <option>Open Source</option><option>Free for Home</option>
           <option>License Required</option><option>License for Commercial</option>
           <option>Community Version</option>
@@ -529,7 +529,7 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
       <div class="form-group"><label>Official URL *</label><input type="url" id="f-url" placeholder="https://example.com"/></div>
     </div>
     <div class="form-group"><label>Notes (optional)</label><textarea id="f-notes" placeholder="Brief licensing description…"></textarea></div>
-    <div class="form-group"><label>GitHub Token *</label><input type="text" id="f-token" placeholder="ghp_xxxxxxxxxxxx"/></div>
+    
     <button class="submit-btn" id="submitBtn" onclick="submitSuggestion()">Submit Suggestion →</button>
     <p class="form-msg" id="formMsg"></p>
   </div>
@@ -786,7 +786,7 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
   function handleBackdropClick(e){if(e.target===e.currentTarget)closeModal();}
   document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeModal();closeFlagModal();}});
   function resetForm(){
-    ["f-name","f-url","f-notes","f-token"].forEach(id=>document.getElementById(id).value="");
+    ["f-name","f-url","f-notes"].forEach(id=>document.getElementById(id).value="");
     document.getElementById("f-category").value="";
     document.getElementById("formMsg").textContent="";
     document.getElementById("formMsg").className="form-msg";
@@ -799,21 +799,16 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
     const category=document.getElementById("f-category").value;
     const url=document.getElementById("f-url").value.trim();
     const notes=document.getElementById("f-notes").value.trim();
-    const token=document.getElementById("f-token").value.trim();
-    if(!name||!category||!url||!token){setMsg("Please fill in all required fields.","error");return;}
-    if(!url.startsWith("http")){setMsg("Please enter a valid URL starting with https://","error");return;}
-    const btn=document.getElementById("submitBtn");btn.disabled=true;setMsg("Submitting…","");
-    const issueBody=`## Software Suggestion\n\n| Field | Value |\n|---|---|\n| **Software Name** | ${name} |\n| **Category** | ${category} |\n| **Official URL** | ${url} |\n| **Notes** | ${notes||"—"} |\n\n---\n_Submitted via IsItFree? suggestion form._\n\n<!-- CSV_ROW: ${name},${category},,${url},${new Date().toISOString().split("T")[0]},${notes} -->`;
-    try{
-      const res=await fetch(`https://api.github.com/repos/${GITHUB_REPO}/issues`,{
-        method:"POST",
-        headers:{"Authorization":`token ${token}`,"Content-Type":"application/json","Accept":"application/vnd.github.v3+json"},
-        body:JSON.stringify({title:`[Suggestion] ${name}`,body:issueBody,labels:["software-suggestion"]})
-      });
-      if(res.status===201){const data=await res.json();setMsg(`✅ Submitted! Issue #${data.number} created.`,"success");setTimeout(closeModal,3000);}
-      else if(res.status===401){setMsg("Invalid GitHub token.","error");btn.disabled=false;}
-      else{const err=await res.json();setMsg(`Error: ${err.message||"Failed."}` ,"error");btn.disabled=false;}
-    }catch(e){setMsg("Network error. Please try again.","error");btn.disabled=false;}
+    if(!name||!url){setMsg("Please enter a software name and official website.","error");return;}
+    let parsed;try{parsed=new URL(url);if(parsed.protocol!=="https:"||!parsed.hostname.includes("."))throw new Error("invalid")}catch(_){setMsg("Please enter a valid official HTTPS website URL.","error");return;}
+    if(name.length>120||notes.length>1200){setMsg("Please shorten the name or notes and try again.","error");return;}
+    const btn=document.getElementById("submitBtn");btn.disabled=true;setMsg("Opening secure suggestion form…","");
+    const title="[Software Suggestion] "+name;
+    const body=["## Software Suggestion","","- **Software name:** "+name,"- **Official website:** "+url,"- **Suggested category:** "+(category||"Not sure"),"- **Additional details:** "+(notes||"None provided"),"","Submitted through the IsItFree? website. Please verify before adding."].join("\n");
+    const issueUrl="https://github.com/"+GITHUB_REPO+"/issues/new?title="+encodeURIComponent(title)+"&body="+encodeURIComponent(body);
+    setMsg("Opening GitHub to submit your suggestion. Sign in if prompted; no personal access token is needed.","success");
+    window.open(issueUrl,"_blank","noopener,noreferrer");
+    btn.disabled=false;
   }
 
   async function loadRecentSoftwareUpdates() {
