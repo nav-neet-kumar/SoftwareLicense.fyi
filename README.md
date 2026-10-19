@@ -11,9 +11,7 @@
 
 ### Increased Daily Software Discovery
 
-The automated software discovery system has been upgraded from:
-
-**Target: 15 verified new software entries per successful run**
+The automated discovery workflow targets 15 verified new software entries per successful run.
 
 The target is controlled by the `NEW_PER_RUN` environment variable. The script compares names against the CSV locally; the existing directory is not sent to Gemini.
 
@@ -246,25 +244,7 @@ The public directory is intended to be crawlable. Crawler rules are not access c
 
 ## ⚙️ Updating the Daily Limit
 
-To change the number of software entries discovered per run, edit:
-
-```text
-scripts/discover_software.py
-```
-
-Find:
-
-```python
-TARGET = int(os.getenv("NEW_PER_RUN", "15"))
-```
-
-For example, to process 30 entries:
-
-```python
-NEW_PER_RUN = 30
-```
-
-The GitHub Action should continue using the same discovery script.
+To change the target, update the `NEW_PER_RUN` environment value in `.github/workflows/discover_daily.yml`. For example, set it to `30` to target 30 verified entries. Larger targets may require more Gemini requests and can fail if verification cannot establish enough valid entries.
 
 ---
 
