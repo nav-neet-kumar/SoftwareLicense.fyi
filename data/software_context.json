@@ -1,1 +1,302 @@
-{}
+{
+  "orkas": {
+    "input_hash": "7c4884d93959d56ce37b6e2d72371bc0b5610316e6d161504429e6623353949d",
+    "generated_at": "2026-10-19",
+    "summary": "Orkas is a local-first AI desktop application designed to run AI workloads locally or connect with external AI models. It offers an open-source interface where users can supply their own model provider API keys.",
+    "what_it_does": "Provides a local desktop interface to interact with AI models using custom API keys or optional built-in hosted options.",
+    "best_for": "Users and developers looking for a local-first desktop application for AI interaction using personal API keys.",
+    "free_tier": "The desktop application is free and open source under the MIT license; external API usage or optional hosted models may incur separate charges.",
+    "limitations": "Model provider API usage or hosted services may require payment; refer to the official documentation for complete platform feature details.",
+    "licensing_notes": "Licensed under the permissive MIT License.",
+    "faq": [
+      {
+        "question": "Is Orkas free to use?",
+        "answer": "Yes, the Orkas desktop application is free and open source under the MIT license, though model API fees from external providers may apply."
+      },
+      {
+        "question": "Which operating systems are supported by Orkas?",
+        "answer": "Orkas supports macOS, Windows, and Linux as a local desktop application."
+      }
+    ]
+  },
+  "nagios-core": {
+    "input_hash": "91530c54cd00e36ebee5fca784c99bbfe56b4095cbbde9ca6ca7e11e33b1337d",
+    "generated_at": "2026-10-19",
+    "summary": "Nagios Core is an open-source IT infrastructure monitoring solution designed to monitor systems, networks, and infrastructure. It alerts administrators to system health issues to prevent service disruptions.",
+    "what_it_does": "Monitors network devices, server metrics, and applications while delivering alerts and event handling capabilities.",
+    "best_for": "System administrators and IT teams needing an open-source engine for enterprise infrastructure monitoring.",
+    "free_tier": "Completely free and open-source software under the GNU General Public License Version 2.",
+    "limitations": "Advanced web interfaces or commercial management features require Nagios XI or third-party add-ons; check official documentation for setup requirements.",
+    "licensing_notes": "Distributed under the GNU General Public License Version 2 (GPLv2).",
+    "faq": [
+      {
+        "question": "Is Nagios Core free for commercial use?",
+        "answer": "Yes, Nagios Core is open-source software licensed under GPLv2 and can be used without licensing fees."
+      },
+      {
+        "question": "How does Nagios Core notify administrators of issues?",
+        "answer": "It checks host and service states using plugins and triggers alerts when abnormal states or outages are detected."
+      }
+    ]
+  },
+  "almalinux": {
+    "input_hash": "344b5d4b36f9045c7b23d8b30af7c5b7073c2b40a8cb4a608c0f61cddcd3ba02",
+    "generated_at": "2026-10-19",
+    "summary": "AlmaLinux is an enterprise-grade, community-governed Linux distribution developed as a free open-source alternative to RHEL. It delivers long-term stability for production server workloads without license fees.",
+    "what_it_does": "Functions as a full server and desktop Linux operating system binary-compatible with enterprise Linux standards.",
+    "best_for": "Organizations and system administrators seeking a enterprise Linux distribution without commercial licensing costs.",
+    "free_tier": "Completely free to download, deploy, and redistribute with no restrictions on commercial or private use.",
+    "limitations": "Official vendor support contracts must be purchased separately if required; check official documentation for hardware architecture support.",
+    "licensing_notes": "Free and open-source, governed by the AlmaLinux OS Foundation with no commercial restrictions.",
+    "faq": [
+      {
+        "question": "Is AlmaLinux free for production commercial deployments?",
+        "answer": "Yes, AlmaLinux is completely free for both private and commercial usage without licensing fees."
+      },
+      {
+        "question": "Who controls and governs AlmaLinux?",
+        "answer": "AlmaLinux is a community-owned and community-governed non-profit Linux distribution."
+      }
+    ]
+  },
+  "valgrind": {
+    "input_hash": "4c7a2938a2a03f42a5187cec59cbb8132d2cd3b52b892f29008e572e9b584e61",
+    "generated_at": "2026-10-19",
+    "summary": "Valgrind is an open-source dynamic analysis tool framework used for memory debugging and profiling on Unix-like systems. It helps developers locate memory leaks, uninitialized memory usage, and execution bottlenecks.",
+    "what_it_does": "Executes compiled programs in a synthetic CPU environment to automatically detect memory corruption, leaks, and concurrency bugs.",
+    "best_for": "C and C++ developers needing automated tools for memory management debugging and program profiling.",
+    "free_tier": "Fully free and open-source software under the GPLv2 license.",
+    "limitations": "Running programs under Valgrind introduces execution overhead; consult official documentation for platform and CPU architecture compatibility.",
+    "licensing_notes": "Distributed under the GNU General Public License, version 2 (GPLv2).",
+    "faq": [
+      {
+        "question": "What primary problems does Valgrind solve?",
+        "answer": "Valgrind helps software developers detect memory leaks, buffer overruns, and invalid memory access in compiled applications."
+      },
+      {
+        "question": "Is Valgrind free to use?",
+        "answer": "Yes, Valgrind is free open-source software licensed under GPLv2."
+      }
+    ]
+  },
+  "taiga": {
+    "input_hash": "e7efb0bf66e8792cd7bfbbf2d97c7b4942feb7a57490c241674de94fd898e7e0",
+    "generated_at": "2026-10-19",
+    "summary": "Taiga is an open-source project management application tailored for agile development teams. It supports Scrum and Kanban frameworks to streamline project planning and task tracking.",
+    "what_it_does": "Provides tools for managing backlogs, user stories, tasks, issues, and sprints on custom boards.",
+    "best_for": "Agile software development teams looking for a customizable, open-source project management workspace.",
+    "free_tier": "Self-hosting the open-source software is free under the Mozilla Public License 2.0.",
+    "limitations": "Self-managed instances require server infrastructure and administration; consult official documentation for hosted plan details.",
+    "licensing_notes": "Licensed under the Mozilla Public License 2.0 (MPL-2.0).",
+    "faq": [
+      {
+        "question": "Is Taiga open source?",
+        "answer": "Yes, Taiga's core source code is open source under MPL-2.0."
+      },
+      {
+        "question": "Which project methodologies does Taiga support?",
+        "answer": "Taiga natively supports agile methodologies including Scrum and Kanban workflows."
+      }
+    ]
+  },
+  "apache-flink": {
+    "input_hash": "24cad3c52eee68d635b73b7dbc6cbb38236129ebef0c45fef8ec1515df7d8b1f",
+    "generated_at": "2026-10-19",
+    "summary": "Apache Flink is an open-source distributed processing framework designed for stateful stream and batch data processing. It offers low-latency stream computation at scale with high consistency guarantees.",
+    "what_it_does": "Processes unbounded real-time data streams and bounded batch datasets across distributed clusters.",
+    "best_for": "Data engineers and system architects building real-time data streaming pipelines and event-driven applications.",
+    "free_tier": "Completely free and open-source under the permissive Apache License 2.0.",
+    "limitations": "Requires cluster setup and operational management expertise; check official documentation for deployment guides.",
+    "licensing_notes": "Licensed under Apache License 2.0, permitting unrestricted commercial and non-commercial use.",
+    "faq": [
+      {
+        "question": "Can Apache Flink be used in commercial products?",
+        "answer": "Yes, Apache Flink is released under Apache License 2.0, allowing full commercial use."
+      },
+      {
+        "question": "Does Apache Flink process real-time or batch data?",
+        "answer": "Apache Flink processes both real-time data streams and batch workloads within the same framework."
+      }
+    ]
+  },
+  "media-player-classic-home-cinema": {
+    "input_hash": "63982da603cd6a41edfd7776dc815e3667c3d3dec58e3e099225fd7ae86dd3f6",
+    "generated_at": "2026-10-19",
+    "summary": "Media Player Classic - Home Cinema (MPC-HC) is a lightweight, open-source media player for Windows operating systems. It provides broad audio and video format playback out of the box with minimal system resource consumption.",
+    "what_it_does": "Plays local multimedia files across many audio and video formats using built-in hardware decoding.",
+    "best_for": "Windows users seeking a fast, customizable, and advertisement-free media player.",
+    "free_tier": "Completely free open-source software with no feature restrictions or paid tiers.",
+    "limitations": "Development relies on community maintainers; check the official project repository for platform support and recent releases.",
+    "licensing_notes": "Distributed under the terms of the GNU General Public License v3.0 (GPLv3).",
+    "faq": [
+      {
+        "question": "Is MPC-HC completely free?",
+        "answer": "Yes, MPC-HC is free, open-source software distributed under GPLv3."
+      },
+      {
+        "question": "Do I need to install external codecs to use MPC-HC?",
+        "answer": "MPC-HC includes built-in codecs capable of playing most standard audio and video formats."
+      }
+    ]
+  },
+  "keka": {
+    "input_hash": "f736087de2d192e5847eab1dca1faad8674beb8151bb7c98c8bb6efe78354e55",
+    "generated_at": "2026-10-19",
+    "summary": "Keka is an open-source file archiver for macOS designed for compressing and extracting archive files. It provides drag-and-drop archive handling with support for multiple formats and password encryption.",
+    "what_it_does": "Extracts files from archive formats like ZIP, RAR, and 7z, and creates compressed archives in various formats.",
+    "best_for": "macOS users who need an intuitive, versatile archive compression and extraction utility.",
+    "free_tier": "Free to download directly from the official website; an optional paid Mac App Store version supports ongoing development.",
+    "limitations": "Automatic updates via the Mac App Store require purchasing the App Store release; see official site for details.",
+    "licensing_notes": "Licensed under the GNU General Public License v2.0 (GPL-2.0).",
+    "faq": [
+      {
+        "question": "Is Keka free to download?",
+        "answer": "Yes, Keka is available for free from its official website, while the Mac App Store purchase serves as a optional donation."
+      },
+      {
+        "question": "What operating systems are supported by Keka?",
+        "answer": "Keka is designed specifically for macOS users."
+      }
+    ]
+  },
+  "presonus-studio-one": {
+    "input_hash": "9f8647af6521db87da3c4ff24f6c62e4857d813e057ec7e7d8cf24ab512f05a3",
+    "generated_at": "2026-10-19",
+    "summary": "PreSonus Studio One is a commercial digital audio workstation (DAW) for recording, composing, mixing, and mastering audio. It integrates virtual instruments and editing capabilities into a single drag-and-drop workflow.",
+    "what_it_does": "Records multi-track audio and MIDI, processes effects, and produces final audio masters for music and audio projects.",
+    "best_for": "Audio engineers, sound designers, and music producers seeking a modern, professional DAW.",
+    "free_tier": "Requires a commercial license or subscription; consult the official site for evaluation or trial availability.",
+    "limitations": "Full product capabilities require purchasing a perpetual license or an active Studio One+ subscription.",
+    "licensing_notes": "Paid proprietary software available via perpetual licensing or subscription.",
+    "faq": [
+      {
+        "question": "Is Studio One free software?",
+        "answer": "No, Studio One is commercial software requiring a paid perpetual license or subscription."
+      },
+      {
+        "question": "How can I purchase Studio One?",
+        "answer": "Studio One can be acquired via a standard perpetual license or through a Studio One+ subscription."
+      }
+    ]
+  },
+  "vegas-pro": {
+    "input_hash": "d21f9c89ac764e20e6bc07462beb1755b5fff797b8b20ed428c49e6b6fbd80b3",
+    "generated_at": "2026-10-19",
+    "summary": "VEGAS Pro is a professional non-linear video editing suite offering video editing, multi-track audio editing, and color grading features. It offers advanced compositing tools for high-end video content creators.",
+    "what_it_does": "Edits video tracks, applies visual effects, performs color correction, and handles audio post-production.",
+    "best_for": "Video editors, content creators, and post-production professionals looking for advanced timeline video editing tools.",
+    "free_tier": "Requires a paid commercial license; check the official site for current trial software availability.",
+    "limitations": "Proprietary software with no permanent free tier for standard deployment.",
+    "licensing_notes": "Paid proprietary commercial software licensed via perpetual purchase or recurring subscription.",
+    "faq": [
+      {
+        "question": "Is VEGAS Pro available for free?",
+        "answer": "VEGAS Pro requires a paid subscription or perpetual license for continuous use."
+      },
+      {
+        "question": "What licensing formats does VEGAS Pro support?",
+        "answer": "It is sold under both perpetual software license purchases and recurring subscription options."
+      }
+    ]
+  },
+  "expressvpn": {
+    "input_hash": "ab70ad061309faaa307570554ad0c53f1935df2c2cc729f4f5a52885a905456c",
+    "generated_at": "2026-10-19",
+    "summary": "ExpressVPN is a commercial virtual private network service designed to protect online privacy and secure internet traffic. It encrypts connection data and routes network requests through secure remote server locations.",
+    "what_it_does": "Encrypts device internet activity and masks original IP addresses across supported networks.",
+    "best_for": "Individuals and organizations seeking internet privacy protection and encrypted connection routing.",
+    "free_tier": "Requires a paid commercial subscription; check the official website for money-back guarantees or promotional offers.",
+    "limitations": "Active VPN network access is restricted to paying subscribers; check official documentation for device connection limits.",
+    "licensing_notes": "Proprietary commercial subscription service.",
+    "faq": [
+      {
+        "question": "Is ExpressVPN a free VPN service?",
+        "answer": "No, ExpressVPN is a paid commercial service that requires an active subscription."
+      },
+      {
+        "question": "Where can I find supported devices and platforms for ExpressVPN?",
+        "answer": "Please check the official ExpressVPN documentation and website for compatible devices and apps."
+      }
+    ]
+  },
+  "keyshot": {
+    "input_hash": "148a4d0a815153ec529098654ce476836d541d5b9470403f3ddd2d23bd82af87",
+    "generated_at": "2026-10-19",
+    "summary": "KeyShot is a commercial 3D rendering and animation program built for real-time ray tracing and photorealistic image creation. It allows designers to apply accurate materials and lighting to 3D models rapidly.",
+    "what_it_does": "Transforms 3D CAD models into photorealistic still images, animations, and interactive visualizations.",
+    "best_for": "Industrial designers, 3D artists, and product visualization specialists requiring fast photorealistic rendering.",
+    "free_tier": "Requires a paid subscription license; check official website for trial options.",
+    "limitations": "Commercial product requiring a paid subscription for regular production use.",
+    "licensing_notes": "Proprietary software licensed on a subscription basis.",
+    "faq": [
+      {
+        "question": "Does KeyShot have a free permanent license?",
+        "answer": "No, KeyShot requires a paid commercial subscription license."
+      },
+      {
+        "question": "What formats or models does KeyShot render?",
+        "answer": "KeyShot renders 3D CAD geometry and scene models; consult official documentation for supported file formats."
+      }
+    ]
+  },
+  "textpad": {
+    "input_hash": "f1f31e2d823468e4271971c5b4edf8685032c22605a02566cac621688ad9431d",
+    "generated_at": "2026-10-19",
+    "summary": "TextPad is a shareware text editor for Windows engineered to edit code, plain text, and large files efficiently. It includes macro automation, file search tools, and syntax highlighting options.",
+    "what_it_does": "Edits plain text and source code files with advanced file editing and search capabilities.",
+    "best_for": "Windows users needing a fast, lightweight text editor for document and code editing.",
+    "free_tier": "Distributed as shareware with an evaluation trial period; continued use requires purchasing a license.",
+    "limitations": "Evaluation copy requires paid license purchase for ongoing regular usage; check official site for license terms.",
+    "licensing_notes": "Proprietary Shareware license requiring a paid commercial purchase after evaluation.",
+    "faq": [
+      {
+        "question": "Is TextPad completely free?",
+        "answer": "TextPad is shareware, meaning you can test it during an evaluation period, but must purchase a license for continued use."
+      },
+      {
+        "question": "Which operating system runs TextPad?",
+        "answer": "TextPad is built for Windows operating systems."
+      }
+    ]
+  },
+  "jetbrains-dataspell": {
+    "input_hash": "de8addea6da83f6c947425c10293f1a634b22865975f3ab407b28806eef0e297",
+    "generated_at": "2026-10-19",
+    "summary": "JetBrains DataSpell is a dedicated integrated development environment (IDE) built specifically for data science tasks. It provides integrated support for Jupyter notebooks, Python, R, and relational databases.",
+    "what_it_does": "Provides code editing, interactive notebook execution, dataset inspection, and debugging capabilities in one environment.",
+    "best_for": "Data scientists, ML engineers, and data analysts working with Python, R, and Jupyter notebooks.",
+    "free_tier": "Includes a 30-day free trial period; subsequent usage requires a paid commercial subscription.",
+    "limitations": "No permanent free community edition is offered; paid subscription is required post-trial.",
+    "licensing_notes": "Proprietary paid commercial subscription model.",
+    "faq": [
+      {
+        "question": "Is there a free version of DataSpell?",
+        "answer": "DataSpell offers a 30-day free trial, but ongoing usage requires a paid subscription."
+      },
+      {
+        "question": "What languages are natively supported by DataSpell?",
+        "answer": "DataSpell natively supports Python, R, SQL, and interactive Jupyter notebook environments."
+      }
+    ]
+  },
+  "valentina-studio": {
+    "input_hash": "cd2ce31120fbc05af3dbaac93637b76625c916e5393a4e48783f0809c96e95c0",
+    "generated_at": "2026-10-19",
+    "summary": "Valentina Studio is a database management and administration application compatible with major relational database management systems. It offers a free basic edition alongside a paid PRO edition for complex administrative tasks.",
+    "what_it_does": "Manages databases, runs SQL queries, edits records, and constructs database schemas.",
+    "best_for": "Database administrators and software developers needing a graphical database administration client.",
+    "free_tier": "Free base edition available with support for both personal and commercial database management.",
+    "limitations": "Advanced administrative utilities, continuous schema diff, and report designers require the paid PRO edition; see official documentation for a complete comparison matrix.",
+    "licensing_notes": "Freemium model offering a free basic edition alongside proprietary paid PRO licenses.",
+    "faq": [
+      {
+        "question": "Can I use the free edition of Valentina Studio commercially?",
+        "answer": "Yes, the free base edition of Valentina Studio is allowed for both personal and commercial tasks."
+      },
+      {
+        "question": "What extra features are included in Valentina Studio PRO?",
+        "answer": "The PRO edition adds features like advanced report building, query building, and schema comparison tools."
+      }
+    ]
+  }
+}
