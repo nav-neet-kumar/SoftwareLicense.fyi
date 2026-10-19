@@ -12,6 +12,7 @@ import sys
 import json
 import time
 import re
+import difflib
 import requests
 import pandas as pd
 from datetime import date
@@ -127,6 +128,17 @@ def is_url_reachable(url: str, timeout: int = 8) -> bool:
 
 # ── Core Update Logic ──────────────────────────────────────────────────────────
 
+def notes_materially_changed(old: str, new: str) -> bool:
+    old_text = re.sub(r"\s+", " ", str(old or "")).strip().casefold()
+    new_text = re.sub(r"\s+", " ", str(new or "")).strip().casefold()
+    if old_text == new_text:
+        return False
+    critical = re.compile(r"\b(not|no|only|commercial|business|personal|home|free|paid|trial|subscription|license|licence|limit|watermark|seat|user|gb|monthly|annual|open|closed|deprecated|discontinued|enterprise|community|requires|required|allows|allowed|prohibited|permitted|unlimited|restricted|source)\b")
+    if set(critical.findall(old_text)) != set(critical.findall(new_text)):
+        return True
+    return difflib.SequenceMatcher(None, old_text, new_text).ratio() < 0.82
+
+
 def update_row(row: pd.Series) -> pd.Series:
     name = row["Software Name"]
     url  = row.get("Official URL", "")
@@ -149,15 +161,34 @@ def update_row(row: pd.Series) -> pd.Series:
         print(f"    [WARN] Invalid category '{category}' — keeping original")
         category = row["Category"]
 
-    before = (str(row.get("Category", "")), str(row.get("License Status", "")), str(row.get("Notes", "")))
-    row["Category"]       = category
-    row["License Status"] = result.get("license_status", row["License Status"])
-    row["Notes"]          = result.get("notes", row.get("Notes", ""))
+    confidence = str(result.get("confidence", "?")).lower().strip()
+    if confidence != "high":
+        print(f"    [SKIP] Confidence is {confidence or 'unknown'}; preserving current record")
+        return row
+
+    old_category = str(row.get("Category", ""))
+    old_status = str(row.get("License Status", ""))
+    old_notes = str(row.get("Notes", ""))
+    new_status = str(result.get("license_status", old_status) or old_status).strip()
+    suggested_notes = str(result.get("notes", old_notes) or old_notes).strip()
+    category_changed = category != old_category
+    status_changed = new_status != old_status
+    notes_changed = notes_materially_changed(old_notes, suggested_notes)
+
+    row["Category"] = category
+    row["License Status"] = new_status
+    # Avoid rewriting notes on every run for cosmetic paraphrases. Apply them when
+    # licensing classification/status changes or when the notes change materially.
+    if category_changed or status_changed or notes_changed:
+        row["Notes"] = suggested_notes
+    else:
+        row["Notes"] = old_notes
+
     after = (str(row.get("Category", "")), str(row.get("License Status", "")), str(row.get("Notes", "")))
+    before = (old_category, old_status, old_notes)
     if after != before:
         row["Last Updated"] = str(date.today())
 
-    confidence = result.get("confidence", "?")
     print(f"    → {category} | {row['License Status']} (confidence: {confidence})")
     return row
 
