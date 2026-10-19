@@ -23,7 +23,9 @@ OPENAI_KEY    = os.getenv("OPENAI_API_KEY", "")
 GEMINI_KEY    = os.getenv("GEMINI_API_KEY", "")
 ANTHROPIC_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 
-CSV_PATH = Path(__file__).parent.parent / "data" / "software_list.csv"
+ROOT = Path(__file__).parent.parent
+CSV_PATH = ROOT / "data" / "software_list.csv"
+RECENT_PATH = ROOT / "data" / "recent_updates.json"
 
 VALID_CATEGORIES = [
     "Open Source",
@@ -146,10 +148,13 @@ def update_row(row: pd.Series) -> pd.Series:
         print(f"    [WARN] Invalid category '{category}' — keeping original")
         category = row["Category"]
 
+    before = (str(row.get("Category", "")), str(row.get("License Status", "")), str(row.get("Notes", "")))
     row["Category"]       = category
     row["License Status"] = result.get("license_status", row["License Status"])
     row["Notes"]          = result.get("notes", row.get("Notes", ""))
-    row["Last Updated"]   = str(date.today())
+    after = (str(row.get("Category", "")), str(row.get("License Status", "")), str(row.get("Notes", "")))
+    if after != before:
+        row["Last Updated"] = str(date.today())
 
     confidence = result.get("confidence", "?")
     print(f"    → {category} | {row['License Status']} (confidence: {confidence})")
@@ -170,16 +175,33 @@ def run():
     print(f"\nLoaded {len(df)} software entries.\n")
 
     updated_rows = []
+    recent_events = []
     for i, row in df.iterrows():
+        original = row.copy()
         updated_row = update_row(row)
         updated_rows.append(updated_row)
+        changed = any(str(original.get(field, "")) != str(updated_row.get(field, "")) for field in ("Category", "License Status", "Notes", "Official URL"))
+        if changed:
+            name = str(updated_row.get("Software Name", "")).strip()
+            slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+            recent_events.append({
+                "name": name, "slug": slug, "type": "UPDATED", "date": str(date.today()),
+                "category": str(updated_row.get("Category", "")), "url": str(updated_row.get("Official URL", "")),
+            })
         time.sleep(1.2)  # Respect API rate limits
 
     updated_df = pd.DataFrame(updated_rows)
     updated_df.to_csv(CSV_PATH, index=False)
-
-    print(f"\n✅ Done. Updated CSV saved to {CSV_PATH}")
-    print(f"   Processed {len(updated_df)} entries on {date.today()}")
+    if recent_events:
+        try:
+            existing_events = json.loads(RECENT_PATH.read_text(encoding="utf-8")) if RECENT_PATH.exists() else []
+            if not isinstance(existing_events, list):
+                existing_events = []
+        except (OSError, json.JSONDecodeError):
+            existing_events = []
+        RECENT_PATH.write_text(json.dumps((existing_events + recent_events)[-100:], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"\nDone. Saved CSV to {CSV_PATH}")
+    print(f"   Processed {len(updated_df)} entries; materially changed {len(recent_events)} on {date.today()}")
 
 
 if __name__ == "__main__":
