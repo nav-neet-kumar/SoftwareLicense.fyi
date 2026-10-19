@@ -48,10 +48,17 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/update_licenses.py
 
+      - name: 🧠 Regenerate software pages and sitemap
+        env:
+          GEMINI_API_KEY: \${{ secrets.GEMINI_API_KEY }}
+          PAGE_CONTEXT_BATCHES_PER_RUN: "2"
+          PAGE_CONTEXT_BATCH_SIZE: "10"
+        run: python scripts/generate_software_pages.py
+
       - name: 💾 Commit and push updated CSV
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/software_list.csv
+          git add data/software_list.csv data/recent_updates.json data/software_context.json sitemap.xml software/
           git diff --staged --quiet || git commit -m "🤖 Auto-update license data [$(date +'%Y-%m-%d')]"
           git push
