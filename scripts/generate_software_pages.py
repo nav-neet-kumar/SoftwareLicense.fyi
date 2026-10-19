@@ -15,6 +15,7 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parent.parent
 CSV_PATH = ROOT / "data" / "software_list.csv"
 CONTEXT_PATH = ROOT / "data" / "software_context.json"
+SOURCES_PATH = ROOT / "data" / "software_sources.json"
 INDEX_PATH = ROOT / "index.html"
 OUTPUT_DIR = ROOT / "software"
 SITEMAP_PATH = ROOT / "sitemap.xml"
@@ -289,6 +290,14 @@ def main():
     # Newest records first, so fresh products receive AI context promptly without sending the directory to Gemini.
     rows.sort(key=lambda r: str(r.get("Last Updated", "")), reverse=True)
     contexts = generate_context_batches(rows, load_contexts(), max(0, args.max_context_batches))
+    try:
+        sources = json.loads(SOURCES_PATH.read_text(encoding="utf-8")) if SOURCES_PATH.exists() else {}
+        if not isinstance(sources, dict):
+            sources = {}
+    except (OSError, json.JSONDecodeError):
+        sources = {}
+    for row in rows:
+        row["Evidence URL"] = sources.get(slugify(str(row["Software Name"])), "")
     CONTEXT_PATH.write_text(json.dumps(contexts, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     style, nav, footer = read_shell()
     by_category = {}
