@@ -10,6 +10,7 @@ from google import genai
 ROOT = Path(__file__).resolve().parent.parent
 CSV_PATH = ROOT / "data" / "software_list.csv"
 RECENT_PATH = ROOT / "data" / "recent_updates.json"
+SOURCES_PATH = ROOT / "data" / "software_sources.json"
 MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
 TARGET = int(os.getenv("NEW_PER_RUN", "15"))
 CATEGORIES = {"Open Source", "Free for Home", "License Required", "License for Commercial", "Community Version"}
@@ -138,9 +139,20 @@ def write_recent(rows):
             events = []
     except (OSError, json.JSONDecodeError):
         events = []
+    try:
+        sources = json.loads(SOURCES_PATH.read_text(encoding="utf-8")) if SOURCES_PATH.exists() else {}
+        if not isinstance(sources, dict):
+            sources = {}
+    except (OSError, json.JSONDecodeError):
+        sources = {}
     for row in rows:
-        events.append({"name": row["Software Name"], "slug": slugify(row["Software Name"]), "type": "NEW", "date": str(date.today()), "category": row["Category"], "url": row["Official URL"]})
+        slug = slugify(row["Software Name"])
+        evidence = str(row.get("Evidence URL", "")).strip()
+        events.append({"name": row["Software Name"], "slug": slug, "type": "NEW", "date": str(date.today()), "category": row["Category"], "url": row["Official URL"], "source": evidence})
+        if evidence.startswith("https://"):
+            sources[slug] = evidence
     RECENT_PATH.write_text(json.dumps(events[-100:], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    SOURCES_PATH.write_text(json.dumps(sources, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def run():
@@ -202,7 +214,7 @@ def run():
                 print(f"[SKIP] Incomplete/low-confidence verification: {name}"); continue
             if domain(url) != domain(str(candidate.get("official_url", ""))) or not reachable(url):
                 print(f"[SKIP] Official URL failed validation: {name}"); continue
-            accepted.append({"Software Name": name, "Category": category, "License Status": status[:240], "Official URL": url, "Last Updated": str(date.today()), "Notes": notes[:500]})
+            accepted.append({"Software Name": name, "Category": category, "License Status": status[:240], "Official URL": url, "Last Updated": str(date.today()), "Notes": notes[:500], "Evidence URL": evidence})
             accepted_keys.add(norm(name))
             print(f"[ACCEPT] {name} ({category})")
             if len(accepted) >= TARGET:
