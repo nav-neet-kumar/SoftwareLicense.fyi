@@ -46,7 +46,7 @@ def parse_json(raw):
 
 
 def input_hash(row):
-    fields = [row.get("Software Name", ""), row.get("Category", ""), row.get("License Status", ""), row.get("Official URL", ""), row.get("Notes", "")]
+    fields = [row.get("Software Name", ""), row.get("Category", ""), row.get("License Status", ""), row.get("Official URL", ""), row.get("Notes", ""), row.get("Evidence URL", "")]
     return hashlib.sha256(json.dumps(fields, ensure_ascii=False).encode("utf-8")).hexdigest()
 
 
@@ -117,7 +117,7 @@ def generate_context_batches(rows, contexts, max_batches):
         attempted_batches += 1
         payload = [{
             "software_name": r["Software Name"], "category": r["Category"],
-            "license_status": r["License Status"], "official_url": r["Official URL"],
+            "license_status": r["License Status"], "official_url": r["Official URL"], "evidence_url": r.get("Evidence URL", ""),
             "existing_notes": str(r["Notes"])[:350],
         } for r in batch]
         prompt = """Create accurate, concise, product-specific page context for each software record in this JSON input.
@@ -287,9 +287,6 @@ def main():
         print("[ERROR] CSV schema is missing required columns")
         return 1
     rows = df.to_dict("records")
-    # Newest records first, so fresh products receive AI context promptly without sending the directory to Gemini.
-    rows.sort(key=lambda r: str(r.get("Last Updated", "")), reverse=True)
-    contexts = generate_context_batches(rows, load_contexts(), max(0, args.max_context_batches))
     try:
         sources = json.loads(SOURCES_PATH.read_text(encoding="utf-8")) if SOURCES_PATH.exists() else {}
         if not isinstance(sources, dict):
@@ -298,6 +295,9 @@ def main():
         sources = {}
     for row in rows:
         row["Evidence URL"] = sources.get(slugify(str(row["Software Name"])), "")
+    # Newest records first, so fresh products receive AI context promptly without sending the directory to Gemini.
+    rows.sort(key=lambda r: str(r.get("Last Updated", "")), reverse=True)
+    contexts = generate_context_batches(rows, load_contexts(), max(0, args.max_context_batches))
     CONTEXT_PATH.write_text(json.dumps(contexts, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     style, nav, footer = read_shell()
     by_category = {}
