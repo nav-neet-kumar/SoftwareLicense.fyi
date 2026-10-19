@@ -201,6 +201,8 @@ def read_shell():
             attrs += ' href="' + href + '"'
         return "<a" + attrs + ">" + body + "</a>"
     nav_html = re.sub(r"<a([^>]*)>([\s\S]*?)</a>", fix_link, nav_html, flags=re.I)
+    theme_button = '<button type="button" class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle light and dark theme">☼ / ☾ Theme</button>'
+    nav_html = re.sub(r"</nav>", theme_button + "</nav>", nav_html, count=1, flags=re.I)
     footer_html = footer.group(0)
     footer_html = re.sub(r'<span id="footerMeta"></span>', '<span>Software license directory · Informational use</span>', footer_html)
     return style.group(1), nav_html, footer_html
@@ -270,8 +272,29 @@ def render_page(row, context, related, style, nav, footer, total):
 <script type="application/ld+json">{schema_json}</script>
 {faq_schema_markup}"""
     extra_css = """
+/* Generated software pages: light theme support */
+.theme-toggle{border:1px solid #293446;background:#0e141f;color:#dce3ee;border-radius:9px;padding:7px 10px;font-size:.75rem;cursor:pointer;white-space:nowrap}
+body[data-theme="light"]{--bg:#f5f7fb;--panel:#fff;--panel-2:#f0f3f8;--panel-3:#e8edf5;--line:#d9e0eb;--line-soft:#e6ebf2;--text:#172033;--muted:#586579;--muted-2:#6e7b8f;--blue:#315fc7;--green:#14835f;--purple:#7654bb;--red:#c43f58;--orange:#a96113;--cyan:#117b9a;color:var(--text);background:var(--bg)}
+body[data-theme="light"]:before{background:linear-gradient(180deg,rgba(49,95,199,.05),transparent 35%),radial-gradient(circle at 85% 8%,rgba(107,89,203,.06),transparent 25rem)}
+body[data-theme="light"] nav{background:rgba(255,255,255,.94);border-bottom-color:#dfe5ee}
+body[data-theme="light"] .nav-links a{color:#586579}
+body[data-theme="light"] .nav-links a:hover,body[data-theme="light"] .nav-links a.active{background:#eaf0fa;color:#172033}
+body[data-theme="light"] .theme-toggle{background:#fff;border-color:#d4dce8;color:#29364b}
+body[data-theme="light"] .software-hero{background:linear-gradient(135deg,#fff,#f0f4fa);border-color:#dce3ed}
+body[data-theme="light"] .software-hero .eyebrow,body[data-theme="light"] .breadcrumbs a{color:#315fc7}
+body[data-theme="light"] .software-hero h1,body[data-theme="light"] .detail-card h2,body[data-theme="light"] .faq-item summary,body[data-theme="light"] .related-link strong{color:#172033}
+body[data-theme="light"] .software-hero .lead,body[data-theme="light"] .detail-card p,body[data-theme="light"] .related-link span,body[data-theme="light"] .breadcrumbs,body[data-theme="light"] .directory-count{color:#586579}
+body[data-theme="light"] .detail-card,body[data-theme="light"] .related-link{background:#fff;border-color:#dce3ed}
+body[data-theme="light"] .category-pill{background:#edf3ff;color:#315fc7;border-color:#d4e0f8}
+body[data-theme="light"] .status-pill{background:#eaf8f1;color:#147351;border-color:#c6e8d7}
+body[data-theme="light"] .source-links a{background:#f7f9fc;color:#315fc7;border-color:#d7dfeb}
+body[data-theme="light"] .faq-item{border-color:#dce3ed}
+body[data-theme="light"] footer{background:#edf1f7;border-color:#dce3ed;color:#56647a}
+body[data-theme="light"] footer a{color:#315fc7}
+@media(max-width:650px){.theme-toggle{padding:7px 8px;font-size:0}}
 .software-main{width:min(1080px,100%);margin:0 auto;padding:34px 24px 76px}.breadcrumbs{position:static;height:auto;background:none;border:0;backdrop-filter:none;padding:0;margin:0 0 26px;display:flex;gap:9px;flex-wrap:wrap;color:var(--muted-2);font-size:.82rem}.breadcrumbs a{color:#8fb0ff}.software-hero{padding:35px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(135deg,#111a2a,#0c121c);margin-bottom:20px}.software-hero .eyebrow{font:600 .72rem var(--mono);letter-spacing:.1em;color:#8fb0ff}.software-hero h1{font-size:clamp(2.3rem,6vw,4.2rem);letter-spacing:-.055em;line-height:1.08;margin:12px 0}.software-hero .lead{font-size:1.05rem;color:var(--muted);max-width:850px}.detail-badges{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}.category-pill,.status-pill{display:inline-block;padding:7px 11px;border:1px solid #33435b;border-radius:999px;font-size:.8rem;background:#121d2e}.status-pill{color:#a8e8ce;border-color:#28513f}.source-links{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.source-links a{padding:10px 13px;border:1px solid #354765;border-radius:9px;color:#a9c4ff;font-weight:600;font-size:.86rem}.detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.detail-card{border:1px solid var(--line);border-radius:14px;padding:24px;background:var(--panel);margin-bottom:14px;min-width:0}.detail-card h2{font-size:1.18rem;margin-bottom:9px;letter-spacing:-.02em}.detail-card p{color:var(--muted);font-size:.94rem;line-height:1.8;margin:7px 0}.detail-grid .detail-card{margin:0}.faq-item{border-top:1px solid var(--line);padding:12px 0}.faq-item summary{cursor:pointer;font-weight:650}.related-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.related-link{display:flex;flex-direction:column;gap:4px;padding:14px;border:1px solid var(--line);border-radius:10px;background:var(--panel-2)}.related-link:hover{border-color:#5475b4}.related-link span{font-size:.78rem;color:var(--muted)}.directory-count{color:var(--muted-2);font-size:.8rem;margin-top:18px}@media(max-width:700px){.software-main{padding:24px 15px 55px}.software-hero{padding:23px}.detail-grid{grid-template-columns:1fr}.related-grid{grid-template-columns:1fr}.detail-card{padding:19px}}"""
-    return f"""<!doctype html><html lang="en"><head>{head}<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"><style>{style}{extra_css}</style></head><body>{nav}{body}{footer}</body></html>"""
+    theme_script = '<script>(function(){function applyTheme(t){document.body.dataset.theme=t;try{localStorage.setItem("isitfree-theme",t)}catch(e){}}window.toggleTheme=function(){applyTheme(document.body.dataset.theme==="light"?"dark":"light")};try{var t=localStorage.getItem("isitfree-theme");if(t==="light"||t==="dark")document.body.dataset.theme=t}catch(e){}})();</script>'
+    return f"""<!doctype html><html lang="en"><head>{head}<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"><style>{style}{extra_css}</style></head><body>{nav}{body}{footer}{theme_script}</body></html>"""
 
 
 def main():
