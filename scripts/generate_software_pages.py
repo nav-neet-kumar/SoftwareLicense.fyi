@@ -186,7 +186,7 @@ def read_shell():
     footer = re.search(r"<footer\b[\s\S]*?</footer>", source, re.I)
     if not style or not nav or not footer:
         raise RuntimeError("Could not extract the existing site's CSS, header, and footer from index.html")
-    nav_html = re.sub(r'\s+onclick="[^"]*"', "", nav.group(0))
+    nav_html = re.sub(r"<a([^>]*)>", lambda m: re.sub(r'\s+onclick="[^"]*"', "", m.group(0)), nav.group(0), flags=re.I)
     def fix_link(match):
         attrs, body = match.group(1), match.group(2)
         label = re.sub(r"<[^>]+>", "", body).strip().casefold()
@@ -201,8 +201,6 @@ def read_shell():
             attrs += ' href="' + href + '"'
         return "<a" + attrs + ">" + body + "</a>"
     nav_html = re.sub(r"<a([^>]*)>([\s\S]*?)</a>", fix_link, nav_html, flags=re.I)
-    theme_button = '<button type="button" class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle light and dark theme">☼ / ☾ Theme</button>'
-    nav_html = re.sub(r"</nav>", theme_button + "</nav>", nav_html, count=1, flags=re.I)
     footer_html = footer.group(0)
     footer_html = re.sub(r'<span id="footerMeta"></span>', '<span>Software license directory · Informational use</span>', footer_html)
     return style.group(1), nav_html, footer_html
