@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 import discover_software as discovery
 import generate_software_pages as pages
+import update_licenses as updater
 
 
 class DiscoveryHelpersTests(unittest.TestCase):
@@ -94,6 +95,16 @@ class DiscoveryHelpersTests(unittest.TestCase):
                 self.assertFalse(discovery.RECENT_PATH.exists())
             finally:
                 discovery.CSV_PATH, discovery.RECENT_PATH, discovery.CLIENT, discovery.TARGET = old_csv, old_recent, old_client, old_target
+
+
+class LicenseUpdateTests(unittest.TestCase):
+    def test_cosmetic_note_paraphrase_is_not_a_material_change(self):
+        old = "Free for personal use; commercial use requires paid license."
+        new = "Free for personal use, and commercial use requires a paid license."
+        self.assertFalse(updater.notes_materially_changed(old, new))
+
+    def test_negation_change_is_material(self):
+        self.assertTrue(updater.notes_materially_changed("Commercial use allowed.", "Commercial use not allowed."))
 
 
 class StaticPageTests(unittest.TestCase):
