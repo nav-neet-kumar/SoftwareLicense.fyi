@@ -20,7 +20,7 @@ OUTPUT_DIR = ROOT / "software"
 SITEMAP_PATH = ROOT / "sitemap.xml"
 SITE = "https://isitfree.webline.cloud"
 MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
-BATCH_SIZE = int(os.getenv("PAGE_CONTEXT_BATCH_SIZE", "10"))
+BATCH_SIZE = int(os.getenv("PAGE_CONTEXT_BATCH_SIZE", "15"))
 MAX_BATCHES = int(os.getenv("PAGE_CONTEXT_BATCHES_PER_RUN", "2"))
 
 
