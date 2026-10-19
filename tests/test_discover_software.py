@@ -29,7 +29,7 @@ class DiscoveryHelpersTests(unittest.TestCase):
         self.assertEqual(status, "ambiguous")
         self.assertEqual(matches[0]["Software Name"], "Visual Studio")
 
-    def test_shared_vendor_name_does_not_automatically_mean_duplicate(self):
+    def test_similar_name_is_flagged_not_automatically_rejected(self):
         rows = [{"Software Name": "Notion", "Official URL": "https://notion.so", "Category": "Community Version", "Notes": ""}]
         status, _ = discovery.local_match({"software_name": "Notion Calendar", "official_url": "https://calendar.notion.so"}, rows)
         self.assertEqual(status, "ambiguous")
