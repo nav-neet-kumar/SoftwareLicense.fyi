@@ -30,6 +30,7 @@ jobs:
         run: pip install -r scripts/requirements.txt
 
       - name: 🔍 Discover and verify new software
+        id: ai_check
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           NEW_PER_RUN: "15"
@@ -52,4 +53,33 @@ jobs:
           NEW_COUNT=$(python -c "import csv; print(sum(1 for _ in csv.DictReader(open('data/software_list.csv', encoding='utf-8'))))")
           ADDED=$((NEW_COUNT-OLD_COUNT))
           git commit -m "🤖 Add $ADDED verified software entries and refresh SEO pages [$(date +'%Y-%m-%d')]"
+          git push
+
+      - name: 🟢🔴 Publish last AI check status
+        if: always()
+        env:
+          AI_CHECK_OUTCOME: ${{ steps.ai_check.outcome }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          python - <<'PY'
+          import datetime, json, os
+          outcome = os.environ.get("AI_CHECK_OUTCOME", "failure").lower()
+          payload = {
+              "status": "pass" if outcome == "success" else "fail",
+              "date": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
+              "run_url": os.environ.get("RUN_URL", ""),
+              "workflow": "Daily Software Discovery",
+          }
+          os.makedirs("data", exist_ok=True)
+          with open("data/ai_status.json", "w", encoding="utf-8") as f:
+              json.dump(payload, f, indent=2)
+              f.write("\\n")
+          print(json.dumps(payload))
+          PY
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git add data/ai_status.json
+          git diff --cached --quiet && { echo "AI status unchanged"; exit 0; }
+          git commit -m "ci: record latest AI discovery check status"
           git push
