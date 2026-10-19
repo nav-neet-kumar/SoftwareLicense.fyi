@@ -1,297 +1,134 @@
 # IsItFree?
 
-**IsItFree?** is a software licensing discovery and reference website that helps users quickly understand whether software is free, open source, freemium, subscription-based, or paid.
+**IsItFree?** is a public software licensing directory that helps people understand whether software is free, open source, freemium, trial-based, subscription-based, or paid.
 
-🌐 **Website:** https://isitfree.webline.cloud/
-👤 **Portfolio:** https://navneet.webline.cloud/
+- **Live website:** https://isitfree.webline.cloud/
+- **Source code:** https://github.com/nav-neet-kumar/SoftwareLicense.fyi
+- **Maintainer portfolio:** https://navneet.webline.cloud/
 
----
+## Current project status
 
-## 🚀 Latest Update
+**Status checked: 19 October 2026**
 
-### Increased Daily Software Discovery
+| Area | Current status |
+|---|---|
+| Website | Live; latest GitHub Pages deployment completed successfully |
+| Software database | 591 records in `data/software_list.csv` at the last repository check |
+| Software detail pages | Static pages generated at `software/<slug>/index.html` |
+| Discovery workflow | Scheduled daily at 08:00 UTC; can also be run manually |
+| Discovery target | 15 verified new entries per successful run |
+| Automated discovery right now | Latest run failed because the Gemini API free-tier request quota was exhausted |
+| SEO and crawler files | Sitemap, robots.txt, llms.txt and readme.txt are part of the published site |
+| Recent updates and evidence | Tracked in generated JSON files when data is added or materially updated |
 
-The automated discovery workflow targets 15 verified new software entries per successful run.
+The latest static-page generation and GitHub Pages deployment succeeded. The most recent discovery run did **not** add entries: Gemini returned HTTP 429 (quota exceeded), and the script left the CSV unchanged. Automated discovery will need available Gemini API quota before it can complete another run successfully.
 
-The target is controlled by the `NEW_PER_RUN` environment variable. The script compares names against the CSV locally; the existing directory is not sent to Gemini.
+- [Latest GitHub Actions runs](https://github.com/nav-neet-kumar/SoftwareLicense.fyi/actions)
+- [Daily discovery workflow](https://github.com/nav-neet-kumar/SoftwareLicense.fyi/actions/workflows/discover_daily.yml)
+- [Live website](https://isitfree.webline.cloud/)
 
-```python
-TARGET = int(os.getenv("NEW_PER_RUN", "15"))
-```
+## What the website does
 
-in:
+- Search a directory of software and view its reported licensing status.
+- Review official website links and concise licensing notes.
+- Open individual software detail pages designed for direct linking and search-engine indexing.
+- Browse category-filtered directory results.
+- Report incorrect information or suggest software for review.
 
-```text
-scripts/discover_software.py
-```
+Licensing and pricing can change. Use the linked vendor or project website as the final authority before making purchasing, deployment, or compliance decisions. A free download does not necessarily mean free commercial use.
 
-The daily GitHub Action automatically runs the discovery process and adds newly discovered software to the project database.
+## How software data is maintained
 
----
-
-## 🤖 AI-Powered Software Updates
-
-The project uses an automated AI-assisted workflow to discover and maintain software information.
-
-The system can discover software and collect information such as:
-
-* Software name
-* Category
-* License type
-* Official website
-* Description
-* Source/repository information
-* Pricing information when available
-* Software availability
-
-The website displays the latest AI update information based on the software database.
-
----
-
-## 📊 Software Database
-
-Software information is stored in:
+The main directory is stored in:
 
 ```text
 data/software_list.csv
 ```
 
-The website dynamically reads the database so that software counts and update information remain synchronized with the CSV.
+The CSV is the source of truth for the software count and directory records. Do not hardcode a total in the homepage.
 
-### Important
-
-Do not hardcode the number of software entries in `index.html`.
-
-The website should calculate the total directly from the CSV.
-
-For example:
-
-```text
-150 software entries
-```
-
-will automatically become:
-
-```text
-151 software entries
-```
-
-when another valid entry is added.
-
----
-
-## 🔄 Automated Discovery
-
-The daily discovery workflow is located at:
-
-```text
-.github/workflows/discover_daily.yml
-```
-
-The workflow runs the discovery script:
+The automated discovery script is:
 
 ```text
 scripts/discover_software.py
 ```
 
-The current target is 15 verified new software entries per successful run. If the script cannot verify the full target, it exits with an error and leaves the CSV unchanged.
+It researches candidates and checks for existing entries locally before accepting new records. The existing directory is not sent to Gemini as a duplicate-checking prompt. A successful discovery run targets **15 verified new software entries**. If the script cannot verify the target, it exits without changing the CSV.
 
----
-
-## 🖥️ Website Features
-
-### Software Search
-
-Users can search the software directory directly from the homepage.
-
-The `/` keyboard shortcut can be used to quickly focus/open the search interface.
-
-### Categories
-
-Software is organized into categories.
-
-Selecting a category opens the directory with the appropriate category filter applied.
-
-### License Information
-
-Each software entry displays its available licensing information, making it easier to determine whether the software is:
-
-* Free
-* Open Source
-* Freemium
-* Commercial
-* Subscription-based
-* Trial
-* Other licensing models
-
-### Last AI Update
-
-The website displays when the software information was most recently updated.
-
-This information is derived from the project data rather than relying on a manually entered software count.
-
----
-
-## ⚑ Report an Error
-
-Users can report incorrect software information directly from the directory.
-
-The **Flag Error** option allows users to submit information such as:
-
-* Incorrect license
-* Incorrect website
-* Incorrect category
-* Outdated information
-* Incorrect description
-* Other errors
-
-This helps keep the software database accurate.
-
----
-
-## 💡 Suggest Software
-
-Users can also suggest software that is missing from the directory.
-
-Suggestions can be submitted through the website and reviewed before being added to the database.
-
----
-
-## 🚧 Upcoming Features
-
-The following features are planned for future releases.
-
-### 1. Compare Options
-
-Allow users to compare multiple software products side-by-side.
-
-Potential comparison fields:
-
-* License
-* Features
-* Platform
-* Pricing
-* Open-source status
-* Pros and cons
-
-### 2. Approximate Pricing
-
-Add estimated pricing information for commercial software.
-
-Possible information:
-
-* Free tier
-* Starting price
-* Monthly pricing
-* Annual pricing
-* Business pricing
-* Enterprise pricing
-
-Pricing will be presented as approximate information and users should verify the current price with the software vendor.
-
-### 3. Free Alternatives
-
-Show free and open-source alternatives to commercial software.
-
-For example:
+The GitHub Actions workflow is:
 
 ```text
-Microsoft Office
-        ↓
-LibreOffice
-        ↓
-ONLYOFFICE
+.github/workflows/discover_daily.yml
 ```
 
-This will help users discover lower-cost or free alternatives.
+It runs daily at **08:00 UTC** and supports manual dispatch from the repository's Actions tab. It uses the `GEMINI_API_KEY` repository secret.
 
----
+## Static pages and discoverability
 
-## 📁 Project Structure
+Generated software pages live at:
 
 ```text
-SoftwareLicense.fyi/
-│
+software/<slug>/index.html
+```
+
+The page generator reuses the site's design and produces individual pages with canonical metadata and structured data. Cached AI-generated page context is maintained incrementally to reduce repeated requests.
+
+Key generated/public files:
+
+| Path | Purpose |
+|---|---|
+| `sitemap.xml` | Lists the homepage and generated software pages |
+| `robots.txt` | Crawler guidance and sitemap location |
+| `llms.txt` | Summary for AI assistants and agents |
+| `readme.txt` | Plain-text overview of the public website |
+| `data/software_sources.json` | Official source links for licensing/pricing evidence, when available |
+| `data/recent_updates.json` | Genuine new-entry and material-update events |
+| `data/software_context.json` | Cached context used to enrich software detail pages |
+
+Crawler directives are not access controls. Do not put secrets or private configuration in public files.
+
+## Repository layout
+
+```text
+.
+├── .github/workflows/
+│   ├── discover_daily.yml
+│   └── test_discovery_pages.yml
 ├── data/
-│   └── software_list.csv
-│
+│   ├── software_list.csv
+│   ├── software_context.json
+│   ├── software_sources.json
+│   └── recent_updates.json
 ├── scripts/
-│   └── discover_software.py
-│
-├── .github/
-│   └── workflows/
-│       └── discover_daily.yml
-│
+│   ├── discover_software.py
+│   └── generate_software_pages.py
+├── software/
+│   └── <slug>/index.html
 ├── index.html
+├── sitemap.xml
+├── robots.txt
+├── llms.txt
+├── readme.txt
 └── README.md
 ```
 
----
+## Development and validation
 
-## 🌐 SEO and Static Software Pages
+Before changing the project:
 
-Published software records are rendered as static pages under `software/<slug>/index.html`. The generator reuses the homepage CSS, header, and footer, creates canonical metadata and structured data, and caches AI-generated product context in `data/software_context.json`. Context generation is batched and incremental to control token usage; entries without cached AI context use a conservative CSV-derived summary until their batch is processed.
+- Keep the CSV schema compatible with scripts that read it.
+- Check for duplicate software names before adding records.
+- Keep homepage totals data-driven.
+- Regenerate software pages and the sitemap when relevant data changes.
+- Avoid changing discovery logic for unrelated frontend-only work.
+- Never commit API keys or other secrets.
 
-Public crawler resources:
-- `robots.txt` — allows crawlers to access public pages and points to the sitemap.
-- `llms.txt` — summarizes the public directory for AI assistants and agents.
-- `readme.txt` — plain-text public site information.
-- `sitemap.xml` — generated from the homepage and published software detail pages.
-- `data/software_sources.json` — per-product official license/pricing evidence links when available.
-- `data/recent_updates.json` — records genuine NEW and materially UPDATED events.
+The discovery and page-generation changes were tested before merging: 13 mocked tests passed, and an offline smoke test generated 590 detail pages and validated 591 sitemap URLs. Since then, the directory has grown to 591 CSV records and the Orkas detail page has been generated. Automated discovery currently needs Gemini quota restored; see the status section above.
 
-The public directory is intended to be crawlable. Crawler rules are not access controls; secrets and private configuration must be protected separately.
+## Contributing
 
-## ⚙️ Updating the Daily Limit
-
-To change the target, update the `NEW_PER_RUN` environment value in `.github/workflows/discover_daily.yml`. For example, set it to `30` to target 30 verified entries. Larger targets may require more Gemini requests and can fail if verification cannot establish enough valid entries.
+If you find a wrong license, outdated price, broken official link, or missing product, open an issue in the [GitHub repository](https://github.com/nav-neet-kumar/SoftwareLicense.fyi/issues) with the product name and supporting official source. Suggestions are reviewed before being added.
 
 ---
 
-## ⚠️ Important Development Rule
-
-The website frontend and automated backend are separate components.
-
-When making frontend design changes:
-
-* Do not modify Python discovery logic unnecessarily.
-* Do not modify the CSV structure without updating dependent code.
-* Do not hardcode software counts.
-* Keep software counts dynamically calculated from `data/software_list.csv`.
-* Preserve the existing automated GitHub workflow.
-
----
-
-## 🌐 Project
-
-**IsItFree?**
-
-A simple way to discover software and understand its licensing.
-
-Website: https://isitfree.webline.cloud/
-
-Portfolio: https://navneet.webline.cloud/
-
----
-
-## 📌 Current Release
-
-### Version Update
-
-**Daily discovery:** 20 new software entries per run
-**Database:** CSV-based
-**Discovery:** Automated
-**Updates:** AI-assisted
-**Search:** Enabled
-**Categories:** Enabled
-**Error reporting:** Enabled
-**Software suggestions:** Enabled
-
-### Planned
-
-* Software comparison
-* Approximate pricing
-* Free alternatives
-* More detailed software information
-* Improved licensing intelligence
-* Continued automated database expansion
+**IsItFree? — Understand software licensing before you install, use, or buy.**
