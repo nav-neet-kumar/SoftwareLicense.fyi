@@ -32,18 +32,18 @@ def parse_issue(body):
     values = {}
     keys = ("Software name", "Official website", "Suggested category", "Additional details")
     for key in keys:
-        match = re.search(r"^\\s*[-*]\\s*\\*\\*" + re.escape(key) + r":\\*\\*\\s*(.*?)\\s*$", body, re.I | re.M)
+        match = re.search(r"^\s*[-*]\s*\*\*" + re.escape(key) + r":\*\*\s*(.*?)\s*$", body, re.I | re.M)
         if not match:
-            match = re.search(r"^###\\s*" + re.escape(key) + r"\\s*\\n+([\\s\\S]*?)(?=\\n###\\s|\\Z)", body, re.I)
+            match = re.search(r"^###\s*" + re.escape(key) + r"\s*\n+([\s\S]*?)(?=\n###\s|\Z)", body, re.I)
         values[key] = match.group(1).strip() if match else ""
     if not values["Software name"]:
-        match = re.search(r"^\\s*(?:Software Name|Software name)\\s*:\\s*(.*?)\\s*$", body, re.I | re.M)
+        match = re.search(r"^\s*(?:Software Name|Software name)\s*:\s*(.*?)\s*$", body, re.I | re.M)
         values["Software name"] = match.group(1).strip() if match else ""
     if not values["Official website"]:
-        match = re.search(r"^\\s*(?:Official URL|Official website)\\s*:\\s*(https?://\\S+)\\s*$", body, re.I | re.M)
+        match = re.search(r"^\s*(?:Official URL|Official website)\s*:\s*(https?://\S+)\s*$", body, re.I | re.M)
         values["Official website"] = match.group(1).strip() if match else ""
     for key in keys:
-        values[key] = values.get(key, "").split("\\n\\n")[0].strip()
+        values[key] = values.get(key, "").split("\n\n")[0].strip()
     return values
 
 
@@ -51,7 +51,7 @@ def main():
     if not TOKEN or not KEY or not ISSUE_NUMBER:
         raise RuntimeError("Missing GITHUB_TOKEN, GEMINI_API_KEY, or ISSUE_NUMBER")
     issue = api("GET", f"issues/{ISSUE_NUMBER}")
-    if issue.get("pull_request") or not any(x.get("name") == "software-suggestion" for x in issue.get("labels", [])):
+    if issue.get("pull_request") or not str(issue.get("title", "")).startswith("[Software Suggestion]"):
         print("Issue is not a software suggestion; skipping.")
         return
     values = parse_issue(issue.get("body") or "")
