@@ -37,13 +37,14 @@ jobs:
           python scripts/generate_software_pages.py --max-context-batches 0
           python - <<'PY'
           import csv
+          import hashlib
           import xml.etree.ElementTree as ET
           from pathlib import Path
           import re
           names = []
           with open("data/software_list.csv", encoding="utf-8", newline="") as handle:
               names = [row["Software Name"].strip() for row in csv.DictReader(handle) if row.get("Software Name", "").strip()]
-          slugs = {re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-") or "software" for name in names}
+          slugs = {re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-") or hashlib.sha1(name.encode()).hexdigest()[:10] for name in names}
           pages = list(Path("software").glob("*/index.html"))
           assert len(pages) == len(slugs), f"expected {len(slugs)} detail pages, got {len(pages)}"
           root = ET.parse("sitemap.xml").getroot()
