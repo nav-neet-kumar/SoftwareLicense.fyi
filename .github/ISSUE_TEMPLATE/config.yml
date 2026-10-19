@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Software license correction or missing software
+    url: https://github.com/nav-neet-kumar/SoftwareLicense.fyi/issues
+    about: Search existing issues first, then submit an issue with the official publisher source.
+  - name: Security vulnerability
+    url: https://github.com/nav-neet-kumar/SoftwareLicense.fyi/security/advisories/new
+    about: Please report security issues privately, not in a public issue.
