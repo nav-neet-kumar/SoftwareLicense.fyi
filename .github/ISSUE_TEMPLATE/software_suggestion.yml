@@ -1,0 +1,41 @@
+name: Software suggestion
+description: Suggest software for the IsItFree? directory
+title: "[Software Suggestion] "
+labels: ["software-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: "Suggest software to be checked for inclusion. Please provide its official website; AI-generated classifications may require manual review."
+  - type: input
+    id: software_name
+    attributes:
+      label: Software name
+      placeholder: "Example: Figma"
+    validations:
+      required: true
+  - type: input
+    id: official_website
+    attributes:
+      label: Official website
+      description: Use the publisher's official HTTPS website.
+      placeholder: "https://example.com"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Suggested category (optional)
+      options:
+        - Not sure
+        - Open Source
+        - Free for Home
+        - License Required
+        - License for Commercial
+        - Community Version
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional details (optional)
+      description: Add context or official licensing documentation links.
