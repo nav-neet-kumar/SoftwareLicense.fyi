@@ -13,12 +13,12 @@
 
 The automated software discovery system has been upgraded from:
 
-**10 new software entries per run → 20 new software entries per run**
+**Target: 15 verified new software entries per successful run**
 
-The discovery limit is controlled by:
+The target is controlled by the `NEW_PER_RUN` environment variable. The script compares names against the CSV locally; the existing directory is not sent to Gemini.
 
 ```python
-NEW_PER_RUN = 20
+TARGET = int(os.getenv("NEW_PER_RUN", "15"))
 ```
 
 in:
@@ -96,13 +96,7 @@ The workflow runs the discovery script:
 scripts/discover_software.py
 ```
 
-The current configuration allows:
-
-```python
-NEW_PER_RUN = 20
-```
-
-new software entries per run.
+The current target is 15 verified new software entries per successful run. If the script cannot verify the full target, it exits with an error and leaves the CSV unchanged.
 
 ---
 
@@ -236,6 +230,20 @@ SoftwareLicense.fyi/
 
 ---
 
+## 🌐 SEO and Static Software Pages
+
+Published software records are rendered as static pages under `software/<slug>/index.html`. The generator reuses the homepage CSS, header, and footer, creates canonical metadata and structured data, and caches AI-generated product context in `data/software_context.json`. Context generation is batched and incremental to control token usage; entries without cached AI context use a conservative CSV-derived summary until their batch is processed.
+
+Public crawler resources:
+- `robots.txt` — allows crawlers to access public pages and points to the sitemap.
+- `llms.txt` — summarizes the public directory for AI assistants and agents.
+- `readme.txt` — plain-text public site information.
+- `sitemap.xml` — generated from the homepage and published software detail pages.
+- `data/software_sources.json` — per-product official license/pricing evidence links when available.
+- `data/recent_updates.json` — records genuine NEW and materially UPDATED events.
+
+The public directory is intended to be crawlable. Crawler rules are not access controls; secrets and private configuration must be protected separately.
+
 ## ⚙️ Updating the Daily Limit
 
 To change the number of software entries discovered per run, edit:
@@ -247,7 +255,7 @@ scripts/discover_software.py
 Find:
 
 ```python
-NEW_PER_RUN = 20
+TARGET = int(os.getenv("NEW_PER_RUN", "15"))
 ```
 
 For example, to process 30 entries:
