@@ -805,7 +805,7 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
     const btn=document.getElementById("submitBtn");btn.disabled=true;setMsg("Opening secure suggestion form…","");
     const title="[Software Suggestion] "+name;
     const body=["## Software Suggestion","","- **Software name:** "+name,"- **Official website:** "+url,"- **Suggested category:** "+(category||"Not sure"),"- **Additional details:** "+(notes||"None provided"),"","Submitted through the IsItFree? website. Please verify before adding."].join("\n");
-    const issueUrl="https://github.com/"+GITHUB_REPO+"/issues/new?title="+encodeURIComponent(title)+"&body="+encodeURIComponent(body)+"&labels="+encodeURIComponent("software-suggestion");
+    const issueUrl="https://github.com/"+GITHUB_REPO+"/issues/new?template=software_suggestion.yml&title="+encodeURIComponent(title);
     setMsg("Opening GitHub to submit your suggestion. Sign in if prompted; no personal access token is needed.","success");
     window.open(issueUrl,"_blank","noopener,noreferrer");
     btn.disabled=false;
