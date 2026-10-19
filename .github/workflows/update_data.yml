@@ -59,6 +59,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/software_list.csv data/recent_updates.json data/software_context.json sitemap.xml software/
+          git add data/software_list.csv data/recent_updates.json data/software_context.json data/software_sources.json sitemap.xml software/
           git diff --staged --quiet || git commit -m "🤖 Auto-update license data [$(date +'%Y-%m-%d')]"
           git push
