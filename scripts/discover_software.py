@@ -214,6 +214,8 @@ def run():
                 print(f"[SKIP] Incomplete/low-confidence verification: {name}"); continue
             if domain(url) != domain(str(candidate.get("official_url", ""))) or not reachable(url):
                 print(f"[SKIP] Official URL failed validation: {name}"); continue
+            if not evidence.startswith("https://"):
+                print(f"[SKIP] No official HTTPS licensing/pricing evidence URL: {name}"); continue
             accepted.append({"Software Name": name, "Category": category, "License Status": status[:240], "Official URL": url, "Last Updated": str(date.today()), "Notes": notes[:500], "Evidence URL": evidence})
             accepted_keys.add(norm(name))
             print(f"[ACCEPT] {name} ({category})")
