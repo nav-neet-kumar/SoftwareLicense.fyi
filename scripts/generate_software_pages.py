@@ -305,6 +305,7 @@ def main():
         by_category.setdefault(row["Category"], []).append(row)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     seen_slugs = set()
+    generated_rows = []
     for row in rows:
         name = str(row["Software Name"]).strip()
         slug = slugify(name)
@@ -317,8 +318,9 @@ def main():
         target = OUTPUT_DIR / slug / "index.html"
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(render_page(row, context, peers, style, nav, footer, len(rows)), encoding="utf-8")
+        generated_rows.append(row)
     urls = [(SITE + "/", str(date.today()))]
-    for row in rows:
+    for row in generated_rows:
         slug = slugify(str(row["Software Name"]))
         modified = str(row.get("Last Updated", ""))
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", modified):
@@ -326,7 +328,7 @@ def main():
         urls.append((SITE + "/software/" + slug + "/", modified))
     url_xml = "\n".join("  <url><loc>" + html.escape(url) + "</loc><lastmod>" + html.escape(modified) + "</lastmod></url>" for url, modified in urls)
     SITEMAP_PATH.write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + url_xml + "\n</urlset>\n", encoding="utf-8")
-    print(f"[SUCCESS] Generated {len(seen_slugs)} software pages and sitemap with {len(urls)} URLs.")
+    print(f"[SUCCESS] Generated {len(generated_rows)} software pages and sitemap with {len(urls)} URLs.")
     return 0
 
 
