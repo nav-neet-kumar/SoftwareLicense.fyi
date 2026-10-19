@@ -61,7 +61,7 @@
 }
 *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{min-height:100vh;background:var(--bg);color:var(--text);font-family:var(--sans);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased}body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:linear-gradient(180deg,rgba(91,140,255,.045),transparent 35%),radial-gradient(circle at 85% 8%,rgba(139,124,255,.055),transparent 25rem)}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}
 /* navigation */
-nav{height:72px;position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:28px;padding:0 max(24px,calc((100vw - var(--container))/2));background:rgba(8,11,18,.88);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.07)}.nav-logo{font-weight:750;letter-spacing:-.04em;font-size:1.08rem;white-space:nowrap}.nav-logo span{color:var(--blue)}.nav-links{display:flex;align-items:center;gap:4px}.nav-links a{color:var(--muted);font-size:.84rem;font-weight:550;padding:8px 11px;border-radius:8px;transition:.18s}.nav-links a:hover,.nav-links a.active{color:var(--text);background:rgba(255,255,255,.045)}.nav-links .nav-cta{margin-left:6px;color:#fff!important;background:var(--blue);box-shadow:0 5px 18px rgba(91,140,255,.18)}.nav-links .nav-cta:hover{background:#6b99ff}.nav-portfolio{color:#b9c8ff!important}.nav-meta{margin-left:auto;color:var(--muted-2);font:600 .64rem var(--mono);white-space:nowrap}
+nav{height:72px;position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:28px;padding:0 max(24px,calc((100vw - var(--container))/2));background:rgba(8,11,18,.88);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.07)}.nav-logo{font-weight:750;letter-spacing:-.04em;font-size:1.08rem;white-space:nowrap}.nav-logo span{color:var(--blue)}.nav-links{display:flex;align-items:center;gap:4px}.nav-links a{color:var(--muted);font-size:.84rem;font-weight:550;padding:8px 11px;border-radius:8px;transition:.18s}.nav-links a:hover,.nav-links a.active{color:var(--text);background:rgba(255,255,255,.045)}.nav-links .nav-cta{margin-left:6px;color:#fff!important;background:var(--blue);box-shadow:0 5px 18px rgba(91,140,255,.18)}.nav-links .nav-cta:hover{background:#6b99ff}.nav-portfolio{color:#b9c8ff!important}.nav-meta{margin-left:auto;color:var(--muted-2);font:600 .64rem var(--mono);white-space:nowrap}.theme-toggle{display:inline-flex;align-items:center;gap:7px;border:1px solid #293446;background:#0e141f;color:#dce3ee;border-radius:9px;padding:7px 10px;font-size:.75rem;font-weight:650;cursor:pointer;white-space:nowrap}.theme-toggle:hover{border-color:#527de0}.theme-toggle svg{width:15px;height:15px}
 /* common */
 .page{display:none}.page.active{display:block}.home-hero,.features,.section,.updates,.author-section,.upcoming,.dir-hero,.controls,.legend,.table-wrap{width:min(var(--container),100%);margin-left:auto;margin-right:auto;padding-left:24px;padding-right:24px}.section-title{font-size:1.65rem;line-height:1.2;letter-spacing:-.04em;font-weight:700}.section-sub{color:var(--muted);font-size:.87rem;margin-top:7px;margin-bottom:22px}
 /* hero */
@@ -76,8 +76,6 @@ nav{height:72px;position:sticky;top:0;z-index:100;display:flex;align-items:cente
 .features{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#202a39;border:1px solid #202a39;border-radius:13px;overflow:hidden;margin-bottom:92px}.feature-card{background:#0d121b;padding:23px 20px;transition:.18s}.feature-card:hover{background:#101824}.feature-icon{width:34px;height:34px;display:grid;place-items:center;border:1px solid #283447;border-radius:8px;background:#121a27;font-size:.95rem;margin-bottom:13px}.feature-card h3{font-size:.88rem;margin-bottom:4px}.feature-card p{font-size:.72rem;color:var(--muted);line-height:1.65}
 /* sections */
 .section{margin-bottom:92px}.cat-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.cat-card{min-height:145px;border:1px solid #202a39;border-radius:11px;padding:17px;background:#0c1119;cursor:pointer;transition:.18s;position:relative;overflow:hidden}.cat-card:hover{transform:translateY(-2px);border-color:#35445a;background:#101721}.cat-card:after{content:"→";position:absolute;right:14px;bottom:13px;color:#4f5d70;font-size:.85rem}.cat-name{font-weight:650;font-size:.78rem;margin-bottom:9px}.cat-desc{font-size:.68rem;color:#778497;line-height:1.65}.updates{margin-bottom:92px}.update-card{display:grid;grid-template-columns:100px 1fr;gap:20px;padding:19px 0;border-top:1px solid #202a39}.update-card:last-child{border-bottom:1px solid #202a39}.update-date{font:600 .62rem var(--mono);color:#657286;padding-top:3px}.update-content h4{font-size:.88rem;margin-bottom:4px}.update-content p{font-size:.73rem;color:var(--muted);line-height:1.65}.update-tag{display:inline-block;font:600 .57rem var(--mono);padding:3px 6px;border-radius:4px;margin-bottom:7px}.tag-new{color:#62d7ac;background:#0d211b}.tag-update{color:#83aaff;background:#111d33}.tag-fix{color:#f2b16a;background:#241a0f}
-/* upcoming */
-.upcoming{margin-bottom:92px}.upcoming-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.upcoming-card{min-height:170px;border:1px solid #253143;border-radius:12px;background:#0d131d;padding:20px;transition:.18s}.upcoming-card:hover{border-color:#3b4b63;transform:translateY(-2px)}.upcoming-num{font:600 .59rem var(--mono);color:#6f8edb;letter-spacing:.05em;margin-bottom:20px}.upcoming-card h3{font-size:.95rem;margin-bottom:6px}.upcoming-card p{font-size:.72rem;color:var(--muted);line-height:1.65}
 /* author */
 .author-section{margin-bottom:88px}.author-card{display:flex;align-items:center;gap:16px;padding:20px;border:1px solid #253143;border-radius:13px;background:#0d131d}.author-avatar{width:54px;height:54px;display:grid;place-items:center;border-radius:11px;background:#17233a;border:1px solid #30476c;color:#a8c0ff;font:700 1rem var(--mono);flex-shrink:0}.author-info h3{font-size:.9rem}.author-info p{font-size:.72rem;color:var(--muted);margin:2px 0 10px}.author-links{display:flex;gap:6px;flex-wrap:wrap}.author-link{font-size:.64rem;color:#8996a8;border:1px solid #253143;border-radius:7px;padding:5px 8px}.author-link:hover{color:#fff;border-color:#3a4b63;background:#111a27}
 /* directory */
@@ -219,6 +217,37 @@ footer{font-size:.76rem;color:#8f9db2}
 #recentSoftwareUpdates .update-content h4 a{color:var(--text)}
 #recentSoftwareUpdates .update-content h4 a:hover{color:#8fb0ff}
 @media(max-width:650px){#recentSoftwareUpdates .update-card{grid-template-columns:1fr;gap:4px}}
+
+/* Light theme */
+body[data-theme="light"]{--bg:#f5f7fb;--panel:#fff;--panel-2:#f0f3f8;--panel-3:#e8edf5;--line:#d9e0eb;--line-soft:#e6ebf2;--text:#172033;--muted:#586579;--muted-2:#6e7b8f;--blue:#315fc7;--blue-2:#6b59cb;--green:#14835f;--purple:#7654bb;--red:#c43f58;--orange:#a96113;--cyan:#117b9a;color:var(--text);background:var(--bg)}
+body[data-theme="light"]:before{background:linear-gradient(180deg,rgba(49,95,199,.05),transparent 35%),radial-gradient(circle at 85% 8%,rgba(107,89,203,.06),transparent 25rem)}
+body[data-theme="light"] nav{background:rgba(255,255,255,.92);border-bottom-color:#dfe5ee}
+body[data-theme="light"] .nav-links a:hover,body[data-theme="light"] .nav-links a.active{background:#eaf0fa;color:#172033}
+body[data-theme="light"] .nav-links .nav-cta{color:#fff!important;background:var(--blue)}
+body[data-theme="light"] .theme-toggle{background:#fff;border-color:#d4dce8;color:#29364b}
+body[data-theme="light"] .home-hero .eyebrow{color:#38517a;background:#edf3ff;border-color:#d4e0f8}
+body[data-theme="light"] .home-search-box,body[data-theme="light"] .stats-bar,body[data-theme="light"] .feature-card,body[data-theme="light"] .cat-card,body[data-theme="light"] .author-card,body[data-theme="light"] .terminal-card,body[data-theme="light"] .modal{background:#fff;border-color:#dce3ed}
+body[data-theme="light"] .home-search-box input,body[data-theme="light"] input[type=search],body[data-theme="light"] input[type=text],body[data-theme="light"] input[type=url],body[data-theme="light"] select,body[data-theme="light"] textarea{background:#fff!important;color:#172033!important;border-color:#d3dce8}
+body[data-theme="light"] .search-shortcut,body[data-theme="light"] .btn-secondary,body[data-theme="light"] .author-link,body[data-theme="light"] .page-btn{background:#f7f9fc;border-color:#d7dfeb;color:#4c5a70}
+body[data-theme="light"] .btn-primary,body[data-theme="light"] .submit-btn{background:#315fc7;color:#fff}
+body[data-theme="light"] .terminal-head,body[data-theme="light"] thead th{background:#edf1f7;border-color:#d9e1ec;color:#526176}
+body[data-theme="light"] .terminal-body,body[data-theme="light"] tbody tr{background:#fff;color:#253047}
+body[data-theme="light"] .term-result{background:#edf8f3;border-color:#cbe8dc}
+body[data-theme="light"] .term-ok{color:#14835f}body[data-theme="light"] .term-muted{color:#647287}body[data-theme="light"] .term-prompt{color:#315fc7}
+body[data-theme="light"] .features{background:#dce3ed;border-color:#dce3ed}
+body[data-theme="light"] .feature-card:hover,body[data-theme="light"] .cat-card:hover,body[data-theme="light"] tbody tr:hover{background:#f0f4fa}
+body[data-theme="light"] .cat-desc,body[data-theme="light"] td.notes-cell,body[data-theme="light"] .section-sub,body[data-theme="light"] .home-hero>p,body[data-theme="light"] .feature-card p,body[data-theme="light"] .update-content p,body[data-theme="light"] .author-info p{color:#586579}
+body[data-theme="light"] .update-card,body[data-theme="light"] td{border-color:#dce3ed}
+body[data-theme="light"] footer{background:#edf1f7;border-color:#dce3ed;color:#56647a}
+body[data-theme="light"] .badge.oss{color:#147351;background:#eaf8f1;border-color:#c6e8d7}
+body[data-theme="light"] .badge.home{color:#6b46a8;background:#f3edff;border-color:#dfd1fb}
+body[data-theme="light"] .badge.paid{color:#b32f4a;background:#fff0f2;border-color:#f4cbd2}
+body[data-theme="light"] .badge.comm{color:#96520d;background:#fff5e8;border-color:#f1d7b4}
+body[data-theme="light"] .badge.ce{color:#126c86;background:#e9f8fc;border-color:#c3e9f2}
+body[data-theme="light"] .tag-new{color:#147351;background:#eaf8f1}body[data-theme="light"] .tag-update{color:#315fc7;background:#edf3ff}body[data-theme="light"] .tag-fix{color:#96520d;background:#fff5e8}
+body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color:#f0c8d0}body[data-theme="light"] .modal-backdrop{background:rgba(31,43,62,.35)}body[data-theme="light"] .modal-close{color:#647287}body[data-theme="light"] .author-avatar{background:#edf3ff;border-color:#d4e0f8;color:#315fc7}
+@media(max-width:650px){.theme-toggle{padding:7px 8px;font-size:0}.theme-toggle svg{width:17px;height:17px}}
+
 </style>
 </head>
 <body>
@@ -229,11 +258,12 @@ footer{font-size:.76rem;color:#8f9db2}
   <div class="nav-links">
     <a href="#" onclick="showPage('home')" id="nav-home">Home</a>
     <a href="#" onclick="showPage('directory')" id="nav-directory">Directory</a>
-    <a href="#upcoming" onclick="showPage('home');setTimeout(()=>document.getElementById('upcoming').scrollIntoView({behavior:'smooth'}),0)" id="nav-upcoming">Upcoming</a>
+    
     <a href="https://navneet.webline.cloud/" class="nav-portfolio" target="_blank" rel="noopener">Portfolio</a>
     <a href="https://github.com/navneet-20/SoftwareLicense.fyi" target="_blank" rel="noopener">GitHub</a>
     <a href="#" class="nav-cta" onclick="showPage('directory');openModal()">+ Suggest</a>
   </div>
+  <button type="button" class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="Switch to light mode" title="Switch theme"><svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg><span id="themeLabel">Light mode</span></button>
   <div class="nav-meta" id="navMeta"></div>
 </nav>
 
@@ -284,7 +314,6 @@ footer{font-size:.76rem;color:#8f9db2}
     <div class="stats-bar" id="statsBar">
       <div class="stat"><div class="stat-num" id="statEntries">—</div><div class="stat-label">Software entries</div></div>
       <div class="stat"><div class="stat-num">5</div><div class="stat-label">License categories</div></div>
-      <div class="stat"><div class="stat-num">Daily</div><div class="stat-label">AI auto-updates</div></div>
       <div class="stat"><div class="stat-num"><a href="https://hits.sh/isitfree.webline.cloud/" target="_blank" rel="noopener" aria-label="View IsItFree site visit statistics"><img class="visit-counter" src="https://hits.sh/isitfree.webline.cloud.svg?label=visits&amp;color=5b8cff&amp;labelColor=111824&amp;style=flat-square" alt="Site visit count" loading="eager"/></a></div><div class="stat-label">Site visits</div></div>
     </div>
   </section>
@@ -349,14 +378,6 @@ footer{font-size:.76rem;color:#8f9db2}
     <div class="update-card">
       <div class="update-date">Aug 2026</div>
       <div class="update-content">
-        <span class="update-tag tag-new">NEW</span>
-        <h4>Daily AI Discovery Launched</h4>
-        <p>Gemini AI now automatically discovers and adds 15 new software tools to the directory every day at 1:30 PM IST. No manual work required.</p>
-      </div>
-    </div>
-    <div class="update-card">
-      <div class="update-date">Aug 2026</div>
-      <div class="update-content">
         <span class="update-tag tag-update">UPDATE</span>
         <h4>Upgraded to Gemini 3.6 Flash</h4>
         <p>Switched to the latest Gemini model for faster and more accurate license verification. Added retry logic for high-demand periods.</p>
@@ -377,17 +398,6 @@ footer{font-size:.76rem;color:#8f9db2}
     <h2 class="section-title">Recently Added &amp; Updated</h2>
     <p class="section-sub">The latest genuine software additions and meaningful licensing changes.</p>
     <div id="recentSoftwareUpdates" aria-live="polite"><p class="recent-empty">Loading recent software activity…</p></div>
-  </div>
-
-  <!-- Upcoming Features -->
-  <div class="upcoming" id="upcoming">
-    <h2 class="section-title">Upcoming Features</h2>
-    <p class="section-sub">More ways to make software decisions faster.</p>
-    <div class="upcoming-grid">
-      <div class="upcoming-card"><div class="upcoming-num">01 · COMING SOON</div><h3>Compare options</h3><p>Compare multiple software tools side-by-side using license, features, and suitability.</p></div>
-      <div class="upcoming-card"><div class="upcoming-num">02 · COMING SOON</div><h3>Approx pricing</h3><p>See approximate pricing ranges to quickly understand the likely cost before choosing a tool.</p></div>
-      <div class="upcoming-card"><div class="upcoming-num">03 · COMING SOON</div><h3>Free alternatives</h3><p>Find free and open-source alternatives when a preferred tool requires a paid license.</p></div>
-    </div>
   </div>
 
   <!-- Author -->
@@ -530,6 +540,36 @@ footer{font-size:.76rem;color:#8f9db2}
 
 
 <script>
+  // ── Theme switcher ───────────────────────────────────────
+  function applyTheme(theme) {
+    const light = theme === "light";
+    document.body.dataset.theme = light ? "light" : "dark";
+    const label = document.getElementById("themeLabel");
+    const button = document.getElementById("themeToggle");
+    const icon = document.getElementById("themeIcon");
+    if (label) label.textContent = light ? "Dark mode" : "Light mode";
+    if (button) {
+      button.setAttribute("aria-label", light ? "Switch to dark mode" : "Switch to light mode");
+      button.title = light ? "Switch to dark mode" : "Switch to light mode";
+    }
+    if (icon) icon.innerHTML = light
+      ? '<path d="M20.9 13A8.5 8.5 0 0 1 11 3.1 8.5 8.5 0 1 0 20.9 13Z"/>'
+      : '<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/>';
+  }
+  function toggleTheme() {
+    const next = document.body.dataset.theme === "light" ? "dark" : "light";
+    applyTheme(next);
+    try { localStorage.setItem("isitfree-theme", next); } catch (_) {}
+  }
+  (function initTheme() {
+    let theme = "dark";
+    try {
+      const saved = localStorage.getItem("isitfree-theme");
+      if (saved === "light" || saved === "dark") theme = saved;
+    } catch (_) {}
+    applyTheme(theme);
+  })();
+
   // ── Config ───────────────────────────────────────────────
   const CSV_URL     = "data/software_list.csv";
   const PAGE_SIZE   = 15;
