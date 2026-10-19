@@ -95,11 +95,23 @@ def generate_context_batches(rows, contexts, max_batches):
 
     completed_batches = 0
     attempted_batches = 0
-    for start in range(0, len(missing), max(1, BATCH_SIZE)):
+    size = max(1, BATCH_SIZE)
+    # With two batches, refresh the newest entries first and work backwards through older entries too.
+    batch_groups = []
+    if max_batches <= 1:
+        batch_groups = [missing[:size]]
+    elif len(missing) <= size:
+        batch_groups = [missing]
+    else:
+        batch_groups = [missing[:size], missing[-size:]]
+        if max_batches > 2:
+            middle = missing[size:-size]
+            for offset in range(0, len(middle), size):
+                batch_groups.append(middle[offset:offset + size])
+    for batch in batch_groups:
         if attempted_batches >= max_batches:
             break
         attempted_batches += 1
-        batch = missing[start:start + max(1, BATCH_SIZE)]
         payload = [{
             "software_name": r["Software Name"], "category": r["Category"],
             "license_status": r["License Status"], "official_url": r["Official URL"],
