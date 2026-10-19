@@ -102,6 +102,8 @@ def generate_context_batches(rows, contexts, max_batches):
         batch_groups = [missing[:size]]
     elif len(missing) <= size:
         batch_groups = [missing]
+    elif len(missing) <= 2 * size:
+        batch_groups = [missing[:size], missing[size:]]
     else:
         batch_groups = [missing[:size], missing[-size:]]
         if max_batches > 2:
