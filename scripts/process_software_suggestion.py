@@ -30,17 +30,22 @@ def norm(value):
 
 def parse_issue(body):
     values = {}
-    for key in ("Software name", "Official website", "Suggested category", "Additional details"):
-        match = re.search(r"^\s*[-*]\s*\*\*" + re.escape(key) + r":\*\*\s*(.*?)\s*$", body, re.I | re.M)
+    keys = ("Software name", "Official website", "Suggested category", "Additional details")
+    for key in keys:
+        match = re.search(r"^\\s*[-*]\\s*\\*\\*" + re.escape(key) + r":\\*\\*\\s*(.*?)\\s*$", body, re.I | re.M)
+        if not match:
+            match = re.search(r"^###\\s*" + re.escape(key) + r"\\s*\\n+([\\s\\S]*?)(?=\\n###\\s|\\Z)", body, re.I)
         values[key] = match.group(1).strip() if match else ""
     if not values["Software name"]:
-        # Also accept a simple issue body that uses headings instead of the website form.
-        match = re.search(r"^\s*(?:Software Name|Software name)\s*:\s*(.*?)\s*$", body, re.I | re.M)
+        match = re.search(r"^\\s*(?:Software Name|Software name)\\s*:\\s*(.*?)\\s*$", body, re.I | re.M)
         values["Software name"] = match.group(1).strip() if match else ""
     if not values["Official website"]:
-        match = re.search(r"^\s*(?:Official URL|Official website)\s*:\s*(https?://\S+)\s*$", body, re.I | re.M)
+        match = re.search(r"^\\s*(?:Official URL|Official website)\\s*:\\s*(https?://\\S+)\\s*$", body, re.I | re.M)
         values["Official website"] = match.group(1).strip() if match else ""
+    for key in keys:
+        values[key] = values.get(key, "").split("\\n\\n")[0].strip()
     return values
+
 
 def main():
     if not TOKEN or not KEY or not ISSUE_NUMBER:
