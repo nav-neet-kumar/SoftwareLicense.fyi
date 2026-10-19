@@ -9,7 +9,7 @@ permissions:
   issues: write
 
 concurrency:
-  group: software-suggestion-${{ github.event.issue.number }}
+  group: software-suggestions-global
   cancel-in-progress: false
 
 jobs:
