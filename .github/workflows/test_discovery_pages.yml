@@ -1,0 +1,59 @@
+name: Test discovery and static pages
+
+on:
+  push:
+    branches:
+      - "fix/**"
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: scripts/requirements.txt
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+      - name: Compile Python scripts
+        run: python -m py_compile scripts/discover_software.py scripts/generate_software_pages.py scripts/update_licenses.py
+      - name: Run unit tests (mocked API; no Gemini quota)
+        run: python -m unittest discover -s tests -v
+      - name: Smoke-test all static pages and XML sitemap without Gemini quota
+        env:
+          PAGE_CONTEXT_BATCHES_PER_RUN: "0"
+        run: |
+          python scripts/generate_software_pages.py --max-context-batches 0
+          python - <<'PY'
+          import csv
+          import hashlib
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+          import re
+          names = []
+          with open("data/software_list.csv", encoding="utf-8", newline="") as handle:
+              names = [row["Software Name"].strip() for row in csv.DictReader(handle) if row.get("Software Name", "").strip()]
+          slugs = {re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-") or hashlib.sha1(name.encode()).hexdigest()[:10] for name in names}
+          pages = list(Path("software").glob("*/index.html"))
+          assert len(pages) == len(slugs), f"expected {len(slugs)} detail pages, got {len(pages)}"
+          root = ET.parse("sitemap.xml").getroot()
+          urls = root.findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url")
+          assert len(urls) == len(pages) + 1, f"expected homepage + {len(pages)} pages in sitemap, got {len(urls)} URLs"
+          for path in pages[:5]:
+              content = path.read_text(encoding="utf-8")
+              assert 'rel="canonical"' in content, f"canonical missing from {path}"
+              assert "<footer" in content, f"shared footer missing from {path}"
+              assert "<nav" in content, f"shared header missing from {path}"
+          print(f"Validated {len(pages)} static detail pages and {len(urls)} sitemap URLs.")
+          PY

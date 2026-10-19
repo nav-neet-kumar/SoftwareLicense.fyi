@@ -20,6 +20,8 @@
   <meta name="author" content="Navneet Kumar"/>
   <meta name="robots" content="index, follow"/>
   <link rel="canonical" href="https://isitfree.webline.cloud/"/>
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml"/>
+  <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM information"/>
 
   <!-- ── Open Graph (WhatsApp, LinkedIn, Facebook previews) ── -->
   <meta property="og:type" content="website"/>
@@ -210,6 +212,13 @@ footer{font-size:.76rem;color:#8f9db2}
   td.notes-cell{font-size:.86rem}
 }
 
+
+.recent-empty{padding:18px 0;color:var(--muted);font-size:.9rem}
+.tag-recent{color:#68e0b2;background:#0c2119;border:1px solid #20543f}
+#recentSoftwareUpdates .update-card{grid-template-columns:110px minmax(0,1fr)}
+#recentSoftwareUpdates .update-content h4 a{color:var(--text)}
+#recentSoftwareUpdates .update-content h4 a:hover{color:#8fb0ff}
+@media(max-width:650px){#recentSoftwareUpdates .update-card{grid-template-columns:1fr;gap:4px}}
 </style>
 </head>
 <body>
@@ -359,6 +368,13 @@ footer{font-size:.76rem;color:#8f9db2}
         <p>The AI-powered software license directory launched on <a href="https://isitfree.webline.cloud">isitfree.webline.cloud</a> with 25 initial entries across all 5 license categories.</p>
       </div>
     </div>
+  </div>
+
+  <!-- Live software activity feed -->
+  <div class="updates" id="recent-software-updates">
+    <h2 class="section-title">Recently Added &amp; Updated</h2>
+    <p class="section-sub">The latest genuine software additions and meaningful licensing changes.</p>
+    <div id="recentSoftwareUpdates" aria-live="polite"><p class="recent-empty">Loading recent software activity…</p></div>
   </div>
 
   <!-- Upcoming Features -->
@@ -556,6 +572,14 @@ footer{font-size:.76rem;color:#8f9db2}
     });
   }
 
+  function escapeHtml(value) {
+    return String(value==null?"":value).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+  }
+
+  function softwareSlug(name) {
+    return String(name||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"") || "software";
+  }
+
   function makeBadge(category) {
     const cls = CAT_CLASS[category]||"ce";
     return `<span class="badge ${cls}"><span class="badge-dot" style="background:${CAT_COLORS[cls]}"></span>${category}</span>`;
@@ -569,10 +593,9 @@ footer{font-size:.76rem;color:#8f9db2}
     emptyMsg.style.display="none";table.style.display="table";
     const totalPages=Math.ceil(filtered.length/PAGE_SIZE),start=(currentPage-1)*PAGE_SIZE;
     tbody.innerHTML=filtered.slice(start,start+PAGE_SIZE).map(r=>{
-      const url=r["Official URL"]||"#",name=r["Software Name"]||"—";
-      const link=url!=="#"
-        ?`<a href="${url}" target="_blank" rel="noopener">${name}<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>`
-        :name;
+      const name=r["Software Name"]||"—";
+      const detailUrl="/software/"+softwareSlug(name)+"/";
+      const link='<a href="'+detailUrl+'">'+escapeHtml(name)+'</a>';
       const safeName=String(name).replace(/'/g,"&#39;").replace(/"/g,"&quot;");
       return `<tr><td class="name-cell"><div class="name-wrap">${link}<button class="flag-btn" type="button" onclick="openFlagModal('${safeName}')" title="Flag incorrect information">⚑ Flag error</button></div></td><td>${makeBadge(r["Category"])}</td><td>${r["License Status"]||"—"}</td><td class="notes-cell">${r["Notes"]||"—"}</td><td class="date-cell">${r["Last Updated"]||"—"}</td></tr>`;
     }).join("");
@@ -726,8 +749,38 @@ footer{font-size:.76rem;color:#8f9db2}
     }catch(e){setMsg("Network error. Please try again.","error");btn.disabled=false;}
   }
 
+  async function loadRecentSoftwareUpdates() {
+    const container=document.getElementById("recentSoftwareUpdates");
+    if(!container)return;
+    try{
+      const response=await fetch("data/recent_updates.json",{cache:"no-store"});
+      if(!response.ok)throw new Error("HTTP "+response.status);
+      const events=await response.json();
+      const recent=(Array.isArray(events)?events:[])
+        .filter(e=>e&&e.name&&e.date&&(e.type==="NEW"||e.type==="UPDATED"))
+        .sort((a,b)=>String(b.date).localeCompare(String(a.date)))
+        .slice(0,10);
+      if(!recent.length){
+        container.innerHTML='<p class="recent-empty">New software additions and meaningful licensing changes will appear here as they are recorded.</p>';
+        return;
+      }
+      container.innerHTML=recent.map(e=>{
+        const type=e.type==="NEW"?"NEW":"UPDATED";
+        const slug=e.slug||softwareSlug(e.name);
+        const dateLabel=escapeHtml(e.date);
+        const name=escapeHtml(e.name);
+        const category=escapeHtml(e.category||"Software");
+        return '<div class="update-card"><div class="update-date">'+dateLabel+'</div><div class="update-content"><span class="update-tag tag-recent">✓ '+type+'</span><h4><a href="/software/'+slug+'/">'+name+'</a></h4><p>'+category+' · '+(type==="NEW"?"Added to the directory.":"License information materially changed.")+'</p></div></div>';
+      }).join("");
+    }catch(error){
+      container.innerHTML='<p class="recent-empty">Recent activity is temporarily unavailable.</p>';
+      console.warn("Could not load recent software activity",error);
+    }
+  }
+
   loadData();
-  showPage("home");
+  loadRecentSoftwareUpdates();
+  showPage(location.hash==="#page-directory"?"directory":"home");
 </script>
 </body>
 </html>

@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1N23RNXZBR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1N23RNXZBR');
+</script>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- ── SEO ── -->
+  <title>IsItFree? — Software License Directory </title>
+  <meta name="description" content="IsItFree? is an AI-powered directory of software tools. Instantly check if software is free, open source, requires a license, or has a community edition."/>
+  <meta name="keywords" content="software license checker, is software free, open source software, free software list, software licensing, SaaS pricing, free for home use, community edition software"/>
+  <meta name="author" content="Navneet Kumar"/>
+  <meta name="robots" content="index, follow"/>
+  <link rel="canonical" href="https://isitfree.webline.cloud/"/>
+
+  <!-- ── Open Graph (WhatsApp, LinkedIn, Facebook previews) ── -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://isitfree.webline.cloud/"/>
+  <meta property="og:title" content="IsItFree? — Know Your Software License Before You Ship"/>
+  <meta property="og:description" content="AI-verified software license directory. Check if any software is free, open source, or requires a commercial license."/>
+  <meta property="og:site_name" content="IsItFree?"/>
+
+  <!-- ── Twitter Card ── -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="IsItFree? — Software License Directory"/>
+  <meta name="twitter:description" content="AI-verified directory of software tools. Instantly check licensing status."/>
+
+  <!-- ── Schema.org Structured Data ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "IsItFree?",
+    "url": "https://isitfree.webline.cloud",
+    "description": "AI-powered software license directory. Check if software is free, open source, or requires a commercial license.",
+    "author": { "@type": "Person", "name": "Navneet Kumar", "url": "https://github.com/navneet-20" },
+    "potentialAction": { "@type": "SearchAction", "target": "https://isitfree.webline.cloud/directory.html?q={search_term_string}", "query-input": "required name=search_term_string" }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+
+  <style>
+:root{
+  --bg:#080b12;--panel:#0d121c;--panel-2:#111824;--panel-3:#151d2a;
+  --line:#202a39;--line-soft:#182130;--text:#f3f6fa;--muted:#8b97a8;--muted-2:#647184;
+  --blue:#5b8cff;--blue-2:#8b7cff;--green:#38d39f;--purple:#a78bfa;--red:#fb7185;--orange:#f6ad55;--cyan:#4cc9f0;
+  --radius:14px;--container:1240px;--mono:"IBM Plex Mono",monospace;--sans:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{min-height:100vh;background:var(--bg);color:var(--text);font-family:var(--sans);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased}body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:linear-gradient(180deg,rgba(91,140,255,.045),transparent 35%),radial-gradient(circle at 85% 8%,rgba(139,124,255,.055),transparent 25rem)}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}
+/* navigation */
+nav{height:72px;position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:28px;padding:0 max(24px,calc((100vw - var(--container))/2));background:rgba(8,11,18,.88);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.07)}.nav-logo{font-weight:750;letter-spacing:-.04em;font-size:1.08rem;white-space:nowrap}.nav-logo span{color:var(--blue)}.nav-links{display:flex;align-items:center;gap:4px}.nav-links a{color:var(--muted);font-size:.84rem;font-weight:550;padding:8px 11px;border-radius:8px;transition:.18s}.nav-links a:hover,.nav-links a.active{color:var(--text);background:rgba(255,255,255,.045)}.nav-links .nav-cta{margin-left:6px;color:#fff!important;background:var(--blue);box-shadow:0 5px 18px rgba(91,140,255,.18)}.nav-links .nav-cta:hover{background:#6b99ff}.nav-portfolio{color:#b9c8ff!important}.nav-meta{margin-left:auto;color:var(--muted-2);font:600 .64rem var(--mono);white-space:nowrap}
+/* common */
+.page{display:none}.page.active{display:block}.home-hero,.features,.section,.updates,.author-section,.upcoming,.dir-hero,.controls,.legend,.table-wrap{width:min(var(--container),100%);margin-left:auto;margin-right:auto;padding-left:24px;padding-right:24px}.section-title{font-size:1.65rem;line-height:1.2;letter-spacing:-.04em;font-weight:700}.section-sub{color:var(--muted);font-size:.87rem;margin-top:7px;margin-bottom:22px}
+/* hero */
+.home-hero{padding-top:92px;padding-bottom:58px;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(380px,.75fr);gap:76px;align-items:center;position:relative}.home-hero:before{content:"";position:absolute;left:24px;right:24px;top:28px;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.08),transparent)}.home-hero .eyebrow{display:inline-flex;align-items:center;width:max-content;gap:7px;color:#a9bbdf;background:#101827;border:1px solid #26344a;border-radius:999px;padding:5px 10px;font:600 .65rem var(--mono);letter-spacing:.03em;margin-bottom:19px}.home-hero h1{font-size:clamp(3.1rem,6vw,5.6rem);line-height:.98;letter-spacing:-.075em;max-width:760px;margin-bottom:22px}.home-hero h1 em{font-style:normal;color:#8fb0ff}.home-hero>p{max-width:680px;color:var(--muted);font-size:1rem;line-height:1.8;margin-bottom:26px}.hero-btns{display:flex;gap:10px;flex-wrap:wrap}.btn-primary,.btn-secondary{display:inline-flex;align-items:center;justify-content:center;gap:7px;border-radius:9px;padding:10px 15px;font-size:.84rem;font-weight:650;cursor:pointer;transition:.18s;border:1px solid transparent}.btn-primary{background:var(--blue);color:#fff;box-shadow:0 8px 22px rgba(91,140,255,.15)}.btn-primary:hover{background:#709aff;transform:translateY(-1px)}.btn-secondary{background:#0e141f;border-color:#293446;color:#dce3ee}.btn-secondary:hover{background:#141c29;border-color:#3b4a61;transform:translateY(-1px)}
+/* search */
+.home-search{max-width:690px;margin:27px 0 0;position:relative;z-index:3;cursor:text}.home-search-box{display:flex;align-items:center;gap:9px;background:#0d131e;border:1px solid #2a3547;border-radius:11px;padding:5px 6px;box-shadow:0 18px 50px rgba(0,0,0,.18)}.home-search-box:focus-within{border-color:#527de0;box-shadow:0 0 0 3px rgba(91,140,255,.08)}.home-search-box svg{margin-left:10px;color:#6e7d91}.home-search-box input{border:0!important;background:transparent!important;box-shadow:none!important;outline:0!important;padding:10px 4px;font-size:.86rem}.search-shortcut{margin-left:auto;margin-right:4px;padding:3px 7px;border:1px solid #293446;border-radius:5px;color:#718096;font:600 .61rem var(--mono)}.last-ai-update{margin-top:9px;color:var(--muted-2);font:600 .61rem var(--mono)}.last-ai-update strong{color:#8fe0bf;font-weight:600}
+/* hero terminal */
+.demo-terminal{align-self:stretch;display:flex;align-items:center}.terminal-card{width:100%;background:#0c121c;border:1px solid #253143;border-radius:15px;overflow:hidden;box-shadow:0 28px 70px rgba(0,0,0,.28)}.terminal-head{height:42px;display:flex;align-items:center;justify-content:space-between;padding:0 14px;border-bottom:1px solid #1c2635;background:#101722}.terminal-dots{display:flex;gap:6px}.terminal-dots i{width:7px;height:7px;border-radius:50%;background:#48576a}.terminal-label{font:600 .59rem var(--mono);letter-spacing:.08em;color:#6f7c8e;text-transform:uppercase}.terminal-body{padding:22px;font:.73rem/1.9 var(--mono)}.term-line{color:#aeb9c8}.term-prompt{color:#6f9bff}.term-result{margin:5px 0 17px;padding:11px 12px;border:1px solid #21352f;background:#0c1715;border-radius:8px}.term-ok{color:#68d8ae}.term-muted{color:#718094}
+/* stats */
+.stats-bar{margin-top:27px;display:grid;grid-template-columns:repeat(3,1fr);border:1px solid #222d3d;border-radius:11px;overflow:hidden;background:#0c111a}.stat{padding:14px 16px;border-right:1px solid #222d3d}.stat:last-child{border-right:0}.stat-num{font:700 1.1rem var(--mono)}.stat-label{font-size:.64rem;color:var(--muted-2);margin-top:2px}
+/* feature strip */
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#202a39;border:1px solid #202a39;border-radius:13px;overflow:hidden;margin-bottom:92px}.feature-card{background:#0d121b;padding:23px 20px;transition:.18s}.feature-card:hover{background:#101824}.feature-icon{width:34px;height:34px;display:grid;place-items:center;border:1px solid #283447;border-radius:8px;background:#121a27;font-size:.95rem;margin-bottom:13px}.feature-card h3{font-size:.88rem;margin-bottom:4px}.feature-card p{font-size:.72rem;color:var(--muted);line-height:1.65}
+/* sections */
+.section{margin-bottom:92px}.cat-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.cat-card{min-height:145px;border:1px solid #202a39;border-radius:11px;padding:17px;background:#0c1119;cursor:pointer;transition:.18s;position:relative;overflow:hidden}.cat-card:hover{transform:translateY(-2px);border-color:#35445a;background:#101721}.cat-card:after{content:"→";position:absolute;right:14px;bottom:13px;color:#4f5d70;font-size:.85rem}.cat-name{font-weight:650;font-size:.78rem;margin-bottom:9px}.cat-desc{font-size:.68rem;color:#778497;line-height:1.65}.updates{margin-bottom:92px}.update-card{display:grid;grid-template-columns:100px 1fr;gap:20px;padding:19px 0;border-top:1px solid #202a39}.update-card:last-child{border-bottom:1px solid #202a39}.update-date{font:600 .62rem var(--mono);color:#657286;padding-top:3px}.update-content h4{font-size:.88rem;margin-bottom:4px}.update-content p{font-size:.73rem;color:var(--muted);line-height:1.65}.update-tag{display:inline-block;font:600 .57rem var(--mono);padding:3px 6px;border-radius:4px;margin-bottom:7px}.tag-new{color:#62d7ac;background:#0d211b}.tag-update{color:#83aaff;background:#111d33}.tag-fix{color:#f2b16a;background:#241a0f}
+/* upcoming */
+.upcoming{margin-bottom:92px}.upcoming-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.upcoming-card{min-height:170px;border:1px solid #253143;border-radius:12px;background:#0d131d;padding:20px;transition:.18s}.upcoming-card:hover{border-color:#3b4b63;transform:translateY(-2px)}.upcoming-num{font:600 .59rem var(--mono);color:#6f8edb;letter-spacing:.05em;margin-bottom:20px}.upcoming-card h3{font-size:.95rem;margin-bottom:6px}.upcoming-card p{font-size:.72rem;color:var(--muted);line-height:1.65}
+/* author */
+.author-section{margin-bottom:88px}.author-card{display:flex;align-items:center;gap:16px;padding:20px;border:1px solid #253143;border-radius:13px;background:#0d131d}.author-avatar{width:54px;height:54px;display:grid;place-items:center;border-radius:11px;background:#17233a;border:1px solid #30476c;color:#a8c0ff;font:700 1rem var(--mono);flex-shrink:0}.author-info h3{font-size:.9rem}.author-info p{font-size:.72rem;color:var(--muted);margin:2px 0 10px}.author-links{display:flex;gap:6px;flex-wrap:wrap}.author-link{font-size:.64rem;color:#8996a8;border:1px solid #253143;border-radius:7px;padding:5px 8px}.author-link:hover{color:#fff;border-color:#3a4b63;background:#111a27}
+/* directory */
+.dir-hero{padding-top:55px;padding-bottom:12px}.dir-hero h1{font-size:clamp(2rem,4vw,3.2rem);line-height:1.05;letter-spacing:-.06em;margin-bottom:9px}.dir-hero p{color:var(--muted);font-size:.83rem}.controls{display:flex;gap:8px;padding-top:17px;padding-bottom:12px}.search-wrap{flex:1;min-width:250px;position:relative}.search-wrap svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:#657286;pointer-events:none}input[type=search],input[type=text],input[type=url],select,textarea{width:100%;background:#0c121c;color:var(--text);border:1px solid #273345;border-radius:9px;outline:0;padding:9px 11px;font-size:.78rem}input[type=search]{padding-left:36px}input:focus,select:focus,textarea:focus{border-color:#4e72bd;box-shadow:0 0 0 3px rgba(91,140,255,.07)}select{min-width:190px;cursor:pointer}.legend{display:flex;flex-wrap:wrap;gap:6px;padding-top:2px;padding-bottom:15px}.badge{display:inline-flex;align-items:center;gap:5px;border-radius:999px;padding:4px 8px;font:600 .58rem var(--mono);white-space:nowrap}.badge-dot{width:5px;height:5px;border-radius:50%}.badge.oss{color:var(--green);background:#0c1c17;border:1px solid #183b30}.badge.home{color:var(--purple);background:#17132a;border:1px solid #33295a}.badge.paid{color:var(--red);background:#24131a;border:1px solid #4a2631}.badge.comm{color:var(--orange);background:#21180e;border:1px solid #49351d}.badge.ce{color:var(--cyan);background:#0d1d25;border:1px solid #1b4050}
+/* table */
+.table-wrap{padding-bottom:70px;overflow-x:auto}table{width:100%;min-width:820px;border-collapse:separate;border-spacing:0;font-size:.76rem}thead th{text-align:left;padding:12px 13px;background:#101721;color:#69778a;border-top:1px solid #253143;border-bottom:1px solid #253143;font:600 .59rem var(--mono);letter-spacing:.07em;text-transform:uppercase;white-space:nowrap;cursor:pointer}thead th:first-child{border-left:1px solid #253143;border-top-left-radius:9px}thead th:last-child{border-right:1px solid #253143;border-top-right-radius:9px}thead th:hover{color:#cbd5e1}thead th .sort-icon{opacity:.35;margin-left:3px}thead th.asc .sort-icon,thead th.desc .sort-icon{opacity:1;color:#7da2ff}tbody tr{background:#0b1119}tbody tr:hover{background:#101824}td{padding:13px;border-bottom:1px solid #1b2533;vertical-align:middle}td.name-cell{font-size:.77rem;font-weight:650}td.name-cell a{display:flex;align-items:center;gap:5px;color:#e4e9f0}td.name-cell a:hover{color:#86aaff}td.name-cell a svg{color:#607086;flex-shrink:0}td.notes-cell{max-width:300px;color:#7c8899;font-size:.69rem}td.date-cell{font:600 .59rem var(--mono);color:#657286;white-space:nowrap}.name-wrap{display:flex;align-items:center;gap:5px;flex-wrap:wrap}.flag-btn{padding:3px 6px;border:1px solid #3d2830;border-radius:5px;background:#160f13;color:#d78395;font:600 .55rem var(--mono);cursor:pointer;opacity:.75;transition:.15s}.flag-btn:hover{opacity:1;background:#24131a;border-color:#61313e}.state-msg{text-align:center;padding:60px 20px;color:var(--muted);font-size:.8rem}.pagination{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:16px;color:#69778a;font-size:.65rem}.page-btns{display:flex;gap:4px}.page-btn{border:1px solid #253143;background:#0e141e;color:#8996a8;border-radius:7px;padding:5px 8px;font:600 .59rem var(--mono);cursor:pointer}.page-btn:hover,.page-btn.active{background:#315ab7;border-color:#4670d2;color:#fff}.page-btn:disabled{opacity:.25;cursor:default}
+/* modals */
+.modal-backdrop{display:none;position:fixed;inset:0;z-index:200;align-items:center;justify-content:center;padding:18px;background:rgba(3,6,10,.78);backdrop-filter:blur(9px)}.modal-backdrop.open{display:flex}.modal{position:relative;width:min(520px,100%);max-height:90vh;overflow:auto;background:#101722;border:1px solid #2b394d;border-radius:14px;padding:24px;box-shadow:0 35px 100px rgba(0,0,0,.5)}.modal h2{font-size:1.05rem;letter-spacing:-.025em;margin-bottom:5px}.modal p.modal-sub{font-size:.72rem;color:var(--muted);line-height:1.65;margin-bottom:18px}.modal-close{position:absolute;right:13px;top:11px;border:0;background:none;color:#6f7d90;font-size:1rem;cursor:pointer}.modal-close:hover{color:#fff}.form-group{margin-bottom:12px}.form-group label{display:block;margin-bottom:5px;color:#718096;font:600 .58rem var(--mono);text-transform:uppercase;letter-spacing:.05em}.form-group textarea{resize:vertical;min-height:78px}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:8px}.submit-btn{width:100%;border:0;border-radius:9px;background:#4f78dd;color:#fff;padding:10px;font-size:.78rem;font-weight:650;cursor:pointer;margin-top:4px}.submit-btn:hover{background:#6088ea}.submit-btn:disabled{opacity:.5;cursor:default}.form-msg{text-align:center;min-height:1.2em;font-size:.7rem;margin-top:9px}.form-msg.success{color:var(--green)}.form-msg.error{color:var(--red)}
+/* footer */
+footer{border-top:1px solid #1b2533;background:#070a10;padding:24px max(24px,calc((100vw - var(--container))/2));display:flex;justify-content:space-between;align-items:center;gap:20px;color:#657286;font-size:.64rem}.disclaimer{max-width:700px;line-height:1.65}.footer-right{display:flex;flex-direction:column;align-items:flex-end;gap:3px;text-align:right}.footer-right a{color:#8997aa}.footer-right a:hover{color:#fff}
+/* responsive */
+@media(max-width:1000px){.home-hero{grid-template-columns:1fr;gap:35px;padding-top:65px}.demo-terminal{max-width:700px}.features{grid-template-columns:repeat(2,1fr)}.cat-grid{grid-template-columns:repeat(2,1fr)}.nav-meta{display:none}}
+@media(max-width:650px){nav{padding:0 14px;gap:12px}.nav-links{margin-left:auto}.nav-links a:not(.nav-cta){display:none}.nav-links .nav-cta{margin-left:0}.home-hero,.features,.section,.updates,.author-section,.upcoming,.dir-hero,.controls,.legend,.table-wrap{padding-left:15px;padding-right:15px}.home-hero{padding-top:48px}.home-hero h1{font-size:2.8rem}.home-hero>p{font-size:.88rem}.stats-bar{grid-template-columns:1fr}.stat{border-right:0;border-bottom:1px solid #222d3d}.stat:last-child{border-bottom:0}.features{grid-template-columns:1fr;margin-bottom:65px}.cat-grid,.upcoming-grid{grid-template-columns:1fr}.section,.updates,.upcoming,.author-section{margin-bottom:65px}.update-card{grid-template-columns:1fr;gap:4px}.controls{flex-direction:column}.controls .btn-primary,select{width:100%}.form-row{grid-template-columns:1fr}td.notes-cell,td.date-cell{display:none}footer{align-items:flex-start;flex-direction:column}.footer-right{align-items:flex-start;text-align:left}.search-shortcut{display:none}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+
+
+/* ── Readability & contrast pass (desktop-first) ── */
+:root{
+  --bg:#0b1020;
+  --panel:#121a2a;
+  --panel-2:#172238;
+  --panel-3:#1c2940;
+  --line:#2b3a54;
+  --line-soft:#24324a;
+  --text:#f7f9fc;
+  --muted:#b4bfd0;
+  --muted-2:#93a1b5;
+  --blue:#6ea8ff;
+  --blue-2:#9b8cff;
+}
+body{font-size:17px;line-height:1.72;background:var(--bg);color:var(--text)}
+body:before{background:linear-gradient(180deg,rgba(83,145,255,.07),transparent 38%),radial-gradient(circle at 88% 5%,rgba(124,105,255,.08),transparent 28rem)}
+.nav-logo{font-size:1.2rem}.nav-links a{font-size:.96rem;color:#b8c3d3}.nav-meta{font-size:.72rem;color:#9eabc0}
+.home-hero .eyebrow{font-size:.75rem}.home-hero>p{font-size:1.08rem;color:#bdc7d6;line-height:1.85}.home-search-box{min-height:58px;background:#111a2a;border-color:#34445f}.home-search-box input{font-size:1rem;color:#f7f9fc}.last-ai-update{font-size:.72rem;color:#93a1b5}
+.btn-primary,.btn-secondary{font-size:.95rem;padding:12px 17px}.section-title{font-size:1.9rem}.section-sub{font-size:1rem;color:#aeb9ca}
+.feature-card h3{font-size:1rem}.feature-card p{font-size:.9rem;color:#aeb9ca}.cat-name{font-size:.95rem}.cat-desc{font-size:.84rem;color:#a5b1c2}.update-date{font-size:.72rem}.update-content h4{font-size:1rem}.update-content p{font-size:.9rem;color:#aeb9ca}
+.upcoming-card h3{font-size:1.05rem}.upcoming-card p{font-size:.88rem;color:#aeb9ca}.author-info h3{font-size:1rem}.author-info p{font-size:.84rem;color:#aeb9ca}.author-link{font-size:.75rem}
+.dir-hero p{font-size:1rem;color:#aeb9ca}.controls input,.controls select{font-size:1rem;min-height:46px}.legend{font-size:.88rem;color:#aeb9ca}
+table{font-size:.95rem}thead th{font-size:.82rem;color:#b5c0d0;padding:15px 15px}tbody td{padding:15px;color:#e5eaf2}tbody tr:hover td{background:rgba(110,168,255,.055)}.badge{font-size:.78rem}.flag-btn{font-size:.72rem}
+footer{font-size:.76rem;color:#8f9db2}
+.modal{background:#121a2a;border-color:#34445f}.modal h2{font-size:1.5rem}.modal-sub,.form-group label{font-size:.9rem;color:#b5c0d0}.form-group input,.form-group select,.form-group textarea{font-size:1rem;background:#0e1727;color:#f7f9fc;border-color:#34445f}
+@media(max-width:650px){body{font-size:16px}.home-hero>p{font-size:.96rem}.section-sub{font-size:.9rem}.feature-card p,.cat-desc,.upcoming-card p,.update-content p{font-size:.84rem}table{font-size:.9rem}}
+
+
+/* ── Desktop readability + compact layout refinement ── */
+@media (min-width:1001px){
+  :root{--container:1360px}
+  body{font-size:18px;line-height:1.65}
+  nav{height:76px;gap:30px}
+  .nav-logo{font-size:1.2rem}
+  .nav-links{gap:6px}
+  .nav-links a{font-size:1rem;padding:10px 13px}
+  .nav-meta{font-size:.75rem}
+
+  /* Keep the existing HTML, but use the grid intentionally so content does not
+     get vertically stretched by the terminal card. */
+  .home-hero{
+    grid-template-columns:minmax(0,1fr) minmax(480px,.9fr);
+    grid-template-rows:auto auto auto auto auto;
+    column-gap:72px;
+    row-gap:18px;
+    align-items:start;
+    padding-top:72px;
+    padding-bottom:58px;
+  }
+  .home-hero .eyebrow{grid-column:1;grid-row:1;font-size:.82rem;padding:7px 12px;margin-bottom:0}
+  .home-hero h1{grid-column:1;grid-row:2;font-size:clamp(3.6rem,5vw,5.4rem);line-height:.98;margin:0 0 2px;max-width:760px}
+  .home-hero>p{grid-column:1;grid-row:3;font-size:1.12rem;line-height:1.75;max-width:720px;margin:0}
+  .hero-btns{grid-column:1;grid-row:4;align-self:start;margin-top:4px}
+  .hero-btns .btn-primary,.hero-btns .btn-secondary{font-size:1rem;padding:13px 18px}
+  .home-search{grid-column:2;grid-row:1 / span 2;width:100%;max-width:none;margin:0;align-self:start}
+  .home-search-box{min-height:64px;border-radius:13px;padding:7px 9px}
+  .home-search-box input{font-size:1.08rem;padding:12px 5px}
+  .home-search-box svg{width:20px;height:20px;margin-left:10px}
+  .search-shortcut{font-size:.7rem;padding:4px 8px}
+  .last-ai-update{font-size:.72rem;margin-top:10px}
+  .demo-terminal{grid-column:2;grid-row:3 / span 2;align-self:start;width:100%;max-width:none}
+  .terminal-card{border-radius:16px}
+  .terminal-body{padding:25px;font-size:.86rem;line-height:1.9}
+  .terminal-head{height:46px}
+  .terminal-label{font-size:.68rem}
+  .stats-bar{grid-column:1 / -1;grid-row:5;margin-top:8px}
+  .stat{padding:17px 20px}
+  .stat-num{font-size:1.25rem}
+  .stat-label{font-size:.76rem}
+
+  .features{margin-bottom:72px}
+  .feature-card{padding:26px 24px}
+  .feature-card h3{font-size:1.05rem;margin-bottom:7px}
+  .feature-card p{font-size:.9rem;line-height:1.7}
+  .section-title{font-size:2rem}
+  .section-sub{font-size:1rem;margin-bottom:24px}
+  .cat-card{min-height:150px;padding:20px}
+  .cat-name{font-size:1rem;margin-bottom:10px}
+  .cat-desc{font-size:.86rem;line-height:1.7}
+  .update-content h4{font-size:1rem}
+  .update-content p{font-size:.86rem}
+  .upcoming-card{min-height:180px;padding:22px}
+  .upcoming-card h3{font-size:1.08rem}
+  .upcoming-card p{font-size:.86rem}
+
+  /* Directory: larger text, tighter row height, stronger contrast. */
+  .dir-hero{padding-top:50px;padding-bottom:10px}
+  .dir-hero h1{font-size:clamp(2.5rem,4vw,3.6rem)}
+  .dir-hero p{font-size:1rem}
+  .controls{gap:10px;padding-top:18px;padding-bottom:13px}
+  .controls input,.controls select,input[type=search],input[type=text],select,textarea{font-size:1rem;min-height:50px}
+  .legend{gap:8px;padding-bottom:16px;font-size:.95rem}
+  .badge{font-size:.72rem;padding:5px 10px}
+  table{font-size:1rem;min-width:1000px}
+  thead th{font-size:.7rem;padding:14px 16px}
+  td{padding:17px 16px}
+  td.name-cell{font-size:1rem}
+  td.notes-cell{font-size:.88rem;line-height:1.55;color:#aeb9ca}
+  td.date-cell{font-size:.72rem;color:#9aa8bc}
+  .flag-btn{font-size:.68rem;padding:5px 8px}
+  .pagination{font-size:.8rem}
+  .page-btn{font-size:.7rem;padding:7px 10px}
+  footer{font-size:.78rem}
+}
+
+/* Better readability on tablets too, without changing the mobile design. */
+@media (min-width:651px) and (max-width:1000px){
+  body{font-size:17px}
+  .home-hero{gap:34px;padding-top:58px}
+  .home-hero h1{font-size:3.6rem}
+  .home-hero>p{font-size:1.05rem}
+  table{font-size:.98rem}
+  thead th{font-size:.72rem}
+  td{padding:15px}
+  td.name-cell{font-size:.98rem}
+  td.notes-cell{font-size:.86rem}
+}
+
+</style>
+</head>
+<body>
+
+<!-- ── NAVIGATION ── -->
+<nav>
+  <a class="nav-logo" href="#" onclick="showPage('home')">Is<span>It</span>Free?</a>
+  <div class="nav-links">
+    <a href="#" onclick="showPage('home')" id="nav-home">Home</a>
+    <a href="#" onclick="showPage('directory')" id="nav-directory">Directory</a>
+    <a href="#upcoming" onclick="showPage('home');setTimeout(()=>document.getElementById('upcoming').scrollIntoView({behavior:'smooth'}),0)" id="nav-upcoming">Upcoming</a>
+    <a href="https://navneet.webline.cloud/" class="nav-portfolio" target="_blank" rel="noopener">Portfolio</a>
+    <a href="https://github.com/navneet-20/SoftwareLicense.fyi" target="_blank" rel="noopener">GitHub</a>
+    <a href="#" class="nav-cta" onclick="showPage('directory');openModal()">+ Suggest</a>
+  </div>
+  <div class="nav-meta" id="navMeta"></div>
+</nav>
+
+<!-- ══════════════════════════════════════════════════════
+     HOME PAGE
+══════════════════════════════════════════════════════ -->
+<div class="page active" id="page-home">
+
+  <section class="home-hero">
+    <div class="eyebrow">🤖 AI-Verified · Updated Daily</div>
+    <h1>Is it <em>actually</em> free<br/>to use?</h1>
+    <p>A fast, AI-verified directory for understanding software licenses. Check whether a tool is open source, free for home use, requires a paid license, or offers a community edition.</p>
+    <div class="home-search" onclick="openSearch()">
+      <div class="home-search-box">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="search" id="homeSearchInput" placeholder="Search software tools…" aria-label="Search software" onclick="openSearch(event)" />
+        <span class="search-shortcut">/</span>
+      </div>
+      <div class="last-ai-update">Last AI update: <strong id="homeLastUpdate">Loading…</strong></div>
+    </div>
+    <div class="hero-btns">
+      <button class="btn-primary" onclick="showPage('directory')">Browse Directory →</button>
+      <a class="btn-secondary" href="https://github.com/navneet-20/SoftwareLicense.fyi" target="_blank" rel="noopener">⭐ Star on GitHub</a>
+    </div>
+
+    <div class="demo-terminal">
+      <div class="terminal-card" aria-label="Example software license check">
+        <div class="terminal-head">
+          <div class="terminal-dots"><i></i><i></i><i></i></div>
+          <div class="terminal-label">license check · demo</div>
+        </div>
+        <div class="terminal-body">
+          <div class="term-line"><span class="term-prompt">$</span> check figma</div>
+          <div class="term-result">
+            <span class="term-ok">✓ License for Commercial</span><br/>
+            <span class="term-muted">Free for personal use · commercial use requires a paid plan</span>
+          </div>
+          <div class="term-line"><span class="term-prompt">$</span> check blender</div>
+          <div class="term-result">
+            <span class="term-ok">✓ Open Source</span><br/>
+            <span class="term-muted">Open source software · verify current license terms before use</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats-bar" id="statsBar">
+      <div class="stat"><div class="stat-num" id="statEntries">—</div><div class="stat-label">Software entries</div></div>
+      <div class="stat"><div class="stat-num">5</div><div class="stat-label">License categories</div></div>
+      <div class="stat"><div class="stat-num">Daily</div><div class="stat-label">AI auto-updates</div></div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <div class="features">
+    <div class="feature-card">
+      <div class="feature-icon">🔍</div>
+      <h3>Instant Search</h3>
+      <p>Search software tools by name, category, or license type. Real-time filtering with no page reload.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🤖</div>
+      <h3>AI-Verified Daily</h3>
+      <p>Gemini AI automatically discovers and verifies 15 new software tools every day, keeping the directory fresh.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">⚖️</div>
+      <h3>5 License Categories</h3>
+      <p>Clear classification into Open Source, Free for Home, License Required, Commercial License, and Community Edition.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🌐</div>
+      <h3>Open & Free</h3>
+      <p>Fully open source on GitHub. Anyone can contribute, suggest software, or self-host their own instance.</p>
+    </div>
+  </div>
+
+  <!-- Categories -->
+  <div class="section">
+    <h2 class="section-title">Browse by Category</h2>
+    <p class="section-sub">Click any category to filter the directory instantly.</p>
+    <div class="cat-grid">
+      <div class="cat-card" onclick="showPage('directory');filterByCategory('Open Source')" style="border-left:3px solid var(--c-oss)">
+        <div class="cat-name" style="color:var(--c-oss)">🟢 Open Source</div>
+        <div class="cat-desc">Free for all use — source code available under MIT, GPL, Apache, etc.</div>
+      </div>
+      <div class="cat-card" onclick="showPage('directory');filterByCategory('Free for Home')" style="border-left:3px solid var(--c-home)">
+        <div class="cat-name" style="color:var(--c-home)">🟣 Free for Home</div>
+        <div class="cat-desc">Free for personal use only. Commercial use requires a paid plan.</div>
+      </div>
+      <div class="cat-card" onclick="showPage('directory');filterByCategory('License Required')" style="border-left:3px solid var(--c-paid)">
+        <div class="cat-name" style="color:var(--c-paid)">🔴 License Required</div>
+        <div class="cat-desc">A paid license is required for any type of use.</div>
+      </div>
+      <div class="cat-card" onclick="showPage('directory');filterByCategory('License for Commercial')" style="border-left:3px solid var(--c-comm)">
+        <div class="cat-name" style="color:var(--c-comm)">🟠 License for Commercial</div>
+        <div class="cat-desc">Free personally, but business use requires purchasing a license.</div>
+      </div>
+      <div class="cat-card" onclick="showPage('directory');filterByCategory('Community Version')" style="border-left:3px solid var(--c-ce)">
+        <div class="cat-name" style="color:var(--c-ce)">🔵 Community Version</div>
+        <div class="cat-desc">Free community edition available alongside paid enterprise tiers.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- What's New / Updates -->
+  <div class="updates">
+    <h2 class="section-title">What's New</h2>
+    <p class="section-sub">Latest updates to the directory and project.</p>
+
+    <div class="update-card">
+      <div class="update-date">Aug 2026</div>
+      <div class="update-content">
+        <span class="update-tag tag-new">NEW</span>
+        <h4>Daily AI Discovery Launched</h4>
+        <p>Gemini AI now automatically discovers and adds 15 new software tools to the directory every day at 1:30 PM IST. No manual work required.</p>
+      </div>
+    </div>
+    <div class="update-card">
+      <div class="update-date">Aug 2026</div>
+      <div class="update-content">
+        <span class="update-tag tag-update">UPDATE</span>
+        <h4>Upgraded to Gemini 3.6 Flash</h4>
+        <p>Switched to the latest Gemini model for faster and more accurate license verification. Added retry logic for high-demand periods.</p>
+      </div>
+    </div>
+    <div class="update-card">
+      <div class="update-date">Aug 2026</div>
+      <div class="update-content">
+        <span class="update-tag tag-new">LAUNCH</span>
+        <h4>IsItFree? Goes Live</h4>
+        <p>The AI-powered software license directory launched on <a href="https://isitfree.webline.cloud">isitfree.webline.cloud</a> with 25 initial entries across all 5 license categories.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Upcoming Features -->
+  <div class="upcoming" id="upcoming">
+    <h2 class="section-title">Upcoming Features</h2>
+    <p class="section-sub">More ways to make software decisions faster.</p>
+    <div class="upcoming-grid">
+      <div class="upcoming-card"><div class="upcoming-num">01 · COMING SOON</div><h3>Compare options</h3><p>Compare multiple software tools side-by-side using license, features, and suitability.</p></div>
+      <div class="upcoming-card"><div class="upcoming-num">02 · COMING SOON</div><h3>Approx pricing</h3><p>See approximate pricing ranges to quickly understand the likely cost before choosing a tool.</p></div>
+      <div class="upcoming-card"><div class="upcoming-num">03 · COMING SOON</div><h3>Free alternatives</h3><p>Find free and open-source alternatives when a preferred tool requires a paid license.</p></div>
+    </div>
+  </div>
+
+  <!-- Author -->
+  <div class="author-section">
+    <h2 class="section-title">Built by</h2>
+    <div class="author-card">
+      <div class="author-avatar">NK</div>
+      <div class="author-info">
+        <h3>Navneet Kumar</h3>
+        <p>Building IsItFree? to make software licensing transparent and accessible for developers, teams, and businesses worldwide.</p>
+        <div class="author-links">
+          <a class="author-link" href="https://navneet.webline.cloud/" target="_blank" rel="noopener">🌐 Portfolio</a>
+          <a class="author-link" href="https://github.com/navneet-20" target="_blank" rel="noopener">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            GitHub
+          </a>
+          <a class="author-link" href="https://github.com/navneet-20/SoftwareLicense.fyi" target="_blank" rel="noopener">
+            📁 View Source
+          </a>
+          <a class="author-link" href="https://github.com/navneet-20/SoftwareLicense.fyi/issues/new" target="_blank" rel="noopener">
+            💡 Suggest Software
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- end #page-home -->
+
+
+<!-- ══════════════════════════════════════════════════════
+     DIRECTORY PAGE
+══════════════════════════════════════════════════════ -->
+<div class="page" id="page-directory">
+
+  <div class="dir-hero">
+    <h1>Software License Directory</h1>
+    <p>AI-verified licensing info for <span id="entryCount">—</span> software tools. Updated daily.</p>
+    <div class="last-ai-update">Last AI update: <strong id="dirLastUpdate">Loading…</strong></div>
+  </div>
+
+  <div class="controls">
+    <div class="search-wrap">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="search" id="searchInput" placeholder="Search software…" aria-label="Search"/>
+    </div>
+    <select id="categoryFilter" aria-label="Filter by category">
+      <option value="">All categories</option>
+      <option value="Open Source">Open Source</option>
+      <option value="Free for Home">Free for Home</option>
+      <option value="License Required">License Required</option>
+      <option value="License for Commercial">License for Commercial</option>
+      <option value="Community Version">Community Version</option>
+    </select>
+    <button class="btn-primary" onclick="openModal()" style="padding:0.6rem 1.1rem;font-size:0.9rem">+ Suggest</button>
+  </div>
+
+  <div class="legend">
+    <span class="badge oss"><span class="badge-dot" style="background:var(--c-oss)"></span>Open Source</span>
+    <span class="badge home"><span class="badge-dot" style="background:var(--c-home)"></span>Free for Home</span>
+    <span class="badge paid"><span class="badge-dot" style="background:var(--c-paid)"></span>License Required</span>
+    <span class="badge comm"><span class="badge-dot" style="background:var(--c-comm)"></span>License for Commercial</span>
+    <span class="badge ce"><span class="badge-dot" style="background:var(--c-ce)"></span>Community Version</span>
+  </div>
+
+  <div class="table-wrap">
+    <div id="loadingMsg" class="state-msg">Loading directory…</div>
+    <table id="mainTable" style="display:none" aria-label="Software license directory">
+      <thead>
+        <tr>
+          <th data-col="Software Name">Software <span class="sort-icon">↕</span></th>
+          <th data-col="Category">Category <span class="sort-icon">↕</span></th>
+          <th data-col="License Status">Status <span class="sort-icon">↕</span></th>
+          <th data-col="Notes">Notes</th>
+          <th data-col="Last Updated">Updated <span class="sort-icon">↕</span></th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+    <div id="emptyMsg" class="state-msg" style="display:none">No matching software found.</div>
+    <div class="pagination" id="pagination" style="display:none">
+      <span id="pageInfo"></span>
+      <div class="page-btns" id="pageBtns"></div>
+    </div>
+  </div>
+
+</div><!-- end #page-directory -->
+
+
+<!-- ── FOOTER ── -->
+<footer>
+  <p class="disclaimer">⚠️ License data is AI-verified and updated daily. Always confirm terms on the official website before commercial use. For informational purposes only.</p>
+  <div class="footer-right">
+    <span id="footerMeta"></span>
+    <span>Built by <a href="https://github.com/navneet-20" target="_blank">Navneet Kumar</a> · <a href="https://github.com/navneet-20/SoftwareLicense.fyi" target="_blank">Source on GitHub</a></span>
+  </div>
+</footer>
+
+
+<!-- ── FLAG ERROR MODAL ── -->
+<div class="modal-backdrop" id="flagBackdrop" onclick="handleFlagBackdropClick(event)">
+  <div class="modal">
+    <button class="modal-close" onclick="closeFlagModal()">✕</button>
+    <h2>Flag a Software Error</h2>
+    <p class="modal-sub">Found incorrect licensing information? Tell us what needs to be corrected and we'll review it.</p>
+    <div class="form-group"><label>Software Name</label><input type="text" id="flag-name" readonly /></div>
+    <div class="form-group"><label>What is wrong? *</label><textarea id="flag-notes" placeholder="Example: The license status is outdated or the category is incorrect…"></textarea></div>
+    <div class="form-group"><label>Correct Information / Source URL (optional)</label><input type="url" id="flag-url" placeholder="https://official-site.com/licensing" /></div>
+    <div class="form-group"><label>GitHub Token *</label><input type="text" id="flag-token" placeholder="ghp_xxxxxxxxxxxx" /></div>
+    <button class="submit-btn" id="flagSubmitBtn" onclick="submitFlag()">Submit Error Report →</button>
+    <p class="form-msg" id="flagMsg"></p>
+  </div>
+</div>
+
+<!-- ── SUGGEST MODAL ── -->
+<div class="modal-backdrop" id="modalBackdrop" onclick="handleBackdropClick(event)">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <h2>Suggest a Software</h2>
+    <p class="modal-sub">We'll review your suggestion and add it after verification. A GitHub token with <code>public_repo</code> scope is needed to open the issue — <a href="https://github.com/settings/tokens/new?scopes=public_repo&description=IsItFree+Suggest" target="_blank">generate one here</a>.</p>
+    <div class="form-group"><label>Software Name *</label><input type="text" id="f-name" placeholder="e.g. Figma"/></div>
+    <div class="form-row">
+      <div class="form-group">
+        <label>Category *</label>
+        <select id="f-category">
+          <option value="">Select…</option>
+          <option>Open Source</option><option>Free for Home</option>
+          <option>License Required</option><option>License for Commercial</option>
+          <option>Community Version</option>
+        </select>
+      </div>
+      <div class="form-group"><label>Official URL *</label><input type="url" id="f-url" placeholder="https://example.com"/></div>
+    </div>
+    <div class="form-group"><label>Notes (optional)</label><textarea id="f-notes" placeholder="Brief licensing description…"></textarea></div>
+    <div class="form-group"><label>GitHub Token *</label><input type="text" id="f-token" placeholder="ghp_xxxxxxxxxxxx"/></div>
+    <button class="submit-btn" id="submitBtn" onclick="submitSuggestion()">Submit Suggestion →</button>
+    <p class="form-msg" id="formMsg"></p>
+  </div>
+</div>
+
+
+<script>
+  // ── Config ───────────────────────────────────────────────
+  const CSV_URL     = "data/software_list.csv";
+  const PAGE_SIZE   = 15;
+  const GITHUB_REPO = "navneet-20/SoftwareLicense.fyi";
+
+  // ── State ────────────────────────────────────────────────
+  let allRows = [], filtered = [], sortCol = "Software Name", sortAsc = true, currentPage = 1;
+
+  const CAT_CLASS = {
+    "Open Source":"oss","Free for Home":"home",
+    "License Required":"paid","License for Commercial":"comm","Community Version":"ce"
+  };
+  const CAT_COLORS = { oss:"var(--c-oss)",home:"var(--c-home)",paid:"var(--c-paid)",comm:"var(--c-comm)",ce:"var(--c-ce)" };
+
+  // ── Page routing ─────────────────────────────────────────
+  function showPage(name) {
+    document.querySelectorAll(".page").forEach(p => p.classList.remove("active"));
+    document.getElementById("page-" + name).classList.add("active");
+    document.querySelectorAll(".nav-links a[id^='nav-']").forEach(a => a.classList.remove("active"));
+    const navEl = document.getElementById("nav-" + name);
+    if (navEl) navEl.classList.add("active");
+    window.scrollTo(0, 0);
+    if (name === "directory" && allRows.length > 0) applyFilter();
+  }
+
+  function filterByCategory(cat) {
+    document.getElementById("categoryFilter").value = cat;
+    applyFilter();
+  }
+
+  // ── CSV Parser ───────────────────────────────────────────
+  function parseCSV(text) {
+    const lines = text.trim().split("\n");
+    const headers = lines[0].split(",").map(h => h.trim().replace(/^"|"$/g,""));
+    return lines.slice(1).map(line => {
+      const cols=[]; let cur="",inQ=false;
+      for(const ch of line){ if(ch==='"'){inQ=!inQ;}else if(ch===','&&!inQ){cols.push(cur.trim());cur="";}else{cur+=ch;} }
+      cols.push(cur.trim());
+      const row={};
+      headers.forEach((h,i)=>row[h]=(cols[i]||"").replace(/^"|"$/g,""));
+      return row;
+    });
+  }
+
+  function makeBadge(category) {
+    const cls = CAT_CLASS[category]||"ce";
+    return `<span class="badge ${cls}"><span class="badge-dot" style="background:${CAT_COLORS[cls]}"></span>${category}</span>`;
+  }
+
+  // ── Table render ─────────────────────────────────────────
+  function renderTable() {
+    const tbody=document.getElementById("tableBody"),emptyMsg=document.getElementById("emptyMsg"),
+          table=document.getElementById("mainTable"),pag=document.getElementById("pagination");
+    if(!filtered.length){table.style.display="none";emptyMsg.style.display="block";pag.style.display="none";return;}
+    emptyMsg.style.display="none";table.style.display="table";
+    const totalPages=Math.ceil(filtered.length/PAGE_SIZE),start=(currentPage-1)*PAGE_SIZE;
+    tbody.innerHTML=filtered.slice(start,start+PAGE_SIZE).map(r=>{
+      const url=r["Official URL"]||"#",name=r["Software Name"]||"—";
+      const link=url!=="#"
+        ?`<a href="${url}" target="_blank" rel="noopener">${name}<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>`
+        :name;
+      const safeName=String(name).replace(/'/g,"&#39;").replace(/"/g,"&quot;");
+      return `<tr><td class="name-cell"><div class="name-wrap">${link}<button class="flag-btn" type="button" onclick="openFlagModal('${safeName}')" title="Flag incorrect information">⚑ Flag error</button></div></td><td>${makeBadge(r["Category"])}</td><td>${r["License Status"]||"—"}</td><td class="notes-cell">${r["Notes"]||"—"}</td><td class="date-cell">${r["Last Updated"]||"—"}</td></tr>`;
+    }).join("");
+    document.getElementById("pageInfo").textContent=`${start+1}–${Math.min(start+PAGE_SIZE,filtered.length)} of ${filtered.length} entries`;
+    const btns=document.getElementById("pageBtns");btns.innerHTML="";
+    const addBtn=(label,page,disabled=false)=>{
+      const b=document.createElement("button");
+      b.className="page-btn"+(page===currentPage?" active":"");
+      b.textContent=label;b.disabled=disabled;
+      b.onclick=()=>{currentPage=page;renderTable();};
+      btns.appendChild(b);
+    };
+    addBtn("←",currentPage-1,currentPage===1);
+    for(let p=1;p<=totalPages;p++){
+      if(totalPages<=7||p===1||p===totalPages||Math.abs(p-currentPage)<=1)addBtn(p,p);
+      else if(Math.abs(p-currentPage)===2){const sp=document.createElement("span");sp.textContent="…";sp.style.cssText="color:var(--muted);padding:0 4px;line-height:1.8";btns.appendChild(sp);}
+    }
+    addBtn("→",currentPage+1,currentPage===totalPages);
+    pag.style.display="flex";
+  }
+
+  function applyFilter() {
+    const q=document.getElementById("searchInput").value.toLowerCase();
+    const cat=document.getElementById("categoryFilter").value;
+    filtered=allRows.filter(r=>(!q||Object.values(r).some(v=>v.toLowerCase().includes(q)))&&(!cat||r["Category"]===cat));
+    filtered.sort((a,b)=>{const va=(a[sortCol]||"").toLowerCase(),vb=(b[sortCol]||"").toLowerCase();return sortAsc?va.localeCompare(vb):vb.localeCompare(va);});
+    currentPage=1;renderTable();
+  }
+
+  document.querySelectorAll("thead th[data-col]").forEach(th=>{
+    th.addEventListener("click",()=>{
+      const col=th.dataset.col;
+      if(sortCol===col)sortAsc=!sortAsc;else{sortCol=col;sortAsc=true;}
+      document.querySelectorAll("thead th").forEach(h=>h.classList.remove("asc","desc"));
+      th.classList.add(sortAsc?"asc":"desc");applyFilter();
+    });
+  });
+  document.getElementById("searchInput").addEventListener("input",applyFilter);
+  document.getElementById("categoryFilter").addEventListener("change",applyFilter);
+
+  // ── Search shortcuts / direct search tab ────────────────
+  function openSearch(e){
+    if(e) e.stopPropagation();
+    const homeInput=document.getElementById("homeSearchInput");
+    const value=homeInput ? homeInput.value : "";
+    showPage("directory");
+    const input=document.getElementById("searchInput");
+    input.value=value;
+    input.focus();
+    applyFilter();
+  }
+  document.addEventListener("keydown",e=>{
+    if(e.key==="/" && !["INPUT","TEXTAREA","SELECT"].includes(document.activeElement.tagName)){
+      e.preventDefault(); openSearch();
+    }
+  });
+  document.getElementById("homeSearchInput").addEventListener("input",e=>{
+    document.getElementById("searchInput").value=e.target.value;
+  });
+
+  // ── Flag error modal ─────────────────────────────────────
+  function openFlagModal(name){
+    document.getElementById("flag-name").value=name;
+    document.getElementById("flag-notes").value="";
+    document.getElementById("flag-url").value="";
+    document.getElementById("flag-token").value="";
+    document.getElementById("flagMsg").textContent="";
+    document.getElementById("flagMsg").className="form-msg";
+    document.getElementById("flagSubmitBtn").disabled=false;
+    document.getElementById("flagBackdrop").classList.add("open");
+  }
+  function closeFlagModal(){document.getElementById("flagBackdrop").classList.remove("open");}
+  function handleFlagBackdropClick(e){if(e.target===e.currentTarget)closeFlagModal();}
+  function setFlagMsg(text,type){const el=document.getElementById("flagMsg");el.textContent=text;el.className=`form-msg ${type}`;}
+  async function submitFlag(){
+    const name=document.getElementById("flag-name").value.trim();
+    const notes=document.getElementById("flag-notes").value.trim();
+    const url=document.getElementById("flag-url").value.trim();
+    const token=document.getElementById("flag-token").value.trim();
+    if(!notes||!token){setFlagMsg("Please describe the error and provide a GitHub token.","error");return;}
+    if(url && !url.startsWith("http")){setFlagMsg("Please enter a valid source URL starting with https://","error");return;}
+    const btn=document.getElementById("flagSubmitBtn");btn.disabled=true;setFlagMsg("Submitting…","");
+    const issueBody=`## Software License Error Report\n\n| Field | Value |\n|---|---|\n| **Software Name** | ${name} |\n| **Reported Error** | ${notes} |\n| **Correct Information / Source** | ${url||"—"} |\n\n---\n_Submitted via IsItFree? flag error form._`;
+    try{
+      const res=await fetch(`https://api.github.com/repos/${GITHUB_REPO}/issues`,{
+        method:"POST",
+        headers:{"Authorization":`token ${token}`,"Content-Type":"application/json","Accept":"application/vnd.github.v3+json"},
+        body:JSON.stringify({title:`[License Error] ${name}`,body:issueBody,labels:["license-error"]})
+      });
+      if(res.status===201){const data=await res.json();setFlagMsg(`✅ Reported! Issue #${data.number} created.` ,"success");setTimeout(closeFlagModal,2500);}
+      else if(res.status===401){setFlagMsg("Invalid GitHub token.","error");btn.disabled=false;}
+      else{const err=await res.json();setFlagMsg(`Error: ${err.message||"Failed."}`,"error");btn.disabled=false;}
+    }catch(e){setFlagMsg("Network error. Please try again.","error");btn.disabled=false;}
+  }
+
+  // ── Load CSV ─────────────────────────────────────────────
+  async function loadData() {
+    try {
+      const resp=await fetch(CSV_URL);
+      if(!resp.ok)throw new Error(`HTTP ${resp.status}`);
+      allRows=parseCSV(await resp.text());
+      document.getElementById("loadingMsg").style.display="none";
+      const dates=allRows.map(r=>r["Last Updated"]).filter(Boolean).sort();
+      const lastDate=dates.at(-1)||"unknown";
+      document.getElementById("navMeta").textContent=`${allRows.length} entries`;
+      document.getElementById("entryCount").textContent=allRows.length;
+      document.getElementById("statEntries").textContent=allRows.length+"+";
+      document.getElementById("footerMeta").textContent=`${allRows.length} entries · ${lastDate}`;
+      document.getElementById("homeLastUpdate").textContent=lastDate;
+      document.getElementById("dirLastUpdate").textContent=lastDate;
+      applyFilter();
+    } catch(err){
+      document.getElementById("loadingMsg").textContent="⚠️ Could not load data.";
+      console.error(err);
+    }
+  }
+
+  // ── Modal ────────────────────────────────────────────────
+  function openModal(){document.getElementById("modalBackdrop").classList.add("open");}
+  function closeModal(){document.getElementById("modalBackdrop").classList.remove("open");resetForm();}
+  function handleBackdropClick(e){if(e.target===e.currentTarget)closeModal();}
+  document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeModal();closeFlagModal();}});
+  function resetForm(){
+    ["f-name","f-url","f-notes","f-token"].forEach(id=>document.getElementById(id).value="");
+    document.getElementById("f-category").value="";
+    document.getElementById("formMsg").textContent="";
+    document.getElementById("formMsg").className="form-msg";
+    document.getElementById("submitBtn").disabled=false;
+  }
+  function setMsg(text,type){const el=document.getElementById("formMsg");el.textContent=text;el.className=`form-msg ${type}`;}
+
+  async function submitSuggestion(){
+    const name=document.getElementById("f-name").value.trim();
+    const category=document.getElementById("f-category").value;
+    const url=document.getElementById("f-url").value.trim();
+    const notes=document.getElementById("f-notes").value.trim();
+    const token=document.getElementById("f-token").value.trim();
+    if(!name||!category||!url||!token){setMsg("Please fill in all required fields.","error");return;}
+    if(!url.startsWith("http")){setMsg("Please enter a valid URL starting with https://","error");return;}
+    const btn=document.getElementById("submitBtn");btn.disabled=true;setMsg("Submitting…","");
+    const issueBody=`## Software Suggestion\n\n| Field | Value |\n|---|---|\n| **Software Name** | ${name} |\n| **Category** | ${category} |\n| **Official URL** | ${url} |\n| **Notes** | ${notes||"—"} |\n\n---\n_Submitted via IsItFree? suggestion form._\n\n<!-- CSV_ROW: ${name},${category},,${url},${new Date().toISOString().split("T")[0]},${notes} -->`;
+    try{
+      const res=await fetch(`https://api.github.com/repos/${GITHUB_REPO}/issues`,{
+        method:"POST",
+        headers:{"Authorization":`token ${token}`,"Content-Type":"application/json","Accept":"application/vnd.github.v3+json"},
+        body:JSON.stringify({title:`[Suggestion] ${name}`,body:issueBody,labels:["software-suggestion"]})
+      });
+      if(res.status===201){const data=await res.json();setMsg(`✅ Submitted! Issue #${data.number} created.`,"success");setTimeout(closeModal,3000);}
+      else if(res.status===401){setMsg("Invalid GitHub token.","error");btn.disabled=false;}
+      else{const err=await res.json();setMsg(`Error: ${err.message||"Failed."}` ,"error");btn.disabled=false;}
+    }catch(e){setMsg("Network error. Please try again.","error");btn.disabled=false;}
+  }
+
+  loadData();
+  showPage("home");
+</script>
+</body>
+</html>

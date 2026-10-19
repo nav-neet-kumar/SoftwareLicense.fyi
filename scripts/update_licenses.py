@@ -11,6 +11,8 @@ import os
 import sys
 import json
 import time
+import re
+import difflib
 import requests
 import pandas as pd
 from datetime import date
@@ -23,7 +25,9 @@ OPENAI_KEY    = os.getenv("OPENAI_API_KEY", "")
 GEMINI_KEY    = os.getenv("GEMINI_API_KEY", "")
 ANTHROPIC_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 
-CSV_PATH = Path(__file__).parent.parent / "data" / "software_list.csv"
+ROOT = Path(__file__).parent.parent
+CSV_PATH = ROOT / "data" / "software_list.csv"
+RECENT_PATH = ROOT / "data" / "recent_updates.json"
 
 VALID_CATEGORIES = [
     "Open Source",
@@ -124,6 +128,17 @@ def is_url_reachable(url: str, timeout: int = 8) -> bool:
 
 # ── Core Update Logic ──────────────────────────────────────────────────────────
 
+def notes_materially_changed(old: str, new: str) -> bool:
+    old_text = re.sub(r"\s+", " ", str(old or "")).strip().casefold()
+    new_text = re.sub(r"\s+", " ", str(new or "")).strip().casefold()
+    if old_text == new_text:
+        return False
+    critical = re.compile(r"\b(not|no|only|commercial|business|personal|home|free|paid|trial|subscription|license|licence|limit|watermark|seat|user|gb|monthly|annual|open|closed|deprecated|discontinued|enterprise|community|requires|required|allows|allowed|prohibited|permitted|unlimited|restricted|source)\b")
+    if set(critical.findall(old_text)) != set(critical.findall(new_text)):
+        return True
+    return difflib.SequenceMatcher(None, old_text, new_text).ratio() < 0.82
+
+
 def update_row(row: pd.Series) -> pd.Series:
     name = row["Software Name"]
     url  = row.get("Official URL", "")
@@ -146,12 +161,34 @@ def update_row(row: pd.Series) -> pd.Series:
         print(f"    [WARN] Invalid category '{category}' — keeping original")
         category = row["Category"]
 
-    row["Category"]       = category
-    row["License Status"] = result.get("license_status", row["License Status"])
-    row["Notes"]          = result.get("notes", row.get("Notes", ""))
-    row["Last Updated"]   = str(date.today())
+    confidence = str(result.get("confidence", "?")).lower().strip()
+    if confidence != "high":
+        print(f"    [SKIP] Confidence is {confidence or 'unknown'}; preserving current record")
+        return row
 
-    confidence = result.get("confidence", "?")
+    old_category = str(row.get("Category", ""))
+    old_status = str(row.get("License Status", ""))
+    old_notes = str(row.get("Notes", ""))
+    new_status = str(result.get("license_status", old_status) or old_status).strip()
+    suggested_notes = str(result.get("notes", old_notes) or old_notes).strip()
+    category_changed = category != old_category
+    status_changed = new_status != old_status
+    notes_changed = notes_materially_changed(old_notes, suggested_notes)
+
+    row["Category"] = category
+    row["License Status"] = new_status
+    # Avoid rewriting notes on every run for cosmetic paraphrases. Apply them when
+    # licensing classification/status changes or when the notes change materially.
+    if category_changed or status_changed or notes_changed:
+        row["Notes"] = suggested_notes
+    else:
+        row["Notes"] = old_notes
+
+    after = (str(row.get("Category", "")), str(row.get("License Status", "")), str(row.get("Notes", "")))
+    before = (old_category, old_status, old_notes)
+    if after != before:
+        row["Last Updated"] = str(date.today())
+
     print(f"    → {category} | {row['License Status']} (confidence: {confidence})")
     return row
 
@@ -170,16 +207,33 @@ def run():
     print(f"\nLoaded {len(df)} software entries.\n")
 
     updated_rows = []
+    recent_events = []
     for i, row in df.iterrows():
+        original = row.copy()
         updated_row = update_row(row)
         updated_rows.append(updated_row)
+        changed = any(str(original.get(field, "")) != str(updated_row.get(field, "")) for field in ("Category", "License Status", "Notes", "Official URL"))
+        if changed:
+            name = str(updated_row.get("Software Name", "")).strip()
+            slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+            recent_events.append({
+                "name": name, "slug": slug, "type": "UPDATED", "date": str(date.today()),
+                "category": str(updated_row.get("Category", "")), "url": str(updated_row.get("Official URL", "")),
+            })
         time.sleep(1.2)  # Respect API rate limits
 
     updated_df = pd.DataFrame(updated_rows)
     updated_df.to_csv(CSV_PATH, index=False)
-
-    print(f"\n✅ Done. Updated CSV saved to {CSV_PATH}")
-    print(f"   Processed {len(updated_df)} entries on {date.today()}")
+    if recent_events:
+        try:
+            existing_events = json.loads(RECENT_PATH.read_text(encoding="utf-8")) if RECENT_PATH.exists() else []
+            if not isinstance(existing_events, list):
+                existing_events = []
+        except (OSError, json.JSONDecodeError):
+            existing_events = []
+        RECENT_PATH.write_text(json.dumps((existing_events + recent_events)[-100:], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"\nDone. Saved CSV to {CSV_PATH}")
+    print(f"   Processed {len(updated_df)} entries; materially changed {len(recent_events)} on {date.today()}")
 
 
 if __name__ == "__main__":
