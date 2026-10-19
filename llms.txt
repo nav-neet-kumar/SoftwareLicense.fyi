@@ -1,0 +1,20 @@
+# IsItFree?
+
+> IsItFree? is a public software licensing directory that helps people understand whether software is open source, free for personal use, offers a community/free tier, or requires a paid license.
+
+## Public resources
+
+- Homepage: https://isitfree.webline.cloud/
+- Software directory: https://isitfree.webline.cloud/#page-directory
+- XML sitemap: https://isitfree.webline.cloud/sitemap.xml
+- Robots policy: https://isitfree.webline.cloud/robots.txt
+- Software detail pages: https://isitfree.webline.cloud/software/{software-slug}/
+- Project source: https://github.com/navneet-20/SoftwareLicense.fyi
+
+## How to interpret information
+
+Each software page summarizes the directory's current record, licensing context, limitations, and official vendor sources when available. AI-generated explanations are informational summaries, not legal advice or a substitute for the vendor's current license, pricing page, or terms. Verify commercial-use rights and current prices with the official source before relying on them.
+
+## Crawling
+
+Public pages are intended to be discoverable by search engines and AI agents. The directory does not require authentication to read public software information.
