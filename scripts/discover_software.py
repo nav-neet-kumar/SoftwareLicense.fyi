@@ -1,224 +1,225 @@
-"""
-discover_software.py
-AI-Powered Software License Directory — Auto Discovery
-Asks Gemini to suggest 10 new software tools not already in the CSV,
-verifies their license info, and appends them to software_list.csv.
-"""
-
-import os
-import sys
-import json
-import time
-import requests
-import pandas as pd
+"""Token-conscious software discovery with local duplicate checks and ambiguity clarification."""
+import difflib, hashlib, json, os, re, sys, time
 from datetime import date
 from pathlib import Path
+from urllib.parse import urlparse
+import pandas as pd
+import requests
 from google import genai
 
-# ── Config ─────────────────────────────────────────────────────────────────────
-GEMINI_KEY  = os.getenv("GEMINI_API_KEY", "")
-CSV_PATH    = Path(__file__).parent.parent / "data" / "software_list.csv"
-NEW_PER_RUN  = 15
-GEMINI_MODEL = "gemini-3.6-flash"
-MAX_RETRIES  = 3
-RETRY_DELAY  = 60  # seconds between retries on 503
-
-VALID_CATEGORIES = [
-    "Open Source",
-    "Free for Home",
-    "License Required",
-    "License for Commercial",
-    "Community Version",
-]
-
-# ── Gemini client (initialised once) ──────────────────────────────────────────
-client = genai.Client(api_key=GEMINI_KEY)
-
-def call_gemini(prompt: str) -> str:
-    for attempt in range(1, MAX_RETRIES + 1):
-        try:
-            response = client.models.generate_content(
-                model=GEMINI_MODEL,
-                contents=prompt,
-            )
-            return response.text.strip().replace("```json", "").replace("```", "").strip()
-        except Exception as e:
-            if "503" in str(e) or "UNAVAILABLE" in str(e):
-                if attempt < MAX_RETRIES:
-                    print(f"  [RETRY {attempt}/{MAX_RETRIES}] Gemini busy, waiting {RETRY_DELAY}s...")
-                    time.sleep(RETRY_DELAY)
-                else:
-                    raise
-            else:
-                raise
+ROOT = Path(__file__).resolve().parent.parent
+CSV_PATH = ROOT / "data" / "software_list.csv"
+RECENT_PATH = ROOT / "data" / "recent_updates.json"
+MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
+TARGET = int(os.getenv("NEW_PER_RUN", "15"))
+CATEGORIES = {"Open Source", "Free for Home", "License Required", "License for Commercial", "Community Version"}
+COLUMNS = ["Software Name", "Category", "License Status", "Official URL", "Last Updated", "Notes"]
+KEY = os.getenv("GEMINI_API_KEY", "")
+CLIENT = genai.Client(api_key=KEY) if KEY else None
+USAGE = {"requests": 0, "retries": 0, "prompt_tokens": 0, "output_tokens": 0, "total_tokens": 0}
 
 
-# ── Load existing software names ───────────────────────────────────────────────
-def load_existing_names(df: pd.DataFrame) -> list[str]:
-    return [n.strip().lower() for n in df["Software Name"].dropna().tolist()]
-
-
-# ── Step 1: Ask Gemini to suggest 10 new tools ────────────────────────────────
-def discover_new_software(existing_names: list[str]) -> list[dict]:
-    existing_str = "\n".join(f"- {n}" for n in existing_names)
-
-    prompt = f"""
-You’re a software licensing expert building a directory of popular tools.
-
-These software tools are already listed — do NOT suggest any of these:
-{existing_str}
-
-Your task: Suggest exactly {NEW_PER_RUN} well-known software tools NOT in the list above.
-Pick from a variety of categories: developer, productivity apps, design, jdks,
-databases, security, communication, creative software, cloud, etc.
-
-For each tool, classify into EXACTLY ONE of these license categories:
-1. "Open Source"            — Source available, free for all (MIT, GPL, Apache, etc.)
-2. "Free for Home"          — Free for personal use only; commercial use requires payment
-3. "License Required"       — Paid license required for any use
-4. "License for Commercial" — Free personally, but paid license needed for business
-5. "Community Version"      — Free community edition alongside paid enterprise tiers
-
-Return ONLY a valid JSON array, no markdown, no explanation:
-[
-  {{
-    "software_name": "Example App",
-    "category": "Open Source",
-    "license_status": "Free - Open Source",
-    "official_url": "https://example.com",
-    "notes": "One-Two sentence describing the key licensing detail."
-  }}
-]
-"""
+def parse_json(raw):
+    text = str(raw or "").strip()
     try:
-        text = call_gemini(prompt)
-        suggestions = json.loads(text)
-        print(f"  Gemini suggested {len(suggestions)} new tools.")
-        return suggestions
-    except json.JSONDecodeError as e:
-        print(f"[ERROR] JSON parse error from Gemini: {e}")
-        return []
-    except Exception as e:
-        print(f"[ERROR] Gemini discovery failed: {e}")
-        return []
-
-
-# ── Step 2: Verify each suggestion with a second Gemini call ──────────────────
-def verify_software(name: str, url: str) -> dict | None:
-    prompt = f"""
-Verify the current licensing status of "{name}" (official site: {url}).
-
-Classify into EXACTLY ONE of:
-1. "Open Source"
-2. "Free for Home"
-3. "License Required"
-4. "License for Commercial"
-5. "Community Version"
-
-Return ONLY valid JSON, no markdown:
-{{
-  "software_name": "{name}",
-  "category": "<one of the 5 above>",
-  "license_status": "<concise status>",
-  "official_url": "{url}",
-  "notes": "<one sentence on the key licensing detail>",
-  "confidence": "<high|medium|low>"
-}}
-"""
-    try:
-        text = call_gemini(prompt)
         return json.loads(text)
-    except Exception as e:
-        print(f"    [WARN] Verification failed for {name}: {e}")
-        return None
+    except json.JSONDecodeError:
+        match = re.search(r"(\[[\s\S]*\]|\{[\s\S]*\})", text)
+        if not match:
+            raise
+        return json.loads(match.group(1))
 
 
-# ── Step 3: Check URL is reachable ────────────────────────────────────────────
-def is_url_reachable(url: str, timeout: int = 8) -> bool:
+def ask(prompt):
+    if CLIENT is None:
+        raise RuntimeError("GEMINI_API_KEY is missing")
+    error = None
+    for attempt in range(1, 4):
+        try:
+            USAGE["requests"] += 1
+            response = CLIENT.models.generate_content(model=MODEL, contents=prompt, config={"temperature": 0.1, "response_mime_type": "application/json"})
+            usage = getattr(response, "usage_metadata", None)
+            if usage:
+                USAGE["prompt_tokens"] += int(getattr(usage, "prompt_token_count", 0) or 0)
+                USAGE["output_tokens"] += int(getattr(usage, "candidates_token_count", 0) or 0)
+                USAGE["total_tokens"] += int(getattr(usage, "total_token_count", 0) or 0)
+            if not getattr(response, "text", None):
+                raise ValueError("Gemini returned empty output")
+            return response.text.strip()
+        except Exception as exc:
+            error = exc
+            transient = any(x in str(exc).lower() for x in ("429", "503", "unavailable", "resource_exhausted", "rate limit", "timeout", "temporarily"))
+            if not transient or attempt == 3:
+                break
+            USAGE["retries"] += 1
+            delay = 4 * (2 ** (attempt - 1))
+            print(f"[RETRY {attempt}/3] Temporary Gemini error; waiting {delay}s")
+            time.sleep(delay)
+    raise RuntimeError(f"Gemini request failed after retries: {error}") from error
+
+
+def norm(value):
+    value = str(value or "").casefold()
+    value = re.sub(r"\b(incorporated|inc|corporation|corp|limited|ltd|llc|gmbh|company|co)\b", " ", value)
+    return re.sub(r"[^a-z0-9]+", "", value)
+
+
+def domain(url):
+    host = (urlparse(str(url or "")).hostname or "").lower()
+    return host[4:] if host.startswith("www.") else host
+
+
+def local_match(candidate, rows):
+    key = norm(candidate.get("software_name", ""))
+    exact = [r for r in rows if norm(r["Software Name"]) == key]
+    if exact:
+        return "same", exact[:3]
+    near = []
+    for row in rows:
+        other = norm(row["Software Name"])
+        score = difflib.SequenceMatcher(None, key, other).ratio() if other else 0
+        if score >= 0.76 or (len(key) >= 5 and (key in other or other in key)):
+            near.append((score, row))
+    near.sort(key=lambda x: x[0], reverse=True)
+    return ("ambiguous", [r for _, r in near[:4]]) if near else ("new", [])
+
+
+def clarify(candidate, matches):
+    payload = {
+        "candidate": {"name": candidate.get("software_name", ""), "url": candidate.get("official_url", ""), "notes": str(candidate.get("notes", ""))[:200]},
+        "possible_existing_matches": [{"name": r["Software Name"], "url": r["Official URL"], "category": r["Category"], "notes": str(r["Notes"])[:140]} for r in matches],
+    }
+    prompt = """Are these the same software product? Similar names or shared vendor domains alone do not prove identity. Distinguish separate products such as Visual Studio and Visual Studio Code. Return JSON only: decision (SAME_PRODUCT, DIFFERENT_PRODUCT, UNCERTAIN), matched_name, reason. Input: """ + json.dumps(payload, ensure_ascii=False)
+    answer = parse_json(ask(prompt))
+    decision = str(answer.get("decision", "UNCERTAIN")).upper()
+    if decision not in {"SAME_PRODUCT", "DIFFERENT_PRODUCT", "UNCERTAIN"}:
+        decision = "UNCERTAIN"
+    print(f"[CLARIFY] {candidate.get('software_name')}: {decision} — {str(answer.get('reason', ''))[:120]}")
+    return decision
+
+
+def discover(batch):
+    prompt = f"""Suggest up to 24 real, distinct software products for a software-license directory (batch {batch}). Choose varied categories. Do not invent products, URLs, or license facts. Return a JSON array with software_name, category (one of {sorted(CATEGORIES)}), license_status, official_url (HTTPS), evidence_url, and notes. Use unknown if facts cannot be established. Python will compare candidates against the local CSV; do not request any existing-directory list."""
+    data = parse_json(ask(prompt))
+    if not isinstance(data, list):
+        raise ValueError("Discovery response must be a JSON array")
+    return [x for x in data if isinstance(x, dict)]
+
+
+def verify_batch(candidates):
+    compact = [{"software_name": c.get("software_name", ""), "official_url": c.get("official_url", ""), "suggested_category": c.get("category", ""), "notes": str(c.get("notes", ""))[:180], "evidence_url": c.get("evidence_url", "")} for c in candidates]
+    prompt = """Verify these software records. Return a JSON array with one object per candidate: software_name, category, license_status, official_url, evidence_url, notes, confidence (high|medium|low). Category must be one of """ + json.dumps(sorted(CATEGORIES)) + """. Do not invent license terms or commercial-use permissions. Use high confidence only when evidence supports the status; keep notes concise. Candidates: """ + json.dumps(compact, ensure_ascii=False)
+    data = parse_json(ask(prompt))
+    if not isinstance(data, list):
+        raise ValueError("Verification response must be a JSON array")
+    return [x for x in data if isinstance(x, dict)]
+
+
+def reachable(url):
+    if not url.startswith("https://"):
+        return False
     try:
-        resp = requests.head(url, timeout=timeout, allow_redirects=True)
-        return resp.status_code < 400
-    except Exception:
+        response = requests.get(url, timeout=8, allow_redirects=True, stream=True, headers={"User-Agent": "IsItFreeBot/1.0"})
+        result = response.status_code < 400 and response.url.startswith("https://")
+        response.close()
+        return result
+    except requests.RequestException:
         return False
 
 
-# ── Main ───────────────────────────────────────────────────────────────────────
+def slugify(name):
+    return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-") or hashlib.sha1(name.encode()).hexdigest()[:10]
+
+
+def write_recent(rows):
+    try:
+        events = json.loads(RECENT_PATH.read_text(encoding="utf-8")) if RECENT_PATH.exists() else []
+        if not isinstance(events, list):
+            events = []
+    except (OSError, json.JSONDecodeError):
+        events = []
+    for row in rows:
+        events.append({"name": row["Software Name"], "slug": slugify(row["Software Name"]), "type": "NEW", "date": str(date.today()), "category": row["Category"], "url": row["Official URL"]})
+    RECENT_PATH.write_text(json.dumps(events[-100:], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
 def run():
-    print("=" * 60)
-    print(f"AI Software Auto-Discovery  |  {GEMINI_MODEL}")
-    print(f"CSV: {CSV_PATH}")
-    print("=" * 60)
-
-    if not CSV_PATH.exists():
-        print(f"[ERROR] CSV not found at {CSV_PATH}")
-        sys.exit(1)
-
-    df = pd.read_csv(CSV_PATH)
-    existing_names = load_existing_names(df)
-    print(f"\n📋 Existing entries: {len(df)}")
-    print(f"🔍 Asking Gemini to suggest {NEW_PER_RUN} new tools...\n")
-
-    # Step 1: Get suggestions
-    suggestions = discover_new_software(existing_names)
-    if not suggestions:
-        print("[EXIT] No suggestions returned. Exiting.")
-        sys.exit(0)
-
-    # Step 2: Filter duplicates & verify
-    new_rows = []
-    for s in suggestions:
-        name = s.get("software_name", "").strip()
-        if not name:
+    print(f"Software discovery | model={MODEL} | target={TARGET}")
+    if CLIENT is None or not CSV_PATH.exists():
+        print("[ERROR] Missing GEMINI_API_KEY or software CSV")
+        return 1
+    df = pd.read_csv(CSV_PATH, keep_default_na=False)
+    missing = [c for c in COLUMNS if c not in df.columns]
+    if missing:
+        print(f"[ERROR] CSV schema missing columns: {missing}")
+        return 1
+    rows = df.to_dict("records")
+    existing_keys = {norm(r["Software Name"]) for r in rows}
+    accepted, accepted_keys, errors = [], set(), []
+    for batch in range(1, 7):
+        if len(accepted) >= TARGET:
+            break
+        try:
+            candidates = discover(batch)
+        except Exception as exc:
+            errors.append(str(exc)); print(f"[ERROR] Discovery batch {batch}: {exc}"); continue
+        shortlist = []
+        for candidate in candidates:
+            name = str(candidate.get("software_name", "")).strip()
+            url = str(candidate.get("official_url", "")).strip()
+            key = norm(name)
+            if not key or key in existing_keys or key in accepted_keys:
+                print(f"[SKIP] Exact duplicate/invalid name: {name or '(empty)'}"); continue
+            if not url.startswith("https://") or not domain(url):
+                print(f"[SKIP] Invalid HTTPS URL: {name}"); continue
+            status, matches = local_match(candidate, rows)
+            if status == "same":
+                print(f"[SKIP] Existing product: {name}"); continue
+            if status == "ambiguous":
+                try:
+                    decision = clarify(candidate, matches)
+                except Exception as exc:
+                    print(f"[SKIP] Clarification failed for {name}: {exc}"); continue
+                if decision != "DIFFERENT_PRODUCT":
+                    print(f"[SKIP] Unresolved identity/duplicate: {name}"); continue
+            shortlist.append(candidate)
+        if not shortlist:
             continue
-        if name.lower() in existing_names:
-            print(f"  [SKIP] Already exists: {name}")
-            continue
-
-        print(f"\n  Verifying: {name}")
-        url = s.get("official_url", "")
-
-        if url and not is_url_reachable(url):
-            print(f"    [WARN] URL unreachable: {url}")
-
-        verified = verify_software(name, url)
-        if not verified:
-            verified = s  # Fall back to suggestion data
-
-        category = verified.get("category", "Community Version")
-        if category not in VALID_CATEGORIES:
-            print(f"    [WARN] Invalid category '{category}' — defaulting to 'Community Version'")
-            category = "Community Version"
-
-        new_row = {
-            "Software Name":  name,
-            "Category":       category,
-            "License Status": verified.get("license_status", ""),
-            "Official URL":   verified.get("official_url", url),
-            "Last Updated":   str(date.today()),
-            "Notes":          verified.get("notes", ""),
-        }
-
-        confidence = verified.get("confidence", "?")
-        print(f"    ✅ {category} | {new_row['License Status']} (confidence: {confidence})")
-        new_rows.append(new_row)
-        existing_names.append(name.lower())
-
-        time.sleep(1.5)  # Respect rate limits
-
-    if not new_rows:
-        print("\n[INFO] No new software to add this run.")
-        sys.exit(0)
-
-    # Step 3: Append to CSV
-    new_df = pd.DataFrame(new_rows)
-    updated_df = pd.concat([df, new_df], ignore_index=True)
-    updated_df.to_csv(CSV_PATH, index=False)
-
-    print(f"\n{'=' * 60}")
-    print(f"✅ Added {len(new_rows)} new entries.")
-    print(f"📊 Total entries now: {len(updated_df)}")
-    print(f"💾 Saved to {CSV_PATH}")
+        try:
+            verified = verify_batch(shortlist)
+        except Exception as exc:
+            errors.append(str(exc)); print(f"[ERROR] Batch verification: {exc}"); continue
+        verified_by_name = {norm(x.get("software_name", "")): x for x in verified}
+        for candidate in shortlist:
+            name = str(candidate.get("software_name", "")).strip()
+            item = verified_by_name.get(norm(name))
+            if not item:
+                print(f"[SKIP] Verification omitted {name}"); continue
+            category, url = str(item.get("category", "")).strip(), str(item.get("official_url", "")).strip()
+            confidence = str(item.get("confidence", "")).lower().strip()
+            status, notes = str(item.get("license_status", "")).strip(), str(item.get("notes", "")).strip()
+            if category not in CATEGORIES or confidence != "high" or not status or not notes:
+                print(f"[SKIP] Incomplete/low-confidence verification: {name}"); continue
+            if domain(url) != domain(str(candidate.get("official_url", ""))) or not reachable(url):
+                print(f"[SKIP] Official URL failed validation: {name}"); continue
+            accepted.append({"Software Name": name, "Category": category, "License Status": status[:240], "Official URL": url, "Last Updated": str(date.today()), "Notes": notes[:500]})
+            accepted_keys.add(norm(name))
+            print(f"[ACCEPT] {name} ({category})")
+            if len(accepted) >= TARGET:
+                break
+    print("[USAGE] " + " ".join(f"{k}={v}" for k, v in USAGE.items()))
+    if len(accepted) < TARGET:
+        print(f"[ERROR] Verified only {len(accepted)}/{TARGET}; CSV unchanged.")
+        if errors: print("[ERROR] Last API failure: " + errors[-1][:300])
+        return 1
+    updated = pd.concat([df, pd.DataFrame(accepted, columns=COLUMNS)], ignore_index=True)
+    tmp = CSV_PATH.with_suffix(".csv.tmp")
+    updated.to_csv(tmp, index=False)
+    tmp.replace(CSV_PATH)
+    write_recent(accepted)
+    print(f"[SUCCESS] Added exactly {len(accepted)} entries; total={len(updated)}")
+    return 0
 
 
 if __name__ == "__main__":
-    run()
+    raise SystemExit(run())
