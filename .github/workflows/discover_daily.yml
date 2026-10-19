@@ -73,7 +73,7 @@ jobs:
           os.makedirs("data", exist_ok=True)
           with open("data/ai_status.json", "w", encoding="utf-8") as f:
               json.dump(payload, f, indent=2)
-              f.write("\\n")
+              f.write(chr(10))
           print(json.dumps(payload))
           PY
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
