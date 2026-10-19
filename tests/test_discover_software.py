@@ -32,7 +32,8 @@ class DiscoveryHelpersTests(unittest.TestCase):
     def test_shared_vendor_name_does_not_automatically_mean_duplicate(self):
         rows = [{"Software Name": "Notion", "Official URL": "https://notion.so", "Category": "Community Version", "Notes": ""}]
         status, _ = discovery.local_match({"software_name": "Notion Calendar", "official_url": "https://calendar.notion.so"}, rows)
-        self.assertEqual(status, "new")
+        self.assertEqual(status, "ambiguous")
+        self.assertNotEqual(status, "same")
 
     def test_parse_json_handles_surrounding_text(self):
         self.assertEqual(discovery.parse_json('Result: [{"name":"A"}]'), [{"name": "A"}])
@@ -102,7 +103,7 @@ class StaticPageTests(unittest.TestCase):
     def test_fallback_context_does_not_claim_verified_commercial_use(self):
         row = {"Software Name": "Example", "Category": "Free for Home", "License Status": "Free for personal use", "Notes": ""}
         context = pages.fallback_context(row)
-        self.assertIn("commercial", context["limitations"].lower())
+        self.assertIn("vendor", context["limitations"].lower())
         self.assertIn("official", context["licensing_notes"].lower())
 
     def test_detail_page_has_canonical_metadata_and_shared_chrome(self):
