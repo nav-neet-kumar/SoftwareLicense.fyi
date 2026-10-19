@@ -50,7 +50,7 @@ jobs:
 
       - name: 🧠 Regenerate software pages and sitemap
         env:
-          GEMINI_API_KEY: \${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           PAGE_CONTEXT_BATCHES_PER_RUN: "2"
           PAGE_CONTEXT_BATCH_SIZE: "10"
         run: python scripts/generate_software_pages.py
