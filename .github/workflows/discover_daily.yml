@@ -46,7 +46,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/software_list.csv data/recent_updates.json data/software_context.json sitemap.xml software/
+          git add data/software_list.csv data/recent_updates.json data/software_context.json data/software_sources.json sitemap.xml software/
           git diff --cached --quiet && { echo "No generated changes to commit"; exit 0; }
           OLD_COUNT=$(git show HEAD:data/software_list.csv | python -c "import csv,sys; print(sum(1 for _ in csv.DictReader(sys.stdin)))")
           NEW_COUNT=$(python -c "import csv; print(sum(1 for _ in csv.DictReader(open('data/software_list.csv', encoding='utf-8'))))")
