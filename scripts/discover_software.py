@@ -210,6 +210,7 @@ def run():
             category, url = str(item.get("category", "")).strip(), str(item.get("official_url", "")).strip()
             confidence = str(item.get("confidence", "")).lower().strip()
             status, notes = str(item.get("license_status", "")).strip(), str(item.get("notes", "")).strip()
+            evidence = str(item.get("evidence_url", "")).strip()
             if category not in CATEGORIES or confidence != "high" or not status or not notes:
                 print(f"[SKIP] Incomplete/low-confidence verification: {name}"); continue
             if domain(url) != domain(str(candidate.get("official_url", ""))) or not reachable(url):
