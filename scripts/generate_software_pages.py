@@ -94,10 +94,12 @@ def generate_context_batches(rows, contexts, max_batches):
         return contexts
 
     completed_batches = 0
-    for start in range(0, len(missing), BATCH_SIZE):
-        if completed_batches >= max_batches:
+    attempted_batches = 0
+    for start in range(0, len(missing), max(1, BATCH_SIZE)):
+        if attempted_batches >= max_batches:
             break
-        batch = missing[start:start + BATCH_SIZE]
+        attempted_batches += 1
+        batch = missing[start:start + max(1, BATCH_SIZE)]
         payload = [{
             "software_name": r["Software Name"], "category": r["Category"],
             "license_status": r["License Status"], "official_url": r["Official URL"],
@@ -223,7 +225,7 @@ def render_page(row, context, related, style, nav, footer, total):
       <section class="detail-card"><h2>Verification details</h2><p>Directory record last updated: <strong>{esc(updated or "Date unavailable")}</strong>. This date reflects the record's last recorded change, not a guarantee that the vendor's current terms were independently checked today.</p><p>Confirm licensing, pricing, and commercial-use rights in the official sources before making a business decision.</p></section>
       {('<section class="detail-card"><h2>Frequently asked questions</h2>' + faq_html + '</section>') if faq_html else ''}
       <section class="detail-card"><h2>Related software</h2><div class="related-grid">{related_html or '<p>More related entries will appear as the directory grows.</p>'}</div></section>
-      <p class="directory-count">Part of the IsItFree? directory with {total} software entries.</p>
+      <p class="directory-count">Explore the complete IsItFree? software directory for more licensing information.</p>
     </main>"""
     schema = {
         "@context": "https://schema.org",
@@ -232,7 +234,7 @@ def render_page(row, context, related, style, nav, footer, total):
         "url": canonical,
         "description": description,
         "isPartOf": {"@type": "WebSite", "name": "IsItFree?", "url": SITE + "/"},
-        "mainEntity": {"@type": "SoftwareApplication", "name": name, "url": url, "applicationCategory": category, "description": description},
+        "mainEntity": {"@type": "SoftwareApplication", "name": name, "url": url, "description": description},
         "dateModified": updated if re.fullmatch(r"\d{4}-\d{2}-\d{2}", updated) else None,
     }
     schema = {k: v for k, v in schema.items() if v is not None}
