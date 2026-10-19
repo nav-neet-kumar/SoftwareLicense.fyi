@@ -39,7 +39,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           PAGE_CONTEXT_BATCHES_PER_RUN: "2"
-          PAGE_CONTEXT_BATCH_SIZE: "10"
+          PAGE_CONTEXT_BATCH_SIZE: "15"
         run: python scripts/generate_software_pages.py
 
       - name: 💾 Commit data, page context, detail pages, and sitemap
