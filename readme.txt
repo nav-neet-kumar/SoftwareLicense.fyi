@@ -1,18 +1,18 @@
 IsItFree? — Software License Directory
 Website: https://isitfree.webline.cloud/
-Source: https://github.com/navneet-20/SoftwareLicense.fyi
+Source code: https://github.com/nav-neet-kumar/SoftwareLicense.fyi
 
-Purpose
-IsItFree? is a public directory that helps visitors review software licensing categories, license status, notes, and official vendor sources.
+IsItFree? helps visitors check whether software is open source, free for personal use, freemium, or requires a paid license. Entries include license summaries and links to official publisher websites.
 
-Public resources
-- robots.txt: https://isitfree.webline.cloud/robots.txt
-- llms.txt: https://isitfree.webline.cloud/llms.txt
-- sitemap.xml: https://isitfree.webline.cloud/sitemap.xml
-- Software pages: https://isitfree.webline.cloud/software/{software-slug}/
+Search the directory:
+https://isitfree.webline.cloud/
 
-Information accuracy
-AI-generated summaries are explanatory and may be incomplete or out of date. The software vendor's current license, pricing page, and terms are authoritative. Check official sources before commercial use. The directory does not provide legal advice.
+Browse software detail pages:
+https://isitfree.webline.cloud/software/
 
-Crawler access
-Public pages are intended to be accessible to search engines, AI agents, and other legitimate crawlers. This text file is informational and does not provide security controls.
+Verify licensing and pricing with the software publisher before use. Terms can change, and this directory is informational only; it is not legal advice.
+
+Public site resources:
+Sitemap: https://isitfree.webline.cloud/sitemap.xml
+Crawler guidance: https://isitfree.webline.cloud/robots.txt
+Additional site information: https://isitfree.webline.cloud/llms.txt
