@@ -1,24 +1,19 @@
 # IsItFree?
 
-![IsItFree? — Discover, verify, use smarter](assets/logos/primary-full-color.svg)
+![IsItFree?](assets/logos/primary-full-color.svg)
 
-IsItFree? helps you check whether software is free, open source, freemium, or requires a paid license.
+IsItFree? is a software license directory that helps you check whether software is open source, free for personal use, freemium, or requires a paid license.
 
-Search software, browse license categories, review official links, and suggest missing tools.
+- Search software and browse licensing categories.
+- Review license summaries and official publisher links.
+- Suggest software for inclusion in the directory.
 
 **Website:** https://isitfree.webline.cloud/
 
-**Source code:** https://github.com/nav-neet-kumar/SoftwareLicense.fyi
+## Verify before you use
 
-## Logo assets
+Software licenses and pricing can change. Use the linked publisher documentation and current terms to confirm whether a tool is suitable for your intended use. IsItFree? is informational and does not provide legal advice.
 
-Logo files are in [assets/logos/](assets/logos/). They use SVG so they stay crisp at different sizes.
+## Logo
 
-- **Primary full-color logo:** [primary-full-color.svg](assets/logos/primary-full-color.svg) — README, website, and general branding.
-- **Flat navbar icon:** [navbar-flat.svg](assets/logos/navbar-flat.svg) — compact website navigation.
-- **Icon-only logo:** [icon-only.svg](assets/logos/icon-only.svg) — favicon and app icon.
-- **Dark-background logo:** [dark-background.svg](assets/logos/dark-background.svg) — dark pages and banners.
-- **Monochrome logo:** [monochrome.svg](assets/logos/monochrome.svg) — single-color and print use.
-- **Social banner:** [social-banner.svg](assets/logos/social-banner.svg) — profile and social media graphics.
-
-The logo uses a software window and magnifying glass with a green verification check. No leaf is included.
+The site's logo files are in [assets/logos/](assets/logos/).
