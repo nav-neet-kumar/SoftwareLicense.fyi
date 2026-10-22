@@ -31,6 +31,14 @@ class MonthlyAuditHelpersTests(unittest.TestCase):
         pairs = monthly_audit.duplicate_candidates(rows)
         self.assertTrue(any(p["left_index"] == 0 and p["right_index"] == 1 for p in pairs))
 
+    def test_vendor_prefixed_aliases_like_chrome_are_duplicate_candidates(self):
+        rows = [
+            {"Software Name": "Chrome", "Official URL": "https://www.google.com/chrome/", "Category": "Free for Home", "License Status": "Free", "Last Updated": "2025-01-01", "Notes": ""},
+            {"Software Name": "Google Chrome", "Official URL": "https://www.google.com/chrome/", "Category": "Free for Home", "License Status": "Free", "Last Updated": "2026-01-01", "Notes": ""},
+        ]
+        pairs = monthly_audit.duplicate_candidates(rows)
+        self.assertTrue(any(p["left_index"] == 0 and p["right_index"] == 1 for p in pairs))
+
     def test_distinct_products_from_same_vendor_are_not_auto_marked_duplicate(self):
         rows = [
             {"Software Name": "Visual Studio", "Official URL": "https://visualstudio.microsoft.com", "Category": "License Required", "License Status": "Paid", "Last Updated": "2025-01-01", "Notes": ""},
