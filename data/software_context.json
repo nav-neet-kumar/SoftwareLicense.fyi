@@ -598,5 +598,605 @@
         "answer": "Current subscription terms and enterprise licensing options are available on the official MuleSoft website."
       }
     ]
+  },
+  "liferay-portal-community-edition": {
+    "input_hash": "11f21d63182ee958269421ab896560856e2a8909754ffffa1e5ad79391fa5d46",
+    "generated_at": "2026-10-22",
+    "summary": "Liferay Portal Community Edition is an open-source platform for building enterprise portals and websites. It provides a robust framework for content management, collaboration, and user interaction.",
+    "what_it_does": "Enables the creation and management of web portals, intranets, and websites with features for content publishing, user management, and application integration.",
+    "best_for": "Organizations and developers looking for a customizable and extensible open-source portal solution.",
+    "free_tier": "The Community Edition is free and open-source.",
+    "limitations": "The visitor should check the official documentation for specific limitations of the Community Edition.",
+    "licensing_notes": "Distributed under the GNU Lesser General Public License v2.1 (LGPL v2.1).",
+    "faq": [
+      {
+        "question": "What is Liferay Portal Community Edition?",
+        "answer": "It is an open-source platform for building enterprise portals and websites."
+      },
+      {
+        "question": "What license is Liferay Portal Community Edition distributed under?",
+        "answer": "It is distributed under the GNU Lesser General Public License v2.1 (LGPL v2.1)."
+      }
+    ]
+  },
+  "kitty": {
+    "input_hash": "36b6485ed5fcefd1a8b307bb1fa2fc93be79878a124b2807422cae8aeb6ba133",
+    "generated_at": "2026-10-22",
+    "summary": "Kitty is a fast, feature-rich, and highly customizable terminal emulator. It is designed for modern operating systems and offers a GPU-accelerated rendering engine.",
+    "what_it_does": "Provides a graphical interface for interacting with command-line applications, featuring GPU acceleration, advanced text rendering, and extensive configuration options.",
+    "best_for": "Users seeking a high-performance and customizable terminal emulator for development and command-line tasks.",
+    "free_tier": "Kitty is free and open-source.",
+    "limitations": "The visitor should check the official documentation for specific limitations.",
+    "licensing_notes": "Distributed under the GNU General Public License version 3 (GPLv3).",
+    "faq": [
+      {
+        "question": "What is Kitty?",
+        "answer": "Kitty is a fast, feature-rich, and highly customizable GPU-accelerated terminal emulator."
+      },
+      {
+        "question": "What license does Kitty use?",
+        "answer": "Kitty is distributed under the GNU General Public License version 3 (GPLv3)."
+      }
+    ]
+  },
+  "lazygit": {
+    "input_hash": "b46dd76116cd47c84c034935cff3a5cacb2b3534682c406fa1f4e7e140d3bdb8",
+    "generated_at": "2026-10-22",
+    "summary": "Lazygit is a terminal UI for Git that simplifies common Git operations. It provides an interactive interface for managing repositories directly from the command line.",
+    "what_it_does": "Offers a user-friendly, interactive interface within the terminal to perform Git actions like committing, branching, merging, and viewing history.",
+    "best_for": "Developers and users who want a more intuitive and efficient way to interact with Git from the command line.",
+    "free_tier": "Lazygit is free and open-source.",
+    "limitations": "The visitor should check the official documentation for specific limitations.",
+    "licensing_notes": "Distributed under the permissive MIT License.",
+    "faq": [
+      {
+        "question": "What is Lazygit?",
+        "answer": "Lazygit is a terminal UI that simplifies common Git operations with an interactive interface."
+      },
+      {
+        "question": "What license is Lazygit distributed under?",
+        "answer": "Lazygit is distributed under the MIT License."
+      }
+    ]
+  },
+  "cypress": {
+    "input_hash": "c21be0c3aff7053429e3d48b8717d09b42c0f44ad0848d3117be3ed14d921778",
+    "generated_at": "2026-10-22",
+    "summary": "Cypress is an end-to-end testing framework for web applications. It allows developers to write and run tests that simulate user interactions in a browser.",
+    "what_it_does": "Provides tools for writing, running, and debugging automated tests for web applications, including features like time travel debugging and automatic waiting.",
+    "best_for": "Web developers and QA engineers looking for a modern, fast, and reliable solution for end-to-end testing.",
+    "free_tier": "The core Cypress test runner is open-source and free.",
+    "limitations": "Optional cloud recording services are offered under commercial tiers. The visitor should check the official documentation for details on free tier limits.",
+    "licensing_notes": "The core is open-source under the MIT License. Commercial tiers for cloud services exist.",
+    "faq": [
+      {
+        "question": "Is Cypress free to use?",
+        "answer": "The core Cypress test runner is open-source and free. Optional cloud recording services have commercial tiers."
+      },
+      {
+        "question": "What license does the core Cypress test runner use?",
+        "answer": "The core Cypress test runner is licensed under the MIT License."
+      }
+    ]
+  },
+  "appwrite": {
+    "input_hash": "ddb229e12bd568aa20419112031de0139c4807869cfc7f38d3774662f5f12e3a",
+    "generated_at": "2026-10-22",
+    "summary": "Appwrite is an open-source, self-hosted backend-as-a-service platform. It simplifies the development of web, mobile, and Flutter applications by providing pre-built backend functionalities.",
+    "what_it_does": "Offers a set of APIs and tools for authentication, databases, file storage, cloud functions, and real-time subscriptions, allowing developers to build applications faster.",
+    "best_for": "Developers seeking a self-hosted, open-source backend solution to accelerate application development.",
+    "free_tier": "Appwrite is open-source and can be self-hosted for free.",
+    "limitations": "The visitor should check the official documentation for specific limitations related to self-hosting or any potential managed services.",
+    "licensing_notes": "Distributed under the permissive BSD 3-Clause License.",
+    "faq": [
+      {
+        "question": "What is Appwrite?",
+        "answer": "Appwrite is an open-source, self-hosted backend-as-a-service platform that simplifies app development."
+      },
+      {
+        "question": "What license is Appwrite distributed under?",
+        "answer": "Appwrite is distributed under the BSD 3-Clause License."
+      }
+    ]
+  },
+  "driver-booster": {
+    "input_hash": "b13f16d8c4981f34ab1035eb231c455ea86575aa2fa21f8349f443a27d19a63e",
+    "generated_at": "2026-10-22",
+    "summary": "Driver Booster is a utility that helps update and maintain device drivers on Windows PCs. It scans for outdated or missing drivers and provides options to install the latest versions.",
+    "what_it_does": "Automatically detects and updates outdated, missing, or incorrect device drivers to improve system stability and performance.",
+    "best_for": "Home users looking for a simple way to keep their PC drivers up-to-date for better hardware compatibility and performance.",
+    "free_tier": "A free version is available for basic personal use.",
+    "limitations": "The free version has limited functionality compared to the PRO version. The visitor should check the official documentation for specific feature differences.",
+    "licensing_notes": "Freemium model: a free version for basic personal use and a paid PRO version with full functionality.",
+    "faq": [
+      {
+        "question": "Is there a free version of Driver Booster?",
+        "answer": "Yes, a free version is available for basic personal use."
+      },
+      {
+        "question": "What is the difference between the free and PRO versions?",
+        "answer": "The PRO version offers full functionality, while the free version is limited. Specific details should be checked in the official documentation."
+      }
+    ]
+  },
+  "screenpal": {
+    "input_hash": "9398cda079150e588ec127f7faa194268d20ddc0bfefa0535ff049e2f830662b",
+    "generated_at": "2026-10-22",
+    "summary": "ScreenPal is a screen recording and video messaging tool. It allows users to capture their screen, webcam, or both, and share videos easily.",
+    "what_it_does": "Enables users to record their screen, webcam, or a combination of both, with tools for editing and sharing video content.",
+    "best_for": "Individuals and teams needing to create and share video explanations, tutorials, or feedback.",
+    "free_tier": "A limited free version is available.",
+    "limitations": "Full feature access, advanced editing, and team capabilities require a paid subscription license. The visitor should check the official documentation for details.",
+    "licensing_notes": "Freemium with paid subscription options for enhanced features and capabilities.",
+    "faq": [
+      {
+        "question": "Is ScreenPal free?",
+        "answer": "ScreenPal offers a limited free version, but full features require a paid subscription."
+      },
+      {
+        "question": "What features require a paid subscription?",
+        "answer": "Full feature access, advanced editing, and team capabilities require a paid subscription license. Please refer to the official documentation for specifics."
+      }
+    ]
+  },
+  "growthbook": {
+    "input_hash": "048016a55e94058d2d00c968714a21d7bb11fc64aaee8053a24aa92b5308baa4",
+    "generated_at": "2026-10-22",
+    "summary": "GrowthBook is an open-source feature flagging and experimentation platform. It enables teams to safely roll out features, run A/B tests, and analyze results.",
+    "what_it_does": "Provides tools for managing feature flags, conducting A/B tests, and analyzing experiment data to inform product decisions.",
+    "best_for": "Product teams and developers looking to implement feature flagging and experimentation in their applications.",
+    "free_tier": "The core platform and SDKs are open-source and free.",
+    "limitations": "Optional enterprise features and hosted cloud tiers are available. The visitor should check the official documentation for details on these offerings.",
+    "licensing_notes": "The core is open-source under the MIT License. Enterprise and cloud tiers are offered separately.",
+    "faq": [
+      {
+        "question": "Is GrowthBook free?",
+        "answer": "The core platform and SDKs are open-source and free under the MIT License."
+      },
+      {
+        "question": "What are the paid offerings from GrowthBook?",
+        "answer": "GrowthBook offers optional enterprise features and hosted cloud tiers. Please check their official documentation for details."
+      }
+    ]
+  },
+  "lightdash": {
+    "input_hash": "656dd88abcfe1462319d95f5f7776f48c2df8755209b496dfb5268effa197e63",
+    "generated_at": "2026-10-22",
+    "summary": "Lightdash is an open-source business intelligence tool that connects to your data warehouse. It allows users to explore data, create dashboards, and share insights.",
+    "what_it_does": "Enables users to visualize data from their data warehouse, build interactive dashboards, and collaborate on data insights.",
+    "best_for": "Teams that want an open-source, self-hosted BI solution to explore and visualize their data.",
+    "free_tier": "The core Lightdash is open-source and free.",
+    "limitations": "Paid managed cloud services are also offered. The visitor should check the official documentation for details on these services.",
+    "licensing_notes": "The core is open-source under the MIT License. Paid managed cloud services are available.",
+    "faq": [
+      {
+        "question": "Is Lightdash free?",
+        "answer": "The core Lightdash is open-source and free under the MIT License."
+      },
+      {
+        "question": "Does Lightdash offer cloud services?",
+        "answer": "Yes, Lightdash offers paid managed cloud services in addition to its open-source core. Please check their official documentation for details."
+      }
+    ]
+  },
+  "fantastical": {
+    "input_hash": "2ba6ed11d8c52d9d00cc303e03efaafd35382c8468e4c0681cf5bcc859649a76",
+    "generated_at": "2026-10-22",
+    "summary": "Fantastical is a powerful calendar and reminder application known for its natural language input and integration across Apple devices. It simplifies scheduling and task management.",
+    "what_it_does": "Combines calendar, reminders, and tasks into a single interface, allowing users to create events and to-dos using natural language and syncs across devices.",
+    "best_for": "macOS, iOS, and iPadOS users seeking an advanced and intuitive calendar and reminder application.",
+    "free_tier": "The visitor should check the official documentation for any available free trial or limited free features.",
+    "limitations": "Full feature access requires a paid Flexibits Premium subscription license. The visitor should check the official documentation for details.",
+    "licensing_notes": "Requires a paid Flexibits Premium subscription license for full functionality.",
+    "faq": [
+      {
+        "question": "Is Fantastical free?",
+        "answer": "Fantastical requires a paid Flexibits Premium subscription license for full access to its features."
+      },
+      {
+        "question": "What platforms does Fantastical support?",
+        "answer": "Fantastical is available on macOS, iOS, and iPadOS. Please check the official documentation for the most current platform support."
+      }
+    ]
+  },
+  "guitar-pro": {
+    "input_hash": "c2428f73208bceb6622c03ba9ea598325c9db824d1fd72b3191cb86d9671806e",
+    "generated_at": "2026-10-22",
+    "summary": "Guitar Pro is a tablature editor and scorewriter software designed for guitarists and other fretted instrument players. It allows for the creation, editing, and playing of musical scores.",
+    "what_it_does": "Enables users to compose, edit, and play back musical scores with tablature, standard notation, and chord diagrams, featuring a virtual fretboard and extensive soundbanks.",
+    "best_for": "Guitarists, bassists, and other musicians who want to compose, learn, or transcribe music.",
+    "free_tier": "The visitor should check the official documentation for any available free trial.",
+    "limitations": "Guitar Pro is proprietary software requiring a perpetual paid user license. The visitor should check the official documentation for specific version features.",
+    "licensing_notes": "Requires a perpetual paid user license.",
+    "faq": [
+      {
+        "question": "Is Guitar Pro free?",
+        "answer": "No, Guitar Pro is proprietary software that requires purchasing a paid user license."
+      },
+      {
+        "question": "What can I do with Guitar Pro?",
+        "answer": "You can compose, edit, and play back musical scores with tablature, standard notation, and chord diagrams."
+      }
+    ]
+  },
+  "mindnode": {
+    "input_hash": "cd976bbca4ec19d6d277e4b0f7830a3689e762672056e5a2f3789ad24f93d8b1",
+    "generated_at": "2026-10-22",
+    "summary": "MindNode is a mind mapping application for macOS and iOS that helps users visually organize information. It allows for the creation of clear and aesthetically pleasing mind maps.",
+    "what_it_does": "Facilitates the creation and organization of ideas through visual mind maps, offering features like node editing, styling, and export options.",
+    "best_for": "Students, professionals, and creatives who need a tool for brainstorming, planning, and organizing thoughts visually.",
+    "free_tier": "The visitor should check the official documentation for any available free trial or limited free features.",
+    "limitations": "Full editor capabilities and device syncing require a paid MindNode Plus subscription license. The visitor should check the official documentation for details.",
+    "licensing_notes": "Requires a paid MindNode Plus subscription license for full editor capabilities and device syncing.",
+    "faq": [
+      {
+        "question": "Is MindNode free?",
+        "answer": "MindNode offers a free version, but full editor capabilities and device syncing require a paid MindNode Plus subscription."
+      },
+      {
+        "question": "What is MindNode used for?",
+        "answer": "MindNode is used for visually organizing information, brainstorming, planning, and structuring ideas through mind maps."
+      }
+    ]
+  },
+  "eset-nod32-antivirus": {
+    "input_hash": "63143b570986ae2505f5c0afa492c99356cfc89769237a54d471cbb16ad699d4",
+    "generated_at": "2026-10-22",
+    "summary": "ESET NOD32 Antivirus is a security software that provides real-time protection against viruses, malware, and other online threats. It focuses on low system impact and advanced detection.",
+    "what_it_does": "Offers comprehensive antivirus and anti-malware protection, including real-time scanning, threat detection, and defense against phishing and ransomware.",
+    "best_for": "Users seeking robust and efficient antivirus protection for their personal computers.",
+    "free_tier": "The visitor should check the official documentation for any available free trial.",
+    "limitations": "Real-time security protection requires a commercial paid subscription license. The visitor should check the official documentation for specific features included in different subscription tiers.",
+    "licensing_notes": "Requires a commercial paid subscription license for full functionality and real-time protection.",
+    "faq": [
+      {
+        "question": "Is ESET NOD32 Antivirus free?",
+        "answer": "No, ESET NOD32 Antivirus requires a commercial paid subscription license for its real-time security protection."
+      },
+      {
+        "question": "What does ESET NOD32 Antivirus protect against?",
+        "answer": "It protects against viruses, malware, phishing, ransomware, and other online threats."
+      }
+    ]
+  },
+  "superhuman": {
+    "input_hash": "d88f6e0dcb6570bd6862ca993fcf55952501c563a9f83665d6773772407c3120",
+    "generated_at": "2026-10-22",
+    "summary": "Superhuman is an email client designed for speed and efficiency, aiming to help users achieve inbox zero. It offers advanced features for faster email processing.",
+    "what_it_does": "Provides a streamlined email experience with features like keyboard shortcuts, smart search, and undo send, optimized for rapid email management.",
+    "best_for": "Professionals and power users who want to manage their email inbox more efficiently and quickly.",
+    "free_tier": "The visitor should check the official documentation for any available free trial.",
+    "limitations": "Access to the high-speed email platform requires a paid monthly user subscription license. The visitor should check the official documentation for pricing and features.",
+    "licensing_notes": "Requires a paid monthly user subscription license.",
+    "faq": [
+      {
+        "question": "Is Superhuman free?",
+        "answer": "No, Superhuman requires a paid monthly user subscription license to access its platform."
+      },
+      {
+        "question": "What is the main benefit of using Superhuman?",
+        "answer": "Superhuman is designed for speed and efficiency, helping users manage their email inbox faster and achieve inbox zero."
+      }
+    ]
+  },
+  "synergy": {
+    "input_hash": "2a8e3c6f87d9b0037570e570d3eef0f8e9327fc14ee201073f2482231dc2a874",
+    "generated_at": "2026-10-22",
+    "summary": "Synergy is a software application that allows users to share a single keyboard and mouse across multiple computers. It seamlessly integrates control of different machines on one desk.",
+    "what_it_does": "Enables seamless control of multiple computers with one keyboard and mouse, allowing users to move their cursor between screens as if they were on a single computer.",
+    "best_for": "Users with multiple computers who want to improve their workflow by using a single set of peripherals.",
+    "free_tier": "The visitor should check the official documentation for any available free trial or community editions.",
+    "limitations": "Requires purchasing a paid user license to share a single keyboard and mouse across multiple devices. The visitor should check the official documentation for specific license types.",
+    "licensing_notes": "Requires purchasing a paid user license.",
+    "faq": [
+      {
+        "question": "What is Synergy?",
+        "answer": "Synergy allows you to share a single keyboard and mouse across multiple computers, seamlessly controlling them from one desk."
+      },
+      {
+        "question": "Do I need to pay to use Synergy?",
+        "answer": "Yes, Synergy requires purchasing a paid user license to use its functionality."
+      }
+    ]
+  },
+  "microsoft-365": {
+    "input_hash": "c59a1524fd2a478d1bc5981a6b8e57eeb897f70ae6febe80d72d53d19834ccb4",
+    "generated_at": "2026-10-22",
+    "summary": "Microsoft 365 is a suite of productivity and collaboration tools designed for personal and business use.",
+    "what_it_does": "It offers a collection of applications like Word, Excel, PowerPoint, Outlook, and cloud services for document creation, communication, and data management.",
+    "best_for": "Individuals, families, and businesses seeking a comprehensive set of productivity applications and cloud services.",
+    "free_tier": "Information on a free tier is not explicitly provided; personal and business plans are subscription-based.",
+    "limitations": "Specific limitations depend on the chosen subscription plan. Please check the official documentation for details.",
+    "licensing_notes": "Requires a paid subscription for full access. Various plans are available for personal and business use.",
+    "faq": [
+      {
+        "question": "What applications are included in Microsoft 365?",
+        "answer": "Microsoft 365 typically includes applications such as Word, Excel, PowerPoint, Outlook, OneDrive, and Teams, with specific inclusions varying by plan."
+      },
+      {
+        "question": "Is there a free version of Microsoft 365?",
+        "answer": "While some individual apps may have free web versions, the full Microsoft 365 suite requires a paid subscription. Details on any free trial or limited free access should be verified on their official site."
+      }
+    ]
+  },
+  "adobe-photoshop": {
+    "input_hash": "7b837e67363fbe18eed3965bdb01f554e020831b34b0e6f98e5973f3659a9ff4",
+    "generated_at": "2026-10-22",
+    "summary": "Adobe Photoshop is a powerful raster graphics editor and image manipulation program.",
+    "what_it_does": "It allows users to create, edit, and composite raster images, perform digital art, and design.",
+    "best_for": "Photographers, graphic designers, and digital artists who need advanced image editing and creation capabilities.",
+    "free_tier": "A free trial is typically available, but ongoing use requires a subscription.",
+    "limitations": "Full functionality requires a paid Creative Cloud subscription. Specific feature limitations may apply to trial versions.",
+    "licensing_notes": "Requires a paid Adobe Creative Cloud subscription. Student and teacher discounts may be available.",
+    "faq": [
+      {
+        "question": "Can I use Photoshop without a subscription?",
+        "answer": "Adobe Photoshop is primarily available through a paid Creative Cloud subscription. A free trial is usually offered for evaluation."
+      },
+      {
+        "question": "What is Adobe Creative Cloud?",
+        "answer": "Adobe Creative Cloud is a subscription service that provides access to a collection of Adobe software, including Photoshop, Illustrator, and Premiere Pro."
+      }
+    ]
+  },
+  "autocad": {
+    "input_hash": "5eb8c93a90e8b9c335b53e08510cd88889478dbc072bcad4caed748bda139dcc",
+    "generated_at": "2026-10-22",
+    "summary": "AutoCAD is a commercial computer-aided design (CAD) and drafting software application.",
+    "what_it_does": "It is used by architects, engineers, and construction professionals to create precise 2D and 3D designs and documentation.",
+    "best_for": "Professionals in architecture, engineering, and construction requiring precise 2D and 3D design tools.",
+    "free_tier": "A free version is available for students and educators.",
+    "limitations": "Commercial use requires a paid subscription. Specific feature sets may vary between subscription tiers.",
+    "licensing_notes": "A commercial license is required for professional use. Students can access it for free.",
+    "faq": [
+      {
+        "question": "Is AutoCAD free for students?",
+        "answer": "Yes, Autodesk offers a free educational license for AutoCAD for students and educators."
+      },
+      {
+        "question": "What are the licensing options for AutoCAD?",
+        "answer": "AutoCAD is available through paid subscriptions for commercial use. Educational licenses are available for students and educators."
+      }
+    ]
+  },
+  "jetbrains-intellij-idea": {
+    "input_hash": "138c6adeb13c498a3d4b742744074e29779d7cf5c91ea1bfd45de85e3657fadd",
+    "generated_at": "2026-10-22",
+    "summary": "IntelliJ IDEA is an integrated development environment (IDE) for Java, Kotlin, and other programming languages.",
+    "what_it_does": "It provides tools for code writing, debugging, testing, and refactoring to enhance developer productivity.",
+    "best_for": "Software developers working with Java, Kotlin, and other JVM languages who need a powerful IDE.",
+    "free_tier": "The Community Edition is free and open-source.",
+    "limitations": "The Ultimate Edition, which offers more features for web and enterprise development, requires a paid subscription.",
+    "licensing_notes": "The Community Edition is free under the Apache 2.0 license. The Ultimate Edition requires a paid subscription.",
+    "faq": [
+      {
+        "question": "What is the difference between IntelliJ IDEA Community and Ultimate editions?",
+        "answer": "The Community Edition is free and suitable for Java and Kotlin development. The Ultimate Edition includes advanced features for web, enterprise, and database development, and requires a paid subscription."
+      },
+      {
+        "question": "Is IntelliJ IDEA free?",
+        "answer": "The Community Edition of IntelliJ IDEA is free and open-source. The Ultimate Edition is a paid product."
+      }
+    ]
+  },
+  "windows-11": {
+    "input_hash": "04c2fe8898efa04133c762581ebd84cf90cd6afc0caa832f682d1fa652c40f2a",
+    "generated_at": "2026-10-22",
+    "summary": "Windows 11 is a desktop operating system developed by Microsoft.",
+    "what_it_does": "It provides the core functionality for personal computers, enabling users to run applications, manage files, and connect to networks.",
+    "best_for": "Users of personal computers requiring a modern and feature-rich operating system.",
+    "free_tier": "Not applicable; a license is required for installation and use.",
+    "limitations": "Requires a valid license for installation and use. Specific hardware requirements must be met.",
+    "licensing_notes": "Requires a valid OEM or retail license for installation and use.",
+    "faq": [
+      {
+        "question": "How do I get Windows 11?",
+        "answer": "Windows 11 is typically acquired through a retail purchase or comes pre-installed on new computers (OEM license)."
+      },
+      {
+        "question": "Do I need a license to use Windows 11?",
+        "answer": "Yes, a valid Windows 11 license is required for installation and ongoing use."
+      }
+    ]
+  },
+  "slack-business": {
+    "input_hash": "16b9e4073213df93cbea37658d3e0a79ad93c8be780e1014f0d90576543805ef",
+    "generated_at": "2026-10-22",
+    "summary": "Slack is a channel-based messaging platform designed for team collaboration and communication.",
+    "what_it_does": "It allows teams to communicate through channels, direct messages, and calls, integrating with various other tools.",
+    "best_for": "Businesses and teams looking for a centralized platform for internal communication and collaboration.",
+    "free_tier": "A free tier is available with limitations on message history and integrations.",
+    "limitations": "The free tier has limitations on message history search and the number of app integrations. Paid plans offer more features.",
+    "licensing_notes": "Free tier available for basic use. Paid Pro and Business+ plans are required for advanced features and commercial use.",
+    "faq": [
+      {
+        "question": "What are the limitations of the free Slack plan?",
+        "answer": "The free plan offers limited message history search and a restricted number of app integrations. For full capabilities, paid plans are recommended."
+      },
+      {
+        "question": "Is Slack free for business use?",
+        "answer": "Slack offers a free tier suitable for small teams. For comprehensive business features and unlimited history, paid plans like Pro or Business+ are necessary."
+      }
+    ]
+  },
+  "zoom-business": {
+    "input_hash": "74b701cea45f05adba0de74cc2a861b12f50acac5bf56f23c9c7ded1bdff39e8",
+    "generated_at": "2026-10-22",
+    "summary": "Zoom is a cloud-based video conferencing and online meeting platform.",
+    "what_it_does": "It enables users to conduct video meetings, webinars, and calls with screen sharing and collaboration features.",
+    "best_for": "Businesses and individuals needing reliable video conferencing and online meeting solutions.",
+    "free_tier": "A free tier is available for basic meetings with time limits for group sessions.",
+    "limitations": "The free tier has a 40-minute limit on group meetings. Paid plans remove this limit and offer additional features.",
+    "licensing_notes": "A free tier is available for basic use. Business plans are required for longer meetings and advanced features.",
+    "faq": [
+      {
+        "question": "What is the time limit for free Zoom meetings?",
+        "answer": "Free Zoom meetings with 3 or more participants are limited to 40 minutes. One-on-one meetings do not have a time limit."
+      },
+      {
+        "question": "Do I need a paid plan for business meetings on Zoom?",
+        "answer": "For meetings longer than 40 minutes with multiple participants, or for advanced features like cloud recording and user management, a paid business plan is recommended."
+      }
+    ]
+  },
+  "canva": {
+    "input_hash": "c0056daf8bdaeec0d3080c1928f9e371891b5883f20491c72debad19b09f6458",
+    "generated_at": "2026-10-22",
+    "summary": "Canva is an online graphic design platform that allows users to create social media graphics, presentations, and other visual content.",
+    "what_it_does": "It provides a drag-and-drop interface with a vast library of templates, photos, and design elements for easy creation of visual materials.",
+    "best_for": "Individuals, marketers, and small businesses needing to create professional-looking designs quickly and easily.",
+    "free_tier": "A free tier is available with a substantial library of templates and design assets.",
+    "limitations": "The free tier offers a good selection of features, but premium templates, stock photos, and advanced tools require a Pro subscription.",
+    "licensing_notes": "Free for personal use with access to many features. A Pro subscription is available for advanced features and commercial use.",
+    "faq": [
+      {
+        "question": "Is Canva free to use?",
+        "answer": "Canva offers a robust free version with access to many templates and design elements. A paid Pro version unlocks premium content and advanced features."
+      },
+      {
+        "question": "What is Canva Pro?",
+        "answer": "Canva Pro is a paid subscription that provides access to premium templates, stock photos, brand kits, background remover, and other advanced design tools."
+      }
+    ]
+  },
+  "github-copilot": {
+    "input_hash": "08a00bb581ff42ef670a18ed4b4101c689546342f425bb3e51d719b00212311e",
+    "generated_at": "2026-10-22",
+    "summary": "GitHub Copilot is an AI pair programmer that suggests code and entire functions in real-time.",
+    "what_it_does": "It analyzes the context of code being written and provides intelligent code suggestions to speed up development.",
+    "best_for": "Software developers looking to enhance their coding speed and efficiency through AI-powered suggestions.",
+    "free_tier": "A free trial is typically offered. Verified student developers and maintainers of popular open-source projects may be eligible for free access.",
+    "limitations": "Requires a subscription for continued use after the trial period. Specific usage limits may apply depending on the plan.",
+    "licensing_notes": "Available through individual, business, and enterprise subscription tiers. Free access may be available for students and open-source maintainers.",
+    "faq": [
+      {
+        "question": "Is GitHub Copilot free?",
+        "answer": "GitHub Copilot is a paid service, though a free trial is usually available. Verified students and maintainers of popular open-source projects may qualify for free access."
+      },
+      {
+        "question": "What are the different plans for GitHub Copilot?",
+        "answer": "GitHub Copilot is offered in Individual, Business, and Enterprise tiers, catering to different user needs and organizational scales."
+      }
+    ]
+  },
+  "elasticsearch": {
+    "input_hash": "bb47eb77311f8a9b543eb4e8a20e42faf2b1ae1c33e3f6021f1b0ba96e53a16d",
+    "generated_at": "2026-10-22",
+    "summary": "Elasticsearch is a distributed, RESTful search and analytics engine.",
+    "what_it_does": "It enables users to store, search, and analyze large volumes of data quickly and in near real-time.",
+    "best_for": "Developers and organizations needing powerful search capabilities, log analytics, and real-time data insights.",
+    "free_tier": "A basic free tier is available for core functionality.",
+    "limitations": "Advanced features, security enhancements, and enterprise-grade support are typically part of paid subscription tiers.",
+    "licensing_notes": "Offers a free and open-source basic version. Paid subscriptions provide access to advanced features and support.",
+    "faq": [
+      {
+        "question": "Is Elasticsearch free?",
+        "answer": "Elasticsearch has a free and open-source basic version. Advanced features and enterprise capabilities are available through paid subscription tiers."
+      },
+      {
+        "question": "What are the benefits of paid Elasticsearch subscriptions?",
+        "answer": "Paid subscriptions typically offer enhanced security features, machine learning capabilities, advanced alerting, dedicated support, and other enterprise-grade functionalities."
+      }
+    ]
+  },
+  "mysql": {
+    "input_hash": "2aaac52f16491becadd2f4d28ab00de8f08ae3abd8177c0eec272bbbe11e7441",
+    "generated_at": "2026-10-22",
+    "summary": "MySQL is a widely used open-source relational database management system (RDBMS).",
+    "what_it_does": "It allows users to store, manage, and retrieve data efficiently using SQL.",
+    "best_for": "Web applications, data-driven services, and general-purpose database needs requiring a reliable RDBMS.",
+    "free_tier": "The Community Edition is free and open-source.",
+    "limitations": "The Community Edition lacks some advanced features and enterprise support found in the commercial versions.",
+    "licensing_notes": "The Community Edition is available under the GNU General Public License (GPL). Commercial licenses are available for different terms.",
+    "faq": [
+      {
+        "question": "Is MySQL free?",
+        "answer": "Yes, the MySQL Community Edition is free and open-source. Oracle also offers commercial licenses with additional features and support."
+      },
+      {
+        "question": "What is the difference between MySQL Community and Commercial editions?",
+        "answer": "The Community Edition is free for development and production use under the GPL. Commercial editions offer additional features, tools, and dedicated support."
+      }
+    ]
+  },
+  "mongodb": {
+    "input_hash": "c9aa4cee7a4aaa7d54dd7974300ddb33aec86d911c3e5abfecc3e02634a67915",
+    "generated_at": "2026-10-22",
+    "summary": "MongoDB is a popular source-available, cross-platform, document-oriented database program.",
+    "what_it_does": "It stores data in flexible, JSON-like documents, allowing for dynamic schemas and scalable data management.",
+    "best_for": "Applications requiring flexible data models, high scalability, and real-time analytics, especially with large datasets.",
+    "free_tier": "MongoDB Community Server is free and open-source. MongoDB Atlas offers a free tier for cloud database services.",
+    "limitations": "The free tier of MongoDB Atlas has limitations on storage, compute, and features. Advanced features require paid Atlas plans.",
+    "licensing_notes": "MongoDB Community Server is available under the Server Side Public License (SSPL). MongoDB Atlas offers various paid tiers.",
+    "faq": [
+      {
+        "question": "Is MongoDB free?",
+        "answer": "MongoDB Community Server is free and open-source. MongoDB Atlas, their cloud database service, also offers a free tier with certain limitations."
+      },
+      {
+        "question": "What is MongoDB Atlas?",
+        "answer": "MongoDB Atlas is a fully managed cloud database service that provides deployment, scaling, and management of MongoDB clusters across multiple cloud providers."
+      }
+    ]
+  },
+  "gitlab": {
+    "input_hash": "40c61f4dacb1f22e32b35e617a788293db93a4dd404c16d2ce7f363876ee9703",
+    "generated_at": "2026-10-22",
+    "summary": "GitLab is a web-based DevOps lifecycle tool that provides a Git repository manager.",
+    "what_it_does": "It offers features for source code management, CI/CD pipelines, issue tracking, and more, supporting the entire software development lifecycle.",
+    "best_for": "Development teams seeking an integrated platform for version control, CI/CD, and project management.",
+    "free_tier": "GitLab Community Edition (CE) is free and open-source for self-hosted deployments.",
+    "limitations": "The free Community Edition has fewer features and support compared to the paid Enterprise Edition (EE).",
+    "licensing_notes": "GitLab Community Edition (CE) is free and open-source. GitLab Enterprise Edition (EE) requires a paid subscription.",
+    "faq": [
+      {
+        "question": "What is GitLab Community Edition (CE)?",
+        "answer": "GitLab CE is a free, open-source version of GitLab that can be self-hosted. It provides core DevOps features for software development."
+      },
+      {
+        "question": "What is the difference between GitLab CE and EE?",
+        "answer": "GitLab Enterprise Edition (EE) builds upon CE with additional features, security enhancements, compliance tools, and dedicated support, requiring a paid subscription."
+      }
+    ]
+  },
+  "grafana": {
+    "input_hash": "87259c286bfd6c55fdaa359458c24d8ed76253dc90fb078306019174da78d4c1",
+    "generated_at": "2026-10-22",
+    "summary": "Grafana is an open-source platform for monitoring and observability.",
+    "what_it_does": "It allows users to visualize and analyze metrics from various data sources, creating dashboards for monitoring systems and applications.",
+    "best_for": "DevOps engineers, system administrators, and developers needing to visualize and monitor time-series data.",
+    "free_tier": "Grafana OSS is free and open-source. Grafana Cloud offers a free tier with limitations.",
+    "limitations": "The free tier of Grafana Cloud has limits on data retention, query volume, and features. Paid plans offer more resources and capabilities.",
+    "licensing_notes": "Grafana is available as open-source software (OSS). Grafana Cloud offers a free tier and paid plans.",
+    "faq": [
+      {
+        "question": "Is Grafana free?",
+        "answer": "Yes, Grafana is available as free and open-source software (Grafana OSS). Grafana Cloud also provides a free tier for users."
+      },
+      {
+        "question": "What are the benefits of Grafana Cloud?",
+        "answer": "Grafana Cloud offers a managed service with features like scalable data storage, advanced alerting, and integrations, with free and paid tiers available."
+      }
+    ]
+  },
+  "dbeaver": {
+    "input_hash": "64bd076d9830cd228f175dc59cc820bc6670aafea6187bf8be75191c319b6f13",
+    "generated_at": "2026-10-22",
+    "summary": "DBeaver is a universal database tool and SQL client.",
+    "what_it_does": "It allows users to connect to various databases, browse schemas, execute SQL queries, and manage database objects.",
+    "best_for": "Database administrators, developers, and analysts who work with multiple database systems.",
+    "free_tier": "DBeaver Community Edition is free and open-source.",
+    "limitations": "The Enterprise Edition offers additional features, drivers, and support not found in the free Community Edition.",
+    "licensing_notes": "DBeaver Community Edition is free under the Apache License. DBeaver Enterprise Edition requires a paid license.",
+    "faq": [
+      {
+        "question": "Is DBeaver free?",
+        "answer": "Yes, DBeaver Community Edition is free and open-source. An Enterprise Edition with additional features is available for purchase."
+      },
+      {
+        "question": "What is the difference between DBeaver Community and Enterprise editions?",
+        "answer": "The Community Edition provides core database management tools for various databases. The Enterprise Edition includes advanced features, commercial database support, and enhanced tooling."
+      }
+    ]
   }
 }
