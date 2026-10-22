@@ -11,9 +11,15 @@ ROOT = Path(__file__).resolve().parent.parent
 CSV_PATH = ROOT / "data" / "software_list.csv"
 RECENT_PATH = ROOT / "data" / "recent_updates.json"
 SOURCES_PATH = ROOT / "data" / "software_sources.json"
-MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
-MODEL_CHAIN = [m.strip() for m in os.getenv("GEMINI_MODELS", f"{MODEL},gemini-2.5-flash-lite,gemini-2.0-flash").split(",") if m.strip()]
-MODEL_CHAIN = list(dict.fromkeys(MODEL_CHAIN))
+# Separate model roles: smart discovery, lightweight verification, and robust fallback chains.
+DISCOVERY_MODELS = [m.strip() for m in os.getenv(
+    "GEMINI_DISCOVERY_MODELS", "gemini-3.6-flash,gemini-3.5-flash,gemini-2.5-flash"
+).split(",") if m.strip()]
+VERIFY_MODELS = [m.strip() for m in os.getenv(
+    "GEMINI_VERIFY_MODELS", "gemini-2.5-flash-lite,gemini-2.5-flash,gemini-3.6-flash"
+).split(",") if m.strip()]
+DISCOVERY_MODELS = list(dict.fromkeys(DISCOVERY_MODELS))
+VERIFY_MODELS = list(dict.fromkeys(VERIFY_MODELS))
 TARGET = int(os.getenv("NEW_PER_RUN", "15"))
 CATEGORIES = {"Open Source", "Free for Home", "License Required", "License for Commercial", "Community Version"}
 COLUMNS = ["Software Name", "Category", "License Status", "Official URL", "Last Updated", "Notes"]
@@ -33,11 +39,12 @@ def parse_json(raw):
         return json.loads(match.group(1))
 
 
-def ask(prompt):
+def ask(prompt, models=None):
     if CLIENT is None:
         raise RuntimeError("GEMINI_API_KEY is missing")
     errors = []
-    for model in MODEL_CHAIN:
+    model_chain = models or DISCOVERY_MODELS
+    for model in model_chain:
         for attempt in range(2):
             try:
                 USAGE["requests"] += 1
@@ -60,13 +67,37 @@ def ask(prompt):
                     continue
                 print(f"[MODEL FALLBACK] {model} failed: {str(exc)[:180]}")
                 break
-    raise RuntimeError("All configured Gemini models failed. " + " | ".join(errors[-len(MODEL_CHAIN):])[:900])
+    raise RuntimeError("All configured Gemini models failed. " + " | ".join(errors[-len(model_chain):])[:900])
 
 
 def norm(value):
     value = str(value or "").casefold()
     value = re.sub(r"\b(incorporated|inc|corporation|corp|limited|ltd|llc|gmbh|company|co)\b", " ", value)
     return re.sub(r"[^a-z0-9]+", "", value)
+
+
+def identity_key(name, url=""):
+    """Collapse edition labels and vendor prefixes to compare product identity, not listing title."""
+    value = str(name or "").casefold()
+    host = (urlparse(str(url or "")).hostname or "").lower()
+    vendor = host[4:] if host.startswith("www.") else host
+    vendor = vendor.split(".")[0] if vendor else ""
+    if vendor and len(vendor) >= 4:
+        value = re.sub(r"\b" + re.escape(vendor) + r"\b", " ", value)
+    value = re.sub(r"\b(community|ultimate|professional|enterprise|personal|home|pro|free|paid|standard|premium|edition|version|desktop|server)\b", " ", value)
+    value = re.sub(r"\b(v\.?\s*\d+(?:\.\d+)*)\b", " ", value)
+    return norm(value)
+
+
+def same_product_identity(candidate, existing):
+    """Compare core product identity, not edition-specific listing titles."""
+    c_name, c_url = candidate.get("software_name", ""), candidate.get("official_url", "")
+    e_name, e_url = existing.get("Software Name", ""), existing.get("Official URL", "")
+    ck, ek = identity_key(c_name, c_url), identity_key(e_name, e_url)
+    if ck and ek and ck == ek:
+        return True
+    score = difflib.SequenceMatcher(None, ck, ek).ratio() if ck and ek else 0
+    return bool(domain(c_url) and domain(c_url) == domain(e_url) and score >= 0.68)
 
 
 def domain(url):
@@ -95,7 +126,7 @@ def clarify(candidate, matches):
         "possible_existing_matches": [{"name": r["Software Name"], "url": r["Official URL"], "category": r["Category"], "notes": str(r["Notes"])[:140]} for r in matches],
     }
     prompt = """Are these the same software product? Similar names or shared vendor domains alone do not prove identity. Distinguish separate products such as Visual Studio and Visual Studio Code. Return JSON only: decision (SAME_PRODUCT, DIFFERENT_PRODUCT, UNCERTAIN), matched_name, reason. Input: """ + json.dumps(payload, ensure_ascii=False)
-    answer = parse_json(ask(prompt))
+    answer = parse_json(ask(prompt, VERIFY_MODELS))
     decision = str(answer.get("decision", "UNCERTAIN")).upper()
     if decision not in {"SAME_PRODUCT", "DIFFERENT_PRODUCT", "UNCERTAIN"}:
         decision = "UNCERTAIN"
@@ -105,7 +136,7 @@ def clarify(candidate, matches):
 
 def discover(batch):
     prompt = f"""Suggest up to 24 real, distinct software products for a software-license directory (batch {batch}). Choose varied categories. Do not invent products, URLs, or license facts. Return a JSON array with software_name, category (one of {sorted(CATEGORIES)}), license_status, official_url (HTTPS), evidence_url, and notes. Use unknown if facts cannot be established. Python will compare candidates against the local CSV; do not request any existing-directory list."""
-    data = parse_json(ask(prompt))
+    data = parse_json(ask(prompt, DISCOVERY_MODELS))
     if not isinstance(data, list):
         raise ValueError("Discovery response must be a JSON array")
     return [x for x in data if isinstance(x, dict)]
@@ -114,7 +145,7 @@ def discover(batch):
 def verify_batch(candidates):
     compact = [{"software_name": c.get("software_name", ""), "official_url": c.get("official_url", ""), "suggested_category": c.get("category", ""), "notes": str(c.get("notes", ""))[:180], "evidence_url": c.get("evidence_url", "")} for c in candidates]
     prompt = """Verify these software records. Return a JSON array with one object per candidate: software_name, category, license_status, official_url, evidence_url, notes, confidence (high|medium|low). Category must be one of """ + json.dumps(sorted(CATEGORIES)) + """. Do not invent license terms or commercial-use permissions. Use high confidence only when evidence supports the status; keep notes concise. Candidates: """ + json.dumps(compact, ensure_ascii=False)
-    data = parse_json(ask(prompt))
+    data = parse_json(ask(prompt, VERIFY_MODELS))
     if not isinstance(data, list):
         raise ValueError("Verification response must be a JSON array")
     return [x for x in data if isinstance(x, dict)]
@@ -160,7 +191,7 @@ def write_recent(rows):
 
 
 def run():
-    print(f"Software discovery | model_fallback_chain={MODEL_CHAIN} | target={TARGET}")
+    print(f"Software discovery | discovery_models={DISCOVERY_MODELS} | verification_models={VERIFY_MODELS} | target={TARGET}")
     if CLIENT is None or not CSV_PATH.exists():
         print("[ERROR] Missing GEMINI_API_KEY or software CSV")
         return 1
@@ -189,6 +220,8 @@ def run():
             key = norm(name)
             if not key or key in existing_keys or key in accepted_keys:
                 print(f"[SKIP] Exact duplicate/invalid name: {name or '(empty)'}"); continue
+            if any(same_product_identity(candidate, r) for r in rows) or any(same_product_identity(candidate, {"Software Name": a["Software Name"], "Official URL": a["Official URL"]}) for a in accepted):
+                print(f"[SKIP] Edition/vendor alias matches an existing or accepted product: {name}"); continue
             if not url.startswith("https://") or not domain(url):
                 print(f"[SKIP] Invalid HTTPS URL: {name}"); continue
             status, matches = local_match(candidate, rows)
