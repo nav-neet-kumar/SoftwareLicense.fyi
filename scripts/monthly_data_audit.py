@@ -145,10 +145,8 @@ def duplicate_candidates(rows):
             ratio = difflib.SequenceMatcher(None, left_key, right_key).ratio() if left_key and right_key else 0
             alias_ratio = difflib.SequenceMatcher(None, left_alias, right_alias).ratio() if left_alias and right_alias else 0
             alias_match = bool(left_alias and right_alias and left_alias == right_alias)
-            contained_name = bool(left_alias and right_alias and min(len(left_alias), len(right_alias)) >= 4
-                                  and (left_alias in right_alias or right_alias in left_alias))
             # These are candidates for AI review, never automatic deletions.
-            if (left_key == right_key or alias_match or contained_name or
+            if (left_key == right_key or alias_match or
                     (same_url and ratio >= 0.55) or ratio >= 0.88 or alias_ratio >= 0.88):
                 pairs.append({"left_index": i, "right_index": j,
                               "left": {k: left.get(k, "") for k in COLUMNS},
