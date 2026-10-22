@@ -23,7 +23,7 @@ SOURCES_PATH = DATA / "software_sources.json"
 RECENT_PATH = DATA / "recent_updates.json"
 CONTEXT_PATH = DATA / "software_context.json"
 TODAY = str(date.today())
-BATCH_SIZE = int(os.getenv("AUDIT_BATCH_SIZE", "12"))
+BATCH_SIZE = int(os.getenv("AUDIT_BATCH_SIZE", "25"))
 MODELS = list(dict.fromkeys(m.strip() for m in os.getenv(
     "GEMINI_AUDIT_MODELS",
     "gemini-3.6-flash,gemini-2.5-flash,gemini-2.5-flash-lite"
@@ -65,7 +65,7 @@ def fetch_evidence(url):
             return {"url": str(url), "ok": False, "text": ""}
         parser = TextExtractor()
         parser.feed(response.text[:500000])
-        return {"url": response.url, "ok": True, "text": " ".join(parser.parts)[:3500]}
+        return {"url": response.url, "ok": True, "text": " ".join(parser.parts)[:1600]}
     except (requests.RequestException, ValueError):
         return {"url": str(url), "ok": False, "text": ""}
 
