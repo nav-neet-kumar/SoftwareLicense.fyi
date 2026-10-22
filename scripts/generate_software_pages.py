@@ -5,6 +5,7 @@ import html
 import json
 import os
 import re
+import shutil
 import sys
 import time
 from datetime import date, datetime
@@ -331,6 +332,11 @@ def main():
     for row in rows:
         by_category.setdefault(row["Category"], []).append(row)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    expected_slugs = {slugify(str(row["Software Name"]).strip()) for row in rows if str(row["Software Name"]).strip()}
+    for old_dir in OUTPUT_DIR.iterdir():
+        if old_dir.is_dir() and old_dir.name not in expected_slugs:
+            shutil.rmtree(old_dir)
+            print(f"[CLEANUP] Removed stale software page: {old_dir.name}")
     seen_slugs = set()
     generated_rows = []
     for row in rows:
