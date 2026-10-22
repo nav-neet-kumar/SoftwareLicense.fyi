@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://isitfree.webline.cloud/</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/visual-studio-code/</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/intellij-idea-community-edition/</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/intellij-idea-ultimate-edition/</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/microsoft-sql-server-express/</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/google-chrome/</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/jira-software/</loc><lastmod>2026-10-22</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/orkas/</loc><lastmod>2026-10-19</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/nagios-core/</loc><lastmod>2026-10-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/almalinux/</loc><lastmod>2026-10-18</lastmod></url>

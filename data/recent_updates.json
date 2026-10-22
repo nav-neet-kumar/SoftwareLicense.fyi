@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "name": "Visual Studio Code",
+    "slug": "visual-studio-code",
+    "type": "NEW",
+    "date": "2026-10-22",
+    "category": "Open Source",
+    "url": "https://code.visualstudio.com/",
+    "source": "https://github.com/microsoft/vscode/blob/main/LICENSE.txt"
+  },
+  {
+    "name": "IntelliJ IDEA Community Edition",
+    "slug": "intellij-idea-community-edition",
+    "type": "NEW",
+    "date": "2026-10-22",
+    "category": "Community Version",
+    "url": "https://www.jetbrains.com/idea/",
+    "source": "https://www.jetbrains.com/idea/download/"
+  },
+  {
+    "name": "IntelliJ IDEA Ultimate Edition",
+    "slug": "intellij-idea-ultimate-edition",
+    "type": "NEW",
+    "date": "2026-10-22",
+    "category": "License for Commercial",
+    "url": "https://www.jetbrains.com/idea/",
+    "source": "https://www.jetbrains.com/idea/buy/"
+  },
+  {
+    "name": "Microsoft SQL Server Express",
+    "slug": "microsoft-sql-server-express",
+    "type": "NEW",
+    "date": "2026-10-22",
+    "category": "Free for Home",
+    "url": "https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
+    "source": "https://www.microsoft.com/en-us/sql-server/sql-server-downloads"
+  },
+  {
+    "name": "Google Chrome",
+    "slug": "google-chrome",
+    "type": "NEW",
+    "date": "2026-10-22",
+    "category": "Free for Home",
+    "url": "https://www.google.com/chrome/",
+    "source": "https://www.google.com/chrome/terms/"
+  },
+  {
+    "name": "Jira Software",
+    "slug": "jira-software",
+    "type": "NEW",
+    "date": "2026-10-22",
+    "category": "License for Commercial",
+    "url": "https://www.atlassian.com/software/jira",
+    "source": "https://www.atlassian.com/software/jira/pricing"
+  }
+]

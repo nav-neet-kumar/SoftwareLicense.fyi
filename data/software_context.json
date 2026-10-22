@@ -1198,5 +1198,605 @@
         "answer": "The Community Edition provides core database management tools for various databases. The Enterprise Edition includes advanced features, commercial database support, and enhanced tooling."
       }
     ]
+  },
+  "visual-studio-code": {
+    "input_hash": "18dca97cd958d1003861666a6987f934a77e72015d96e34d4d8b4563fa4f7d5c",
+    "generated_at": "2026-10-22",
+    "summary": "Visual Studio Code is a popular, open-source code editor developed by Microsoft.",
+    "what_it_does": "It provides a versatile environment for coding, debugging, and development across various programming languages and platforms.",
+    "best_for": "Developers seeking a lightweight, extensible, and free code editor for personal projects, open-source contributions, or professional development.",
+    "free_tier": "Visual Studio Code is entirely free to download and use.",
+    "limitations": "While highly extensible, performance can vary based on the number and complexity of installed extensions and the size of the project. Check official documentation for specific system requirements.",
+    "licensing_notes": "It is licensed under the MIT License, which permits free personal and commercial use without restrictions.",
+    "faq": [
+      {
+        "question": "Is Visual Studio Code truly free?",
+        "answer": "Yes, Visual Studio Code is completely free to download and use for any purpose."
+      },
+      {
+        "question": "Can I use Visual Studio Code for commercial projects?",
+        "answer": "Yes, Visual Studio Code is licensed under the MIT License, which explicitly allows its use for commercial projects."
+      }
+    ]
+  },
+  "intellij-idea-community-edition": {
+    "input_hash": "6294c52975aa3f84848ff9901ffe589e26a4e3064d9b484eb3f05f2c21d8338d",
+    "generated_at": "2026-10-22",
+    "summary": "IntelliJ IDEA Community Edition is the free and open-source version of the popular Java Integrated Development Environment (IDE).",
+    "what_it_does": "It offers core Java development features, including intelligent code editing, debugging, refactoring, and integration with build tools.",
+    "best_for": "Java developers, students, and open-source contributors who need a robust IDE for JVM-based languages without requiring advanced enterprise features.",
+    "free_tier": "IntelliJ IDEA Community Edition is entirely free to download and use.",
+    "limitations": "This edition focuses on core Java and Android development and does not include support for enterprise frameworks, advanced web development, or profiling tools found in the Ultimate Edition. Check official documentation for specific feature differences.",
+    "licensing_notes": "It is licensed under the Apache 2.0 License, permitting free personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is IntelliJ IDEA Community Edition truly free?",
+        "answer": "Yes, IntelliJ IDEA Community Edition is completely free to download and use."
+      },
+      {
+        "question": "Can I use IntelliJ IDEA Community Edition for commercial projects?",
+        "answer": "Yes, it is licensed under the Apache 2.0 License, which allows its use for commercial projects."
+      }
+    ]
+  },
+  "intellij-idea-ultimate-edition": {
+    "input_hash": "1864af9209c3e9712914d19623c3d7eb9ba0ce6765589cd63f270996e8bd9e35",
+    "generated_at": "2026-10-22",
+    "summary": "IntelliJ IDEA Ultimate Edition is a full-featured commercial IDE designed for professional Java and polyglot development.",
+    "what_it_does": "It provides comprehensive tools for enterprise, web, mobile, and polyglot development, supporting a wide range of languages and frameworks.",
+    "best_for": "Professional developers and teams working on complex commercial projects, enterprise applications, and advanced web development requiring extensive IDE capabilities.",
+    "free_tier": "There is no perpetual free tier; a trial period may be available. A license is required for continued use.",
+    "limitations": "Access to features, updates, and technical support is tied to an active paid subscription. Specific limitations depend on the chosen subscription plan.",
+    "licensing_notes": "This edition requires a paid subscription license for use. Check the official documentation for specific terms, pricing, and available subscription models.",
+    "faq": [
+      {
+        "question": "Is IntelliJ IDEA Ultimate Edition truly free?",
+        "answer": "No, IntelliJ IDEA Ultimate Edition requires a paid subscription license for use. A trial period may be offered."
+      },
+      {
+        "question": "Can I use IntelliJ IDEA Ultimate Edition for commercial projects?",
+        "answer": "Yes, it is specifically designed for commercial use, provided you have a valid and active subscription license."
+      }
+    ]
+  },
+  "microsoft-sql-server-express": {
+    "input_hash": "fe7d7326ab7626f3ad92f367a0b836d7274dc9c43b48737a43f29cb59ee86d4b",
+    "generated_at": "2026-10-22",
+    "summary": "Microsoft SQL Server Express is a free edition of SQL Server, ideal for development and small production applications.",
+    "what_it_does": "It provides a robust relational database management system for desktop, web, and small server applications.",
+    "best_for": "Developers, students, and small businesses needing a free database solution for learning, development, or deploying small-scale applications.",
+    "free_tier": "Microsoft SQL Server Express is entirely free to download and use.",
+    "limitations": "It has resource limits, including a maximum database size (typically 10 GB), limited CPU usage, and limited memory usage. Check official documentation for current specific resource limits.",
+    "licensing_notes": "It is free for both personal and commercial use, subject to its inherent resource limitations.",
+    "faq": [
+      {
+        "question": "Is Microsoft SQL Server Express truly free?",
+        "answer": "Yes, Microsoft SQL Server Express is a free edition of SQL Server."
+      },
+      {
+        "question": "Can I use Microsoft SQL Server Express for commercial projects?",
+        "answer": "Yes, it is permitted for commercial use within its specified resource limits."
+      }
+    ]
+  },
+  "google-chrome": {
+    "input_hash": "ef919d86382bb00fa7679ea13bad9ec0b34cf55add70e8e7081211a37ee41853",
+    "generated_at": "2026-10-22",
+    "summary": "Google Chrome is a widely used proprietary freeware web browser developed by Google.",
+    "what_it_does": "It allows users to browse the internet, access web applications, and view multimedia content.",
+    "best_for": "General internet users, developers, and businesses seeking a fast, secure, and feature-rich web browser with extensive extension support.",
+    "free_tier": "Google Chrome is entirely free to download and use.",
+    "limitations": "While generally robust, its resource consumption can be high with many tabs or extensions. Check official documentation for system requirements.",
+    "licensing_notes": "It is proprietary freeware, meaning it is free to use for both personal and commercial purposes, but its source code is not publicly available.",
+    "faq": [
+      {
+        "question": "Is Google Chrome truly free?",
+        "answer": "Yes, Google Chrome is completely free to download and use."
+      },
+      {
+        "question": "Can I use Google Chrome for commercial projects?",
+        "answer": "Yes, Google Chrome is freeware and can be used for both personal and commercial purposes."
+      }
+    ]
+  },
+  "jira-software": {
+    "input_hash": "7f4f8cea118a529bd7328f91dc23047d5bd4013457c056f09ac618b877723b79",
+    "generated_at": "2026-10-22",
+    "summary": "Jira Software is a leading project tracking and issue management software developed by Atlassian.",
+    "what_it_does": "It helps software development teams plan, track, and release software, supporting agile methodologies like Scrum and Kanban.",
+    "best_for": "Software development teams, project managers, and organizations needing robust issue tracking, workflow management, and agile project planning capabilities.",
+    "free_tier": "Yes, Jira Software offers a free tier for up to 10 users.",
+    "limitations": "The free tier is limited to 10 users and may have restrictions on storage, automation, or advanced features. Paid plans are required for larger teams and additional capabilities. Check official documentation for specific free tier limits.",
+    "licensing_notes": "Jira Software operates on a freemium model, offering a free tier with limitations and requiring paid subscriptions for larger teams and enhanced features.",
+    "faq": [
+      {
+        "question": "Is Jira Software truly free?",
+        "answer": "Jira Software offers a free tier for teams of up to 10 users. For larger teams or advanced features, paid plans are required."
+      },
+      {
+        "question": "Can I use Jira Software for commercial projects?",
+        "answer": "Yes, the free tier can be used commercially within its user limits. Paid plans are available and designed for commercial use by larger teams."
+      }
+    ]
+  },
+  "radare2": {
+    "input_hash": "017f25da78db49da0836e213ab1c743795f5a707eb692517c2df8cb6708e2f19",
+    "generated_at": "2026-10-22",
+    "summary": "Radare2 is a free and open-source reverse engineering framework and command-line toolset.",
+    "what_it_does": "It provides a comprehensive suite of tools for binary analysis, disassembly, debugging, and exploitation.",
+    "best_for": "Security researchers, reverse engineers, exploit developers, and anyone needing to analyze binary files and understand their underlying structure.",
+    "free_tier": "Radare2 is entirely free to download and use.",
+    "limitations": "As a command-line tool, it requires familiarity with its syntax and concepts. The learning curve can be steep for new users. Check official documentation for system requirements.",
+    "licensing_notes": "Radare2 is licensed under LGPLv3 (with some tools/plugins under GPLv3), making it fully free and open-source for both personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is Radare2 truly free?",
+        "answer": "Yes, Radare2 is completely free and open-source software."
+      },
+      {
+        "question": "Can I use Radare2 for commercial projects?",
+        "answer": "Yes, Radare2 is licensed under LGPLv3/GPLv3, which permits its use for commercial projects."
+      }
+    ]
+  },
+  "apache-jmeter": {
+    "input_hash": "541b1d73a42a640ce835c510eb0a82a24f1cad8c1a6ff47b03feb4990859552f",
+    "generated_at": "2026-10-22",
+    "summary": "Apache JMeter is an open-source application designed to load test functional behavior and measure performance.",
+    "what_it_does": "It can be used to test performance on both static and dynamic resources, web dynamic applications, and various server types.",
+    "best_for": "Performance testers, quality assurance engineers, and developers needing to simulate heavy loads on servers, networks, or objects to test their strength or analyze overall performance under different load types.",
+    "free_tier": "Apache JMeter is entirely free to download and use.",
+    "limitations": "While powerful, JMeter requires some technical expertise to configure and interpret results effectively. It is not a browser and does not execute JavaScript or render HTML like a browser. Check official documentation for specific capabilities and limitations.",
+    "licensing_notes": "Apache JMeter is fully open-source software distributed under the permissive Apache License 2.0, allowing free personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is Apache JMeter truly free?",
+        "answer": "Yes, Apache JMeter is completely free and open-source software."
+      },
+      {
+        "question": "Can I use Apache JMeter for commercial projects?",
+        "answer": "Yes, Apache JMeter is licensed under the Apache License 2.0, which permits its use for commercial projects."
+      }
+    ]
+  },
+  "playwright": {
+    "input_hash": "5d2b43f8ca941b52fa7e961cbab71c9f72f6c0021975b38661da49672fb9cf71",
+    "generated_at": "2026-10-22",
+    "summary": "Playwright is an open-source browser automation library developed by Microsoft.",
+    "what_it_does": "It enables reliable end-to-end testing, automation, and web scraping across modern web browsers like Chromium, Firefox, and WebKit.",
+    "best_for": "Developers, QA engineers, and testers who need to automate browser interactions for testing, data extraction, or task automation.",
+    "free_tier": "Playwright is entirely free to download and use.",
+    "limitations": "Requires programming knowledge (JavaScript, Python, .NET, Java) to write automation scripts. Check official documentation for supported browser versions and operating systems.",
+    "licensing_notes": "Playwright is licensed under the Apache License 2.0, allowing free commercial and non-commercial use.",
+    "faq": [
+      {
+        "question": "Is Playwright truly free?",
+        "answer": "Yes, Playwright is completely free and open-source software."
+      },
+      {
+        "question": "Can I use Playwright for commercial projects?",
+        "answer": "Yes, Playwright is licensed under the Apache License 2.0, which permits its use for commercial projects."
+      }
+    ]
+  },
+  "cmake": {
+    "input_hash": "9787802cd2ca98b6b4014b19da0a524bae31404a0958fdd681947fa94efb3f09",
+    "generated_at": "2026-10-22",
+    "summary": "CMake is an open-source, cross-platform family of tools designed to build, test, and package software.",
+    "what_it_does": "It manages the build process in a compiler-independent manner, generating native build environments like Makefiles or Visual Studio projects.",
+    "best_for": "Software developers and build engineers working on projects that need to be compiled across multiple platforms and compilers.",
+    "free_tier": "CMake is entirely free to download and use.",
+    "limitations": "Requires understanding of its domain-specific language and build system concepts. The learning curve can be steep for complex projects. Check official documentation for supported platforms and compilers.",
+    "licensing_notes": "CMake is distributed under the permissive OSI-approved BSD 3-Clause License, allowing free commercial and non-commercial use.",
+    "faq": [
+      {
+        "question": "Is CMake truly free?",
+        "answer": "Yes, CMake is completely free and open-source software."
+      },
+      {
+        "question": "Can I use CMake for commercial projects?",
+        "answer": "Yes, CMake is licensed under the BSD 3-Clause License, which permits its use for commercial projects."
+      }
+    ]
+  },
+  "truenas-scale": {
+    "input_hash": "2a46826140074c213095077c24ac30dea872088d5881a3be7f0996ea153fe2d5",
+    "generated_at": "2026-10-22",
+    "summary": "TrueNAS SCALE is a free and open-source hyperconverged storage and application platform based on Debian Linux and OpenZFS.",
+    "what_it_does": "It provides unified storage (block, file, object), virtualization, and containerization capabilities for data management and application deployment.",
+    "best_for": "IT professionals, small businesses, and home users needing a robust, scalable, and flexible storage solution with integrated virtualization and container support.",
+    "free_tier": "TrueNAS SCALE is entirely free to download and use.",
+    "limitations": "Requires dedicated hardware and a certain level of technical expertise for setup and management. Performance and features depend on the underlying hardware. Check official documentation for system requirements and best practices.",
+    "licensing_notes": "TrueNAS SCALE is fully open-source software, free for both personal and commercial use without licensing fees.",
+    "faq": [
+      {
+        "question": "Is TrueNAS SCALE truly free?",
+        "answer": "Yes, TrueNAS SCALE is completely free and open-source software."
+      },
+      {
+        "question": "Can I use TrueNAS SCALE for commercial projects?",
+        "answer": "Yes, TrueNAS SCALE is free and open-source, permitting its use for commercial projects without licensing fees."
+      }
+    ]
+  },
+  "pfsense-community-edition": {
+    "input_hash": "d86cef273741ccfcadb11c406680f2cc4be42eb7df70b8eb2b9dc84cc9960053",
+    "generated_at": "2026-10-22",
+    "summary": "pfSense Community Edition is a free and open-source firewall and router software distribution based on FreeBSD.",
+    "what_it_does": "It provides a powerful and flexible solution for network security, offering features like routing, VPN, traffic shaping, and intrusion detection.",
+    "best_for": "Network administrators, small businesses, and home users seeking a robust, customizable, and free firewall and router solution.",
+    "free_tier": "pfSense Community Edition is entirely free to download and use.",
+    "limitations": "Requires dedicated hardware or a virtual machine for installation. Configuration can be complex for users unfamiliar with networking concepts. Check official documentation for hardware requirements and setup guides.",
+    "licensing_notes": "pfSense Community Edition is fully open-source software distributed under the Apache 2.0 license, allowing free personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is pfSense Community Edition truly free?",
+        "answer": "Yes, pfSense Community Edition is completely free and open-source software."
+      },
+      {
+        "question": "Can I use pfSense Community Edition for commercial projects?",
+        "answer": "Yes, pfSense Community Edition is licensed under the Apache 2.0 license, which permits its use for commercial projects."
+      }
+    ]
+  },
+  "kaspersky-free": {
+    "input_hash": "41f39459fa7a66ccaa4ddbf5a269405229c183b70bdafed06ec9878632d4480d",
+    "generated_at": "2026-10-22",
+    "summary": "Kaspersky Free provides basic antivirus protection at no cost.",
+    "what_it_does": "It offers essential security features to protect against common viruses, malware, and other online threats.",
+    "best_for": "Individual home users seeking fundamental antivirus protection for their personal computers without incurring subscription costs.",
+    "free_tier": "Kaspersky Free is entirely free to download and use.",
+    "limitations": "This edition provides basic protection and typically lacks advanced features found in paid Kaspersky products, such as parental controls, VPN, or premium technical support. Check official documentation for specific feature differences.",
+    "licensing_notes": "Kaspersky Free is provided for personal, non-commercial use only.",
+    "faq": [
+      {
+        "question": "Is Kaspersky Free truly free?",
+        "answer": "Yes, Kaspersky Free is completely free to download and use for personal purposes."
+      },
+      {
+        "question": "Can I use Kaspersky Free for commercial projects?",
+        "answer": "No, Kaspersky Free is explicitly licensed for personal, non-commercial use only."
+      }
+    ]
+  },
+  "framer": {
+    "input_hash": "e4a29613776ca928dc904307b05e3584726fb4e22d00d774807ed5cc59e25738",
+    "generated_at": "2026-10-22",
+    "summary": "Framer is a proprietary design and prototyping tool that allows users to create interactive websites and user interfaces.",
+    "what_it_does": "It combines design tools with code capabilities to build responsive websites, interactive prototypes, and animations.",
+    "best_for": "Designers, product teams, and developers who want to create high-fidelity prototypes and publish functional websites without extensive coding.",
+    "free_tier": "Yes, Framer offers a free plan for basic hobby projects.",
+    "limitations": "The free plan has limitations, typically including restricted features, custom domain support, team collaboration, and commercial site publishing. Paid subscriptions are required for advanced capabilities and commercial use. Check official documentation for specific free plan limits.",
+    "licensing_notes": "Framer operates on a freemium model. A free plan is available for basic use, but paid subscriptions are required for custom domains, team collaboration, and commercial site publishing.",
+    "faq": [
+      {
+        "question": "Is Framer truly free?",
+        "answer": "Framer offers a free plan suitable for basic hobby projects. Paid subscriptions are required for advanced features and commercial use."
+      },
+      {
+        "question": "Can I use Framer for commercial projects?",
+        "answer": "Commercial site publishing and advanced features for professional use typically require a paid subscription. The free plan is generally for basic hobby projects."
+      }
+    ]
+  },
+  "datadog": {
+    "input_hash": "3891d93f9938b565de468eb4a394e6f8a39202ce49845f94adc35233157940a9",
+    "generated_at": "2026-10-22",
+    "summary": "Datadog is a proprietary commercial SaaS platform for cloud monitoring and analytics.",
+    "what_it_does": "It provides comprehensive observability for applications, infrastructure, and logs, offering metrics, traces, and logs in a unified platform.",
+    "best_for": "DevOps teams, SREs, and IT operations professionals in organizations needing to monitor complex cloud-native environments, applications, and infrastructure.",
+    "free_tier": "There is no perpetual free tier; a trial period may be available. A paid subscription is required for use.",
+    "limitations": "Access to the platform and its features is entirely dependent on an active paid subscription. Pricing is typically based on usage, host count, and specific features enabled. Check official documentation for pricing models and plan details.",
+    "licensing_notes": "Datadog is a proprietary commercial SaaS platform that requires a paid subscription based on usage and host count. It is not open-source or freemium.",
+    "faq": [
+      {
+        "question": "Is Datadog truly free?",
+        "answer": "No, Datadog is a commercial SaaS platform that requires a paid subscription. A trial period may be offered."
+      },
+      {
+        "question": "Can I use Datadog for commercial projects?",
+        "answer": "Yes, Datadog is designed for commercial use, provided you have an active paid subscription."
+      }
+    ]
+  },
+  "metabase": {
+    "input_hash": "b62f192e0a30c152da7b39afaeabeccc66d1d2078c20427830d0269fa3791d0f",
+    "generated_at": "2026-10-22",
+    "summary": "Metabase is an open-source business intelligence tool that allows users to create dashboards and reports from their data. It offers a free Community Edition alongside paid Enterprise and Cloud tiers.",
+    "what_it_does": "It helps users explore data, create visualizations, and build dashboards without requiring extensive technical knowledge. Metabase connects to various data sources to provide insights.",
+    "best_for": "Individuals, small teams, or organizations looking for a self-hosted, open-source solution to analyze their data and share insights.",
+    "free_tier": "A free, self-hosted Community Edition is available, offering core business intelligence functionalities.",
+    "limitations": "The Community Edition may lack advanced features, dedicated support, or scalability options found in paid enterprise versions. Users should check the official documentation for specific differences.",
+    "licensing_notes": "Metabase's Community Edition is open-source. Paid Enterprise and Cloud tiers are available, likely offering additional features, support, and scalability. Users should consult the official website for detailed licensing terms.",
+    "faq": [
+      {
+        "question": "Is Metabase completely free to use?",
+        "answer": "Metabase offers a free, open-source Community Edition. Paid Enterprise and Cloud tiers are also available with additional features and services."
+      },
+      {
+        "question": "What are the main differences between the Community and Enterprise versions?",
+        "answer": "The Community Edition provides core functionalities. Enterprise versions typically include advanced features, dedicated support, and enhanced scalability. For specific differences, please check the official documentation."
+      }
+    ]
+  },
+  "neo4j": {
+    "input_hash": "b0fa875a8c9eb3833e729f290c3f34029ebbf2602d37d779460340f40199f3ad",
+    "generated_at": "2026-10-22",
+    "summary": "Neo4j is a leading graph database management system. It offers a free, GPLv3-licensed Community Edition for developers and small projects, alongside commercial Enterprise editions.",
+    "what_it_does": "Neo4j allows users to store, manage, and query highly connected data using a graph model. It's designed for applications that require complex relationship analysis.",
+    "best_for": "Developers, researchers, and small to medium-sized projects that need a powerful graph database for data modeling and relationship analysis.",
+    "free_tier": "A free, GPLv3-licensed Community Edition is available for self-hosting.",
+    "limitations": "The Community Edition may lack advanced features, clustering capabilities, or dedicated support found in the commercial Enterprise editions. Users should check the official documentation for specific differences.",
+    "licensing_notes": "The Community Edition is licensed under GPLv3. Commercial Enterprise editions are available, offering additional features and support. Users should consult the official website for detailed licensing terms.",
+    "faq": [
+      {
+        "question": "Is Neo4j free for all uses?",
+        "answer": "Neo4j offers a free Community Edition licensed under GPLv3. Commercial Enterprise editions are available for businesses requiring advanced features and support."
+      },
+      {
+        "question": "What is the license for the Neo4j Community Edition?",
+        "answer": "The Neo4j Community Edition is licensed under GPLv3."
+      }
+    ]
+  },
+  "posit-rstudio": {
+    "input_hash": "47c51a081ec715715de9b883ead6b241fd7571422bf95b04805305a6fe6b7fb2",
+    "generated_at": "2026-10-22",
+    "summary": "Posit RStudio is an integrated development environment (IDE) for R, a programming language for statistical computing and graphics. It provides a free AGPL open-source desktop version, with commercial licenses available for enterprise needs.",
+    "what_it_does": "RStudio provides a console, syntax-highlighting editor that supports direct code execution, and tools for plotting, history, debugging, and workspace management, making it easier to work with R.",
+    "best_for": "Data scientists, statisticians, and researchers who use the R programming language for data analysis, visualization, and statistical modeling.",
+    "free_tier": "A free, AGPL open-source desktop version is available.",
+    "limitations": "The free desktop version may not include the enterprise-grade features, professional support, or compliance options offered by commercial licenses. Users should check the official documentation for specific differences.",
+    "licensing_notes": "The desktop version of Posit RStudio is available under an AGPL open-source license. Commercial licenses are offered for enterprise support and compliance requirements. Users should consult the official website for detailed licensing terms.",
+    "faq": [
+      {
+        "question": "Is Posit RStudio free to use?",
+        "answer": "Yes, a free AGPL open-source desktop version of Posit RStudio is available. Commercial licenses are offered for enterprise support and compliance."
+      },
+      {
+        "question": "What is the license for the free version of Posit RStudio?",
+        "answer": "The free desktop version of Posit RStudio is licensed under AGPL."
+      }
+    ]
+  },
+  "bitwarden": {
+    "input_hash": "446e84419ba90bd7b7aa160344b9c5ebead8da8dc79d1a6d0c9df92ecbb58f4b",
+    "generated_at": "2026-10-22",
+    "summary": "Bitwarden is an open-source password manager that securely stores and manages login credentials. It offers a free open-source core, with paid business tiers providing advanced enterprise features.",
+    "what_it_does": "Bitwarden helps users create strong, unique passwords for all their online accounts and securely store them in an encrypted vault, accessible across multiple devices.",
+    "best_for": "Individuals, families, and small teams looking for a secure, open-source solution to manage passwords and sensitive information.",
+    "free_tier": "A free, open-source core version is available, providing essential password management functionalities.",
+    "limitations": "The free version may lack advanced features, user management capabilities, or dedicated support found in paid business tiers. Users should check the official documentation for specific differences.",
+    "licensing_notes": "Bitwarden features a free open-source core. Paid business tiers are available for advanced enterprise features and additional services. Users should consult the official website for detailed licensing terms.",
+    "faq": [
+      {
+        "question": "Is Bitwarden free to use?",
+        "answer": "Yes, Bitwarden offers a free open-source core version for essential password management. Paid business tiers are available for advanced features."
+      },
+      {
+        "question": "Can Bitwarden be used by businesses for free?",
+        "answer": "Bitwarden has a free open-source core. However, paid business tiers are designed for organizations requiring advanced enterprise features and management capabilities. Businesses should check the official documentation for suitable plans."
+      }
+    ]
+  },
+  "mattermost": {
+    "input_hash": "977915943eecbd226e3cc0ae6cbdd568c19f4f08de8810c7e43143c032b46b76",
+    "generated_at": "2026-10-22",
+    "summary": "Mattermost is an open-source, self-hostable communication platform designed for secure team collaboration. It offers a free Community Edition alongside paid enterprise plans.",
+    "what_it_does": "Mattermost provides features like team messaging, file sharing, and integrations, serving as an alternative to proprietary communication tools, with a focus on security and control.",
+    "best_for": "Organizations and teams that require a self-hosted, open-source, and secure communication platform, especially those with strict data privacy or compliance needs.",
+    "free_tier": "A free, self-hosted open-source Community Edition is available.",
+    "limitations": "The Community Edition may not include advanced features, scalability options, or dedicated support found in paid enterprise plans. Users should check the official documentation for specific differences.",
+    "licensing_notes": "Mattermost provides a free self-hosted open-source Community Edition. Paid enterprise plans are available, offering additional features and support. Users should consult the official website for detailed licensing terms.",
+    "faq": [
+      {
+        "question": "Is Mattermost free for team communication?",
+        "answer": "Yes, Mattermost offers a free self-hosted open-source Community Edition. Paid enterprise plans are available for organizations needing advanced features and support."
+      },
+      {
+        "question": "Can I host Mattermost on my own servers for free?",
+        "answer": "Yes, the free open-source Community Edition of Mattermost is designed for self-hosting."
+      }
+    ]
+  },
+  "vs-code": {
+    "input_hash": "1d932bc926178e06ade917968816c6b887dad3af65dfc8bd7efd4db6d662b509",
+    "generated_at": "2026-10-22",
+    "summary": "VS Code (Visual Studio Code) is a free, open-source code editor developed by Microsoft. It is highly customizable and supports a wide range of programming languages and development tasks.",
+    "what_it_does": "VS Code provides features like syntax highlighting, intelligent code completion, debugging tools, and integrated Git control, making it a versatile environment for software development.",
+    "best_for": "Developers of all levels working on various programming projects, from web development to data science, who need a powerful, extensible, and free code editor.",
+    "free_tier": "VS Code is entirely free and open-source.",
+    "limitations": "There are no inherent limitations on its core functionality due to a free tier, as it is fully open-source. Users might find certain proprietary extensions or services require separate licensing.",
+    "licensing_notes": "VS Code is released under the MIT License, making it free for all use, including commercial purposes.",
+    "faq": [
+      {
+        "question": "Is VS Code completely free?",
+        "answer": "Yes, VS Code is entirely free and open-source, released under the MIT License."
+      },
+      {
+        "question": "Can I use VS Code for commercial projects?",
+        "answer": "Yes, VS Code is licensed under the MIT License, which permits free use for all purposes, including commercial projects."
+      }
+    ]
+  },
+  "linux-ubuntu": {
+    "input_hash": "515cccc80f100da6daf80e757fd373f7d4c24d7fecb53a19f1a77b741e66cbdd",
+    "generated_at": "2026-10-22",
+    "summary": "Ubuntu is a popular open-source operating system based on Linux, known for its user-friendliness and extensive community support. It is completely free to use.",
+    "what_it_does": "Ubuntu provides a full desktop operating system environment, allowing users to browse the web, create documents, develop software, and perform various computing tasks.",
+    "best_for": "Individuals, developers, and organizations looking for a stable, secure, and free alternative to proprietary operating systems, suitable for both personal use and server environments.",
+    "free_tier": "Ubuntu is entirely free and open-source.",
+    "limitations": "As a fully open-source operating system, there are no 'free tier' limitations. Users should ensure hardware compatibility and may need to rely on community support for specific issues.",
+    "licensing_notes": "Ubuntu is primarily licensed under the GNU General Public License (GPL), making it free for all use, including commercial purposes.",
+    "faq": [
+      {
+        "question": "Is Ubuntu free to download and use?",
+        "answer": "Yes, Ubuntu is a completely free and open-source operating system."
+      },
+      {
+        "question": "What is the license for Ubuntu?",
+        "answer": "Ubuntu is primarily licensed under the GNU General Public License (GPL)."
+      }
+    ]
+  },
+  "gimp": {
+    "input_hash": "340301c1fbfef8c88f63de821b446ba795dbf5c2953571757f12b5e338153acf",
+    "generated_at": "2026-10-22",
+    "summary": "GIMP (GNU Image Manipulation Program) is a free and open-source raster graphics editor used for image retouching, composition, and authoring. It is available for various operating systems.",
+    "what_it_does": "GIMP provides tools for photo manipulation, image composition, and creating original artwork, supporting a wide range of file formats and offering extensive customization through plugins.",
+    "best_for": "Graphic designers, photographers, and artists who need a powerful, free alternative to commercial image editing software for tasks like photo retouching, image composition, and digital painting.",
+    "free_tier": "GIMP is entirely free and open-source.",
+    "limitations": "As a fully open-source project, there are no 'free tier' limitations. Users might find a learning curve compared to some commercial alternatives.",
+    "licensing_notes": "GIMP is licensed under the GNU General Public License (GPL), making it free for all use, including commercial purposes.",
+    "faq": [
+      {
+        "question": "Is GIMP free for professional use?",
+        "answer": "Yes, GIMP is licensed under the GNU GPL, which allows free use for all purposes, including commercial and professional projects."
+      },
+      {
+        "question": "What kind of software is GIMP?",
+        "answer": "GIMP is a free and open-source raster graphics editor for image retouching, composition, and authoring."
+      }
+    ]
+  },
+  "libreoffice": {
+    "input_hash": "1b3b341242576102982eeae94c3f1faad7f284a0e50bd4940b4be7bf32bbb94d",
+    "generated_at": "2026-10-22",
+    "summary": "LibreOffice is a free and open-source office productivity suite that provides a comprehensive set of applications for word processing, spreadsheets, presentations, and more.",
+    "what_it_does": "It includes Writer (word processing), Calc (spreadsheets), Impress (presentations), Draw (vector graphics and flowcharts), Base (databases), and Math (formula editing), offering a full alternative to proprietary office suites.",
+    "best_for": "Individuals, students, and businesses seeking a free, feature-rich office suite compatible with major document formats, without the cost of commercial alternatives.",
+    "free_tier": "LibreOffice is entirely free and open-source.",
+    "limitations": "As a fully open-source project, there are no 'free tier' limitations. Users might find some minor compatibility differences with proprietary formats, which is common across office suites.",
+    "licensing_notes": "LibreOffice is primarily licensed under the Mozilla Public License (MPL), making it free for all use, including commercial purposes.",
+    "faq": [
+      {
+        "question": "Is LibreOffice free for commercial use?",
+        "answer": "Yes, LibreOffice is licensed under the Mozilla Public License, which permits free use for all purposes, including commercial projects."
+      },
+      {
+        "question": "What applications are included in LibreOffice?",
+        "answer": "LibreOffice includes applications for word processing, spreadsheets, presentations, vector graphics, databases, and formula editing."
+      }
+    ]
+  },
+  "firefox": {
+    "input_hash": "7f4690f995f4fe9e867e919c76cae19d3e000e9c9284287876178b51a8515603",
+    "generated_at": "2026-10-22",
+    "summary": "Firefox is a free and open-source web browser developed by the Mozilla Foundation. It is known for its focus on privacy, security, and customization.",
+    "what_it_does": "Firefox allows users to browse the internet, access web applications, and stream media, offering features like tabbed browsing, extensions, and robust privacy controls.",
+    "best_for": "Users who prioritize privacy, security, and open-source software in their web browsing experience, and those who appreciate extensive customization options.",
+    "free_tier": "Firefox is entirely free and open-source.",
+    "limitations": "As a fully open-source project, there are no 'free tier' limitations. Its functionality is consistent across all users.",
+    "licensing_notes": "Firefox is licensed under the Mozilla Public License 2.0, making it free for all use, including commercial purposes.",
+    "faq": [
+      {
+        "question": "Is Firefox a free web browser?",
+        "answer": "Yes, Firefox is a completely free and open-source web browser."
+      },
+      {
+        "question": "Can I use Firefox in a business environment without cost?",
+        "answer": "Yes, Firefox is licensed under the Mozilla Public License 2.0, which allows free use for all purposes, including commercial use."
+      }
+    ]
+  },
+  "vlc-media-player": {
+    "input_hash": "e75591379530f2951b108b35ca1a8bd77af38bda7510558e20ea520d6445b030",
+    "generated_at": "2026-10-22",
+    "summary": "VLC Media Player is a free and open-source multimedia player that can play almost all multimedia files, as well as DVDs, Audio CDs, VCDs, and various streaming protocols.",
+    "what_it_does": "VLC plays a wide range of audio and video formats without needing additional codecs. It also supports streaming, converting media, and playing incomplete files.",
+    "best_for": "Individuals looking for a versatile, free, and robust media player that handles nearly any audio or video file format without hassle.",
+    "free_tier": "VLC Media Player is entirely free and open-source.",
+    "limitations": "As a fully open-source project, there are no 'free tier' limitations on its core functionality. The notes specify 'free for home/personal use', implying potential restrictions for commercial use.",
+    "licensing_notes": "VLC Media Player is licensed under LGPL, and the notes specify it is 'free for home/personal use'. Users should check the official documentation for specific commercial use permissions.",
+    "faq": [
+      {
+        "question": "Is VLC Media Player free?",
+        "answer": "Yes, VLC Media Player is free and open-source, specifically noted as free for home and personal use."
+      },
+      {
+        "question": "Can I use VLC Media Player for commercial purposes?",
+        "answer": "The notes indicate it is free for home/personal use. For specific commercial use permissions, users should check the official documentation and licensing details."
+      }
+    ]
+  },
+  "zoom": {
+    "input_hash": "b12847207e421148b5ccbc553fb36f917c23ef7b795f5d694b3b8f7b5939d460",
+    "generated_at": "2026-10-22",
+    "summary": "Zoom is a popular video conferencing platform used for online meetings, webinars, and chat. It offers a free tier for personal use with certain limitations, alongside paid plans.",
+    "what_it_does": "Zoom enables users to host and join video calls, share screens, and communicate via chat, facilitating remote collaboration and virtual events.",
+    "best_for": "Individuals and small groups needing a straightforward solution for personal video calls and online meetings, especially for short durations.",
+    "free_tier": "Zoom offers a free tier for personal use.",
+    "limitations": "The free tier has a known time limit on group calls. For specific details on this and other potential limitations, users should check the official documentation.",
+    "licensing_notes": "Zoom offers a free tier for personal use. Paid plans are available for extended features, longer meeting durations, and business functionalities. Users should consult the official website for detailed licensing and plan information.",
+    "faq": [
+      {
+        "question": "Is Zoom completely free to use?",
+        "answer": "Zoom offers a free tier for personal use, which comes with certain limitations. Paid plans are available for more extensive features."
+      },
+      {
+        "question": "What are the limitations of Zoom's free tier?",
+        "answer": "The free tier has a known time limit on group calls. For full details on all limitations, please check the official Zoom documentation."
+      }
+    ]
+  },
+  "slack": {
+    "input_hash": "e46deae3cd388fe71a4175119d244fafa68eece5e6a699bef175ee6cb516bd43",
+    "generated_at": "2026-10-22",
+    "summary": "Slack is a widely used messaging application for team collaboration, offering channels for organized communication, direct messaging, and file sharing. It provides a free tier with limitations, alongside paid plans.",
+    "what_it_does": "Slack facilitates real-time communication within teams, allowing users to create channels for different topics, share files, and integrate with other business tools.",
+    "best_for": "Small teams and individuals who need a structured messaging platform for internal communication and project coordination, especially for casual or non-archival discussions.",
+    "free_tier": "Slack offers a free tier for personal and small team use.",
+    "limitations": "The free tier has known message history limits. For specific details on this and other potential limitations, users should check the official documentation.",
+    "licensing_notes": "Slack offers a free tier for personal and small team use. Paid plans are available for extended features, unlimited message history, and advanced administrative controls. Users should consult the official website for detailed licensing and plan information.",
+    "faq": [
+      {
+        "question": "Is Slack free for teams?",
+        "answer": "Slack offers a free tier suitable for small teams and personal use, but it comes with certain limitations. Paid plans provide more features and fewer restrictions."
+      },
+      {
+        "question": "What are the limitations of Slack's free tier?",
+        "answer": "The free tier has known message history limits. For full details on all limitations, please check the official Slack documentation."
+      }
+    ]
+  },
+  "notion": {
+    "input_hash": "0b603b51e321d4c63017ca876d13099d0b8b98c28b949059054a08dfc8478010",
+    "generated_at": "2026-10-22",
+    "summary": "Notion is an all-in-one workspace that combines notes, databases, wikis, calendars, and reminders. It offers a free personal plan, with paid plans available for teams and advanced features.",
+    "what_it_does": "Notion allows users to create highly customizable pages and workspaces for organizing information, managing projects, taking notes, and building personal wikis.",
+    "best_for": "Individuals and students looking for a flexible and versatile tool to organize their personal life, studies, or small projects, combining various productivity functions into one platform.",
+    "free_tier": "Notion offers a free personal plan.",
+    "limitations": "The free personal plan may have limitations on file uploads, guest access, or version history compared to paid plans. Users should check the official documentation for specific differences.",
+    "licensing_notes": "Notion offers a free personal plan. Paid plans are available for teams, increased storage, and advanced features. Users should consult the official website for detailed licensing and plan information.",
+    "faq": [
+      {
+        "question": "Is Notion free for individual use?",
+        "answer": "Yes, Notion offers a free personal plan for individual users."
+      },
+      {
+        "question": "What are the differences between the free and paid Notion plans?",
+        "answer": "The free personal plan provides core functionalities. Paid plans typically offer increased storage, more guest access, and extended version history. For specific differences, please check the official documentation."
+      }
+    ]
+  },
+  "obs-studio": {
+    "input_hash": "3ceeb163202d472fde05e78c5065365ff107715171009a71b137ed6d78ca199c",
+    "generated_at": "2026-10-22",
+    "summary": "OBS Studio (Open Broadcaster Software) is a free and open-source software for video recording and live streaming. It is widely used for broadcasting gameplay, presentations, and other content.",
+    "what_it_does": "OBS Studio allows users to capture video and audio from multiple sources, mix them, and broadcast the output live to platforms like Twitch and YouTube, or save it as a local recording.",
+    "best_for": "Streamers, content creators, educators, and anyone needing a powerful, free tool for live streaming or recording high-quality video content.",
+    "free_tier": "OBS Studio is entirely free and open-source.",
+    "limitations": "As a fully open-source project, there are no 'free tier' limitations. Its functionality is consistent across all users.",
+    "licensing_notes": "OBS Studio is licensed under the GNU General Public License (GPL), making it free for all use, including commercial purposes.",
+    "faq": [
+      {
+        "question": "Is OBS Studio completely free to use?",
+        "answer": "Yes, OBS Studio is entirely free and open-source software for video recording and live streaming."
+      },
+      {
+        "question": "Can OBS Studio be used for commercial live streams or recordings?",
+        "answer": "Yes, OBS Studio is licensed under the GPL, which permits free use for all purposes, including commercial live streams and recordings."
+      }
+    ]
   }
 }

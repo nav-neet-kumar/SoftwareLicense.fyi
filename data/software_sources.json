@@ -1,1 +1,8 @@
-{}
+{
+  "visual-studio-code": "https://github.com/microsoft/vscode/blob/main/LICENSE.txt",
+  "intellij-idea-community-edition": "https://www.jetbrains.com/idea/download/",
+  "intellij-idea-ultimate-edition": "https://www.jetbrains.com/idea/buy/",
+  "microsoft-sql-server-express": "https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
+  "google-chrome": "https://www.google.com/chrome/terms/",
+  "jira-software": "https://www.atlassian.com/software/jira/pricing"
+}
