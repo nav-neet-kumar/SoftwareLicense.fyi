@@ -11,7 +11,9 @@ ROOT = Path(__file__).resolve().parent.parent
 CSV_PATH = ROOT / "data" / "software_list.csv"
 RECENT_PATH = ROOT / "data" / "recent_updates.json"
 SOURCES_PATH = ROOT / "data" / "software_sources.json"
-MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
+MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL_CHAIN = [m.strip() for m in os.getenv("GEMINI_MODELS", f"{MODEL},gemini-2.5-flash-lite,gemini-2.0-flash").split(",") if m.strip()]
+MODEL_CHAIN = list(dict.fromkeys(MODEL_CHAIN))
 TARGET = int(os.getenv("NEW_PER_RUN", "15"))
 CATEGORIES = {"Open Source", "Free for Home", "License Required", "License for Commercial", "Community Version"}
 COLUMNS = ["Software Name", "Category", "License Status", "Official URL", "Last Updated", "Notes"]
@@ -34,33 +36,31 @@ def parse_json(raw):
 def ask(prompt):
     if CLIENT is None:
         raise RuntimeError("GEMINI_API_KEY is missing")
-    error = None
-    for attempt in range(1, 3):
-        try:
-            USAGE["requests"] += 1
-            response = CLIENT.models.generate_content(model=MODEL, contents=prompt, config={"temperature": 0.1, "response_mime_type": "application/json"})
-            usage = getattr(response, "usage_metadata", None)
-            if usage:
-                USAGE["prompt_tokens"] += int(getattr(usage, "prompt_token_count", 0) or 0)
-                USAGE["output_tokens"] += int(getattr(usage, "candidates_token_count", 0) or 0)
-                USAGE["total_tokens"] += int(getattr(usage, "total_token_count", 0) or 0)
-            if not getattr(response, "text", None):
-                raise ValueError("Gemini returned empty output")
-            return response.text.strip()
-        except Exception as exc:
-            error = exc
-            message = str(exc).lower()
-            if "429" in message or "resource_exhausted" in message or "quota" in message:
-                print("[QUOTA] Gemini quota exhausted; stopping API retries.")
+    errors = []
+    for model in MODEL_CHAIN:
+        for attempt in range(2):
+            try:
+                USAGE["requests"] += 1
+                response = CLIENT.models.generate_content(model=model, contents=prompt, config={"temperature": 0.1, "response_mime_type": "application/json"})
+                usage = getattr(response, "usage_metadata", None)
+                if usage:
+                    USAGE["prompt_tokens"] += int(getattr(usage, "prompt_token_count", 0) or 0)
+                    USAGE["output_tokens"] += int(getattr(usage, "candidates_token_count", 0) or 0)
+                    USAGE["total_tokens"] += int(getattr(usage, "total_token_count", 0) or 0)
+                if not getattr(response, "text", None):
+                    raise ValueError("Gemini returned empty output")
+                print(f"[MODEL] Success using {model}")
+                return response.text.strip()
+            except Exception as exc:
+                message = str(exc).lower()
+                errors.append(f"{model}: {exc}")
+                if attempt == 0 and any(x in message for x in ("503", "unavailable", "timeout", "temporarily")):
+                    USAGE["retries"] += 1
+                    time.sleep(2)
+                    continue
+                print(f"[MODEL FALLBACK] {model} failed: {str(exc)[:180]}")
                 break
-            transient = any(x in message for x in ("503", "unavailable", "rate limit", "timeout", "temporarily"))
-            if not transient or attempt == 2:
-                break
-            USAGE["retries"] += 1
-            delay = 4 * (2 ** (attempt - 1))
-            print(f"[RETRY {attempt}/3] Temporary Gemini error; waiting {delay}s")
-            time.sleep(delay)
-    raise RuntimeError(f"Gemini request failed after retries: {error}") from error
+    raise RuntimeError("All configured Gemini models failed. " + " | ".join(errors[-len(MODEL_CHAIN):])[:900])
 
 
 def norm(value):
@@ -160,7 +160,7 @@ def write_recent(rows):
 
 
 def run():
-    print(f"Software discovery | model={MODEL} | target={TARGET}")
+    print(f"Software discovery | model_fallback_chain={MODEL_CHAIN} | target={TARGET}")
     if CLIENT is None or not CSV_PATH.exists():
         print("[ERROR] Missing GEMINI_API_KEY or software CSV")
         return 1
@@ -179,7 +179,7 @@ def run():
             candidates = discover(batch)
         except Exception as exc:
             errors.append(str(exc)); print(f"[ERROR] Discovery batch {batch}: {exc}")
-            if any(x in str(exc).lower() for x in ("429", "resource_exhausted", "quota")):
+            if "All configured Gemini models failed" in str(exc):
                 break
             continue
         shortlist = []
