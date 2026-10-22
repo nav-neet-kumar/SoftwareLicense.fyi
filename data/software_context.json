@@ -298,5 +298,305 @@
         "answer": "The PRO edition adds features like advanced report building, query building, and schema comparison tools."
       }
     ]
+  },
+  "emsisoft-emergency-kit": {
+    "input_hash": "4d07d44c1970e4accc8d24d388e773d3bfaa270dfdab376a6c0695104ef41fd0",
+    "generated_at": "2026-10-22",
+    "summary": "Emsisoft Emergency Kit is a portable malware scanning and removal utility designed to clean infected computers without requiring installation. It can be run directly from USB drives or local directories to detect and eliminate malicious threats.",
+    "what_it_does": "Scans, identifies, and removes malware, trojans, spyware, and other malicious software from Windows systems without installation.",
+    "best_for": "Individual users and home computer owners needing a portable malware cleanup tool for infected PCs.",
+    "free_tier": "Free for private and personal home use.",
+    "limitations": "Commercial or business environments require a paid license. For specific system requirements and features, check the official documentation.",
+    "licensing_notes": "Licensed free for private/personal home use. Commercial and business usage requires purchasing a paid license.",
+    "faq": [
+      {
+        "question": "Is Emsisoft Emergency Kit free for business use?",
+        "answer": "No, it is free strictly for private personal home use. Commercial and business environments require a paid license."
+      },
+      {
+        "question": "Does Emsisoft Emergency Kit require installation?",
+        "answer": "No, it is a portable security utility that can be run directly from a USB flash drive or local folder without installation."
+      }
+    ]
+  },
+  "apache-activemq": {
+    "input_hash": "9df6074d78076b88c9bdaf26f49661dce18b86124315c33b1ec26b954345356b",
+    "generated_at": "2026-10-22",
+    "summary": "Apache ActiveMQ is a popular open-source message broker written in Java that facilitates asynchronous communication between distributed applications. It supports enterprise integration patterns and standard messaging protocols.",
+    "what_it_does": "Provides enterprise-grade message queuing, publish-subscribe messaging, and cross-language client connectivity across distributed systems.",
+    "best_for": "Developers, system architects, and enterprises building scalable, distributed software systems.",
+    "free_tier": "Completely free and open source under the permissive Apache License 2.0.",
+    "limitations": "Requires manual setup, administration, and infrastructure management. Check the official documentation for specific platform requirements.",
+    "licensing_notes": "Distributed under the Apache License 2.0, permitting personal, educational, and commercial usage.",
+    "faq": [
+      {
+        "question": "Is Apache ActiveMQ free for commercial applications?",
+        "answer": "Yes, Apache ActiveMQ is released under the permissive Apache License 2.0, which allows free commercial use."
+      },
+      {
+        "question": "Where can I find supported protocols for Apache ActiveMQ?",
+        "answer": "A comprehensive list of supported messaging protocols and standards is detailed in the official documentation."
+      }
+    ]
+  },
+  "spyder": {
+    "input_hash": "d05376d246e981186a886eb98549e6d67abeab33354177618b9fbdc84dbb6bc3",
+    "generated_at": "2026-10-22",
+    "summary": "Spyder is an open-source Scientific Python Development Environment designed specifically for data analysis, scientific research, and engineering. It integrates advanced editing, interactive execution, and debugging tools into a single workspace.",
+    "what_it_does": "Delivers an interactive Python development environment featuring code editing, variable inspection, interactive testing, and data visualization.",
+    "best_for": "Data scientists, Python developers, researchers, and scientific engineers.",
+    "free_tier": "Completely free and open-source software under the MIT License.",
+    "limitations": "Tailored primarily for Python scientific computing workflows. For full platform details and plugins, check the official documentation.",
+    "licensing_notes": "Released under the open-source MIT License, allowing unrestricted personal, academic, and commercial use.",
+    "faq": [
+      {
+        "question": "Can I use Spyder for commercial software development?",
+        "answer": "Yes, Spyder is licensed under the MIT License, which permits free use in personal, academic, and commercial environments."
+      },
+      {
+        "question": "How can I extend Spyder with additional packages?",
+        "answer": "Spyder integrates with Python package managers like conda and pip; refer to the official documentation for setup instructions."
+      }
+    ]
+  },
+  "moodle": {
+    "input_hash": "c23fc468d914807cc38e53b881bd06408d4c2c418155bf0403b226405ba48b1e",
+    "generated_at": "2026-10-22",
+    "summary": "Moodle is an open-source learning management system (LMS) created to provide educators and learners with a robust, integrated system to create customized learning environments. It powers online learning platforms worldwide across education and enterprise sectors.",
+    "what_it_does": "Enables the creation, management, and delivery of online courses, quizzes, assignments, and collaborative learning activities.",
+    "best_for": "Schools, universities, educational institutions, and corporate training programs.",
+    "free_tier": "Free and open-source software distributed under the GNU General Public License (GPLv3).",
+    "limitations": "Hosting, server administration, and infrastructure costs are self-managed unless using paid third-party hosting. Check the official documentation for technical prerequisites.",
+    "licensing_notes": "Licensed under the open-source GNU General Public License v3 (GPLv3).",
+    "faq": [
+      {
+        "question": "Is Moodle free to download and self-host?",
+        "answer": "Yes, Moodle software is open source and completely free to download, modify, and self-host under GNU GPLv3."
+      },
+      {
+        "question": "Where can I find hosting and server requirements for Moodle?",
+        "answer": "Detailed server, PHP, and database requirements can be found in the official Moodle documentation."
+      }
+    ]
+  },
+  "zonealarm-free-firewall": {
+    "input_hash": "5f0f4f63d66d9771e6e25d929c30b212fd0f053daaf3616b94594a914c19cf30",
+    "generated_at": "2026-10-22",
+    "summary": "ZoneAlarm Free Firewall is a personal firewall application that secures Windows computers against unauthorized inbound and outbound internet traffic. It protects personal devices by blocking hidden threats and preventing unwanted connections.",
+    "what_it_does": "Monitors network traffic, blocks unauthorized access attempts, and prevents suspicious programs from transmitting data online.",
+    "best_for": "Individual home users seeking basic network security and firewall protection for personal computers.",
+    "free_tier": "Free for individual, personal, and non-commercial home use.",
+    "limitations": "Commercial or business use requires purchasing a paid license. Check official documentation for feature differences and system support.",
+    "licensing_notes": "Licensed strictly for personal and non-commercial home use; business use requires purchasing a paid commercial license.",
+    "faq": [
+      {
+        "question": "Can ZoneAlarm Free Firewall be installed in a business environment?",
+        "answer": "No, the free version is licensed strictly for individual personal use. Commercial deployment requires a paid license."
+      },
+      {
+        "question": "What features are included in ZoneAlarm Free Firewall?",
+        "answer": "For a full comparison between the free firewall edition and paid security suites, please visit the official documentation."
+      }
+    ]
+  },
+  "panda-dome-free": {
+    "input_hash": "1ee5f8eada3f637a5ca87f727dff418e47d34e005b4d9407aa4960a086cf5343",
+    "generated_at": "2026-10-22",
+    "summary": "Panda Dome Free is a lightweight antivirus solution offering real-time malware protection for personal computers. It helps secure home devices against viruses, spyware, and unauthorized external threats.",
+    "what_it_does": "Provides automated real-time antivirus scanning, USB external drive scanning, and PC system protection.",
+    "best_for": "Individual home users seeking easy-to-use, free antivirus protection for personal computers.",
+    "free_tier": "Free for personal, non-commercial home use.",
+    "limitations": "Restricted to personal home use; commercial or business environments require paid software licenses. Check official documentation for details.",
+    "licensing_notes": "Provided free of charge strictly for personal and non-commercial home use; commercial licenses are required for business use.",
+    "faq": [
+      {
+        "question": "Is Panda Dome Free permitted for commercial use?",
+        "answer": "No, Panda Dome Free is restricted to personal, non-commercial home use. Business use requires a paid license."
+      },
+      {
+        "question": "What features are provided in the free edition of Panda Dome?",
+        "answer": "Panda Dome Free provides core antivirus protection; check official documentation for complete feature availability."
+      }
+    ]
+  },
+  "iobit-uninstaller-free": {
+    "input_hash": "3c872589587588db3a86eb026aef53a9c65936b9c7d6ef2ab0fd925af53fcd9b",
+    "generated_at": "2026-10-22",
+    "summary": "IObit Uninstaller Free is a Windows utility designed to completely remove unwanted applications, browser extensions, and leftover files. It helps maintain computer performance by cleaning up residual registry entries and leftover software traces.",
+    "what_it_does": "Uninstalls programs, removes stubborn applications, cleans registry and residual software leftovers, and manages browser add-ons.",
+    "best_for": "Home users looking to cleanly remove unnecessary software and residual files from Windows PCs.",
+    "free_tier": "Free version available for personal non-commercial home use.",
+    "limitations": "Advanced features, batch software updates, and commercial usage require purchasing a Pro license.",
+    "licensing_notes": "Freemium software licensed strictly for personal, non-commercial use; Pro features and commercial deployment require a paid license.",
+    "faq": [
+      {
+        "question": "Can I use IObit Uninstaller Free in a commercial office?",
+        "answer": "No, the free edition is licensed strictly for personal, non-commercial use. Commercial use requires a paid license."
+      },
+      {
+        "question": "What is the difference between IObit Uninstaller Free and Pro?",
+        "answer": "The Pro version unlocks advanced residual cleaning, automatic batch updates, and commercial licensing. Check official documentation for details."
+      }
+    ]
+  },
+  "substance-3d-designer": {
+    "input_hash": "6d134ca7eefabfb16c1b351611fb2ba9d60c841af3ef88b0c6f00ef9cc878d3a",
+    "generated_at": "2026-10-22",
+    "summary": "Adobe Substance 3D Designer is an industry-standard 3D material creation and texturing tool used by digital artists and developers. It enables the creation of complex procedural materials, patterns, and 3D assets.",
+    "what_it_does": "Generates non-destructive, node-based procedural materials, 3D textures, patterns, and asset models.",
+    "best_for": "3D graphics artists, game developers, visual effects professionals, and material designers.",
+    "free_tier": "No permanent free tier available. Check the official documentation for temporary evaluation options.",
+    "limitations": "Requires a paid subscription or license for continued use and feature access.",
+    "licensing_notes": "Paid commercial software requiring an active subscription or commercial license for personal and business use.",
+    "faq": [
+      {
+        "question": "Is Substance 3D Designer available as a free tool?",
+        "answer": "No permanent free tier exists. A paid subscription or license is required; check official documentation for trial options."
+      },
+      {
+        "question": "Is commercial usage allowed with a Substance 3D Designer subscription?",
+        "answer": "Yes, commercial usage is permitted under a valid paid license or enterprise subscription."
+      }
+    ]
+  },
+  "aqua-data-studio": {
+    "input_hash": "bcd4efd4e17c9db34f8fe0e515bccea992a25a576ea9609ffdbd228ba8d4ff46",
+    "generated_at": "2026-10-22",
+    "summary": "Aqua Data Studio is a multi-platform database administration, SQL querying, and data visualization software tool. It allows database administrators and developers to manage diverse relational, NoSQL, and cloud databases from a single interface.",
+    "what_it_does": "Provides database administration, SQL query editing, visual data analytics, ER modeling, and data import/export functions.",
+    "best_for": "Database administrators, SQL developers, and data analysts managing multi-database environments.",
+    "free_tier": "No permanent free tier; offers a 14-day free evaluation trial.",
+    "limitations": "Usage is limited to a 14-day trial period, after which a paid commercial license per user must be purchased.",
+    "licensing_notes": "Proprietary commercial software requiring a paid per-user subscription or license following the 14-day free trial.",
+    "faq": [
+      {
+        "question": "Is Aqua Data Studio completely free to use?",
+        "answer": "No, Aqua Data Studio is proprietary software that requires a paid per-user license after a 14-day free trial."
+      },
+      {
+        "question": "Which database platforms are supported by Aqua Data Studio?",
+        "answer": "It supports numerous relational, NoSQL, and cloud databases; consult the official documentation for full database compatibility."
+      }
+    ]
+  },
+  "backblaze": {
+    "input_hash": "51c5eb68ec3fa64a0c079b5bf8fd34e29119ba4922892538ea5cf229da1d921c",
+    "generated_at": "2026-10-22",
+    "summary": "Backblaze is an automated cloud backup and object storage service designed to protect computer files and digital assets. It provides reliable offsite data backup for personal devices and business infrastructure.",
+    "what_it_does": "Offers automatic, continuous computer backup to the cloud as well as scalable S3-compatible cloud object storage.",
+    "best_for": "Individuals, remote workers, and businesses seeking automated computer backups or cloud object storage.",
+    "free_tier": "No permanent free plan for computer backup; check official documentation for potential free trial tiers on cloud object storage.",
+    "limitations": "Computer backup services require an active paid subscription per licensed computer.",
+    "licensing_notes": "Proprietary commercial service requiring paid subscription or usage-based pricing models.",
+    "faq": [
+      {
+        "question": "Does Backblaze offer a free personal backup plan?",
+        "answer": "No, personal computer backup requires a paid subscription per device, though free trial periods may be available."
+      },
+      {
+        "question": "Where can I check current pricing for Backblaze services?",
+        "answer": "Current plan pricing and object storage rates can be found directly on the official Backblaze website."
+      }
+    ]
+  },
+  "freecommander-xe": {
+    "input_hash": "ec0338a8f33d44fae145b1b1387dcf80a1ea1023f0b2eb9ebc2fdb3470901fa1",
+    "generated_at": "2026-10-22",
+    "summary": "FreeCommander XE is a dual-panel file manager software utility for Windows systems designed as an alternative to Windows Explorer. It features a dual-pane interface, tabbed browsing, and tools for advanced file manipulation.",
+    "what_it_does": "Provides dual-pane file management, archive handling, folder synchronization, file searching, and batch renaming.",
+    "best_for": "Windows power users who require enhanced file organization and dual-panel file browsing.",
+    "free_tier": "Freeware available for personal use.",
+    "limitations": "Specific builds (such as 64-bit releases and early updates) require donor support. Check official documentation for details.",
+    "licensing_notes": "Freeware for personal use; consult official terms regarding donor access for 64-bit builds and commercial use guidelines.",
+    "faq": [
+      {
+        "question": "Is FreeCommander XE free for personal use?",
+        "answer": "Yes, FreeCommander XE is available as freeware for personal use, though 64-bit versions require donor support."
+      },
+      {
+        "question": "What platforms are supported by FreeCommander XE?",
+        "answer": "FreeCommander XE is designed for Windows operating systems; check official documentation for supported Windows versions."
+      }
+    ]
+  },
+  "debut-video-capture": {
+    "input_hash": "bdf279ff13c05fa88d4f3f16af1f641860510b7df04a3eb680148aa4d519b7d7",
+    "generated_at": "2026-10-22",
+    "summary": "Debut Video Capture is a video recording and screen capture application developed by NCH Software. It captures high-quality video from desktop screens, webcams, or external recording devices.",
+    "what_it_does": "Records video from desktop screens, webcams, network cameras, and external input devices with customizable resolution and audio settings.",
+    "best_for": "Home users, educators, and content creators needing screen recording and video capture tools.",
+    "free_tier": "Free version available strictly for non-commercial personal home use.",
+    "limitations": "Commercial or business use requires purchasing a paid license. Advanced options may require upgraded versions.",
+    "licensing_notes": "Free for non-commercial personal home use; commercial deployment requires purchasing a paid software license.",
+    "faq": [
+      {
+        "question": "Is Debut Video Capture free for business use?",
+        "answer": "No, the free edition is strictly licensed for non-commercial personal use. Commercial use requires a paid license."
+      },
+      {
+        "question": "What video input devices can Debut Video Capture record?",
+        "answer": "It can record desktop screens, connected webcams, and external video inputs; refer to official documentation for complete hardware specifications."
+      }
+    ]
+  },
+  "wavepad-audio-editor": {
+    "input_hash": "6ff1d6cf319d8632646b330b5ae1a048cea298325f04e23fd6d7ff50485f1abf",
+    "generated_at": "2026-10-22",
+    "summary": "WavePad Audio Editor is a full-featured audio and music editor developed by NCH Software. It allows users to record, edit, cut, splice, and add sound effects to digital audio files.",
+    "what_it_does": "Provides audio editing capabilities including cut, copy, paste, noise suppression, spectral analysis, and sound effect processing.",
+    "best_for": "Home audio enthusiasts, podcasters, and content creators needing an intuitive audio editing suite.",
+    "free_tier": "Free version available for non-commercial home use.",
+    "limitations": "Free edition is restricted to non-commercial home use and may restrict access to advanced commercial features or plug-ins.",
+    "licensing_notes": "Licensed free for personal, non-commercial home use; commercial deployment requires purchasing a paid license.",
+    "faq": [
+      {
+        "question": "Can I use the free version of WavePad for commercial podcasts or audio production?",
+        "answer": "No, the free version is restricted strictly to non-commercial home use. Commercial production requires a paid license."
+      },
+      {
+        "question": "Which file formats does WavePad Audio Editor support?",
+        "answer": "WavePad supports numerous standard audio formats; check the official documentation for full format compatibility lists."
+      }
+    ]
+  },
+  "pentaho-community-edition": {
+    "input_hash": "0977bc23916b740a0249c3cff2ed604c85ca9421e0be4163c2af988755cd7c0d",
+    "generated_at": "2026-10-22",
+    "summary": "Pentaho Community Edition is an open-source business intelligence and data integration platform. It delivers robust ETL capabilities, data mining, reporting, and dashboard creation for analytics projects.",
+    "what_it_does": "Executes data integration (ETL) workflows, operational reporting, interactive analytics dashboards, and data transformations.",
+    "best_for": "Data engineers, developers, and organizations building open-source analytics and data integration pipelines.",
+    "free_tier": "Completely free, open-source platform.",
+    "limitations": "Community-supported edition without enterprise vendor support or proprietary commercial plugins. Check official documentation for details.",
+    "licensing_notes": "Open-source software distributed under licenses such as Apache License 2.0, LGPL, and GPL.",
+    "faq": [
+      {
+        "question": "Is Pentaho Community Edition free for commercial projects?",
+        "answer": "Yes, as open-source software under licenses like Apache 2.0 and LGPL, it can be used commercially in compliance with open-source licenses."
+      },
+      {
+        "question": "What is the primary difference between Pentaho Community and Enterprise editions?",
+        "answer": "The Enterprise edition includes proprietary modules and dedicated enterprise support. Consult the official documentation for details."
+      }
+    ]
+  },
+  "mule-community-edition": {
+    "input_hash": "7a5d9d5166eb6fe2ccfaa76a7372ff6e8a9bac0d07a2bdfba19f93fd2188676a",
+    "generated_at": "2026-10-22",
+    "summary": "Mule Community Edition (Mule Kernel) was an open-source integration runtime framework for connecting applications and data. MuleSoft has retired active updates for the open-source community edition.",
+    "what_it_does": "Provided light enterprise service bus (ESB) messaging and integration runtime functions for connecting distributed software applications.",
+    "best_for": "Organizations researching legacy MuleSoft open-source integration runtimes or evaluating enterprise integration patterns.",
+    "free_tier": "Discontinued; active supported releases require a commercial enterprise license.",
+    "limitations": "Community Edition is retired; current supported distributions require purchasing an enterprise license. Check official documentation for details.",
+    "licensing_notes": "Discontinued open-source kernel; active supported versions require a commercial enterprise license from MuleSoft.",
+    "faq": [
+      {
+        "question": "Is Mule Community Edition actively maintained?",
+        "answer": "No, MuleSoft retired the open-source Mule Kernel; active supported releases require a commercial enterprise license."
+      },
+      {
+        "question": "Where can I read current licensing options for MuleSoft products?",
+        "answer": "Current subscription terms and enterprise licensing options are available on the official MuleSoft website."
+      }
+    ]
   }
 }
