@@ -2398,5 +2398,605 @@
         "answer": "Yes, the PyCharm Community Edition is open-source and can be used for commercial projects, though it lacks the advanced features of the Professional Edition."
       }
     ]
+  },
+  "hitmanpro": {
+    "input_hash": "5b9f4f5b82af37e0fbe06de458801ddac2252bd797c4cd5d37a1fa117c1f4ce5",
+    "generated_at": "2026-10-22",
+    "summary": "HitmanPro is proprietary software for malware scanning and removal, offering a 30-day free trial before requiring a paid subscription license for continued use.",
+    "what_it_does": "HitmanPro is designed to scan for and remove various types of malware from computer systems.",
+    "best_for": "Users seeking a dedicated tool for malware detection and removal, particularly those who wish to evaluate its effectiveness during a trial period.",
+    "free_tier": "A 30-day free trial is available for scanning and malware removal.",
+    "limitations": "The free trial is limited to 30 days; a paid subscription is required for continued use thereafter.",
+    "licensing_notes": "A paid subscription license is required for full functionality and continued use beyond the trial period.",
+    "faq": [
+      {
+        "question": "Is HitmanPro completely free to use?",
+        "answer": "No, HitmanPro requires a paid subscription license after a 30-day free trial period."
+      },
+      {
+        "question": "What can I do with the free trial?",
+        "answer": "The free trial allows for scanning and malware removal for 30 days."
+      }
+    ]
+  },
+  "espresso": {
+    "input_hash": "b7e666b9336f8872e369ab268b2c6007a85facf8b32a63838658999a5c69bb49",
+    "generated_at": "2026-10-22",
+    "summary": "Espresso is a proprietary web editor for Mac that offers a free trial, but requires a paid commercial license for full functionality.",
+    "what_it_does": "Espresso serves as a web editor, providing tools for creating and editing web content on macOS.",
+    "best_for": "Mac users who develop websites and prefer a dedicated, proprietary web editing application with a trial option.",
+    "free_tier": "A free trial is available.",
+    "limitations": "The free trial has limitations, and a paid license is required for full use. Specific trial limitations should be checked on the official website.",
+    "licensing_notes": "A paid commercial license is required for full use of the software.",
+    "faq": [
+      {
+        "question": "Is Espresso available for Windows?",
+        "answer": "Espresso is described as a proprietary Mac web editor. Please check the official website for platform compatibility."
+      },
+      {
+        "question": "Can I use Espresso without purchasing a license?",
+        "answer": "A free trial is offered, but a paid license is required for full and continued use."
+      }
+    ]
+  },
+  "jetbrains-rustrover": {
+    "input_hash": "f9e1dde336d0612a1e8865ed5b757269bc2abc97d7e0768334632a00b4db5b00",
+    "generated_at": "2026-10-22",
+    "summary": "JetBrains RustRover is an IDE for Rust development, free for non-commercial personal use, but requiring a paid subscription license for commercial development.",
+    "what_it_does": "RustRover is an Integrated Development Environment (IDE) specifically designed to support the Rust programming language.",
+    "best_for": "Rust developers, with a clear distinction for personal, non-commercial projects (free) and professional, commercial development (paid).",
+    "free_tier": "Free for non-commercial personal use.",
+    "limitations": "Commercial development requires a paid subscription license.",
+    "licensing_notes": "Free for non-commercial personal use. A paid subscription license is required for commercial development.",
+    "faq": [
+      {
+        "question": "Can I use JetBrains RustRover for my personal projects?",
+        "answer": "Yes, JetBrains RustRover is free for non-commercial personal use."
+      },
+      {
+        "question": "Is a license needed for commercial Rust development?",
+        "answer": "Yes, a paid subscription license is required for commercial development with JetBrains RustRover."
+      }
+    ]
+  },
+  "onshape": {
+    "input_hash": "75889d5b58100089f0ccbecada0e9ebffaa45cc001f0a92b85bde5044d2da415",
+    "generated_at": "2026-10-22",
+    "summary": "Onshape is a CAD platform that offers a free tier for non-commercial hobbyists with public document access, while commercial use and private storage require a paid subscription.",
+    "what_it_does": "Onshape is a cloud-native product development platform that integrates CAD, data management, and collaboration tools.",
+    "best_for": "Non-commercial hobbyists who are comfortable with public document access, and commercial users who require private storage and professional features through a paid subscription.",
+    "free_tier": "A free tier is available for non-commercial hobbyists.",
+    "limitations": "The free tier for non-commercial hobbyists comes with public document access. Commercial use and private storage require a paid subscription.",
+    "licensing_notes": "Free for non-commercial hobbyist use with public document access. A paid subscription is required for commercial use and private storage.",
+    "faq": [
+      {
+        "question": "Is Onshape free for all users?",
+        "answer": "Onshape offers a free tier specifically for non-commercial hobbyists, but commercial use requires a paid subscription."
+      },
+      {
+        "question": "What are the limitations of the free tier?",
+        "answer": "The free tier for non-commercial hobbyists includes public document access. Private storage and commercial use are part of the paid subscription."
+      }
+    ]
+  },
+  "evernote": {
+    "input_hash": "d6accb0bba69e126dc15131dc3dab7a963965d4a81e35fd1cc8645f81ebd0f70",
+    "generated_at": "2026-10-22",
+    "summary": "Evernote is proprietary note-taking and organization software that operates on a subscription model, requiring a paid plan for full functionality beyond a limited free tier.",
+    "what_it_does": "Evernote allows users to create, organize, and store notes, lists, web clippings, and other information across various devices.",
+    "best_for": "Individuals and professionals who need a robust system for note-taking, information organization, and cross-device synchronization, and are willing to pay for advanced features.",
+    "free_tier": "A free tier is available, but it is severely restricted in functionality.",
+    "limitations": "The free tier is severely restricted. Full functionality requires a paid subscription. Specific restrictions should be verified on the official website.",
+    "licensing_notes": "Evernote is proprietary software requiring a paid subscription for full functionality.",
+    "faq": [
+      {
+        "question": "Can I use Evernote without a paid subscription?",
+        "answer": "Yes, a free tier is available, but it is severely restricted in functionality."
+      },
+      {
+        "question": "What are the benefits of a paid Evernote subscription?",
+        "answer": "A paid subscription unlocks full functionality beyond the severely restricted free tier. Specific features should be checked on the official documentation."
+      }
+    ]
+  },
+  "ibm-db2-community-edition": {
+    "input_hash": "5f85faeb517f631d1062d15c6c7b969c6e643181845445d16cf073f79f2dc4a5",
+    "generated_at": "2026-10-22",
+    "summary": "IBM DB2 Community Edition is a free-to-use database solution suitable for both development and production environments, subject to specific resource limitations.",
+    "what_it_does": "IBM DB2 Community Edition provides a relational database management system for storing, managing, and retrieving data.",
+    "best_for": "Developers and small-scale production environments that require a robust database solution from IBM, but operate within specific resource constraints.",
+    "free_tier": "IBM DB2 Community Edition is free to use.",
+    "limitations": "Use is restricted to a maximum of 4 cores and 16 GB of RAM.",
+    "licensing_notes": "Free to use for both development and production environments, subject to resource limits.",
+    "faq": [
+      {
+        "question": "Is IBM DB2 Community Edition suitable for production use?",
+        "answer": "Yes, it is free to use for both development and production environments, but with resource limits."
+      },
+      {
+        "question": "What are the resource limitations for IBM DB2 Community Edition?",
+        "answer": "It is restricted to a maximum of 4 cores and 16 GB of RAM."
+      }
+    ]
+  },
+  "seafile-community-edition": {
+    "input_hash": "23932c1a764b28d53e942c01d76e094ca2191ce1edad0a131ca3578a16a17791",
+    "generated_at": "2026-10-22",
+    "summary": "Seafile Community Edition is a fully open-source file synchronization and sharing solution, distributed under the GNU Affero General Public License v3 (AGPLv3).",
+    "what_it_does": "Seafile provides file synchronization, sharing, and collaboration capabilities, often used for self-hosted cloud storage.",
+    "best_for": "Users and organizations seeking an open-source, self-hosted solution for file synchronization and sharing, who are comfortable with the AGPLv3 license.",
+    "free_tier": "Seafile Community Edition is fully open-source and free to use.",
+    "limitations": "No inherent limitations mentioned for the Community Edition beyond what the AGPLv3 license entails. Users should check official documentation for feature differences from other editions.",
+    "licensing_notes": "Fully open-source, licensed under the GNU Affero General Public License v3 (AGPLv3).",
+    "faq": [
+      {
+        "question": "Is Seafile Community Edition free for commercial use?",
+        "answer": "Yes, as it is fully open-source under AGPLv3, it can be used commercially, but users must adhere to the license terms."
+      },
+      {
+        "question": "What is the license for Seafile Community Edition?",
+        "answer": "It is licensed under the GNU Affero General Public License v3 (AGPLv3)."
+      }
+    ]
+  },
+  "deno": {
+    "input_hash": "103968b5348fec2b4e039ab906435accf3b90ab5d45c343e6417466efafaf481",
+    "generated_at": "2026-10-22",
+    "summary": "Deno is a fully open-source runtime for JavaScript and TypeScript, known for its security and modern development features, distributed under the permissive MIT License.",
+    "what_it_does": "Deno provides a secure runtime environment for executing JavaScript and TypeScript code, offering an alternative to Node.js.",
+    "best_for": "Developers working with JavaScript and TypeScript who prefer a modern, secure runtime environment with built-in tooling and a permissive open-source license.",
+    "free_tier": "Deno is fully open-source and free to use.",
+    "limitations": "No limitations mentioned as it's fully open-source under MIT.",
+    "licensing_notes": "Fully open-source, distributed under the permissive MIT License.",
+    "faq": [
+      {
+        "question": "Is Deno suitable for commercial projects?",
+        "answer": "Yes, Deno is distributed under the permissive MIT License, making it suitable for commercial use."
+      },
+      {
+        "question": "What license does Deno use?",
+        "answer": "Deno is licensed under the MIT License."
+      }
+    ]
+  },
+  "geany": {
+    "input_hash": "e64982ec84c8e67bd1d8739e6a920e7aefe8b93be6eac9256e7b38bca525adb1",
+    "generated_at": "2026-10-22",
+    "summary": "Geany is a lightweight and fast integrated development environment (IDE) that is completely free and open-source, distributed under the GNU General Public License v2 or later.",
+    "what_it_does": "Geany provides a text editor, project management, and basic IDE features for various programming languages.",
+    "best_for": "Developers and programmers looking for a lightweight, fast, and free IDE with essential features, especially those who appreciate open-source software under GPL.",
+    "free_tier": "Geany is completely free software.",
+    "limitations": "No limitations mentioned as it's completely free and open-source.",
+    "licensing_notes": "Completely free software, distributed under the GNU General Public License version 2 or later (GPLv2+).",
+    "faq": [
+      {
+        "question": "Is Geany free to use?",
+        "answer": "Yes, Geany is completely free software."
+      },
+      {
+        "question": "What is the license for Geany?",
+        "answer": "Geany is distributed under the GNU General Public License version 2 or later (GPLv2+)."
+      }
+    ]
+  },
+  "autopsy": {
+    "input_hash": "ec44e8732b72e29047237df4aa2daa2eabc1d454191caaebc289586d3be51d23",
+    "generated_at": "2026-10-22",
+    "summary": "Autopsy is a free and open-source digital forensics platform, primarily distributed under the Apache License 2.0, used for investigating digital evidence.",
+    "what_it_does": "Autopsy provides tools for digital forensic investigations, allowing users to analyze hard drives and mobile devices to recover and examine evidence.",
+    "best_for": "Digital forensics professionals, law enforcement, and cybersecurity researchers who require a powerful, free, and open-source platform for evidence analysis.",
+    "free_tier": "Autopsy is free and open-source.",
+    "limitations": "No limitations mentioned as it's free and open-source.",
+    "licensing_notes": "Free and open-source, distributed primarily under the Apache License 2.0.",
+    "faq": [
+      {
+        "question": "Is Autopsy suitable for commercial forensic investigations?",
+        "answer": "Yes, as it is open-source under the Apache License 2.0, it is suitable for commercial use."
+      },
+      {
+        "question": "What license does Autopsy use?",
+        "answer": "Autopsy is primarily distributed under the Apache License 2.0."
+      }
+    ]
+  },
+  "trilium-notes": {
+    "input_hash": "88d15174023a3491fec28a9d021c26539c0b288df7d2aff0904a5331a7e9d50f",
+    "generated_at": "2026-10-22",
+    "summary": "Trilium Notes is free and open-source personal knowledge base software, distributed under the GNU Affero General Public License v3.0 (AGPL-3.0).",
+    "what_it_does": "Trilium Notes helps users organize personal notes, knowledge, and information in a hierarchical structure, often self-hosted.",
+    "best_for": "Individuals seeking a powerful, self-hosted, and open-source solution for personal knowledge management and note-taking, who are comfortable with the AGPL-3.0 license.",
+    "free_tier": "Trilium Notes is free and open-source.",
+    "limitations": "No limitations mentioned as it's free and open-source.",
+    "licensing_notes": "Free and open-source software, distributed under the GNU Affero General Public License v3.0 (AGPL-3.0).",
+    "faq": [
+      {
+        "question": "Is Trilium Notes free to use?",
+        "answer": "Yes, Trilium Notes is free and open-source software."
+      },
+      {
+        "question": "What is the license for Trilium Notes?",
+        "answer": "It is distributed under the GNU Affero General Public License v3.0 (AGPL-3.0)."
+      }
+    ]
+  },
+  "xcp-ng": {
+    "input_hash": "35ff47864a0f19aa552a9bc1bd42905ee371b2699e1ff61e649cce5e88569a9d",
+    "generated_at": "2026-10-22",
+    "summary": "XCP-ng is a fully open-source enterprise hypervisor that provides all features unlocked without cost or license restrictions for commercial use, operating under GPLv2 and other open-source licenses.",
+    "what_it_does": "XCP-ng serves as an enterprise-grade hypervisor, enabling the creation and management of virtual machines on server hardware.",
+    "best_for": "Enterprises and organizations requiring a robust, fully open-source hypervisor solution without commercial licensing costs or feature restrictions.",
+    "free_tier": "XCP-ng is fully open-source and free to use.",
+    "limitations": "All features are unlocked, and there are no cost or license restrictions for commercial use.",
+    "licensing_notes": "Fully open-source, distributed under GPLv2 and other open-source licenses, with no cost or license restrictions for commercial use.",
+    "faq": [
+      {
+        "question": "Are there any features locked behind a paid license in XCP-ng?",
+        "answer": "No, XCP-ng is a fully open-source enterprise hypervisor with all features unlocked."
+      },
+      {
+        "question": "Can XCP-ng be used in a commercial environment?",
+        "answer": "Yes, there are no cost or license restrictions for commercial use."
+      }
+    ]
+  },
+  "matomo": {
+    "input_hash": "2ddb7557de39cbe3f8673e4a22a1dbc9f483cda45a6fb1c7f705b827754d53bc",
+    "generated_at": "2026-10-22",
+    "summary": "Matomo On-Premise is a free and open-source web analytics platform, released under the GNU General Public License v3 (GPLv3), allowing users to self-host their analytics data.",
+    "what_it_does": "Matomo provides detailed web analytics, allowing website owners to track visitor behavior, traffic sources, and other metrics while maintaining full data ownership.",
+    "best_for": "Website owners and organizations who prioritize data privacy and ownership, and prefer a self-hosted, open-source alternative to proprietary analytics solutions.",
+    "free_tier": "Matomo On-Premise is fully open-source and free to use.",
+    "limitations": "No limitations mentioned for the On-Premise version beyond what the GPLv3 license entails. Users should check official documentation for differences with cloud versions.",
+    "licensing_notes": "Matomo On-Premise is fully open-source software, released under the GNU General Public License v3 (GPLv3).",
+    "faq": [
+      {
+        "question": "Is Matomo On-Premise free for commercial websites?",
+        "answer": "Yes, as it is fully open-source under GPLv3, it can be used commercially, but users must adhere to the license terms."
+      },
+      {
+        "question": "What license does Matomo On-Premise use?",
+        "answer": "Matomo On-Premise is released under the GNU General Public License v3 (GPLv3)."
+      }
+    ]
+  },
+  "pdf-xchange-editor": {
+    "input_hash": "ca483778e727745f2a922a4e25e69a5f1fdc21962c559a6d992da7f0e189f6dd",
+    "generated_at": "2026-10-22",
+    "summary": "PDF-XChange Editor is a freemium PDF editing software that offers basic features for free, but requires a paid license to unlock advanced 'PRO' features and remove watermarks.",
+    "what_it_does": "PDF-XChange Editor allows users to view, edit, annotate, and manipulate PDF documents.",
+    "best_for": "Users who need basic PDF viewing and editing capabilities for free, and professionals who require advanced PDF manipulation features and are willing to purchase a license.",
+    "free_tier": "Basic features are free to use.",
+    "limitations": "Advanced 'PRO' features require a paid license key. Without a paid license, using PRO features may result in watermarks being added to documents.",
+    "licensing_notes": "Freemium model. Basic features are free. A paid license key is required for advanced 'PRO' features and to avoid watermarks.",
+    "faq": [
+      {
+        "question": "Can I use PDF-XChange Editor without paying?",
+        "answer": "Yes, basic features are free to use."
+      },
+      {
+        "question": "What happens if I use PRO features without a license?",
+        "answer": "Using PRO features without a paid license key may result in watermarks being added to your documents."
+      }
+    ]
+  },
+  "easeus-data-recovery-wizard": {
+    "input_hash": "a542fb12d30a2b14833ed753ecbbd26cd4e23f1f4c5eeddc84a62be6191a7a5a",
+    "generated_at": "2026-10-22",
+    "summary": "EaseUS Data Recovery Wizard is a freemium software designed for data recovery, offering a free version with a 2 GB recovery limit, while unlimited recovery and full functionality require a paid license.",
+    "what_it_does": "EaseUS Data Recovery Wizard helps users recover lost, deleted, or formatted files from various storage devices.",
+    "best_for": "Individuals who need to recover a small amount of data (up to 2 GB) for free, or users requiring extensive data recovery capabilities who are willing to purchase a full license.",
+    "free_tier": "A free version is available.",
+    "limitations": "The free version caps data recovery at 2 GB. Unlimited data recovery and full functionality require a paid license.",
+    "licensing_notes": "Freemium model. The free version has a 2 GB recovery limit. A paid license is required for unlimited data recovery and full functionality.",
+    "faq": [
+      {
+        "question": "How much data can I recover with the free version?",
+        "answer": "The free version of EaseUS Data Recovery Wizard allows for data recovery up to 2 GB."
+      },
+      {
+        "question": "Do I need a paid license for unlimited data recovery?",
+        "answer": "Yes, a paid license is required for unlimited data recovery and full functionality."
+      }
+    ]
+  },
+  "nexus-repository": {
+    "input_hash": "c1a48b3a5e20232466bdc6dbef368f669cd9e14494f75fcad79a3f66f9322783",
+    "generated_at": "2026-10-22",
+    "summary": "Nexus Repository is a repository manager that supports various artifact formats. It helps in managing and proxying dependencies and build artifacts.",
+    "what_it_does": "It acts as a universal artifact manager, enabling developers to proxy, aggregate, and manage software components and dependencies from different sources.",
+    "best_for": "Teams managing software dependencies and build artifacts, especially in environments with multiple repositories.",
+    "free_tier": "Yes, a free Community Version is available.",
+    "limitations": "The free tier may have limitations compared to paid versions. Please check the official documentation for specifics.",
+    "licensing_notes": "A free Community Version is offered alongside paid Nexus Repository Pro tiers.",
+    "faq": [
+      {
+        "question": "What is Nexus Repository?",
+        "answer": "Nexus Repository is a repository manager that helps organize and manage software components and dependencies."
+      },
+      {
+        "question": "Is there a free version of Nexus Repository?",
+        "answer": "Yes, Nexus Repository offers a free Community Version."
+      }
+    ]
+  },
+  "hashicorp-vault": {
+    "input_hash": "0d3e26b7b29b785bb2957c6538c71389b4cc94980531036eba079844c64399d8",
+    "generated_at": "2026-10-22",
+    "summary": "HashiCorp Vault is a tool for securely accessing secrets, controlling access to them, and managing them throughout their lifecycle.",
+    "what_it_does": "It enables secure storage, access, and distribution of secrets like API keys, passwords, and certificates.",
+    "best_for": "Organizations needing to manage and secure sensitive information and access credentials.",
+    "free_tier": "Yes, a free Community Edition is available.",
+    "limitations": "The Community Edition may lack advanced features found in paid enterprise versions. Refer to official documentation for details.",
+    "licensing_notes": "A source-available Community Edition is provided, with paid Enterprise subscriptions available.",
+    "faq": [
+      {
+        "question": "What is HashiCorp Vault used for?",
+        "answer": "HashiCorp Vault is used for securely managing secrets such as API keys, passwords, and certificates."
+      },
+      {
+        "question": "Does HashiCorp Vault have a free version?",
+        "answer": "Yes, HashiCorp Vault offers a free Community Edition."
+      }
+    ]
+  },
+  "insomnia": {
+    "input_hash": "b0501ec1b6b044c979fa350565ed78d6209dc9ba4d3996fa9b760171606f6097",
+    "generated_at": "2026-10-22",
+    "summary": "Insomnia is an API client that helps developers design, test, and document APIs. It provides a user-friendly interface for interacting with APIs.",
+    "what_it_does": "It allows users to send HTTP requests, inspect responses, and manage API collections for testing and development.",
+    "best_for": "Developers and testers who need to interact with and test APIs efficiently.",
+    "free_tier": "Yes, the core desktop application is free.",
+    "limitations": "Cloud sync and team collaboration features require paid subscriptions. Check the official website for a full comparison.",
+    "licensing_notes": "The core desktop application is free, with paid subscriptions for advanced features like cloud sync and team collaboration.",
+    "faq": [
+      {
+        "question": "What is Insomnia?",
+        "answer": "Insomnia is an API client designed for designing, testing, and documenting APIs."
+      },
+      {
+        "question": "Is Insomnia free to use?",
+        "answer": "The core desktop application of Insomnia is free. Cloud sync and team features require a paid subscription."
+      }
+    ]
+  },
+  "sentry": {
+    "input_hash": "4aa290a317edb129a1269e8fd3066afd8802bda8e351d069ccb7eabd93c2c926",
+    "generated_at": "2026-10-22",
+    "summary": "Sentry is an error tracking platform that helps developers monitor and fix crashes in real-time. It provides insights into application stability.",
+    "what_it_does": "It captures and aggregates errors from applications, providing detailed reports and tools for debugging and resolution.",
+    "best_for": "Development teams looking to proactively identify, prioritize, and resolve application errors.",
+    "free_tier": "Yes, a free self-hosted edition is available.",
+    "limitations": "The free self-hosted edition may have feature limitations compared to paid cloud and enterprise offerings. Consult official documentation for details.",
+    "licensing_notes": "A free self-hosted edition is available, with paid cloud and enterprise subscriptions for additional features and support.",
+    "faq": [
+      {
+        "question": "What does Sentry do?",
+        "answer": "Sentry is an error tracking platform that helps developers monitor and fix application crashes."
+      },
+      {
+        "question": "Is there a free version of Sentry?",
+        "answer": "Yes, Sentry offers a free self-hosted edition."
+      }
+    ]
+  },
+  "teamcity": {
+    "input_hash": "40acda9c7c9bc8b8b151f320bf7a0fa0b100270c77feb574f265fae6e3e7a57e",
+    "generated_at": "2026-10-22",
+    "summary": "TeamCity is a continuous integration and continuous delivery (CI/CD) server developed by JetBrains. It automates build, test, and deployment processes.",
+    "what_it_does": "It provides a platform for automating software builds, running tests, and deploying applications, with features for tracking build history and performance.",
+    "best_for": "Development teams seeking to automate their build and deployment pipelines.",
+    "free_tier": "Yes, a free Professional edition is available.",
+    "limitations": "The free Professional edition supports up to 10 build configurations. Larger setups require paid licenses.",
+    "licensing_notes": "The Professional edition is free for up to 10 build configurations; larger scale usage requires paid licenses.",
+    "faq": [
+      {
+        "question": "What is TeamCity?",
+        "answer": "TeamCity is a CI/CD server that automates build, test, and deployment processes."
+      },
+      {
+        "question": "What are the limitations of the free TeamCity edition?",
+        "answer": "The free Professional edition of TeamCity supports a maximum of 10 build configurations."
+      }
+    ]
+  },
+  "blender": {
+    "input_hash": "f0c16cbb03d396862c6a9e4f09a77129fc9b9e0835093134c0f161448bc8a4a9",
+    "generated_at": "2026-10-22",
+    "summary": "Blender is a free and open-source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation.",
+    "what_it_does": "It provides a comprehensive set of tools for 3D modeling, sculpting, animation, rendering, visual effects, and more.",
+    "best_for": "3D artists, animators, game developers, and visual effects professionals.",
+    "free_tier": "N/A (Fully Free and Open Source)",
+    "limitations": "N/A (Fully Free and Open Source)",
+    "licensing_notes": "Released under the GNU General Public License (GPL), allowing free use for any purpose, including commercial.",
+    "faq": [
+      {
+        "question": "What is Blender?",
+        "answer": "Blender is a free and open-source software suite for creating 3D graphics, animations, and visual effects."
+      },
+      {
+        "question": "Can I use Blender for commercial projects?",
+        "answer": "Yes, Blender is released under the GPL, which permits its use for commercial purposes."
+      }
+    ]
+  },
+  "wireshark": {
+    "input_hash": "5433aa7a8b3c53ae6a2c96c6c7d9c2826c1cb975b32a12c16acd6f6072a58536",
+    "generated_at": "2026-10-22",
+    "summary": "Wireshark is a free and open-source network protocol analyzer. It is used for network troubleshooting, analysis, software and protocol development, and education.",
+    "what_it_does": "It captures and displays network traffic in detail, allowing users to inspect packets and diagnose network issues.",
+    "best_for": "Network administrators, security professionals, and developers for network analysis and troubleshooting.",
+    "free_tier": "N/A (Fully Free and Open Source)",
+    "limitations": "N/A (Fully Free and Open Source)",
+    "licensing_notes": "Distributed under the GNU General Public License version 2 or later, allowing free use for personal and commercial purposes.",
+    "faq": [
+      {
+        "question": "What is Wireshark?",
+        "answer": "Wireshark is a free and open-source tool for capturing and analyzing network traffic."
+      },
+      {
+        "question": "Is Wireshark free to use commercially?",
+        "answer": "Yes, Wireshark is free and open-source under the GPLv2 or later, allowing commercial use."
+      }
+    ]
+  },
+  "postgresql": {
+    "input_hash": "fcf6750139e5f079a6b43fc2c25c027b3f53f1cfff24b85055443518e161920e",
+    "generated_at": "2026-10-22",
+    "summary": "PostgreSQL is a powerful, open-source object-relational database system. It is known for its reliability, feature robustness, and performance.",
+    "what_it_does": "It provides a robust and feature-rich relational database management system for storing and retrieving data.",
+    "best_for": "Developers and organizations requiring a reliable, scalable, and feature-rich open-source database.",
+    "free_tier": "N/A (Fully Free and Open Source)",
+    "limitations": "N/A (Fully Free and Open Source)",
+    "licensing_notes": "Released under the PostgreSQL License, a liberal OSI-approved open-source license permitting free use for any purpose, including commercial applications.",
+    "faq": [
+      {
+        "question": "What is PostgreSQL?",
+        "answer": "PostgreSQL is a powerful, open-source object-relational database system."
+      },
+      {
+        "question": "Can I use PostgreSQL for commercial purposes?",
+        "answer": "Yes, the PostgreSQL License allows for free use in commercial applications."
+      }
+    ]
+  },
+  "teamviewer": {
+    "input_hash": "0ea660242becc83534ea002173878c036c839b347a832a9bac37d27c858d87dc",
+    "generated_at": "2026-10-22",
+    "summary": "TeamViewer is a popular remote desktop access and control software. It allows users to remotely connect to and control other computers.",
+    "what_it_does": "It enables remote access, control, and support for computers over the internet.",
+    "best_for": "Individuals needing remote computer access for personal support or collaboration, and businesses requiring remote IT support.",
+    "free_tier": "Free for personal use.",
+    "limitations": "Commercial or business use requires a paid subscription. Frequent or extensive use may trigger commercial use detection.",
+    "licensing_notes": "Free for personal, non-commercial use. A paid subscription is required for commercial and business purposes.",
+    "faq": [
+      {
+        "question": "Is TeamViewer free?",
+        "answer": "TeamViewer is free for personal, non-commercial use. A paid license is required for business or commercial use."
+      },
+      {
+        "question": "What is the difference between personal and commercial use of TeamViewer?",
+        "answer": "Personal use is for non-business related activities. Commercial use involves any business-related activity, which requires a paid license."
+      }
+    ]
+  },
+  "ccleaner": {
+    "input_hash": "aa4dccd2f9bf4dc661725875bafa4af176fbec781f96c3df50cf67b6d278fe48",
+    "generated_at": "2026-10-22",
+    "summary": "CCleaner is a utility used to clean potentially unwanted files and digital fingerprints from a computer. It optimizes system performance.",
+    "what_it_does": "It frees up disk space by removing temporary files, cookies, and other junk files, and can manage startup programs.",
+    "best_for": "Home users looking to clean up their computers and improve performance.",
+    "free_tier": "Yes, a free version is available for personal use.",
+    "limitations": "The free version is strictly for personal and home use. Commercial environments require a paid license.",
+    "licensing_notes": "The free version is for personal/home use only. A paid license is required for commercial or business use.",
+    "faq": [
+      {
+        "question": "What is CCleaner?",
+        "answer": "CCleaner is a utility for cleaning unwanted files and optimizing computer performance."
+      },
+      {
+        "question": "Can I use CCleaner for my business?",
+        "answer": "No, the free version of CCleaner is only for personal and home use. Businesses need to purchase a paid license."
+      }
+    ]
+  },
+  "docker-desktop": {
+    "input_hash": "d253d292f94c7bb41df09d2d40d36fdced8012cde934679d109913d4f68ae8cb",
+    "generated_at": "2026-10-22",
+    "summary": "Docker Desktop is an application for Mac and Windows that enables you to build and share containerized applications and microservices.",
+    "what_it_does": "It provides an easy way to run Docker containers on your local machine, including Docker Engine, Docker CLI client, Docker Compose, and Kubernetes.",
+    "best_for": "Developers and teams building and testing containerized applications on their local machines.",
+    "free_tier": "Free for personal, educational, and small business use.",
+    "limitations": "A paid subscription is required for commercial use in enterprises with more than 250 employees or over $10 million in annual revenue.",
+    "licensing_notes": "Free for personal, educational, and small business use. Paid subscription required for larger enterprise commercial use.",
+    "faq": [
+      {
+        "question": "Who can use Docker Desktop for free?",
+        "answer": "Docker Desktop is free for personal use, educational purposes, and for small businesses (under 250 employees and $10 million annual revenue)."
+      },
+      {
+        "question": "When do I need a paid Docker Desktop subscription?",
+        "answer": "A paid subscription is required for commercial use by larger enterprises (over 250 employees or $10 million annual revenue)."
+      }
+    ]
+  },
+  "anydesk": {
+    "input_hash": "ddbc023afc9f592c194a93ed8fd4b1ac85cef5cebca38bed5785aa2ece206c1d",
+    "generated_at": "2026-10-22",
+    "summary": "AnyDesk is a remote desktop application that allows users to access and control computers remotely. It is known for its speed and performance.",
+    "what_it_does": "It provides secure and fast remote access to computers for support, administration, or collaboration.",
+    "best_for": "Individuals and professionals needing reliable and fast remote desktop access.",
+    "free_tier": "Free for personal use.",
+    "limitations": "Commercial or professional use requires a paid subscription. Please check the official website for details on license tiers.",
+    "licensing_notes": "Free for private, non-commercial use. A paid subscription is required for professional or commercial purposes.",
+    "faq": [
+      {
+        "question": "Is AnyDesk free?",
+        "answer": "AnyDesk is free for personal, non-commercial use. A paid license is necessary for commercial or professional use."
+      },
+      {
+        "question": "What constitutes commercial use for AnyDesk?",
+        "answer": "Commercial use includes any use related to business activities, providing IT support to clients, or accessing work computers remotely, all of which require a paid license."
+      }
+    ]
+  },
+  "sonarqube": {
+    "input_hash": "974e612a1b227cd82889cb05b4e58b668afc0fface97b0dba9ffdbd9cbd6810a",
+    "generated_at": "2026-10-22",
+    "summary": "SonarQube is an open-source platform for continuous inspection of code quality. It supports analysis of code for bugs, vulnerabilities, and code smells.",
+    "what_it_does": "It analyzes source code to detect defects and security vulnerabilities, providing reports on code quality and maintainability.",
+    "best_for": "Development teams focused on maintaining high code quality and security throughout the software development lifecycle.",
+    "free_tier": "Yes, a free LGPLv3 Community Build is available.",
+    "limitations": "The Community Build offers core static analysis features. Paid editions provide additional features like security analysis, branch analysis, and more. Please consult official documentation.",
+    "licensing_notes": "Offers a free, open-source Community Build under LGPLv3, alongside paid Developer, Enterprise, and Data Center editions.",
+    "faq": [
+      {
+        "question": "What is SonarQube?",
+        "answer": "SonarQube is a platform for continuous inspection of code quality, detecting bugs and vulnerabilities."
+      },
+      {
+        "question": "Is there a free version of SonarQube?",
+        "answer": "Yes, SonarQube provides a free, open-source Community Build."
+      }
+    ]
+  },
+  "1password": {
+    "input_hash": "cc9464f90d5debad5cacfb07774e43e3263a9f1579739614438120cfdd3e2546",
+    "generated_at": "2026-10-22",
+    "summary": "1Password is a password manager that securely stores and organizes passwords and other sensitive information. It helps create strong, unique passwords.",
+    "what_it_does": "It securely stores login credentials, credit card information, and other sensitive data, auto-filling them when needed and generating strong passwords.",
+    "best_for": "Individuals and teams looking to enhance security by managing passwords effectively and securely.",
+    "free_tier": "Offers a 14-day free trial.",
+    "limitations": "Requires a paid subscription for continued use after the trial period for both personal and commercial use.",
+    "licensing_notes": "Proprietary software requiring a paid subscription for use. A 14-day free trial is available.",
+    "faq": [
+      {
+        "question": "Is 1Password free?",
+        "answer": "1Password offers a 14-day free trial, after which a paid subscription is required for continued use."
+      },
+      {
+        "question": "What information can I store in 1Password?",
+        "answer": "You can securely store login credentials, credit card details, secure notes, software licenses, and other sensitive information."
+      }
+    ]
+  },
+  "tableau-desktop": {
+    "input_hash": "30a54729f1ae9a9b132284423b8dcb21a21f34a7a3f980d860d44baa8f4b7f46",
+    "generated_at": "2026-10-22",
+    "summary": "Tableau Desktop is a powerful data visualization tool that allows users to explore data and create interactive dashboards. It helps in understanding complex data.",
+    "what_it_does": "It enables users to connect to various data sources, visualize data through charts and graphs, and build interactive dashboards for business intelligence.",
+    "best_for": "Business analysts, data scientists, and anyone needing to visualize and analyze data for insights.",
+    "free_tier": "Offers a free trial period.",
+    "limitations": "Requires a paid user license for full functionality and continued use after the trial period.",
+    "licensing_notes": "Requires a paid user license for full business intelligence and data visualization functionality.",
+    "faq": [
+      {
+        "question": "What is Tableau Desktop?",
+        "answer": "Tableau Desktop is a data visualization tool used for exploring data and creating interactive dashboards."
+      },
+      {
+        "question": "Do I need to pay for Tableau Desktop?",
+        "answer": "Yes, Tableau Desktop requires a paid user license for full functionality, although a free trial is available."
+      }
+    ]
   }
 }
