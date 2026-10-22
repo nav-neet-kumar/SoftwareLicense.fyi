@@ -5,6 +5,7 @@ import html
 import json
 import os
 import re
+import shutil
 import sys
 import time
 from datetime import date, datetime
@@ -20,9 +21,11 @@ INDEX_PATH = ROOT / "index.html"
 OUTPUT_DIR = ROOT / "software"
 SITEMAP_PATH = ROOT / "sitemap.xml"
 SITE = "https://isitfree.webline.cloud"
-MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
-MODEL_CHAIN = [m.strip() for m in os.getenv("GEMINI_MODELS", f"{MODEL},gemini-2.5-flash-lite,gemini-2.0-flash").split(",") if m.strip()]
-MODEL_CHAIN = list(dict.fromkeys(MODEL_CHAIN))
+# Use the strongest configured model for page copy, with fallback to lighter models.
+CONTEXT_MODELS = [m.strip() for m in os.getenv(
+    "GEMINI_CONTEXT_MODELS", "gemini-3.6-flash,gemini-3.5-flash,gemini-2.5-flash"
+).split(",") if m.strip()]
+CONTEXT_MODELS = list(dict.fromkeys(CONTEXT_MODELS))
 BATCH_SIZE = int(os.getenv("PAGE_CONTEXT_BATCH_SIZE", "15"))
 MAX_BATCHES = int(os.getenv("PAGE_CONTEXT_BATCHES_PER_RUN", "2"))
 
@@ -130,7 +133,7 @@ software_name, summary (1-2 sentences), what_it_does, best_for, free_tier, limit
 question and answer). Each text field should be concise and useful for a reader. Do not include unsupported claims.
 Records: """ + json.dumps(payload, ensure_ascii=False)
         response = None
-        for model in MODEL_CHAIN:
+        for model in CONTEXT_MODELS:
             try:
                 response = client.models.generate_content(model=model, contents=prompt, config={"temperature": 0.2, "response_mime_type": "application/json"})
                 print(f"[MODEL] Page context batch succeeded with {model}")
@@ -329,6 +332,11 @@ def main():
     for row in rows:
         by_category.setdefault(row["Category"], []).append(row)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    expected_slugs = {slugify(str(row["Software Name"]).strip()) for row in rows if str(row["Software Name"]).strip()}
+    for old_dir in OUTPUT_DIR.iterdir():
+        if old_dir.is_dir() and old_dir.name not in expected_slugs:
+            shutil.rmtree(old_dir)
+            print(f"[CLEANUP] Removed stale software page: {old_dir.name}")
     seen_slugs = set()
     generated_rows = []
     for row in rows:
