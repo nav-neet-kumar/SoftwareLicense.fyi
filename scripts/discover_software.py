@@ -35,7 +35,7 @@ def ask(prompt):
     if CLIENT is None:
         raise RuntimeError("GEMINI_API_KEY is missing")
     error = None
-    for attempt in range(1, 4):
+    for attempt in range(1, 3):
         try:
             USAGE["requests"] += 1
             response = CLIENT.models.generate_content(model=MODEL, contents=prompt, config={"temperature": 0.1, "response_mime_type": "application/json"})
@@ -49,8 +49,12 @@ def ask(prompt):
             return response.text.strip()
         except Exception as exc:
             error = exc
-            transient = any(x in str(exc).lower() for x in ("429", "503", "unavailable", "resource_exhausted", "rate limit", "timeout", "temporarily"))
-            if not transient or attempt == 3:
+            message = str(exc).lower()
+            if "429" in message or "resource_exhausted" in message or "quota" in message:
+                print("[QUOTA] Gemini quota exhausted; stopping API retries.")
+                break
+            transient = any(x in message for x in ("503", "unavailable", "rate limit", "timeout", "temporarily"))
+            if not transient or attempt == 2:
                 break
             USAGE["retries"] += 1
             delay = 4 * (2 ** (attempt - 1))
@@ -168,13 +172,16 @@ def run():
     rows = df.to_dict("records")
     existing_keys = {norm(r["Software Name"]) for r in rows}
     accepted, accepted_keys, errors = [], set(), []
-    for batch in range(1, 7):
+    for batch in range(1, 4):
         if len(accepted) >= TARGET:
             break
         try:
             candidates = discover(batch)
         except Exception as exc:
-            errors.append(str(exc)); print(f"[ERROR] Discovery batch {batch}: {exc}"); continue
+            errors.append(str(exc)); print(f"[ERROR] Discovery batch {batch}: {exc}")
+            if any(x in str(exc).lower() for x in ("429", "resource_exhausted", "quota")):
+                break
+            continue
         shortlist = []
         for candidate in candidates:
             name = str(candidate.get("software_name", "")).strip()
@@ -188,19 +195,18 @@ def run():
             if status == "same":
                 print(f"[SKIP] Existing product: {name}"); continue
             if status == "ambiguous":
-                try:
-                    decision = clarify(candidate, matches)
-                except Exception as exc:
-                    print(f"[SKIP] Clarification failed for {name}: {exc}"); continue
-                if decision != "DIFFERENT_PRODUCT":
-                    print(f"[SKIP] Unresolved identity/duplicate: {name}"); continue
+                print(f"[SKIP] Ambiguous possible duplicate; manual review needed: {name}")
+                continue
             shortlist.append(candidate)
         if not shortlist:
             continue
         try:
             verified = verify_batch(shortlist)
         except Exception as exc:
-            errors.append(str(exc)); print(f"[ERROR] Batch verification: {exc}"); continue
+            errors.append(str(exc)); print(f"[ERROR] Batch verification: {exc}")
+            if any(x in str(exc).lower() for x in ("429", "resource_exhausted", "quota")):
+                break
+            continue
         verified_by_name = {norm(x.get("software_name", "")): x for x in verified}
         for candidate in shortlist:
             name = str(candidate.get("software_name", "")).strip()
@@ -223,16 +229,18 @@ def run():
             if len(accepted) >= TARGET:
                 break
     print("[USAGE] " + " ".join(f"{k}={v}" for k, v in USAGE.items()))
-    if len(accepted) < TARGET:
-        print(f"[ERROR] Verified only {len(accepted)}/{TARGET}; CSV unchanged.")
+    if not accepted:
+        print(f"[ERROR] No new entries passed verification (target was {TARGET}); CSV unchanged.")
         if errors: print("[ERROR] Last API failure: " + errors[-1][:300])
         return 1
+    if len(accepted) < TARGET:
+        print(f"[PARTIAL] Verified {len(accepted)}/{TARGET}; saving safe entries instead of discarding them.")
     updated = pd.concat([df, pd.DataFrame(accepted, columns=COLUMNS)], ignore_index=True)
     tmp = CSV_PATH.with_suffix(".csv.tmp")
     updated.to_csv(tmp, index=False)
     tmp.replace(CSV_PATH)
     write_recent(accepted)
-    print(f"[SUCCESS] Added exactly {len(accepted)} entries; total={len(updated)}")
+    print(f"[SUCCESS] Added {len(accepted)} verified entries; total={len(updated)}")
     return 0
 
 
