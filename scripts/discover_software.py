@@ -96,8 +96,9 @@ def same_product_identity(candidate, existing):
     ck, ek = identity_key(c_name, c_url), identity_key(e_name, e_url)
     if ck and ek and ck == ek:
         return True
-    score = difflib.SequenceMatcher(None, ck, ek).ratio() if ck and ek else 0
-    return bool(domain(c_url) and domain(c_url) == domain(e_url) and score >= 0.68)
+    # Shared vendor domains and similar names are not enough to prove product identity:
+    # e.g. Visual Studio and Visual Studio Code are distinct products.
+    return False
 
 
 def domain(url):
