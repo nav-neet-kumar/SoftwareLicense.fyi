@@ -13,7 +13,7 @@ RECENT_PATH = ROOT / "data" / "recent_updates.json"
 SOURCES_PATH = ROOT / "data" / "software_sources.json"
 # Separate model roles: smart discovery, lightweight verification, and robust fallback chains.
 DISCOVERY_MODELS = [m.strip() for m in os.getenv(
-    "GEMINI_DISCOVERY_MODELS", "gemini-3.6-flash,gemini-3.5-flash,gemini-2.5-flash"
+    "GEMINI_DISCOVERY_MODELS", "gemini-3.6-flash,gemini-2.5-flash"
 ).split(",") if m.strip()]
 VERIFY_MODELS = [m.strip() for m in os.getenv(
     "GEMINI_VERIFY_MODELS", "gemini-2.5-flash-lite,gemini-2.5-flash,gemini-3.6-flash"
@@ -110,6 +110,9 @@ def local_match(candidate, rows):
     exact = [r for r in rows if norm(r["Software Name"]) == key]
     if exact:
         return "same", exact[:3]
+    identity = [r for r in rows if same_product_identity(candidate, r)]
+    if identity:
+        return "same", identity[:4]
     near = []
     for row in rows:
         other = norm(row["Software Name"])
