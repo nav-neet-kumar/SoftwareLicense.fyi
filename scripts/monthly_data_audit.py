@@ -178,9 +178,10 @@ def resolve_duplicates(rows):
     removed = set()
     for indices in duplicate_groups:
         # Prefer the established, shorter canonical name and older established record.
+        # Prefer the oldest established listing; use shorter normalized name only as a tie-breaker.
         keep = sorted(indices, key=lambda i: (
+            str(rows[i].get("Last Updated", "9999-99-99") or "9999-99-99"),
             len(norm(rows[i].get("Software Name", ""))),
-            str(rows[i].get("Last Updated", "9999-99-99")),
             i
         ))[0]
         for i in indices:
