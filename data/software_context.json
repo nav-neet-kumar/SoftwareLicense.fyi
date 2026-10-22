@@ -1798,5 +1798,605 @@
         "answer": "Yes, OBS Studio is licensed under the GPL, which permits free use for all purposes, including commercial live streams and recordings."
       }
     ]
+  },
+  "cobalt-strike": {
+    "input_hash": "948dd5dade6a56c8044f8a2e9d5cca5d1053d25ad9c5cd13c5791b1dc205dd64",
+    "generated_at": "2026-10-22",
+    "summary": "Cobalt Strike is a commercial adversary simulation tool designed for red team operations. It requires a paid proprietary license and background vetting for use.",
+    "what_it_does": "It functions as a commercial adversary simulation tool, enabling security professionals to emulate advanced persistent threats and evaluate an organization's security posture.",
+    "best_for": "Security professionals, red teams, and organizations conducting advanced adversary simulations and penetration testing.",
+    "free_tier": "No free tier or community version is available.",
+    "limitations": "Requires a paid license and background vetting. Commercial use is restricted to licensed users.",
+    "licensing_notes": "A commercial proprietary license is required for Cobalt Strike. Access is granted only after a paid license purchase and a background vetting process.",
+    "faq": [
+      {
+        "question": "Is Cobalt Strike free to use?",
+        "answer": "No, Cobalt Strike is not free. It requires a paid commercial license."
+      },
+      {
+        "question": "What are the licensing options for Cobalt Strike?",
+        "answer": "Cobalt Strike is available under a commercial proprietary license, which also involves a background vetting process."
+      }
+    ]
+  },
+  "marvelous-designer": {
+    "input_hash": "d8e572a7c2f25a51dbf50cfb0e66b20e62521576dedf1032f4c6599a87f9fe98",
+    "generated_at": "2026-10-22",
+    "summary": "Marvelous Designer is a proprietary software for 3D clothing design and simulation. It requires a paid license or subscription for all types of use.",
+    "what_it_does": "It is a proprietary software used for creating, editing, and simulating 3D clothing with realistic drape and fit.",
+    "best_for": "3D artists, fashion designers, game developers, and animators who need to create realistic virtual garments.",
+    "free_tier": "No free tier is available.",
+    "limitations": "Requires a paid license or subscription for both personal and commercial use.",
+    "licensing_notes": "Marvelous Designer operates under a proprietary licensing model, requiring a paid subscription or commercial license for all users.",
+    "faq": [
+      {
+        "question": "Is Marvelous Designer free to use?",
+        "answer": "No, Marvelous Designer is not free. It requires a paid license or subscription."
+      },
+      {
+        "question": "What are the licensing options for Marvelous Designer?",
+        "answer": "Marvelous Designer is available through paid subscription plans or a commercial license, applicable for both personal and commercial use."
+      }
+    ]
+  },
+  "avid-sibelius": {
+    "input_hash": "e86538e3cd3e17636e1a0602f7e9b973a0554631b97fd39681ad7dfc0ab35632",
+    "generated_at": "2026-10-22",
+    "summary": "Avid Sibelius is professional music notation software designed for composers, arrangers, and publishers. It requires a paid subscription or perpetual license.",
+    "what_it_does": "It is professional software used for composing, arranging, and publishing music scores, allowing users to create and edit musical notation.",
+    "best_for": "Music composers, arrangers, educators, students, and publishers who need advanced tools for music notation.",
+    "free_tier": "No free tier is available.",
+    "limitations": "Requires a paid monthly/annual subscription or a perpetual license for use.",
+    "licensing_notes": "Avid Sibelius is available under a paid commercial license, with options for monthly or annual subscriptions, or a perpetual license purchase.",
+    "faq": [
+      {
+        "question": "Is Avid Sibelius free to use?",
+        "answer": "No, Avid Sibelius is not free. It requires a paid subscription or perpetual license."
+      },
+      {
+        "question": "What are the licensing options for Avid Sibelius?",
+        "answer": "Avid Sibelius offers paid monthly or annual subscriptions, as well as a perpetual license option."
+      }
+    ]
+  },
+  "airtable": {
+    "input_hash": "502257bcdeef3840979a9c1d81d364c53497651eabb54692023df06eace20682",
+    "generated_at": "2026-10-22",
+    "summary": "Airtable is a flexible platform that combines spreadsheet and database functionalities. It offers a free starter tier with certain limits, alongside paid subscription plans.",
+    "what_it_does": "It provides a platform for organizing information, managing projects, and building custom applications by blending the simplicity of a spreadsheet with the power of a database.",
+    "best_for": "Teams and individuals needing a flexible database-like tool for project management, content organization, and custom workflow creation.",
+    "free_tier": "A free starter tier is available, which includes base record limits.",
+    "limitations": "The free starter tier has base record limits. Access to advanced features, higher usage limits, and dedicated support requires a paid team or enterprise subscription. Check the official documentation for specific limits.",
+    "licensing_notes": "Airtable operates on a freemium model, offering a free community tier with limitations. Paid team and enterprise subscription tiers are available for expanded features and capacity.",
+    "faq": [
+      {
+        "question": "Is Airtable free to use?",
+        "answer": "Yes, Airtable offers a free starter tier with certain base record limits."
+      },
+      {
+        "question": "What are the licensing options for Airtable?",
+        "answer": "Airtable provides a freemium model with a free starter tier. Paid team and enterprise subscription tiers are available for more features and higher limits."
+      }
+    ]
+  },
+  "zapier": {
+    "input_hash": "9c729a511621431f35cb6281185451e74ad465a8ef83614938cfeecfd835b197",
+    "generated_at": "2026-10-22",
+    "summary": "Zapier is a proprietary SaaS platform that automates workflows by connecting various web applications. It offers a limited free plan and paid subscription tiers for expanded capabilities.",
+    "what_it_does": "It allows users to create automated workflows (Zaps) between different web applications, enabling data transfer and task automation without coding.",
+    "best_for": "Individuals, small businesses, and enterprises looking to automate repetitive tasks and integrate various software applications.",
+    "free_tier": "A limited free plan is available.",
+    "limitations": "The free plan is limited in volume, access to premium apps, and advanced features. Paid subscription tiers are required for higher usage and full functionality. Check the official documentation for specific limits.",
+    "licensing_notes": "Zapier is a proprietary, subscription-based SaaS platform. It offers a freemium model with a limited free plan, while paid subscriptions unlock higher volume, premium app access, and advanced features.",
+    "faq": [
+      {
+        "question": "Is Zapier free to use?",
+        "answer": "Yes, Zapier offers a limited free plan for basic automation needs."
+      },
+      {
+        "question": "What are the licensing options for Zapier?",
+        "answer": "Zapier operates on a freemium model with a limited free plan. Paid subscription tiers are available for increased usage, premium app integrations, and advanced features."
+      }
+    ]
+  },
+  "loom": {
+    "input_hash": "128500905a30ef16a1fb804a2007c7cb8cdf3c618f1acfb48997c086cf23ae06",
+    "generated_at": "2026-10-22",
+    "summary": "Loom is a proprietary video messaging tool that allows users to record and share screen, webcam, and audio. It offers a limited free Starter plan, with paid subscriptions for full business and commercial features.",
+    "what_it_does": "It enables users to quickly record video messages of their screen, camera, and microphone, facilitating asynchronous communication and collaboration.",
+    "best_for": "Individuals, teams, and businesses needing to create and share quick video messages for explanations, tutorials, feedback, and presentations.",
+    "free_tier": "A limited free Starter plan is available.",
+    "limitations": "The free Starter plan has limitations. Full business and commercial features, along with higher usage limits, require a paid subscription. Check the official documentation for specific limits.",
+    "licensing_notes": "Loom is proprietary software operating on a freemium model. A limited free Starter plan is available, but a paid subscription is required for full business and commercial features.",
+    "faq": [
+      {
+        "question": "Is Loom free to use?",
+        "answer": "Yes, Loom offers a limited free Starter plan."
+      },
+      {
+        "question": "What are the licensing options for Loom?",
+        "answer": "Loom provides a freemium model with a limited free Starter plan. Paid subscriptions are available to unlock full business and commercial features."
+      }
+    ]
+  },
+  "kibana": {
+    "input_hash": "e2e70762a08846216c30770cea1beb06fccb1cf1593bd2f7126e1941827e1b21",
+    "generated_at": "2026-10-22",
+    "summary": "Kibana is a data visualization and exploration tool designed to work with Elasticsearch. It is available under multiple licenses, including the OSI-approved AGPLv3.",
+    "what_it_does": "It allows users to visualize Elasticsearch data and navigate the Elastic Stack, providing powerful charting capabilities, dashboards, and data exploration features.",
+    "best_for": "Data analysts, developers, and operations teams who need to visualize and explore data stored in Elasticsearch.",
+    "free_tier": "Kibana is available for free under its open-source licenses.",
+    "limitations": "Check the official documentation for specific limitations related to different license versions (AGPLv3, SSPL v1, Elastic License v2) and their implications for commercial use or managed services.",
+    "licensing_notes": "Kibana is dual/tri-licensed under AGPLv3 (OSI-approved open-source), SSPL v1, and Elastic License v2. Users should review the terms of each license to understand their rights and obligations.",
+    "faq": [
+      {
+        "question": "Is Kibana free to use?",
+        "answer": "Yes, Kibana is available for free under its open-source licenses, including the AGPLv3."
+      },
+      {
+        "question": "What are the licensing options for Kibana?",
+        "answer": "Kibana is dual/tri-licensed under AGPLv3, SSPL v1, and Elastic License v2. Users should consult the official documentation for details on each license."
+      }
+    ]
+  },
+  "fedora-linux": {
+    "input_hash": "3345e1378fa080d5f2edae324f16320a23666d83fc5b2a8eacf0ad3b3e8038ac",
+    "generated_at": "2026-10-22",
+    "summary": "Fedora Linux is a free, community-driven operating system composed entirely of open-source software. It serves as an innovative platform for developers and users.",
+    "what_it_does": "It provides a complete operating system environment, offering a stable and up-to-date platform for computing, development, and daily use.",
+    "best_for": "Developers, open-source enthusiasts, and users who prefer a cutting-edge, community-driven Linux distribution.",
+    "free_tier": "Fedora Linux is entirely free to download and use.",
+    "limitations": "As an open-source project, support is primarily community-driven. Users should check the official documentation for hardware compatibility and specific software availability.",
+    "licensing_notes": "Fedora Linux is free and open-source software, distributed under various OSI-approved licenses, including the GNU GPL. It can be used freely for any purpose.",
+    "faq": [
+      {
+        "question": "Is Fedora Linux free to use?",
+        "answer": "Yes, Fedora Linux is completely free to download, use, and distribute."
+      },
+      {
+        "question": "What are the licensing options for Fedora Linux?",
+        "answer": "Fedora Linux is distributed under various OSI-approved free and open-source licenses, such as the GNU GPL."
+      }
+    ]
+  },
+  "syncthing": {
+    "input_hash": "2fa718c09a88cbcba9693814fd8f6930c2fc0ede2f776ccd22b747293b326d21",
+    "generated_at": "2026-10-22",
+    "summary": "Syncthing is a free, open-source file synchronization application that allows users to synchronize files between multiple devices. It is licensed under MPL-2.0.",
+    "what_it_does": "It enables secure and private file synchronization between devices over a local network or the internet, without relying on a central server.",
+    "best_for": "Individuals and organizations seeking a decentralized, private, and secure way to synchronize files across their devices.",
+    "free_tier": "Syncthing is entirely free to use.",
+    "limitations": "Users are responsible for setting up and managing their own synchronization infrastructure. Check the official documentation for system requirements and advanced configurations.",
+    "licensing_notes": "Syncthing is open-source software licensed under the Mozilla Public License 2.0 (MPL-2.0), permitting free use for both personal and commercial purposes.",
+    "faq": [
+      {
+        "question": "Is Syncthing free to use?",
+        "answer": "Yes, Syncthing is completely free and open-source software."
+      },
+      {
+        "question": "What are the licensing options for Syncthing?",
+        "answer": "Syncthing is licensed under the Mozilla Public License 2.0 (MPL-2.0), allowing free use for personal and commercial purposes."
+      }
+    ]
+  },
+  "weaviate": {
+    "input_hash": "a1bcc8c0cc55d48c45a476ad8c0791bd85a6b06947c052ff75914e2bc7830b3b",
+    "generated_at": "2026-10-22",
+    "summary": "Weaviate is an open-source vector database designed for AI-native applications. Its core is licensed under the permissive BSD 3-Clause License.",
+    "what_it_does": "It functions as a vector database, storing data objects and vector embeddings to power semantic search, recommendation systems, and other AI applications.",
+    "best_for": "Developers and data scientists building AI-native applications that require efficient storage and retrieval of vector embeddings.",
+    "free_tier": "The Weaviate core is free to use under its open-source license.",
+    "limitations": "While the core is open source, users should check the official documentation for any potential commercial offerings or managed services that might have different terms.",
+    "licensing_notes": "Weaviate core is open-source software licensed under the permissive BSD 3-Clause License, allowing broad use and modification.",
+    "faq": [
+      {
+        "question": "Is Weaviate free to use?",
+        "answer": "Yes, the Weaviate core is free to use under its open-source BSD 3-Clause License."
+      },
+      {
+        "question": "What are the licensing options for Weaviate?",
+        "answer": "Weaviate core is open-source and licensed under the permissive BSD 3-Clause License."
+      }
+    ]
+  },
+  "lulu": {
+    "input_hash": "ba3a89b28778cb69557cd8a9422a26dd416914493091ff13d25dd04519c5dc02",
+    "generated_at": "2026-10-22",
+    "summary": "LuLu is a completely free and open-source macOS firewall designed to protect user privacy and security. It is released under the MIT License.",
+    "what_it_does": "It functions as a network firewall for macOS, allowing users to control network connections and prevent unauthorized communication from their computer.",
+    "best_for": "macOS users who want a free, open-source firewall to monitor and control their outgoing and incoming network connections.",
+    "free_tier": "LuLu is entirely free to download and use.",
+    "limitations": "LuLu is specifically for macOS. Users should check the official documentation for compatibility with specific macOS versions and potential advanced configurations.",
+    "licensing_notes": "LuLu is free and open-source software released under the MIT License, allowing extensive freedom for use, modification, and distribution.",
+    "faq": [
+      {
+        "question": "Is LuLu free to use?",
+        "answer": "Yes, LuLu is completely free and open-source software."
+      },
+      {
+        "question": "What are the licensing options for LuLu?",
+        "answer": "LuLu is free and open-source, distributed under the MIT License."
+      }
+    ]
+  },
+  "minikube": {
+    "input_hash": "5b2e610fefd712a89b75ea9628c8a0add0999bc2727350bdb73bba162a19d992",
+    "generated_at": "2026-10-22",
+    "summary": "Minikube is an open-source tool hosted by the Kubernetes project that runs a single-node Kubernetes cluster locally. It is released under the Apache License 2.0.",
+    "what_it_does": "It allows developers to run a lightweight Kubernetes cluster on their local machine, facilitating local development and testing of Kubernetes applications.",
+    "best_for": "Developers and users who need to run Kubernetes locally for development, testing, or learning purposes.",
+    "free_tier": "Minikube is entirely free to use.",
+    "limitations": "Minikube is designed for local development and testing, not for production environments. Users should check the official documentation for system requirements and supported environments.",
+    "licensing_notes": "Minikube is open-source software released under the Apache License 2.0, which permits free use with no commercial restrictions.",
+    "faq": [
+      {
+        "question": "Is Minikube free to use?",
+        "answer": "Yes, Minikube is completely free and open-source software."
+      },
+      {
+        "question": "What are the licensing options for Minikube?",
+        "answer": "Minikube is open-source and licensed under the Apache License 2.0, with no commercial restrictions."
+      }
+    ]
+  },
+  "cpu-z": {
+    "input_hash": "b934968e10b5c43c05642d269d30bfdccda43d2b19ce9dd057de9da8c930cc65",
+    "generated_at": "2026-10-22",
+    "summary": "CPU-Z is a proprietary freeware utility that provides detailed information about a computer's hardware components. It is available at no cost for personal and home use.",
+    "what_it_does": "It identifies and displays comprehensive technical details about the CPU, motherboard, memory, and graphics card of a computer system.",
+    "best_for": "Home users and enthusiasts who need to quickly access detailed information about their computer's internal hardware.",
+    "free_tier": "CPU-Z is available for free for personal and home use.",
+    "limitations": "CPU-Z is proprietary freeware. Commercial use may require a specific license or permission; users should check the official documentation for commercial terms.",
+    "licensing_notes": "CPU-Z is proprietary freeware, meaning it is available at no cost for personal and home use. Commercial use policies should be verified with the official documentation.",
+    "faq": [
+      {
+        "question": "Is CPU-Z free to use?",
+        "answer": "Yes, CPU-Z is freeware and available at no cost for personal and home use."
+      },
+      {
+        "question": "What are the licensing options for CPU-Z?",
+        "answer": "CPU-Z is proprietary freeware for personal and home use. For commercial use, users should consult the official documentation."
+      }
+    ]
+  },
+  "gom-player": {
+    "input_hash": "13092bd45d2088d830e778b2102c31c8c24c5e5916266ec9f5d6980305d41d87",
+    "generated_at": "2026-10-22",
+    "summary": "GOM Player is a freeware media player available for personal and home use with ad support. A paid version, GOM Player Plus, offers an ad-free experience and commercial licensing.",
+    "what_it_does": "It functions as a media player, supporting a wide range of video and audio formats for playback on personal computers.",
+    "best_for": "Home users who need a free media player for personal entertainment, or commercial users willing to purchase GOM Player Plus.",
+    "free_tier": "GOM Player is free for personal and home use, supported by advertisements.",
+    "limitations": "The free version includes ad support. Commercial use and an ad-free experience require upgrading to the paid GOM Player Plus.",
+    "licensing_notes": "GOM Player is freeware for personal and home use, which is ad-supported. A paid upgrade to GOM Player Plus is available for an ad-free experience and commercial licensing.",
+    "faq": [
+      {
+        "question": "Is GOM Player free to use?",
+        "answer": "Yes, GOM Player is free for personal and home use, though it is ad-supported."
+      },
+      {
+        "question": "What are the licensing options for GOM Player?",
+        "answer": "GOM Player is freeware for personal use. For an ad-free experience and commercial use, a paid version called GOM Player Plus is available."
+      }
+    ]
+  },
+  "corel-painter": {
+    "input_hash": "10b87fb0b73c52818fdef516b34cec1801c9a6c5cf519544aabac2f2c04f04ec",
+    "generated_at": "2026-10-22",
+    "summary": "Corel Painter is proprietary digital art software known for its realistic brushes and natural media tools. It requires a paid subscription or a one-time perpetual license.",
+    "what_it_does": "It provides a comprehensive suite of tools for digital painting, drawing, and illustration, simulating traditional art media with advanced brush technology.",
+    "best_for": "Professional artists, illustrators, and digital painters seeking advanced tools for creating realistic digital artwork.",
+    "free_tier": "No free tier is available.",
+    "limitations": "Corel Painter is proprietary software that requires a paid license for continued use.",
+    "licensing_notes": "Corel Painter is paid commercial software. Users can acquire a license through a subscription model or a one-time perpetual license purchase.",
+    "faq": [
+      {
+        "question": "Is Corel Painter free to use?",
+        "answer": "No, Corel Painter is not free. It requires a paid subscription or a one-time license purchase."
+      },
+      {
+        "question": "What are the licensing options for Corel Painter?",
+        "answer": "Corel Painter is available through paid subscription plans or a one-time perpetual license purchase."
+      }
+    ]
+  },
+  "inkscape": {
+    "input_hash": "99c79516925a10c6c6d1a13185f8e1028cf639a02e836dc0db95c4bb99c7096e",
+    "generated_at": "2026-10-22",
+    "summary": "Inkscape is a professional vector graphics editor designed for creating and editing scalable vector graphics (SVG). It is a powerful tool for various design needs.",
+    "what_it_does": "It allows users to create illustrations, logos, diagrams, and other vector-based artwork using a variety of drawing tools, path operations, and text manipulation features.",
+    "best_for": "Graphic designers, illustrators, web designers, and anyone needing a powerful, free, and open-source tool for vector graphics creation and manipulation.",
+    "free_tier": "Fully featured and free for all uses.",
+    "limitations": "Check official documentation for specific technical limitations or system requirements.",
+    "licensing_notes": "Inkscape is licensed under the GNU General Public License (GPL v2+), allowing free use for both personal and commercial purposes.",
+    "faq": [
+      {
+        "question": "Is Inkscape suitable for commercial projects?",
+        "answer": "Yes, Inkscape is free and open-source under the GPL v2+ license, making it suitable for both personal and commercial use without licensing fees."
+      },
+      {
+        "question": "What kind of graphics can I create with Inkscape?",
+        "answer": "Inkscape is primarily used for creating and editing vector graphics, such as illustrations, logos, diagrams, web graphics, and typography."
+      }
+    ]
+  },
+  "audacity": {
+    "input_hash": "f71a0c45c614a1b25b30fcb7f48e4927d19e7d93be1f317abe4d20f0621fe3ac",
+    "generated_at": "2026-10-22",
+    "summary": "Audacity is a free, open-source digital audio editor and recording application. It provides tools for multi-track audio editing and processing.",
+    "what_it_does": "It enables users to record live audio, edit sound files, apply effects, and convert audio formats. It supports various audio tasks from simple cuts to complex mixes.",
+    "best_for": "Podcasters, musicians, audio editors, and anyone needing a versatile tool for audio recording, editing, and manipulation.",
+    "free_tier": "Fully featured and free for all uses.",
+    "limitations": "Check official documentation for specific technical limitations or system requirements.",
+    "licensing_notes": "Audacity is licensed under the GNU General Public License (GPLv3), allowing unrestricted personal and commercial use.",
+    "faq": [
+      {
+        "question": "Can Audacity be used for professional audio production?",
+        "answer": "Audacity is a powerful tool suitable for many professional audio tasks, including recording, editing, and mixing, and can be used commercially due to its GPLv3 license."
+      },
+      {
+        "question": "Does Audacity support multiple audio tracks?",
+        "answer": "Yes, Audacity supports multi-track audio editing, allowing users to work with several audio tracks simultaneously for complex projects."
+      }
+    ]
+  },
+  "7-zip": {
+    "input_hash": "52b3a0a5f024e27e13f14d6b2859cf5147632e39f786270572ede2444ccaefab",
+    "generated_at": "2026-10-22",
+    "summary": "7-Zip is a free and open-source file archiver with a high compression ratio. It supports various archive formats, including its own 7z format.",
+    "what_it_does": "It allows users to compress files into archives to save disk space or for easier transfer, and to extract files from a wide range of archive formats.",
+    "best_for": "Users needing efficient file compression and decompression, especially for large files or when working with less common archive formats.",
+    "free_tier": "Fully featured and free for all uses.",
+    "limitations": "Check official documentation for specific technical limitations or system requirements.",
+    "licensing_notes": "7-Zip is open-source software licensed primarily under the GNU LGPL, allowing free use on any computer for both personal and commercial purposes.",
+    "faq": [
+      {
+        "question": "Is 7-Zip completely free to use?",
+        "answer": "Yes, 7-Zip is free and open-source software licensed under the GNU LGPL, allowing free use on any computer for both personal and commercial purposes."
+      },
+      {
+        "question": "What is the main advantage of using 7-Zip?",
+        "answer": "7-Zip is known for its high compression ratio, especially with its native 7z format, which can significantly reduce file sizes compared to other formats."
+      }
+    ]
+  },
+  "prometheus": {
+    "input_hash": "f5be850c6c7e19c53db2a4fa5abb66675be5682bf099e23bf2d0ed59bb55e8ee",
+    "generated_at": "2026-10-22",
+    "summary": "Prometheus is an open-source monitoring system and time series database. It is designed for reliability and scalability in dynamic environments.",
+    "what_it_does": "It collects and stores metrics as time series data, allowing users to query, visualize, and alert on system and application performance and health.",
+    "best_for": "Developers, DevOps engineers, and system administrators who need robust monitoring and alerting for cloud-native applications and infrastructure.",
+    "free_tier": "Fully featured and free for all uses.",
+    "limitations": "Check official documentation for specific technical limitations or system requirements.",
+    "licensing_notes": "Prometheus is an open-source project released under the permissive Apache License 2.0, allowing free use for both personal and commercial purposes.",
+    "faq": [
+      {
+        "question": "Is Prometheus suitable for enterprise monitoring?",
+        "answer": "Yes, Prometheus is widely adopted in enterprise environments for its robust monitoring and alerting capabilities, and it is free to use under the Apache License 2.0."
+      },
+      {
+        "question": "What kind of data does Prometheus collect?",
+        "answer": "Prometheus primarily collects and stores metrics as time series data, which can be used to monitor system and application performance and resource utilization."
+      }
+    ]
+  },
+  "krita": {
+    "input_hash": "9f759ff545886429e90283363587aed320403b0f14422ccfafc0df635ce8a5bc",
+    "generated_at": "2026-10-22",
+    "summary": "Krita is a free and open-source raster graphics editor primarily designed for digital painting and animation. It offers a comprehensive set of tools for artists.",
+    "what_it_does": "It allows users to create digital art, illustrations, comics, and animations with features like customizable brushes, layers, color management, and drawing assistants.",
+    "best_for": "Digital artists, illustrators, comic book creators, and animators looking for a powerful and free alternative to proprietary art software.",
+    "free_tier": "Fully featured and free for all uses.",
+    "limitations": "Check official documentation for specific technical limitations or system requirements.",
+    "licensing_notes": "Krita is a free and open-source application licensed under the GNU General Public License (version 3 or later) for both personal and commercial use.",
+    "faq": [
+      {
+        "question": "Can Krita be used for professional animation?",
+        "answer": "Yes, Krita includes animation features and is suitable for professional animation work, and it is free to use under the GPL v3+ license."
+      },
+      {
+        "question": "What types of art can I create with Krita?",
+        "answer": "Krita is ideal for digital painting, illustration, concept art, comic creation, and 2D animation, offering tools tailored for these artistic disciplines."
+      }
+    ]
+  },
+  "malwarebytes": {
+    "input_hash": "7fefe4ce6ddc32d000071d86bbd5f06e6cb0af87d86936bd897ca8b7ff308cae",
+    "generated_at": "2026-10-22",
+    "summary": "Malwarebytes is a cybersecurity program designed to detect and remove malware and other threats from computers. It offers both free and paid versions.",
+    "what_it_does": "The free version provides on-demand scanning and cleanup of existing infections, while paid versions offer real-time protection against new threats, ransomware, and exploits.",
+    "best_for": "Home users needing a free tool for occasional malware scanning and removal, or businesses requiring comprehensive real-time protection and advanced security features.",
+    "free_tier": "A free cleanup tool is available for personal, non-commercial use, offering manual scanning and removal of malware.",
+    "limitations": "The free version does not include real-time protection, scheduled scans, or protection against ransomware and exploits. Commercial use requires a paid license.",
+    "licensing_notes": "Malwarebytes offers a free version for personal, non-commercial use. Real-time protection features and business deployment require a paid subscription.",
+    "faq": [
+      {
+        "question": "Is Malwarebytes completely free?",
+        "answer": "Malwarebytes offers a free version for personal, non-commercial use that provides on-demand scanning and malware removal. Real-time protection and commercial use require a paid subscription."
+      },
+      {
+        "question": "What is the main difference between the free and paid versions?",
+        "answer": "The free version offers manual scanning and cleanup, while the paid subscription provides real-time protection, scheduled scans, and advanced threat prevention features."
+      }
+    ]
+  },
+  "autodesk-fusion-360": {
+    "input_hash": "47cee2200f7ff71d71f86c14d3518d6029b5e98cc71458f982655f837c882484",
+    "generated_at": "2026-10-22",
+    "summary": "Autodesk Fusion 360 is a cloud-based 3D CAD, CAM, CAE, and PCB software platform. It integrates design, engineering, and manufacturing into a single tool.",
+    "what_it_does": "It allows users to design, test, and fabricate products, offering features for parametric modeling, generative design, simulation, and computer-aided manufacturing (CAM).",
+    "best_for": "Product designers, engineers, hobbyists, and small businesses involved in 3D design, manufacturing, and prototyping.",
+    "free_tier": "A feature-limited free version is available for personal, non-commercial, and hobbyist use.",
+    "limitations": "The free personal use version has certain feature and usage limitations compared to the paid commercial subscription. Commercial operations require a paid subscription.",
+    "licensing_notes": "A free version is available for personal and hobbyist non-commercial use. Commercial use and access to full features require a paid subscription.",
+    "faq": [
+      {
+        "question": "Can I use Fusion 360 for my business without paying?",
+        "answer": "No, commercial operations with Autodesk Fusion 360 require a paid subscription. A free version is available for personal, non-commercial, and hobbyist use only."
+      },
+      {
+        "question": "What are the limitations of the free personal use version?",
+        "answer": "The free personal use version has certain feature and usage limitations; users should check the official documentation for specific details on what is included."
+      }
+    ]
+  },
+  "adobe-illustrator": {
+    "input_hash": "5e8cc4af398187824ff4ac2d8c89c272fe54818f656437f26957fe53eed61f52",
+    "generated_at": "2026-10-22",
+    "summary": "Adobe Illustrator is the industry-standard vector graphics software. It is used for creating scalable artwork for print, web, video, and mobile.",
+    "what_it_does": "It enables users to design logos, icons, typography, and complex illustrations using vector paths, ensuring crisp lines at any scale without loss of quality.",
+    "best_for": "Professional graphic designers, illustrators, web designers, and artists who require precise vector drawing tools for high-quality output.",
+    "free_tier": "No free tier is offered for ongoing use; a paid Creative Cloud subscription is required. A free trial may be available; check official documentation.",
+    "limitations": "Requires a paid Creative Cloud subscription for all use cases, including personal and commercial. Functionality is restricted without a valid license.",
+    "licensing_notes": "Adobe Illustrator is proprietary software requiring a paid Creative Cloud subscription for both personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is there a free version of Adobe Illustrator?",
+        "answer": "No, Adobe Illustrator requires a paid Creative Cloud subscription for ongoing use. A free trial may be available for evaluation purposes; check the official Adobe website."
+      },
+      {
+        "question": "Can I use Illustrator for commercial projects?",
+        "answer": "Yes, Adobe Illustrator is designed for professional use, and a paid Creative Cloud subscription grants the necessary license for commercial projects."
+      }
+    ]
+  },
+  "burp-suite-professional": {
+    "input_hash": "f6290b8ce26a6665c06113d108f60da3440417ba602169c1ade0da42beae2aa1",
+    "generated_at": "2026-10-22",
+    "summary": "Burp Suite Professional is a leading web vulnerability scanner and penetration testing tool. It provides an integrated platform for security testing of web applications.",
+    "what_it_does": "It offers tools for intercepting, analyzing, and manipulating HTTP traffic, automating vulnerability scans, and performing manual penetration tests to identify security flaws.",
+    "best_for": "Cybersecurity professionals, penetration testers, and developers focused on identifying and exploiting vulnerabilities in web applications.",
+    "free_tier": "No free tier is offered for Burp Suite Professional; a paid annual subscription is required. A community edition with limited features may be available separately.",
+    "limitations": "Requires a paid annual subscription license per user for both personal and professional use. Functionality is restricted without a valid license.",
+    "licensing_notes": "Burp Suite Professional requires a paid annual subscription license per user for both personal and professional use.",
+    "faq": [
+      {
+        "question": "Is there a free version of Burp Suite Professional?",
+        "answer": "No, Burp Suite Professional requires a paid annual subscription. A separate Burp Suite Community Edition is available for free with limited features."
+      },
+      {
+        "question": "Can I use Burp Suite Professional for personal learning?",
+        "answer": "While you can use it for personal learning, a paid annual subscription is still required for Burp Suite Professional, even for individual use."
+      }
+    ]
+  },
+  "sketch": {
+    "input_hash": "ca31b45fe85838ce1ea86473a572666419f2cdb328943a68ab7cb34e32bdcc21",
+    "generated_at": "2026-10-22",
+    "summary": "Sketch is a vector-based design tool primarily used for UI/UX design, web design, and mobile app interfaces. It focuses on collaborative design workflows.",
+    "what_it_does": "It allows designers to create wireframes, prototypes, and high-fidelity designs with features like symbols, shared libraries, and real-time collaboration capabilities.",
+    "best_for": "UI/UX designers, product designers, and design teams working on digital products and interfaces, especially within the Apple ecosystem.",
+    "free_tier": "No free tier is offered for ongoing use; a paid subscription is required. A free trial may be available; check official documentation.",
+    "limitations": "Requires a paid subscription for all use cases. Functionality is restricted without a valid license.",
+    "licensing_notes": "Sketch operates strictly on a paid subscription model for its UI/UX design tools, required for all users.",
+    "faq": [
+      {
+        "question": "Is Sketch available for free?",
+        "answer": "No, Sketch operates on a paid subscription model. A free trial may be available for evaluation purposes; check the official Sketch website for current offers."
+      },
+      {
+        "question": "What platforms does Sketch support?",
+        "answer": "Sketch is primarily designed for macOS. Users should check the official documentation for specific system requirements and any web-based collaboration features."
+      }
+    ]
+  },
+  "sublime-text": {
+    "input_hash": "b9765280f55efed1d96dc77598a5d8cee8e32ae106847e5c486625ec03cbf3bd",
+    "generated_at": "2026-10-22",
+    "summary": "Sublime Text is a sophisticated text editor for code, markup, and prose. It is known for its speed, efficiency, and extensive customization options.",
+    "what_it_does": "It provides features like multiple selections, powerful search and replace, split editing, and a command palette to enhance coding and text editing workflows.",
+    "best_for": "Developers, programmers, and writers who need a fast, lightweight, and highly customizable text editor for various coding and writing tasks.",
+    "free_tier": "Sublime Text can be evaluated for free without a time limit.",
+    "limitations": "While it can be evaluated for free, an individual paid license is required for continued ongoing use. Unlicensed versions may show occasional purchase prompts.",
+    "licensing_notes": "Sublime Text can be evaluated for free, but an individual paid license is required for continued ongoing use for both personal and commercial purposes.",
+    "faq": [
+      {
+        "question": "Is Sublime Text completely free to use?",
+        "answer": "Sublime Text can be evaluated for free, but a paid license is required for continued ongoing use. The unlicensed version may show occasional purchase prompts."
+      },
+      {
+        "question": "What are the benefits of purchasing a license?",
+        "answer": "Purchasing a license removes the evaluation prompts and supports the ongoing development of Sublime Text, ensuring continued access to updates and new features."
+      }
+    ]
+  },
+  "obsidian": {
+    "input_hash": "cb7c9ec25e729b24e81cc99848693f4bb61061afa6255f1e20e8674ed3ed5307",
+    "generated_at": "2026-10-22",
+    "summary": "Obsidian is a powerful knowledge base that works on local Markdown files. It helps users organize notes, link ideas, and build a personal knowledge graph.",
+    "what_it_does": "It allows users to create, link, and manage notes using Markdown, offering features like graph view, backlinks, and a plugin ecosystem for customization and extended functionality.",
+    "best_for": "Students, researchers, writers, and professionals who need a robust tool for personal knowledge management, note-taking, and idea organization.",
+    "free_tier": "Free for personal and educational use.",
+    "limitations": "Requires a paid commercial license if used for work-related activities in revenue-generating organizations.",
+    "licensing_notes": "Obsidian is free for personal and educational use. A paid commercial license is required if used for work-related activities in revenue-generating organizations.",
+    "faq": [
+      {
+        "question": "Can I use Obsidian for my business?",
+        "answer": "If you are using Obsidian for work-related activities in a revenue-generating organization, a paid commercial license is required. It is free for personal and educational use."
+      },
+      {
+        "question": "Does Obsidian store my notes online?",
+        "answer": "Obsidian works on local Markdown files, giving you full control over your data. Optional paid services like Obsidian Sync can synchronize notes across devices."
+      }
+    ]
+  },
+  "lens-desktop": {
+    "input_hash": "8a97318a4118d390580a5688b85d8ab54e6f821095fa857115c9ef579401a0d8",
+    "generated_at": "2026-10-22",
+    "summary": "Lens Desktop is an open-source IDE for Kubernetes. It provides a graphical interface to manage, monitor, and troubleshoot Kubernetes clusters.",
+    "what_it_does": "It simplifies Kubernetes management by offering features like cluster navigation, resource viewing, log streaming, and terminal access for multiple clusters from a single interface.",
+    "best_for": "Developers, DevOps engineers, and system administrators working with Kubernetes clusters, especially those seeking a user-friendly graphical interface.",
+    "free_tier": "Free for personal use, education, and small businesses.",
+    "limitations": "Requires a paid subscription for enterprise commercial use. Users should check the official documentation for the definition of 'small business' and 'enterprise'.",
+    "licensing_notes": "Lens Desktop is free for personal use, education, and small businesses. A paid subscription is required for enterprise commercial use.",
+    "faq": [
+      {
+        "question": "Is Lens Desktop free for all commercial uses?",
+        "answer": "No, Lens Desktop is free for personal use, education, and small businesses. A paid subscription is required for enterprise commercial use."
+      },
+      {
+        "question": "What are the benefits of the paid enterprise subscription?",
+        "answer": "The paid enterprise subscription provides licensing for larger commercial deployments and may include additional support or features; check official documentation for details."
+      }
+    ]
+  },
+  "realvnc-connect": {
+    "input_hash": "850d68dfba975033adcb3ab04991e27d6bdb45e957e63232206e2d881d862c4d",
+    "generated_at": "2026-10-22",
+    "summary": "RealVNC Connect provides secure remote access and control software. It allows users to connect to and manage computers from anywhere.",
+    "what_it_does": "It enables remote desktop control, file transfer, and chat functionalities, facilitating remote support, administration, and collaboration across different locations.",
+    "best_for": "Individuals needing personal remote access, and businesses requiring secure and reliable remote support or remote work solutions.",
+    "free_tier": "A free plan is available for personal, non-commercial remote access.",
+    "limitations": "The free plan is strictly for personal, non-commercial use. Commercial environments require paid plans.",
+    "licensing_notes": "RealVNC Connect offers a free plan for personal non-commercial remote access. Paid plans are required for commercial environments and business use.",
+    "faq": [
+      {
+        "question": "Can I use RealVNC Connect for my business for free?",
+        "answer": "No, the free plan for RealVNC Connect is strictly for personal, non-commercial remote access. Commercial environments require a paid business plan."
+      },
+      {
+        "question": "What features are included in the free non-commercial plan?",
+        "answer": "The free non-commercial plan provides basic remote access capabilities for personal use. Users should check the official documentation for specific feature limitations."
+      }
+    ]
+  },
+  "pycharm": {
+    "input_hash": "6eb881b88f06cae4cd57042dfd3e13f007287ba399e2fe9f0e1ae8656e3e5f16",
+    "generated_at": "2026-10-22",
+    "summary": "PyCharm is an integrated development environment (IDE) specifically designed for Python programming. It offers tools for efficient coding, debugging, and testing.",
+    "what_it_does": "It provides intelligent code completion, error highlighting, debugging tools, and support for web development frameworks and scientific tools, enhancing Python development workflows.",
+    "best_for": "Python developers, data scientists, and web developers working with Python, from beginners to advanced professionals.",
+    "free_tier": "A free, open-source Community Edition is available, offering core Python development features.",
+    "limitations": "The Community Edition focuses on pure Python development and lacks advanced features found in the Professional Edition, such as web development frameworks, scientific tools, and database support.",
+    "licensing_notes": "PyCharm offers a free open-source Community Edition. A paid Professional Edition is available for advanced development, including web, scientific, and database tools.",
+    "faq": [
+      {
+        "question": "What is the difference between PyCharm Community and Professional editions?",
+        "answer": "The Community Edition is free and open-source, focusing on pure Python development. The Professional Edition is paid and includes advanced features for web development, scientific tools, and database support."
+      },
+      {
+        "question": "Can I use PyCharm Community Edition for commercial projects?",
+        "answer": "Yes, the PyCharm Community Edition is open-source and can be used for commercial projects, though it lacks the advanced features of the Professional Edition."
+      }
+    ]
   }
 }
