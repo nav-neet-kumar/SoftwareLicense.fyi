@@ -50,7 +50,7 @@ class TextExtractor(HTMLParser):
 
     def handle_data(self, data):
         if not self.skip:
-            value = re.sub(r"\\s+", " ", data).strip()
+            value = re.sub(r"\s+", " ", data).strip()
             if value:
                 self.parts.append(value)
 
@@ -87,7 +87,7 @@ def ask_json(prompt):
             try:
                 data = json.loads(raw)
             except json.JSONDecodeError:
-                match = re.search(r"(\\[[\\s\\S]*\\]|\\{[\\s\\S]*\\})", raw)
+                match = re.search(r"(\[[\s\S]*\]|\{[\s\S]*\})", raw)
                 if not match:
                     raise
                 data = json.loads(match.group(1))
@@ -105,8 +105,8 @@ def slug(name):
 
 def norm(name):
     value = str(name or "").casefold()
-    value = re.sub(r"\\b(incorporated|inc|corporation|corp|limited|ltd|llc|gmbh|company|co)\\b", " ", value)
-    value = re.sub(r"\\b(community|ultimate|professional|enterprise|personal|home|pro|free|paid|standard|premium|edition|version)\\b", " ", value)
+    value = re.sub(r"\b(incorporated|inc|corporation|corp|limited|ltd|llc|gmbh|company|co)\b", " ", value)
+    value = re.sub(r"\b(community|ultimate|professional|enterprise|personal|home|pro|free|paid|standard|premium|edition|version)\b", " ", value)
     return re.sub(r"[^a-z0-9]+", "", value)
 
 
