@@ -20,7 +20,9 @@ INDEX_PATH = ROOT / "index.html"
 OUTPUT_DIR = ROOT / "software"
 SITEMAP_PATH = ROOT / "sitemap.xml"
 SITE = "https://isitfree.webline.cloud"
-MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
+MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL_CHAIN = [m.strip() for m in os.getenv("GEMINI_MODELS", f"{MODEL},gemini-2.5-flash-lite,gemini-2.0-flash").split(",") if m.strip()]
+MODEL_CHAIN = list(dict.fromkeys(MODEL_CHAIN))
 BATCH_SIZE = int(os.getenv("PAGE_CONTEXT_BATCH_SIZE", "15"))
 MAX_BATCHES = int(os.getenv("PAGE_CONTEXT_BATCHES_PER_RUN", "2"))
 
@@ -128,17 +130,19 @@ software_name, summary (1-2 sentences), what_it_does, best_for, free_tier, limit
 question and answer). Each text field should be concise and useful for a reader. Do not include unsupported claims.
 Records: """ + json.dumps(payload, ensure_ascii=False)
         response = None
-        for attempt in range(3):
+        for model in MODEL_CHAIN:
             try:
-                response = client.models.generate_content(model=MODEL, contents=prompt, config={"temperature": 0.2, "response_mime_type": "application/json"})
+                response = client.models.generate_content(model=model, contents=prompt, config={"temperature": 0.2, "response_mime_type": "application/json"})
+                print(f"[MODEL] Page context batch succeeded with {model}")
                 break
             except Exception as exc:
+                print(f"[MODEL FALLBACK] Page context model {model} failed: {str(exc)[:180]}")
                 message = str(exc).lower()
-                if attempt == 2 or not any(x in message for x in ("429", "503", "unavailable", "resource_exhausted", "rate limit", "timeout")):
-                    print(f"[WARN] AI context batch failed: {exc}")
-                    response = None
-                    break
-                time.sleep(3 * (2 ** attempt))
+                if any(x in message for x in ("503", "unavailable", "timeout", "temporarily")):
+                    time.sleep(2)
+                response = None
+        if response is None:
+            print("[WARN] All configured Gemini models failed for this context batch; CSV-derived fallback content will be used.")
         if not response or not getattr(response, "text", None):
             continue
         try:
