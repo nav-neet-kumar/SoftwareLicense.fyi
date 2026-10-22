@@ -1,0 +1,51 @@
+name: 🧹 Monthly AI Data Audit
+
+on:
+  schedule:
+    - cron: "0 8 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: monthly-ai-data-audit
+  cancel-in-progress: false
+
+jobs:
+  audit-data:
+    name: Verify software data and remove confirmed duplicates
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Audit data files with AI and official page evidence
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_AUDIT_MODELS: "gemini-3.6-flash,gemini-2.5-flash,gemini-2.5-flash-lite"
+          AUDIT_BATCH_SIZE: "12"
+        run: python scripts/monthly_data_audit.py
+
+      - name: Commit audited data files only
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/software_list.csv data/software_sources.json data/recent_updates.json data/software_context.json
+          if git diff --cached --quiet; then
+            echo "No data changes detected."
+            exit 0
+          fi
+          git commit -m "🧹 Monthly AI software data audit [$(date -u +'%Y-%m-%d')]"
+          git push
