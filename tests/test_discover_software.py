@@ -12,6 +12,32 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import discover_software as discovery
 import generate_software_pages as pages
 import update_licenses as updater
+import monthly_data_audit as monthly_audit
+
+
+
+class MonthlyAuditHelpersTests(unittest.TestCase):
+    def test_edition_labels_normalize_for_duplicate_detection(self):
+        self.assertEqual(
+            monthly_audit.norm("IntelliJ IDEA Community Edition"),
+            monthly_audit.norm("IntelliJ IDEA Ultimate Edition"),
+        )
+
+    def test_duplicate_candidates_include_same_product_editions(self):
+        rows = [
+            {"Software Name": "JetBrains IntelliJ IDEA", "Official URL": "https://www.jetbrains.com/idea", "Category": "License Required", "License Status": "Subscription", "Last Updated": "2025-01-01", "Notes": ""},
+            {"Software Name": "IntelliJ IDEA Community Edition", "Official URL": "https://www.jetbrains.com/idea/", "Category": "Community Version", "License Status": "Free", "Last Updated": "2026-10-22", "Notes": ""},
+        ]
+        pairs = monthly_audit.duplicate_candidates(rows)
+        self.assertTrue(any(p["left_index"] == 0 and p["right_index"] == 1 for p in pairs))
+
+    def test_distinct_products_from_same_vendor_are_not_auto_marked_duplicate(self):
+        rows = [
+            {"Software Name": "Visual Studio", "Official URL": "https://visualstudio.microsoft.com", "Category": "License Required", "License Status": "Paid", "Last Updated": "2025-01-01", "Notes": ""},
+            {"Software Name": "Visual Studio Code", "Official URL": "https://code.visualstudio.com", "Category": "Open Source", "License Status": "Free", "Last Updated": "2025-01-01", "Notes": ""},
+        ]
+        pairs = monthly_audit.duplicate_candidates(rows)
+        self.assertEqual(pairs, [])
 
 
 class DiscoveryHelpersTests(unittest.TestCase):
