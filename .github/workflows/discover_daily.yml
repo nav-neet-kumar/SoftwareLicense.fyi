@@ -44,6 +44,7 @@ jobs:
         run: python scripts/generate_software_pages.py
 
       - name: 💾 Commit data, page context, detail pages, and sitemap
+        if: steps.ai_check.outcome == 'success'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -61,6 +62,10 @@ jobs:
           AI_CHECK_OUTCOME: ${{ steps.ai_check.outcome }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          # Pull before writing ai_status.json so rebase sees a clean worktree.
+          git pull --rebase origin "$GITHUB_REF_NAME"
           python - <<'PY'
           import datetime, json, os
           outcome = os.environ.get("AI_CHECK_OUTCOME", "failure").lower()
@@ -76,9 +81,6 @@ jobs:
               f.write(chr(10))
           print(json.dumps(payload))
           PY
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git pull --rebase origin "$GITHUB_REF_NAME"
           git add data/ai_status.json
           git diff --cached --quiet && { echo "AI status unchanged"; exit 0; }
           git commit -m "ci: record latest AI discovery check status"
