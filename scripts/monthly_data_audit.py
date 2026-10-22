@@ -110,22 +110,48 @@ def norm(name):
     return re.sub(r"[^a-z0-9]+", "", value)
 
 
+# Vendor prefixes and common naming variants are candidate-generation hints only.
+# AI must still confirm SAME_PRODUCT before any record is deleted.
+VENDOR_PREFIXES = (
+    "google", "microsoft", "mozilla", "adobe", "apple", "jetbrains",
+    "atlassian", "oracle", "autodesk", "salesforce", "github", "gitlab",
+    "amazon", "aws", "vmware", "dell", "hewlettpackard", "hp", "intel",
+    "nvidia", "cisco", "zoom", "slack", "notion", "dropbox"
+)
+
+
+def alias_key(name):
+    key = norm(name)
+    for prefix in VENDOR_PREFIXES:
+        if key.startswith(prefix) and len(key) > len(prefix) + 2:
+            return key[len(prefix):]
+    return key
+
+
 def duplicate_candidates(rows):
     pairs = []
     for i, left in enumerate(rows):
         left_name = left.get("Software Name", "")
         left_key = norm(left_name)
+        left_alias = alias_key(left_name)
+        left_url = str(left.get("Official URL", "")).rstrip("/").casefold()
         for j in range(i + 1, len(rows)):
             right = rows[j]
-            right_key = norm(right.get("Software Name", ""))
-            same_url = str(left.get("Official URL", "")).rstrip("/").casefold() == str(right.get("Official URL", "")).rstrip("/").casefold()
+            right_name = right.get("Software Name", "")
+            right_key = norm(right_name)
+            right_alias = alias_key(right_name)
+            right_url = str(right.get("Official URL", "")).rstrip("/").casefold()
+            same_url = bool(left_url and right_url and left_url == right_url)
             ratio = difflib.SequenceMatcher(None, left_key, right_key).ratio() if left_key and right_key else 0
-            if left_key == right_key or (same_url and ratio >= 0.55) or ratio >= 0.88:
+            alias_ratio = difflib.SequenceMatcher(None, left_alias, right_alias).ratio() if left_alias and right_alias else 0
+            alias_match = bool(left_alias and right_alias and left_alias == right_alias)
+            # These are candidates for AI review, never automatic deletions.
+            if (left_key == right_key or alias_match or
+                    (same_url and ratio >= 0.55) or ratio >= 0.88 or alias_ratio >= 0.88):
                 pairs.append({"left_index": i, "right_index": j,
                               "left": {k: left.get(k, "") for k in COLUMNS},
                               "right": {k: right.get(k, "") for k in COLUMNS}})
     return pairs
-
 
 def resolve_duplicates(rows):
     pairs = duplicate_candidates(rows)
