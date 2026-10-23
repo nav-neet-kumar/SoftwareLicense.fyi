@@ -52,5 +52,50 @@
     "category": "License for Commercial",
     "url": "https://www.atlassian.com/software/jira",
     "source": "https://www.atlassian.com/software/jira/pricing"
+  },
+  {
+    "name": "GnuCash",
+    "slug": "gnucash",
+    "type": "NEW",
+    "date": "2026-10-23",
+    "category": "Open Source",
+    "url": "https://www.gnucash.org/",
+    "source": "https://www.gnucash.org/about.phtml"
+  },
+  {
+    "name": "GParted",
+    "slug": "gparted",
+    "type": "NEW",
+    "date": "2026-10-23",
+    "category": "Open Source",
+    "url": "https://gparted.org/",
+    "source": "https://gparted.org/about.php"
+  },
+  {
+    "name": "Kodi",
+    "slug": "kodi",
+    "type": "NEW",
+    "date": "2026-10-23",
+    "category": "Open Source",
+    "url": "https://kodi.tv/",
+    "source": "https://kodi.tv/about/software-license"
+  },
+  {
+    "name": "GitHub Desktop",
+    "slug": "github-desktop",
+    "type": "NEW",
+    "date": "2026-10-23",
+    "category": "Open Source",
+    "url": "https://desktop.github.com/",
+    "source": "https://github.com/desktop/desktop/blob/HEAD/LICENSE"
+  },
+  {
+    "name": "WordPress",
+    "slug": "wordpress",
+    "type": "NEW",
+    "date": "2026-10-23",
+    "category": "Open Source",
+    "url": "https://wordpress.org/",
+    "source": "https://wordpress.org/about/license/"
   }
 ]

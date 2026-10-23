@@ -4,5 +4,10 @@
   "intellij-idea-ultimate-edition": "https://www.jetbrains.com/idea/buy/",
   "microsoft-sql-server-express": "https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
   "google-chrome": "https://www.google.com/chrome/terms/",
-  "jira-software": "https://www.atlassian.com/software/jira/pricing"
+  "jira-software": "https://www.atlassian.com/software/jira/pricing",
+  "gnucash": "https://www.gnucash.org/about.phtml",
+  "gparted": "https://gparted.org/about.php",
+  "kodi": "https://kodi.tv/about/software-license",
+  "github-desktop": "https://github.com/desktop/desktop/blob/HEAD/LICENSE",
+  "wordpress": "https://wordpress.org/about/license/"
 }

@@ -2998,5 +2998,605 @@
         "answer": "Yes, Tableau Desktop requires a paid user license for full functionality, although a free trial is available."
       }
     ]
+  },
+  "gnucash": {
+    "input_hash": "b96b5430c32fe3cad26a092ac68886e19c7239dc564994ba42baf5f5469e670a",
+    "generated_at": "2026-10-23",
+    "summary": "GnuCash is free and open-source financial accounting software. It is designed for managing personal and small-business finances.",
+    "what_it_does": "It provides tools for tracking income, expenses, bank accounts, stocks, bonds, and mutual funds, helping users manage their financial records.",
+    "best_for": "Individuals and small businesses seeking a free, robust accounting solution for managing their finances.",
+    "free_tier": "GnuCash is entirely free and open-source.",
+    "limitations": "No inherent functional limitations for the core software. Users should check official documentation for specific platform compatibility or system requirements.",
+    "licensing_notes": "Licensed under the GNU General Public License version 2 (GPLv2), allowing users to run, study, share, and modify the software freely.",
+    "faq": [
+      {
+        "question": "Is GnuCash free to use?",
+        "answer": "Yes, GnuCash is free and open-source software."
+      },
+      {
+        "question": "What is the license for GnuCash?",
+        "answer": "GnuCash is licensed under the GNU General Public License version 2 (GPLv2)."
+      }
+    ]
+  },
+  "gparted": {
+    "input_hash": "4825d447f868ea5dd4073c2978831d54de59473114f955178f53ea0d24366055",
+    "generated_at": "2026-10-23",
+    "summary": "GParted is a free and open-source partition editor. It provides a graphical interface for managing disk partitions.",
+    "what_it_does": "It allows users to create, delete, resize, move, copy, and check disk partitions without data loss.",
+    "best_for": "Users who need to graphically manage disk partitions on their computer, such as system administrators or advanced users.",
+    "free_tier": "GParted is entirely free and open-source.",
+    "limitations": "No inherent functional limitations for the core software. Users should check official documentation for specific platform compatibility or system requirements.",
+    "licensing_notes": "Licensed under the GNU General Public License version 2 (GPLv2), allowing free use, study, sharing, and modification.",
+    "faq": [
+      {
+        "question": "Is GParted available for free?",
+        "answer": "Yes, GParted is free and open-source software."
+      },
+      {
+        "question": "What kind of tasks can GParted perform?",
+        "answer": "GParted can create, delete, resize, move, copy, and check disk partitions."
+      }
+    ]
+  },
+  "kodi": {
+    "input_hash": "57870808c0bd5444556117f0242ee64eda037505d794850f40b4861a51b1fbe0",
+    "generated_at": "2026-10-23",
+    "summary": "Kodi is free and open-source media player software. It allows users to play and view most streaming media, such as videos, music, podcasts, and digital media files.",
+    "what_it_does": "It functions as a media center, organizing and playing various forms of digital media from local and network storage, and can be extended with add-ons.",
+    "best_for": "Users looking for a versatile, customizable media player and home theater PC (HTPC) software solution.",
+    "free_tier": "Kodi is entirely free and open-source.",
+    "limitations": "No inherent functional limitations for the core software. Users should check official documentation for specific platform compatibility or system requirements.",
+    "licensing_notes": "Licensed under the GNU General Public License version 2 (GPLv2), enabling free use, distribution, and modification.",
+    "faq": [
+      {
+        "question": "Is Kodi free to download and use?",
+        "answer": "Yes, Kodi is free and open-source software."
+      },
+      {
+        "question": "What is Kodi primarily used for?",
+        "answer": "Kodi is primarily used as a media player and home theater PC (HTPC) software to organize and play digital media."
+      }
+    ]
+  },
+  "github-desktop": {
+    "input_hash": "ae2d11cb3ec66d727471cbc9cd29dd5ba6bef78f19212fc5b4ed13c98f16046d",
+    "generated_at": "2026-10-23",
+    "summary": "GitHub Desktop is a free and open-source Git client developed by GitHub. It provides a graphical user interface for Git and GitHub workflows.",
+    "what_it_does": "It simplifies common Git operations like committing, branching, and merging, and integrates directly with GitHub repositories.",
+    "best_for": "Developers and teams who prefer a visual interface for managing Git repositories and interacting with GitHub, especially those new to command-line Git.",
+    "free_tier": "GitHub Desktop is entirely free and open-source.",
+    "limitations": "No inherent functional limitations for the core software. Users should check official documentation for specific platform compatibility or system requirements.",
+    "licensing_notes": "Licensed under the MIT License, which is a permissive free software license.",
+    "faq": [
+      {
+        "question": "Is GitHub Desktop free to use?",
+        "answer": "Yes, GitHub Desktop is free and open-source software."
+      },
+      {
+        "question": "What is the primary purpose of GitHub Desktop?",
+        "answer": "It provides a graphical interface to simplify Git operations and integrate with GitHub repositories."
+      }
+    ]
+  },
+  "wordpress": {
+    "input_hash": "e1507298519607c91357a0032610c5a0bae795e74ea825ccdfd43c5eeabaf51a",
+    "generated_at": "2026-10-23",
+    "summary": "WordPress is a free and open-source content management system (CMS). It is widely used for creating websites, blogs, and applications.",
+    "what_it_does": "It provides tools for publishing content, managing users, and extending functionality through themes and plugins, enabling users to build and maintain dynamic websites.",
+    "best_for": "Individuals, bloggers, small businesses, and developers looking to create and manage websites with a flexible and extensible platform.",
+    "free_tier": "WordPress (the self-hosted software from wordpress.org) is entirely free and open-source.",
+    "limitations": "No inherent functional limitations for the core software. Users should check official documentation for specific hosting requirements or platform compatibility.",
+    "licensing_notes": "Licensed under the GNU General Public License version 2 or later (GPLv2 or later), allowing free use, modification, and distribution.",
+    "faq": [
+      {
+        "question": "Is WordPress free to use?",
+        "answer": "Yes, the self-hosted WordPress software from wordpress.org is free and open-source."
+      },
+      {
+        "question": "What is WordPress used for?",
+        "answer": "WordPress is used as a content management system to create and manage websites, blogs, and applications."
+      }
+    ]
+  },
+  "bandicam": {
+    "input_hash": "bef02d5bf5d448f7e437f7aa99e55b4a09cad1519993ae87e29735f7f512c43d",
+    "generated_at": "2026-10-23",
+    "summary": "Bandicam is proprietary screen recording software. It allows users to capture screen activity, gameplay, and external video devices.",
+    "what_it_does": "It records video and screenshots from a computer screen, games, or connected devices, offering various recording modes and settings.",
+    "best_for": "Users who need to record high-quality video from their screen, games, or external devices, such as content creators, gamers, or educators.",
+    "free_tier": "A limited free trial is available.",
+    "limitations": "The free trial version has a 10-minute recording cap per file and adds a watermark to recorded videos. Full unrestricted use requires a paid license.",
+    "licensing_notes": "Bandicam is shareware, requiring a paid license for full, unrestricted use after the trial period.",
+    "faq": [
+      {
+        "question": "Does Bandicam offer a free version?",
+        "answer": "Yes, a limited free trial is available."
+      },
+      {
+        "question": "What are the limitations of the free trial?",
+        "answer": "The free trial has a 10-minute recording limit and applies a watermark to recordings."
+      }
+    ]
+  },
+  "roam-research": {
+    "input_hash": "1faddcd7f27556c711e3afba83bbfa223c177f6c60c581de1acf028022b6b726",
+    "generated_at": "2026-10-23",
+    "summary": "Roam Research is a proprietary note-taking and knowledge management tool. It is designed to help users organize thoughts and connect ideas in a non-linear fashion.",
+    "what_it_does": "It provides a networked thought environment where users can create interconnected notes, build a personal knowledge graph, and facilitate discovery and creativity.",
+    "best_for": "Researchers, writers, students, and professionals who need an advanced tool for interconnected note-taking, knowledge management, and idea generation.",
+    "free_tier": "A 14-day free trial is available.",
+    "limitations": "Use of the software beyond the 14-day free trial requires a paid subscription.",
+    "licensing_notes": "Roam Research is proprietary software that requires a paid subscription for continued use after the trial period.",
+    "faq": [
+      {
+        "question": "Is there a free version of Roam Research?",
+        "answer": "A 14-day free trial is available."
+      },
+      {
+        "question": "What is the licensing model for Roam Research?",
+        "answer": "It requires a paid subscription for use after the trial period."
+      }
+    ]
+  },
+  "avid-pro-tools": {
+    "input_hash": "83f08d1b963501662b77dbc69542e108ae0a4ab4d9e416b2b7d94ac399694d3f",
+    "generated_at": "2026-10-23",
+    "summary": "Avid Pro Tools is proprietary digital audio workstation (DAW) software. It is a professional tool for audio recording, editing, mixing, and mastering.",
+    "what_it_does": "It provides a comprehensive suite of tools for music production, post-production, and sound design, used by audio engineers and musicians.",
+    "best_for": "Professional audio engineers, music producers, sound designers, and musicians who require industry-standard tools for advanced audio production.",
+    "free_tier": "No free tier is mentioned. Users should check the official documentation for trial availability.",
+    "limitations": "Requires a paid subscription or perpetual license for use. Specific feature sets may vary by license type.",
+    "licensing_notes": "Avid Pro Tools is proprietary software that requires either a paid subscription or a perpetual license for use.",
+    "faq": [
+      {
+        "question": "Is Avid Pro Tools free?",
+        "answer": "No, Avid Pro Tools requires a paid subscription or perpetual license."
+      },
+      {
+        "question": "Who is Avid Pro Tools designed for?",
+        "answer": "It is designed for professional audio engineers, music producers, and sound designers."
+      }
+    ]
+  },
+  "nordvpn": {
+    "input_hash": "547df5407fbe80f924db8ed18f6a3f54a1785bac8dc75cc86be0b49c6e1d15c3",
+    "generated_at": "2026-10-23",
+    "summary": "NordVPN is a commercial Virtual Private Network (VPN) service. It provides secure and private internet access by encrypting online traffic and masking IP addresses.",
+    "what_it_does": "It routes internet traffic through encrypted servers, protecting user privacy, enhancing security, and allowing access to geo-restricted content.",
+    "best_for": "Individuals and businesses seeking to enhance their online privacy, security, and access content without geographical restrictions.",
+    "free_tier": "No free tier is mentioned. Users should check the official documentation for trial availability.",
+    "limitations": "Requires a paid subscription for both personal and business use.",
+    "licensing_notes": "NordVPN is a proprietary commercial service that requires a paid subscription for access and use.",
+    "faq": [
+      {
+        "question": "Is NordVPN a free service?",
+        "answer": "No, NordVPN is a commercial service that requires a paid subscription."
+      },
+      {
+        "question": "What is the main purpose of NordVPN?",
+        "answer": "Its main purpose is to provide secure and private internet access by encrypting online traffic and masking IP addresses."
+      }
+    ]
+  },
+  "expandrive": {
+    "input_hash": "aa7936464ce0a3fe2919ce2a3d881b358aae9be97d398d4245693d9aebc88e29",
+    "generated_at": "2026-10-23",
+    "summary": "ExpanDrive is commercial software that mounts cloud storage as a local drive. It allows users to access and manage files on various cloud services directly from their computer's file explorer.",
+    "what_it_does": "It creates a virtual drive for cloud storage providers like Google Drive, Dropbox, S3, and more, making remote files accessible as if they were local.",
+    "best_for": "Users and businesses who need seamless access to multiple cloud storage services directly from their operating system's file manager.",
+    "free_tier": "A 7-day free trial is available.",
+    "limitations": "After the 7-day free trial, a paid lifetime license or subscription is required for continued use.",
+    "licensing_notes": "ExpanDrive is proprietary commercial software that requires a paid lifetime license or subscription after the trial period.",
+    "faq": [
+      {
+        "question": "Is there a free trial for ExpanDrive?",
+        "answer": "Yes, a 7-day free trial is available."
+      },
+      {
+        "question": "What happens after the ExpanDrive trial ends?",
+        "answer": "A paid lifetime license or subscription is required for continued use."
+      }
+    ]
+  },
+  "embarcadero-delphi": {
+    "input_hash": "94e581a75926d807e164249fe727193d276c9b2ec498deda3347603dd5a44fe2",
+    "generated_at": "2026-10-23",
+    "summary": "Embarcadero Delphi is a commercial proprietary software development environment. It is used for building high-performance applications across multiple platforms.",
+    "what_it_does": "It provides an integrated development environment (IDE) with a visual designer and a powerful object-oriented programming language (Object Pascal) for rapid application development.",
+    "best_for": "Professional developers and organizations building native applications for Windows, macOS, iOS, Android, and Linux, as well as hobbyists and small organizations meeting specific revenue criteria.",
+    "free_tier": "A free Community Edition is available.",
+    "limitations": "The free Community Edition is limited to hobbyists and organizations with annual revenues under $5,000 USD. Standard commercial use requires a paid license.",
+    "licensing_notes": "Delphi is commercial proprietary software. While a free Community Edition exists with revenue restrictions, standard commercial use requires a paid license.",
+    "faq": [
+      {
+        "question": "Is there a free version of Embarcadero Delphi?",
+        "answer": "Yes, a free Community Edition is available with specific usage restrictions."
+      },
+      {
+        "question": "What are the limitations of the Community Edition?",
+        "answer": "It is for hobbyists and organizations with annual revenues under $5,000 USD."
+      }
+    ]
+  },
+  "oracle-database-free": {
+    "input_hash": "45eccc8840e97eb28c8742987b84ba440098a65ba56e39be16c61aabeb4e9d66",
+    "generated_at": "2026-10-23",
+    "summary": "Oracle Database Free is a free, limited edition of the full Oracle Database engine. It allows developers and small organizations to develop and deploy applications without cost.",
+    "what_it_does": "It provides a robust relational database management system (RDBMS) for storing, managing, and retrieving data, suitable for development and small-scale production environments.",
+    "best_for": "Developers, students, and small businesses who need a powerful database for learning, developing, and deploying applications, provided they stay within the resource limits.",
+    "free_tier": "Oracle Database Free is a fully functional, free edition of the Oracle Database.",
+    "limitations": "It comes with capped limits on CPU, RAM, and storage. For larger-scale or enterprise-level deployments, paid Enterprise licenses are required.",
+    "licensing_notes": "Oracle Database Free is a free, limited edition for development and deployment. Full Enterprise licenses are available for unrestricted use.",
+    "faq": [
+      {
+        "question": "Is Oracle Database Free truly free?",
+        "answer": "Yes, it is a free edition of the Oracle Database engine for development and deployment."
+      },
+      {
+        "question": "Are there any restrictions with Oracle Database Free?",
+        "answer": "Yes, it has capped limits on CPU, RAM, and storage."
+      }
+    ]
+  },
+  "bun": {
+    "input_hash": "e1394f85b2c46f3d4833714b3366f7a5b75ac998e9d79c29be857fe371ab4444",
+    "generated_at": "2026-10-23",
+    "summary": "Bun is a free and open-source JavaScript runtime. It is designed for speed and efficiency, offering a fast alternative to existing JavaScript runtimes.",
+    "what_it_does": "It executes JavaScript and TypeScript code, provides a package manager, and a bundler, aiming to be an all-in-one toolkit for JavaScript development.",
+    "best_for": "JavaScript and TypeScript developers seeking a high-performance runtime, bundler, and package manager for their projects.",
+    "free_tier": "Bun is entirely free and open-source.",
+    "limitations": "No inherent functional limitations for the core software. Users should check official documentation for specific platform compatibility or system requirements.",
+    "licensing_notes": "Primarily licensed under the MIT License, a permissive free software license.",
+    "faq": [
+      {
+        "question": "Is Bun free to use?",
+        "answer": "Yes, Bun is free and open-source software."
+      },
+      {
+        "question": "What is Bun's primary function?",
+        "answer": "Bun is a JavaScript runtime that also includes a package manager and bundler."
+      }
+    ]
+  },
+  "ia-writer": {
+    "input_hash": "4167d27c2f45479e09db4d08ee5b5102847260f69aa93852883d90914f2fad97",
+    "generated_at": "2026-10-23",
+    "summary": "iA Writer is a commercial proprietary writing application. It focuses on a distraction-free writing experience with plain text and Markdown support.",
+    "what_it_does": "It provides a minimalist interface for focused writing, offering features like syntax highlighting, content blocks, and export options to various formats.",
+    "best_for": "Writers, journalists, students, and professionals who prioritize a clean, distraction-free environment for drafting and editing text, especially those working with Markdown.",
+    "free_tier": "No free tier is mentioned. Users should check the official documentation for trial availability.",
+    "limitations": "Requires an upfront purchase or paid license for use across all supported platforms.",
+    "licensing_notes": "iA Writer is proprietary commercial software that requires an upfront purchase or paid license.",
+    "faq": [
+      {
+        "question": "Is iA Writer free to use?",
+        "answer": "No, iA Writer is a commercial application that requires an upfront purchase or paid license."
+      },
+      {
+        "question": "What is the main focus of iA Writer?",
+        "answer": "It focuses on providing a distraction-free writing experience with plain text and Markdown support."
+      }
+    ]
+  },
+  "aseprite": {
+    "input_hash": "74a8423d29838b1f0373832917ea28e0d39acf51059ebd35e680a9e39cfd7d97",
+    "generated_at": "2026-10-23",
+    "summary": "Aseprite is proprietary software for creating pixel art and animations. It offers a dedicated environment for drawing sprites, tilesets, and animated GIFs.",
+    "what_it_does": "It provides tools for pixel-perfect drawing, animation timelines, onion skinning, and palette management, specifically tailored for pixel art creation.",
+    "best_for": "Pixel artists, game developers, and animators who specialize in creating retro-style graphics and animations.",
+    "free_tier": "The precompiled binaries require a paid license. The source code is available for self-compilation.",
+    "limitations": "Precompiled binaries require a paid license. Self-compilation from source code is an alternative, but it is under a custom EULA.",
+    "licensing_notes": "Aseprite is proprietary. Precompiled binaries require a paid license. The source code is available under a custom EULA, allowing self-compilation.",
+    "faq": [
+      {
+        "question": "Is Aseprite free?",
+        "answer": "Precompiled binaries require a paid license. The source code is available for self-compilation under a custom EULA."
+      },
+      {
+        "question": "Can I get Aseprite without paying?",
+        "answer": "You can self-compile Aseprite from its source code, which is available under a custom EULA."
+      }
+    ]
+  },
+  "amazon-corretto": {
+    "input_hash": "683ccdca055a2dee2ed944b07faa264f61e2a3ceb1d37a1497d187da7bb6d7c8",
+    "generated_at": "2026-10-23",
+    "summary": "Amazon Corretto is a no-cost, production-ready distribution of OpenJDK, supported by Amazon.",
+    "what_it_does": "It provides a free, open-source implementation of the Java Development Kit (JDK) for developing and running Java applications across various platforms.",
+    "best_for": "Developers and organizations seeking a stable, supported, and free OpenJDK distribution for their Java applications and environments.",
+    "free_tier": "Amazon Corretto is entirely free and open-source, with no associated costs for use.",
+    "limitations": "Users should check the official documentation for specific support policies and any platform-specific considerations.",
+    "licensing_notes": "It is released under the open-source GPLv2 with Classpath Exception license.",
+    "faq": [
+      {
+        "question": "Is Amazon Corretto truly free?",
+        "answer": "Yes, Amazon Corretto is a no-cost, production-ready distribution of OpenJDK and is free for all uses."
+      },
+      {
+        "question": "What is Amazon Corretto primarily used for?",
+        "answer": "It is used for developing and running Java applications, providing a reliable and supported Java environment."
+      }
+    ]
+  },
+  "cyberduck": {
+    "input_hash": "83d2f54e57ca3ed3bf72850319584b3ff6defa95b668f2c0f5ee726f61e2a3af",
+    "generated_at": "2026-10-23",
+    "summary": "Cyberduck is an open-source client for cloud storage and FTP, supporting various protocols.",
+    "what_it_does": "It allows users to connect to FTP, SFTP, WebDAV, Amazon S3, Azure, and other cloud storage services to browse, upload, and download files.",
+    "best_for": "Users needing a versatile, open-source file transfer client for multiple protocols and cloud services.",
+    "free_tier": "Cyberduck is fully free and open-source.",
+    "limitations": "Users should check the official documentation for specific feature sets and compatibility details.",
+    "licensing_notes": "It is licensed under the GNU General Public License, making it free and open-source.",
+    "faq": [
+      {
+        "question": "Is Cyberduck free to use?",
+        "answer": "Yes, Cyberduck is free and open-source software available for anyone to use."
+      },
+      {
+        "question": "What types of connections does Cyberduck support?",
+        "answer": "Cyberduck supports a wide range of protocols including FTP, SFTP, WebDAV, Amazon S3, and Microsoft Azure cloud storage."
+      }
+    ]
+  },
+  "zabbix": {
+    "input_hash": "ae47e9e20e734f4cb688033e82d94bb2f18c1b2d4868305eed12669b938546e7",
+    "generated_at": "2026-10-23",
+    "summary": "Zabbix is an entirely open-source monitoring solution for networks, servers, applications, and services.",
+    "what_it_does": "It collects, stores, manages, and analyzes monitoring data, providing powerful visualization, alerting, and reporting capabilities for IT infrastructure.",
+    "best_for": "Organizations and IT professionals requiring a comprehensive, open-source monitoring system for their entire infrastructure.",
+    "free_tier": "Zabbix is completely free and open-source.",
+    "limitations": "Users should check the official documentation for scalability, specific feature details, and community support resources.",
+    "licensing_notes": "It is entirely open-source software released under the GNU Affero General Public License version 3 (AGPLv3).",
+    "faq": [
+      {
+        "question": "Is Zabbix completely free?",
+        "answer": "Yes, Zabbix is entirely open-source software and is free to use under the AGPLv3 license."
+      },
+      {
+        "question": "What can Zabbix monitor?",
+        "answer": "Zabbix can monitor a wide range of IT infrastructure components, including networks, servers, applications, and cloud services."
+      }
+    ]
+  },
+  "xnview": {
+    "input_hash": "f6a763bd77eaa8d49c4e90cbfc831ce17137425620e08b52d287ebfa43c4c1ed",
+    "generated_at": "2026-10-23",
+    "summary": "XnView is a versatile image viewer, browser, and converter that supports numerous image formats.",
+    "what_it_does": "It enables users to view, organize, process, and convert image files, offering features like resizing, cropping, color adjustments, and batch processing.",
+    "best_for": "Individuals and non-profit organizations needing a free, feature-rich tool for image management and conversion.",
+    "free_tier": "It is provided as freeware for personal or non-profit use.",
+    "limitations": "Commercial use requires purchasing a license.",
+    "licensing_notes": "XnView is freeware for personal or non-profit use; commercial use requires purchasing a license.",
+    "faq": [
+      {
+        "question": "Can I use XnView for free?",
+        "answer": "Yes, XnView is free for personal and non-profit use. Commercial use requires a purchased license."
+      },
+      {
+        "question": "What are the main features of XnView?",
+        "answer": "XnView offers image viewing, browsing, conversion, basic editing, and batch processing capabilities for various image formats."
+      }
+    ]
+  },
+  "faststone-image-viewer": {
+    "input_hash": "a639a81697e9efde1de61c4ed78d48e93da75b314947f36d9d15079237f0bdb9",
+    "generated_at": "2026-10-23",
+    "summary": "FastStone Image Viewer is a fast, stable, and user-friendly image browser, converter, and editor.",
+    "what_it_does": "It offers tools for viewing, managing, comparing, red-eye removal, emailing, resizing, cropping, and color adjustments of images.",
+    "best_for": "Personal users and students looking for a free, efficient tool for basic image viewing and editing tasks.",
+    "free_tier": "It is provided as freeware for personal and educational use.",
+    "limitations": "Commercial use requires a paid license.",
+    "licensing_notes": "FastStone Image Viewer is freeware for personal and educational use; commercial use requires a paid license.",
+    "faq": [
+      {
+        "question": "Is FastStone Image Viewer free for businesses?",
+        "answer": "No, FastStone Image Viewer requires a commercial license for business or commercial use, but it is free for personal and educational use."
+      },
+      {
+        "question": "What kind of image editing can I do with FastStone Image Viewer?",
+        "answer": "You can perform basic editing tasks such as resizing, cropping, red-eye removal, color adjustments, and more."
+      }
+    ]
+  },
+  "hwmonitor": {
+    "input_hash": "a3199c3c32cd11d97b121dff5dcea6ae2230405f7eb4a93594e66db40e9b6257",
+    "generated_at": "2026-10-23",
+    "summary": "HWMonitor is a hardware monitoring program that reads PC system main health sensors.",
+    "what_it_does": "It monitors CPU temperature, fan speed, voltages, and other system health parameters in real-time.",
+    "best_for": "Individual users who want to keep track of their computer's hardware health and performance.",
+    "free_tier": "A standard freeware version is available for personal use.",
+    "limitations": "The Pro version, which offers extended features, requires a paid license.",
+    "licensing_notes": "HWMonitor is available as standard freeware for personal use; HWMonitor Pro requires a paid license for commercial or extended feature use.",
+    "faq": [
+      {
+        "question": "Is HWMonitor completely free?",
+        "answer": "The standard version of HWMonitor is freeware for personal use. A 'Pro' version with additional features requires a paid license."
+      },
+      {
+        "question": "What information does HWMonitor provide?",
+        "answer": "HWMonitor provides real-time data on CPU temperature, fan speed, voltages, and other critical system health sensors."
+      }
+    ]
+  },
+  "vmware-workstation-pro": {
+    "input_hash": "a031d07d49c5c66c7ded5be0fac6e92e6d907aadb1bbb73174fb857f5f2133f7",
+    "generated_at": "2026-10-23",
+    "summary": "VMware Workstation Pro is a powerful desktop virtualization software for running multiple operating systems on a single PC.",
+    "what_it_does": "It allows users to create and run virtual machines, enabling testing, development, and compatibility with various OS environments.",
+    "best_for": "Developers, IT professionals, and enthusiasts who need to run multiple operating systems simultaneously for testing, development, or compatibility.",
+    "free_tier": "As of November 2024, VMware Workstation Pro is completely free for personal, educational, and commercial use.",
+    "limitations": "Users should check the official documentation for system requirements and specific feature sets.",
+    "licensing_notes": "As of November 2024, Broadcom made VMware Workstation Pro completely free for all users, eliminating paid commercial licensing requirements.",
+    "faq": [
+      {
+        "question": "Is VMware Workstation Pro still a paid product?",
+        "answer": "No, as of November 2024, VMware Workstation Pro is free for personal, educational, and commercial use."
+      },
+      {
+        "question": "What can I do with VMware Workstation Pro?",
+        "answer": "You can create and run multiple virtual machines, allowing you to test different operating systems and applications in isolated environments."
+      }
+    ]
+  },
+  "datagrip": {
+    "input_hash": "c13e19122f8fb0d3e879f061085aa263e6c337480191b45aa073acb517be9733",
+    "generated_at": "2026-10-23",
+    "summary": "DataGrip is a professional IDE for databases and SQL from JetBrains, designed for database developers and administrators.",
+    "what_it_does": "It provides a comprehensive environment for managing databases, writing SQL, analyzing schemas, and performing various database development tasks.",
+    "best_for": "Database developers, SQL analysts, and administrators who require an advanced, feature-rich IDE for working with multiple database systems.",
+    "free_tier": "There is no dedicated free tier; it offers a 30-day free trial.",
+    "limitations": "Requires a paid subscription for continued use after the 30-day trial period.",
+    "licensing_notes": "DataGrip is proprietary software requiring a paid subscription for both personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is DataGrip available for free?",
+        "answer": "DataGrip offers a 30-day free trial, but a paid subscription is required for continued use after the trial period."
+      },
+      {
+        "question": "What types of databases does DataGrip support?",
+        "answer": "DataGrip supports a wide range of database systems. Users should check the official documentation for the most current list of supported databases."
+      }
+    ]
+  },
+  "charles-proxy": {
+    "input_hash": "7d8c3ca52aa4d4c59f9f21c1e1172022e8b3bc99f9443d7b9eb5c40f0b45f9f5",
+    "generated_at": "2026-10-23",
+    "summary": "Charles Proxy is a web debugging proxy application for developers to inspect network traffic.",
+    "what_it_does": "It allows developers to view all HTTP and SSL/HTTPS traffic between their machine and the internet, aiding in debugging and analysis of web and mobile applications.",
+    "best_for": "Developers and QA engineers who need to inspect, debug, and modify network traffic for web and mobile applications.",
+    "free_tier": "There is no dedicated free tier; it offers a 30-day trial period.",
+    "limitations": "Requires a paid license for continued use after the 30-day trial. The trial version may have feature or time limitations; check official documentation.",
+    "licensing_notes": "Charles Proxy is commercial shareware that requires a paid license for both personal and commercial use after the initial evaluation trial.",
+    "faq": [
+      {
+        "question": "Is Charles Proxy free to use indefinitely?",
+        "answer": "No, Charles Proxy is commercial software that requires a paid license for continued use after a 30-day trial period."
+      },
+      {
+        "question": "What is the primary function of Charles Proxy?",
+        "answer": "Its primary function is to allow developers to inspect and debug HTTP and SSL/HTTPS network traffic between their computer and the internet."
+      }
+    ]
+  },
+  "internet-download-manager": {
+    "input_hash": "c2ef575601ee0a1138ca07fda238f3b76ddc3fa12b4e1f449075d6f8889a2ae7",
+    "generated_at": "2026-10-23",
+    "summary": "Internet Download Manager (IDM) is a tool designed to increase download speeds, resume, and schedule downloads.",
+    "what_it_does": "It accelerates downloads by segmenting files, manages download queues, and allows for resuming interrupted downloads from various sources.",
+    "best_for": "Users who frequently download large files and need to optimize download speeds, manage queues, and recover from interruptions.",
+    "free_tier": "There is no dedicated free tier; it offers a 30-day free trial.",
+    "limitations": "Requires a paid license to continue using the software after the 30-day trial period.",
+    "licensing_notes": "Internet Download Manager is proprietary shareware requiring a paid license after a 30-day trial.",
+    "faq": [
+      {
+        "question": "Can I use Internet Download Manager for free permanently?",
+        "answer": "No, Internet Download Manager offers a 30-day free trial, after which a paid license is required for continued use."
+      },
+      {
+        "question": "How does Internet Download Manager improve download speeds?",
+        "answer": "It improves speeds by segmenting files into multiple parts and downloading them simultaneously, optimizing bandwidth usage."
+      }
+    ]
+  },
+  "matlab": {
+    "input_hash": "a24d99e909821f9cc76313f90d97b6f6ac0a6a861fbc8ea6747d8a789d924557",
+    "generated_at": "2026-10-23",
+    "summary": "MATLAB is a proprietary programming platform developed by MathWorks for engineers and scientists.",
+    "what_it_does": "It integrates computation, visualization, and programming in an easy-to-use environment for numerical analysis, matrix manipulations, and algorithm development.",
+    "best_for": "Engineers, scientists, and researchers who require a powerful environment for numerical computing, data analysis, and algorithm development.",
+    "free_tier": "There is no dedicated free tier for MATLAB.",
+    "limitations": "Requires a paid license for all uses, including standard, academic, home, and personal.",
+    "licensing_notes": "MATLAB is commercial proprietary software that requires a paid license for all uses.",
+    "faq": [
+      {
+        "question": "Is there a free version of MATLAB?",
+        "answer": "No, MATLAB is commercial proprietary software that requires a paid license for all types of use."
+      },
+      {
+        "question": "What are the primary applications of MATLAB?",
+        "answer": "MATLAB is primarily used for numerical computation, data analysis, algorithm development, and modeling in engineering and scientific fields."
+      }
+    ]
+  },
+  "navicat-premium": {
+    "input_hash": "fcc0568374bb6618ba4b178fcce687653a8ebcb2766b9b23249e545cbe45ae03",
+    "generated_at": "2026-10-23",
+    "summary": "Navicat Premium is a database administration and development tool that allows connection to multiple database types.",
+    "what_it_does": "It provides a graphical interface for managing, developing, and maintaining databases, supporting various database systems in a single application.",
+    "best_for": "Database administrators and developers who work with multiple database systems and need a unified, powerful GUI tool.",
+    "free_tier": "There is no dedicated free tier; it offers a 14-day trial period.",
+    "limitations": "Requires a paid subscription or perpetual license for continued use after the 14-day trial period.",
+    "licensing_notes": "Navicat Premium is proprietary commercial software that requires a paid subscription or perpetual license for continued use following a 14-day trial period.",
+    "faq": [
+      {
+        "question": "Is Navicat Premium free to use?",
+        "answer": "Navicat Premium offers a 14-day free trial, but a paid subscription or perpetual license is required for continued use."
+      },
+      {
+        "question": "Which database systems does Navicat Premium support?",
+        "answer": "Navicat Premium supports multiple database systems. Users should check the official documentation for the most current list of supported databases."
+      }
+    ]
+  },
+  "tailscale": {
+    "input_hash": "3ba48e0fedfab21039d7dc639e97034342c2c9ae8017cc15958a159ab5aff529",
+    "generated_at": "2026-10-23",
+    "summary": "Tailscale is a zero-config VPN that builds secure networks between your devices and services, simplifying remote access.",
+    "what_it_does": "It creates a secure mesh network using WireGuard, allowing devices to connect directly and securely from anywhere, simplifying access control.",
+    "best_for": "Individuals and small teams needing an easy-to-set-up, secure, and private network for accessing devices and services remotely.",
+    "free_tier": "Tailscale provides a free tier for individual and personal use.",
+    "limitations": "Commercial and enterprise usage requires a paid license. The free tier may have limits on the number of devices or users; check official documentation.",
+    "licensing_notes": "It is free for personal use; a paid subscription is required for commercial and team use.",
+    "faq": [
+      {
+        "question": "Is Tailscale free for businesses?",
+        "answer": "No, Tailscale requires a paid subscription for commercial and team use, though it offers a free tier for individual and personal use."
+      },
+      {
+        "question": "How does Tailscale secure connections?",
+        "answer": "Tailscale builds a secure mesh network using the WireGuard protocol, ensuring direct and encrypted connections between devices."
+      }
+    ]
+  },
+  "splunk-enterprise": {
+    "input_hash": "e90ee6c83b8311a8e413fe404c76dd6f01de48b520f1ff2768c08d888a6d182a",
+    "generated_at": "2026-10-23",
+    "summary": "Splunk Enterprise is a powerful platform for searching, monitoring, and analyzing machine-generated big data.",
+    "what_it_does": "It collects and indexes data from various sources, enabling real-time operational intelligence, security monitoring, and troubleshooting for IT and security operations.",
+    "best_for": "Enterprises and organizations requiring advanced capabilities for log management, security information and event management (SIEM), and operational intelligence.",
+    "free_tier": "A restricted free version is available with a 500 MB/day data ingestion limit.",
+    "limitations": "The free version has a 500 MB/day ingestion limit. Full features and higher data volumes require a paid license.",
+    "licensing_notes": "Splunk Enterprise is commercial proprietary software requiring a paid workload or capacity-based license. A restricted free version with a 500 MB/day ingestion limit is available.",
+    "faq": [
+      {
+        "question": "Is there a free version of Splunk Enterprise?",
+        "answer": "Yes, a restricted free version is available with a 500 MB/day data ingestion limit. Full features require a paid license."
+      },
+      {
+        "question": "What is Splunk Enterprise primarily used for?",
+        "answer": "It is primarily used for log management, security monitoring (SIEM), operational intelligence, and analyzing machine-generated data across an organization."
+      }
+    ]
+  },
+  "ngrok": {
+    "input_hash": "10e8749cfcc8fe3e45637a7c81ab47edac4ffa8de811703a187555e31ec95a3a",
+    "generated_at": "2026-10-23",
+    "summary": "NGROK provides a secure introspectable tunnel to localhost, exposing local servers to the internet.",
+    "what_it_does": "It exposes local servers behind NATs and firewalls to the public internet over secure tunnels, enabling easy sharing and testing of local development environments.",
+    "best_for": "Developers who need to expose local development servers to the internet for testing webhooks, demos, or sharing work in progress.",
+    "free_tier": "A free plan is available for basic tunneling needs.",
+    "limitations": "The free plan has basic tunneling needs; paid enterprise subscriptions offer more advanced features and higher limits. Users should check official documentation for specific free tier limitations.",
+    "licensing_notes": "NGROK provides a free plan for basic tunneling needs, alongside paid enterprise subscriptions.",
+    "faq": [
+      {
+        "question": "Is ngrok completely free?",
+        "answer": "ngrok offers a free plan for basic tunneling needs, but paid subscriptions are available for advanced features and higher usage limits."
+      },
+      {
+        "question": "What is the main purpose of ngrok?",
+        "answer": "Its main purpose is to create secure tunnels that expose local development servers to the public internet, facilitating testing and sharing."
+      }
+    ]
   }
 }
