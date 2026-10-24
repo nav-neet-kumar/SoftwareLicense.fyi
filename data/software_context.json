@@ -3598,5 +3598,605 @@
         "answer": "Its main purpose is to create secure tunnels that expose local development servers to the public internet, facilitating testing and sharing."
       }
     ]
+  },
+  "vagrant": {
+    "input_hash": "3ddf2c0241f38debe188aad0dd9e220e4e26dd973e64a193028b992aa169118e",
+    "generated_at": "2026-10-24",
+    "summary": "Vagrant is an open-source tool designed to build and maintain portable virtual software development environments. It helps developers create consistent and reproducible development setups.",
+    "what_it_does": "It automates the creation and configuration of virtual machines, allowing developers to set up identical development environments across different machines.",
+    "best_for": "Developers and teams who need consistent, reproducible, and portable development environments, especially for complex projects or onboarding new team members.",
+    "free_tier": "Vagrant is entirely free and open-source.",
+    "limitations": "The core functionality is free. Specific limitations or advanced features might depend on the underlying virtualization provider or plugins used. Users should check official documentation for details.",
+    "licensing_notes": "Vagrant is open-source software licensed under the Mozilla Public License 2.0 (MPL-2.0).",
+    "faq": [
+      {
+        "question": "Is Vagrant free to use?",
+        "answer": "Yes, Vagrant is open-source software and is free to use."
+      },
+      {
+        "question": "What is Vagrant's primary purpose?",
+        "answer": "Vagrant helps create and manage portable, reproducible virtual development environments."
+      }
+    ]
+  },
+  "microsoft-office-home-business": {
+    "input_hash": "48b0d5d73f54c59f33230371390bf6251a7a50104632784ef0c9e8643fad88d4",
+    "generated_at": "2026-10-24",
+    "summary": "Microsoft Office Home & Business is a suite of productivity applications designed for home users and small businesses. It requires a paid license for use.",
+    "what_it_does": "It provides essential applications like Word, Excel, PowerPoint, and Outlook for document creation, data analysis, presentations, and email management.",
+    "best_for": "Individuals and small businesses needing a core set of Microsoft Office applications for personal and commercial productivity.",
+    "free_tier": "There is no free tier for the full Microsoft Office Home & Business suite. Limited web versions of some apps might be available with a Microsoft account.",
+    "limitations": "Full functionality and commercial use require a purchased license. Without a valid license, the software may operate in a reduced functionality mode or become unusable.",
+    "licensing_notes": "A paid license is required for Microsoft Office Home & Business. Users should check the official Microsoft website for specific licensing terms and subscription options.",
+    "faq": [
+      {
+        "question": "Is Microsoft Office Home & Business free?",
+        "answer": "No, a paid license is required for Microsoft Office Home & Business."
+      },
+      {
+        "question": "Can I use this for my business?",
+        "answer": "Yes, this edition is designed for both home and business use, but a commercial license is required."
+      }
+    ]
+  },
+  "macos": {
+    "input_hash": "76e0729e74a4b4e4162163c340197e80e7a07a7e4e19cda9a6d1a3655ab72dec",
+    "generated_at": "2026-10-24",
+    "summary": "macOS is the proprietary operating system developed by Apple Inc. for its Macintosh line of computers. It comes pre-installed on Apple hardware.",
+    "what_it_does": "It provides the core software platform for Apple computers, managing hardware resources, running applications, and offering a graphical user interface.",
+    "best_for": "Users of Apple Macintosh computers who require a stable, integrated, and user-friendly operating system.",
+    "free_tier": "macOS is not available as a standalone free download for non-Apple hardware. Updates are typically free for existing macOS users.",
+    "limitations": "macOS is designed exclusively for Apple hardware. Its license is tied to the purchase of an Apple computer.",
+    "licensing_notes": "macOS is proprietary software. Its license is generally included with the purchase of Apple hardware and is not transferable to non-Apple devices. Users should consult the official Apple Software License Agreement for full details.",
+    "faq": [
+      {
+        "question": "Can I install macOS on a non-Apple computer?",
+        "answer": "No, macOS is designed and licensed exclusively for Apple hardware."
+      },
+      {
+        "question": "Do I need to buy a license for macOS separately?",
+        "answer": "The macOS license is typically included with the purchase of an Apple computer."
+      }
+    ]
+  },
+  "tableau-public": {
+    "input_hash": "69b04c2b4d8c5cb3fc09f94a3efc33705a5b8cc2a4004d5157d0ac2d7739f25d",
+    "generated_at": "2026-10-24",
+    "summary": "Tableau Public is a free platform for creating and publicly sharing interactive data visualizations online. It allows users to explore and present data visually.",
+    "what_it_does": "It provides tools to connect to various data sources, design compelling charts and dashboards, and publish them to the Tableau Public website for public viewing and sharing.",
+    "best_for": "Individuals, students, and data enthusiasts who want to learn data visualization, create personal projects, or share insights publicly without commercial intent.",
+    "free_tier": "Tableau Public is entirely free to use.",
+    "limitations": "Visualizations created and published with Tableau Public are publicly accessible. It is explicitly not licensed for commercial use. Users should check the official documentation for data source limitations and other restrictions.",
+    "licensing_notes": "Tableau Public is free for personal, non-commercial use. Commercial use is prohibited.",
+    "faq": [
+      {
+        "question": "Is Tableau Public suitable for commercial projects?",
+        "answer": "No, Tableau Public is not licensed for commercial use."
+      },
+      {
+        "question": "Where are my visualizations stored?",
+        "answer": "Visualizations created with Tableau Public are published and stored on the Tableau Public website, making them publicly accessible."
+      }
+    ]
+  },
+  "cubase": {
+    "input_hash": "7fad994843c05486ea643355ef2a02419a888a3056b39f58bc463ca49da67e35",
+    "generated_at": "2026-10-24",
+    "summary": "Cubase is a professional digital audio workstation (DAW) software developed by Steinberg. It is used for music production, recording, editing, and mixing.",
+    "what_it_does": "It provides a comprehensive suite of tools for audio and MIDI recording, sequencing, editing, mixing, and mastering, catering to musicians, producers, and sound engineers.",
+    "best_for": "Professional and aspiring musicians, producers, and sound engineers who require advanced features for music composition, audio production, and post-production.",
+    "free_tier": "Cubase requires a paid license. Users should check the official website for information on potential trial versions or limited-feature editions.",
+    "limitations": "Continued use of Cubase requires a purchased license. Without a valid license, functionality may be limited or unavailable after an evaluation period.",
+    "licensing_notes": "Cubase is proprietary commercial software that requires a paid license for all editions. Users should visit the official Steinberg website for pricing and licensing options.",
+    "faq": [
+      {
+        "question": "Is there a free version of Cubase?",
+        "answer": "Cubase requires a paid license. Users should check the official website for trial options."
+      },
+      {
+        "question": "What is Cubase used for?",
+        "answer": "Cubase is a digital audio workstation (DAW) used for music production, recording, editing, and mixing."
+      }
+    ]
+  },
+  "rufus": {
+    "input_hash": "f8d49548ec36b6cf94f5358b192a8e901a26456f05e4a0eae3141c27dc2cd3cc",
+    "generated_at": "2026-10-24",
+    "summary": "Rufus is a free and open-source utility that helps format and create bootable USB flash drives. It is designed to be small, fast, and reliable.",
+    "what_it_does": "It allows users to create bootable USB drives from ISO images (Windows, Linux, UEFI, etc.), format USB drives, and check for bad blocks.",
+    "best_for": "Users who need to create bootable USB drives for installing operating systems, running live environments, or updating firmware.",
+    "free_tier": "Rufus is entirely free software.",
+    "limitations": "Rufus is primarily designed for Windows. Users should check the official documentation for specific system requirements and compatibility.",
+    "licensing_notes": "Rufus is 100% free software distributed under the GNU General Public License version 3 or later (GPLv3+).",
+    "faq": [
+      {
+        "question": "Is Rufus free for commercial use?",
+        "answer": "Yes, Rufus is free software under GPLv3+, allowing free use for any purpose, including commercial."
+      },
+      {
+        "question": "What operating systems does Rufus support?",
+        "answer": "Rufus is primarily a Windows application. Users should check the official website for detailed compatibility information."
+      }
+    ]
+  },
+  "liquibase": {
+    "input_hash": "bc66fbedca7c11e0e7692b9a822d37fa25896f1eacd960a86131798b40679c1d",
+    "generated_at": "2026-10-24",
+    "summary": "Liquibase is an open-source database schema change management solution that helps teams track, version, and deploy database changes. It supports various database systems.",
+    "what_it_does": "It enables developers to manage database schema changes in a version-controlled way, ensuring consistency across environments and facilitating continuous delivery for databases.",
+    "best_for": "Development teams, DevOps engineers, and database administrators who need to automate and manage database schema changes across different environments.",
+    "free_tier": "The core Liquibase software is free and open-source.",
+    "limitations": "While the core is free, advanced features, support, and enterprise capabilities are available through paid commercial plans (Pro and Enterprise). Users should check the official website for feature comparisons.",
+    "licensing_notes": "The core Liquibase software is free and open-source, licensed under Apache 2.0. Optional paid commercial plans are available for additional features.",
+    "faq": [
+      {
+        "question": "Is Liquibase entirely free?",
+        "answer": "The core Liquibase software is free and open-source. Paid commercial plans offer additional Pro and Enterprise features."
+      },
+      {
+        "question": "What is Liquibase used for?",
+        "answer": "Liquibase is used for managing and automating database schema changes across different environments."
+      }
+    ]
+  },
+  "netlimiter": {
+    "input_hash": "ce2edf90b170559ea7e4583fe2ee728b2ea3dc696a355794b56f81a3735d83b2",
+    "generated_at": "2026-10-24",
+    "summary": "NetLimiter is a network traffic control and monitoring tool for Windows. It allows users to set download/upload speed limits for applications and monitor network activity.",
+    "what_it_does": "It provides detailed network statistics, enables users to control internet bandwidth for individual applications, and block unwanted connections.",
+    "best_for": "Windows users who need to manage and monitor their network bandwidth, prioritize applications, or troubleshoot network usage.",
+    "free_tier": "NetLimiter offers a 28-day evaluation trial.",
+    "limitations": "After the 28-day trial period, a purchased license key is required for continued use and full functionality.",
+    "licensing_notes": "NetLimiter is paid commercial software. A license key must be purchased for continued use after the 28-day evaluation trial expires.",
+    "faq": [
+      {
+        "question": "Is there a free version of NetLimiter?",
+        "answer": "NetLimiter offers a 28-day evaluation trial. A paid license is required for continued use thereafter."
+      },
+      {
+        "question": "What operating systems does NetLimiter support?",
+        "answer": "NetLimiter is designed for Windows operating systems. Users should check the official website for specific version compatibility."
+      }
+    ]
+  },
+  "rethinkdb": {
+    "input_hash": "8b30428238212a54635db029e88a09a971acba736f33abbc8355c5a71b22865a",
+    "generated_at": "2026-10-24",
+    "summary": "RethinkDB is an open-source, distributed document database designed for real-time applications. It pushes JSON feeds to applications in real-time.",
+    "what_it_does": "It stores JSON documents, supports powerful queries, and offers a unique \"changefeeds\" feature that allows applications to subscribe to real-time data updates.",
+    "best_for": "Developers building real-time web applications, chat applications, collaborative tools, or any system requiring instant data updates.",
+    "free_tier": "RethinkDB is entirely free and open-source.",
+    "limitations": "As an open-source project, community support is primary. Users should check official documentation for specific deployment considerations and scaling best practices.",
+    "licensing_notes": "RethinkDB is open-source software relicensed under the Apache License 2.0.",
+    "faq": [
+      {
+        "question": "Is RethinkDB free for commercial use?",
+        "answer": "Yes, RethinkDB is open-source under the Apache License 2.0, allowing free use for commercial purposes."
+      },
+      {
+        "question": "What kind of database is RethinkDB?",
+        "answer": "RethinkDB is a distributed document database known for its real-time capabilities and changefeeds."
+      }
+    ]
+  },
+  "ultravnc": {
+    "input_hash": "cd97ccc7fc2469b5d33fb3619ff19611b0d0336c699006694337871f4d80464b",
+    "generated_at": "2026-10-24",
+    "summary": "UltraVNC is free and open-source software that allows users to remotely control another computer's desktop. It provides remote access and screen sharing capabilities.",
+    "what_it_does": "It enables users to view and interact with a remote computer's screen, keyboard, and mouse over a network connection, facilitating remote support or administration.",
+    "best_for": "Individuals and businesses needing free remote desktop access, remote support, or remote administration capabilities for Windows systems.",
+    "free_tier": "UltraVNC is entirely free and open-source.",
+    "limitations": "UltraVNC is primarily developed for Windows. Users should check the official documentation for specific features, security considerations, and compatibility with other operating systems.",
+    "licensing_notes": "UltraVNC is free, open-source software licensed under the GNU General Public License (GPLv2), permitting free use for both personal and commercial purposes.",
+    "faq": [
+      {
+        "question": "Can UltraVNC be used for commercial purposes?",
+        "answer": "Yes, UltraVNC is licensed under GPLv2, allowing free use for both personal and commercial purposes."
+      },
+      {
+        "question": "What operating systems does UltraVNC support?",
+        "answer": "UltraVNC is primarily designed for Windows. Users should check the official website for detailed compatibility."
+      }
+    ]
+  },
+  "vite": {
+    "input_hash": "4bf0404712d8a5a1ad639b9bbec5d831efb27be35b24220e5a4f5536f912b2bc",
+    "generated_at": "2026-10-24",
+    "summary": "Vite is a next-generation frontend tooling that provides an extremely fast development experience for modern web projects. It focuses on speed and performance.",
+    "what_it_does": "It serves source code over native ES modules, enabling instant server start and hot module replacement (HMR) for rapid development of web applications.",
+    "best_for": "Web developers building modern JavaScript frameworks (like Vue, React, Svelte) who prioritize fast development server startup and quick hot module reloading.",
+    "free_tier": "Vite is entirely free and open-source.",
+    "limitations": "While powerful, Vite is primarily focused on modern JavaScript ecosystems. Users should check official documentation for specific framework integrations and build configurations.",
+    "licensing_notes": "Vite is fully open-source software released under the permissive MIT License, making it free for both personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is Vite free for commercial projects?",
+        "answer": "Yes, Vite is open-source under the MIT License, allowing free use for both personal and commercial projects."
+      },
+      {
+        "question": "What is Vite's main advantage?",
+        "answer": "Vite offers an extremely fast development experience due to its native ES module serving and optimized hot module replacement."
+      }
+    ]
+  },
+  "smartftp": {
+    "input_hash": "e6fe44f979bb2d8c986fc069e8d196ca2f2f0c9c980d8de74ec7ca34ab28c8b9",
+    "generated_at": "2026-10-24",
+    "summary": "SmartFTP is a proprietary FTP, FTPS, SFTP, WebDAV, Amazon S3, Backblaze B2, Google Drive, OneDrive, SSH, Terminal client for Windows. It facilitates secure file transfers.",
+    "what_it_does": "It allows users to securely transfer files between a local computer and a remote server using various protocols, offering features like synchronization, scheduling, and remote editing.",
+    "best_for": "Windows users, developers, and system administrators who need a robust and secure client for transferring files to and from remote servers and cloud storage.",
+    "free_tier": "SmartFTP offers an initial evaluation trial period, typically 30 days.",
+    "limitations": "A paid license key is required for all personal and commercial use beyond the initial evaluation trial period.",
+    "licensing_notes": "SmartFTP is proprietary software. A paid license key is required for continued use after the 30-day trial period for both personal and commercial purposes.",
+    "faq": [
+      {
+        "question": "Is SmartFTP free to use?",
+        "answer": "SmartFTP offers a 30-day trial. A paid license is required for continued use after the trial expires."
+      },
+      {
+        "question": "What protocols does SmartFTP support?",
+        "answer": "SmartFTP supports various protocols including FTP, FTPS, SFTP, WebDAV, Amazon S3, Backblaze B2, Google Drive, OneDrive, SSH, and Terminal."
+      }
+    ]
+  },
+  "enpass": {
+    "input_hash": "021ca3eb9c822e6960b76b92a2d99bb5f4b6b0728ddf728579950e8aa626d0ea",
+    "generated_at": "2026-10-24",
+    "summary": "Enpass is a proprietary password manager that securely stores and manages passwords, credit cards, and other sensitive information. It offers cross-platform synchronization.",
+    "what_it_does": "It encrypts and stores user credentials locally, generates strong passwords, and provides autofill capabilities across various devices and browsers.",
+    "best_for": "Individuals and teams seeking a secure, offline-first password manager with cross-device synchronization and robust security features.",
+    "free_tier": "Enpass offers a freemium model. On mobile devices, there is a limit, typically 25 items, for free use. Desktop versions might offer more extensive free use.",
+    "limitations": "On mobile devices, a paid subscription or one-time license is required to unlock full features and bypass the 25-item limit. Users should check the official website for current free tier limitations across platforms.",
+    "licensing_notes": "Enpass is proprietary software with a freemium model. A paid subscription or one-time license is required to access full features and remove limitations, especially on mobile devices.",
+    "faq": [
+      {
+        "question": "Is there a free version of Enpass?",
+        "answer": "Enpass offers a freemium model with limitations, such as a 25-item limit on mobile devices."
+      },
+      {
+        "question": "Does Enpass store my data online?",
+        "answer": "Enpass stores your data locally and encrypted. It can sync via your own cloud services, but it does not store your vault on its own servers."
+      }
+    ]
+  },
+  "basecamp": {
+    "input_hash": "3e79abca15ea5bce7c40fe1771047c1905b1fe8d8987d16f94724e18d3a1a400",
+    "generated_at": "2026-10-24",
+    "summary": "Basecamp is a proprietary, web-based project management and team collaboration tool. It provides a centralized hub for projects, communication, and tasks.",
+    "what_it_does": "It offers features like to-do lists, message boards, schedules, file storage, and group chat to help teams organize work, communicate effectively, and keep projects on track.",
+    "best_for": "Teams and businesses of all sizes looking for a straightforward, all-in-one platform to manage projects, streamline communication, and improve collaboration.",
+    "free_tier": "Basecamp is a paid commercial service. Users should check the official website for information on potential trial periods or limited free plans.",
+    "limitations": "Access to Basecamp requires a paid subscription. Without an active subscription, the service cannot be used.",
+    "licensing_notes": "Basecamp is proprietary commercial software that operates on a subscription-based pricing model. A paid subscription is required for use.",
+    "faq": [
+      {
+        "question": "Is Basecamp free to use?",
+        "answer": "No, Basecamp is a paid commercial service that requires a subscription."
+      },
+      {
+        "question": "What is Basecamp primarily used for?",
+        "answer": "Basecamp is primarily used for project management, team communication, and collaboration, centralizing tasks, messages, and files."
+      }
+    ]
+  },
+  "librewolf": {
+    "input_hash": "bb5f2577ed8cb1237c0a60003867d03d4f49707253e26db53150f1df0c30fc35",
+    "generated_at": "2026-10-24",
+    "summary": "LibreWolf is a free and open-source fork of Mozilla Firefox, focused on privacy, security, and freedom. It removes telemetry and enhances tracking protection.",
+    "what_it_does": "It provides a web browser experience similar to Firefox but with pre-configured privacy and security enhancements, including ad-blocking and protection against fingerprinting.",
+    "best_for": "Users who prioritize privacy and security in their web browsing and prefer an open-source browser free from telemetry and excessive data collection.",
+    "free_tier": "LibreWolf is entirely free and open-source.",
+    "limitations": "As a community-driven project, support is primarily through community channels. Users should check the official documentation for specific feature differences from standard Firefox.",
+    "licensing_notes": "LibreWolf is free and open-source software licensed under the Mozilla Public License 2.0 (MPL-2.0).",
+    "faq": [
+      {
+        "question": "Is LibreWolf free for commercial use?",
+        "answer": "Yes, LibreWolf is open-source under MPL-2.0, allowing free use for any purpose, including commercial."
+      },
+      {
+        "question": "How is LibreWolf different from Firefox?",
+        "answer": "LibreWolf is a fork of Firefox with a strong focus on privacy and security, removing telemetry and enhancing tracking protection by default."
+      }
+    ]
+  },
+  "beyond-compare": {
+    "input_hash": "d56f8c9f7c6cbd0ddff5dbdd603217e7b5691e580e4086e73e4c6c4c63e27f6f",
+    "generated_at": "2026-10-24",
+    "summary": "Beyond Compare is commercial file and directory comparison software. It requires a paid, per-user commercial license for ongoing usage.",
+    "what_it_does": "It provides tools for comparing files and directories, helping users identify differences and synchronize content.",
+    "best_for": "Professionals and teams who need robust and detailed file and directory comparison and synchronization capabilities.",
+    "free_tier": "A free tier is not specified; please check the official documentation.",
+    "limitations": "It requires a paid license for ongoing usage, indicating that free use is likely limited to a trial period or not available. Specific limitations are not detailed; please check the official documentation.",
+    "licensing_notes": "Beyond Compare operates under a paid, per-user commercial license. Ongoing usage requires the purchase of a license.",
+    "faq": [
+      {
+        "question": "Is Beyond Compare free to use?",
+        "answer": "No, Beyond Compare is commercial software that requires a paid, per-user license for ongoing usage."
+      },
+      {
+        "question": "What is Beyond Compare primarily used for?",
+        "answer": "It is used for comparing files and directories, helping users identify differences and synchronize data."
+      }
+    ]
+  },
+  "techsmith-snagit": {
+    "input_hash": "71d991b3a13d9fbcdd6ebba69a2f9d9e4b5ef118fc48a569e1ff954d8b035453",
+    "generated_at": "2026-10-24",
+    "summary": "TechSmith Snagit is screen capture and video recording software. It requires a paid user license, available as either a perpetual or subscription model.",
+    "what_it_does": "It allows users to capture screenshots, record video of their screen, and edit images and videos.",
+    "best_for": "Individuals and professionals who need to quickly capture, annotate, and share screenshots or record short videos for tutorials, documentation, or communication.",
+    "free_tier": "A free tier is not specified; please check the official documentation.",
+    "limitations": "It requires a paid user license for full functionality, indicating that free use is likely limited to a trial period or not available. Specific limitations are not detailed; please check the official documentation.",
+    "licensing_notes": "TechSmith Snagit requires a paid user license, which can be purchased as either a perpetual license or a subscription.",
+    "faq": [
+      {
+        "question": "Is TechSmith Snagit available for free?",
+        "answer": "TechSmith Snagit requires a paid user license for use. The availability of a free trial is not specified; please check the official documentation."
+      },
+      {
+        "question": "What are the licensing options for Snagit?",
+        "answer": "Snagit is available under both perpetual and subscription license models."
+      }
+    ]
+  },
+  "atlassian-jira": {
+    "input_hash": "1f8576ee163a3520f832f8e7c0d2c00521a951e6f76e0065775b5d87eb4de3fb",
+    "generated_at": "2026-10-24",
+    "summary": "Atlassian Jira is a proprietary commercial software product. It offers a free tier for small teams and requires a paid subscription for larger teams or advanced features.",
+    "what_it_does": "Jira is used for issue tracking, project management, and workflow automation, commonly in software development and agile teams.",
+    "best_for": "Software development teams, project managers, and organizations needing robust issue tracking and agile project management tools.",
+    "free_tier": "A free tier is available for up to 10 users.",
+    "limitations": "A paid subscription is required for teams larger than 10 users or for accessing advanced enterprise features.",
+    "licensing_notes": "Jira is proprietary commercial software. While a free tier is available for up to 10 users, larger teams or those needing advanced features must purchase a paid subscription.",
+    "faq": [
+      {
+        "question": "Is there a free version of Atlassian Jira?",
+        "answer": "Yes, a free tier is available for teams with up to 10 users."
+      },
+      {
+        "question": "When is a paid subscription required for Jira?",
+        "answer": "A paid subscription is required for teams larger than 10 users or for accessing advanced enterprise features."
+      }
+    ]
+  },
+  "figma": {
+    "input_hash": "fe131ab3fdccfb6439a65440fa3833b0b3a20c855a1515e22d0a69da557d3bf5",
+    "generated_at": "2026-10-24",
+    "summary": "Figma is a collaborative interface design tool. It operates on a paid subscription model, requiring paid editor seats for commercial team workflows.",
+    "what_it_does": "It enables users to design, prototype, and collaborate on user interfaces and user experiences directly in the browser.",
+    "best_for": "UI/UX designers, product teams, and collaborators who need a cloud-based platform for real-time interface design and prototyping.",
+    "free_tier": "The availability of a free tier is not specified; please check the official documentation.",
+    "limitations": "Paid editor seats are required for commercial team workflows. Specific limitations for non-commercial or individual use are not detailed; please check the official documentation.",
+    "licensing_notes": "Figma is licensed via a paid subscription model. Commercial team workflows specifically require paid editor seats.",
+    "faq": [
+      {
+        "question": "Is Figma free for individual use?",
+        "answer": "The information provided indicates that paid editor seats are required for commercial team workflows. Please check the official documentation for details on individual or non-commercial use."
+      },
+      {
+        "question": "What is Figma used for?",
+        "answer": "Figma is a collaborative tool primarily used for interface design, prototyping, and real-time collaboration on user experience projects."
+      }
+    ]
+  },
+  "microsoft-visual-studio-community": {
+    "input_hash": "72597698db819fef966d81619a4eb92520e299df3486155addbaa1bcad8c88e1",
+    "generated_at": "2026-10-24",
+    "summary": "Microsoft Visual Studio Community is an integrated development environment (IDE). It is free for individual developers and small teams, but larger commercial enterprise organizations require paid editions.",
+    "what_it_does": "It provides a comprehensive set of tools for developing various applications, including desktop, web, and mobile, across different programming languages.",
+    "best_for": "Individual developers, students, open-source contributors, and small teams working on non-enterprise applications.",
+    "free_tier": "It is free for individual developers and small teams.",
+    "limitations": "Larger commercial enterprise organizations are required to purchase paid editions.",
+    "licensing_notes": "Visual Studio Community is free for personal use, academic use, and for small teams (up to 5 developers) in non-enterprise commercial settings. Larger commercial enterprise organizations must acquire paid editions.",
+    "faq": [
+      {
+        "question": "Who can use Visual Studio Community for free?",
+        "answer": "It is free for individual developers, students, open-source contributors, and small teams."
+      },
+      {
+        "question": "When is a paid license required for Visual Studio?",
+        "answer": "Larger commercial enterprise organizations are required to purchase paid editions of Visual Studio."
+      }
+    ]
+  },
+  "anaconda-distribution": {
+    "input_hash": "b9718b1b7f5f4f5e3b27dcad8a386ddbdd6bf01403bc33fc4f48c762a0c3ceaf",
+    "generated_at": "2026-10-24",
+    "summary": "Anaconda Distribution is a free individual distribution for Python and R data science. It is free for non-commercial and small business use, but commercial companies with over 200 employees require paid licenses.",
+    "what_it_does": "It simplifies package management and deployment for data science, machine learning, and artificial intelligence workflows, including Python and R.",
+    "best_for": "Individual data scientists, researchers, students, and small businesses for non-commercial or small-scale commercial projects.",
+    "free_tier": "It is free for individual use, non-commercial use, and small business use.",
+    "limitations": "Commercial companies with over 200 employees are required to purchase paid licenses.",
+    "licensing_notes": "Anaconda Distribution is free for individual, non-commercial, and small business use. However, commercial companies exceeding 200 employees must acquire paid commercial licenses.",
+    "faq": [
+      {
+        "question": "Is Anaconda Distribution free for commercial use?",
+        "answer": "It is free for small business use, but commercial companies with over 200 employees require paid licenses."
+      },
+      {
+        "question": "What is Anaconda Distribution used for?",
+        "answer": "It is used for data science, machine learning, and AI workflows, simplifying package management and deployment for Python and R."
+      }
+    ]
+  },
+  "unity-engine": {
+    "input_hash": "224988e967b785a0a2976f5ea2e2370e0364e7449c9397e6f4a48b9ca160e77c",
+    "generated_at": "2026-10-24",
+    "summary": "Unity Engine is a real-time 3D development platform. It offers a free Personal tier for individuals and small developers, with paid Pro licenses required upon reaching specific annual revenue thresholds.",
+    "what_it_does": "It provides a comprehensive suite of tools for creating 2D and 3D games, simulations, and other interactive experiences across various platforms.",
+    "best_for": "Individual game developers, small studios, students, and hobbyists who are starting out or have not yet reached significant commercial success.",
+    "free_tier": "A free Personal tier is available for individuals and small developers.",
+    "limitations": "Paid Pro licenses are required once specific annual revenue thresholds are reached. Specific thresholds are not detailed; please check the official documentation.",
+    "licensing_notes": "Unity Engine offers a free Personal tier. However, users must transition to paid Pro licenses once their annual revenue or funding exceeds specific thresholds.",
+    "faq": [
+      {
+        "question": "Can I use Unity Engine for free?",
+        "answer": "Yes, a free Personal tier is available for individuals and small developers."
+      },
+      {
+        "question": "When do I need a paid Unity license?",
+        "answer": "A paid Pro license is required once specific annual revenue thresholds are reached. Please check the official documentation for current thresholds."
+      }
+    ]
+  },
+  "postman": {
+    "input_hash": "8053a42ef39c209edd696b1c61fe991ebc95c9b2790d46df706728319d470fe5",
+    "generated_at": "2026-10-24",
+    "summary": "Postman is an API platform for building and using APIs. It offers a free plan for individual API testing and various paid subscription plans for teams and enterprises.",
+    "what_it_does": "It allows users to design, test, document, and monitor APIs, facilitating collaboration among developers.",
+    "best_for": "Individual developers, small teams, and large enterprises needing a comprehensive platform for API development and collaboration.",
+    "free_tier": "A free plan is available for individual API testing.",
+    "limitations": "Advanced features, team collaboration, and enterprise-level capabilities are typically reserved for paid Team, Business, and Enterprise subscription plans. Specific limitations of the free plan are not detailed; please check the official documentation.",
+    "licensing_notes": "Postman provides a free plan for individual API testing. For more extensive features, team collaboration, and enterprise needs, paid Team, Business, and Enterprise subscription plans are available.",
+    "faq": [
+      {
+        "question": "Is there a free version of Postman?",
+        "answer": "Yes, Postman offers a free plan primarily for individual API testing."
+      },
+      {
+        "question": "What are the paid options for Postman?",
+        "answer": "Postman offers paid Team, Business, and Enterprise subscription plans with additional features and collaboration capabilities."
+      }
+    ]
+  },
+  "couchbase-community-edition": {
+    "input_hash": "ad2952fd8ec6070bc389138ccce7ad766b5fb821fd662756ad91c97e121a9029",
+    "generated_at": "2026-10-24",
+    "summary": "Couchbase Community Edition is a free version of the NoSQL database. It is suitable for non-critical applications, while a paid Enterprise Edition offers full SLAs and advanced features.",
+    "what_it_does": "It provides a distributed NoSQL document database for scalable and high-performance applications.",
+    "best_for": "Developers, small projects, and non-critical applications that can benefit from a NoSQL database without requiring enterprise-grade support or advanced features.",
+    "free_tier": "A free Community Edition is available.",
+    "limitations": "The Community Edition is intended for non-critical applications and does not include full SLAs or the advanced features found in the paid Enterprise Edition.",
+    "licensing_notes": "Couchbase offers a free Community Edition for non-critical applications. A paid Enterprise Edition is available for production environments requiring full Service Level Agreements (SLAs) and comprehensive features.",
+    "faq": [
+      {
+        "question": "Can Couchbase Community Edition be used for commercial projects?",
+        "answer": "Yes, but it is recommended for non-critical applications and does not include enterprise-grade support or features."
+      },
+      {
+        "question": "What is the difference between Community and Enterprise Editions?",
+        "answer": "The Community Edition is free for non-critical applications, while the paid Enterprise Edition offers full SLAs and advanced features."
+      }
+    ]
+  },
+  "prtg-network-monitor": {
+    "input_hash": "aa633cf30cbb058f84af03de4e9db37f5902f071803b5631a042962c33ac3750",
+    "generated_at": "2026-10-24",
+    "summary": "PRTG Network Monitor is a network monitoring solution. It offers a free tier that permits up to 100 sensors, with paid commercial licensing required for larger deployments.",
+    "what_it_does": "It monitors network devices, traffic, and applications, providing insights into network performance and availability.",
+    "best_for": "Small to medium-sized networks or specific monitoring needs that can be covered by up to 100 sensors.",
+    "free_tier": "A free tier is available, permitting monitoring with up to 100 sensors.",
+    "limitations": "For deployments requiring more than 100 network monitoring sensors, paid commercial licensing is necessary.",
+    "licensing_notes": "PRTG Network Monitor provides a free tier that allows monitoring with up to 100 sensors. For larger network deployments, paid commercial tiers are required.",
+    "faq": [
+      {
+        "question": "Is there a free version of PRTG Network Monitor?",
+        "answer": "Yes, a free tier is available that allows monitoring with up to 100 sensors."
+      },
+      {
+        "question": "When do I need to purchase a PRTG license?",
+        "answer": "A paid commercial license is required for deployments that need to monitor more than 100 sensors."
+      }
+    ]
+  },
+  "putty": {
+    "input_hash": "dbc426ec9cd2bbe8afe07ca32bedda22203462cba204753bd1c15bb152133f8d",
+    "generated_at": "2026-10-24",
+    "summary": "PuTTY is a free and open-source terminal emulator, serial console, and network file transfer application. It is distributed under the MIT License, allowing unrestricted use for personal and commercial purposes.",
+    "what_it_does": "It enables users to securely connect to remote computers using protocols like SSH, Telnet, and Rlogin, and transfer files using SCP and SFTP.",
+    "best_for": "System administrators, developers, and users who need a lightweight and secure client for remote access and file transfer.",
+    "free_tier": "It is entirely free to use.",
+    "limitations": "Specific limitations are not detailed; please check the official documentation.",
+    "licensing_notes": "PuTTY is free and open-source software, distributed under the MIT License. This license permits free use for both personal and commercial purposes without restrictions.",
+    "faq": [
+      {
+        "question": "Can PuTTY be used for commercial purposes?",
+        "answer": "Yes, PuTTY is distributed under the MIT License, allowing free use for both personal and commercial purposes without restriction."
+      },
+      {
+        "question": "What is PuTTY primarily used for?",
+        "answer": "It is primarily used as a terminal emulator for secure remote access to computers via protocols like SSH, Telnet, and Rlogin."
+      }
+    ]
+  },
+  "veracrypt": {
+    "input_hash": "ac1f6febc1e2b089ebd50d864530729562da904b4f4accbe79ffc80381716a73",
+    "generated_at": "2026-10-24",
+    "summary": "VeraCrypt is free and open-source disk encryption software. It is dual-licensed under Apache License 2.0 and TrueCrypt License 3.0, allowing free use.",
+    "what_it_does": "It provides on-the-fly encryption for entire partitions, storage devices, or creates encrypted virtual disks within files.",
+    "best_for": "Individuals and organizations needing robust, open-source disk encryption to protect sensitive data on their computers or storage devices.",
+    "free_tier": "It is entirely free to use.",
+    "limitations": "Specific limitations are not detailed; please check the official documentation.",
+    "licensing_notes": "VeraCrypt is free and open-source software. It is dual-licensed under the Apache License 2.0 and the TrueCrypt License 3.0, allowing free usage.",
+    "faq": [
+      {
+        "question": "Is VeraCrypt free for commercial use?",
+        "answer": "Yes, VeraCrypt is free and open-source, dual-licensed under Apache License 2.0 and TrueCrypt License 3.0, allowing free usage for any purpose."
+      },
+      {
+        "question": "What is the primary function of VeraCrypt?",
+        "answer": "VeraCrypt provides on-the-fly disk encryption for partitions, storage devices, or virtual encrypted disks to protect sensitive data."
+      }
+    ]
+  },
+  "sqlite": {
+    "input_hash": "5b47592076b5c05b77ceef426b796ca2e4ed47f651c10d7bd823cdcfca690304",
+    "generated_at": "2026-10-24",
+    "summary": "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. It is dedicated to the public domain, allowing unrestricted use.",
+    "what_it_does": "It provides a serverless, zero-configuration, transactional SQL database engine that can be embedded directly into applications.",
+    "best_for": "Embedded applications, mobile devices, desktop applications, and small to medium-sized websites that require a lightweight and self-contained database.",
+    "free_tier": "It is entirely free to use.",
+    "limitations": "Specific limitations are not detailed; please check the official documentation.",
+    "licensing_notes": "SQLite is dedicated to the public domain. This means it can be freely used, modified, and distributed for any purpose, whether commercial or non-commercial, without any licensing restrictions.",
+    "faq": [
+      {
+        "question": "Are there any restrictions on using SQLite for commercial projects?",
+        "answer": "No, SQLite is dedicated to the public domain and can be freely used, modified, and distributed for any purpose, commercial or non-commercial."
+      },
+      {
+        "question": "What kind of database is SQLite?",
+        "answer": "SQLite is a self-contained, serverless, zero-configuration, transactional SQL database engine that can be embedded directly into applications."
+      }
+    ]
+  },
+  "mozilla-thunderbird": {
+    "input_hash": "e783515e08d9aa4e081a3a62988b6736db323ef1e31e0da0132a9aae39b7c970",
+    "generated_at": "2026-10-24",
+    "summary": "Mozilla Thunderbird is a free and open-source email client, news client, RSS and chat client. It is licensed under the Mozilla Public License (MPL) 2.0, allowing free use for personal and commercial purposes.",
+    "what_it_does": "It manages emails, news feeds, and chat communications from a single application, offering features like message filtering, search, and customization.",
+    "best_for": "Individuals and organizations seeking a free, customizable, and privacy-focused desktop application for managing multiple email accounts and communications.",
+    "free_tier": "It is entirely free to use.",
+    "limitations": "Specific limitations are not detailed; please check the official documentation.",
+    "licensing_notes": "Mozilla Thunderbird is fully open-source software. It is licensed under the Mozilla Public License (MPL) 2.0, which permits free use for both personal and commercial purposes.",
+    "faq": [
+      {
+        "question": "Can Mozilla Thunderbird be used in a business environment?",
+        "answer": "Yes, Mozilla Thunderbird is free and open-source under the MPL 2.0, allowing free use for both personal and commercial purposes."
+      },
+      {
+        "question": "What is Mozilla Thunderbird?",
+        "answer": "It is a free and open-source desktop application that functions as an email client, news client, RSS feed reader, and chat client."
+      }
+    ]
+  },
+  "handbrake": {
+    "input_hash": "61ec9b4b97fb3c19bc4652c2dfb8d3684a784b8155abe716190b7ac71916481a",
+    "generated_at": "2026-10-24",
+    "summary": "HandBrake is a free and open-source video transcoder. It is distributed under the GNU General Public License Version 2, allowing free use.",
+    "what_it_does": "It converts video from nearly any format to a selection of modern, widely supported codecs, often used for ripping DVDs/Blu-rays or compressing video files.",
+    "best_for": "Users who need to convert video files between different formats, compress videos, or rip content from DVDs and Blu-rays.",
+    "free_tier": "It is entirely free to use.",
+    "limitations": "Specific limitations are not detailed; please check the official documentation.",
+    "licensing_notes": "HandBrake is free and open-source software. It is distributed under the GNU General Public License Version 2 (GPLv2), which permits free usage.",
+    "faq": [
+      {
+        "question": "Is HandBrake free for commercial use?",
+        "answer": "Yes, HandBrake is free and open-source under the GPLv2, allowing free usage for any purpose."
+      },
+      {
+        "question": "What is HandBrake's main function?",
+        "answer": "HandBrake is a video transcoder used to convert video from various formats into widely supported codecs, often for compression or device compatibility."
+      }
+    ]
   }
 }

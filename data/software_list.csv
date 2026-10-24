@@ -601,3 +601,7 @@ GParted,Open Source,GPLv2,https://gparted.org/,2026-10-23,"Free partition editor
 Kodi,Open Source,GPLv2,https://kodi.tv/,2026-10-23,Free and open-source media player software licensed under GPLv2.
 GitHub Desktop,Open Source,MIT License,https://desktop.github.com/,2026-10-23,"Open-source Git client developed by GitHub, licensed under the MIT License."
 WordPress,Open Source,GPLv2 or later,https://wordpress.org/,2026-10-23,"Free and open-source content management system, licensed under GPLv2 or later."
+Vagrant,Open Source,Open Source (MPL-2.0),https://www.vagrantup.com/,2026-10-24,Tool for building and maintaining portable virtual software development environments.
+Microsoft Office Home & Business,License for Commercial,License Required,https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products,2026-10-24,Requires a paid license for commercial use.
+macOS,License Required,License Required,https://www.apple.com/macos/,2026-10-24,Pre-installed on Apple hardware; license tied to hardware purchase.
+Tableau Public,Free for Home,Free,https://public.tableau.com/,2026-10-24,Tableau Public is a free platform for creating and publicly sharing data visualizations online. It is not licensed for commercial use.

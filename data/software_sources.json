@@ -9,5 +9,9 @@
   "gparted": "https://gparted.org/about.php",
   "kodi": "https://kodi.tv/about/software-license",
   "github-desktop": "https://github.com/desktop/desktop/blob/HEAD/LICENSE",
-  "wordpress": "https://wordpress.org/about/license/"
+  "wordpress": "https://wordpress.org/about/license/",
+  "vagrant": "https://github.com/hashicorp/vagrant/blob/main/LICENSE",
+  "microsoft-office-home-business": "https://www.microsoft.com/en-us/microsoft-365/business/compare-all-microsoft-365-business-products",
+  "macos": "https://www.apple.com/legal/sla/docs/macOS13.pdf",
+  "tableau-public": "https://public.tableau.com/app/profile/tableau.public.team/viz/TableauPublicFAQ/FAQ"
 }

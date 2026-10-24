@@ -97,5 +97,41 @@
     "category": "Open Source",
     "url": "https://wordpress.org/",
     "source": "https://wordpress.org/about/license/"
+  },
+  {
+    "name": "Vagrant",
+    "slug": "vagrant",
+    "type": "NEW",
+    "date": "2026-10-24",
+    "category": "Open Source",
+    "url": "https://www.vagrantup.com/",
+    "source": "https://github.com/hashicorp/vagrant/blob/main/LICENSE"
+  },
+  {
+    "name": "Microsoft Office Home & Business",
+    "slug": "microsoft-office-home-business",
+    "type": "NEW",
+    "date": "2026-10-24",
+    "category": "License for Commercial",
+    "url": "https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products",
+    "source": "https://www.microsoft.com/en-us/microsoft-365/business/compare-all-microsoft-365-business-products"
+  },
+  {
+    "name": "macOS",
+    "slug": "macos",
+    "type": "NEW",
+    "date": "2026-10-24",
+    "category": "License Required",
+    "url": "https://www.apple.com/macos/",
+    "source": "https://www.apple.com/legal/sla/docs/macOS13.pdf"
+  },
+  {
+    "name": "Tableau Public",
+    "slug": "tableau-public",
+    "type": "NEW",
+    "date": "2026-10-24",
+    "category": "Free for Home",
+    "url": "https://public.tableau.com/",
+    "source": "https://public.tableau.com/app/profile/tableau.public.team/viz/TableauPublicFAQ/FAQ"
   }
 ]
