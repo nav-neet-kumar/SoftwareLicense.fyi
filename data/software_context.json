@@ -4198,5 +4198,305 @@
         "answer": "HandBrake is a video transcoder used to convert video from various formats into widely supported codecs, often for compression or device compatibility."
       }
     ]
+  },
+  "jenkins": {
+    "input_hash": "cdd36dfb54b0b803f610870f1d45c43e14081a2c0da99ef720acc3fa3a08487a",
+    "generated_at": "2026-10-25",
+    "summary": "Jenkins is an open-source automation server designed to help automate the non-human parts of the software development process. It is free for all personal and enterprise uses under the MIT License.",
+    "what_it_does": "It functions as an automation server, facilitating continuous integration and continuous delivery (CI/CD) pipelines. It helps automate tasks like building, testing, and deploying software.",
+    "best_for": "Teams and individuals looking for a flexible, extensible, and open-source solution for automating software development workflows, including CI/CD.",
+    "free_tier": "Fully featured and free for all personal and enterprise uses.",
+    "limitations": "No inherent functional limitations based on its open-source licensing. Users should check official documentation for specific technical requirements or community support models.",
+    "licensing_notes": "Jenkins is licensed under the MIT License, making it free for both personal and commercial use without specific restrictions on deployment or modification. Users should consult the official MIT license text for full details.",
+    "faq": [
+      {
+        "question": "Is Jenkins suitable for commercial projects?",
+        "answer": "Yes, Jenkins is licensed under the MIT License, which permits free use for both personal and commercial applications."
+      },
+      {
+        "question": "What kind of tasks can Jenkins automate?",
+        "answer": "Jenkins is primarily used for automating tasks related to software development, such as building, testing, and deploying applications as part of a CI/CD pipeline."
+      }
+    ]
+  },
+  "mariadb-community-server": {
+    "input_hash": "d7e3e53370ef4d9991c0cd061818e53f67ded9219b860972aba7422c38bddb52",
+    "generated_at": "2026-10-25",
+    "summary": "MariaDB Community Server is an open-source relational database management system, available for free under the GPLv2 license for all types of deployments.",
+    "what_it_does": "It provides a robust and scalable solution for storing, managing, and retrieving structured data. It is a popular choice for web applications and enterprise-level data management.",
+    "best_for": "Developers, businesses, and organizations requiring a powerful, open-source relational database for various applications, from small projects to large-scale enterprise deployments.",
+    "free_tier": "Fully featured and free for all deployments, including personal and commercial use.",
+    "limitations": "No inherent functional limitations based on its open-source licensing. Users should check official documentation for specific technical constraints or community support models.",
+    "licensing_notes": "MariaDB Community Server is distributed under the GNU General Public License version 2 (GPLv2). This license allows free use and distribution, but requires derivative works to also be licensed under GPLv2. Users should consult the official GPLv2 text for full details.",
+    "faq": [
+      {
+        "question": "Can MariaDB Community Server be used in commercial products?",
+        "answer": "Yes, it is free for all deployments, including commercial use, under the GPLv2 license."
+      },
+      {
+        "question": "What type of database is MariaDB Community Server?",
+        "answer": "It is an open-source relational database management system (RDBMS)."
+      }
+    ]
+  },
+  "eclipse-adoptium-temurin": {
+    "input_hash": "090b680e62bb9b8f2faa20241471dbbfed2933d3826acb491c5c045ecebdaaa2",
+    "generated_at": "2026-10-25",
+    "summary": "Eclipse Adoptium Temurin provides production-ready, open-source Java Development Kit (JDK) binaries, freely available for both personal and commercial applications.",
+    "what_it_does": "It offers a complete implementation of the Java Platform, Standard Edition (Java SE), including the Java Virtual Machine (JVM), Java Class Library, and development tools. It enables developers to build and run Java applications.",
+    "best_for": "Developers and organizations needing a reliable, open-source, and production-ready JDK for developing, testing, and deploying Java applications across various environments.",
+    "free_tier": "Fully featured and free for all personal and commercial applications.",
+    "limitations": "No inherent functional limitations based on its open-source licensing. Users should check official documentation for specific technical requirements or community support models.",
+    "licensing_notes": "Temurin binaries are licensed under GPLv2 with the Classpath Exception. This allows linking with programs that are not licensed under GPLv2 without requiring those programs to be GPLv2 licensed. Users should consult the official license text for full details.",
+    "faq": [
+      {
+        "question": "Is Eclipse Adoptium Temurin suitable for commercial use?",
+        "answer": "Yes, it is free for both personal and commercial applications under the GPLv2 with Classpath Exception license."
+      },
+      {
+        "question": "What is the primary purpose of Eclipse Adoptium Temurin?",
+        "answer": "It provides open-source Java Development Kit (JDK) binaries for developing and running Java applications."
+      }
+    ]
+  },
+  "nginx-open-source": {
+    "input_hash": "84941be89465fcf4a46401af4984a3d8f1dfa7cd2f1d383d5c28d794d50220b4",
+    "generated_at": "2026-10-25",
+    "summary": "NGINX Open Source is a free, open-source web server and reverse proxy, known for its high performance and efficiency, licensed under a permissive 2-clause BSD license.",
+    "what_it_does": "It serves as a powerful web server, reverse proxy, load balancer, and HTTP cache. It is designed to handle a large number of concurrent connections efficiently.",
+    "best_for": "Web administrators, developers, and organizations seeking a high-performance, scalable, and reliable open-source solution for serving web content, proxying requests, and load balancing.",
+    "free_tier": "Fully featured and free for all personal and commercial uses.",
+    "limitations": "No inherent functional limitations based on its open-source licensing. Users should check official documentation for specific technical constraints or community support models.",
+    "licensing_notes": "NGINX Open Source is licensed under the 2-clause BSD license, which is a permissive open-source license. This allows free use, modification, and distribution, including for commercial purposes, with minimal restrictions. Users should consult the official license text for full details.",
+    "faq": [
+      {
+        "question": "Can NGINX Open Source be used in commercial environments?",
+        "answer": "Yes, it is licensed under the permissive 2-clause BSD license, allowing free use for commercial purposes."
+      },
+      {
+        "question": "What are the main functions of NGINX Open Source?",
+        "answer": "It primarily functions as a web server, reverse proxy, load balancer, and HTTP cache."
+      }
+    ]
+  },
+  "keepass-password-safe": {
+    "input_hash": "11c1bb817586e556c9a4c2a6733809c3cd0b9f84ccf57b5735134cd8682ebafd",
+    "generated_at": "2026-10-25",
+    "summary": "KeePass Password Safe is a lightweight, open-source, offline password manager designed to securely store credentials, released under the GPLv2 license.",
+    "what_it_does": "It helps users manage their passwords in an encrypted database, protecting them from unauthorized access. It supports strong password generation and auto-typing features.",
+    "best_for": "Individuals and organizations seeking a secure, offline, and open-source solution for managing and protecting their passwords without relying on cloud services.",
+    "free_tier": "Fully featured and free for all personal and commercial uses.",
+    "limitations": "No inherent functional limitations based on its open-source licensing. Users should check official documentation for specific technical constraints or community support models.",
+    "licensing_notes": "KeePass Password Safe is licensed under the GNU General Public License version 2 (GPLv2). This license allows free use and distribution, including for commercial purposes, but requires derivative works to also be licensed under GPLv2. Users should consult the official GPLv2 text for full details.",
+    "faq": [
+      {
+        "question": "Is KeePass Password Safe suitable for business use?",
+        "answer": "Yes, it is released under GPLv2 without commercial usage restrictions, making it suitable for business use."
+      },
+      {
+        "question": "Does KeePass Password Safe store passwords online?",
+        "answer": "No, it is an offline password manager that stores your encrypted password database locally."
+      }
+    ]
+  },
+  "nmap": {
+    "input_hash": "598f2b4deff9377f293a83c6ddfb337496540c72f5a4da1474dff0f7ea6d6b3b",
+    "generated_at": "2026-10-25",
+    "summary": "Nmap is a free and open-source utility designed for network discovery and security auditing, widely used by network administrators and security professionals.",
+    "what_it_does": "It allows users to discover hosts and services on a computer network, identifying open ports, operating systems, and versions of services running. It's a powerful tool for network inventory, managing service upgrade schedules, and monitoring host or service uptime.",
+    "best_for": "Network administrators, security professionals, and ethical hackers who need to perform network discovery, security auditing, and vulnerability scanning.",
+    "free_tier": "Fully featured and free for all personal and commercial uses.",
+    "limitations": "No inherent functional limitations based on its open-source licensing. Users should check official documentation for specific technical constraints or community support models.",
+    "licensing_notes": "Nmap is licensed under the Nmap Public Source License (NPSL). This license permits free use and redistribution, including for commercial purposes, with certain conditions. Users should consult the official NPSL text for full details.",
+    "faq": [
+      {
+        "question": "Can Nmap be used for commercial security audits?",
+        "answer": "Yes, Nmap is free and open-source under the NPSL, allowing its use for commercial security auditing."
+      },
+      {
+        "question": "What is the primary function of Nmap?",
+        "answer": "Nmap is primarily used for network discovery and security auditing, helping to identify hosts, services, and potential vulnerabilities on a network."
+      }
+    ]
+  },
+  "podman": {
+    "input_hash": "714d868f3d8f7b34f0f7764e06dcccbe8422fccac70189c7dc9e8025d37362f9",
+    "generated_at": "2026-10-25",
+    "summary": "Podman is a daemonless, open-source container engine for developing, managing, and running OCI containers and pods on a Linux system, released under the Apache License 2.0.",
+    "what_it_does": "It provides a command-line interface similar to Docker for managing containers and container images. Unlike Docker, it operates without a central daemon, allowing for rootless containers and enhanced security.",
+    "best_for": "Developers, system administrators, and organizations looking for a secure, daemonless, and open-source solution for building, running, and managing containers and pods, especially in Linux environments.",
+    "free_tier": "Fully featured and free for all personal and enterprise uses.",
+    "limitations": "No inherent functional limitations based on its open-source licensing. Users should check official documentation for specific technical constraints or community support models.",
+    "licensing_notes": "Podman is released under the Apache License 2.0. This is a permissive open-source license that allows free use, modification, and distribution, including for commercial purposes, with minimal restrictions. Users should consult the official Apache 2.0 license text for full details.",
+    "faq": [
+      {
+        "question": "Is Podman suitable for enterprise use?",
+        "answer": "Yes, Podman is released under the Apache License 2.0 with no enterprise licensing requirement, making it suitable for enterprise use."
+      },
+      {
+        "question": "What is a key difference between Podman and Docker?",
+        "answer": "Podman is a daemonless container engine, meaning it does not require a central daemon process to run containers, which can offer security benefits like rootless containers."
+      }
+    ]
+  },
+  "signal": {
+    "input_hash": "fb13e8dbbd5fef83608f983baad32553c9f70ed66e50209121371a0a06e26834",
+    "generated_at": "2026-10-25",
+    "summary": "Signal is an open-source encrypted messaging application focused on privacy and security, offering free personal and business communications.",
+    "what_it_does": "It provides end-to-end encrypted messaging, voice calls, and video calls, ensuring that only the sender and recipient can read or hear the messages. It also supports group chats and file sharing.",
+    "best_for": "Individuals and businesses prioritizing privacy and security in their digital communications, seeking an end-to-end encrypted messaging solution.",
+    "free_tier": "Fully featured and free for all personal and business communications.",
+    "limitations": "No inherent functional limitations based on its open-source licensing. Users should check official documentation for specific technical constraints or community support models.",
+    "licensing_notes": "Signal's client applications are licensed under GPLv3, while the server components are licensed under AGPLv3. Both are strong copyleft licenses that ensure the software remains free and open-source. Users should consult the official license texts for full details.",
+    "faq": [
+      {
+        "question": "Can Signal be used for business communications?",
+        "answer": "Yes, Signal is free for both personal and business communications, offering end-to-end encryption for privacy."
+      },
+      {
+        "question": "What makes Signal secure?",
+        "answer": "Signal uses end-to-end encryption for all communications, meaning messages and calls are encrypted on the sender's device and decrypted only on the recipient's device."
+      }
+    ]
+  },
+  "pgadmin": {
+    "input_hash": "bfa2769bac39fd65acecc26a58ed1aed28c1e8d46a0e3c1157fc361dc05dd865",
+    "generated_at": "2026-10-25",
+    "summary": "pgAdmin is an open-source management and development platform for PostgreSQL, distributed under the permissive PostgreSQL License.",
+    "what_it_does": "It provides a graphical interface for managing PostgreSQL databases, allowing users to create, modify, and delete database objects, run queries, and monitor database activity.",
+    "best_for": "Database administrators, developers, and data analysts working with PostgreSQL databases who need a comprehensive graphical tool for management and development tasks.",
+    "free_tier": "Fully featured and free for all personal and commercial uses.",
+    "limitations": "No inherent functional limitations based on its open-source licensing. Users should check official documentation for specific technical constraints or community support models.",
+    "licensing_notes": "pgAdmin is distributed under the PostgreSQL License, which is a permissive open-source license. This license allows free use, modification, and distribution, including for commercial purposes, with minimal restrictions. Users should consult the official license text for full details.",
+    "faq": [
+      {
+        "question": "Is pgAdmin suitable for managing commercial PostgreSQL databases?",
+        "answer": "Yes, pgAdmin is distributed under the permissive PostgreSQL License, allowing its use for commercial purposes."
+      },
+      {
+        "question": "What databases can pgAdmin manage?",
+        "answer": "pgAdmin is specifically designed as a management and development platform for PostgreSQL databases."
+      }
+    ]
+  },
+  "clickhouse": {
+    "input_hash": "47d7651849d5091f76cc958e928d865a8a412121437d63b031144c9259da8290",
+    "generated_at": "2026-10-25",
+    "summary": "ClickHouse is an open-source, column-oriented database management system designed for high-performance analytical queries, licensed under Apache 2.0 for unrestricted self-managed use.",
+    "what_it_does": "It excels at processing large volumes of data in real-time, making it suitable for online analytical processing (OLAP) workloads. Its column-oriented storage allows for fast aggregation and reporting.",
+    "best_for": "Data engineers, analysts, and organizations requiring a high-performance database for real-time analytics, business intelligence, and large-scale data warehousing.",
+    "free_tier": "Fully featured and free for all personal and commercial self-managed uses.",
+    "limitations": "No inherent functional limitations based on its open-source licensing for self-managed use. Users should check official documentation for specific technical constraints or community support models.",
+    "licensing_notes": "ClickHouse is licensed under the Apache License 2.0. This is a permissive open-source license that allows free use, modification, and distribution, including for commercial purposes, with minimal restrictions. Users should consult the official Apache 2.0 license text for full details.",
+    "faq": [
+      {
+        "question": "Can ClickHouse be used for commercial analytics?",
+        "answer": "Yes, ClickHouse is licensed under Apache 2.0 for unrestricted self-managed use, including commercial applications."
+      },
+      {
+        "question": "What kind of database is ClickHouse?",
+        "answer": "ClickHouse is a column-oriented database management system, optimized for online analytical processing (OLAP) workloads and real-time analytics."
+      }
+    ]
+  },
+  "proxmox-virtual-environment": {
+    "input_hash": "238a4c90648198f58752b19c14d032ec3fb78114ce9b294bd80a9414b3b295b3",
+    "generated_at": "2026-10-25",
+    "summary": "Proxmox Virtual Environment is a complete open-source server virtualization management platform, integrating KVM hypervisor and LXC containers, licensed under GNU AGPLv3.",
+    "what_it_does": "It allows users to deploy and manage virtual machines and containers from a single web interface. It includes features like high availability, live migration, and integrated backup/restore.",
+    "best_for": "IT professionals, system administrators, and organizations seeking a robust, open-source, and cost-effective solution for managing server virtualization and containerization in their data centers.",
+    "free_tier": "Fully featured and free for all personal and commercial uses.",
+    "limitations": "No inherent functional limitations based on its open-source licensing. Users should check official documentation for specific technical constraints or community support models.",
+    "licensing_notes": "Proxmox Virtual Environment is licensed under the GNU Affero General Public License version 3 (AGPLv3). This is a strong copyleft license that requires users who interact with the software over a network to also make their modifications available under AGPLv3. Users should consult the official AGPLv3 text for full details.",
+    "faq": [
+      {
+        "question": "Is Proxmox Virtual Environment suitable for commercial data centers?",
+        "answer": "Yes, it is a complete open-source server virtualization management platform free for all uses, including commercial."
+      },
+      {
+        "question": "What virtualization technologies does Proxmox VE support?",
+        "answer": "Proxmox VE integrates KVM for virtual machines and LXC for containers."
+      }
+    ]
+  },
+  "opentofu": {
+    "input_hash": "6bffc86ab5626b5fd2e64cf905c5fb71e4f6cca8fcdd551891881ecf35651404",
+    "generated_at": "2026-10-25",
+    "summary": "OpenTofu is an open-source infrastructure-as-code (IaC) tool, community-forked from Terraform, licensed under the Mozilla Public License v2.0.",
+    "what_it_does": "It enables users to define and provision infrastructure resources across various cloud providers and on-premises environments using a declarative configuration language. It helps manage infrastructure lifecycle.",
+    "best_for": "DevOps engineers, cloud architects, and organizations seeking an open-source, community-driven alternative for managing infrastructure as code, particularly those familiar with Terraform.",
+    "free_tier": "Fully featured and free for all personal and commercial uses.",
+    "limitations": "No inherent functional limitations based on its open-source licensing. Users should check official documentation for specific technical constraints or community support models.",
+    "licensing_notes": "OpenTofu is licensed under the Mozilla Public License v2.0 (MPL v2.0). This is a \"weak copyleft\" license that allows free use, modification, and distribution, including for commercial purposes, while requiring modifications to the original source code to be made available under MPL v2.0. Users should consult the official MPL v2.0 text for full details.",
+    "faq": [
+      {
+        "question": "Can OpenTofu be used in commercial projects?",
+        "answer": "Yes, OpenTofu is licensed under MPL v2.0, which permits free use for commercial applications."
+      },
+      {
+        "question": "What is the primary purpose of OpenTofu?",
+        "answer": "OpenTofu is an infrastructure-as-code (IaC) tool used to define and provision infrastructure resources across various environments."
+      }
+    ]
+  },
+  "oracle-vm-virtualbox-extension-pack": {
+    "input_hash": "06c0345f2a3eb5e9aa0bba14bba99e92be30bac2dfe770400f580aa38ea69c9d",
+    "generated_at": "2026-10-25",
+    "summary": "The Oracle VM VirtualBox Extension Pack enhances the functionality of VirtualBox, offering features like USB 2.0/3.0 support and remote desktop protocol. It is free for personal or educational use.",
+    "what_it_does": "It adds proprietary features to VirtualBox, such as support for USB 2.0 and USB 3.0 devices, VirtualBox Remote Desktop Protocol (VRDP), disk encryption, and NVMe.",
+    "best_for": "Individual users and students utilizing VirtualBox for personal projects, learning, or non-commercial purposes who need advanced features not included in the base VirtualBox installation.",
+    "free_tier": "Available for free for personal, educational, or evaluation use.",
+    "limitations": "Commercial installation or use requires a paid commercial license. Organizations using VirtualBox in a business context must purchase the appropriate license for the Extension Pack.",
+    "licensing_notes": "The Extension Pack is licensed under the VirtualBox Personal Use and Evaluation License (PUEL). This license permits free use for personal, educational, or evaluation purposes. Commercial use requires a separate paid commercial license from Oracle. Users should consult the official PUEL for full details.",
+    "faq": [
+      {
+        "question": "Can I use the VirtualBox Extension Pack for my business?",
+        "answer": "No, commercial use of the Extension Pack requires a paid commercial license. It is free only for personal, educational, or evaluation purposes."
+      },
+      {
+        "question": "What features does the Extension Pack add to VirtualBox?",
+        "answer": "It adds proprietary features such as USB 2.0/3.0 support, VirtualBox Remote Desktop Protocol (VRDP), disk encryption, and NVMe."
+      }
+    ]
+  },
+  "glasswire": {
+    "input_hash": "f45ce0f5822b10e3c5fc0f09ca5dbd2583a864676e2832d4cc46b06c07ae8607",
+    "generated_at": "2026-10-25",
+    "summary": "GlassWire is a network security monitoring tool that visualizes network activity, available with basic functions free for individual home users and paid plans for advanced features and commercial use.",
+    "what_it_does": "It monitors network activity, alerts users to suspicious behavior, and provides a firewall to control application network access. It visualizes current and past network activity on a graph.",
+    "best_for": "Individual home users who want to monitor their network activity, identify potential threats, and manage application network access. Businesses requiring advanced features or centralized management will need paid plans.",
+    "free_tier": "A free personal tier offers basic network monitoring functions for individual home users.",
+    "limitations": "The free personal tier has limitations on features and historical data retention. Enterprise management, advanced security features, and commercial use require paid plans. Users should check the official documentation for specific free tier limits.",
+    "licensing_notes": "GlassWire offers a free personal tier for individual home users with basic functionality. Commercial use and access to advanced features or enterprise management capabilities require a paid commercial license. Users should consult the official website for detailed licensing information.",
+    "faq": [
+      {
+        "question": "Is GlassWire completely free for all users?",
+        "answer": "No, GlassWire offers a free personal tier with basic network monitoring functions for individual home users. Commercial use and advanced features require paid plans."
+      },
+      {
+        "question": "What are the main features of GlassWire?",
+        "answer": "It monitors network activity, provides security alerts for suspicious behavior, and includes a firewall to control application network access."
+      }
+    ]
+  },
+  "winrar": {
+    "input_hash": "03562c8055065a40d325cb32e38ef9023653e84c0ee13ed4005bf3585f2f3df0",
+    "generated_at": "2026-10-25",
+    "summary": "WinRAR is a proprietary file archiver utility that supports RAR, ZIP, and other archive formats, requiring a paid commercial license after a 40-day evaluation period.",
+    "what_it_does": "It compresses and decompresses files, creates self-extracting archives, and can repair damaged archives. It is widely used for managing and transferring large files efficiently.",
+    "best_for": "Individuals and businesses who need a robust file compression and archiving tool and are willing to purchase a commercial license for continued use after the evaluation period.",
+    "free_tier": "WinRAR offers a 40-day evaluation period during which users can access its full functionality. There is no perpetual free tier for continued use.",
+    "limitations": "After the 40-day evaluation period, a paid commercial license is required for continued use. Without a license, the software will display reminders to purchase one, though it typically remains functional.",
+    "licensing_notes": "WinRAR is distributed as shareware. It provides a 40-day evaluation period for users to try the software. After this period, a paid commercial license is required for continued legal use. Users should consult the official website for current pricing and licensing terms.",
+    "faq": [
+      {
+        "question": "Is WinRAR free to use indefinitely?",
+        "answer": "No, WinRAR is shareware and requires a paid commercial license after a 40-day evaluation period for continued legal use."
+      },
+      {
+        "question": "What file formats does WinRAR support?",
+        "answer": "WinRAR primarily supports RAR and ZIP formats, and can also decompress many other archive formats."
+      }
+    ]
   }
 }

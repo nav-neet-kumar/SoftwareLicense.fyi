@@ -605,3 +605,5 @@ Vagrant,Open Source,Open Source (MPL-2.0),https://www.vagrantup.com/,2026-10-24,
 Microsoft Office Home & Business,License for Commercial,License Required,https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products,2026-10-24,Requires a paid license for commercial use.
 macOS,License Required,License Required,https://www.apple.com/macos/,2026-10-24,Pre-installed on Apple hardware; license tied to hardware purchase.
 Tableau Public,Free for Home,Free,https://public.tableau.com/,2026-10-24,Tableau Public is a free platform for creating and publicly sharing data visualizations online. It is not licensed for commercial use.
+Git,Open Source,GNU General Public License v2.0,https://git-scm.com/,2026-10-25,Distributed version control system. Licensed under GNU GPL v2.0.
+Red Hat Enterprise Linux,License for Commercial,License Required,https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux,2026-10-25,"A commercial Linux distribution with paid subscriptions for support, updates, and enterprise features."

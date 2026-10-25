@@ -133,5 +133,23 @@
     "category": "Free for Home",
     "url": "https://public.tableau.com/",
     "source": "https://public.tableau.com/app/profile/tableau.public.team/viz/TableauPublicFAQ/FAQ"
+  },
+  {
+    "name": "Git",
+    "slug": "git",
+    "type": "NEW",
+    "date": "2026-10-25",
+    "category": "Open Source",
+    "url": "https://git-scm.com/",
+    "source": "https://git-scm.com/about/free-and-open-source"
+  },
+  {
+    "name": "Red Hat Enterprise Linux",
+    "slug": "red-hat-enterprise-linux",
+    "type": "NEW",
+    "date": "2026-10-25",
+    "category": "License for Commercial",
+    "url": "https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux",
+    "source": "https://www.redhat.com/en/store/red-hat-enterprise-linux-server"
   }
 ]

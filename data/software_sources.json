@@ -13,5 +13,7 @@
   "vagrant": "https://github.com/hashicorp/vagrant/blob/main/LICENSE",
   "microsoft-office-home-business": "https://www.microsoft.com/en-us/microsoft-365/business/compare-all-microsoft-365-business-products",
   "macos": "https://www.apple.com/legal/sla/docs/macOS13.pdf",
-  "tableau-public": "https://public.tableau.com/app/profile/tableau.public.team/viz/TableauPublicFAQ/FAQ"
+  "tableau-public": "https://public.tableau.com/app/profile/tableau.public.team/viz/TableauPublicFAQ/FAQ",
+  "git": "https://git-scm.com/about/free-and-open-source",
+  "red-hat-enterprise-linux": "https://www.redhat.com/en/store/red-hat-enterprise-linux-server"
 }
