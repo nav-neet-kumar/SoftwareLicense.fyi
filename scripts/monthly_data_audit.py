@@ -230,7 +230,20 @@ def is_freshly_verified(row):
     return 0 <= (date.today() - verified).days < VERIFIED_DAYS
 
 
-def audit_rows(rows):
+def write_csv_atomic(rows, fieldnames, path=CSV_PATH):
+    """Persist the current validated state atomically, so later API failures cannot lose completed rows."""
+    path = Path(path)
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    with tmp.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fieldnames, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(rows)
+        handle.flush()
+        os.fsync(handle.fileno())
+    tmp.replace(path)
+
+
+def audit_rows(rows, fieldnames):
     changes = 0
     verified_count = 0
     unknown_categories = sorted({str(row.get("Category", "") or "") for row in rows
@@ -286,7 +299,14 @@ def audit_rows(rows):
             for row_index in batch_indices:
                 row = rows[row_index]
                 item = by_index[row_index]
-                if str(item.get("action", "")).upper() == "UPDATE" and str(item.get("confidence", "")).lower() == "high":
+                action = str(item.get("action", "")).upper()
+                verified_this_row = False
+                if action == "KEEP_UNCHANGED":
+                    # A complete, explicit KEEP decision is a completed check, even if evidence was inconclusive.
+                    row["Last Verified Date"] = TODAY
+                    verified_this_row = True
+                    print(f"[VERIFIED UNCHANGED] {row.get('Software Name')}")
+                elif action == "UPDATE" and str(item.get("confidence", "")).lower() == "high":
                     category = str(item.get("category", "")).strip()
                     status = str(item.get("license_status", "")).strip()
                     official_url = str(item.get("official_url", "")).strip()
@@ -308,8 +328,20 @@ def audit_rows(rows):
                                 row["Last Updated"] = TODAY
                                 changes += 1
                                 print(f"[UPDATED] {row.get('Software Name')}: {str(item.get('reason', 'verified correction'))[:180]}")
-                row["Last Verified Date"] = TODAY
-                verified_count += 1
+                            row["Last Verified Date"] = TODAY
+                            verified_this_row = True
+                        else:
+                            print(f"[NOT VERIFIED] {row.get('Software Name')}: evidence URL is not reachable; will retry next run.")
+                    else:
+                        print(f"[NOT VERIFIED] {row.get('Software Name')}: UPDATE failed required-field validation; will retry next run.")
+                else:
+                    print(f"[NOT VERIFIED] {row.get('Software Name')}: decision was not a high-confidence valid UPDATE or KEEP_UNCHANGED; will retry next run.")
+
+                if verified_this_row:
+                    # Commit the result to the runner's data file immediately after this software is validated.
+                    # The workflow commits this checkpoint even if a later API request fails.
+                    write_csv_atomic(rows, fieldnames)
+                    verified_count += 1
         print(f"[FILTER {stage}/5 COMPLETE] {category_filter}: verified {len(indices)} due rows.")
     print(f"[FRESHNESS SUMMARY] verified={verified_count}; skipped_fresh={skipped_fresh}")
     return changes
@@ -342,7 +374,7 @@ def main():
     # Audit first. If any API call fails, abort without writing partial changes.
     try:
         due_before_audit = any(not is_freshly_verified(row) for row in rows)
-        changed = audit_rows(rows)
+        changed = audit_rows(rows, fieldnames)
         # Avoid extra duplicate-detection model calls when every row is still fresh.
         duplicates = resolve_duplicates(rows) if due_before_audit else set()
         if not due_before_audit:
@@ -376,12 +408,7 @@ def main():
     contexts = {k: v for k, v in contexts.items() if k in retained_slugs}
     recent = [event for event in recent if slug(event.get("name", "")) in retained_slugs]
     # Write files only after all model calls have succeeded.
-    tmp = CSV_PATH.with_suffix(".csv.tmp")
-    with tmp.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames, extrasaction="ignore")
-        writer.writeheader()
-        writer.writerows(retained)
-    tmp.replace(CSV_PATH)
+    write_csv_atomic(retained, fieldnames, CSV_PATH)
     SOURCES_PATH.write_text(json.dumps(sources, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     CONTEXT_PATH.write_text(json.dumps(contexts, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     RECENT_PATH.write_text(json.dumps(recent[-100:], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
