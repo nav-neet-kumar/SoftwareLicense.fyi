@@ -2,8 +2,9 @@ name: 🧹 Monthly AI Data Audit
 
 on:
   schedule:
-    # Temporary one-time run requested for 26 October 2026 at 14:10 IST (08:40 UTC).
-    - cron: "40 8 26 10 *"
+    # Requested run time: 26 October 2026 at 15:30 IST (10:00 UTC).
+    # GitHub cron repeats yearly for this day/month; remove after the intended run.
+    - cron: "0 10 26 10 *"
   workflow_dispatch:
 
 permissions:
@@ -35,8 +36,9 @@ jobs:
       - name: Audit data files with AI and official page evidence
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_AUDIT_MODELS: "gemini-3.6-flash,gemini-2.5-flash,gemini-2.5-flash-lite"
+          GEMINI_AUDIT_MODELS: "gemini-2.5-flash,gemini-2.5-flash-lite"
           AUDIT_BATCH_SIZE: "12"
+          AUDIT_VERIFIED_DAYS: "30"
         run: python scripts/monthly_data_audit.py
 
       - name: Commit audited data files only
