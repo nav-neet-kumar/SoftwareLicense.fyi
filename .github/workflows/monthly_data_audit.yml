@@ -34,6 +34,7 @@ jobs:
         run: pip install -r scripts/requirements.txt
 
       - name: Audit data files with AI and official page evidence
+        id: audit
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_AUDIT_MODELS: "gemini-2.5-flash,gemini-2.5-flash-lite"
@@ -41,14 +42,24 @@ jobs:
           AUDIT_VERIFIED_DAYS: "30"
         run: python scripts/monthly_data_audit.py
 
-      - name: Commit audited data files only
+      - name: Commit validated per-software checkpoints
+        if: always()
+        env:
+          AUDIT_STEP_OUTCOME: ${{ steps.audit.outcome }}
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/software_list.csv data/software_sources.json data/recent_updates.json data/software_context.json
+          # The CSV is checkpointed after each fully accepted software decision.
+          # On failure, commit only that CSV; sidecar/duplicate changes are added only after a full success.
+          git add data/software_list.csv
+          if [ "$AUDIT_STEP_OUTCOME" = "success" ]; then
+            git add data/software_sources.json data/recent_updates.json data/software_context.json
+          else
+            echo "Audit did not finish. Saving validated per-software CSV checkpoints only."
+          fi
           if git diff --cached --quiet; then
-            echo "No data changes detected."
+            echo "No checkpointed data changes to commit."
             exit 0
           fi
-          git commit -m "🧹 Monthly AI software data audit [$(date -u +'%Y-%m-%d')]"
+          git commit -m "🧹 Save validated software audit checkpoints [$(date -u +'%Y-%m-%d')]"
           git push
