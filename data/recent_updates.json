@@ -151,5 +151,23 @@
     "category": "License for Commercial",
     "url": "https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux",
     "source": "https://www.redhat.com/en/store/red-hat-enterprise-linux-server"
+  },
+  {
+    "name": "Microsoft Edge",
+    "slug": "microsoft-edge",
+    "type": "NEW",
+    "date": "2026-10-26",
+    "category": "Free for Home",
+    "url": "https://www.microsoft.com/edge",
+    "source": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx"
+  },
+  {
+    "name": "VSCodium",
+    "slug": "vscodium",
+    "type": "NEW",
+    "date": "2026-10-26",
+    "category": "Open Source",
+    "url": "https://vscodium.com/",
+    "source": "https://github.com/vscodium/vscodium/blob/master/LICENSE"
   }
 ]

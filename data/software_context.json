@@ -6898,5 +6898,605 @@
         "answer": "Zotero is licensed under the GNU Affero General Public License version 3 (AGPLv3)."
       }
     ]
+  },
+  "microsoft-edge": {
+    "input_hash": "bda314641b6c796d28ebc37e908d1f1f1e3c304f3427011c033705d44c6158f3",
+    "generated_at": "2026-10-26",
+    "summary": "Microsoft Edge is a free web browser developed by Microsoft. It allows users to navigate the internet, access web applications, and utilize various online services.",
+    "what_it_does": "Microsoft Edge is a web browser that enables users to access and interact with websites and online content. It supports modern web standards, extensions, and features for a comprehensive browsing experience.",
+    "best_for": "General internet browsing for individuals and organizations.",
+    "free_tier": "Free to use.",
+    "limitations": "As a proprietary product, its source code is not publicly available. Specific feature limitations may exist depending on the version and operating system.",
+    "licensing_notes": "Microsoft Edge is proprietary software. While free to use, its distribution and modification are governed by Microsoft's terms.",
+    "faq": [
+      {
+        "question": "Is Microsoft Edge free to use?",
+        "answer": "Yes, Microsoft Edge is free to download and use for all users."
+      },
+      {
+        "question": "What platforms does Microsoft Edge support?",
+        "answer": "Microsoft Edge is available on Windows, macOS, Linux, Android, and iOS. Please check the official website for the most up-to-date platform support information."
+      }
+    ]
+  },
+  "vscodium": {
+    "input_hash": "ae6ac01e2a706b9b4bb6adbbedff603939e763eabbd51dd0fd6026bc67609df7",
+    "generated_at": "2026-10-26",
+    "summary": "VSCodium is a community-driven, freely-licensed binary distribution of Visual Studio Code. It provides the core VS Code experience without Microsoft's proprietary telemetry and branding.",
+    "what_it_does": "VSCodium functions as a source-code editor, offering features like syntax highlighting, code completion, debugging, and Git integration, based on the open-source VS Code project.",
+    "best_for": "Developers seeking a free and open-source alternative to Visual Studio Code, particularly those concerned about telemetry.",
+    "free_tier": "Free and open-source.",
+    "limitations": "VSCodium may not include all the extensions or features that are available in the official Microsoft distribution of VS Code, especially those with proprietary licenses. Users should verify feature parity with their specific needs.",
+    "licensing_notes": "VSCodium is distributed under the MIT License, making it free for personal and commercial use.",
+    "faq": [
+      {
+        "question": "What is the difference between VSCodium and Visual Studio Code?",
+        "answer": "VSCodium is a build of Visual Studio Code that has had Microsoft's proprietary telemetry and branding removed, making it fully open-source. The core functionality is the same."
+      },
+      {
+        "question": "Is VSCodium free to use for commercial projects?",
+        "answer": "Yes, VSCodium is licensed under the MIT License, which permits free use for both personal and commercial purposes."
+      }
+    ]
+  },
+  "seq": {
+    "input_hash": "3602f3f08177bf1f38fad0f5ac7fbfda8b66f913f201c5434e8a86cbf2e2d918",
+    "generated_at": "2026-10-26",
+    "summary": "Seq is a high-performance log server that provides structured logging capabilities. It enables efficient storage, searching, and analysis of application logs.",
+    "what_it_does": "Seq collects, stores, and indexes structured log events from applications, allowing developers and operators to query, visualize, and troubleshoot issues effectively.",
+    "best_for": "Development teams and operations requiring centralized, searchable, and structured logging for their applications.",
+    "free_tier": "A free Community license is available for single users.",
+    "limitations": "The free Community Edition is limited to a single user. For team collaboration and advanced features, paid commercial tiers are required.",
+    "licensing_notes": "Seq offers a free Community Edition for non-commercial, single-user scenarios. Commercial use and team features require a paid license.",
+    "faq": [
+      {
+        "question": "What is the difference between Seq Community and Enterprise editions?",
+        "answer": "The Community Edition is free for single users, while the Enterprise editions offer features for teams, advanced security, and commercial support."
+      },
+      {
+        "question": "Can I use Seq for commercial projects?",
+        "answer": "The free Community Edition is intended for single-user, non-commercial use. Commercial use requires a paid license for the appropriate edition."
+      }
+    ]
+  },
+  "pdf-expert": {
+    "input_hash": "3651591dc1ed505191adf59a7d516b6ba7494549155ef4008f88a20130b5db84",
+    "generated_at": "2026-10-26",
+    "summary": "PDF Expert is a powerful PDF editor for macOS and iOS. It allows users to edit text, images, links, and annotations within PDF documents.",
+    "what_it_does": "PDF Expert provides tools for reading, annotating, editing, and managing PDF files, including features for form filling, signing, and merging documents.",
+    "best_for": "Mac and iOS users who need a comprehensive solution for working with PDF documents.",
+    "free_tier": "A free trial may be available. Please check the official website for details.",
+    "limitations": "Full editing capabilities and advanced features require a paid purchase. Specific limitations may apply to the trial version.",
+    "licensing_notes": "PDF Expert requires a paid license, either through a one-time purchase or a subscription, for full functionality.",
+    "faq": [
+      {
+        "question": "Is PDF Expert free?",
+        "answer": "PDF Expert requires a paid license for full features. A free trial may be available for evaluation purposes."
+      },
+      {
+        "question": "What platforms does PDF Expert support?",
+        "answer": "PDF Expert is available for macOS and iOS devices."
+      }
+    ]
+  },
+  "rectangle": {
+    "input_hash": "71d0c78e5a97d4d9e0dd97c70d052dadcf126c1fb972c354a4a74d051edc5a3a",
+    "generated_at": "2026-10-26",
+    "summary": "Rectangle is an open-source window management application for macOS. It allows users to quickly resize and arrange windows using keyboard shortcuts or by dragging them to screen edges.",
+    "what_it_does": "Rectangle helps users organize their desktop by snapping windows to predefined layouts, such as half-screen, quarter-screen, or full-screen, improving productivity on macOS.",
+    "best_for": "macOS users looking for an efficient and free way to manage and arrange application windows.",
+    "free_tier": "Free and open-source.",
+    "limitations": "As a window manager, its functionality is focused solely on window manipulation. It does not offer other system-level utilities.",
+    "licensing_notes": "Rectangle is released under the MIT License, which permits free use, modification, and distribution.",
+    "faq": [
+      {
+        "question": "Is Rectangle free to use?",
+        "answer": "Yes, Rectangle is completely free and open-source software."
+      },
+      {
+        "question": "What operating system does Rectangle work on?",
+        "answer": "Rectangle is designed specifically for macOS."
+      }
+    ]
+  },
+  "eclipse-ide": {
+    "input_hash": "ae1195dcb60517869d3a7fde5fa00e94320e2b273e16f91bb467deaac471a1b7",
+    "generated_at": "2026-10-26",
+    "summary": "Eclipse IDE is a widely-used, open-source integrated development environment. It provides a robust platform for developing applications across various programming languages.",
+    "what_it_does": "Eclipse IDE offers a comprehensive set of tools for coding, debugging, compiling, and deploying software. Its extensible architecture supports a vast ecosystem of plugins for different development needs.",
+    "best_for": "Software developers, particularly those working with Java, but also supporting many other languages through plugins.",
+    "free_tier": "Free and open-source.",
+    "limitations": "The core IDE is free, but many advanced features or specialized tooling may require third-party plugins, some of which might be commercial.",
+    "licensing_notes": "Eclipse IDE is distributed under the Eclipse Public License 2.0 (EPL-2.0), which is an OSI-approved open-source license allowing free use, modification, and distribution.",
+    "faq": [
+      {
+        "question": "Is Eclipse IDE free for commercial use?",
+        "answer": "Yes, Eclipse IDE is free and open-source and can be used for both personal and commercial development."
+      },
+      {
+        "question": "What programming languages can I develop with Eclipse IDE?",
+        "answer": "While Eclipse IDE is well-known for Java development, its plugin architecture allows support for numerous other languages like C/C++, Python, PHP, and more."
+      }
+    ]
+  },
+  "bazel": {
+    "input_hash": "11efddd75527abbc6297681b793fecd92eca40862b980ddf72b7db87f6e8d16f",
+    "generated_at": "2026-10-26",
+    "summary": "Bazel is an open-source build and test tool developed by Google. It enables fast, reliable, and reproducible builds for software projects of all sizes.",
+    "what_it_does": "Bazel automates the process of building and testing software, supporting multiple languages and platforms. It focuses on correctness and performance through features like caching and parallel execution.",
+    "best_for": "Software development teams needing a robust and scalable build system, especially for large or complex projects.",
+    "free_tier": "Free and open-source.",
+    "limitations": "Bazel has a steeper learning curve compared to simpler build tools. Configuration can be complex, especially for projects with diverse technology stacks.",
+    "licensing_notes": "Bazel is licensed under the Apache License 2.0, a permissive open-source license allowing free use, modification, and distribution.",
+    "faq": [
+      {
+        "question": "What is Bazel used for?",
+        "answer": "Bazel is used to build and test software projects efficiently and reliably, supporting multiple languages and platforms."
+      },
+      {
+        "question": "Is Bazel free to use?",
+        "answer": "Yes, Bazel is open-source software distributed under the Apache License 2.0, making it free for all uses."
+      }
+    ]
+  },
+  "qemu": {
+    "input_hash": "dff449bbc806d49263907508d9eb4e41bde2b62a8f99a45ae2cdc4ef53d01c22",
+    "generated_at": "2026-10-26",
+    "summary": "QEMU is a versatile open-source machine emulator and virtualizer. It can emulate a wide range of hardware, allowing users to run operating systems and programs on different architectures.",
+    "what_it_does": "QEMU enables full system emulation, virtual machine execution, and user-mode emulation. It is commonly used for testing operating systems, developing embedded systems, and running software in isolated environments.",
+    "best_for": "Developers, system administrators, and researchers needing to emulate hardware or run virtual machines across different architectures.",
+    "free_tier": "Free and open-source.",
+    "limitations": "Performance can vary depending on the hardware being emulated and the host system. Setting up complex emulation scenarios may require significant technical expertise.",
+    "licensing_notes": "QEMU is primarily licensed under the GNU General Public License version 2 (GPLv2) and compatible licenses, allowing free use, modification, and distribution.",
+    "faq": [
+      {
+        "question": "What is QEMU used for?",
+        "answer": "QEMU is used for machine emulation and virtualization, allowing you to run operating systems and programs on different hardware architectures or in virtual machines."
+      },
+      {
+        "question": "Is QEMU free?",
+        "answer": "Yes, QEMU is free, open-source software licensed under the GPLv2 and compatible licenses."
+      }
+    ]
+  },
+  "okular": {
+    "input_hash": "2af640c5450c492658b5c4d7048d57b902a26a99485facf395173c85e1ef8f54",
+    "generated_at": "2026-10-26",
+    "summary": "Okular is a universal document viewer developed by KDE. It supports a wide variety of document formats, including PDF, PostScript, DjVu, and more.",
+    "what_it_does": "Okular allows users to view, annotate, and sign documents. It provides features like text selection, search, thumbnail previews, and support for digital signatures.",
+    "best_for": "Linux users and KDE Plasma desktop users who need a versatile and feature-rich document viewer.",
+    "free_tier": "Free and open-source.",
+    "limitations": "While it supports many formats, complex or proprietary features within certain document types might not be fully rendered or editable. Its primary development focus is on Linux.",
+    "licensing_notes": "Okular is licensed under the GNU General Public License v2.0 or later (GPL-2.0-or-later), allowing free use, modification, and distribution.",
+    "faq": [
+      {
+        "question": "What document formats does Okular support?",
+        "answer": "Okular supports a wide range of formats including PDF, EPUB, DjVu, PostScript, TIFF, images, and Markdown, among others."
+      },
+      {
+        "question": "Is Okular free to use?",
+        "answer": "Yes, Okular is free and open-source software."
+      }
+    ]
+  },
+  "chart-js": {
+    "input_hash": "eee5059b797732d35a033c18cbcabbb13f7d3236ea62a02821abfce1dc1e43dc",
+    "generated_at": "2026-10-26",
+    "summary": "Chart.js is a popular open-source JavaScript library for creating responsive and interactive charts. It enables developers to visualize data easily on web pages.",
+    "what_it_does": "Chart.js allows developers to generate various types of charts, including bar, line, pie, and radar charts, using HTML5 Canvas elements. It is highly customizable and integrates seamlessly into web applications.",
+    "best_for": "Web developers needing to add data visualization capabilities to their websites or web applications.",
+    "free_tier": "Free and open-source.",
+    "limitations": "As a client-side JavaScript library, it is primarily for front-end data visualization. Complex data manipulation or server-side processing is not its core function.",
+    "licensing_notes": "Chart.js is released under the MIT License, permitting free use, modification, and distribution for both personal and commercial projects.",
+    "faq": [
+      {
+        "question": "Can I use Chart.js for commercial projects?",
+        "answer": "Yes, Chart.js is licensed under the MIT License, which allows for free use in commercial projects."
+      },
+      {
+        "question": "What types of charts can I create with Chart.js?",
+        "answer": "Chart.js supports various chart types, including bar, line, pie, doughnut, radar, polar area, scatter, and bubble charts."
+      }
+    ]
+  },
+  "bulk-rename-utility": {
+    "input_hash": "49e9d47cda7f72d6e6625112f63c563373e9c37489531477d989971737bfc3c3",
+    "generated_at": "2026-10-26",
+    "summary": "Bulk Rename Utility is a Windows application designed for renaming large numbers of files and folders. It offers a comprehensive set of renaming options.",
+    "what_it_does": "This utility allows users to perform batch renaming operations on files and folders, including adding prefixes/suffixes, replacing text, changing case, numbering, and manipulating file extensions.",
+    "best_for": "Windows users who need to rename many files or folders simultaneously with advanced control.",
+    "free_tier": "Free for personal, private use at home.",
+    "limitations": "The free version is restricted to non-commercial, personal use. Commercial use requires a paid license.",
+    "licensing_notes": "The software is free for personal, non-commercial use. A commercial license is required for business or organizational use.",
+    "faq": [
+      {
+        "question": "Is Bulk Rename Utility free for business use?",
+        "answer": "No, the free version of Bulk Rename Utility is only for personal, private use at home. A commercial license is required for business or organizational use."
+      },
+      {
+        "question": "What operating system does Bulk Rename Utility run on?",
+        "answer": "Bulk Rename Utility is a Windows application."
+      }
+    ]
+  },
+  "driver-easy": {
+    "input_hash": "1cf4dfe911ffbec0e4463ee03c9304a44b9d7d908ecbe4a45e874e56b6503930",
+    "generated_at": "2026-10-26",
+    "summary": "Driver Easy is a driver updater tool that helps users find and install the latest drivers for their computer hardware. It offers both a free and a paid version.",
+    "what_it_does": "Driver Easy scans your system for outdated or missing drivers and provides options to download and install updated versions, aiming to improve system stability and performance.",
+    "best_for": "Home users looking for a simple way to update their computer drivers. Professional or commercial use requires a paid license.",
+    "free_tier": "A free version is available for non-commercial home use, but with limitations.",
+    "limitations": "The free version has limitations such as slower download speeds and manual driver installation. Automatic installation, high speeds, and commercial use require a paid license.",
+    "licensing_notes": "Driver Easy has a freemium model. The free tier is for non-commercial home use. A paid license is required for Pro features, commercial use, and faster downloads.",
+    "faq": [
+      {
+        "question": "What are the limitations of the free version of Driver Easy?",
+        "answer": "The free version is intended for non-commercial home use and typically has slower download speeds and requires manual installation of drivers. Advanced features and faster downloads are available in the paid version."
+      },
+      {
+        "question": "Can I use Driver Easy for my business computer?",
+        "answer": "No, the free version is for personal home use only. Commercial use requires purchasing a paid license."
+      }
+    ]
+  },
+  "visual-paradigm-community-edition": {
+    "input_hash": "c2545bb5582e13b733edda2982ee9ae3d6143cb29723b8698ed204bbf97ca5b3",
+    "generated_at": "2026-10-26",
+    "summary": "Visual Paradigm Community Edition is a free version of the Visual Paradigm modeling tool. It supports UML diagramming and basic business process modeling.",
+    "what_it_does": "This edition allows users to create various types of diagrams, including UML, ERD, and flowcharts, for documentation and design purposes. It is suitable for learning and non-commercial projects.",
+    "best_for": "Students, educators, and individuals working on personal or non-commercial projects who need diagramming tools.",
+    "free_tier": "Free for non-commercial use.",
+    "limitations": "The Community Edition is restricted to non-commercial use. Features like code engineering, report generation, and advanced collaboration tools are typically reserved for paid editions.",
+    "licensing_notes": "Visual Paradigm Community Edition is free for non-commercial use (e.g., personal, educational). Commercial use requires a paid license.",
+    "faq": [
+      {
+        "question": "Can I use Visual Paradigm Community Edition for my business?",
+        "answer": "No, the Community Edition is strictly for non-commercial use, such as personal or educational projects. Commercial use requires a paid license."
+      },
+      {
+        "question": "What kind of diagrams can I create with Visual Paradigm Community Edition?",
+        "answer": "You can create various diagrams including UML diagrams (like Use Case, Class, Sequence), ERDs, Flowcharts, and basic Business Process Model and Notation (BPMN) diagrams."
+      }
+    ]
+  },
+  "mindmanager": {
+    "input_hash": "fd64329bf6913625cabd7eafc30f9b3ea44e5ff344f0227b6aa6d7ab1d4b9d46",
+    "generated_at": "2026-10-26",
+    "summary": "MindManager is a commercial mind mapping and project management software. It helps users visualize ideas, manage projects, and organize information.",
+    "what_it_does": "MindManager enables the creation of mind maps, flowcharts, organizational charts, and Gantt charts. It facilitates brainstorming, planning, task management, and information sharing.",
+    "best_for": "Professionals and teams looking for a tool to organize thoughts, plan projects, and visualize complex information.",
+    "free_tier": "A 30-day free trial is typically available.",
+    "limitations": "Full functionality requires a paid license or subscription after the trial period. Advanced features may be limited in trial versions.",
+    "licensing_notes": "MindManager is proprietary software requiring a paid commercial subscription or perpetual license for continued use beyond the trial period.",
+    "faq": [
+      {
+        "question": "Is MindManager free?",
+        "answer": "MindManager offers a 30-day free trial, but requires a paid subscription or perpetual license for continued use."
+      },
+      {
+        "question": "What can I do with MindManager?",
+        "answer": "MindManager allows you to create mind maps, flowcharts, Gantt charts, and other visual diagrams for brainstorming, project planning, and information organization."
+      }
+    ]
+  },
+  "adobe-audition": {
+    "input_hash": "f999963feeeca76f70dca12b26ff9ffc6ebdff540daea06cb87d204ae142c63b",
+    "generated_at": "2026-10-26",
+    "summary": "Adobe Audition is a professional digital audio workstation (DAW) for audio mixing, editing, and mastering. It is part of the Adobe Creative Cloud suite.",
+    "what_it_does": "Audition provides tools for recording, editing, mixing, and producing audio content, including features for noise reduction, audio restoration, multitrack recording, and podcast production.",
+    "best_for": "Audio professionals, musicians, podcasters, and video editors who require advanced audio editing and production capabilities.",
+    "free_tier": "A free trial is typically available as part of Adobe Creative Cloud.",
+    "limitations": "Requires a paid subscription to Adobe Creative Cloud. Specific features and capabilities may vary based on the subscription plan.",
+    "licensing_notes": "Adobe Audition is proprietary software available only through a paid subscription to Adobe Creative Cloud.",
+    "faq": [
+      {
+        "question": "How can I get Adobe Audition?",
+        "answer": "Adobe Audition is available as part of a paid subscription to Adobe Creative Cloud. A free trial is usually offered."
+      },
+      {
+        "question": "What is Adobe Audition used for?",
+        "answer": "It is used for professional audio editing, mixing, sound design, and mastering for music, podcasts, and video."
+      }
+    ]
+  },
+  "notepad": {
+    "input_hash": "16ef4e7337a8cdd3aef1a82b63c913f543f09abcb3a1b493dee06a58cb1ee872",
+    "generated_at": "2026-10-26",
+    "summary": "Notepad++ is a free source code editor and Notepad replacement that supports several languages.",
+    "what_it_does": "It enhances the standard Windows Notepad with features like syntax highlighting, code folding, and plugin support for various programming languages.",
+    "best_for": "Developers and users who need a more powerful text editor than the default Windows Notepad for coding or text manipulation.",
+    "free_tier": "N/A (Fully free and open-source)",
+    "limitations": "N/A (Fully free and open-source)",
+    "licensing_notes": "Distributed under the terms of the GNU General Public License version 3 (GPLv3).",
+    "faq": [
+      {
+        "question": "Is Notepad++ free to use?",
+        "answer": "Yes, Notepad++ is free and open-source software licensed under the GPLv3."
+      },
+      {
+        "question": "What platforms does Notepad++ support?",
+        "answer": "Notepad++ is primarily for Windows. For other operating systems, users should check official documentation for compatibility or alternatives."
+      }
+    ]
+  },
+  "nextcloud": {
+    "input_hash": "fc0a137eb0fcba125d50f0fadaa08839c0201efb2caed00313a2078859e03e90",
+    "generated_at": "2026-10-26",
+    "summary": "Nextcloud is an open-source, self-hosted productivity platform that enables collaboration and data sharing.",
+    "what_it_does": "It provides a secure way to store, sync, and share files, as well as collaborate on documents, manage calendars, and communicate.",
+    "best_for": "Individuals and organizations seeking a private, self-hosted alternative to cloud storage and collaboration services.",
+    "free_tier": "N/A (Fully free and open-source)",
+    "limitations": "N/A (Fully free and open-source)",
+    "licensing_notes": "Licensed under the GNU AGPLv3, with no open-core or dual-licensing models.",
+    "faq": [
+      {
+        "question": "Is Nextcloud free to use?",
+        "answer": "Yes, Nextcloud is entirely open-source and free to use under the AGPLv3 license."
+      },
+      {
+        "question": "Do I need to pay for Nextcloud?",
+        "answer": "The software itself is free and open-source. Costs may be associated with hosting, support, or enterprise features if not self-hosted."
+      }
+    ]
+  },
+  "reaper": {
+    "input_hash": "57483e18431849cf3e5035aa0394749df43c237f55012f52ea66ee2d2611b433",
+    "generated_at": "2026-10-26",
+    "summary": "REAPER is a powerful and flexible digital audio workstation (DAW) for recording, editing, and mixing audio.",
+    "what_it_does": "It allows users to record, process, edit, and mix audio tracks, supporting a wide range of hardware and software.",
+    "best_for": "Audio engineers, musicians, and producers looking for a highly customizable and affordable DAW.",
+    "free_tier": "60-day fully functional evaluation period.",
+    "limitations": "Continued use after the 60-day evaluation requires a paid license.",
+    "licensing_notes": "Offers a discounted personal license and a commercial license. A paid license is required for continued use beyond the evaluation period.",
+    "faq": [
+      {
+        "question": "Is REAPER free?",
+        "answer": "REAPER offers a fully functional 60-day evaluation period. After this, a paid license is required for continued use."
+      },
+      {
+        "question": "What are the licensing options for REAPER?",
+        "answer": "REAPER offers both a discounted personal license and a commercial license. Details can be found on their official website."
+      }
+    ]
+  },
+  "ida-pro": {
+    "input_hash": "09527e0a041cd9f5cc5901e704c9ac268ac59b7c028e33dc1243ce3821b6d1de",
+    "generated_at": "2026-10-26",
+    "summary": "IDA Pro is a leading interactive disassembler and debugger used for reverse engineering software.",
+    "what_it_does": "It analyzes executable files, helping users understand how software works by decompiling it into human-readable code.",
+    "best_for": "Security researchers, malware analysts, and software developers performing reverse engineering tasks.",
+    "free_tier": "N/A",
+    "limitations": "N/A (Proprietary software requiring a paid license)",
+    "licensing_notes": "Requires a paid commercial license for all usage.",
+    "faq": [
+      {
+        "question": "Is IDA Pro free?",
+        "answer": "No, IDA Pro is proprietary software and requires a paid commercial license for use."
+      },
+      {
+        "question": "What is IDA Pro used for?",
+        "answer": "IDA Pro is primarily used for reverse engineering, allowing users to analyze and understand executable code."
+      }
+    ]
+  },
+  "joplin": {
+    "input_hash": "d06e679ae109369c61b7369b9abc32db5ec9b503af39e495d80a4b80b86bc286",
+    "generated_at": "2026-10-26",
+    "summary": "Joplin is a free, open-source, and privacy-focused note-taking and to-do application.",
+    "what_it_does": "It allows users to create, organize, and sync notes across multiple devices, with support for markdown formatting and end-to-end encryption.",
+    "best_for": "Users looking for a cross-platform, self-hostable alternative to proprietary note-taking apps.",
+    "free_tier": "N/A (Fully free and open-source)",
+    "limitations": "N/A (Fully free and open-source)",
+    "licensing_notes": "Released primarily under the MIT License, allowing for free use, modification, and distribution.",
+    "faq": [
+      {
+        "question": "Is Joplin free?",
+        "answer": "Yes, Joplin is a free and open-source note-taking application."
+      },
+      {
+        "question": "Can I sync my Joplin notes?",
+        "answer": "Yes, Joplin supports synchronization across various services like Nextcloud, Dropbox, OneDrive, and its own Joplin Cloud service."
+      }
+    ]
+  },
+  "veeam-backup-replication-community-edition": {
+    "input_hash": "8f6ddaf1719029e7bfa51af7bcb42261fdee3cbdb51d622e375416dbe769fef6",
+    "generated_at": "2026-10-26",
+    "summary": "Veeam Backup & Replication Community Edition is a free version of Veeam's backup solution for virtual, physical, and cloud environments.",
+    "what_it_does": "It provides backup, recovery, and replication capabilities for virtual machines and other workloads.",
+    "best_for": "Small businesses or individuals needing basic backup and disaster recovery for up to 10 workloads.",
+    "free_tier": "Free for up to 10 workloads.",
+    "limitations": "Limited to 10 workloads (VMs, servers, endpoints). Advanced features are available in paid editions.",
+    "licensing_notes": "Free for both personal and commercial use, with a limit of 10 workloads.",
+    "faq": [
+      {
+        "question": "What is Veeam Backup & Replication Community Edition?",
+        "answer": "It's a free version of Veeam's backup software that supports up to 10 workloads."
+      },
+      {
+        "question": "Is the Community Edition suitable for commercial use?",
+        "answer": "Yes, the Community Edition is free for both personal and commercial use, provided you stay within the 10-workload limit."
+      }
+    ]
+  },
+  "hwinfo": {
+    "input_hash": "f568e4b89123189f6057b16f2a2ed5554f4fccc0a1921149ae381e6a60f9d8a1",
+    "generated_at": "2026-10-26",
+    "summary": "HWiNFO is a comprehensive system information and diagnostic tool for Windows.",
+    "what_it_does": "It provides detailed information about hardware components, system performance, and sensor data, along with benchmarking capabilities.",
+    "best_for": "PC enthusiasts, gamers, and IT professionals who need in-depth hardware monitoring and analysis.",
+    "free_tier": "Free for personal and non-commercial use.",
+    "limitations": "Commercial use requires a paid HWiNFO Pro license.",
+    "licensing_notes": "Freeware for personal/non-commercial use. Commercial use requires a paid license.",
+    "faq": [
+      {
+        "question": "Is HWiNFO free?",
+        "answer": "HWiNFO is free for personal and non-commercial use. A paid license is required for commercial deployment."
+      },
+      {
+        "question": "What kind of information does HWiNFO provide?",
+        "answer": "It offers detailed information on CPU, GPU, RAM, motherboard, storage devices, sensors, and overall system performance."
+      }
+    ]
+  },
+  "xmind": {
+    "input_hash": "934b5cccc54d843b3969e8efd047b831e0cace875a28943347395f5a726c4fac",
+    "generated_at": "2026-10-26",
+    "summary": "XMind is a popular mind mapping and brainstorming software.",
+    "what_it_does": "It helps users visualize ideas, organize information, and brainstorm through creating mind maps, fishbone diagrams, and other visual structures.",
+    "best_for": "Students, professionals, and teams for brainstorming, planning, and organizing thoughts visually.",
+    "free_tier": "Offers a limited free version with watermarked exports.",
+    "limitations": "The free version has limitations, including watermarked exports. Full features and commercial use require a paid subscription.",
+    "licensing_notes": "Proprietary subscription model. A paid license is required for full functionality and commercial use.",
+    "faq": [
+      {
+        "question": "Is XMind free?",
+        "answer": "XMind offers a limited free version. Full features and commercial use require a paid subscription."
+      },
+      {
+        "question": "What are the limitations of the free version of XMind?",
+        "answer": "The free version typically includes watermarked exports and may lack advanced features found in the paid versions."
+      }
+    ]
+  },
+  "minio": {
+    "input_hash": "030a067697a79fcaa7d787e2ccda6544dd320035ea65e180e3c102efe3539d1e",
+    "generated_at": "2026-10-26",
+    "summary": "MinIO is a high-performance, distributed object storage system compatible with the Amazon S3 API.",
+    "what_it_does": "It allows users to store and retrieve unstructured data like images, videos, and backups, often used for cloud-native applications.",
+    "best_for": "Developers building cloud-native applications, data lakes, and scalable storage solutions.",
+    "free_tier": "N/A (Open-source)",
+    "limitations": "N/A (Open-source, commercial license available for enterprise needs)",
+    "licensing_notes": "Available under the GNU AGPLv3 license for open-source use, with a commercial license option for enterprise deployments.",
+    "faq": [
+      {
+        "question": "Is MinIO open source?",
+        "answer": "Yes, MinIO is open-source software licensed under the GNU AGPLv3."
+      },
+      {
+        "question": "Can I use MinIO for commercial purposes?",
+        "answer": "Yes, the AGPLv3 license permits commercial use. A commercial license is also available for specific enterprise needs."
+      }
+    ]
+  },
+  "element": {
+    "input_hash": "56a665b74cbe825d9668bf3768067e655b396c7948ce6f99eb522339fc62f74d",
+    "generated_at": "2026-10-26",
+    "summary": "Element is a secure, open-source communication platform based on the Matrix protocol.",
+    "what_it_does": "It provides end-to-end encrypted messaging, voice and video calls, and file sharing for individuals and organizations.",
+    "best_for": "Users and organizations prioritizing secure, private, and decentralized communication.",
+    "free_tier": "N/A (Client applications are open-source)",
+    "limitations": "N/A (Client applications are open-source)",
+    "licensing_notes": "Client applications are licensed under the GNU Affero General Public License v3.0 (AGPLv3).",
+    "faq": [
+      {
+        "question": "Is Element free to use?",
+        "answer": "Yes, the Element client applications are free and open-source under the AGPLv3 license."
+      },
+      {
+        "question": "What makes Element secure?",
+        "answer": "Element offers end-to-end encryption by default for messages and calls, and is built on the decentralized Matrix protocol."
+      }
+    ]
+  },
+  "debian": {
+    "input_hash": "544a9b4a383b595197d2d68d36aebc8ff1c38390aa10812a9326d791ccc7c97e",
+    "generated_at": "2026-10-26",
+    "summary": "Debian is a popular, stable, and versatile free operating system based on Linux.",
+    "what_it_does": "It provides a complete operating system environment, including a vast repository of software packages for servers and desktops.",
+    "best_for": "Users and organizations seeking a stable, reliable, and free operating system for servers and workstations.",
+    "free_tier": "N/A (Fully free and open-source)",
+    "limitations": "N/A (Fully free and open-source)",
+    "licensing_notes": "Composed entirely of free and open-source software adhering to the Debian Free Software Guidelines (DFSG).",
+    "faq": [
+      {
+        "question": "Is Debian free?",
+        "answer": "Yes, Debian is a completely free operating system, meaning it can be freely used, modified, and distributed."
+      },
+      {
+        "question": "What is the difference between Debian and other Linux distributions?",
+        "answer": "Debian is known for its stability, adherence to free software principles, and extensive package management system."
+      }
+    ]
+  },
+  "calibre": {
+    "input_hash": "ac09a8a7c81f9e2d62c56cc19bdb4f61deb34dbacfcfd43e74a818d2f8196bbc",
+    "generated_at": "2026-10-26",
+    "summary": "Calibre is a powerful, free, and open-source e-book management software.",
+    "what_it_does": "It allows users to organize, manage, convert, and read e-books across various formats and devices.",
+    "best_for": "E-book readers and collectors who need to manage, convert, and organize their digital library.",
+    "free_tier": "N/A (Fully free and open-source)",
+    "limitations": "N/A (Fully free and open-source)",
+    "licensing_notes": "Licensed under the GNU General Public License v3 (GPLv3), allowing free use for personal and commercial purposes.",
+    "faq": [
+      {
+        "question": "Is Calibre free?",
+        "answer": "Yes, Calibre is free and open-source software licensed under the GPLv3."
+      },
+      {
+        "question": "What can I do with Calibre?",
+        "answer": "You can use Calibre to organize your e-book library, convert between e-book formats, edit metadata, and sync books to your e-reader."
+      }
+    ]
+  },
+  "duckdb": {
+    "input_hash": "31e4170838f6e8358001d1d3177561b1211d116cb235a50986ad512c2d48cb06",
+    "generated_at": "2026-10-26",
+    "summary": "DuckDB is an in-process analytical data management system.",
+    "what_it_does": "It allows for fast analytical queries directly within an application, without requiring a separate database server.",
+    "best_for": "Developers and data analysts who need efficient in-process analytical querying capabilities.",
+    "free_tier": "N/A (Fully free and open-source)",
+    "limitations": "N/A (Fully free and open-source)",
+    "licensing_notes": "Distributed under the permissive MIT License, allowing unrestricted commercial and personal use.",
+    "faq": [
+      {
+        "question": "Is DuckDB free to use?",
+        "answer": "Yes, DuckDB is fully open-source and distributed under the MIT License, allowing for unrestricted use."
+      },
+      {
+        "question": "What is DuckDB used for?",
+        "answer": "It's designed for analytical queries within applications, making it suitable for data analysis, data warehousing, and BI tools."
+      }
+    ]
+  },
+  "avast-free-antivirus": {
+    "input_hash": "6ee8f89dc0b2d72f67e3050f15a39520c57db29a83285b44911eaa3e01eebcba",
+    "generated_at": "2026-10-26",
+    "summary": "Avast Free Antivirus is a popular antivirus program offering real-time protection against malware and viruses.",
+    "what_it_does": "It scans for and removes viruses, spyware, and other malicious software, providing network security and firewall features.",
+    "best_for": "Home users seeking free, comprehensive antivirus protection for their personal computers.",
+    "free_tier": "Free for personal, non-commercial use.",
+    "limitations": "The free version is intended for personal use only. Commercial use requires a paid business license.",
+    "licensing_notes": "Free for personal, non-commercial home use. A paid license is required for commercial deployment.",
+    "faq": [
+      {
+        "question": "Is Avast Free Antivirus really free?",
+        "answer": "Yes, it is free for personal and non-commercial home use."
+      },
+      {
+        "question": "Can I use Avast Free Antivirus for my business?",
+        "answer": "No, the free version is strictly for personal use. Businesses need to purchase a paid Avast business license."
+      }
+    ]
+  },
+  "houdini-apprentice": {
+    "input_hash": "ac257057e3fe356814fb46c2427bacdd04e79147782f597a070711fb513cf4f7",
+    "generated_at": "2026-10-26",
+    "summary": "Houdini Apprentice is a free, non-commercial version of the powerful Houdini 3D animation software.",
+    "what_it_does": "It allows users to learn and experiment with Houdini's features for creating 3D models, animations, and visual effects.",
+    "best_for": "Students, hobbyists, and artists learning 3D animation and visual effects without commercial intent.",
+    "free_tier": "Free non-commercial license.",
+    "limitations": "Output files are watermarked, and usage is restricted to non-commercial, educational, or personal projects.",
+    "licensing_notes": "Free for non-commercial, personal, and educational use only. Commercial use requires a paid Houdini license.",
+    "faq": [
+      {
+        "question": "Is Houdini Apprentice free?",
+        "answer": "Yes, Houdini Apprentice is a free version of Houdini available for non-commercial use."
+      },
+      {
+        "question": "Can I use Houdini Apprentice for commercial projects?",
+        "answer": "No, Houdini Apprentice is strictly for non-commercial, personal, or educational purposes. Commercial projects require a paid Houdini license."
+      }
+    ]
   }
 }

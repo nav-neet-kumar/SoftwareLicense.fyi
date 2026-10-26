@@ -15,5 +15,7 @@
   "macos": "https://www.apple.com/legal/sla/docs/macOS13.pdf",
   "tableau-public": "https://public.tableau.com/app/profile/tableau.public.team/viz/TableauPublicFAQ/FAQ",
   "git": "https://git-scm.com/about/free-and-open-source",
-  "red-hat-enterprise-linux": "https://www.redhat.com/en/store/red-hat-enterprise-linux-server"
+  "red-hat-enterprise-linux": "https://www.redhat.com/en/store/red-hat-enterprise-linux-server",
+  "microsoft-edge": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx",
+  "vscodium": "https://github.com/vscodium/vscodium/blob/master/LICENSE"
 }
