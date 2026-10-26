@@ -8,7 +8,7 @@ import re
 import shutil
 import sys
 import time
-from datetime import date
+from datetime import date, datetime, timedelta
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlparse
@@ -22,15 +22,16 @@ CSV_PATH = DATA / "software_list.csv"
 SOURCES_PATH = DATA / "software_sources.json"
 RECENT_PATH = DATA / "recent_updates.json"
 CONTEXT_PATH = DATA / "software_context.json"
+VERIFIED_DAYS = int(os.getenv("AUDIT_VERIFIED_DAYS", "30"))
 TODAY = str(date.today())
 BATCH_SIZE = int(os.getenv("AUDIT_BATCH_SIZE", "25"))
 MODELS = list(dict.fromkeys(m.strip() for m in os.getenv(
     "GEMINI_AUDIT_MODELS",
-    "gemini-3.6-flash,gemini-2.5-flash,gemini-2.5-flash-lite"
+    "gemini-2.5-flash,gemini-2.5-flash-lite"
 ).split(",") if m.strip()))
 KEY = os.getenv("GEMINI_API_KEY", "")
 CLIENT = genai.Client(api_key=KEY) if KEY else None
-COLUMNS = ["Software Name", "Category", "License Status", "Official URL", "Last Updated", "Notes"]
+COLUMNS = ["Software Name", "Category", "License Status", "Official URL", "Last Updated", "Notes", "Last Verified Date"]
 ALLOWED_CATEGORIES = {"Open Source", "Free for Home", "License Required", "License for Commercial", "Community Version"}
 
 
@@ -217,69 +218,96 @@ def resolve_duplicates(rows):
     return removed
 
 
+def is_freshly_verified(row):
+    raw = str(row.get("Last Verified Date", "") or "").strip()
+    if not raw:
+        return False
+    try:
+        verified = date.fromisoformat(raw[:10])
+    except ValueError:
+        return False
+    # A row verified fewer than 30 days ago is skipped; at 30 days it is due.
+    return 0 <= (date.today() - verified).days < VERIFIED_DAYS
+
+
 def audit_rows(rows):
     changes = 0
-    for start in range(0, len(rows), BATCH_SIZE):
-        batch = rows[start:start + BATCH_SIZE]
-        supplied = []
-        for offset, row in enumerate(batch):
-            evidence_url = str(row.get("Evidence URL", "")).strip()
-            official = fetch_evidence(row.get("Official URL", ""))
-            evidence = fetch_evidence(evidence_url) if evidence_url else {"url": "", "ok": False, "text": ""}
-            supplied.append({
-                "row_index": start + offset,
-                "record": {k: row.get(k, "") for k in COLUMNS},
-                "official_page": official,
-                "license_evidence_page": evidence,
-            })
-        prompt = (
-            "Audit these software directory records as of " + TODAY + ". Use only the supplied page text. "
-            "Do not infer a license from a product homepage if the licensing terms are absent. "
-            "If evidence is missing, inaccessible, stale, ambiguous, or insufficient, action must be KEEP_UNCHANGED. "
-            "For clear, current evidence, action may be UPDATE with corrected category, license_status, official_url, notes, "
-            "evidence_url and a concise reason. Never change a product name during this stage. "
-            "Only update facts directly supported by supplied page text and use HTTPS URLs. "
-            "Allowed categories: " + json.dumps(sorted(ALLOWED_CATEGORIES)) + ". "
-            "Return JSON array with row_index, action (UPDATE|KEEP_UNCHANGED), category, license_status, official_url, "
-            "evidence_url, notes, reason, confidence (high|medium|low). Only use UPDATE with high confidence and direct evidence. "
-            "Records: " + json.dumps(supplied, ensure_ascii=False)
-        )
-        result = ask_json(prompt)
-        if not isinstance(result, list):
-            raise ValueError("Data audit did not return a JSON array")
-        by_index = {int(x["row_index"]): x for x in result if isinstance(x, dict) and str(x.get("row_index", "")).isdigit()}
-        for offset, row in enumerate(batch):
-            item = by_index.get(start + offset)
-            if not item or str(item.get("action", "")).upper() != "UPDATE" or str(item.get("confidence", "")).lower() != "high":
-                continue
-            category = str(item.get("category", "")).strip()
-            status = str(item.get("license_status", "")).strip()
-            official_url = str(item.get("official_url", "")).strip()
-            evidence_url = str(item.get("evidence_url", "")).strip()
-            notes = str(item.get("notes", "")).strip()
-            if category not in ALLOWED_CATEGORIES or not status or not notes:
-                continue
-            if not official_url.startswith("https://") or not evidence_url.startswith("https://"):
-                continue
-            # Evidence URL must be reachable in this run; do not accept a model-invented citation.
-            evidence_check = fetch_evidence(evidence_url)
-            if not evidence_check["ok"]:
-                continue
-            changed = False
-            for key, value in (("Category", category), ("License Status", status[:240]),
-                               ("Official URL", official_url), ("Notes", notes[:500])):
-                if str(row.get(key, "")) != value:
-                    row[key] = value
-                    changed = True
-            if str(row.get("Evidence URL", "")) != evidence_url:
-                row["Evidence URL"] = evidence_url
-                changed = True
-            if changed:
-                row["Last Updated"] = TODAY
-                changes += 1
-                print(f"[UPDATED] {row.get('Software Name')}: {str(item.get('reason', 'verified correction'))[:180]}")
+    verified_count = 0
+    skipped_fresh = sum(1 for row in rows if is_freshly_verified(row))
+    print(f"[FRESHNESS] Skipping {skipped_fresh} rows verified within the last {VERIFIED_DAYS} days.")
+    # Process one license category at a time so the five stages are isolated and visible.
+    for stage, category_filter in enumerate(sorted(ALLOWED_CATEGORIES), start=1):
+        indices = [i for i, row in enumerate(rows)
+                   if row.get("Category", "") == category_filter and not is_freshly_verified(row)]
+        print(f"[FILTER {stage}/5] {category_filter}: {len(indices)} rows due for verification.")
+        for offset in range(0, len(indices), BATCH_SIZE):
+            batch_indices = indices[offset:offset + BATCH_SIZE]
+            supplied = []
+            for row_index in batch_indices:
+                row = rows[row_index]
+                evidence_url = str(row.get("Evidence URL", "")).strip()
+                official = fetch_evidence(row.get("Official URL", ""))
+                evidence = fetch_evidence(evidence_url) if evidence_url else {"url": "", "ok": False, "text": ""}
+                supplied.append({
+                    "row_index": row_index,
+                    "record": {k: row.get(k, "") for k in COLUMNS},
+                    "official_page": official,
+                    "license_evidence_page": evidence,
+                })
+            prompt = (
+                "Audit these software records as of " + TODAY + ". This is filter stage "
+                + str(stage) + " of 5, restricted to category " + json.dumps(category_filter) + ". "
+                "Use only supplied page text. Do not infer licensing if terms are absent. "
+                "If evidence is missing, inaccessible, stale, ambiguous, or insufficient, action must be KEEP_UNCHANGED. "
+                "For clear current evidence, action may be UPDATE with corrected category, license_status, official_url, "
+                "notes, evidence_url and concise reason. Never change a product name. Use HTTPS URLs. "
+                "Allowed categories: " + json.dumps(sorted(ALLOWED_CATEGORIES)) + ". "
+                "Return a JSON array containing exactly one object for every row_index supplied, with row_index, "
+                "action (UPDATE|KEEP_UNCHANGED), category, license_status, official_url, evidence_url, notes, reason, "
+                "confidence (high|medium|low). Only use UPDATE with high confidence and direct evidence. "
+                "Records: " + json.dumps(supplied, ensure_ascii=False)
+            )
+            result = ask_json(prompt)
+            if not isinstance(result, list):
+                raise ValueError(f"Filter {stage}/5 ({category_filter}) did not return a JSON array")
+            by_index = {}
+            for item in result:
+                if isinstance(item, dict) and str(item.get("row_index", "")).isdigit():
+                    by_index[int(item["row_index"])] = item
+            # Do not mark any row verified unless the model returned a valid decision for every row in the batch.
+            missing = [i for i in batch_indices
+                       if i not in by_index or str(by_index[i].get("action", "")).upper() not in {"UPDATE", "KEEP_UNCHANGED"}]
+            if missing:
+                raise ValueError(f"Filter {stage}/5 ({category_filter}) returned incomplete decisions for row indices {missing}")
+            for row_index in batch_indices:
+                row = rows[row_index]
+                item = by_index[row_index]
+                if str(item.get("action", "")).upper() == "UPDATE" and str(item.get("confidence", "")).lower() == "high":
+                    category = str(item.get("category", "")).strip()
+                    status = str(item.get("license_status", "")).strip()
+                    official_url = str(item.get("official_url", "")).strip()
+                    evidence_url = str(item.get("evidence_url", "")).strip()
+                    notes = str(item.get("notes", "")).strip()
+                    if (category in ALLOWED_CATEGORIES and status and notes
+                            and official_url.startswith("https://") and evidence_url.startswith("https://")):
+                        # Evidence URL must be reachable; never accept a model-invented citation.
+                        evidence_check = fetch_evidence(evidence_url)
+                        if evidence_check["ok"]:
+                            for key, value in (("Category", category), ("License Status", status[:240]),
+                                               ("Official URL", official_url), ("Notes", notes[:500])):
+                                if str(row.get(key, "")) != value:
+                                    row[key] = value
+                                    if key != "Category":
+                                        pass
+                                    changes += 1
+                            if str(row.get("Evidence URL", "")) != evidence_url:
+                                row["Evidence URL"] = evidence_url
+                            print(f"[UPDATED] {row.get('Software Name')}: {str(item.get('reason', 'verified correction'))[:180]}")
+                row["Last Verified Date"] = TODAY
+                verified_count += 1
+        print(f"[FILTER {stage}/5 COMPLETE] {category_filter}: verified {len(indices)} due rows.")
+    print(f"[FRESHNESS SUMMARY] verified={verified_count}; skipped_fresh={skipped_fresh}")
     return changes
-
 
 def main():
     if not KEY or CLIENT is None:
@@ -301,7 +329,11 @@ def main():
         fieldnames.append("Evidence URL")
         for row in rows:
             row["Evidence URL"] = ""
-    print(f"[START] Monthly audit date={TODAY}; rows={len(rows)}; models={MODELS}")
+    if "Last Verified Date" not in fieldnames:
+        fieldnames.append("Last Verified Date")
+        for row in rows:
+            row["Last Verified Date"] = ""
+    print(f"[START] Monthly audit date={TODAY}; rows={len(rows)}; models={MODELS}; freshness_days={VERIFIED_DAYS}; stages=5")
     # Audit first. If any API call fails, abort without writing partial changes.
     try:
         changed = audit_rows(rows)
