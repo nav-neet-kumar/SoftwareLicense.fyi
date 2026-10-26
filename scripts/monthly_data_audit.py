@@ -341,8 +341,12 @@ def main():
     print(f"[START] Monthly audit date={TODAY}; rows={len(rows)}; models={MODELS}; freshness_days={VERIFIED_DAYS}; stages=5")
     # Audit first. If any API call fails, abort without writing partial changes.
     try:
+        due_before_audit = any(not is_freshly_verified(row) for row in rows)
         changed = audit_rows(rows)
-        duplicates = resolve_duplicates(rows)
+        # Avoid extra duplicate-detection model calls when every row is still fresh.
+        duplicates = resolve_duplicates(rows) if due_before_audit else set()
+        if not due_before_audit:
+            print("[SKIP] All rows were verified within the freshness window; duplicate scan also skipped.")
     except Exception as exc:
         print(f"[ERROR] Audit aborted without writing files: {exc}")
         return 1
