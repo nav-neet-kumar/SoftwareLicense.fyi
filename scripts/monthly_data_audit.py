@@ -293,16 +293,17 @@ def audit_rows(rows):
                         # Evidence URL must be reachable; never accept a model-invented citation.
                         evidence_check = fetch_evidence(evidence_url)
                         if evidence_check["ok"]:
+                            row_changed = False
                             for key, value in (("Category", category), ("License Status", status[:240]),
-                                               ("Official URL", official_url), ("Notes", notes[:500])):
+                                               ("Official URL", official_url), ("Notes", notes[:500]),
+                                               ("Evidence URL", evidence_url)):
                                 if str(row.get(key, "")) != value:
                                     row[key] = value
-                                    if key != "Category":
-                                        pass
-                                    changes += 1
-                            if str(row.get("Evidence URL", "")) != evidence_url:
-                                row["Evidence URL"] = evidence_url
-                            print(f"[UPDATED] {row.get('Software Name')}: {str(item.get('reason', 'verified correction'))[:180]}")
+                                    row_changed = True
+                            if row_changed:
+                                row["Last Updated"] = TODAY
+                                changes += 1
+                                print(f"[UPDATED] {row.get('Software Name')}: {str(item.get('reason', 'verified correction'))[:180]}")
                 row["Last Verified Date"] = TODAY
                 verified_count += 1
         print(f"[FILTER {stage}/5 COMPLETE] {category_filter}: verified {len(indices)} due rows.")
