@@ -62,6 +62,25 @@ class MonthlyAuditHelpersTests(unittest.TestCase):
         self.assertFalse(monthly_audit.is_freshly_verified({}))
         self.assertFalse(monthly_audit.is_freshly_verified({"Last Verified Date": "not-a-date"}))
 
+    def test_checkpoint_writer_persists_rows_atomically(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "software_list.csv"
+            rows = [{
+                "Software Name": "Example",
+                "Category": "Open Source",
+                "License Status": "MIT",
+                "Official URL": "https://example.com",
+                "Last Updated": "2026-10-26",
+                "Notes": "Verified",
+                "Last Verified Date": "2026-10-26",
+            }]
+            columns = list(rows[0])
+            monthly_audit.write_csv_atomic(rows, columns, path)
+            with path.open("r", encoding="utf-8", newline="") as handle:
+                saved = list(__import__("csv").DictReader(handle))
+            self.assertEqual(saved, rows)
+            self.assertFalse(path.with_suffix(".csv.tmp").exists())
+
 
 class DiscoveryHelpersTests(unittest.TestCase):
     def test_normalization_ignores_punctuation_and_company_suffix(self):
