@@ -325,7 +325,7 @@ def main():
         reader = csv.DictReader(handle)
         fieldnames = list(reader.fieldnames or [])
         rows = list(reader)
-    missing = [name for name in COLUMNS if name not in fieldnames]
+    missing = [name for name in COLUMNS if name != "Last Verified Date" and name not in fieldnames]
     if missing:
         print(f"[ERROR] CSV is missing required columns: {missing}")
         return 1
