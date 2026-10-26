@@ -48,6 +48,21 @@ class MonthlyAuditHelpersTests(unittest.TestCase):
         self.assertEqual(pairs, [])
 
 
+    def test_last_verified_date_within_29_days_is_fresh(self):
+        from datetime import date, timedelta
+        row = {"Last Verified Date": (date.today() - timedelta(days=29)).isoformat()}
+        self.assertTrue(monthly_audit.is_freshly_verified(row))
+
+    def test_last_verified_date_at_30_days_is_due(self):
+        from datetime import date, timedelta
+        row = {"Last Verified Date": (date.today() - timedelta(days=30)).isoformat()}
+        self.assertFalse(monthly_audit.is_freshly_verified(row))
+
+    def test_missing_or_invalid_last_verified_date_is_due(self):
+        self.assertFalse(monthly_audit.is_freshly_verified({}))
+        self.assertFalse(monthly_audit.is_freshly_verified({"Last Verified Date": "not-a-date"}))
+
+
 class DiscoveryHelpersTests(unittest.TestCase):
     def test_normalization_ignores_punctuation_and_company_suffix(self):
         self.assertEqual(discovery.norm("Example, Inc."), discovery.norm("EXAMPLE"))
