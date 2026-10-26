@@ -2,7 +2,8 @@ name: 🧹 Monthly AI Data Audit
 
 on:
   schedule:
-    - cron: "0 8 1 * *"
+    # Temporary one-time run requested for 26 October 2026 at 14:10 IST (08:40 UTC).
+    - cron: "40 8 26 10 *"
   workflow_dispatch:
 
 permissions:
