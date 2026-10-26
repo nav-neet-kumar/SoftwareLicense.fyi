@@ -233,6 +233,10 @@ def is_freshly_verified(row):
 def audit_rows(rows):
     changes = 0
     verified_count = 0
+    unknown_categories = sorted({str(row.get("Category", "") or "") for row in rows
+                                 if row.get("Category", "") not in ALLOWED_CATEGORIES})
+    if unknown_categories:
+        raise ValueError(f"Rows have categories outside the five audit filters: {unknown_categories}")
     skipped_fresh = sum(1 for row in rows if is_freshly_verified(row))
     print(f"[FRESHNESS] Skipping {skipped_fresh} rows verified within the last {VERIFIED_DAYS} days.")
     # Process one license category at a time so the five stages are isolated and visible.
