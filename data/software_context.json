@@ -5098,5 +5098,605 @@
         "answer": "Typora is known for its seamless, distraction-free writing experience with a live preview that renders Markdown as you type."
       }
     ]
+  },
+  "openmediavault": {
+    "input_hash": "63867ed5975485450af41f0737489d42226471c7c9ef256df8939810d141658f",
+    "generated_at": "2026-10-26",
+    "summary": "OpenMediaVault is an open-source network-attached storage (NAS) solution built on Debian Linux. It provides a platform for centralized data storage and management, licensed under GPLv3.",
+    "what_it_does": "It functions as a network-attached storage (NAS) solution, allowing users to store and manage data centrally over a network.",
+    "best_for": "Users and small businesses needing a free, open-source, and customizable solution for network-attached storage.",
+    "free_tier": "OpenMediaVault is entirely free and open-source software.",
+    "limitations": "No inherent functional limitations are typically associated with its open-source nature, but users should consult official documentation for specific details.",
+    "licensing_notes": "OpenMediaVault is free and open-source software, licensed under the GNU General Public License version 3 (GPLv3).",
+    "faq": [
+      {
+        "question": "What is OpenMediaVault?",
+        "answer": "OpenMediaVault is a network-attached storage (NAS) solution based on Debian Linux."
+      },
+      {
+        "question": "What is its license?",
+        "answer": "It is free and open-source software licensed under GPLv3."
+      }
+    ]
+  },
+  "displayfusion": {
+    "input_hash": "613255a93ab9db7717c840d2eb71d14f68b95051c83259b814cbe2ddec094b81",
+    "generated_at": "2026-10-26",
+    "summary": "DisplayFusion is a multi-monitor management utility designed to enhance the experience of using multiple displays. It offers a limited free trial before requiring a paid license for full features.",
+    "what_it_does": "It provides advanced tools and features for managing multiple monitors, such as custom taskbars, window snapping, and monitor profiles.",
+    "best_for": "Users with multiple monitors who require advanced customization and management features beyond what their operating system offers.",
+    "free_tier": "A limited free trial is available. The visitor should check the official documentation for specific trial duration and feature limitations.",
+    "limitations": "Full functionality requires a paid Pro license. The free trial is limited in features or duration.",
+    "licensing_notes": "DisplayFusion requires a paid Pro license for full functionality. A limited free trial is available to evaluate the software.",
+    "faq": [
+      {
+        "question": "Is DisplayFusion free to use?",
+        "answer": "DisplayFusion offers a limited free trial, but a paid Pro license is required for full functionality."
+      },
+      {
+        "question": "What does DisplayFusion do?",
+        "answer": "It is a utility designed for advanced management and customization of multi-monitor setups."
+      }
+    ]
+  },
+  "wezterm": {
+    "input_hash": "56a00a41844c25ebb72836c0fe3884939a28772ea0be90debcfe2123489575c6",
+    "generated_at": "2026-10-26",
+    "summary": "WezTerm is a GPU-accelerated, cross-platform terminal emulator and multiplexer. It is available as free and open-source software licensed under MIT.",
+    "what_it_does": "It functions as a terminal emulator, providing a command-line interface, and also includes multiplexer capabilities for managing multiple terminal sessions. Its GPU acceleration aims for improved performance.",
+    "best_for": "Developers, system administrators, and power users who need a high-performance, customizable, and cross-platform terminal environment.",
+    "free_tier": "WezTerm is entirely free and open-source software.",
+    "limitations": "No inherent functional limitations are typically associated with its open-source nature, but users should consult official documentation for specific details.",
+    "licensing_notes": "WezTerm is free and open-source software, licensed under the MIT License.",
+    "faq": [
+      {
+        "question": "What is WezTerm?",
+        "answer": "WezTerm is a GPU-accelerated, cross-platform terminal emulator and multiplexer."
+      },
+      {
+        "question": "What is its license?",
+        "answer": "It is free and open-source software licensed under the MIT License."
+      }
+    ]
+  },
+  "orbstack": {
+    "input_hash": "d1633bdfbf1be707e66290722f30e9d5e83e9f237b688b920b56f8aeca2eab32",
+    "generated_at": "2026-10-26",
+    "summary": "OrbStack is a software solution that is free for personal and non-commercial use. Commercial use, however, requires a paid Pro or Business license.",
+    "what_it_does": "The visitor should check the official documentation to understand its core functionality.",
+    "best_for": "Individuals and non-commercial users can use it for free. Commercial entities requiring its functionality will need a paid license.",
+    "free_tier": "OrbStack is free for personal and non-commercial use.",
+    "limitations": "Commercial use requires a paid Pro or Business license.",
+    "licensing_notes": "OrbStack is free for personal and non-commercial use. A paid Pro or Business license is required for any commercial application.",
+    "faq": [
+      {
+        "question": "Is OrbStack free?",
+        "answer": "OrbStack is free for personal and non-commercial use."
+      },
+      {
+        "question": "Can I use OrbStack for my business?",
+        "answer": "Commercial use of OrbStack requires a paid Pro or Business license."
+      }
+    ]
+  },
+  "snipaste": {
+    "input_hash": "0d5bb1101e3768660c0624489f91b2cc443ec4653ab1e43ee82a0ff0a01acc14",
+    "generated_at": "2026-10-26",
+    "summary": "Snipaste is a tool available for free for personal and non-commercial use. Commercial use in a business environment requires a paid PRO or Commercial license.",
+    "what_it_does": "The visitor should check the official documentation to understand its core functionality.",
+    "best_for": "Individuals and non-commercial users can use it for free. Businesses and commercial entities will need to purchase a PRO or Commercial license.",
+    "free_tier": "Snipaste is free for personal and non-commercial use.",
+    "limitations": "Commercial use in a business environment requires a paid PRO or Commercial license.",
+    "licensing_notes": "Snipaste is free for personal and non-commercial use. A PRO or Commercial license must be purchased for use in a business environment.",
+    "faq": [
+      {
+        "question": "Is Snipaste free for everyone?",
+        "answer": "Snipaste is free for personal and non-commercial use."
+      },
+      {
+        "question": "What license do I need for commercial use?",
+        "answer": "Commercial use in a business environment requires purchasing a PRO or Commercial license."
+      }
+    ]
+  },
+  "directory-opus": {
+    "input_hash": "29c5af97316c7b91b9236daba730c26e432ccfde34a1425e9b76cd8ea5c7b8e0",
+    "generated_at": "2026-10-26",
+    "summary": "Directory Opus is a paid proprietary software solution that offers a comprehensive file management experience. It includes a free 60-day evaluation period before requiring a license for continued use.",
+    "what_it_does": "It functions as an advanced file manager, providing extensive features for organizing, viewing, and manipulating files and folders.",
+    "best_for": "Power users and professionals who need a highly customizable and feature-rich file management tool.",
+    "free_tier": "A free 60-day evaluation period is available.",
+    "limitations": "Continued use after the 60-day evaluation period requires a paid license.",
+    "licensing_notes": "Directory Opus is paid proprietary software. A paid license is required for continued use after its 60-day evaluation period.",
+    "faq": [
+      {
+        "question": "Is there a free version of Directory Opus?",
+        "answer": "Directory Opus offers a free 60-day evaluation period."
+      },
+      {
+        "question": "What happens after the trial period?",
+        "answer": "A paid license is required for continued use after the 60-day evaluation period."
+      }
+    ]
+  },
+  "magnet": {
+    "input_hash": "567e2335f9a4b139333350aa955a1aa262000e95dd87a970bf522bec6726b2ba",
+    "generated_at": "2026-10-26",
+    "summary": "Magnet is a proprietary window manager designed for macOS, available exclusively as a paid purchase. It helps users organize their workspace by snapping windows into predefined layouts.",
+    "what_it_does": "It functions as a macOS window manager, allowing users to arrange and snap windows into various configurations for improved productivity.",
+    "best_for": "macOS users who need an efficient tool to manage and organize their application windows.",
+    "free_tier": "There is no free tier; Magnet is a paid application.",
+    "limitations": "Magnet is a paid application and requires purchase. It is exclusively available on macOS.",
+    "licensing_notes": "Magnet is a proprietary macOS application that requires a paid purchase. It is available exclusively on the Mac App Store.",
+    "faq": [
+      {
+        "question": "Is Magnet free?",
+        "answer": "No, Magnet is a paid application requiring purchase."
+      },
+      {
+        "question": "What platform does Magnet support?",
+        "answer": "Magnet is a proprietary macOS window manager."
+      }
+    ]
+  },
+  "graalvm-community-edition": {
+    "input_hash": "d9ecbe68de41618a8db0a70b6c6be742f1d6ddbd1c32acfa202a8f21ec63270d",
+    "generated_at": "2026-10-26",
+    "summary": "GraalVM Community Edition is a free and open-source high-performance runtime that provides significant performance improvements for applications. It is licensed under GPLv2 with Classpath Exception and UPL.",
+    "what_it_does": "It is a high-performance runtime that can run applications written in various languages, offering advanced optimizations and polyglot capabilities.",
+    "best_for": "Developers and organizations looking for a high-performance runtime environment for Java, JavaScript, and other languages, especially for cloud-native and microservices architectures.",
+    "free_tier": "GraalVM Community Edition is entirely free and open-source software.",
+    "limitations": "No inherent functional limitations are typically associated with its open-source nature, but users should consult official documentation for specific details.",
+    "licensing_notes": "GraalVM Community Edition is free and open-source software, licensed primarily under the GNU General Public License version 2 with Classpath Exception and the Universal Permissive License (UPL).",
+    "faq": [
+      {
+        "question": "Is GraalVM Community Edition free?",
+        "answer": "Yes, GraalVM Community Edition is free and open-source software."
+      },
+      {
+        "question": "What are its primary licenses?",
+        "answer": "It is licensed primarily under GPLv2 with Classpath Exception and the Universal Permissive License."
+      }
+    ]
+  },
+  "alpine-linux": {
+    "input_hash": "8be5d887a6e3709fd6673ce218bffa3a45106e7bddfe9d867035df6963460677",
+    "generated_at": "2026-10-26",
+    "summary": "Alpine Linux is an entirely free and open-source operating system known for its small size and security focus. It is built using musl libc and BusyBox.",
+    "what_it_does": "It provides a lightweight and secure operating system environment, often used for containers, embedded systems, and servers due to its minimal footprint.",
+    "best_for": "Developers, system administrators, and organizations needing a lightweight, secure, and resource-efficient operating system, particularly for containerization and embedded applications.",
+    "free_tier": "Alpine Linux is entirely free and open-source software.",
+    "limitations": "No inherent functional limitations are typically associated with its open-source nature, but users should consult official documentation for specific details. Its minimal design might require users to install additional packages for certain functionalities.",
+    "licensing_notes": "Alpine Linux is entirely free and open-source software, released under GPL-2.0 and various other permissive and copyleft open-source licenses.",
+    "faq": [
+      {
+        "question": "Is Alpine Linux free?",
+        "answer": "Yes, Alpine Linux is an entirely free and open-source operating system."
+      },
+      {
+        "question": "What is Alpine Linux known for?",
+        "answer": "It is known for being a lightweight and secure operating system, often used in containers."
+      }
+    ]
+  },
+  "tidb": {
+    "input_hash": "35a3320aab109d0cd8c67dbce373b0067b4f16cc142e359588d4be370401c1a2",
+    "generated_at": "2026-10-26",
+    "summary": "TiDB is an open-source distributed SQL database designed for large-scale data storage and processing. It is released under the Apache License 2.0.",
+    "what_it_does": "It provides a distributed SQL database solution that offers horizontal scalability, strong consistency, and high availability, compatible with the MySQL protocol.",
+    "best_for": "Enterprises and developers needing a scalable, highly available, and MySQL-compatible distributed SQL database for large-scale applications and services.",
+    "free_tier": "TiDB is entirely free and open-source software.",
+    "limitations": "No inherent functional limitations are typically associated with its open-source nature, but users should consult official documentation for specific details.",
+    "licensing_notes": "TiDB is open-source software released under the Apache License 2.0.",
+    "faq": [
+      {
+        "question": "What is TiDB?",
+        "answer": "TiDB is an open-source distributed SQL database."
+      },
+      {
+        "question": "What is its license?",
+        "answer": "It is released under the Apache License 2.0."
+      }
+    ]
+  },
+  "dbgate": {
+    "input_hash": "266dfe2d0a0d039e6d22613bcae0c3dd504f8ef4890acf2cc781b8bed34fa627",
+    "generated_at": "2026-10-26",
+    "summary": "DbGate is an open-source database client designed for managing and interacting with various databases. It is licensed under the permissive MIT License, allowing both personal and commercial use.",
+    "what_it_does": "It functions as a database client, providing a graphical interface and tools for connecting to, querying, and managing different types of databases.",
+    "best_for": "Developers, database administrators, and data analysts who need a versatile and free database client for both personal and commercial projects.",
+    "free_tier": "DbGate is entirely free and open-source software for both personal and commercial use.",
+    "limitations": "No inherent functional limitations are typically associated with its open-source nature, but users should consult official documentation for specific details.",
+    "licensing_notes": "DbGate is open-source software licensed under the permissive MIT License, allowing for both personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is DbGate free for commercial use?",
+        "answer": "Yes, DbGate is open-source and licensed under the MIT License, permitting both personal and commercial use."
+      },
+      {
+        "question": "What is DbGate?",
+        "answer": "DbGate is an open-source database client."
+      }
+    ]
+  },
+  "textmate": {
+    "input_hash": "35ad9028bffa53757fc4a41daff9a9ec4adce20fbd6e1f0a32c26497efbeae29",
+    "generated_at": "2026-10-26",
+    "summary": "TextMate is a text editor specifically designed for macOS, released as free and open-source software. It provides a powerful and customizable environment for coding and writing, licensed under GPLv3.",
+    "what_it_does": "It functions as a text editor, offering features for programming, scripting, and general text manipulation, with support for various languages and workflows.",
+    "best_for": "macOS developers, programmers, and writers who prefer a customizable and feature-rich text editor.",
+    "free_tier": "TextMate is entirely free and open-source software.",
+    "limitations": "No inherent functional limitations are typically associated with its open-source nature, but users should consult official documentation for specific details. It is exclusively for macOS.",
+    "licensing_notes": "TextMate is free and open-source software, licensed under the GNU General Public License version 3 (GPLv3).",
+    "faq": [
+      {
+        "question": "What is TextMate?",
+        "answer": "TextMate is a text editor for macOS."
+      },
+      {
+        "question": "What is its license?",
+        "answer": "It is free and open-source software licensed under GPLv3."
+      }
+    ]
+  },
+  "wings-3d": {
+    "input_hash": "af40c510c8dd61250d93e8ce2e8a43ab543685ce1164cf1775b741620d4778c0",
+    "generated_at": "2026-10-26",
+    "summary": "Wings 3D is an open-source subdivision modeler used for creating 3D models. It is available for free under a permissive BSD-style license.",
+    "what_it_does": "It provides tools for polygon modeling, specifically focusing on subdivision modeling, to create organic and hard-surface 3D models.",
+    "best_for": "3D artists, designers, and hobbyists who need a free and open-source tool for subdivision modeling.",
+    "free_tier": "Wings 3D is entirely free and open-source software.",
+    "limitations": "No inherent functional limitations are typically associated with its open-source nature, but users should consult official documentation for specific details.",
+    "licensing_notes": "Wings 3D is free and open-source software, licensed under a permissive BSD-style license.",
+    "faq": [
+      {
+        "question": "What is Wings 3D?",
+        "answer": "Wings 3D is an open-source subdivision modeler for creating 3D models."
+      },
+      {
+        "question": "What is its license?",
+        "answer": "It is free and open-source software licensed under a permissive BSD-style license."
+      }
+    ]
+  },
+  "renoise": {
+    "input_hash": "6cb015b7b462221dc6ea482baf0d726b6ff89369c0b1fb4343e54358a293ac7e",
+    "generated_at": "2026-10-26",
+    "summary": "Renoise is a commercial Digital Audio Workstation (DAW) that requires a paid user license for full functionality. It offers a unique tracker-based interface for music production.",
+    "what_it_does": "It functions as a Digital Audio Workstation (DAW), providing tools for composing, recording, arranging, and mixing music, primarily with a tracker-style interface.",
+    "best_for": "Musicians, producers, and sound designers who prefer a tracker-based workflow for music production and audio manipulation.",
+    "free_tier": "The visitor should check the official documentation for details on free tiers or trial availability.",
+    "limitations": "Full functionality requires a paid user license. The visitor should check the official documentation for any specific limitations of trial versions, if available.",
+    "licensing_notes": "Renoise is commercial software that requires a paid user license for full functionality.",
+    "faq": [
+      {
+        "question": "Is Renoise free?",
+        "answer": "No, Renoise is a commercial Digital Audio Workstation that requires a paid user license."
+      },
+      {
+        "question": "What type of software is Renoise?",
+        "answer": "Renoise is a Digital Audio Workstation (DAW) primarily known for its tracker-based interface."
+      }
+    ]
+  },
+  "sniffnet": {
+    "input_hash": "9b0b54dbc21996b6754aa18b421af8fd78fae19dfb3f5c3e25afa7254443fb17",
+    "generated_at": "2026-10-26",
+    "summary": "Sniffnet is an open-source network monitoring tool developed in Rust. It is available for free under MIT/Apache-2.0 licenses.",
+    "what_it_does": "It provides capabilities for monitoring network traffic, allowing users to analyze data flow, identify connections, and gain insights into network activity.",
+    "best_for": "Network administrators, security professionals, and users who need a free and open-source tool to monitor and analyze network traffic.",
+    "free_tier": "Sniffnet is entirely free and open-source software.",
+    "limitations": "No inherent functional limitations are typically associated with its open-source nature, but users should consult official documentation for specific details.",
+    "licensing_notes": "Sniffnet is free and open-source software, licensed under MIT/Apache-2.0.",
+    "faq": [
+      {
+        "question": "What is Sniffnet?",
+        "answer": "Sniffnet is an open-source network monitoring tool."
+      },
+      {
+        "question": "What is its license?",
+        "answer": "It is free and open-source software licensed under MIT/Apache-2.0."
+      }
+    ]
+  },
+  "termius": {
+    "input_hash": "8384b171067e7be5aaf087d5ac90ecad23a79803201e8d255f4ce9b6df919b9b",
+    "generated_at": "2026-10-26",
+    "summary": "Termius is a cross-platform SSH client and terminal emulator that offers a freemium model. It provides a free Starter plan for basic individual use.",
+    "what_it_does": "It provides secure shell (SSH) access, terminal emulation, and other remote connection features for managing servers and network devices across various operating systems.",
+    "best_for": "Individuals needing basic SSH access, or commercial teams and users requiring advanced features, team collaboration, and commercial support.",
+    "free_tier": "A free Starter plan is available for basic individual use.",
+    "limitations": "The free Starter plan has limitations on advanced functionality and is not intended for commercial team use. Specific feature limitations should be verified with official documentation.",
+    "licensing_notes": "Termius operates on a proprietary freemium model. While a free Starter plan exists for basic individual use, paid subscription licenses are required for advanced features and commercial team usage.",
+    "faq": [
+      {
+        "question": "Can I use Termius for free?",
+        "answer": "Yes, Termius offers a free Starter plan for basic individual use."
+      },
+      {
+        "question": "Is Termius suitable for commercial teams?",
+        "answer": "Commercial teams and users requiring advanced features need a paid subscription license."
+      }
+    ]
+  },
+  "staruml": {
+    "input_hash": "b409e8ece48467eeb71b2dd473c3b534c970ea08557daf282af412c3454d0557",
+    "generated_at": "2026-10-26",
+    "summary": "StarUML is a software modeling tool that supports UML (Unified Modeling Language) diagrams. It provides an evaluation version for trial purposes.",
+    "what_it_does": "It allows users to create various UML diagrams and other modeling artifacts for software design, analysis, and documentation.",
+    "best_for": "Individuals and organizations needing a tool for software modeling and UML diagram creation, especially for evaluation before commercial use.",
+    "free_tier": "An evaluation version is available for trial purposes.",
+    "limitations": "The evaluation version is intended for trial purposes only. Continuous commercial use is not permitted without a paid license. Specific limitations of the evaluation version should be checked in the official documentation.",
+    "licensing_notes": "StarUML provides a free evaluation version for trial purposes. However, continuous commercial use of the software requires the purchase of a paid commercial license.",
+    "faq": [
+      {
+        "question": "Can I use StarUML for free?",
+        "answer": "Yes, an evaluation version is available for trial purposes."
+      },
+      {
+        "question": "Is the evaluation version suitable for commercial projects?",
+        "answer": "No, continuous commercial use requires purchasing a paid license."
+      }
+    ]
+  },
+  "fl-studio": {
+    "input_hash": "d4a466d27df2c9d5c5b143f1343a4c6586c8881bdde1a114a2370ceb2b0e2999",
+    "generated_at": "2026-10-26",
+    "summary": "FL Studio is a digital audio workstation (DAW) for music production. It requires a paid license for full functionality and commercial production.",
+    "what_it_does": "It provides tools for composing, arranging, recording, editing, mixing, and mastering music, suitable for various genres and production styles.",
+    "best_for": "Music producers, artists, and sound engineers who need a comprehensive DAW for commercial and personal music production.",
+    "free_tier": "FL Studio requires a paid license for full functionality. Check official documentation for trial availability.",
+    "limitations": "Without a paid license, full functionality and commercial production capabilities are not available. Specific limitations of any trial version should be checked in the official documentation.",
+    "licensing_notes": "FL Studio requires a paid license for full functionality and commercial production. This paid license typically includes lifetime free updates.",
+    "faq": [
+      {
+        "question": "Can I use FL Studio for free?",
+        "answer": "FL Studio requires a paid license for full functionality. Please check the official documentation for any trial versions."
+      },
+      {
+        "question": "What does a paid FL Studio license include?",
+        "answer": "A paid license provides full functionality for commercial production and typically includes lifetime free updates."
+      }
+    ]
+  },
+  "ableton-live": {
+    "input_hash": "c092762a9abfedb6d78fbe6be1d3e1f9f2027539ab4fea86a5a4ae8f99d348b0",
+    "generated_at": "2026-10-26",
+    "summary": "Ableton Live is commercial digital audio software known for its intuitive interface and performance capabilities. It requires a paid user license following a trial period.",
+    "what_it_does": "It enables users to create, produce, and perform music, offering features for composition, recording, mixing, and live electronic music performance.",
+    "best_for": "Musicians, producers, and live performers seeking a versatile DAW for studio production and live electronic music performance.",
+    "free_tier": "A trial period is available before a paid license is required. Specific duration should be checked in official documentation.",
+    "limitations": "Full functionality and continued use require a paid license after the trial period. Specific limitations of the trial should be checked in the official documentation.",
+    "licensing_notes": "Ableton Live is commercial software that requires a paid user license for continued use. A trial period is typically offered before purchase.",
+    "faq": [
+      {
+        "question": "Is there a free version of Ableton Live?",
+        "answer": "A trial period is available, after which a paid user license is required for continued use."
+      },
+      {
+        "question": "Can I use Ableton Live for commercial projects?",
+        "answer": "Yes, with a paid user license, it is suitable for commercial production."
+      }
+    ]
+  },
+  "octopus-deploy": {
+    "input_hash": "ac108bce80b9926b7dcb8f5c9d11844861b8ec10af7dbf8dc1299c721d3f6b62",
+    "generated_at": "2026-10-26",
+    "summary": "Octopus Deploy is a deployment automation server designed to simplify complex software deployments. It offers a free Community Edition and paid enterprise tiers.",
+    "what_it_does": "It automates application and database deployments, managing releases, environments, and infrastructure across various platforms.",
+    "best_for": "Small teams needing a free deployment automation solution, or larger organizations with complex deployment needs requiring enterprise-grade features and support.",
+    "free_tier": "A free Community Edition is available.",
+    "limitations": "The free Community Edition is designed for small teams. Larger deployment needs and advanced features are typically available in paid enterprise tiers. Specific limits should be checked in official documentation.",
+    "licensing_notes": "Octopus Deploy offers a free Community Edition suitable for small teams. For larger deployment requirements and additional features, paid enterprise tiers are available.",
+    "faq": [
+      {
+        "question": "Is there a free version of Octopus Deploy?",
+        "answer": "Yes, a free Community Edition is available for small teams."
+      },
+      {
+        "question": "What are the options for larger organizations?",
+        "answer": "Paid enterprise tiers are available for larger deployment needs and advanced features."
+      }
+    ]
+  },
+  "apache-kafka": {
+    "input_hash": "c606ca54aa6f4d86723352e7634b435988fd44b2aae75032ef8d21bb9a117f80",
+    "generated_at": "2026-10-26",
+    "summary": "Apache Kafka is an open-source distributed streaming platform designed for building real-time data pipelines and streaming applications. It is licensed under the permissive Apache License 2.0.",
+    "what_it_does": "It enables building real-time data pipelines and streaming applications, handling high-throughput, fault-tolerant data feeds for various use cases.",
+    "best_for": "Developers and organizations needing a robust, scalable, and fault-tolerant system for handling real-time data streams and event processing.",
+    "free_tier": "As an open-source project, the core software is free to use.",
+    "limitations": "The core Apache Kafka project is open source. Users should be aware that commercial distributions or managed services built on Kafka may have their own licensing and pricing models.",
+    "licensing_notes": "Apache Kafka is an open-source project distributed under the Apache License 2.0. This license permits free commercial and non-commercial use.",
+    "faq": [
+      {
+        "question": "Can I use Apache Kafka for commercial projects?",
+        "answer": "Yes, Apache Kafka is licensed under Apache License 2.0, which allows free commercial and non-commercial use."
+      },
+      {
+        "question": "Is there a cost associated with Apache Kafka?",
+        "answer": "The core Apache Kafka software is free and open-source. Commercial distributions or managed services may have associated costs."
+      }
+    ]
+  },
+  "kubernetes": {
+    "input_hash": "a4844b1d525c2831c3f217473aa759ecda057502bfc5c750a1b1022ae2da89b1",
+    "generated_at": "2026-10-26",
+    "summary": "Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications. It is licensed under the Apache License 2.0.",
+    "what_it_does": "It orchestrates containerized workloads and services, facilitating declarative configuration, automation, and management of applications at scale.",
+    "best_for": "Organizations and developers deploying and managing containerized applications at scale, requiring robust orchestration, scaling, and self-healing capabilities.",
+    "free_tier": "As fully open-source software, the core Kubernetes project is free to use.",
+    "limitations": "The core Kubernetes project is open source. Users should be aware that commercial distributions, managed services, or enterprise support offerings built on Kubernetes may have their own licensing and pricing models.",
+    "licensing_notes": "Kubernetes is fully open-source software, managed by the Cloud Native Computing Foundation and licensed under the Apache License 2.0. This permits free commercial and non-commercial use.",
+    "faq": [
+      {
+        "question": "Can I use Kubernetes for commercial purposes?",
+        "answer": "Yes, Kubernetes is open-source under the Apache License 2.0, allowing free commercial and non-commercial use."
+      },
+      {
+        "question": "Is there a cost to use Kubernetes?",
+        "answer": "The core Kubernetes software is free and open-source. Commercial distributions, managed services, or support may have associated costs."
+      }
+    ]
+  },
+  "mobaxterm": {
+    "input_hash": "5d24a5c44a640955ef2501ff25eff09cebbefd0585be22176c240692b151d2c9",
+    "generated_at": "2026-10-26",
+    "summary": "MobaXterm is an enhanced terminal for Windows with an X11 server, tabbed SSH client, network tools, and more. It offers a free Home Edition for personal use and a paid Professional Edition for commercial use.",
+    "what_it_does": "It provides a single portable executable for remote computing, including SSH, RDP, VNC, SFTP, and other network utilities, simplifying remote access tasks.",
+    "best_for": "Individuals needing a comprehensive remote computing toolbox for personal use, or professionals and organizations requiring advanced features and commercial support.",
+    "free_tier": "A free Home Edition is available for personal use.",
+    "limitations": "The free Home Edition is restricted to personal use. Commercial environments require a paid Professional Edition license. Specific feature limitations of the Home Edition should be checked in the official documentation.",
+    "licensing_notes": "MobaXterm offers a free Home Edition for personal use. A paid Professional Edition license is required for use in commercial environments.",
+    "faq": [
+      {
+        "question": "Can I use MobaXterm for free?",
+        "answer": "Yes, a free Home Edition is available for personal use."
+      },
+      {
+        "question": "Is MobaXterm free for commercial use?",
+        "answer": "No, a paid Professional Edition license is required for commercial environments."
+      }
+    ]
+  },
+  "unreal-engine": {
+    "input_hash": "fa5b76b0996deec6d1d8312760554349d7b4543a7e4e8231fc3571283d1d87b2",
+    "generated_at": "2026-10-26",
+    "summary": "Unreal Engine is a powerful real-time 3D creation tool for photorealistic visuals and immersive experiences. It is free to download and use, with specific commercial licensing terms based on revenue.",
+    "what_it_does": "It provides a comprehensive suite of tools for game development, architectural visualization, film production, and other real-time 3D applications.",
+    "best_for": "Game developers, filmmakers, architects, and other creators needing a high-fidelity real-time 3D engine for personal and commercial projects.",
+    "free_tier": "The engine is free to download and use initially.",
+    "limitations": "Commercial game titles owe a 5% royalty after $1 million in lifetime gross revenue. Enterprise non-game uses exceeding $1 million in annual revenue require per-seat annual licenses.",
+    "licensing_notes": "Unreal Engine is free to download and use. Commercial game titles are subject to a 5% royalty after $1 million in lifetime gross revenue. For enterprise non-game uses, per-seat annual licenses are required if annual revenue exceeds $1 million.",
+    "faq": [
+      {
+        "question": "Is Unreal Engine free to use?",
+        "answer": "Yes, it is free to download and use initially, but specific commercial terms apply based on revenue."
+      },
+      {
+        "question": "When do I need to pay for Unreal Engine?",
+        "answer": "Commercial game titles owe a 5% royalty after $1 million in lifetime gross revenue. Enterprise non-game uses exceeding $1 million in annual revenue require per-seat annual licenses."
+      }
+    ]
+  },
+  "tower": {
+    "input_hash": "b2caef191bf6607bd497e8e3575e5af3592b822ac814dbcde7c2b91ce3de94f5",
+    "generated_at": "2026-10-26",
+    "summary": "Tower is a powerful Git client for macOS and Windows, designed to make Git easier and more accessible. It requires a paid annual subscription after a 30-day free trial.",
+    "what_it_does": "It provides a graphical user interface for managing Git repositories, including committing, branching, merging, and pushing changes, simplifying complex Git operations.",
+    "best_for": "Developers and teams who prefer a robust graphical interface for managing their Git workflows and repositories.",
+    "free_tier": "A 30-day free trial is available.",
+    "limitations": "After the 30-day free trial, a paid annual subscription per user is required for continued use.",
+    "licensing_notes": "Tower is proprietary software. A paid annual subscription per user is required for continued use after a 30-day free trial.",
+    "faq": [
+      {
+        "question": "Is there a free version of Tower?",
+        "answer": "A 30-day free trial is available. After this period, a paid annual subscription is required."
+      },
+      {
+        "question": "What happens after the trial period?",
+        "answer": "A paid annual subscription per user is required to continue using Tower after the 30-day free trial."
+      }
+    ]
+  },
+  "rancher-desktop": {
+    "input_hash": "0e76b57226f5dfd5f854b5a3fd69ba4d93e26fd117d4371b8b0bd23130c53854",
+    "generated_at": "2026-10-26",
+    "summary": "Rancher Desktop is an open-source desktop application for Kubernetes and container management. It is free for both personal and commercial use under the Apache License 2.0.",
+    "what_it_does": "It provides a local Kubernetes cluster and container management tools (like Docker Desktop alternatives) on your desktop, facilitating local development.",
+    "best_for": "Developers and teams needing a local Kubernetes and container development environment that is free and open-source for personal and commercial projects.",
+    "free_tier": "As an open-source project, it is free to use.",
+    "limitations": "None specified beyond general open-source project considerations. Users should check official documentation for specific system requirements or known issues.",
+    "licensing_notes": "Rancher Desktop is an open-source project released under the Apache License 2.0, making it free for both personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is Rancher Desktop free for commercial use?",
+        "answer": "Yes, it is free and open-source under the Apache License 2.0, allowing both personal and commercial use."
+      },
+      {
+        "question": "What license does Rancher Desktop use?",
+        "answer": "Rancher Desktop is licensed under the Apache License 2.0."
+      }
+    ]
+  },
+  "proton-vpn": {
+    "input_hash": "14482f44fe25d94d8c3ae1cdd1b5e46e5367c1ac1c2f15d0b866bc67b7ee9d98",
+    "generated_at": "2026-10-26",
+    "summary": "Proton VPN is a secure VPN service with open-source client applications. Its official client applications are open source under the GPLv3 license.",
+    "what_it_does": "It encrypts internet traffic and routes it through secure servers, enhancing online privacy and security for users.",
+    "best_for": "Individuals seeking enhanced online privacy and security through a VPN service, particularly those who value open-source software and independent security audits.",
+    "free_tier": "Proton VPN typically offers a free tier for its service. The client applications themselves are open source. Specific free tier limits should be checked in official documentation.",
+    "limitations": "While the client applications are open source, the VPN service itself may have free tier limitations (e.g., speed, server locations, data limits) or require paid subscriptions for full features. Check official documentation for service limitations.",
+    "licensing_notes": "All official Proton VPN client applications are open source under the GPLv3 license, with publicly available source code. The VPN service itself may have different subscription models.",
+    "faq": [
+      {
+        "question": "Are Proton VPN client applications open source?",
+        "answer": "Yes, all official client applications are open source under the GPLv3 license."
+      },
+      {
+        "question": "Is the Proton VPN service entirely free?",
+        "answer": "While the client applications are open source, the VPN service typically offers a free tier with limitations and paid subscriptions for full features. Check official documentation."
+      }
+    ]
+  },
+  "snort": {
+    "input_hash": "3db52e084a2ecdb4296a3e3406bb0f9521c0bd3be948bc9ec3a976b79bf50fae",
+    "generated_at": "2026-10-26",
+    "summary": "Snort is a free and open-source network intrusion detection and prevention system (IDS/IPS). It is licensed under the GNU General Public License v2 (GPLv2).",
+    "what_it_does": "It performs real-time traffic analysis and packet logging on IP networks, detecting various attacks, probes, and suspicious activities.",
+    "best_for": "Network administrators, security professionals, and organizations needing a robust, free, and open-source solution for network intrusion detection and prevention.",
+    "free_tier": "As a free, open-source project, the core software is available without cost.",
+    "limitations": "None specified for the core software. Users should be aware that commercial support or advanced rule sets might have associated costs from third parties.",
+    "licensing_notes": "Snort is a free, open-source network intrusion detection and prevention system licensed under the GNU General Public License v2 (GPLv2).",
+    "faq": [
+      {
+        "question": "Is Snort free to use for commercial purposes?",
+        "answer": "Yes, Snort is free and open-source under the GPLv2 license, which permits commercial use."
+      },
+      {
+        "question": "What is Snort primarily used for?",
+        "answer": "Snort is primarily used as a network intrusion detection and prevention system (IDS/IPS) for real-time traffic analysis."
+      }
+    ]
+  },
+  "davinci-resolve": {
+    "input_hash": "dd15d3c3ba4242a573004340556755395af8ac0015beead6741b91f5295eb57e",
+    "generated_at": "2026-10-26",
+    "summary": "DaVinci Resolve is a professional video editing, color correction, visual effects, and audio post-production software. It offers a fully functional free version and a paid Studio edition.",
+    "what_it_does": "It provides a comprehensive suite of tools for post-production workflows, integrating editing, color grading, VFX, and audio in one application.",
+    "best_for": "Video editors, colorists, VFX artists, and sound engineers, from hobbyists to professionals, seeking a powerful and integrated post-production solution.",
+    "free_tier": "A fully functional free version is available for personal and commercial use.",
+    "limitations": "The free version has limitations compared to the paid Studio edition, which includes advanced features like neural engine capabilities, stereoscopic 3D tools, and multi-user collaboration. Specific feature differences should be checked in official documentation.",
+    "licensing_notes": "DaVinci Resolve offers a fully functional free version that can be used for both personal and commercial projects. A paid DaVinci Resolve Studio version is available for advanced features and capabilities.",
+    "faq": [
+      {
+        "question": "Is there a free version of DaVinci Resolve?",
+        "answer": "Yes, a fully functional free version is available for personal and commercial use."
+      },
+      {
+        "question": "What is the difference between the free and Studio versions?",
+        "answer": "The paid Studio version includes advanced features not present in the free version, such as neural engine capabilities and multi-user collaboration."
+      }
+    ]
+  },
+  "cockroachdb": {
+    "input_hash": "bffd5d7e82b51d60d1a482fc6c643077fa287788fb20fdbe55fd2b90fe10dd8a",
+    "generated_at": "2026-10-26",
+    "summary": "CockroachDB is a distributed SQL database designed for high availability and global scale. It now requires a paid commercial license for businesses exceeding certain revenue or funding thresholds.",
+    "what_it_does": "It provides a resilient, geo-distributed, and scalable database solution for transactional workloads, ensuring data consistency and availability.",
+    "best_for": "Commercial entities requiring a highly available, globally distributed SQL database, especially those with significant revenue or funding.",
+    "free_tier": "The Community Edition was retired in 2024. Users should check official documentation for current free options, such as cloud free tiers or developer licenses, if any.",
+    "limitations": "For businesses with over $10M in annual revenue or raised capital, a paid commercial license is required.",
+    "licensing_notes": "CockroachDB retired its Community Edition in 2024. A paid commercial license is now required for businesses with over $10M in annual revenue or raised capital.",
+    "faq": [
+      {
+        "question": "Is there a free version of CockroachDB?",
+        "answer": "The Community Edition was retired in 2024. Please check the official documentation for current free options or developer licenses."
+      },
+      {
+        "question": "When is a paid license required for CockroachDB?",
+        "answer": "A paid commercial license is required for businesses with over $10M in annual revenue or raised capital."
+      }
+    ]
   }
 }
