@@ -5698,5 +5698,605 @@
         "answer": "A paid commercial license is required for businesses with over $10M in annual revenue or raised capital."
       }
     ]
+  },
+  "kamal": {
+    "input_hash": "4bb5c7a068d9f3c2bda82bd1a649fa2e5570d37656774cea9e4fb514b8dff65b",
+    "generated_at": "2026-10-26",
+    "summary": "Kamal is an open-source web application deployment tool licensed under the MIT License. It simplifies the process of getting web apps running.",
+    "what_it_does": "It serves as a deployment tool for web applications, streamlining the steps involved in deploying them to servers.",
+    "best_for": "Developers and teams looking for an open-source solution to deploy web applications efficiently.",
+    "free_tier": "As open-source software, Kamal is available for free use.",
+    "limitations": "Specific limitations are not detailed in the provided information. Please refer to the official documentation.",
+    "licensing_notes": "Kamal is open-source software licensed under the MIT License, allowing for free personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is Kamal free to use?",
+        "answer": "Yes, Kamal is open-source software licensed under the MIT License, making it free for both personal and commercial use."
+      },
+      {
+        "question": "What is Kamal used for?",
+        "answer": "Kamal is a tool designed for deploying web applications."
+      }
+    ]
+  },
+  "popclip": {
+    "input_hash": "1b18ddcb66c7f7486a0f9bf4639f1e8a540979abc5c14ed51e8010aa81801f0d",
+    "generated_at": "2026-10-26",
+    "summary": "PopClip is a commercial text-selection productivity utility for macOS that enhances text selection with various actions. It requires a paid license for use.",
+    "what_it_does": "It provides a pop-up menu with context-sensitive actions when text is selected on macOS, improving productivity for common tasks.",
+    "best_for": "macOS users who want to enhance their text selection capabilities with quick actions and integrations.",
+    "free_tier": "The provided information does not mention a free tier. A paid license is required.",
+    "limitations": "The software requires a paid license for full functionality. Specific feature limitations are not detailed.",
+    "licensing_notes": "PopClip is commercial software that requires a paid license for operation.",
+    "faq": [
+      {
+        "question": "Is PopClip free?",
+        "answer": "No, PopClip is commercial software that requires a paid license."
+      },
+      {
+        "question": "What platform does PopClip support?",
+        "answer": "PopClip is a productivity utility designed for macOS."
+      }
+    ]
+  },
+  "john-the-ripper": {
+    "input_hash": "51285a269f4035be1c081139e85f54c4f1177218dc6443b089699ec733340de4",
+    "generated_at": "2026-10-26",
+    "summary": "John the Ripper is an open-source password security auditing tool licensed under the GNU GPL. It helps identify weak passwords.",
+    "what_it_does": "It helps in testing the strength of passwords and identifying weak ones through various cracking techniques and dictionary attacks.",
+    "best_for": "Security professionals, system administrators, and auditors performing password security assessments.",
+    "free_tier": "As open-source software, John the Ripper is available for free use.",
+    "limitations": "Specific limitations are not detailed in the provided information. Please refer to the official documentation.",
+    "licensing_notes": "John the Ripper is open-source software licensed under the GNU GPL, allowing for free personal and commercial use under the terms of the license.",
+    "faq": [
+      {
+        "question": "Is John the Ripper free?",
+        "answer": "Yes, John the Ripper is open-source software licensed under the GNU GPL, making it free to use."
+      },
+      {
+        "question": "What is the primary purpose of John the Ripper?",
+        "answer": "It is primarily used as a password security auditing tool to test password strength."
+      }
+    ]
+  },
+  "apache-solr": {
+    "input_hash": "eacee811149fd9555e5e6fbbd89828ea20c5ae99cb959f13775351cbe5a292f7",
+    "generated_at": "2026-10-26",
+    "summary": "Apache Solr is an open-source enterprise search platform designed for powerful full-text search capabilities. It is distributed under the Apache License 2.0.",
+    "what_it_does": "It provides robust search and indexing capabilities for large datasets, enabling fast and relevant search results for applications and websites.",
+    "best_for": "Enterprises and developers needing a scalable, open-source search engine for websites, applications, and data analytics.",
+    "free_tier": "As open-source software, Apache Solr is available for free use.",
+    "limitations": "Specific limitations are not detailed in the provided information. Please refer to the official documentation.",
+    "licensing_notes": "Apache Solr is open-source software distributed under the Apache License 2.0, allowing for free personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is Apache Solr free to use?",
+        "answer": "Yes, Apache Solr is open-source software distributed under the Apache License 2.0, making it free for both personal and commercial use."
+      },
+      {
+        "question": "What is Apache Solr used for?",
+        "answer": "It is an enterprise search platform providing full-text search and indexing capabilities."
+      }
+    ]
+  },
+  "clip-studio-paint": {
+    "input_hash": "f8e4731249e35a2dbdecd5daa2d8f2630c1740cb3a32148c5eaeebb927520e9f",
+    "generated_at": "2026-10-26",
+    "summary": "Clip Studio Paint is proprietary software for digital art creation, requiring either a paid one-time purchase or an ongoing subscription for full functionality.",
+    "what_it_does": "It provides comprehensive tools for drawing, painting, comic, and animation creation, catering to professional artists and hobbyists.",
+    "best_for": "Digital artists, illustrators, comic artists, and animators looking for comprehensive tools for their creative work.",
+    "free_tier": "The provided information does not mention a free tier. A paid license or subscription is required for full functionality.",
+    "limitations": "Full functionality requires a paid one-time purchase or an ongoing subscription. Specific feature limitations without payment are not detailed.",
+    "licensing_notes": "Clip Studio Paint is proprietary software that requires a paid one-time purchase or an ongoing subscription plan for full functionality.",
+    "faq": [
+      {
+        "question": "Is Clip Studio Paint free?",
+        "answer": "No, Clip Studio Paint is proprietary software that requires a paid one-time purchase or an ongoing subscription for full functionality."
+      },
+      {
+        "question": "What is Clip Studio Paint used for?",
+        "answer": "It is used for digital art creation, including drawing, painting, comics, and animation."
+      }
+    ]
+  },
+  "k3s": {
+    "input_hash": "aecedd392f833f5b0249aa3c2646b8ed3e1adddce74e57c18ca324a1f32ea9b1",
+    "generated_at": "2026-10-26",
+    "summary": "K3s is a lightweight, open-source Kubernetes distribution designed for resource-constrained environments. It is a CNCF sandbox project distributed under the Apache License 2.0.",
+    "what_it_does": "It provides a fully compliant Kubernetes distribution optimized for edge, IoT, CI, development, and ARM environments.",
+    "best_for": "Developers and organizations needing a lightweight Kubernetes solution for edge computing, IoT, or development environments.",
+    "free_tier": "As fully open-source software, K3s is available for free use.",
+    "limitations": "Specific limitations are not detailed in the provided information. Please refer to the official documentation.",
+    "licensing_notes": "K3s is fully open-source software distributed under the Apache License 2.0, allowing for free personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is K3s free to use?",
+        "answer": "Yes, K3s is fully open-source software distributed under the Apache License 2.0, making it free for both personal and commercial use."
+      },
+      {
+        "question": "What is K3s?",
+        "answer": "K3s is a lightweight Kubernetes distribution optimized for resource-constrained environments like edge and IoT."
+      }
+    ]
+  },
+  "singlestore": {
+    "input_hash": "765b5a15f2b737f9e16d1ed7d6c16f0164364d2d370fb5b35411976381cd9b07",
+    "generated_at": "2026-10-26",
+    "summary": "SingleStore is proprietary commercial database software that requires a license key or cloud subscription for operation. A limited free tier is available.",
+    "what_it_does": "It provides a distributed SQL database for high-performance analytical and transactional workloads, designed for speed and scalability.",
+    "best_for": "Businesses requiring a high-performance, scalable SQL database for real-time analytics and transactional applications.",
+    "free_tier": "A limited free tier is available. Details on its specific limits should be checked in the official documentation.",
+    "limitations": "Full operation requires a license key or cloud subscription. The free tier has specific limitations, which are not detailed here. Please refer to the official documentation for details.",
+    "licensing_notes": "SingleStore is proprietary commercial software requiring a license key or cloud subscription.",
+    "faq": [
+      {
+        "question": "Does SingleStore offer a free tier?",
+        "answer": "Yes, a limited free tier is available. For specific details on its limits, please check the official documentation."
+      },
+      {
+        "question": "Is SingleStore open source?",
+        "answer": "No, SingleStore is proprietary commercial software."
+      }
+    ]
+  },
+  "jitsi-meet": {
+    "input_hash": "ba1d8404bb11b85db5fd7499b015ca10c29955a9c2baa23fee9439bf930a3852",
+    "generated_at": "2026-10-26",
+    "summary": "Jitsi Meet is a fully open-source video conferencing solution licensed under the Apache License 2.0. It allows for free personal and commercial use.",
+    "what_it_does": "It enables users to host and participate in secure, high-quality video conferences directly through their web browser, with no account needed.",
+    "best_for": "Individuals and organizations seeking a free, open-source, and secure video conferencing platform.",
+    "free_tier": "As fully open-source software, Jitsi Meet is available for free use.",
+    "limitations": "Specific limitations are not detailed in the provided information. Please refer to the official documentation.",
+    "licensing_notes": "Jitsi Meet is fully open-source and licensed under the Apache License 2.0, allowing free personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is Jitsi Meet free for commercial use?",
+        "answer": "Yes, Jitsi Meet is fully open-source and licensed under the Apache License 2.0, allowing free personal and commercial use."
+      },
+      {
+        "question": "What is Jitsi Meet?",
+        "answer": "Jitsi Meet is an open-source video conferencing solution."
+      }
+    ]
+  },
+  "sapmachine": {
+    "input_hash": "95f75f2193b5aaaa0b1e74a354ae8456e7dc26c84f1754e61b623a13a5bed9b9",
+    "generated_at": "2026-10-26",
+    "summary": "SapMachine is an open-source build of OpenJDK, licensed under the GNU General Public License v2 with Classpath Exception. It is free for both personal and commercial use.",
+    "what_it_does": "It provides a reliable and performant Java Development Kit (JDK) for developing and running Java applications.",
+    "best_for": "Developers and organizations requiring a free and open-source OpenJDK distribution for Java application development and deployment.",
+    "free_tier": "As open-source software, SapMachine is available for free use.",
+    "limitations": "Specific limitations are not detailed in the provided information. Please refer to the official documentation.",
+    "licensing_notes": "SapMachine is an open-source build of OpenJDK licensed under the GNU General Public License v2 with Classpath Exception, making it free for both personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is SapMachine free for commercial use?",
+        "answer": "Yes, SapMachine is licensed under the GNU General Public License v2 with Classpath Exception, making it free for both personal and commercial use."
+      },
+      {
+        "question": "What is SapMachine?",
+        "answer": "SapMachine is an open-source build of OpenJDK, providing a Java Development Kit."
+      }
+    ]
+  },
+  "bartender": {
+    "input_hash": "53ed18edba538875945d5b01101a26eb10b527a8452b587a54160fc217b59a05",
+    "generated_at": "2026-10-26",
+    "summary": "Bartender is proprietary macOS software designed to organize and manage menu bar items. It requires a purchased license after a 4-week trial.",
+    "what_it_does": "It allows users to hide, rearrange, or display menu bar items on macOS, helping to declutter the menu bar and improve organization.",
+    "best_for": "macOS users who want to customize and manage their menu bar items for a cleaner and more organized desktop.",
+    "free_tier": "A free 4-week trial period is available.",
+    "limitations": "After the 4-week trial, a license purchase is required to continue using the software. Specific feature limitations during the trial are not detailed.",
+    "licensing_notes": "Bartender is proprietary macOS software that requires purchasing a license after a 4-week trial period.",
+    "faq": [
+      {
+        "question": "Is there a free version of Bartender?",
+        "answer": "Bartender offers a free 4-week trial period, after which a license purchase is required."
+      },
+      {
+        "question": "What platform does Bartender support?",
+        "answer": "Bartender is proprietary software designed for macOS."
+      }
+    ]
+  },
+  "acunetix": {
+    "input_hash": "97f1ac4ed09aeaaedd7cbb7cf6a590c66eb936b37dcf4bbad13d572b4fc71a0d",
+    "generated_at": "2026-10-26",
+    "summary": "Acunetix is a commercial web security scanner that requires a paid subscription license for all use cases. It helps identify vulnerabilities in web applications.",
+    "what_it_does": "It automatically scans websites and web applications to detect various security vulnerabilities, such as SQL Injection and XSS.",
+    "best_for": "Organizations and security professionals needing a commercial solution for automated web vulnerability scanning and security auditing.",
+    "free_tier": "The provided information does not mention a free tier or trial. A paid subscription license is required for all use cases.",
+    "limitations": "All use cases require a paid subscription license. Specific feature limitations are not detailed.",
+    "licensing_notes": "Acunetix is proprietary commercial software that requires a paid subscription license for all use cases.",
+    "faq": [
+      {
+        "question": "Is Acunetix free to use?",
+        "answer": "No, Acunetix is commercial software that requires a paid subscription license for all use cases."
+      },
+      {
+        "question": "What is Acunetix used for?",
+        "answer": "Acunetix is a commercial web security scanner used to identify vulnerabilities in web applications."
+      }
+    ]
+  },
+  "flux-cd": {
+    "input_hash": "395596e31a2d1580bbbf1ec728c792464892264d7dff6489541cb65fde043380",
+    "generated_at": "2026-10-26",
+    "summary": "Flux CD is a CNCF graduated project that provides GitOps continuous delivery for Kubernetes. It is fully licensed under the Apache License 2.0.",
+    "what_it_does": "It automates the deployment of applications to Kubernetes clusters by synchronizing them with configurations defined in Git repositories.",
+    "best_for": "DevOps teams and organizations implementing GitOps practices for continuous delivery to Kubernetes clusters.",
+    "free_tier": "As fully open-source software, Flux CD is available for free use.",
+    "limitations": "Specific limitations are not detailed in the provided information. Please refer to the official documentation.",
+    "licensing_notes": "Flux CD is fully open-source software licensed under the Apache License 2.0, allowing for free personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is Flux CD free to use?",
+        "answer": "Yes, Flux CD is fully open-source software licensed under the Apache License 2.0, making it free for both personal and commercial use."
+      },
+      {
+        "question": "What is Flux CD used for?",
+        "answer": "Flux CD provides GitOps continuous delivery for Kubernetes, automating application deployments."
+      }
+    ]
+  },
+  "goodsync": {
+    "input_hash": "a523db5de4b6b537f70bf207228b044568870e4690e2e2e117c0f560aa1405c7",
+    "generated_at": "2026-10-26",
+    "summary": "GoodSync is commercial software for file synchronization and backup that requires a paid subscription or license for both personal and commercial use. A heavily restricted free trial version is available.",
+    "what_it_does": "It synchronizes and backs up files between various devices, cloud storage, and FTP servers, ensuring data consistency and safety.",
+    "best_for": "Individuals and businesses needing reliable file synchronization and backup solutions across multiple platforms.",
+    "free_tier": "A heavily restricted free trial version is available.",
+    "limitations": "Full functionality and unrestricted use require a paid subscription or license. The free trial version is heavily restricted; please check the official documentation for details.",
+    "licensing_notes": "GoodSync requires a paid subscription or license for both personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is there a free version of GoodSync?",
+        "answer": "A heavily restricted free trial version is available, but a paid subscription or license is required for full functionality."
+      },
+      {
+        "question": "Can GoodSync be used for commercial purposes?",
+        "answer": "Yes, but it requires a paid subscription or license for both personal and commercial use."
+      }
+    ]
+  },
+  "omniplan": {
+    "input_hash": "c36f739fef4ccf9c40997a1dfe59cbdf8920a96a1fd619146d3c3f01c61f1a69",
+    "generated_at": "2026-10-26",
+    "summary": "OmniPlan is commercial project management software that requires a paid license or subscription for use. It helps in planning and managing projects.",
+    "what_it_does": "It provides tools for project planning, task management, resource allocation, and progress tracking, designed to help teams achieve their goals.",
+    "best_for": "Project managers and teams needing comprehensive commercial software for planning, tracking, and managing projects.",
+    "free_tier": "The provided information does not mention a free tier. A paid license or subscription is required.",
+    "limitations": "The software requires a paid license or subscription for operation. Specific feature limitations are not detailed.",
+    "licensing_notes": "OmniPlan is commercial software requiring a paid license or subscription.",
+    "faq": [
+      {
+        "question": "Is OmniPlan free to use?",
+        "answer": "No, OmniPlan is commercial project management software that requires a paid license or subscription."
+      },
+      {
+        "question": "What is OmniPlan used for?",
+        "answer": "OmniPlan is used for comprehensive project planning, task management, resource allocation, and progress tracking."
+      }
+    ]
+  },
+  "yara": {
+    "input_hash": "fdc1ef17577c89d56136ca8843bdb4b56bcb237b92af66687a24b2dcc887b500",
+    "generated_at": "2026-10-26",
+    "summary": "YARA is an open-source pattern-matching tool often referred to as a 'swiss knife' for malware researchers. It is open-sourced under the BSD 3-Clause License.",
+    "what_it_does": "It allows researchers to create rules to identify and classify malware samples based on textual or binary patterns found in files.",
+    "best_for": "Malware researchers, security analysts, and incident responders who need to identify and classify malware.",
+    "free_tier": "As open-source software, YARA is available for free use.",
+    "limitations": "Specific limitations are not detailed in the provided information. Please refer to the official documentation.",
+    "licensing_notes": "YARA is open-source software licensed under the BSD 3-Clause License, allowing for free personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is YARA free to use?",
+        "answer": "Yes, YARA is open-source software licensed under the BSD 3-Clause License, making it free for both personal and commercial use."
+      },
+      {
+        "question": "What is YARA primarily used for?",
+        "answer": "YARA is primarily used by malware researchers for pattern-matching to identify and classify malware samples."
+      }
+    ]
+  },
+  "ansible": {
+    "input_hash": "5d756e0a8f846c76f618b60e6954fc75731a7f5f616bb5d77c757e290a1777f8",
+    "generated_at": "2026-10-26",
+    "summary": "Ansible is an open-source automation tool for configuration management, application deployment, and task automation. It simplifies IT automation with agentless architecture.",
+    "what_it_does": "Automates IT tasks, configures systems, and deploys applications across multiple machines without requiring agents.",
+    "best_for": "System administrators and DevOps engineers looking to automate infrastructure management and application deployment.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "Please check the official documentation for specific limitations.",
+    "licensing_notes": "Ansible core and the community distribution are open-source software licensed under the GNU General Public License v3.0 (GPLv3).",
+    "faq": [
+      {
+        "question": "Is Ansible free to use?",
+        "answer": "Yes, Ansible core and the community distribution are open-source and free to use under the GPLv3 license."
+      },
+      {
+        "question": "Does Ansible require agents on managed nodes?",
+        "answer": "No, Ansible is agentless and uses SSH or WinRM to connect to managed nodes."
+      }
+    ]
+  },
+  "daemon-tools-lite": {
+    "input_hash": "88927cf392c03e3042e5a40d3189e58d5a9cdd6f90e3e3d982329df3e4237e6a",
+    "generated_at": "2026-10-26",
+    "summary": "DAEMON Tools Lite is a freeware utility that allows users to mount virtual CD/DVD/Blu-ray drives and work with disc images. It's designed for home users.",
+    "what_it_does": "Creates virtual drives to mount disc images (ISO, MDS, NRG, etc.) and allows users to work with them as if they were physical discs.",
+    "best_for": "Home users who need to mount disc images without burning them to physical media.",
+    "free_tier": "Yes, for personal, non-commercial use.",
+    "limitations": "Commercial use requires a paid license. Please check the official documentation for a full list of features available in the free version.",
+    "licensing_notes": "Free for personal, non-commercial use. Commercial usage requires purchasing a paid license.",
+    "faq": [
+      {
+        "question": "Can I use DAEMON Tools Lite for commercial purposes?",
+        "answer": "No, DAEMON Tools Lite is free only for personal, non-commercial use. Commercial use requires a paid license."
+      },
+      {
+        "question": "What types of disc images can DAEMON Tools Lite mount?",
+        "answer": "DAEMON Tools Lite can mount various disc image formats, including ISO, MDS, NRG, and others. Please refer to the official documentation for a complete list."
+      }
+    ]
+  },
+  "rhino-3d": {
+    "input_hash": "5c52c6fb51c0ee935d36c5a96fc9272dbf27ca860dc01881fcb440eec39707f4",
+    "generated_at": "2026-10-26",
+    "summary": "Rhino 3D is a commercial CAD software used for 3D modeling, design, and manufacturing. It offers powerful tools for creating, editing, analyzing, and rendering complex 3D models.",
+    "what_it_does": "Provides comprehensive 3D modeling capabilities for product design, architecture, engineering, and manufacturing.",
+    "best_for": "Designers, architects, engineers, and manufacturers who need advanced 3D modeling tools.",
+    "free_tier": "Offers a 90-day evaluation trial.",
+    "limitations": "A paid commercial or educational license is required after the 90-day trial period for continued use.",
+    "licensing_notes": "Paid commercial license required after a 90-day trial period.",
+    "faq": [
+      {
+        "question": "Is Rhino 3D free?",
+        "answer": "Rhino 3D offers a 90-day evaluation trial. After the trial, a paid license is required for continued use."
+      },
+      {
+        "question": "What types of licenses are available for Rhino 3D?",
+        "answer": "Rhino 3D offers commercial and educational licenses. Please visit the official website for details on license types and pricing."
+      }
+    ]
+  },
+  "gitkraken": {
+    "input_hash": "3bfab171094f39572159acb376df1f1e407ab0e092a9025b29589d14ebe290f9",
+    "generated_at": "2026-10-26",
+    "summary": "GitKraken is a cross-platform Git client designed to simplify Git workflows for developers. It offers a visual interface for managing repositories.",
+    "what_it_does": "Provides a graphical user interface for Git operations, including committing, branching, merging, and resolving conflicts.",
+    "best_for": "Developers who prefer a visual Git client for managing their repositories, especially those working with private repositories or in a commercial setting.",
+    "free_tier": "Free for public repositories.",
+    "limitations": "A paid license is required for commercial use and for managing private repositories.",
+    "licensing_notes": "Proprietary. Free for public repositories, paid license required for commercial use and private repositories.",
+    "faq": [
+      {
+        "question": "Is GitKraken free for all users?",
+        "answer": "GitKraken is free for use with public repositories. A paid license is required for commercial use and for managing private repositories."
+      },
+      {
+        "question": "What are the benefits of the paid license for GitKraken?",
+        "answer": "The paid license unlocks features for commercial use and allows you to manage private repositories, along with other premium features. Please check the official website for a detailed comparison."
+      }
+    ]
+  },
+  "irfanview": {
+    "input_hash": "2a9d4eefa40ae957d32fe434b44a72c2b051459275f966e400d54f4444426f03",
+    "generated_at": "2026-10-26",
+    "summary": "IrfanView is a fast, free, and user-friendly image viewer and editor for Windows. It supports a wide range of image formats and offers basic editing capabilities.",
+    "what_it_does": "Allows users to view, edit, convert, and manage image files with a variety of tools and format support.",
+    "best_for": "Users who need a lightweight and versatile image viewer and basic editor for non-commercial purposes.",
+    "free_tier": "Yes, for non-commercial use.",
+    "limitations": "A paid license is required for commercial use. Please check the official documentation for details on commercial licensing.",
+    "licensing_notes": "Freeware for non-commercial use; paid license required for commercial use.",
+    "faq": [
+      {
+        "question": "Is IrfanView free to use?",
+        "answer": "IrfanView is free for private, non-commercial, and educational use. Commercial use requires purchasing a license."
+      },
+      {
+        "question": "What kind of features does IrfanView offer?",
+        "answer": "IrfanView offers image viewing, basic editing, batch conversion, slideshow creation, and support for many file formats. For a full list, please consult the official website."
+      }
+    ]
+  },
+  "memcached": {
+    "input_hash": "926f12050d196793f0127435f3b355d327d85c20e1d296800378a77fe6b67ec7",
+    "generated_at": "2026-10-26",
+    "summary": "Memcached is a high-performance, distributed memory object caching system. It's designed to speed up dynamic web applications by alleviating database load.",
+    "what_it_does": "Caches data in RAM to reduce the number of times data must be read from a slower storage system, improving application performance.",
+    "best_for": "Web developers and system administrators looking to improve the performance of database-driven applications.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "Please check the official documentation for specific limitations or considerations.",
+    "licensing_notes": "Permissive Open Source (3-Clause BSD License), allowing free use, modification, and distribution for both commercial and non-commercial purposes.",
+    "faq": [
+      {
+        "question": "Is Memcached free to use?",
+        "answer": "Yes, Memcached is free and open-source under the 3-Clause BSD License, which permits free use for both commercial and non-commercial purposes."
+      },
+      {
+        "question": "What is the primary purpose of Memcached?",
+        "answer": "Memcached's primary purpose is to speed up dynamic web applications by caching database query results and other objects in RAM, reducing database load."
+      }
+    ]
+  },
+  "capture-one": {
+    "input_hash": "1d6749e5081027e713ee7cdccdbf8507953ee70e8881acc492cb0f77e03fd048",
+    "generated_at": "2026-10-26",
+    "summary": "Capture One is a professional photo editing software known for its advanced RAW image processing, color editing tools, and tethered shooting capabilities.",
+    "what_it_does": "Provides tools for professional photo editing, including RAW conversion, color grading, layer editing, and asset management.",
+    "best_for": "Professional photographers and serious enthusiasts who require high-end image editing and RAW processing capabilities.",
+    "free_tier": "No free tier is currently available. Previously offered free Express editions have been retired.",
+    "limitations": "Requires a paid subscription or perpetual license for use. Please check the official website for current pricing and feature details.",
+    "licensing_notes": "Proprietary paid subscription or perpetual license required.",
+    "faq": [
+      {
+        "question": "Is Capture One free?",
+        "answer": "No, Capture One requires a paid subscription or perpetual license for use. Free Express editions have been retired."
+      },
+      {
+        "question": "What are the main features of Capture One?",
+        "answer": "Capture One offers advanced RAW editing, powerful color tools, layers, tethered capture, and asset management. For a comprehensive list, please refer to the official Capture One website."
+      }
+    ]
+  },
+  "openvpn-community-edition": {
+    "input_hash": "f50dc9a232fc7114b57e45fd338516650440a5ea6b855943081241333ea95ef6",
+    "generated_at": "2026-10-26",
+    "summary": "OpenVPN Community Edition is a robust and highly scalable open-source VPN solution. It allows users to create secure point-to-point or site-to-site connections.",
+    "what_it_does": "Enables the creation of secure, encrypted network connections (VPNs) over the internet for remote access and site-to-site connectivity.",
+    "best_for": "Individuals and organizations needing a secure and flexible VPN solution for remote access or network bridging.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "Please check the official documentation for specific limitations or configuration requirements.",
+    "licensing_notes": "Free and open-source under the GNU General Public License version 2 (GPLv2), making it free to use for both personal and commercial purposes.",
+    "faq": [
+      {
+        "question": "Is OpenVPN Community Edition free?",
+        "answer": "Yes, OpenVPN Community Edition is free and open-source under the GPLv2 license, usable for both personal and commercial purposes."
+      },
+      {
+        "question": "What is OpenVPN used for?",
+        "answer": "OpenVPN is used to create secure virtual private networks (VPNs) to encrypt internet traffic, provide secure remote access to networks, and connect geographically separated sites."
+      }
+    ]
+  },
+  "linear": {
+    "input_hash": "41b63f99050ed002749f77f9394034d4df50b94c5ee569a7c1f7f19d31aa88e0",
+    "generated_at": "2026-10-26",
+    "summary": "Linear is a fast and flexible issue tracking tool designed for modern software teams. It focuses on a streamlined user experience for project management.",
+    "what_it_does": "Helps teams manage projects, track issues, and organize workflows with a clean and efficient interface.",
+    "best_for": "Software development teams looking for a modern, fast, and user-friendly issue tracker.",
+    "free_tier": "Offers a limited free tier.",
+    "limitations": "The free tier has limitations on features and usage. A paid subscription is required for full access and unlimited issues. Please check the official website for details.",
+    "licensing_notes": "Proprietary (Freemium / Paid Subscription).",
+    "faq": [
+      {
+        "question": "Does Linear have a free version?",
+        "answer": "Yes, Linear offers a limited free tier for users. Full access to all features and unlimited issues requires a paid subscription."
+      },
+      {
+        "question": "What makes Linear different from other issue trackers?",
+        "answer": "Linear emphasizes speed, a clean user interface, and keyboard-centric workflows to streamline issue tracking and project management for software teams. Please visit their website for more details."
+      }
+    ]
+  },
+  "aida64": {
+    "input_hash": "d746ad5b0a51dd0986c46d4b28e72499c37bf1f5cb582ab72c34da735a4a2a8d",
+    "generated_at": "2026-10-26",
+    "summary": "AIDA64 is a system information and diagnostic tool that provides detailed information about hardware, software, and operating system settings. It also includes benchmarking tools.",
+    "what_it_does": "Provides in-depth hardware and software information, system diagnostics, stress testing, and performance benchmarking for PCs.",
+    "best_for": "IT professionals, enthusiasts, and users who need detailed system information, diagnostics, and performance testing capabilities.",
+    "free_tier": "Offers a 30-day free trial.",
+    "limitations": "A paid license is required for continued use after the 30-day trial period for both personal and business use.",
+    "licensing_notes": "Paid commercial software with a 30-day free trial.",
+    "faq": [
+      {
+        "question": "Is AIDA64 free?",
+        "answer": "AIDA64 offers a 30-day free trial. After the trial period, a paid license is required for continued use."
+      },
+      {
+        "question": "What information can I get from AIDA64?",
+        "answer": "AIDA64 provides comprehensive details on your computer's hardware components (CPU, GPU, RAM, etc.), installed software, operating system configuration, network information, and more. Please check the official website for a full list of capabilities."
+      }
+    ]
+  },
+  "node-js": {
+    "input_hash": "0f657a7cd214036b7b57ee535acb1f45e19c9be63cf07a39044999d51b23cb0c",
+    "generated_at": "2026-10-26",
+    "summary": "Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to build scalable network applications. It enables server-side JavaScript execution.",
+    "what_it_does": "Provides a runtime environment for executing JavaScript code outside of a web browser, enabling server-side development and building fast, scalable applications.",
+    "best_for": "Developers building server-side applications, APIs, real-time services, and microservices using JavaScript.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "Please check the official documentation for specific limitations or considerations.",
+    "licensing_notes": "MIT License, allowing free use for both personal and commercial applications.",
+    "faq": [
+      {
+        "question": "Is Node.js free to use?",
+        "answer": "Yes, Node.js is free and open-source under the permissive MIT License, allowing its use in both personal and commercial projects."
+      },
+      {
+        "question": "What is Node.js used for?",
+        "answer": "Node.js is primarily used for building server-side applications, APIs, microservices, real-time applications (like chat apps), and command-line tools."
+      }
+    ]
+  },
+  "godot-engine": {
+    "input_hash": "aebbaa2cd7ba2124f05fdec9c2cb4a28d476822868cf939c55b188539b819f58",
+    "generated_at": "2026-10-26",
+    "summary": "Godot Engine is a free and open-source, cross-platform game engine for creating 2D and 3D games. It offers a complete suite of tools for game development.",
+    "what_it_does": "Provides a comprehensive environment for designing and developing games, including a scene editor, scripting capabilities, and rendering engine.",
+    "best_for": "Game developers of all levels, from hobbyists to professionals, looking for a powerful, free, and open-source game engine.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "Please check the official documentation for specific limitations or considerations.",
+    "licensing_notes": "Free and open-source under the MIT License, allowing unrestricted commercial and non-commercial use without royalties.",
+    "faq": [
+      {
+        "question": "Is Godot Engine free?",
+        "answer": "Yes, Godot Engine is completely free and open-source under the MIT License, with no royalties or hidden fees."
+      },
+      {
+        "question": "What kind of games can be made with Godot Engine?",
+        "answer": "Godot Engine can be used to create both 2D and 3D games for various platforms, including desktop, mobile, and web. Please refer to the official website for more details on supported features."
+      }
+    ]
+  },
+  "keycloak": {
+    "input_hash": "c9aeb0fa916381c126b9398d41767d90df1ac2c53abb46b7ef01963d8be771d4",
+    "generated_at": "2026-10-26",
+    "summary": "Keycloak is an open-source Identity and Access Management solution. It provides authentication and access management features for modern applications and services.",
+    "what_it_does": "Manages user identities, authentication, and authorization for applications and services, simplifying security management.",
+    "best_for": "Developers and organizations needing a robust, self-hosted solution for managing user authentication and authorization.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "Please check the official documentation for specific limitations or deployment considerations.",
+    "licensing_notes": "Apache License 2.0, a permissive open-source license.",
+    "faq": [
+      {
+        "question": "Is Keycloak free to use?",
+        "answer": "Yes, Keycloak is a fully open-source solution distributed under the Apache License 2.0, making it free to use for any purpose."
+      },
+      {
+        "question": "What is Keycloak used for?",
+        "answer": "Keycloak is used for single sign-on (SSO), identity brokering, social login, user federation, and fine-grained authorization for applications and services."
+      }
+    ]
+  },
+  "speccy": {
+    "input_hash": "450762e5b67ef77604275be0c7c7614d500142f88c174fbd793237826e582bac",
+    "generated_at": "2026-10-26",
+    "summary": "Speccy is a lightweight system information tool that provides a detailed overview of your computer's hardware and software. It's designed for ease of use.",
+    "what_it_does": "Scans your PC and provides detailed information about installed hardware components (CPU, RAM, motherboard, etc.) and software.",
+    "best_for": "Home users who want a simple and quick way to view their computer's system specifications.",
+    "free_tier": "Yes, a free version is available for personal use.",
+    "limitations": "The free version is intended for personal use only. A paid Professional license is available for additional features. Please check the official website for details.",
+    "licensing_notes": "Freeware for personal use; paid Professional tier available.",
+    "faq": [
+      {
+        "question": "Is Speccy free?",
+        "answer": "Speccy offers a free version for personal use. A paid Professional license is available for enhanced features."
+      },
+      {
+        "question": "What information does Speccy provide?",
+        "answer": "Speccy provides details on your computer's CPU, RAM, hard drives, optical drives, audio and graphics cards, network adapters, and more. For a complete list, please consult the official Speccy website."
+      }
+    ]
+  },
+  "syncbackfree": {
+    "input_hash": "98afe67e5fbc5a9acca53ecf7b95b956af43f30a1a45ba989b096817085895d9",
+    "generated_at": "2026-10-26",
+    "summary": "SyncBackFree is a free backup and synchronization utility for Windows. It allows users to create backup profiles and schedule synchronization tasks.",
+    "what_it_does": "Enables users to back up files and folders to various destinations, synchronize content between locations, and automate these tasks.",
+    "best_for": "Individuals and businesses looking for a free tool to perform regular backups and synchronize files.",
+    "free_tier": "Yes, SyncBackFree is completely free.",
+    "limitations": "SyncBackFree is a feature-rich free version. For advanced features, consider the paid SyncBackPro or SyncBackSE versions. Please check the official website for comparisons.",
+    "licensing_notes": "Freeware permitted for personal, educational, charity, government, and commercial use.",
+    "faq": [
+      {
+        "question": "Is SyncBackFree really free?",
+        "answer": "Yes, SyncBackFree is 100% freeware and can be used for personal, educational, charity, government, and commercial purposes without charge."
+      },
+      {
+        "question": "What can I do with SyncBackFree?",
+        "answer": "You can use SyncBackFree to create backup profiles, synchronize files and folders between different locations, and schedule these tasks. For advanced features, you might consider their paid versions."
+      }
+    ]
   }
 }
