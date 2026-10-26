@@ -6298,5 +6298,605 @@
         "answer": "You can use SyncBackFree to create backup profiles, synchronize files and folders between different locations, and schedule these tasks. For advanced features, you might consider their paid versions."
       }
     ]
+  },
+  "daisydisk": {
+    "input_hash": "56d71ddbf739ae9cae36ef453bb477a5c3bd1eefda3e19091b7c7705edc37182",
+    "generated_at": "2026-10-26",
+    "summary": "DaisyDisk is a disk visualization and cleaning software designed for macOS. It helps users understand and free up space on their hard drives.",
+    "what_it_does": "It scans your disk and presents its contents as an interactive sunburst diagram, allowing you to quickly identify large files and folders. Users can then delete unnecessary files to reclaim disk space.",
+    "best_for": "macOS users who need to analyze disk usage, identify large files, and clean up their storage efficiently.",
+    "free_tier": "The provided information does not explicitly mention a free tier or trial period. Visitors should check the official documentation for details.",
+    "limitations": "The software requires a paid license for use. Specific feature limitations, if any, are not detailed in the provided information; users should consult the official documentation.",
+    "licensing_notes": "DaisyDisk requires a one-time per-user license purchase. For current pricing and licensing terms, visitors should check the official website.",
+    "faq": [
+      {
+        "question": "Is DaisyDisk available for free?",
+        "answer": "No, DaisyDisk requires a paid one-time per-user license."
+      },
+      {
+        "question": "What operating systems does DaisyDisk support?",
+        "answer": "DaisyDisk is specifically designed for macOS."
+      }
+    ]
+  },
+  "chromadb": {
+    "input_hash": "fc9c2d97bffa69b91d3ef0a9ed98ba0ab38befbcccd504da20bc2eb3b1a2de3f",
+    "generated_at": "2026-10-26",
+    "summary": "ChromaDB is an open-source AI-native vector database. It is designed to make it easy to build AI applications with embeddings.",
+    "what_it_does": "It provides a database specifically optimized for storing and querying vector embeddings, which are crucial for many AI applications like semantic search and recommendation systems.",
+    "best_for": "Developers and organizations building AI applications that require efficient storage, indexing, and querying of vector embeddings.",
+    "free_tier": "As an open-source project licensed under Apache License 2.0, ChromaDB is generally free to use for all purposes.",
+    "limitations": "Specific limitations are not detailed in the provided information; users should consult the official documentation for operational constraints or requirements.",
+    "licensing_notes": "ChromaDB is free and open-source software distributed under the Apache License 2.0. This license permits commercial use, modification, and distribution.",
+    "faq": [
+      {
+        "question": "Is ChromaDB free to use?",
+        "answer": "Yes, ChromaDB is open-source and free to use under the Apache License 2.0."
+      },
+      {
+        "question": "What is ChromaDB primarily used for?",
+        "answer": "ChromaDB is an AI-native vector database used for building AI applications that rely on storing and querying vector embeddings."
+      }
+    ]
+  },
+  "screentogif": {
+    "input_hash": "868e9d746fb3086516eb7505340bd418549edaa8c370425a72b06a7e5a7ffc15",
+    "generated_at": "2026-10-26",
+    "summary": "ScreenToGif is an open-source application for Windows that allows users to record their screen, webcam, or a sketchpad. It can then export these recordings as GIF animations.",
+    "what_it_does": "It provides tools to capture screen activity, webcam footage, or drawings from a digital sketchpad. The captured content can be edited frame-by-frame and saved as a high-quality GIF, APNG, video, or image sequence.",
+    "best_for": "Windows users who need a free and flexible tool to create animated GIFs or short videos from screen recordings, webcam feeds, or sketchpad drawings.",
+    "free_tier": "As open-source software under the MS-PL license, ScreenToGif is free to use for all purposes.",
+    "limitations": "Specific limitations are not detailed in the provided information; users should consult the official documentation for operational constraints or requirements.",
+    "licensing_notes": "ScreenToGif is free and open-source software released under the Microsoft Public License (MS-PL). This license generally allows free use, distribution, and modification.",
+    "faq": [
+      {
+        "question": "What can ScreenToGif record?",
+        "answer": "ScreenToGif can record your screen, webcam, and a digital sketchpad."
+      },
+      {
+        "question": "Is ScreenToGif free?",
+        "answer": "Yes, ScreenToGif is open-source and free to use under the MS-PL license."
+      }
+    ]
+  },
+  "balenaetcher": {
+    "input_hash": "4eefcf8aaaa0bdda5e675cfe78fad1c9f9e87d651c1b05409ba8c76e60949981",
+    "generated_at": "2026-10-26",
+    "summary": "balenaEtcher is a free and open-source utility designed to flash operating system images to SD cards and USB drives. It ensures a reliable and easy flashing process.",
+    "what_it_does": "It takes an OS image file (like .iso, .img, .zip) and writes it to a removable storage device, making it bootable. It also includes validation to prevent writing to corrupted drives.",
+    "best_for": "Users who need to create bootable USB drives or SD cards for installing operating systems, flashing firmware, or running live environments.",
+    "free_tier": "As open-source software under the Apache License 2.0, balenaEtcher is free to use for all purposes.",
+    "limitations": "Specific limitations are not detailed in the provided information; users should consult the official documentation for operational constraints or requirements.",
+    "licensing_notes": "balenaEtcher is free and open-source software distributed under the Apache License 2.0. This license permits commercial use, modification, and distribution.",
+    "faq": [
+      {
+        "question": "What is balenaEtcher used for?",
+        "answer": "balenaEtcher is used to flash operating system images to SD cards and USB drives, making them bootable."
+      },
+      {
+        "question": "Is balenaEtcher free?",
+        "answer": "Yes, balenaEtcher is free and open-source software under the Apache License 2.0."
+      }
+    ]
+  },
+  "cleanshot-x": {
+    "input_hash": "1aabc2c4f70b33bf6fe2045c36bb7913c4c8e8f852055cb72c9211fb3055391e",
+    "generated_at": "2026-10-26",
+    "summary": "CleanShot X is a proprietary screen capturing and recording utility. It offers a comprehensive suite of tools for screenshots, screen recordings, and annotations.",
+    "what_it_does": "It allows users to capture screenshots, record screen videos (including GIFs), annotate images, and perform various post-capture actions like cloud uploads or quick edits.",
+    "best_for": "Users who require advanced screen capturing, recording, and annotation features for personal or commercial use, particularly those who value an all-in-one solution.",
+    "free_tier": "The provided information does not mention a free tier or trial period. Visitors should check the official documentation for details.",
+    "limitations": "The software requires a paid license or an active subscription for both personal and commercial use. Specific feature limitations, if any, are not detailed; users should consult the official documentation.",
+    "licensing_notes": "CleanShot X requires either a paid one-time license purchase or an active subscription for its use. This applies to both personal and commercial contexts.",
+    "faq": [
+      {
+        "question": "Is CleanShot X available for free?",
+        "answer": "No, CleanShot X requires a paid one-time license or an active subscription."
+      },
+      {
+        "question": "What are the primary functions of CleanShot X?",
+        "answer": "CleanShot X is used for advanced screen capturing, recording, and annotation."
+      }
+    ]
+  },
+  "apache-couchdb": {
+    "input_hash": "11585bbcedad268b7281a44fa7e656da5f078f4e3c20e7942da02141c3376e98",
+    "generated_at": "2026-10-26",
+    "summary": "Apache CouchDB is an open-source NoSQL database that focuses on ease of use and a \"schema-free\" document model. It is designed for reliable data storage and synchronization.",
+    "what_it_does": "It stores data in JSON documents, which can be accessed via a web browser or HTTP API. It supports master-master replication with automatic conflict detection and resolution, making it suitable for distributed systems.",
+    "best_for": "Developers and organizations needing a flexible, scalable, and fault-tolerant NoSQL database, especially for web applications, mobile apps, and distributed data synchronization.",
+    "free_tier": "As entirely free and open-source software under the Apache License 2.0, Apache CouchDB is available for all uses without cost.",
+    "limitations": "Specific limitations are not detailed in the provided information; users should consult the official documentation for operational constraints or requirements.",
+    "licensing_notes": "Apache CouchDB is entirely free and open-source software released under the Apache License 2.0. This license permits commercial use, modification, and distribution.",
+    "faq": [
+      {
+        "question": "Is Apache CouchDB a free database?",
+        "answer": "Yes, Apache CouchDB is entirely free and open-source software under the Apache License 2.0."
+      },
+      {
+        "question": "What kind of database is Apache CouchDB?",
+        "answer": "Apache CouchDB is a NoSQL document database that stores data in JSON format."
+      }
+    ]
+  },
+  "carbon-copy-cloner": {
+    "input_hash": "32d34e2e4240a2b7fcc7c6475089e36ae1a2b76e64891dd1c0f63841dae25cb5",
+    "generated_at": "2026-10-26",
+    "summary": "Carbon Copy Cloner is a commercial application for macOS designed for backup and disk cloning. It allows users to create bootable backups of their entire system.",
+    "what_it_does": "It creates exact copies of hard drives or specific folders, which can be used for data recovery or migrating systems to new drives. It supports scheduled backups and incremental updates.",
+    "best_for": "macOS users who need reliable and bootable backups of their system drives, or who want to clone drives for migration or recovery purposes.",
+    "free_tier": "Carbon Copy Cloner offers a 30-day free evaluation trial. After this period, a paid license is required to continue using the software.",
+    "limitations": "The software functions as a free evaluation trial for 30 days, after which a paid license is required. Specific feature limitations during the trial, if any, are not detailed; users should consult the official documentation.",
+    "licensing_notes": "Carbon Copy Cloner is a commercial application that requires a paid license after a 30-day free evaluation trial.",
+    "faq": [
+      {
+        "question": "Does Carbon Copy Cloner offer a free trial?",
+        "answer": "Yes, Carbon Copy Cloner provides a 30-day free evaluation trial."
+      },
+      {
+        "question": "What is Carbon Copy Cloner used for?",
+        "answer": "It is used for creating bootable backups and cloning disks on macOS."
+      }
+    ]
+  },
+  "hashcat": {
+    "input_hash": "9ebbd501651c13f05a0ca8d664fa529f3cb697212da21707518dabff6888b261",
+    "generated_at": "2026-10-26",
+    "summary": "Hashcat is a free and open-source password recovery tool. It is known for being one of the fastest and most advanced password crackers available.",
+    "what_it_does": "It can recover passwords by cracking various hash types using different attack modes, including brute-force, dictionary, and hybrid attacks. It leverages GPU acceleration for high performance.",
+    "best_for": "Security professionals, penetration testers, and researchers who need to test password strength, recover lost passwords, or analyze hash security.",
+    "free_tier": "As free and open-source software under the MIT License, Hashcat is available for all uses without cost.",
+    "limitations": "Specific limitations are not detailed in the provided information; users should consult the official documentation for operational constraints or requirements.",
+    "licensing_notes": "Hashcat is free and open-source software distributed under the permissive MIT License. This license allows for broad use, modification, and distribution.",
+    "faq": [
+      {
+        "question": "Is Hashcat free to use?",
+        "answer": "Yes, Hashcat is free and open-source software distributed under the MIT License."
+      },
+      {
+        "question": "What is Hashcat's primary function?",
+        "answer": "Hashcat is a password recovery tool used for cracking various hash types to recover passwords."
+      }
+    ]
+  },
+  "bettertouchtool": {
+    "input_hash": "b8f601b67a1835c8e1c8f38f8af12c5c695a9afd73aa4ef2083122414ab6f0c9",
+    "generated_at": "2026-10-26",
+    "summary": "BetterTouchTool is a powerful utility for macOS that allows users to customize input devices and automate tasks. It enhances productivity by enabling custom gestures, shortcuts, and actions.",
+    "what_it_does": "It lets users configure custom actions for trackpads, Magic Mouse, keyboard shortcuts, Touch Bar, and other input devices. These actions can range from launching applications to running complex scripts.",
+    "best_for": "macOS users who want to extensively customize their input devices, create custom gestures, and automate repetitive tasks to improve their workflow and productivity.",
+    "free_tier": "BetterTouchTool offers a 45-day trial period. After the trial, a license purchase is required.",
+    "limitations": "The software functions as a trial for 45 days, after which a paid license or an active Setapp subscription is required. Specific feature limitations during the trial, if any, are not detailed; users should consult the official documentation.",
+    "licensing_notes": "BetterTouchTool requires purchasing a standard or lifetime license, or an active Setapp subscription, after a 45-day trial period.",
+    "faq": [
+      {
+        "question": "Does BetterTouchTool offer a free trial?",
+        "answer": "Yes, BetterTouchTool provides a 45-day trial period."
+      },
+      {
+        "question": "What operating system does BetterTouchTool support?",
+        "answer": "BetterTouchTool is designed for macOS."
+      }
+    ]
+  },
+  "istio": {
+    "input_hash": "27f4e29d170e8d13b17bc61fc0b47b7ab39747fd22cb65b965f2a1d1071630a4",
+    "generated_at": "2026-10-26",
+    "summary": "Istio is an open-source service mesh platform designed to manage and secure microservices. It provides a uniform way to connect, monitor, and secure services across a distributed application.",
+    "what_it_does": "It offers traffic management, policy enforcement, and telemetry collection for microservices without requiring changes to the application code. It helps in managing complex deployments, load balancing, and A/B testing.",
+    "best_for": "Organizations and developers deploying and managing microservices architectures, especially in Kubernetes environments, who need advanced traffic management, security, and observability features.",
+    "free_tier": "As an open-source project licensed under Apache 2.0, Istio is generally free to use for all purposes.",
+    "limitations": "Specific limitations are not detailed in the provided information; users should consult the official documentation for operational constraints or requirements.",
+    "licensing_notes": "Istio is free and open-source software licensed under Apache License 2.0. This license permits commercial use, modification, and distribution.",
+    "faq": [
+      {
+        "question": "Is Istio free to use?",
+        "answer": "Yes, Istio is open-source and free to use under the Apache License 2.0."
+      },
+      {
+        "question": "What is Istio primarily used for?",
+        "answer": "Istio is a service mesh platform used for managing, securing, and monitoring microservices."
+      }
+    ]
+  },
+  "macs-fan-control": {
+    "input_hash": "50d3fbb9580a76261e3253d5e882f239f201f35efe705979b8b3d8e3d754f974",
+    "generated_at": "2026-10-26",
+    "summary": "Macs Fan Control is a utility that allows users to monitor and control the fans on their Mac computers. It helps manage system temperatures and fan noise.",
+    "what_it_does": "It provides real-time monitoring of temperature sensors and fan speeds. Users can set custom fan speeds based on temperature sensors or fixed RPM values, optimizing cooling and noise levels.",
+    "best_for": "Mac users who want to monitor their system's temperatures and customize fan behavior for better cooling performance or reduced noise, especially for personal use.",
+    "free_tier": "Macs Fan Control is free for non-commercial personal use.",
+    "limitations": "Commercial use or use in business environments requires purchasing a Pro license. Specific feature limitations for the free version, if any, are not detailed; users should consult the official documentation.",
+    "licensing_notes": "The software is free for non-commercial personal use. A Pro license must be purchased for use in business or commercial environments.",
+    "faq": [
+      {
+        "question": "Is Macs Fan Control free?",
+        "answer": "Yes, it is free for non-commercial personal use. A Pro license is required for business environments."
+      },
+      {
+        "question": "What does Macs Fan Control do?",
+        "answer": "It allows users to monitor temperatures and control fan speeds on their Mac computers."
+      }
+    ]
+  },
+  "geekbench": {
+    "input_hash": "bf640345504d2f67b8510afca2a793107b98e08270fcbc6621f77f4a57a22689",
+    "generated_at": "2026-10-26",
+    "summary": "Geekbench is a cross-platform benchmark utility that measures the performance of CPUs and GPUs. It provides a comprehensive set of tests to assess system capabilities.",
+    "what_it_does": "It runs a series of workloads and tests to generate scores for single-core and multi-core CPU performance, as well as GPU compute performance. These scores can be compared with other systems.",
+    "best_for": "Individuals who want to benchmark their personal computer's performance, and professionals or businesses requiring detailed performance analysis for commercial or automated testing (with a Pro license).",
+    "free_tier": "Basic benchmarking is available for free for personal use.",
+    "limitations": "Commercial use and automated testing require a paid Pro license. Specific feature limitations for the free personal use version, if any, are not detailed; users should consult the official documentation.",
+    "licensing_notes": "Basic benchmarking is free for personal use. A paid Pro license is required for commercial and automated testing.",
+    "faq": [
+      {
+        "question": "Is Geekbench free to use?",
+        "answer": "Basic benchmarking is free for personal use. Commercial and automated testing require a paid Pro license."
+      },
+      {
+        "question": "What does Geekbench measure?",
+        "answer": "Geekbench measures the performance of your computer's CPU and GPU."
+      }
+    ]
+  },
+  "hazel": {
+    "input_hash": "b05894ef390d0e4fae1eb84a132e497e94c43e0d0d003279173b5fa562f24f8d",
+    "generated_at": "2026-10-26",
+    "summary": "Hazel is an automated file organization utility for macOS. It helps users keep their files tidy by defining rules that automatically sort, move, or process files.",
+    "what_it_does": "Users create rules based on file attributes (name, date, tags, etc.) and Hazel automatically applies actions like moving files to specific folders, renaming them, or archiving them. It can also manage trash and app uninstalls.",
+    "best_for": "macOS users who want to automate file management, keep their folders organized, and streamline repetitive tasks related to file handling.",
+    "free_tier": "The provided information does not explicitly mention a free tier or trial period. Visitors should check the official documentation for details.",
+    "limitations": "The software requires a paid commercial license for use. Specific feature limitations, if any, are not detailed in the provided information; users should consult the official documentation.",
+    "licensing_notes": "Hazel requires a paid commercial license for its use. For current pricing and licensing terms, visitors should check the official website.",
+    "faq": [
+      {
+        "question": "Is Hazel available for free?",
+        "answer": "No, Hazel requires a paid commercial license."
+      },
+      {
+        "question": "What operating system does Hazel support?",
+        "answer": "Hazel is an automated file organization utility specifically for macOS."
+      }
+    ]
+  },
+  "cncf-harbor": {
+    "input_hash": "239516e56acbea00c68432d95863bfc865dacc3d6052ec3306549422a54ba1f8",
+    "generated_at": "2026-10-26",
+    "summary": "CNCF Harbor is an open-source cloud-native artifact registry. It stores, signs, and scans container images and other cloud-native artifacts.",
+    "what_it_does": "It provides a secure and centralized repository for managing container images, Helm charts, and other artifacts. It integrates with CI/CD pipelines and offers vulnerability scanning, content trust, and access control.",
+    "best_for": "Organizations and developers working with cloud-native applications and containerized workloads who need a secure, enterprise-grade registry for managing their artifacts.",
+    "free_tier": "As an open-source project under the Cloud Native Computing Foundation, CNCF Harbor is free to use for all purposes.",
+    "limitations": "Specific limitations are not detailed in the provided information; users should consult the official documentation for operational constraints or requirements.",
+    "licensing_notes": "CNCF Harbor is an open-source project under the Cloud Native Computing Foundation, making it free to use and distribute.",
+    "faq": [
+      {
+        "question": "Is CNCF Harbor free to use?",
+        "answer": "Yes, CNCF Harbor is an open-source project and is free to use."
+      },
+      {
+        "question": "What is CNCF Harbor used for?",
+        "answer": "It is a cloud-native artifact registry used for storing, signing, and scanning container images and other artifacts."
+      }
+    ]
+  },
+  "mountain-duck": {
+    "input_hash": "bbdc97cad2af295f8ae470d6b90a32dffb65d2aa8e4f0c4afaa22ba31987ec13",
+    "generated_at": "2026-10-26",
+    "summary": "Mountain Duck is a utility that allows users to mount cloud storage and remote servers as local disks on their Windows and macOS computers. It makes remote files accessible directly from the file explorer.",
+    "what_it_does": "It connects to various cloud storage services (like Amazon S3, Google Drive, Dropbox) and remote servers (SFTP, WebDAV) and presents them as regular volumes in the operating system's file browser. This enables easy drag-and-drop file management.",
+    "best_for": "Users on Windows and macOS who need seamless access to multiple cloud storage providers or remote servers, treating them as if they were local drives.",
+    "free_tier": "The provided information does not explicitly mention a free tier or trial period. Visitors should check the official documentation for details.",
+    "limitations": "The software requires a paid user license for use. Specific feature limitations, if any, are not detailed in the provided information; users should consult the official documentation.",
+    "licensing_notes": "Mountain Duck requires a paid user license for its use. For current pricing and licensing terms, visitors should check the official website.",
+    "faq": [
+      {
+        "question": "Is Mountain Duck free to use?",
+        "answer": "No, Mountain Duck requires a paid user license."
+      },
+      {
+        "question": "What operating systems does Mountain Duck support?",
+        "answer": "Mountain Duck supports both Windows and macOS."
+      }
+    ]
+  },
+  "raycast": {
+    "input_hash": "c9b9614e3c8283f1dd1af8855c6c9e94ddfcf2fd69421f8cf33953df770f7007",
+    "generated_at": "2026-10-26",
+    "summary": "Raycast is a proprietary productivity tool that offers a free tier for individual users. It also provides paid Pro and Team subscriptions with advanced features.",
+    "what_it_does": "Raycast is designed to enhance productivity, likely through a command launcher, custom scripts, and integrations.",
+    "best_for": "Individuals seeking to boost their productivity with a free tool, or teams requiring advanced features and collaboration.",
+    "free_tier": "A free tier is available for individual users. Specific feature limitations for the free tier should be checked in the official documentation.",
+    "limitations": "The free tier is for individuals and likely has feature limitations compared to the paid Pro and Team subscriptions. Users needing advanced features or team collaboration will require a paid plan.",
+    "licensing_notes": "Raycast is proprietary software. It operates on a freemium model, offering a free tier for individuals and paid subscriptions (Pro and Team) for additional features. Check the official documentation for full licensing details.",
+    "faq": [
+      {
+        "question": "Is Raycast completely free to use?",
+        "answer": "Raycast offers a free tier for individual users. Paid Pro and Team subscriptions are available for advanced features."
+      },
+      {
+        "question": "What are the differences between the free and paid versions?",
+        "answer": "The free tier is for individuals, while paid Pro and Team subscriptions offer advanced features. For specific differences, please consult the official documentation."
+      }
+    ]
+  },
+  "autodesk-maya": {
+    "input_hash": "bb9352ddd247f2a8d3a3abecf744dc917373219895888839ded4d7c93454d4bb",
+    "generated_at": "2026-10-26",
+    "summary": "Autodesk Maya is proprietary software that requires a paid subscription for most users. Free access is primarily limited to educational users and short-term trials.",
+    "what_it_does": "Autodesk Maya is a professional 3D computer graphics software used for animation, modeling, simulation, and rendering.",
+    "best_for": "Professionals and studios in animation, visual effects, game development, and architectural visualization who require industry-standard 3D tools.",
+    "free_tier": "Free access is available for educational users and through short-term trials. A perpetual free tier for general use is not available.",
+    "limitations": "Commercial and personal use requires a paid subscription. The free access options are limited to specific user types (educational) or durations (trials).",
+    "licensing_notes": "Autodesk Maya is proprietary software requiring a paid subscription for commercial and personal use. Educational licenses and short-term trials offer limited free access. Refer to the official documentation for detailed licensing terms.",
+    "faq": [
+      {
+        "question": "Can I use Autodesk Maya for free?",
+        "answer": "Free access to Autodesk Maya is limited to educational users and short-term trials. Commercial and personal use requires a paid subscription."
+      },
+      {
+        "question": "What kind of license does Autodesk Maya use?",
+        "answer": "Autodesk Maya is proprietary software available through a paid subscription model."
+      }
+    ]
+  },
+  "sublime-merge": {
+    "input_hash": "278af99e1084e5c681080992bbd0a82906a56c581a53112ab76873a07fc37c28",
+    "generated_at": "2026-10-26",
+    "summary": "Sublime Merge is proprietary software that offers a free evaluation period without an enforced time limit. A license purchase is required for continued use after evaluation.",
+    "what_it_does": "Sublime Merge is a Git client designed for managing repositories, viewing commits, and resolving merges.",
+    "best_for": "Developers and teams who need a powerful and efficient Git client for version control, especially those familiar with Sublime Text.",
+    "free_tier": "A free evaluation period is available without an enforced time limit.",
+    "limitations": "While there's no enforced time limit for evaluation, a license must be purchased for continued use beyond evaluation.",
+    "licensing_notes": "Sublime Merge is proprietary software. It can be evaluated for free, but a license must be purchased for continued use. Check the official documentation for pricing and full licensing terms.",
+    "faq": [
+      {
+        "question": "Is Sublime Merge free to use indefinitely?",
+        "answer": "Sublime Merge offers a free evaluation period without an enforced time limit. However, a license must be purchased for continued use."
+      },
+      {
+        "question": "What happens after the evaluation period?",
+        "answer": "While the evaluation period has no enforced time limit, a license purchase is required for continued use of Sublime Merge."
+      }
+    ]
+  },
+  "parallels-desktop": {
+    "input_hash": "4d56e0927e130e2d04c84154a3acb904bed9dce06de14471d45419734bc95890",
+    "generated_at": "2026-10-26",
+    "summary": "Parallels Desktop is proprietary commercial software that requires a paid license for all uses. It offers a limited 14-day free trial period.",
+    "what_it_does": "Parallels Desktop allows users to run Windows, Linux, and other operating systems on a Mac without rebooting.",
+    "best_for": "Mac users who need to run Windows or other operating systems and applications on their macOS device.",
+    "free_tier": "A 14-day free trial period is available. There is no perpetual free tier.",
+    "limitations": "All uses of Parallels Desktop require a paid license after the 14-day trial period.",
+    "licensing_notes": "Parallels Desktop is proprietary commercial software. It requires a paid subscription or perpetual license for all uses, with only a 14-day free trial available. Refer to the official documentation for licensing options.",
+    "faq": [
+      {
+        "question": "Can I use Parallels Desktop for free?",
+        "answer": "Parallels Desktop offers a 14-day free trial. After this period, a paid license is required for continued use."
+      },
+      {
+        "question": "What kind of license does Parallels Desktop require?",
+        "answer": "Parallels Desktop requires a paid subscription or a perpetual license for all uses."
+      }
+    ]
+  },
+  "posthog": {
+    "input_hash": "415a3721f33231777587ae5af38ed7876ce35bd421260acab1d6acee92a9c1ee",
+    "generated_at": "2026-10-26",
+    "summary": "PostHog operates on an open-core model, with its core platform available under the MIT License. Enterprise features are provided under a proprietary license.",
+    "what_it_does": "PostHog is a product analytics suite, offering features like product analytics, session replay, feature flags, and A/B testing.",
+    "best_for": "Developers and product teams looking for an open-source analytics solution, with options for proprietary enterprise features as needs grow.",
+    "free_tier": "The core platform is free and open source under the MIT License.",
+    "limitations": "Advanced enterprise features are not included in the open-source core and require a proprietary license.",
+    "licensing_notes": "PostHog uses an open-core model. The core platform is open source under the MIT License, while enterprise features are proprietary. Check the official documentation for details on feature differentiation and licensing.",
+    "faq": [
+      {
+        "question": "Is PostHog entirely open source?",
+        "answer": "PostHog operates on an open-core model. Its core platform is open source under the MIT License, but enterprise features are proprietary."
+      },
+      {
+        "question": "Can I use PostHog for commercial purposes?",
+        "answer": "The core platform, licensed under MIT, can be used commercially. Enterprise features require a proprietary license."
+      }
+    ]
+  },
+  "freecad": {
+    "input_hash": "b3ea5ccd5c4df89db021cce95ba08c5eb194a89ed200dc4cd6643ea83e025b2a",
+    "generated_at": "2026-10-26",
+    "summary": "FreeCAD is free and open-source software licensed under LGPLv2+. It allows free use, modification, and distribution for both personal and commercial purposes.",
+    "what_it_does": "FreeCAD is a parametric 3D CAD modeler primarily designed for mechanical engineering and product design.",
+    "best_for": "Engineers, designers, and hobbyists who need a free and open-source parametric 3D CAD tool for personal or commercial projects.",
+    "free_tier": "FreeCAD is entirely free and open-source software.",
+    "limitations": "As open-source software, its capabilities are driven by community development. Users should check official documentation for specific feature sets and platform support.",
+    "licensing_notes": "FreeCAD is licensed under LGPLv2+, which permits free use, modification, and distribution for both personal and commercial purposes.",
+    "faq": [
+      {
+        "question": "Is FreeCAD truly free for all uses?",
+        "answer": "Yes, FreeCAD is free and open-source software licensed under LGPLv2+, allowing free use, modification, and distribution for personal and commercial purposes."
+      },
+      {
+        "question": "What kind of license does FreeCAD use?",
+        "answer": "FreeCAD is licensed under the GNU Lesser General Public License version 2 or later (LGPLv2+)."
+      }
+    ]
+  },
+  "macrium-reflect-home": {
+    "input_hash": "c41ecaa68b4f5ecafbf1dd0e2217d3c3f515bcbd35c574648ad9ba548a9166f7",
+    "generated_at": "2026-10-26",
+    "summary": "Macrium Reflect Home is paid commercial software that requires a license or active subscription. The previously available free edition has been retired.",
+    "what_it_does": "Macrium Reflect Home is a disk imaging and backup solution for personal use, designed to protect data and restore systems.",
+    "best_for": "Home users who need a reliable solution for backing up their data, creating disk images, and recovering their systems.",
+    "free_tier": "There is no free tier available for Macrium Reflect Home, as the free edition has been retired.",
+    "limitations": "A paid license or active subscription is required for all uses of Macrium Reflect Home.",
+    "licensing_notes": "Macrium Reflect Home is paid commercial software. It requires a purchased license or an active subscription for use, as its free edition is no longer available. Consult the official documentation for current licensing options.",
+    "faq": [
+      {
+        "question": "Is there a free version of Macrium Reflect Home?",
+        "answer": "No, the free edition of Macrium Reflect has been retired. Macrium Reflect Home now requires a paid license or active subscription."
+      },
+      {
+        "question": "What kind of license does Macrium Reflect Home require?",
+        "answer": "Macrium Reflect Home requires a paid commercial license or an active subscription."
+      }
+    ]
+  },
+  "cinema-4d": {
+    "input_hash": "9d90121888dff0e150e5e8ae568f2fd0cf3e1a51dfc8946a51e19c879ab66361",
+    "generated_at": "2026-10-26",
+    "summary": "Cinema 4D is commercial proprietary software that requires a paid subscription or license for general use.",
+    "what_it_does": "Cinema 4D is a professional 3D modeling, animation, simulation, and rendering software.",
+    "best_for": "3D artists, motion graphics designers, and visual effects professionals who need a powerful and intuitive tool for creating high-quality 3D content.",
+    "free_tier": "There is no perpetual free tier for Cinema 4D. Users should check the official documentation for any trial options.",
+    "limitations": "A paid subscription or license is required for all general use of Cinema 4D.",
+    "licensing_notes": "Cinema 4D is commercial proprietary software. A paid subscription or license is required for general use. Refer to the official documentation for current pricing and licensing models.",
+    "faq": [
+      {
+        "question": "Is Cinema 4D available for free?",
+        "answer": "No, Cinema 4D is commercial proprietary software that requires a paid subscription or license for general use."
+      },
+      {
+        "question": "What type of license does Cinema 4D use?",
+        "answer": "Cinema 4D uses a paid proprietary license, typically offered as a subscription or a perpetual license."
+      }
+    ]
+  },
+  "fork": {
+    "input_hash": "dddcd76c022443f26591eeb672cb7e94c2dce56615d560be899d3a685fd7f0c2",
+    "generated_at": "2026-10-26",
+    "summary": "Fork is commercial proprietary software that requires a purchased license for continued use after a free evaluation period.",
+    "what_it_does": "Fork is a fast and friendly Git client for macOS and Windows, designed to simplify version control tasks.",
+    "best_for": "Developers who prefer a graphical user interface for managing their Git repositories and need a robust client for daily version control tasks.",
+    "free_tier": "A free evaluation period is available.",
+    "limitations": "A purchased license is required for continued use after the evaluation period.",
+    "licensing_notes": "Fork is commercial proprietary software. It offers a free evaluation period, after which a purchased license is required for continued use. Check the official documentation for current pricing and licensing terms.",
+    "faq": [
+      {
+        "question": "Can I use Fork for free indefinitely?",
+        "answer": "Fork offers a free evaluation period. A purchased license is required for continued use after this period."
+      },
+      {
+        "question": "What kind of license does Fork require?",
+        "answer": "Fork is commercial proprietary software that requires a purchased license for continued use."
+      }
+    ]
+  },
+  "scylladb-community-edition": {
+    "input_hash": "66a701d91e0b0c7db941e9b6a229ddaba4bb6f1f14bef59023857594e0eb8d82",
+    "generated_at": "2026-10-26",
+    "summary": "ScyllaDB Community Edition is open-source software licensed under the GNU Affero General Public License v3.0 (AGPLv3).",
+    "what_it_does": "ScyllaDB Community Edition is a NoSQL database designed for high performance and low latency, compatible with Apache Cassandra.",
+    "best_for": "Developers and organizations seeking a high-performance, open-source NoSQL database solution, particularly those familiar with Cassandra.",
+    "free_tier": "ScyllaDB Community Edition is entirely free and open-source.",
+    "limitations": "As a community edition, it might lack some enterprise-grade features or support options found in commercial versions. Users should check official documentation for feature comparisons.",
+    "licensing_notes": "ScyllaDB Community Edition is open-source software licensed under the GNU Affero General Public License v3.0 (AGPLv3).",
+    "faq": [
+      {
+        "question": "Is ScyllaDB Community Edition free to use?",
+        "answer": "Yes, ScyllaDB Community Edition is entirely free and open-source software."
+      },
+      {
+        "question": "What is the license for ScyllaDB Community Edition?",
+        "answer": "ScyllaDB Community Edition is licensed under the GNU Affero General Public License v3.0 (AGPLv3)."
+      }
+    ]
+  },
+  "filezilla": {
+    "input_hash": "74761a9bbf35f2a05a3c22d807de44b50932a3a68697bc306d16b6cc5af3aeff",
+    "generated_at": "2026-10-26",
+    "summary": "FileZilla Client and Server are free and open-source software distributed under the GNU General Public License.",
+    "what_it_does": "FileZilla is an FTP, FTPS, and SFTP client and server solution for transferring files over the internet.",
+    "best_for": "Individuals and organizations needing a free and robust solution for transferring files securely between local and remote systems.",
+    "free_tier": "FileZilla Client and Server are entirely free and open-source.",
+    "limitations": "As open-source software, support is primarily community-driven. Users should check official documentation for specific features and platform compatibility.",
+    "licensing_notes": "FileZilla Client and Server are free and open-source software distributed under the terms of the GNU General Public License.",
+    "faq": [
+      {
+        "question": "Is FileZilla completely free to use?",
+        "answer": "Yes, FileZilla Client and Server are free and open-source software."
+      },
+      {
+        "question": "What is the license for FileZilla?",
+        "answer": "FileZilla Client and Server are distributed under the terms of the GNU General Public License."
+      }
+    ]
+  },
+  "atlassian-confluence": {
+    "input_hash": "7b9f2c72d8993590cd0dcab6f0af6cc0cbcd226b3a2158e0dd769365601e8e83",
+    "generated_at": "2026-10-26",
+    "summary": "Atlassian Confluence is proprietary commercial software that requires a paid subscription. A limited free plan is available for up to 10 users.",
+    "what_it_does": "Atlassian Confluence is a team collaboration software that helps teams create, organize, and discuss work in one place.",
+    "best_for": "Teams and organizations of various sizes needing a centralized workspace for documentation, knowledge management, and collaboration.",
+    "free_tier": "A limited free plan is available for up to 10 users.",
+    "limitations": "The free plan is limited to 10 users. Larger teams or those requiring advanced features will need a paid subscription.",
+    "licensing_notes": "Atlassian Confluence is proprietary commercial software requiring a paid subscription. A limited free plan is available for up to 10 users. Refer to the official documentation for full plan details and terms.",
+    "faq": [
+      {
+        "question": "Is there a free version of Atlassian Confluence?",
+        "answer": "Yes, a limited free plan is available for up to 10 users. Paid subscriptions are required for larger teams or advanced features."
+      },
+      {
+        "question": "What are the limitations of the free plan?",
+        "answer": "The free plan for Atlassian Confluence is limited to a maximum of 10 users."
+      }
+    ]
+  },
+  "owasp-zap": {
+    "input_hash": "acbd008cd61552bb5343fca3d73ca62746e2168ca2171788a0a27e1bbb093660",
+    "generated_at": "2026-10-26",
+    "summary": "OWASP ZAP is an entirely free and open-source web application security scanner released under the Apache License 2.0.",
+    "what_it_does": "OWASP ZAP (Zed Attack Proxy) is a security tool used for finding vulnerabilities in web applications during development and testing.",
+    "best_for": "Developers, security testers, and penetration testers who need a free and powerful tool to identify security vulnerabilities in web applications.",
+    "free_tier": "OWASP ZAP is entirely free and open-source.",
+    "limitations": "As open-source software, support is primarily community-driven. Users should check official documentation for specific features and integration capabilities.",
+    "licensing_notes": "OWASP ZAP is free and open-source software released under the Apache License 2.0.",
+    "faq": [
+      {
+        "question": "Is OWASP ZAP completely free?",
+        "answer": "Yes, OWASP ZAP is an entirely free and open-source web application security scanner."
+      },
+      {
+        "question": "What is the license for OWASP ZAP?",
+        "answer": "OWASP ZAP is released under the Apache License 2.0."
+      }
+    ]
+  },
+  "apache-cassandra": {
+    "input_hash": "b96c71c1db5691c4c435e4371bd65101109c83e5d951de66d8ad76b7f3087f12",
+    "generated_at": "2026-10-26",
+    "summary": "Apache Cassandra is fully open-source software managed by the Apache Software Foundation, released under the permissive Apache License 2.0.",
+    "what_it_does": "Apache Cassandra is a highly scalable, distributed NoSQL database designed to handle large amounts of data across many commodity servers.",
+    "best_for": "Organizations requiring a highly available and scalable NoSQL database for handling large datasets and high-throughput applications.",
+    "free_tier": "Apache Cassandra is entirely free and open-source.",
+    "limitations": "While powerful, implementing and managing Cassandra can require significant technical expertise. Users should check official documentation for specific features and ecosystem tools.",
+    "licensing_notes": "Apache Cassandra is fully open-source software managed by the Apache Software Foundation and released under the permissive Apache License 2.0.",
+    "faq": [
+      {
+        "question": "Is Apache Cassandra free to use?",
+        "answer": "Yes, Apache Cassandra is fully open-source software and is free to use."
+      },
+      {
+        "question": "What is the license for Apache Cassandra?",
+        "answer": "Apache Cassandra is released under the permissive Apache License 2.0."
+      }
+    ]
+  },
+  "zotero": {
+    "input_hash": "97175029a84141425bdfd120a3c2a80efec16fc89a7b9ee5dbb165e3e23170d2",
+    "generated_at": "2026-10-26",
+    "summary": "Zotero is an open-source reference manager licensed under the GNU Affero General Public License version 3 (AGPLv3), and it is free for all users.",
+    "what_it_does": "Zotero helps users collect, organize, cite, and share research sources.",
+    "best_for": "Researchers, students, and academics who need a free and powerful tool to manage their citations, bibliographies, and research materials.",
+    "free_tier": "Zotero is entirely free and open-source for all users.",
+    "limitations": "As open-source software, support is primarily community-driven. Users should check official documentation for specific features and integration capabilities.",
+    "licensing_notes": "Zotero is free and open-source software licensed under the GNU Affero General Public License version 3 (AGPLv3).",
+    "faq": [
+      {
+        "question": "Is Zotero free for everyone?",
+        "answer": "Yes, Zotero is free and open-source software available to all users."
+      },
+      {
+        "question": "What is the license for Zotero?",
+        "answer": "Zotero is licensed under the GNU Affero General Public License version 3 (AGPLv3)."
+      }
+    ]
   }
 }
