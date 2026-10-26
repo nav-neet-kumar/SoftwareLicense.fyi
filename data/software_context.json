@@ -4498,5 +4498,605 @@
         "answer": "WinRAR primarily supports RAR and ZIP formats, and can also decompress many other archive formats."
       }
     ]
+  },
+  "git": {
+    "input_hash": "33554960e5dc144dd9307d18b801c6948d8f585209b960ffe97b902cfcce5059",
+    "generated_at": "2026-10-26",
+    "summary": "Git is a widely used, free, and open-source distributed version control system. It helps developers track changes in source code during software development.",
+    "what_it_does": "Git enables developers to manage and track changes to their codebase, facilitating collaboration among multiple contributors. It allows for branching, merging, and reverting to previous states of a project.",
+    "best_for": "Software developers, teams, and anyone needing robust version control for code or other files.",
+    "free_tier": "Git is entirely free and open-source software.",
+    "limitations": "None inherent to its licensing; functionality depends on user's technical expertise and setup.",
+    "licensing_notes": "Git is licensed under the GNU General Public License v2.0, making it free to use, modify, and distribute.",
+    "faq": [
+      {
+        "question": "Is Git free to use?",
+        "answer": "Yes, Git is free and open-source software licensed under the GNU GPL v2.0."
+      },
+      {
+        "question": "What is Git primarily used for?",
+        "answer": "Git is primarily used as a distributed version control system for tracking changes in source code during software development."
+      }
+    ]
+  },
+  "red-hat-enterprise-linux": {
+    "input_hash": "646dbc3de9d8187821e5cbd080e3a781fe79e6b47bc45ab8954b25f413f3b381",
+    "generated_at": "2026-10-26",
+    "summary": "Red Hat Enterprise Linux (RHEL) is a commercial Linux distribution designed for enterprise environments. It provides a stable and secure operating system with paid subscriptions for support and updates.",
+    "what_it_does": "RHEL serves as an enterprise-grade operating system, offering a robust foundation for servers, workstations, and cloud deployments. It includes tools and features tailored for business needs.",
+    "best_for": "Enterprises, businesses, and organizations requiring a stable, supported, and secure Linux operating system with commercial backing.",
+    "free_tier": "A paid subscription is required for full access to support, updates, and enterprise features. Specific free-tier options should be checked on the official documentation.",
+    "limitations": "Full functionality, support, and updates are only available with a paid subscription.",
+    "licensing_notes": "Red Hat Enterprise Linux requires a paid subscription, which includes access to support, updates, and enterprise features.",
+    "faq": [
+      {
+        "question": "Is Red Hat Enterprise Linux free?",
+        "answer": "No, Red Hat Enterprise Linux requires a paid subscription for support, updates, and enterprise features."
+      },
+      {
+        "question": "Who is Red Hat Enterprise Linux designed for?",
+        "answer": "It is designed for enterprises and organizations that need a stable, supported, and secure Linux operating system."
+      }
+    ]
+  },
+  "nomachine": {
+    "input_hash": "455a4d81917a43929e047ea42fe130132468f74e04d23b0c8fad30d296f91f78",
+    "generated_at": "2026-10-26",
+    "summary": "NoMachine is proprietary software that allows for remote desktop access and file transfer. It is free for personal and non-commercial use, with paid licenses available for commercial applications.",
+    "what_it_does": "NoMachine enables users to remotely access and control computers, share files, and stream multimedia content over a network.",
+    "best_for": "Individuals and home users needing remote desktop access. Commercial entities require a paid license.",
+    "free_tier": "A free version is available for personal and non-commercial use.",
+    "limitations": "Commercial use requires a paid enterprise license.",
+    "licensing_notes": "NoMachine is proprietary software. It is free for personal and non-commercial use, but a paid enterprise license is required for commercial use.",
+    "faq": [
+      {
+        "question": "Can I use NoMachine for free?",
+        "answer": "Yes, NoMachine is free for personal and non-commercial use."
+      },
+      {
+        "question": "Is NoMachine suitable for businesses?",
+        "answer": "For commercial use, a paid enterprise license is required."
+      }
+    ]
+  },
+  "helix": {
+    "input_hash": "aeeac5f0562c5b568ac4ba236e9fb2b97e690aea734ec5a6ef60a72db68d5df5",
+    "generated_at": "2026-10-26",
+    "summary": "Helix is a free and open-source modal text editor designed for efficient code editing. It is licensed under the Mozilla Public License 2.0.",
+    "what_it_does": "Helix provides a text editing environment with a modal interface, focusing on speed and developer productivity.",
+    "best_for": "Developers and programmers who prefer a modal text editor and seek an open-source solution.",
+    "free_tier": "Helix is entirely free and open-source software.",
+    "limitations": "None inherent to its licensing.",
+    "licensing_notes": "Helix is licensed under the Mozilla Public License 2.0 (MPL-2.0), making it free to use, modify, and distribute.",
+    "faq": [
+      {
+        "question": "Is Helix a free text editor?",
+        "answer": "Yes, Helix is a free and open-source text editor."
+      },
+      {
+        "question": "What kind of license does Helix use?",
+        "answer": "Helix is licensed under the Mozilla Public License 2.0 (MPL-2.0)."
+      }
+    ]
+  },
+  "wazuh": {
+    "input_hash": "a39637226763d773eb5b9ceb8c32d6f12f911ab23323381b918187496e27e697",
+    "generated_at": "2026-10-26",
+    "summary": "Wazuh is a free and open-source enterprise security platform. It provides unified security visibility and protection for various environments.",
+    "what_it_does": "Wazuh offers capabilities for security analytics, intrusion detection, log data analysis, and compliance monitoring across endpoints and cloud workloads.",
+    "best_for": "Organizations and enterprises seeking a comprehensive, open-source security monitoring and threat detection solution.",
+    "free_tier": "Wazuh is entirely free and open-source software.",
+    "limitations": "None inherent to its licensing.",
+    "licensing_notes": "Wazuh is distributed under the GNU General Public License v2.0 and Apache License 2.0, making it free to use, modify, and distribute.",
+    "faq": [
+      {
+        "question": "Is Wazuh free to use?",
+        "answer": "Yes, Wazuh is a free and open-source enterprise security platform."
+      },
+      {
+        "question": "What licenses govern Wazuh?",
+        "answer": "Wazuh is distributed under the GNU General Public License v2.0 and Apache License 2.0."
+      }
+    ]
+  },
+  "foobar2000": {
+    "input_hash": "abc0d5dfc35e51201f873cb663337b5e30462c2a76983322cf8fa95b58848533",
+    "generated_at": "2026-10-26",
+    "summary": "foobar2000 is a proprietary freeware audio player known for its highly customizable interface and advanced features. It is available at no cost for personal use.",
+    "what_it_does": "foobar2000 allows users to play various audio formats, manage their music library, and customize playback settings and user interface extensively.",
+    "best_for": "Individuals seeking a free, customizable, and feature-rich audio player for personal use.",
+    "free_tier": "foobar2000 is available as freeware at no cost for personal use.",
+    "limitations": "It is proprietary software, and its use might be restricted to personal contexts as per its freeware license. Commercial use details should be checked in the official documentation.",
+    "licensing_notes": "foobar2000 is proprietary freeware, meaning it is available at no cost for personal use.",
+    "faq": [
+      {
+        "question": "Is foobar2000 free?",
+        "answer": "Yes, foobar2000 is proprietary freeware available at no cost for personal use."
+      },
+      {
+        "question": "What is foobar2000 known for?",
+        "answer": "It is known for its highly customizable interface and advanced audio playback features."
+      }
+    ]
+  },
+  "cascadeur": {
+    "input_hash": "54aff8ea06c1fcd990ab07a2c5a0178ab1afb76ad52905d37a383783cc5edfb7",
+    "generated_at": "2026-10-26",
+    "summary": "Cascadeur is a 3D animation software that offers a free basic plan for personal or small-scale use. Commercial organizations exceeding a specific revenue threshold require a paid subscription.",
+    "what_it_does": "Cascadeur helps animators create realistic 3D character animations using AI-assisted tools and physics-based motion.",
+    "best_for": "Individual animators, small studios, and non-commercial projects. Larger commercial entities need a paid license.",
+    "free_tier": "A free basic plan is available for non-commercial or small-scale use (e.g., commercial entities earning under $100,000 per year).",
+    "limitations": "Commercial organizations earning over $100,000 per year require a paid subscription.",
+    "licensing_notes": "Cascadeur offers a free basic plan for personal or small-scale commercial use. A paid subscription is required for commercial organizations with annual revenue exceeding $100,000.",
+    "faq": [
+      {
+        "question": "Is there a free version of Cascadeur?",
+        "answer": "Yes, Cascadeur offers a free basic plan for personal and small-scale commercial use."
+      },
+      {
+        "question": "When is a paid license for Cascadeur required?",
+        "answer": "A paid subscription is required for commercial organizations earning over $100,000 per year."
+      }
+    ]
+  },
+  "spine": {
+    "input_hash": "8e082e86ed97bf8b964f10a01b71516a20a0950d00120e02e6e9534c8d51997c",
+    "generated_at": "2026-10-26",
+    "summary": "Spine is proprietary 2D animation software that requires a paid commercial license for full functionality, specifically to save or export projects.",
+    "what_it_does": "Spine allows animators to create skeletal 2D animations for games and other applications, focusing on efficient workflows and performance.",
+    "best_for": "Game developers and animators creating 2D skeletal animations who are prepared to purchase a commercial license.",
+    "free_tier": "A paid commercial license is required to save or export projects. A trial might be available, but full functionality is behind a paywall. Check official documentation for trial details.",
+    "limitations": "Saving or exporting projects requires a paid commercial license.",
+    "licensing_notes": "Spine is proprietary software that requires a paid commercial license (e.g., Essential, Professional, or Enterprise) to save or export projects.",
+    "faq": [
+      {
+        "question": "Is Spine free to use?",
+        "answer": "No, Spine requires a paid commercial license to save or export projects."
+      },
+      {
+        "question": "What is Spine used for?",
+        "answer": "Spine is used for creating 2D skeletal animations, commonly for games."
+      }
+    ]
+  },
+  "dynatrace": {
+    "input_hash": "bd3968c4980ac03d4f886ffdd05284c2e7947ffc5ec8efd8790d330836b4afc8",
+    "generated_at": "2026-10-26",
+    "summary": "Dynatrace is a proprietary enterprise platform for software intelligence, requiring a paid commercial subscription for its services. A temporary 15-day trial is available.",
+    "what_it_does": "Dynatrace provides AI-powered full-stack monitoring, observability, and automation for applications, infrastructure, and user experience in complex enterprise environments.",
+    "best_for": "Enterprises and large organizations needing comprehensive, AI-driven software intelligence and observability solutions.",
+    "free_tier": "A temporary 15-day trial is offered. A paid subscription is required for continued use.",
+    "limitations": "Full access and continued use beyond the trial period require a paid commercial subscription.",
+    "licensing_notes": "Dynatrace is a proprietary platform that requires a paid commercial subscription. A temporary 15-day trial is available.",
+    "faq": [
+      {
+        "question": "Is Dynatrace free?",
+        "answer": "No, Dynatrace requires a paid commercial subscription. A temporary 15-day trial is available."
+      },
+      {
+        "question": "What does Dynatrace do?",
+        "answer": "Dynatrace provides AI-powered full-stack monitoring, observability, and automation for enterprise software environments."
+      }
+    ]
+  },
+  "discourse": {
+    "input_hash": "7f95129e658dd759840580c3ef64b3bdc77e389dccc75a94289a6222c4c218e3",
+    "generated_at": "2026-10-26",
+    "summary": "Discourse is 100% open-source software designed for modern community forums and discussion platforms. It is released under the GNU General Public License v2 or later.",
+    "what_it_does": "Discourse provides a platform for online discussions, community building, and knowledge sharing, featuring modern forum functionalities.",
+    "best_for": "Communities, organizations, and individuals looking to host a modern, open-source discussion forum.",
+    "free_tier": "Discourse is entirely free and open-source software.",
+    "limitations": "None inherent to its licensing. Users are responsible for hosting and maintenance if self-hosting.",
+    "licensing_notes": "Discourse is open-source software released under the GNU General Public License version 2 or later, allowing free use, modification, and distribution.",
+    "faq": [
+      {
+        "question": "Is Discourse free to use?",
+        "answer": "Yes, Discourse is 100% open-source software and is free to use."
+      },
+      {
+        "question": "What is Discourse primarily used for?",
+        "answer": "Discourse is primarily used for creating and hosting modern online community forums and discussion platforms."
+      }
+    ]
+  },
+  "microsoft-build-of-openjdk": {
+    "input_hash": "409c7b5dfb768dc168deaf811dc4c1660efe9a7cce6cbd20043c546509584339",
+    "generated_at": "2026-10-26",
+    "summary": "The Microsoft Build of OpenJDK is a free and open-source distribution of the Java Development Kit. It is licensed under the GNU General Public License v2 with Classpath Exception.",
+    "what_it_does": "It provides a complete implementation of the Java Platform, Standard Edition (Java SE), enabling developers to build and run Java applications.",
+    "best_for": "Developers and organizations needing a free, open-source, and supported Java runtime and development environment for both commercial and non-commercial projects.",
+    "free_tier": "It is entirely free and open-source for both commercial and non-commercial use.",
+    "limitations": "None inherent to its licensing.",
+    "licensing_notes": "This distribution is free and open-source, licensed under the GNU General Public License v2 with Classpath Exception, permitting both commercial and non-commercial use.",
+    "faq": [
+      {
+        "question": "Is the Microsoft Build of OpenJDK free for commercial use?",
+        "answer": "Yes, it is free and open-source for both commercial and non-commercial use under the GPLv2 with Classpath Exception."
+      },
+      {
+        "question": "What is the Microsoft Build of OpenJDK?",
+        "answer": "It is a free, open-source distribution of the Java Development Kit (OpenJDK) provided by Microsoft."
+      }
+    ]
+  },
+  "plausible-analytics": {
+    "input_hash": "38e001b95579ce5052c2bf4c55af6798cc80a89ad98a7d8456fe84a6b64ebd47",
+    "generated_at": "2026-10-26",
+    "summary": "Plausible Analytics offers a self-hostable open-source community edition for web analytics, licensed under AGPLv3. It also provides paid hosted cloud plans for convenience.",
+    "what_it_does": "Plausible Analytics provides simple, privacy-friendly website analytics without cookies, allowing users to track website traffic and visitor behavior.",
+    "best_for": "Website owners and developers seeking privacy-focused analytics. Suitable for those who prefer self-hosting an open-source solution or opt for a managed cloud service.",
+    "free_tier": "A free, self-hostable open-source community edition is available.",
+    "limitations": "The free version requires self-hosting and maintenance. Paid cloud plans offer managed services.",
+    "licensing_notes": "The self-hostable community edition is open-source under AGPLv3. Paid hosted cloud plans are also available.",
+    "faq": [
+      {
+        "question": "Is there a free version of Plausible Analytics?",
+        "answer": "Yes, a free, self-hostable open-source community edition is available under AGPLv3."
+      },
+      {
+        "question": "What is the difference between the community and cloud versions?",
+        "answer": "The community version is self-hosted and free, while the cloud version is a paid, managed service."
+      }
+    ]
+  },
+  "rclone": {
+    "input_hash": "e009151f7ad0d587ed9cda1afafd1b9f8d54f2cb60c96538776a8ee209c5da7f",
+    "generated_at": "2026-10-26",
+    "summary": "Rclone is fully open-source software for managing files on cloud storage. It is released under the permissive MIT License, allowing unrestricted personal and commercial use.",
+    "what_it_does": "Rclone synchronizes files and directories to and from various cloud storage providers, mounts cloud storage as a disk, and performs other file management tasks.",
+    "best_for": "Users and organizations needing to manage, sync, or backup files across multiple cloud storage services.",
+    "free_tier": "Rclone is entirely free and open-source software.",
+    "limitations": "None inherent to its licensing.",
+    "licensing_notes": "Rclone is open-source software released under the MIT License, which permits unrestricted personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is Rclone free for commercial use?",
+        "answer": "Yes, Rclone is fully open-source under the MIT License, allowing unrestricted personal and commercial use."
+      },
+      {
+        "question": "What is Rclone used for?",
+        "answer": "Rclone is used for managing, syncing, and backing up files to and from various cloud storage services."
+      }
+    ]
+  },
+  "pdfsam-basic": {
+    "input_hash": "42f85f0702457d0c18d17263f28116b30f9115c58b4131e76d76857b75fe18fc",
+    "generated_at": "2026-10-26",
+    "summary": "PDFsam Basic is a free and open-source application for splitting, merging, and manipulating PDF documents. It is released under the GNU Affero General Public License v3.",
+    "what_it_does": "PDFsam Basic allows users to split PDF files by pages, merge multiple PDF files, rotate pages, extract pages, and mix PDF files.",
+    "best_for": "Individuals and businesses needing a free tool to perform basic operations on PDF documents.",
+    "free_tier": "PDFsam Basic is entirely free and open-source for both personal and commercial use.",
+    "limitations": "None inherent to its licensing.",
+    "licensing_notes": "PDFsam Basic is free and open-source software released under the GNU Affero General Public License v3, permitting both personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is PDFsam Basic free for commercial use?",
+        "answer": "Yes, PDFsam Basic is free and open-source under the AGPLv3 for both personal and commercial use."
+      },
+      {
+        "question": "What are the main functions of PDFsam Basic?",
+        "answer": "It allows users to split, merge, rotate, extract, and mix PDF documents."
+      }
+    ]
+  },
+  "apache-druid": {
+    "input_hash": "722a6854ed5f98604322e08544b5736c920a6478b10a87a4f7a8de3df22d0a6d",
+    "generated_at": "2026-10-26",
+    "summary": "Apache Druid is a free and open-source real-time analytics database. It is designed for fast event-driven data ingestion and low-latency queries, licensed under Apache 2.0.",
+    "what_it_does": "Druid enables users to ingest large volumes of event data and perform real-time analytical queries, making it suitable for applications requiring immediate insights.",
+    "best_for": "Organizations and developers needing a high-performance, real-time analytics database for event-driven data, such as operational analytics or business intelligence.",
+    "free_tier": "Apache Druid is entirely free and open-source software.",
+    "limitations": "None inherent to its licensing. Requires technical expertise for setup and management.",
+    "licensing_notes": "Apache Druid is free and open-source software licensed under Apache 2.0, allowing broad use, modification, and distribution.",
+    "faq": [
+      {
+        "question": "Is Apache Druid free to use?",
+        "answer": "Yes, Apache Druid is free and open-source software."
+      },
+      {
+        "question": "What is Apache Druid designed for?",
+        "answer": "It is designed as a real-time analytics database for fast event-driven data ingestion and low-latency queries."
+      }
+    ]
+  },
+  "affinity-designer": {
+    "input_hash": "d2bed543d0e7a53280ce68a5d72f66b1c108d1b3bafec3d21fb1456c1b2f7183",
+    "generated_at": "2026-10-26",
+    "summary": "Affinity Designer is professional graphic design software that requires a paid, one-time perpetual license for both personal and commercial use.",
+    "what_it_does": "It is a graphic design application used for vector illustration, UI/UX design, and pixel-based artwork.",
+    "best_for": "Designers and artists who need a professional vector graphics tool with a perpetual license model for various creative projects.",
+    "free_tier": "There is no free tier for full, unrestricted use; a paid license is required. Users should check the official website for trial availability.",
+    "limitations": "Full functionality requires a paid license. Users should check official documentation for specific feature sets or platform support.",
+    "licensing_notes": "Affinity Designer operates on a paid, perpetual license model. A single one-time purchase grants a license for both personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is Affinity Designer free to use?",
+        "answer": "No, Affinity Designer requires a paid one-time purchase license for both personal and commercial use."
+      },
+      {
+        "question": "What is Affinity Designer used for?",
+        "answer": "Affinity Designer is a graphic design application primarily used for vector illustration, UI/UX design, and creating pixel art."
+      }
+    ]
+  },
+  "microk8s": {
+    "input_hash": "4b768387d64712fb280b67336c42d19f06f7be6c7093a11d66af072fa9fd5265",
+    "generated_at": "2026-10-26",
+    "summary": "MicroK8s is a lightweight, fully open-source Kubernetes distribution licensed under Apache-2.0, free for both personal and commercial use.",
+    "what_it_does": "It provides a small, fast, single-package Kubernetes cluster for developers, IoT, and edge computing environments.",
+    "best_for": "Developers, IoT engineers, and users needing a lightweight, production-grade Kubernetes environment for local development, testing, or edge deployments.",
+    "free_tier": "MicroK8s is entirely free and open source for all uses.",
+    "limitations": "Users should consult official documentation for specific resource requirements or compatibility details.",
+    "licensing_notes": "MicroK8s is free and open source under the Apache License 2.0, allowing both personal and commercial use. Optional paid enterprise support is available from Canonical.",
+    "faq": [
+      {
+        "question": "Can I use MicroK8s for commercial projects?",
+        "answer": "Yes, MicroK8s is free and open source under the Apache License 2.0, making it suitable for both personal and commercial use."
+      },
+      {
+        "question": "Is there any paid option for MicroK8s?",
+        "answer": "While MicroK8s itself is free, Canonical offers optional paid enterprise support for it."
+      }
+    ]
+  },
+  "opensearch": {
+    "input_hash": "968660fb978f0c5ee9496ee459d71b6e8321a8c1569602c20effa73c90279b9b",
+    "generated_at": "2026-10-26",
+    "summary": "OpenSearch is a fully open-source search and analytics suite, licensed under the permissive Apache License, Version 2.0.",
+    "what_it_does": "It provides a distributed, community-driven search and analytics suite for a wide range of use cases, including data ingestion, search, and visualization.",
+    "best_for": "Developers and organizations requiring a flexible, open-source search engine and analytics platform for data exploration and analysis.",
+    "free_tier": "OpenSearch is entirely free and open source for all uses.",
+    "limitations": "Users should consult official documentation for specific deployment requirements or scalability considerations.",
+    "licensing_notes": "OpenSearch is fully open source and licensed under the Apache License, Version 2.0, which is a permissive license allowing broad use.",
+    "faq": [
+      {
+        "question": "What is the license for OpenSearch?",
+        "answer": "OpenSearch is licensed under the Apache License, Version 2.0, which is a permissive open-source license."
+      },
+      {
+        "question": "Can OpenSearch be used commercially?",
+        "answer": "Yes, as it is licensed under Apache 2.0, OpenSearch can be used freely for commercial purposes."
+      }
+    ]
+  },
+  "system-informer": {
+    "input_hash": "773f8f6b6edd5bab0877210975b5aca91dfa34e95e3711ec525ab118e42d5079",
+    "generated_at": "2026-10-26",
+    "summary": "System Informer is a free and open-source system monitoring and debugging tool, distributed under the GNU General Public License v3.0.",
+    "what_it_does": "It provides detailed information about running processes, services, network activity, and system performance on Windows.",
+    "best_for": "Advanced users, developers, and system administrators who need a comprehensive tool for monitoring and debugging Windows systems.",
+    "free_tier": "System Informer is entirely free and open source for all uses.",
+    "limitations": "Users should check official documentation for specific system requirements or compatibility.",
+    "licensing_notes": "System Informer is free and open source, licensed under the GNU General Public License v3.0 (GPLv3). This license allows users to run, study, share, and modify the software.",
+    "faq": [
+      {
+        "question": "Is System Informer free to use?",
+        "answer": "Yes, System Informer is completely free and open source under the GPLv3 license."
+      },
+      {
+        "question": "What kind of information does System Informer provide?",
+        "answer": "It provides detailed insights into system processes, services, network connections, and overall system performance."
+      }
+    ]
+  },
+  "spybot-search-destroy": {
+    "input_hash": "f5f83effecebd960ec947ae5e6840bcc68755a957d7ba72b75f6f02638b5a912",
+    "generated_at": "2026-10-26",
+    "summary": "Spybot - Search & Destroy offers a free edition for personal and home use, with paid licenses required for commercial use and advanced features.",
+    "what_it_does": "It is a security utility designed to detect and remove spyware, adware, and other malicious software from computers.",
+    "best_for": "Home users seeking a free solution for basic spyware and adware detection and removal.",
+    "free_tier": "A free edition is available for personal and home use.",
+    "limitations": "The free edition is restricted to personal and home use only. Commercial use and access to additional features require a paid license. Users should check the official website for feature comparisons between editions.",
+    "licensing_notes": "Spybot - Search & Destroy provides a free edition for private, non-commercial use. Commercial users and those seeking advanced features must purchase a paid license.",
+    "faq": [
+      {
+        "question": "Can I use Spybot - Search & Destroy for my business for free?",
+        "answer": "No, the free edition is only for private and home use. Commercial use requires a paid license."
+      },
+      {
+        "question": "What are the benefits of a paid license for Spybot?",
+        "answer": "Paid licenses typically unlock additional features and allow for commercial use. Users should consult the official website for specific details."
+      }
+    ]
+  },
+  "foundry-nuke": {
+    "input_hash": "1838f97a70dacd9f6439ce40e245af99c85b79d4771d1b03d89fb051d8c49bd6",
+    "generated_at": "2026-10-26",
+    "summary": "Foundry Nuke is proprietary commercial software for visual effects, requiring a paid license for professional use, with a restricted Non-Commercial version available for personal learning.",
+    "what_it_does": "It is a powerful node-based compositing software used in film, television, and animation for visual effects production.",
+    "best_for": "Professional visual effects artists, compositors, and studios working on high-end film and television productions.",
+    "free_tier": "A restricted Non-Commercial version is available for personal learning and non-commercial projects. Full commercial use requires a paid license.",
+    "limitations": "The Non-Commercial version has restrictions, which users should verify on the official website. Full commercial functionality and professional projects require a paid license.",
+    "licensing_notes": "Foundry Nuke is proprietary commercial software that requires a paid license for professional and commercial use. A separate, restricted Non-Commercial version is available for personal learning purposes.",
+    "faq": [
+      {
+        "question": "Is there a free version of Foundry Nuke?",
+        "answer": "Yes, a restricted Non-Commercial version is available for personal learning, but professional use requires a paid license."
+      },
+      {
+        "question": "What is Foundry Nuke primarily used for?",
+        "answer": "Foundry Nuke is a leading node-based compositing software used extensively in the visual effects industry for film and television."
+      }
+    ]
+  },
+  "caddy-web-server": {
+    "input_hash": "9a0acb5887f2eac0e929e79d4450ed245b7168d3fa22193ce3cb5ecce8feca62",
+    "generated_at": "2026-10-26",
+    "summary": "Caddy Web Server (v2) is a completely open-source web server, free for both commercial and non-commercial use under the Apache 2.0 license.",
+    "what_it_does": "It is a powerful, extensible platform for serving websites and applications, with automatic HTTPS enabled by default.",
+    "best_for": "Developers, system administrators, and organizations looking for an easy-to-use, secure, and performant web server with automatic HTTPS.",
+    "free_tier": "Caddy Web Server is entirely free and open source for all uses.",
+    "limitations": "Users should consult official documentation for specific configuration options or advanced deployment scenarios.",
+    "licensing_notes": "Caddy Web Server v2 is fully open source and licensed under the Apache License 2.0, making it free for both commercial and non-commercial use.",
+    "faq": [
+      {
+        "question": "Can Caddy Web Server be used in commercial environments?",
+        "answer": "Yes, Caddy Web Server v2 is open source under the Apache 2.0 license and is free for both commercial and non-commercial use."
+      },
+      {
+        "question": "What is a key feature of Caddy Web Server?",
+        "answer": "A key feature is its automatic HTTPS, which simplifies securing websites with SSL/TLS certificates."
+      }
+    ]
+  },
+  "argo-cd": {
+    "input_hash": "fbf2f6bb34b825713e3bc286a69c448c93439f6eac8de285f17b35b7887eda4b",
+    "generated_at": "2026-10-26",
+    "summary": "Argo CD is a CNCF graduated project, fully open-sourced under the Apache License 2.0, and free for both personal and commercial use.",
+    "what_it_does": "It is a declarative, GitOps continuous delivery tool for Kubernetes, automating the deployment of applications.",
+    "best_for": "DevOps teams and organizations implementing GitOps practices for continuous delivery to Kubernetes clusters.",
+    "free_tier": "Argo CD is entirely free and open source for all uses.",
+    "limitations": "Users should consult official documentation for specific integration requirements or scalability considerations.",
+    "licensing_notes": "Argo CD is fully open source under the Apache License 2.0, making it free for both personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is Argo CD suitable for commercial use?",
+        "answer": "Yes, Argo CD is fully open source under the Apache License 2.0 and is free for both personal and commercial use."
+      },
+      {
+        "question": "What is the primary function of Argo CD?",
+        "answer": "Argo CD is a GitOps continuous delivery tool that automates application deployments to Kubernetes clusters."
+      }
+    ]
+  },
+  "azul-zulu-openjdk": {
+    "input_hash": "e78e46015e26914d21b36e88a612639fedf2582321444e2fbe5492ab02f80fde",
+    "generated_at": "2026-10-26",
+    "summary": "Azul Zulu OpenJDK builds are fully open source and free for development and production use, licensed under the GNU General Public License v2 with Classpath Exception.",
+    "what_it_does": "It provides certified, production-ready builds of OpenJDK, the open-source reference implementation of the Java Platform.",
+    "best_for": "Developers and organizations requiring a reliable, open-source Java Development Kit (JDK) for building and running Java applications in development and production environments.",
+    "free_tier": "Azul Zulu OpenJDK is entirely free and open source for all uses.",
+    "limitations": "Users should consult official documentation for specific platform support or version compatibility.",
+    "licensing_notes": "Azul Zulu OpenJDK builds are free and open source under the GNU General Public License v2 with Classpath Exception, allowing free use for development and production.",
+    "faq": [
+      {
+        "question": "Can Azul Zulu OpenJDK be used in production environments?",
+        "answer": "Yes, Azul Zulu OpenJDK builds are free and open source for both development and production use."
+      },
+      {
+        "question": "What is the license for Azul Zulu OpenJDK?",
+        "answer": "It is licensed under the GNU General Public License v2 with Classpath Exception."
+      }
+    ]
+  },
+  "wireguard": {
+    "input_hash": "adab740db480c40ec7bf1aab5475ed1ac7b122b731f3e9747473393bddc19668",
+    "generated_at": "2026-10-26",
+    "summary": "WireGuard is free and open-source software, primarily licensed under the GNU General Public License version 2, designed for secure VPN connections.",
+    "what_it_does": "It is a modern, fast, and secure VPN protocol and implementation that aims to be simpler and more efficient than existing solutions.",
+    "best_for": "Individuals and organizations seeking a high-performance, secure, and easy-to-configure VPN solution.",
+    "free_tier": "WireGuard is entirely free and open source for all uses.",
+    "limitations": "Users should consult official documentation for specific configuration details or platform availability.",
+    "licensing_notes": "WireGuard is free and open-source software, primarily licensed under the GNU General Public License version 2 (GPLv2).",
+    "faq": [
+      {
+        "question": "Is WireGuard free for commercial use?",
+        "answer": "Yes, as open-source software under GPLv2, WireGuard is free for both personal and commercial use."
+      },
+      {
+        "question": "What is WireGuard's main purpose?",
+        "answer": "WireGuard is designed to provide a modern, secure, and efficient virtual private network (VPN) solution."
+      }
+    ]
+  },
+  "supabase": {
+    "input_hash": "b4e11ffc2a196cea7b4b92d575947ed9f28db637dd8774438c4067c579deb6df",
+    "generated_at": "2026-10-26",
+    "summary": "Supabase is an open-source Firebase alternative, primarily licensed under MIT and Apache 2.0, offering a suite of tools for building applications.",
+    "what_it_does": "It provides a PostgreSQL database, authentication, instant APIs, real-time subscriptions, and storage, aiming to be a backend-as-a-service.",
+    "best_for": "Developers looking for an open-source, scalable backend solution for web and mobile applications, especially those familiar with PostgreSQL.",
+    "free_tier": "Supabase offers a free tier for its hosted service, with specific limits. The core software is open source and free to self-host. Users should check the official website for free tier details.",
+    "limitations": "For the hosted service, the free tier has usage limits. Self-hosting requires managing your own infrastructure. Users should check official documentation for specific free tier limits or self-hosting requirements.",
+    "licensing_notes": "Supabase is open source, primarily licensed under MIT and Apache 2.0, making it free for both personal and commercial use.",
+    "faq": [
+      {
+        "question": "Does Supabase offer a free plan?",
+        "answer": "Yes, Supabase provides a free tier for its hosted service, though specific limits apply. The underlying software is also free to self-host."
+      },
+      {
+        "question": "What is Supabase often compared to?",
+        "answer": "Supabase is often described as an open-source alternative to Firebase, offering similar backend services."
+      }
+    ]
+  },
+  "rabbitmq": {
+    "input_hash": "2759eee2c541a051694aa48867d6df963bcc9fcc852a621e72b1a995a421aa24",
+    "generated_at": "2026-10-26",
+    "summary": "RabbitMQ is open-source message broker software, fully licensed under the Mozilla Public License 2.0, used for asynchronous communication.",
+    "what_it_does": "It implements the Advanced Message Queuing Protocol (AMQP) and other protocols, enabling applications to communicate by sending and receiving messages.",
+    "best_for": "Developers and architects building distributed systems that require reliable asynchronous communication between services and applications.",
+    "free_tier": "RabbitMQ is entirely free and open source for all uses.",
+    "limitations": "Users should consult official documentation for specific deployment considerations or scalability best practices.",
+    "licensing_notes": "RabbitMQ is fully open-source message broker software licensed under the Mozilla Public License 2.0, allowing free use for personal and commercial purposes.",
+    "faq": [
+      {
+        "question": "Is RabbitMQ free for commercial use?",
+        "answer": "Yes, RabbitMQ is open source under the Mozilla Public License 2.0, making it free for both personal and commercial use."
+      },
+      {
+        "question": "What is the primary function of RabbitMQ?",
+        "answer": "RabbitMQ serves as a message broker, facilitating asynchronous communication between different applications and services."
+      }
+    ]
+  },
+  "coreldraw": {
+    "input_hash": "664846f999a1cd4d10fd98b77f8661b75e6763eecf6f81e4cc4cece490e5ace7",
+    "generated_at": "2026-10-26",
+    "summary": "CorelDRAW is a commercial graphic design software suite that requires a paid subscription or a full license purchase for use.",
+    "what_it_does": "It provides a comprehensive set of tools for vector illustration, layout, photo editing, and typography.",
+    "best_for": "Professional graphic designers, artists, and businesses needing a robust suite for vector graphics and desktop publishing.",
+    "free_tier": "There is no free tier for full, unrestricted use; a paid subscription or license purchase is required. Users should check the official website for trial availability.",
+    "limitations": "Full functionality requires a paid subscription or license. Users should check official documentation for specific feature sets or platform support.",
+    "licensing_notes": "CorelDRAW is paid commercial software. Users must acquire a paid subscription or make a one-time license purchase to use the software.",
+    "faq": [
+      {
+        "question": "Is CorelDRAW available for free?",
+        "answer": "No, CorelDRAW is commercial software that requires a paid subscription or a full license purchase."
+      },
+      {
+        "question": "What types of design work is CorelDRAW suitable for?",
+        "answer": "CorelDRAW is suitable for a wide range of graphic design tasks, including vector illustration, page layout, and photo editing."
+      }
+    ]
+  },
+  "foxit-pdf-reader": {
+    "input_hash": "9f8124f75794ff7a6d5a2650afa209338ae1255daae676611d055e7720d6cc23",
+    "generated_at": "2026-10-26",
+    "summary": "Foxit PDF Reader is a freemium tool that offers free PDF reading capabilities, provided alongside paid commercial PDF editing software suites.",
+    "what_it_does": "It allows users to view, print, annotate, and fill out PDF forms.",
+    "best_for": "Individuals and businesses needing a free, lightweight application for viewing and basic interaction with PDF documents.",
+    "free_tier": "A free version is available for PDF reading, printing, and basic annotation.",
+    "limitations": "Advanced PDF editing, creation, and other premium features are typically reserved for paid commercial versions. Users should check the official website for feature comparisons.",
+    "licensing_notes": "Foxit PDF Reader offers a free version for basic PDF viewing and interaction. More advanced features and commercial PDF editing capabilities are part of paid software suites.",
+    "faq": [
+      {
+        "question": "Is Foxit PDF Reader completely free?",
+        "answer": "A free version is available for reading and basic interaction with PDFs, but advanced features are part of paid commercial products."
+      },
+      {
+        "question": "What can I do with the free Foxit PDF Reader?",
+        "answer": "The free reader allows you to view, print, annotate, and fill out PDF forms."
+      }
+    ]
+  },
+  "typora": {
+    "input_hash": "890c7f6a345fd25cca4cc0ea82c65e7943068933cb631ceb42a4c8d034a652d6",
+    "generated_at": "2026-10-26",
+    "summary": "Typora is a seamless Markdown editor that requires a one-time paid commercial license purchase after an initial trial period.",
+    "what_it_does": "It provides a minimalist, distraction-free writing experience for Markdown, offering a live preview as you type.",
+    "best_for": "Writers, developers, and anyone who prefers a clean, intuitive Markdown editor with a focus on live preview and productivity.",
+    "free_tier": "There is no perpetual free tier; a trial period is typically offered, after which a paid license is required. Users should check the official website for trial details.",
+    "limitations": "Full, unrestricted use beyond the trial period requires a paid license. Users should check official documentation for specific platform support or feature details.",
+    "licensing_notes": "Typora is paid commercial software. After a trial period, a one-time paid license purchase is required for continued use.",
+    "faq": [
+      {
+        "question": "Is Typora free to use indefinitely?",
+        "answer": "No, Typora offers a trial period, after which a one-time paid commercial license purchase is required for continued use."
+      },
+      {
+        "question": "What makes Typora stand out as a Markdown editor?",
+        "answer": "Typora is known for its seamless, distraction-free writing experience with a live preview that renders Markdown as you type."
+      }
+    ]
   }
 }
