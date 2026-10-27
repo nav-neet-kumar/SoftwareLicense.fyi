@@ -1,6 +1,6 @@
 {
-  "status": "pass",
-  "date": "2026-10-26T14:54:09+00:00",
-  "run_url": "https://github.com/nav-neet-kumar/SoftwareLicense.fyi/actions/runs/40343745336",
+  "status": "fail",
+  "date": "2026-10-27T14:02:47+00:00",
+  "run_url": "https://github.com/nav-neet-kumar/SoftwareLicense.fyi/actions/runs/40517086168",
   "workflow": "Daily Software Discovery"
 }
