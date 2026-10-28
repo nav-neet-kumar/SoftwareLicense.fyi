@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - "fix/**"
+      - "feature/**"
   pull_request:
     branches:
       - main
