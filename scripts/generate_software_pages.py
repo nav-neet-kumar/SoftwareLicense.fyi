@@ -217,6 +217,7 @@ def render_page(row, context, related, style, nav, footer, total):
     category = str(row.get("Category", "Unclassified"))
     status = str(row.get("License Status", "Not verified"))
     updated = str(row.get("Last Updated", ""))
+    verified = str(row.get("Last Verified Date", "")).strip()
     context = context if context and context.get("summary") else fallback_context(row)
     canonical = SITE + "/software/" + slug + "/"
     description = str(context.get("summary", ""))[:155]
@@ -227,10 +228,17 @@ def render_page(row, context, related, style, nav, footer, total):
     related_html = "".join('<a class="related-link" href="' + SITE + '/software/' + esc(slugify(r["Software Name"])) + '/"><strong>' + esc(r["Software Name"]) + '</strong><span>' + esc(r["Category"]) + '</span></a>' for r in related)
     faq = context.get("faq", [])
     faq_html = "".join('<details class="faq-item"><summary>' + esc(item["question"]) + '</summary><p>' + esc(item["answer"]) + '</p></details>' for item in faq if item.get("question") and item.get("answer"))
-    evidence = row.get("Evidence URL", "")
-    source_html = '<a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">Official website ↗</a>'
+    def safe_https_url(value):
+        value = str(value or "").strip()
+        parsed = urlparse(value)
+        return value if parsed.scheme == "https" and parsed.hostname else ""
+    official_url = safe_https_url(url)
+    evidence = safe_https_url(row.get("Evidence URL", ""))
+    source_html = ('<a href="' + esc(official_url) + '" target="_blank" rel="noopener noreferrer">Official website ↗</a>') if official_url else ""
     if evidence:
         source_html += ' <a href="' + esc(evidence) + '" target="_blank" rel="noopener noreferrer">License / pricing source ↗</a>'
+    if not source_html:
+        source_html = '<span>Official source link unavailable</span>'
     body = f"""<main class="software-main">
       <nav aria-label="Breadcrumb" class="breadcrumbs"><a href="{SITE}/">Home</a><span>›</span><a href="{SITE}/#page-directory">Software directory</a><span>›</span><span>{esc(name)}</span></nav>
       <header class="software-hero"><p class="eyebrow">SOFTWARE LICENSE GUIDE</p><h1>{esc(name)}</h1><p class="lead">{esc(context.get("summary", ""))}</p><div class="detail-badges"><span class="category-pill">{esc(category)}</span><span class="status-pill">{esc(status)}</span></div><div class="source-links">{source_html}</div></header>
@@ -241,7 +249,7 @@ def render_page(row, context, related, style, nav, footer, total):
         {section("Limitations to check", "limitations")}
         {section("Licensing notes", "licensing_notes")}
       </div>
-      <section class="detail-card"><h2>Verification details</h2><p>Directory record last updated: <strong>{esc(updated or "Date unavailable")}</strong>. This date reflects the record's last recorded change, not a guarantee that the vendor's current terms were independently checked today.</p><p>Confirm licensing, pricing, and commercial-use rights in the official sources before making a business decision.</p></section>
+      <section class="detail-card"><h2>Verification details</h2><p>Last licensing verification recorded: <strong>{esc(verified or "Not recorded")}</strong>.</p><p>Directory record last updated: <strong>{esc(updated or "Date unavailable")}</strong>. These are separate dates: a record update does not necessarily mean the publisher's terms changed.</p><p>AI-assisted summaries may be incomplete or outdated. Confirm licensing, pricing, and commercial-use rights in the official sources before making a business decision.</p></section>
       {('<section class="detail-card"><h2>Frequently asked questions</h2>' + faq_html + '</section>') if faq_html else ''}
       <section class="detail-card"><h2>Related software</h2><div class="related-grid">{related_html or '<p>More related entries will appear as the directory grows.</p>'}</div></section>
       <p class="directory-count">Explore the complete IsItFree? software directory for more licensing information.</p>
