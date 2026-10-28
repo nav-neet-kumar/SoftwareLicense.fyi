@@ -58,7 +58,7 @@ jobs:
 
           parser = InlineScripts()
           parser.feed(Path("index.html").read_text(encoding="utf-8"))
-          Path("/tmp/isitfree-inline.js").write_text("\\n;\\n".join(parser.scripts), encoding="utf-8")
+          Path("/tmp/isitfree-inline.js").write_text("\n;\n".join(parser.scripts), encoding="utf-8")
           assert parser.scripts, "No inline JavaScript found to validate"
           print(f"Extracted {len(parser.scripts)} inline JavaScript blocks.")
           PY
