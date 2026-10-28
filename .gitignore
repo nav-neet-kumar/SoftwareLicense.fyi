@@ -1,0 +1,3 @@
+# Internal discovery state and diagnostics; persisted through private GitHub Actions cache.
+/data/discovery_state.json
+/data/discovery_report.json
