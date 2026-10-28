@@ -9,7 +9,7 @@ on:
 
 jobs:
   discover-software:
-    name: Discover & Add 15 New Software Entries
+    name: Discover, Verify & Preserve New Software
     runs-on: ubuntu-latest
 
     permissions:
@@ -17,6 +17,7 @@ jobs:
 
     steps:
       - name: ⬇️ Checkout repository
+        id: checkout
         uses: actions/checkout@v4
 
       - name: 🐍 Set up Python 3.11
@@ -33,7 +34,8 @@ jobs:
         id: ai_check
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          NEW_PER_RUN: "15"
+          MAX_DISCOVERY_BATCHES: "20"
+          MAX_EMPTY_BATCHES: "3"
         run: python scripts/discover_software.py
 
       - name: 🧠 Generate cached AI page context and static SEO pages
@@ -42,19 +44,27 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           PAGE_CONTEXT_BATCHES_PER_RUN: "2"
           PAGE_CONTEXT_BATCH_SIZE: "15"
-        run: python scripts/generate_software_pages.py
+        run: |
+          ADDED=$(python -c "import json,pathlib; p=pathlib.Path('data/discovery_report.json'); print(json.loads(p.read_text()).get('added',0) if p.exists() else 0)")
+          if [ "$ADDED" -gt 0 ]; then
+            python scripts/generate_software_pages.py
+          else
+            echo "No new verified entries; skipping page-context AI calls to save tokens."
+          fi
 
       - name: 💾 Commit data, page context, detail pages, and sitemap
-        if: steps.ai_check.outcome == 'success'
+        if: always() && steps.checkout.outcome == 'success'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/software_list.csv data/recent_updates.json data/software_context.json data/software_sources.json sitemap.xml software/
+          # Checkpointed CSV/report/state must be committed even when a later model call fails.
+          git add -A
           git diff --cached --quiet && { echo "No generated changes to commit"; exit 0; }
           OLD_COUNT=$(git show HEAD:data/software_list.csv | python -c "import csv,sys; print(sum(1 for _ in csv.DictReader(sys.stdin)))")
           NEW_COUNT=$(python -c "import csv; print(sum(1 for _ in csv.DictReader(open('data/software_list.csv', encoding='utf-8'))))")
           ADDED=$((NEW_COUNT-OLD_COUNT))
-          git commit -m "🤖 Add $ADDED verified software entries and refresh SEO pages [$(date +'%Y-%m-%d')]"
+          STATUS=$(python -c "import json,pathlib; p=pathlib.Path('data/discovery_report.json'); print(json.loads(p.read_text()).get('status','unknown') if p.exists() else 'unknown')")
+          git commit -m "🤖 Discovery run: $ADDED added, status $STATUS [$(date +'%Y-%m-%d')]"
           git push
 
       - name: 🟢🔴 Publish last AI check status
@@ -68,10 +78,22 @@ jobs:
           # Pull before writing ai_status.json so rebase sees a clean worktree.
           git pull --rebase origin "$GITHUB_REF_NAME"
           python - <<'PY'
-          import datetime, json, os
+          import datetime, json, os, pathlib
           outcome = os.environ.get("AI_CHECK_OUTCOME", "failure").lower()
+          report_path = pathlib.Path("data/discovery_report.json")
+          report = {}
+          if report_path.exists():
+              try:
+                  report = json.loads(report_path.read_text(encoding="utf-8"))
+              except (OSError, json.JSONDecodeError):
+                  report = {}
+          discovery_status = report.get("status", "technical_failure" if outcome != "success" else "unknown")
           payload = {
-              "status": "pass" if outcome == "success" else "fail",
+              "status": "fail" if discovery_status == "technical_failure" else ("partial" if discovery_status == "partial_with_errors" else ("no_additions" if discovery_status == "no_additions" else "pass")),
+              "discovery_status": discovery_status,
+              "added": report.get("added", 0),
+              "duplicates_skipped": report.get("duplicates_skipped", 0),
+              "pending_candidates": report.get("pending_candidates", 0),
               "date": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
               "run_url": os.environ.get("RUN_URL", ""),
               "workflow": "Daily Software Discovery",
