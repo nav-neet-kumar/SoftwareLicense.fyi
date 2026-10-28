@@ -133,10 +133,21 @@ def local_match(candidate, rows):
 
 def clarify(candidate, matches):
     payload = {
-        "candidate": {"name": candidate.get("software_name", ""), "url": candidate.get("official_url", ""), "notes": str(candidate.get("notes", ""))[:200]},
-        "possible_existing_matches": [{"name": r["Software Name"], "url": r["Official URL"], "category": r["Category"], "notes": str(r["Notes"])[:140]} for r in matches],
+        "candidate": {"name": candidate.get("software_name", ""), "url": candidate.get("official_url", ""),
+                      "publisher": candidate.get("publisher", ""),
+                      "description": str(candidate.get("description", candidate.get("notes", "")))[:180]},
+        "possible_existing_matches": [
+            {"name": r.get("Software Name", ""), "url": r.get("Official URL", ""),
+             "category": r.get("Category", ""), "notes": str(r.get("Notes", ""))[:100]}
+            for r in matches
+        ],
     }
-    prompt = """Are these the same software product? Similar names or shared vendor domains alone do not prove identity. Distinguish separate products such as Visual Studio and Visual Studio Code. Return JSON only: decision (SAME_PRODUCT, DIFFERENT_PRODUCT, UNCERTAIN), matched_name, reason. Input: """ + json.dumps(payload, ensure_ascii=False)
+    prompt = """Determine whether the candidate is the same software product as any existing match.
+Names, abbreviations, aliases and renamed products can refer to the same product.
+Do not mark separate products as duplicates merely because they share a vendor or domain.
+Examples: VS Code = Visual Studio Code; Visual Studio != Visual Studio Code; VSCodium is a distinct distribution.
+Return JSON only: decision (SAME_PRODUCT, DIFFERENT_PRODUCT, UNCERTAIN), matched_name, reason.
+When uncertain, choose UNCERTAIN. Input: """ + json.dumps(payload, ensure_ascii=False)
     answer = parse_json(ask(prompt))
     decision = str(answer.get("decision", "UNCERTAIN")).upper()
     if decision not in {"SAME_PRODUCT", "DIFFERENT_PRODUCT", "UNCERTAIN"}:
@@ -145,8 +156,22 @@ def clarify(candidate, matches):
     return decision
 
 
-def discover(batch):
-    prompt = f"""Suggest up to 24 real, distinct software products for a software-license directory (batch {batch}). Choose varied categories. Do not invent products, URLs, or license facts. Return a JSON array with software_name, category (one of {sorted(CATEGORIES)}), license_status, official_url (HTTPS), evidence_url, and notes. Use unknown if facts cannot be established. Python will compare candidates against the local CSV; do not request any existing-directory list."""
+def discover(batch, existing_names=()):
+    # Send names only, not the full catalog records, to control token usage.
+    names = list(dict.fromkeys(str(n).strip() for n in existing_names if str(n).strip()))
+    catalog_context = json.dumps(names, ensure_ascii=False, separators=(",", ":"))
+    prompt = f"""Discover genuinely new software products for IsItFree? (batch {batch}).
+Return up to 30 real, distinct applications, software tools, desktop/mobile apps, SaaS products, or developer/admin utilities.
+Existing catalog names (aliases may differ): {catalog_context}
+STRICT RULES:
+- Do not repeat existing products under abbreviations, alternate spellings, former names, vendor-prefixed names, or renamed names.
+- Examples: VS Code = Visual Studio Code; VLC = VLC Media Player; Firefox = Mozilla Firefox; GIMP = GNU Image Manipulation Program.
+- Distinct products from the same vendor are allowed: Visual Studio is not Visual Studio Code; VSCodium is a distinct distribution.
+- Do not return multiple editions of one product as separate entries unless they are genuinely distinct catalog-worthy products.
+- Prefer diverse, lesser-known products not already in the catalog.
+- Never invent product names, official URLs, publishers, or licensing evidence.
+Return JSON array only. Each item: software_name, official_url (HTTPS), publisher, description, category (one of {sorted(CATEGORIES)}), license_status, evidence_url, notes.
+If licensing facts are uncertain, use unknown and provide the official product URL; verification happens separately."""
     data = parse_json(ask(prompt))
     if not isinstance(data, list):
         raise ValueError("Discovery response must be a JSON array")
