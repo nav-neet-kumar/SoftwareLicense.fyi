@@ -30,6 +30,32 @@ jobs:
       - name: 📦 Install dependencies
         run: pip install -r scripts/requirements.txt
 
+      # Keep resumable candidate state in the private Actions cache, not public repository files.
+      - name: Restore private discovery state
+        id: restore_state
+        uses: actions/cache/restore@v4
+        with:
+          path: data/discovery_state.json
+          key: software-discovery-state-${{ github.ref_name }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            software-discovery-state-${{ github.ref_name }}-
+
+      # One-time migration: preserve the pending queue from the pre-cleanup snapshot
+      # if no private cache exists yet. The state is not added to the repository.
+      - name: Bootstrap private state from pre-cleanup snapshot
+        if: steps.restore_state.outputs.cache-hit != 'true'
+        run: |
+          if git fetch --no-tags --depth=1 origin backup/pre-site-trust-ui-latest-2026-10-29; then
+            if git cat-file -e FETCH_HEAD:data/discovery_state.json 2>/dev/null; then
+              mkdir -p data
+              git show FETCH_HEAD:data/discovery_state.json > data/discovery_state.json
+            else
+              echo "Snapshot has no pending state; starting with an empty queue."
+            fi
+          else
+            echo "Migration snapshot is unavailable; starting with an empty queue."
+          fi
+
       - name: 🔍 Discover and verify new software
         id: ai_check
         env:
@@ -37,6 +63,13 @@ jobs:
           MAX_DISCOVERY_BATCHES: "20"
           MAX_EMPTY_BATCHES: "3"
         run: python scripts/discover_software.py
+
+      - name: Save private discovery state
+        if: always() && steps.checkout.outcome == 'success'
+        uses: actions/cache/save@v4
+        with:
+          path: data/discovery_state.json
+          key: software-discovery-state-${{ github.ref_name }}-${{ github.run_id }}-${{ github.run_attempt }}
 
       - name: 🧠 Generate cached AI page context and static SEO pages
         continue-on-error: true
@@ -57,8 +90,8 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          # Checkpointed CSV/report/state must be committed even when a later model call fails.
-          git add -A
+          # Publish only website/catalog assets. Private discovery state and detailed reports stay out of Git.
+          git add -A -- data/software_list.csv data/recent_updates.json data/software_context.json data/software_sources.json sitemap.xml software/
           git diff --cached --quiet && { echo "No generated changes to commit"; exit 0; }
           OLD_COUNT=$(git show HEAD:data/software_list.csv | python -c "import csv,sys; print(sum(1 for _ in csv.DictReader(sys.stdin)))")
           NEW_COUNT=$(python -c "import csv; print(sum(1 for _ in csv.DictReader(open('data/software_list.csv', encoding='utf-8'))))")
@@ -71,7 +104,6 @@ jobs:
         if: always()
         env:
           AI_CHECK_OUTCOME: ${{ steps.ai_check.outcome }}
-          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -79,6 +111,7 @@ jobs:
           git pull --rebase origin "$GITHUB_REF_NAME"
           python - <<'PY'
           import datetime, json, os, pathlib
+          now = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
           outcome = os.environ.get("AI_CHECK_OUTCOME", "failure").lower()
           report_path = pathlib.Path("data/discovery_report.json")
           report = {}
@@ -88,22 +121,33 @@ jobs:
               except (OSError, json.JSONDecodeError):
                   report = {}
           discovery_status = report.get("status", "technical_failure" if outcome != "success" else "unknown")
+          status_map = {
+              "success": "pass",
+              "no_additions": "no_additions",
+              "partial_with_errors": "partial",
+              "technical_failure": "fail",
+          }
+          public_status = status_map.get(discovery_status, "fail")
+          status_path = pathlib.Path("data/ai_status.json")
+          previous = {}
+          if status_path.exists():
+              try:
+                  previous = json.loads(status_path.read_text(encoding="utf-8"))
+              except (OSError, json.JSONDecodeError):
+                  previous = {}
+          last_successful = previous.get("last_successful_check", "")
+          if public_status in ("pass", "no_additions"):
+              last_successful = now
+          # Deliberately omit run URLs, provider errors, token counts, and pending candidates.
           payload = {
-              "status": "fail" if discovery_status == "technical_failure" else ("partial" if discovery_status == "partial_with_errors" else ("no_additions" if discovery_status == "no_additions" else "pass")),
-              "discovery_status": discovery_status,
-              "added": report.get("added", 0),
-              "duplicates_skipped": report.get("duplicates_skipped", 0),
-              "pending_candidates": report.get("pending_candidates", 0),
-              "date": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
-              "run_url": os.environ.get("RUN_URL", ""),
+              "status": public_status,
+              "date": now,
+              "last_successful_check": last_successful,
               "workflow": "Daily Software Discovery",
           }
-          os.makedirs("data", exist_ok=True)
-          with open("data/ai_status.json", "w", encoding="utf-8") as f:
-              json.dump(payload, f, indent=2)
-              f.write(chr(10))
-          print(json.dumps(payload))
-          PY
+          status_path.parent.mkdir(parents=True, exist_ok=True)
+          status_path.write_text(json.dumps(payload, indent=2) + chr(10), encoding="utf-8")
+          print(json.dumps(payload))          PY
           git add data/ai_status.json
           git diff --cached --quiet && { echo "AI status unchanged"; exit 0; }
           git commit -m "ci: record latest AI discovery check status"
