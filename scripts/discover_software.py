@@ -503,6 +503,12 @@ def run():
         print(f"[RESUME] Retrying {len(old_pending)} candidates left by a previous run.")
         process_batch(old_pending)
 
+    # Source-first discovery supplies candidates without spending discovery-prompt tokens.
+    github_candidates = discover_github_candidates(limit=max(0, int(os.getenv("GITHUB_CANDIDATE_LIMIT", "60"))))
+    print(f"[SOURCE] GitHub provided {len(github_candidates)} candidate records before local filtering.")
+    for start in range(0, len(github_candidates), 15):
+        process_batch(github_candidates[start:start + 15])
+
     for batch in range(1, MAX_DISCOVERY_BATCHES + 1):
         report["batches_attempted"] = batch
         try:
