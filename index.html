@@ -450,6 +450,10 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
       <option value="License for Commercial">License for Commercial</option>
       <option value="Community Version">Community Version</option>
     </select>
+    <select id="sourceFilter" aria-label="Filter by license evidence">
+      <option value="">All entries</option>
+      <option value="evidence">Has license evidence</option>
+    </select>
     <button class="btn-primary" onclick="openModal()" style="padding:0.6rem 1.1rem;font-size:0.9rem">+ Suggest</button>
   </div>
 
@@ -470,7 +474,9 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
           <th data-col="Category">Category <span class="sort-icon">↕</span></th>
           <th data-col="License Status">Status <span class="sort-icon">↕</span></th>
           <th data-col="Notes">Notes</th>
-          <th data-col="Last Updated">Updated <span class="sort-icon">↕</span></th>
+          <th>Sources</th>
+          <th data-col="Last Verified Date">Verified <span class="sort-icon">↕</span></th>
+          <th data-col="Last Updated">Record updated <span class="sort-icon">↕</span></th>
         </tr>
       </thead>
       <tbody id="tableBody"></tbody>
@@ -623,7 +629,14 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
 
   function makeBadge(category) {
     const cls = CAT_CLASS[category]||"ce";
-    return `<span class="badge ${cls}"><span class="badge-dot" style="background:${CAT_COLORS[cls]}"></span>${category}</span>`;
+    return `<span class="badge ${cls}"><span class="badge-dot" style="background:${CAT_COLORS[cls]}"></span>${escapeHtml(category||"Unclassified")}</span>`;
+  }
+
+  function safeExternalUrl(value) {
+    try {
+      const url = new URL(String(value||"").trim());
+      return url.protocol === "https:" && url.hostname.includes(".") ? url.href : "";
+    } catch (_) { return ""; }
   }
 
   // ── Table render ─────────────────────────────────────────
@@ -638,7 +651,11 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
       const detailUrl="/software/"+softwareSlug(name)+"/";
       const link='<a href="'+detailUrl+'">'+escapeHtml(name)+'</a>';
       const safeName=String(name).replace(/'/g,"&#39;").replace(/"/g,"&quot;");
-      return `<tr class="software-row" data-detail-url="${detailUrl}" tabindex="0" role="link" aria-label="View ${escapeHtml(name)} details" onclick="if(!event.target.closest('a,button'))window.location.href=this.dataset.detailUrl" onkeydown="if((event.key==='Enter'||event.key===' ')&&event.target===this){event.preventDefault();window.location.href=this.dataset.detailUrl}"><td class="name-cell"><div class="name-wrap">${link}<button class="flag-btn" type="button" onclick="openFlagModal('${safeName}')" title="Flag incorrect information">⚑ Flag error</button></div></td><td>${makeBadge(r["Category"])}</td><td>${r["License Status"]||"—"}</td><td class="notes-cell">${r["Notes"]||"—"}</td><td class="date-cell">${r["Last Updated"]||"—"}</td></tr>`;
+      const officialUrl=safeExternalUrl(r["Official URL"]);
+      const evidenceUrl=safeExternalUrl(r["Evidence URL"]);
+      const sourceLinks=[officialUrl?'<a href="'+escapeHtml(officialUrl)+'" target="_blank" rel="noopener noreferrer">Official ↗</a>':"",evidenceUrl?'<a href="'+escapeHtml(evidenceUrl)+'" target="_blank" rel="noopener noreferrer">License evidence ↗</a>':""].filter(Boolean).join(" · ")||"—";
+      const verified=String(r["Last Verified Date"]||"").trim();
+      return \`<tr class="software-row" data-detail-url="\${escapeHtml(detailUrl)}" tabindex="0" role="link" aria-label="View \${escapeHtml(name)} details" onclick="if(!event.target.closest('a,button'))window.location.href=this.dataset.detailUrl" onkeydown="if((event.key==='Enter'||event.key===' ')&&event.target===this){event.preventDefault();window.location.href=this.dataset.detailUrl}"><td class="name-cell"><div class="name-wrap">\${link}<button class="flag-btn" type="button" onclick="openFlagModal('\${safeName}')" title="Flag incorrect information">⚑ Flag error</button></div></td><td>\${makeBadge(r["Category"])}</td><td>\${escapeHtml(r["License Status"]||"—")}</td><td class="notes-cell">\${escapeHtml(r["Notes"]||"—")}</td><td class="source-cell">\${sourceLinks}</td><td class="date-cell">\${escapeHtml(verified||"Not recorded")}</td><td class="date-cell">\${escapeHtml(r["Last Updated"]||"—")}</td></tr>\`;
     }).join("");
     document.getElementById("pageInfo").textContent=`${start+1}–${Math.min(start+PAGE_SIZE,filtered.length)} of ${filtered.length} entries`;
     const btns=document.getElementById("pageBtns");btns.innerHTML="";
@@ -661,7 +678,8 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
   function applyFilter() {
     const q=document.getElementById("searchInput").value.toLowerCase();
     const cat=document.getElementById("categoryFilter").value;
-    filtered=allRows.filter(r=>(!q||Object.values(r).some(v=>v.toLowerCase().includes(q)))&&(!cat||r["Category"]===cat));
+    const source=document.getElementById("sourceFilter").value;
+    filtered=allRows.filter(r=>(!q||Object.values(r).some(v=>String(v||"").toLowerCase().includes(q)))&&(!cat||r["Category"]===cat)&&(!source||Boolean(safeExternalUrl(r["Evidence URL"]))));
     filtered.sort((a,b)=>{const va=(a[sortCol]||"").toLowerCase(),vb=(b[sortCol]||"").toLowerCase();return sortAsc?va.localeCompare(vb):vb.localeCompare(va);});
     currentPage=1;renderTable();
   }
@@ -676,6 +694,7 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
   });
   document.getElementById("searchInput").addEventListener("input",applyFilter);
   document.getElementById("categoryFilter").addEventListener("change",applyFilter);
+  document.getElementById("sourceFilter").addEventListener("change",applyFilter);
 
   // ── Search shortcuts / direct search tab ────────────────
   function openSearch(e){
@@ -775,6 +794,9 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
       document.getElementById("footerMeta").textContent=`${allRows.length} entries · ${lastDate}`;
       document.getElementById("homeLastUpdate").textContent=lastDate;
       document.getElementById("dirLastUpdate").textContent=lastDate;
+      const initialQuery=new URLSearchParams(window.location.search).get("q")||"";
+      document.getElementById("searchInput").value=initialQuery;
+      document.getElementById("homeSearchInput").value=initialQuery;
       applyFilter();
     } catch(err){
       document.getElementById("loadingMsg").textContent="⚠️ Could not load data.";
