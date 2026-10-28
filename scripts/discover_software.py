@@ -181,6 +181,67 @@ If licensing facts are uncertain, use unknown and provide the official product U
     return [x for x in data if isinstance(x, dict)]
 
 
+def discover_github_candidates(limit=60):
+    """Collect software/tool candidates from public GitHub metadata without AI tokens."""
+    queries = [
+        "topic:desktop-app stars:>=20",
+        "topic:developer-tools stars:>=50",
+        "topic:devops stars:>=20",
+    ]
+    found, seen = [], set()
+    for query in queries:
+        try:
+            response = requests.get(
+                "https://api.github.com/search/repositories",
+                params={"q": query, "sort": "updated", "order": "desc", "per_page": 30},
+                timeout=12,
+                headers={"Accept": "application/vnd.github+json", "User-Agent": "IsItFree-SoftwareDiscovery/1.0"},
+            )
+            response.raise_for_status()
+            items = response.json().get("items", [])
+        except (requests.RequestException, ValueError) as exc:
+            print(f"[SOURCE] GitHub search failed for {query}: {str(exc)[:140]}")
+            continue
+        for item in items:
+            full_name = str(item.get("full_name", "")).strip()
+            license_info = item.get("license") or {}
+            spdx = str(license_info.get("spdx_id", "")).strip()
+            if not full_name or full_name.casefold() in seen:
+                continue
+            if item.get("fork") or item.get("archived") or item.get("disabled") or not spdx or spdx == "NOASSERTION":
+                continue
+            if int(item.get("stargazers_count", 0) or 0) < 10:
+                continue
+            description = str(item.get("description") or "").strip()
+            topics = item.get("topics") or []
+            # Avoid bare libraries and repositories with no useful product context.
+            searchable = (description + " " + " ".join(topics)).casefold()
+            if not description or not any(word in searchable for word in (
+                "app", "application", "tool", "desktop", "cli", "client", "editor",
+                "manager", "monitor", "server", "dashboard", "utility", "automation",
+                "security", "productivity", "devops", "database", "design", "browser",
+            )):
+                continue
+            seen.add(full_name.casefold())
+            repo_url = str(item.get("html_url") or "").strip()
+            license_name = str(license_info.get("name") or spdx).strip()
+            notes = f"GitHub repository metadata; SPDX license: {spdx} ({license_name}); stars: {item.get('stargazers_count', 0)}; topics: {', '.join(topics[:8])}. {description}"[:500]
+            found.append({
+                "software_name": str(item.get("name") or full_name.rsplit("/", 1)[-1]).strip(),
+                "official_url": repo_url,
+                "publisher": str((item.get("owner") or {}).get("login", "")),
+                "description": description,
+                "category": "Open Source",
+                "license_status": f"{license_name} ({spdx})",
+                "evidence_url": repo_url,
+                "notes": notes,
+                "source": "github-repository-search",
+            })
+            if len(found) >= limit:
+                return found
+    return found
+
+
 def verify_batch(candidates):
     compact = [{"software_name": c.get("software_name", ""), "official_url": c.get("official_url", ""), "suggested_category": c.get("category", ""), "notes": str(c.get("notes", ""))[:180], "evidence_url": c.get("evidence_url", "")} for c in candidates]
     prompt = """Verify these software records. Return a JSON array with one object per candidate: software_name, category, license_status, official_url, evidence_url, notes, confidence (high|medium|low). Category must be one of """ + json.dumps(sorted(CATEGORIES)) + """. Do not invent license terms or commercial-use permissions. Use high confidence only when evidence supports the status; keep notes concise. Candidates: """ + json.dumps(compact, ensure_ascii=False)
