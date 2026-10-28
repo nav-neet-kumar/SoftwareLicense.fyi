@@ -46,7 +46,7 @@
     "url": "https://isitfree.webline.cloud",
     "description": "AI-powered software license directory. Check if software is free, open source, or requires a commercial license.",
     "author": { "@type": "Person", "name": "Navneet Kumar", "url": "https://github.com/navneet-20" },
-    "potentialAction": { "@type": "SearchAction", "target": "https://isitfree.webline.cloud/directory.html?q={search_term_string}", "query-input": "required name=search_term_string" }
+    "potentialAction": { "@type": "SearchAction", "target": "https://isitfree.webline.cloud/?q={search_term_string}", "query-input": "required name=search_term_string" }
   }
   </script>
 
@@ -276,16 +276,16 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
 <div class="page active" id="page-home">
 
   <section class="home-hero">
-    <div class="eyebrow">🤖 AI-Verified · Updated Daily</div>
+    <div class="eyebrow">Software licensing · Official-source links</div>
     <h1>Is it <em>actually</em> free<br/>to use?</h1>
-    <p>A fast, AI-verified directory for understanding software licenses. Check whether a tool is open source, free for home use, requires a paid license, or offers a community edition.</p>
+    <p>A searchable guide to software licensing and pricing. Explore open-source tools, personal-use limits, paid editions, and commercial-use terms—with official source links where available.</p>
     <div class="home-search" onclick="openSearch()">
       <div class="home-search-box">
         <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         <input type="search" id="homeSearchInput" placeholder="Search software tools…" aria-label="Search software" onclick="openSearch(event)" />
         <span class="search-shortcut">/</span>
       </div>
-      <div class="last-ai-update">Last data update: <strong id="homeLastUpdate">Loading…</strong></div>
+      <div class="last-ai-update">Latest record update: <strong id="homeLastUpdate">Loading…</strong></div>
       <div class="ai-check-line" aria-live="polite">Last AI check: <span id="aiCheckStatus" class="ai-status unknown">Checking…</span><time id="aiCheckDate" class="ai-status-date">Loading date…</time></div>
     </div>
     <div class="hero-btns">
@@ -374,19 +374,19 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
     <p class="section-sub">Latest updates to the directory and project.</p>
 
     <div class="update-card">
-      <div class="update-date">Aug 2026</div>
+      <div class="update-date">Oct 2026</div>
       <div class="update-content">
-        <span class="update-tag tag-update">UPDATE</span>
-        <h4>Upgraded to Gemini 3.6 Flash</h4>
-        <p>Switched to the latest Gemini model for faster and more accurate license verification. Added retry logic for high-demand periods.</p>
+        <span class="update-tag tag-update">RELIABILITY</span>
+        <h4>More resilient software discovery</h4>
+        <p>Improved duplicate detection, alternate-model fallback, and checkpointing help preserve verified additions when an automated check encounters a problem.</p>
       </div>
     </div>
     <div class="update-card">
-      <div class="update-date">Aug 2026</div>
+      <div class="update-date">Oct 2026</div>
       <div class="update-content">
-        <span class="update-tag tag-new">LAUNCH</span>
-        <h4>IsItFree? Goes Live</h4>
-        <p>The AI-powered software license directory launched on <a href="https://isitfree.webline.cloud">isitfree.webline.cloud</a> with 25 initial entries across all 5 license categories.</p>
+        <span class="update-tag tag-new">TRANSPARENCY</span>
+        <h4>Clearer licensing evidence</h4>
+        <p>Software detail pages surface official product and licensing links where available, and distinguish record updates from verification dates.</p>
       </div>
     </div>
   </div>
@@ -433,8 +433,8 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
 
   <div class="dir-hero">
     <h1>Software License Directory</h1>
-    <p>AI-verified licensing info for <span id="entryCount">—</span> software tools. Updated daily.</p>
-    <div class="last-ai-update">Last AI update: <strong id="dirLastUpdate">Loading…</strong></div>
+    <p>Licensing summaries for <span id="entryCount">—</span> software tools. Check the official terms for the current license and permitted use.</p>
+    <div class="last-ai-update">Latest record update: <strong id="dirLastUpdate">Loading…</strong></div>
   </div>
 
   <div class="controls">
@@ -487,7 +487,7 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
 
 <!-- ── FOOTER ── -->
 <footer>
-  <p class="disclaimer">⚠️ License data is AI-verified and updated daily. Always confirm terms on the official website before commercial use. For informational purposes only.</p>
+  <p class="disclaimer">⚠️ Licensing summaries are AI-assisted and may be incomplete or outdated. Always confirm the current license, pricing, and commercial-use terms with the official publisher. For informational purposes only.</p>
   <div class="footer-right">
     <span id="footerMeta"></span>
     <span><a href="/privacy.html">Privacy Policy</a> · <a href="/terms.html">Terms of Use</a></span>
