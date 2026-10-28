@@ -92,6 +92,59 @@ class DiscoveryHelpersTests(unittest.TestCase):
         self.assertEqual(status, "same")
         self.assertEqual(matches[0]["Software Name"], "Example App")
 
+    def test_vscode_alias_is_duplicate_of_visual_studio_code(self):
+        rows = [{"Software Name": "Visual Studio Code", "Official URL": "https://code.visualstudio.com", "Category": "Open Source", "Notes": ""}]
+        status, matches = discovery.local_match({"software_name": "VS Code", "official_url": "https://different.example"}, rows)
+        self.assertEqual(status, "same")
+        self.assertEqual(matches[0]["Software Name"], "Visual Studio Code")
+
+    def test_visual_studio_and_visual_studio_code_remain_distinct_but_ambiguous(self):
+        rows = [{"Software Name": "Visual Studio", "Official URL": "https://visualstudio.microsoft.com", "Category": "License Required", "Notes": ""}]
+        status, matches = discovery.local_match({"software_name": "Visual Studio Code", "official_url": "https://code.visualstudio.com"}, rows)
+        self.assertEqual(status, "ambiguous")
+        self.assertEqual(matches[0]["Software Name"], "Visual Studio")
+
+    def test_canonical_url_ignores_www_and_trailing_slash(self):
+        self.assertEqual(discovery.canonical_url("https://www.example.com/app/"), discovery.canonical_url("https://example.com/app"))
+
+    def test_provider_failure_preserves_batch_without_retry_storm(self):
+        candidates = [{"software_name": "Tool A"}, {"software_name": "Tool B"}, {"software_name": "Tool C"}]
+        with mock.patch.object(discovery, "verify_batch", side_effect=RuntimeError("All configured Gemini models failed. quota")) as verify:
+            verified, pending = discovery.verify_resilient(candidates)
+        self.assertEqual(verified, [])
+        self.assertEqual(pending, candidates)
+        verify.assert_called_once()
+
+    def test_github_source_returns_only_nonfork_repos_with_license_metadata(self):
+        class FakeResponse:
+            def raise_for_status(self):
+                return None
+            def json(self):
+                return {"items": [
+                    {
+                        "full_name": "example/tool-a", "name": "tool-a",
+                        "html_url": "https://github.com/example/tool-a",
+                        "description": "A desktop utility application",
+                        "fork": False, "archived": False, "disabled": False,
+                        "stargazers_count": 100, "topics": ["desktop-app", "utility"],
+                        "owner": {"login": "example"},
+                        "license": {"spdx_id": "MIT", "name": "MIT License"}
+                    },
+                    {
+                        "full_name": "example/no-license", "name": "no-license",
+                        "html_url": "https://github.com/example/no-license",
+                        "description": "A desktop utility application",
+                        "fork": False, "archived": False, "disabled": False,
+                        "stargazers_count": 100, "topics": ["desktop-app"],
+                        "owner": {"login": "example"}, "license": None
+                    }
+                ]}
+        with mock.patch.object(discovery.requests, "get", return_value=FakeResponse()):
+            candidates = discovery.discover_github_candidates(limit=10)
+        self.assertTrue(candidates)
+        self.assertEqual(candidates[0]["software_name"], "tool-a")
+        self.assertIn("MIT", candidates[0]["notes"])
+
     def test_similar_but_distinct_products_require_clarification(self):
         rows = [{"Software Name": "Visual Studio", "Official URL": "https://visualstudio.microsoft.com", "Category": "Community Version", "Notes": ""}]
         status, matches = discovery.local_match({"software_name": "Visual Studio Code", "official_url": "https://code.visualstudio.com"}, rows)
@@ -142,27 +195,45 @@ class DiscoveryHelpersTests(unittest.TestCase):
         finally:
             discovery.CLIENT = old
 
-    def test_under_target_does_not_modify_csv(self):
+    def test_zero_additions_is_reported_as_completed_run(self):
         with tempfile.TemporaryDirectory() as directory:
             csv_path = Path(directory) / "software_list.csv"
             frame = pd.DataFrame([{
                 "Software Name": "Existing", "Category": "Open Source", "License Status": "MIT",
-                "Official URL": "https://example.com", "Last Updated": "2026-01-01", "Notes": "Existing note"
+                "Official URL": "https://example.com", "Last Updated": "2026-01-01", "Notes": "Existing note",
+                "Evidence URL": "", "Last Verified Date": ""
             }])
             frame.to_csv(csv_path, index=False)
             before = csv_path.read_bytes()
-            old_csv, old_recent, old_client, old_target = discovery.CSV_PATH, discovery.RECENT_PATH, discovery.CLIENT, discovery.TARGET
+            old = {
+                "CSV_PATH": discovery.CSV_PATH, "RECENT_PATH": discovery.RECENT_PATH,
+                "SOURCES_PATH": discovery.SOURCES_PATH, "STATE_PATH": discovery.STATE_PATH,
+                "REPORT_PATH": discovery.REPORT_PATH, "CLIENT": discovery.CLIENT,
+                "MAX_DISCOVERY_BATCHES": discovery.MAX_DISCOVERY_BATCHES,
+                "MAX_EMPTY_BATCHES": discovery.MAX_EMPTY_BATCHES,
+            }
             discovery.CSV_PATH = csv_path
             discovery.RECENT_PATH = Path(directory) / "recent_updates.json"
+            discovery.SOURCES_PATH = Path(directory) / "software_sources.json"
+            discovery.STATE_PATH = Path(directory) / "discovery_state.json"
+            discovery.REPORT_PATH = Path(directory) / "discovery_report.json"
             discovery.CLIENT = object()
-            discovery.TARGET = 1
+            discovery.MAX_DISCOVERY_BATCHES = 3
+            discovery.MAX_EMPTY_BATCHES = 3
             try:
-                with mock.patch.object(discovery, "discover", return_value=[]), mock.patch.object(discovery.time, "sleep"):
-                    self.assertEqual(discovery.run(), 1)
+                with mock.patch.object(discovery, "discover", return_value=[]), mock.patch.object(discovery, "discover_github_candidates", return_value=[]):
+                    self.assertEqual(discovery.run(), 0)
                 self.assertEqual(csv_path.read_bytes(), before)
                 self.assertFalse(discovery.RECENT_PATH.exists())
+                report = json.loads(discovery.REPORT_PATH.read_text(encoding="utf-8"))
+                self.assertEqual(report["status"], "no_additions")
+                self.assertEqual(report["added"], 0)
             finally:
-                discovery.CSV_PATH, discovery.RECENT_PATH, discovery.CLIENT, discovery.TARGET = old_csv, old_recent, old_client, old_target
+                for key, value in old.items():
+                    setattr(discovery, key, value)
+
+
+
 
 
 class LicenseUpdateTests(unittest.TestCase):
