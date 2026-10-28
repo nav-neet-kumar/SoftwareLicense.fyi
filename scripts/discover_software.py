@@ -38,11 +38,11 @@ def parse_json(raw):
         return json.loads(match.group(1))
 
 
-def ask(prompt):
+def ask(prompt, models=None):
     if CLIENT is None:
         raise RuntimeError("GEMINI_API_KEY is missing")
     errors = []
-    for model in MODEL_CHAIN:
+    for model in (models or MODEL_CHAIN):
         for attempt in range(2):
             try:
                 USAGE["requests"] += 1
@@ -148,7 +148,10 @@ Do not mark separate products as duplicates merely because they share a vendor o
 Examples: VS Code = Visual Studio Code; Visual Studio != Visual Studio Code; VSCodium is a distinct distribution.
 Return JSON only: decision (SAME_PRODUCT, DIFFERENT_PRODUCT, UNCERTAIN), matched_name, reason.
 When uncertain, choose UNCERTAIN. Input: """ + json.dumps(payload, ensure_ascii=False)
-    answer = parse_json(ask(prompt))
+    # Use the last configured model as the dedicated final duplicate adjudicator;
+    # if unavailable, ask() falls back through the remaining configured models.
+    duplicate_chain = [MODEL_CHAIN[-1]] + list(reversed(MODEL_CHAIN[:-1])) if MODEL_CHAIN else None
+    answer = parse_json(ask(prompt, models=duplicate_chain))
     decision = str(answer.get("decision", "UNCERTAIN")).upper()
     if decision not in {"SAME_PRODUCT", "DIFFERENT_PRODUCT", "UNCERTAIN"}:
         decision = "UNCERTAIN"
