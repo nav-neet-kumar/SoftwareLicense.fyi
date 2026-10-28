@@ -29,13 +29,13 @@
   <meta property="og:type" content="website"/>
   <meta property="og:url" content="https://isitfree.webline.cloud/"/>
   <meta property="og:title" content="IsItFree? — Know Your Software License Before You Ship"/>
-  <meta property="og:description" content="AI-verified software license directory. Check if any software is free, open source, or requires a commercial license."/>
+  <meta property="og:description" content="AI-assisted software license directory with official-source links where available. Confirm current terms with each publisher."/>
   <meta property="og:site_name" content="IsItFree?"/>
 
   <!-- ── Twitter Card ── -->
   <meta name="twitter:card" content="summary_large_image"/>
   <meta name="twitter:title" content="IsItFree? — Software License Directory"/>
-  <meta name="twitter:description" content="AI-verified directory of software tools. Instantly check licensing status."/>
+  <meta name="twitter:description" content="Explore software licensing summaries and official-source links. Confirm current terms with each publisher."/>
 
   <!-- ── Schema.org Structured Data ── -->
   <script type="application/ld+json">
@@ -251,6 +251,14 @@ body[data-theme="light"] .tag-new{color:#147351;background:#eaf8f1}body[data-the
 body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color:#f0c8d0}body[data-theme="light"] .modal-backdrop{background:rgba(31,43,62,.35)}body[data-theme="light"] .modal-close{color:#647287}body[data-theme="light"] .author-avatar{background:#edf3ff;border-color:#d4e0f8;color:#315fc7}
 @media(max-width:650px){.theme-toggle{padding:7px 8px;font-size:0}.theme-toggle svg{width:17px;height:17px}}
 
+
+/* Responsive directory controls and source evidence links */
+.controls{flex-wrap:wrap;align-items:center}
+.controls .search-wrap{flex:1 1 260px;min-width:min(250px,100%)}
+.controls select{flex:1 1 170px;min-width:160px;max-width:100%}
+.source-cell{min-width:145px;white-space:normal;line-height:1.7}
+@media(max-width:650px){.controls .search-wrap{flex-basis:100%;min-width:0}.controls select{flex:1 1 145px;min-width:0}.source-cell{min-width:130px}}
+
 </style>
 </head>
 <body>
@@ -347,7 +355,7 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
     <div class="cat-grid">
       <div class="cat-card" onclick="showPage('directory');filterByCategory('Open Source')" style="border-left:3px solid var(--c-oss)">
         <div class="cat-name" style="color:var(--c-oss)">🟢 Open Source</div>
-        <div class="cat-desc">Free for all use — source code available under MIT, GPL, Apache, etc.</div>
+        <div class="cat-desc">Source code is available under an open-source license; obligations vary by license.</div>
       </div>
       <div class="cat-card" onclick="showPage('directory');filterByCategory('Free for Home')" style="border-left:3px solid var(--c-home)">
         <div class="cat-name" style="color:var(--c-home)">🟣 Free for Home</div>
@@ -649,12 +657,11 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
       const name=r["Software Name"]||"—";
       const detailUrl="/software/"+softwareSlug(name)+"/";
       const link='<a href="'+detailUrl+'">'+escapeHtml(name)+'</a>';
-      const safeName=String(name).replace(/'/g,"&#39;").replace(/"/g,"&quot;");
       const officialUrl=safeExternalUrl(r["Official URL"]);
       const evidenceUrl=safeExternalUrl(r["Evidence URL"]);
       const sourceLinks=[officialUrl?'<a href="'+escapeHtml(officialUrl)+'" target="_blank" rel="noopener noreferrer">Official ↗</a>':"",evidenceUrl?'<a href="'+escapeHtml(evidenceUrl)+'" target="_blank" rel="noopener noreferrer">License evidence ↗</a>':""].filter(Boolean).join(" · ")||"—";
       const verified=String(r["Last Verified Date"]||"").trim();
-      return \`<tr class="software-row" data-detail-url="\${escapeHtml(detailUrl)}" tabindex="0" role="link" aria-label="View \${escapeHtml(name)} details" onclick="if(!event.target.closest('a,button'))window.location.href=this.dataset.detailUrl" onkeydown="if((event.key==='Enter'||event.key===' ')&&event.target===this){event.preventDefault();window.location.href=this.dataset.detailUrl}"><td class="name-cell"><div class="name-wrap">\${link}<button class="flag-btn" type="button" onclick="openFlagModal('\${safeName}')" title="Flag incorrect information">⚑ Flag error</button></div></td><td>\${makeBadge(r["Category"])}</td><td>\${escapeHtml(r["License Status"]||"—")}</td><td class="notes-cell">\${escapeHtml(r["Notes"]||"—")}</td><td class="source-cell">\${sourceLinks}</td><td class="date-cell">\${escapeHtml(verified||"Not recorded")}</td><td class="date-cell">\${escapeHtml(r["Last Updated"]||"—")}</td></tr>\`;
+      return '<tr class="software-row" data-detail-url="'+escapeHtml(detailUrl)+'" tabindex="0" role="link" aria-label="View '+escapeHtml(name)+' details" onclick="if(!event.target.closest(\'a,button\'))window.location.href=this.dataset.detailUrl" onkeydown="if((event.key===\'Enter\'||event.key===\' \')&&event.target===this){event.preventDefault();window.location.href=this.dataset.detailUrl}"><td class="name-cell"><div class="name-wrap">'+link+'<button class="flag-btn" type="button" data-software-name="'+escapeHtml(name)+'" onclick="openFlagModal(this.dataset.softwareName)" title="Flag incorrect information">⚑ Flag error</button></div></td><td>'+makeBadge(r["Category"])+'</td><td>'+escapeHtml(r["License Status"]||"—")+'</td><td class="notes-cell">'+escapeHtml(r["Notes"]||"—")+'</td><td class="source-cell">'+sourceLinks+'</td><td class="date-cell">'+escapeHtml(verified||"Not recorded")+'</td><td class="date-cell">'+escapeHtml(r["Last Updated"]||"—")+'</td></tr>';
     }).join("");
     document.getElementById("pageInfo").textContent=`${start+1}–${Math.min(start+PAGE_SIZE,filtered.length)} of ${filtered.length} entries`;
     const btns=document.getElementById("pageBtns");btns.innerHTML="";
