@@ -516,8 +516,8 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
     <button class="modal-close" onclick="closeFlagModal()">✕</button>
     <h2>Flag a Software Error</h2>
     <p class="modal-sub">Found incorrect licensing information? Tell us what needs to be corrected and we'll review it.</p>
-    <div class="form-group"><label>Software Name</label><input type="text" id="flag-name" readonly /></div>
-    <div class="form-group"><label>What is wrong? *</label><textarea id="flag-notes" placeholder="Example: The license status is outdated or the category is incorrect…"></textarea></div>
+    <div class="form-group"><label for="flag-name">Software Name</label><input type="text" id="flag-name" readonly /></div>
+    <div class="form-group"><label for="flag-notes">What is wrong? *</label><textarea id="flag-notes" maxlength="2000" placeholder="Example: The license status is outdated or the category is incorrect…"></textarea></div>
     <div class="form-group"><label for="flag-url">Correct Information / Source URL (optional)</label><input type="url" id="flag-url" placeholder="https://official-site.com/licensing" /></div>
     <button class="submit-btn" id="flagSubmitBtn" onclick="submitFlag()">Continue to GitHub →</button>
     <p class="form-msg" id="flagMsg"></p>
@@ -530,10 +530,10 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
     <button class="modal-close" onclick="closeModal()">✕</button>
     <h2>Suggest a Software</h2>
     <p class="modal-sub">Suggest a tool in seconds. GitHub will securely record it, check for duplicates, and use AI to prepare new entries for review—no token needed.</p>
-    <div class="form-group"><label>Software Name *</label><input type="text" id="f-name" placeholder="e.g. Figma"/></div>
+    <div class="form-group"><label for="f-name">Software Name *</label><input type="text" id="f-name" placeholder="e.g. Figma" autocomplete="off" maxlength="120"/></div>
     <div class="form-row">
       <div class="form-group">
-        <label>Category *</label>
+        <label for="f-category">Category *</label>
         <select id="f-category">
           <option value="">Let AI determine</option>
           <option>Open Source</option><option>Free for Home</option>
@@ -541,9 +541,9 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
           <option>Community Version</option>
         </select>
       </div>
-      <div class="form-group"><label>Official URL *</label><input type="url" id="f-url" placeholder="https://example.com"/></div>
+      <div class="form-group"><label for="f-url">Official URL *</label><input type="url" id="f-url" placeholder="https://example.com" inputmode="url"/></div>
     </div>
-    <div class="form-group"><label>Notes (optional)</label><textarea id="f-notes" placeholder="Brief licensing description…"></textarea></div>
+    <div class="form-group"><label for="f-notes">Notes (optional)</label><textarea id="f-notes" maxlength="1200" placeholder="Brief licensing description…"></textarea></div>
     
     <button class="submit-btn" id="submitBtn" onclick="submitSuggestion()">Submit Suggestion →</button>
     <p class="form-msg" id="formMsg"></p>
@@ -747,7 +747,7 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
     btn.disabled=true;
     const title="[License Error] "+name;
     const issueBody=["## Software License Error Report","","- **Software name:** "+name,"- **Reported issue:** "+notes,"- **Official source:** "+(sourceUrl||"Not provided"),"","Please verify the current publisher terms before changing the catalog.","","Submitted through the IsItFree? website."].join("\n");
-    const issueUrl="https://github.com/"+GITHUB_REPO+"/issues/new?title="+encodeURIComponent(title)+"&body="+encodeURIComponent(issueBody)+"&labels="+encodeURIComponent("license-error");
+    const issueUrl="https://github.com/"+GITHUB_REPO+"/issues/new?title="+encodeURIComponent(title)+"&body="+encodeURIComponent(issueBody)+;
     setFlagMsg("Opening GitHub to submit your report. Sign in if prompted; no personal access token is needed.","success");
     window.open(issueUrl,"_blank","noopener,noreferrer");
     btn.disabled=false;
@@ -801,6 +801,7 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
       const initialQuery=new URLSearchParams(window.location.search).get("q")||"";
       document.getElementById("searchInput").value=initialQuery;
       document.getElementById("homeSearchInput").value=initialQuery;
+      if(initialQuery)showPage("directory");
       applyFilter();
     } catch(err){
       document.getElementById("loadingMsg").textContent="⚠️ Could not load data.";
