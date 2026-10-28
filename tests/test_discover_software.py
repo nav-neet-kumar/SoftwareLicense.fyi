@@ -309,9 +309,12 @@ class PublicSiteContractTests(unittest.TestCase):
         workflow = (ROOT / ".github" / "workflows" / "discover_daily.yml").read_text(encoding="utf-8")
         self.assertIn("actions/cache/restore@v4", workflow)
         self.assertIn("actions/cache/save@v4", workflow)
+        self.assertIn("Bootstrap private state from pre-cleanup snapshot", workflow)
         self.assertIn("git add -A -- data/software_list.csv", workflow)
         self.assertNotIn("          git add -A\n", workflow)
         self.assertNotIn("RUN_URL:", workflow)
+        self.assertFalse((ROOT / "data" / "discovery_state.json").exists())
+        self.assertFalse((ROOT / "data" / "discovery_report.json").exists())
 
     def test_public_error_report_and_privacy_policy_match(self):
         privacy = (ROOT / "privacy.html").read_text(encoding="utf-8")
