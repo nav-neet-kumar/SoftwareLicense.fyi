@@ -29,13 +29,13 @@
   <meta property="og:type" content="website"/>
   <meta property="og:url" content="https://isitfree.webline.cloud/"/>
   <meta property="og:title" content="IsItFree? — Know Your Software License Before You Ship"/>
-  <meta property="og:description" content="AI-verified software license directory. Check if any software is free, open source, or requires a commercial license."/>
+  <meta property="og:description" content="AI-assisted software license directory with official-source links where available. Confirm current terms with each publisher."/>
   <meta property="og:site_name" content="IsItFree?"/>
 
   <!-- ── Twitter Card ── -->
   <meta name="twitter:card" content="summary_large_image"/>
   <meta name="twitter:title" content="IsItFree? — Software License Directory"/>
-  <meta name="twitter:description" content="AI-verified directory of software tools. Instantly check licensing status."/>
+  <meta name="twitter:description" content="Explore software licensing summaries and official-source links. Confirm current terms with each publisher."/>
 
   <!-- ── Schema.org Structured Data ── -->
   <script type="application/ld+json">
@@ -46,7 +46,7 @@
     "url": "https://isitfree.webline.cloud",
     "description": "AI-powered software license directory. Check if software is free, open source, or requires a commercial license.",
     "author": { "@type": "Person", "name": "Navneet Kumar", "url": "https://github.com/navneet-20" },
-    "potentialAction": { "@type": "SearchAction", "target": "https://isitfree.webline.cloud/directory.html?q={search_term_string}", "query-input": "required name=search_term_string" }
+    "potentialAction": { "@type": "SearchAction", "target": "https://isitfree.webline.cloud/?q={search_term_string}", "query-input": "required name=search_term_string" }
   }
   </script>
 
@@ -69,7 +69,7 @@ nav{height:72px;position:sticky;top:0;z-index:100;display:flex;align-items:cente
 /* hero */
 .home-hero{padding-top:92px;padding-bottom:58px;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(380px,.75fr);gap:76px;align-items:center;position:relative}.home-hero:before{content:"";position:absolute;left:24px;right:24px;top:28px;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.08),transparent)}.home-hero .eyebrow{display:inline-flex;align-items:center;width:max-content;gap:7px;color:#a9bbdf;background:#101827;border:1px solid #26344a;border-radius:999px;padding:5px 10px;font:600 .65rem var(--mono);letter-spacing:.03em;margin-bottom:19px}.home-hero h1{font-size:clamp(3.1rem,6vw,5.6rem);line-height:.98;letter-spacing:-.075em;max-width:760px;margin-bottom:22px}.home-hero h1 em{font-style:normal;color:#8fb0ff}.home-hero>p{max-width:680px;color:var(--muted);font-size:1rem;line-height:1.8;margin-bottom:26px}.hero-btns{display:flex;gap:10px;flex-wrap:wrap}.btn-primary,.btn-secondary{display:inline-flex;align-items:center;justify-content:center;gap:7px;border-radius:9px;padding:10px 15px;font-size:.84rem;font-weight:650;cursor:pointer;transition:.18s;border:1px solid transparent}.btn-primary{background:var(--blue);color:#fff;box-shadow:0 8px 22px rgba(91,140,255,.15)}.btn-primary:hover{background:#709aff;transform:translateY(-1px)}.btn-secondary{background:#0e141f;border-color:#293446;color:#dce3ee}.btn-secondary:hover{background:#141c29;border-color:#3b4a61;transform:translateY(-1px)}
 /* search */
-.home-search{max-width:690px;margin:27px 0 0;position:relative;z-index:3;cursor:text}.home-search-box{display:flex;align-items:center;gap:9px;background:#0d131e;border:1px solid #2a3547;border-radius:11px;padding:5px 6px;box-shadow:0 18px 50px rgba(0,0,0,.18)}.home-search-box:focus-within{border-color:#527de0;box-shadow:0 0 0 3px rgba(91,140,255,.08)}.home-search-box svg{margin-left:10px;color:#6e7d91}.home-search-box input{border:0!important;background:transparent!important;box-shadow:none!important;outline:0!important;padding:10px 4px;font-size:.86rem}.search-shortcut{margin-left:auto;margin-right:4px;padding:3px 7px;border:1px solid #293446;border-radius:5px;color:#718096;font:600 .61rem var(--mono)}.last-ai-update{margin-top:9px;color:var(--muted-2);font:600 .61rem var(--mono);display:flex;align-items:center;gap:7px;flex-wrap:wrap}.last-ai-update strong{color:#8fe0bf;font-weight:600}.ai-check-line{margin-top:7px;display:flex;align-items:center;gap:7px;flex-wrap:wrap;color:var(--muted-2);font:600 .61rem var(--mono)}.ai-status{display:inline-flex;align-items:center;gap:5px;padding:2px 7px;border-radius:999px;border:1px solid #354155;background:#121a27;color:#a0aec0}.ai-status:before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}.ai-status.pass{color:#38d39f;background:#0c211a;border-color:#1d4938}.ai-status.fail{color:#fb7185;background:#251219;border-color:#5a2635}.ai-status.unknown{color:#f6ad55;background:#241b10;border-color:#4c381e}.ai-status-date{color:var(--muted-2);font-weight:400}.visit-counter{display:block;width:max-content;max-width:100%;height:20px;object-fit:contain;object-position:left center}
+.home-search{max-width:690px;margin:27px 0 0;position:relative;z-index:3;cursor:text}.home-search-box{display:flex;align-items:center;gap:9px;background:#0d131e;border:1px solid #2a3547;border-radius:11px;padding:5px 6px;box-shadow:0 18px 50px rgba(0,0,0,.18)}.home-search-box:focus-within{border-color:#527de0;box-shadow:0 0 0 3px rgba(91,140,255,.08)}.home-search-box svg{margin-left:10px;color:#6e7d91}.home-search-box input{border:0!important;background:transparent!important;box-shadow:none!important;outline:0!important;padding:10px 4px;font-size:.86rem}.search-shortcut{margin-left:auto;margin-right:4px;padding:3px 7px;border:1px solid #293446;border-radius:5px;color:#718096;font:600 .61rem var(--mono)}.last-ai-update{margin-top:9px;color:var(--muted-2);font:600 .61rem var(--mono);display:flex;align-items:center;gap:7px;flex-wrap:wrap}.last-ai-update strong{color:#8fe0bf;font-weight:600}.ai-check-line{margin-top:7px;display:flex;align-items:center;gap:7px;flex-wrap:wrap;color:var(--muted-2);font:600 .61rem var(--mono)}.ai-status{display:inline-flex;align-items:center;gap:5px;padding:2px 7px;border-radius:999px;border:1px solid #354155;background:#121a27;color:#a0aec0}.ai-status:before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}.ai-status.pass,.ai-status.no_additions{color:#38d39f;background:#0c211a;border-color:#1d4938}.ai-status.partial{color:#f6ad55;background:#241b10;border-color:#4c381e}.ai-status.fail{color:#fb7185;background:#251219;border-color:#5a2635}.ai-status.unknown{color:#f6ad55;background:#241b10;border-color:#4c381e}.ai-status-date{color:var(--muted-2);font-weight:400}.source-cell{font-size:.76rem;white-space:nowrap}.source-cell a{color:#8fb0ff;text-decoration:underline;text-underline-offset:2px}.source-cell a:hover{color:#b9c8ff}.visit-counter{display:block;width:max-content;max-width:100%;height:20px;object-fit:contain;object-position:left center}
 /* hero terminal */
 .demo-terminal{align-self:stretch;display:flex;align-items:center}.terminal-card{width:100%;background:#0c121c;border:1px solid #253143;border-radius:15px;overflow:hidden;box-shadow:0 28px 70px rgba(0,0,0,.28)}.terminal-head{height:42px;display:flex;align-items:center;justify-content:space-between;padding:0 14px;border-bottom:1px solid #1c2635;background:#101722}.terminal-dots{display:flex;gap:6px}.terminal-dots i{width:7px;height:7px;border-radius:50%;background:#48576a}.terminal-label{font:600 .59rem var(--mono);letter-spacing:.08em;color:#6f7c8e;text-transform:uppercase}.terminal-body{padding:22px;font:.73rem/1.9 var(--mono)}.term-line{color:#aeb9c8}.term-prompt{color:#6f9bff}.term-result{margin:5px 0 17px;padding:11px 12px;border:1px solid #21352f;background:#0c1715;border-radius:8px}.term-ok{color:#68d8ae}.term-muted{color:#718094}
 /* stats */
@@ -251,6 +251,14 @@ body[data-theme="light"] .tag-new{color:#147351;background:#eaf8f1}body[data-the
 body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color:#f0c8d0}body[data-theme="light"] .modal-backdrop{background:rgba(31,43,62,.35)}body[data-theme="light"] .modal-close{color:#647287}body[data-theme="light"] .author-avatar{background:#edf3ff;border-color:#d4e0f8;color:#315fc7}
 @media(max-width:650px){.theme-toggle{padding:7px 8px;font-size:0}.theme-toggle svg{width:17px;height:17px}}
 
+
+/* Responsive directory controls and source evidence links */
+.controls{flex-wrap:wrap;align-items:center}
+.controls .search-wrap{flex:1 1 260px;min-width:min(250px,100%)}
+.controls select{flex:1 1 170px;min-width:160px;max-width:100%}
+.source-cell{min-width:145px;white-space:normal;line-height:1.7}
+@media(max-width:650px){.controls .search-wrap{flex-basis:100%;min-width:0}.controls select{flex:1 1 145px;min-width:0}.source-cell{min-width:130px}}
+
 </style>
 </head>
 <body>
@@ -276,16 +284,16 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
 <div class="page active" id="page-home">
 
   <section class="home-hero">
-    <div class="eyebrow">🤖 AI-Verified · Updated Daily</div>
+    <div class="eyebrow">Software licensing · Official-source links</div>
     <h1>Is it <em>actually</em> free<br/>to use?</h1>
-    <p>A fast, AI-verified directory for understanding software licenses. Check whether a tool is open source, free for home use, requires a paid license, or offers a community edition.</p>
+    <p>A searchable guide to software licensing and pricing. Explore open-source tools, personal-use limits, paid editions, and commercial-use terms—with official source links where available.</p>
     <div class="home-search" onclick="openSearch()">
       <div class="home-search-box">
         <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         <input type="search" id="homeSearchInput" placeholder="Search software tools…" aria-label="Search software" onclick="openSearch(event)" />
         <span class="search-shortcut">/</span>
       </div>
-      <div class="last-ai-update">Last data update: <strong id="homeLastUpdate">Loading…</strong></div>
+      <div class="last-ai-update">Latest record update: <strong id="homeLastUpdate">Loading…</strong></div>
       <div class="ai-check-line" aria-live="polite">Last AI check: <span id="aiCheckStatus" class="ai-status unknown">Checking…</span><time id="aiCheckDate" class="ai-status-date">Loading date…</time></div>
     </div>
     <div class="hero-btns">
@@ -347,7 +355,7 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
     <div class="cat-grid">
       <div class="cat-card" onclick="showPage('directory');filterByCategory('Open Source')" style="border-left:3px solid var(--c-oss)">
         <div class="cat-name" style="color:var(--c-oss)">🟢 Open Source</div>
-        <div class="cat-desc">Free for all use — source code available under MIT, GPL, Apache, etc.</div>
+        <div class="cat-desc">Source code is available under an open-source license; obligations vary by license.</div>
       </div>
       <div class="cat-card" onclick="showPage('directory');filterByCategory('Free for Home')" style="border-left:3px solid var(--c-home)">
         <div class="cat-name" style="color:var(--c-home)">🟣 Free for Home</div>
@@ -374,19 +382,19 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
     <p class="section-sub">Latest updates to the directory and project.</p>
 
     <div class="update-card">
-      <div class="update-date">Aug 2026</div>
+      <div class="update-date">Oct 2026</div>
       <div class="update-content">
-        <span class="update-tag tag-update">UPDATE</span>
-        <h4>Upgraded to Gemini 3.6 Flash</h4>
-        <p>Switched to the latest Gemini model for faster and more accurate license verification. Added retry logic for high-demand periods.</p>
+        <span class="update-tag tag-update">RELIABILITY</span>
+        <h4>More resilient software discovery</h4>
+        <p>Improved duplicate detection, alternate-model fallback, and checkpointing help preserve verified additions when an automated check encounters a problem.</p>
       </div>
     </div>
     <div class="update-card">
-      <div class="update-date">Aug 2026</div>
+      <div class="update-date">Oct 2026</div>
       <div class="update-content">
-        <span class="update-tag tag-new">LAUNCH</span>
-        <h4>IsItFree? Goes Live</h4>
-        <p>The AI-powered software license directory launched on <a href="https://isitfree.webline.cloud">isitfree.webline.cloud</a> with 25 initial entries across all 5 license categories.</p>
+        <span class="update-tag tag-new">TRANSPARENCY</span>
+        <h4>Clearer licensing evidence</h4>
+        <p>Software detail pages surface official product and licensing links where available, and distinguish record updates from verification dates.</p>
       </div>
     </div>
   </div>
@@ -433,8 +441,8 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
 
   <div class="dir-hero">
     <h1>Software License Directory</h1>
-    <p>AI-verified licensing info for <span id="entryCount">—</span> software tools. Updated daily.</p>
-    <div class="last-ai-update">Last AI update: <strong id="dirLastUpdate">Loading…</strong></div>
+    <p>Licensing summaries for <span id="entryCount">—</span> software tools. Check the official terms for the current license and permitted use.</p>
+    <div class="last-ai-update">Latest record update: <strong id="dirLastUpdate">Loading…</strong></div>
   </div>
 
   <div class="controls">
@@ -449,6 +457,10 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
       <option value="License Required">License Required</option>
       <option value="License for Commercial">License for Commercial</option>
       <option value="Community Version">Community Version</option>
+    </select>
+    <select id="sourceFilter" aria-label="Filter by license evidence">
+      <option value="">All entries</option>
+      <option value="evidence">Has license evidence</option>
     </select>
     <button class="btn-primary" onclick="openModal()" style="padding:0.6rem 1.1rem;font-size:0.9rem">+ Suggest</button>
   </div>
@@ -470,7 +482,9 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
           <th data-col="Category">Category <span class="sort-icon">↕</span></th>
           <th data-col="License Status">Status <span class="sort-icon">↕</span></th>
           <th data-col="Notes">Notes</th>
-          <th data-col="Last Updated">Updated <span class="sort-icon">↕</span></th>
+          <th>Sources</th>
+          <th data-col="Last Verified Date">Verified <span class="sort-icon">↕</span></th>
+          <th data-col="Last Updated">Record updated <span class="sort-icon">↕</span></th>
         </tr>
       </thead>
       <tbody id="tableBody"></tbody>
@@ -487,7 +501,7 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
 
 <!-- ── FOOTER ── -->
 <footer>
-  <p class="disclaimer">⚠️ License data is AI-verified and updated daily. Always confirm terms on the official website before commercial use. For informational purposes only.</p>
+  <p class="disclaimer">⚠️ Licensing summaries are AI-assisted and may be incomplete or outdated. Always confirm the current license, pricing, and commercial-use terms with the official publisher. For informational purposes only.</p>
   <div class="footer-right">
     <span id="footerMeta"></span>
     <span><a href="/privacy.html">Privacy Policy</a> · <a href="/terms.html">Terms of Use</a></span>
@@ -502,11 +516,10 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
     <button class="modal-close" onclick="closeFlagModal()">✕</button>
     <h2>Flag a Software Error</h2>
     <p class="modal-sub">Found incorrect licensing information? Tell us what needs to be corrected and we'll review it.</p>
-    <div class="form-group"><label>Software Name</label><input type="text" id="flag-name" readonly /></div>
-    <div class="form-group"><label>What is wrong? *</label><textarea id="flag-notes" placeholder="Example: The license status is outdated or the category is incorrect…"></textarea></div>
-    <div class="form-group"><label>Correct Information / Source URL (optional)</label><input type="url" id="flag-url" placeholder="https://official-site.com/licensing" /></div>
-    <div class="form-group"><label>GitHub Token *</label><input type="text" id="flag-token" placeholder="ghp_xxxxxxxxxxxx" /></div>
-    <button class="submit-btn" id="flagSubmitBtn" onclick="submitFlag()">Submit Error Report →</button>
+    <div class="form-group"><label for="flag-name">Software Name</label><input type="text" id="flag-name" readonly /></div>
+    <div class="form-group"><label for="flag-notes">What is wrong? *</label><textarea id="flag-notes" maxlength="2000" placeholder="Example: The license status is outdated or the category is incorrect…"></textarea></div>
+    <div class="form-group"><label for="flag-url">Correct Information / Source URL (optional)</label><input type="url" id="flag-url" placeholder="https://official-site.com/licensing" /></div>
+    <button class="submit-btn" id="flagSubmitBtn" onclick="submitFlag()">Continue to GitHub →</button>
     <p class="form-msg" id="flagMsg"></p>
   </div>
 </div>
@@ -517,10 +530,10 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
     <button class="modal-close" onclick="closeModal()">✕</button>
     <h2>Suggest a Software</h2>
     <p class="modal-sub">Suggest a tool in seconds. GitHub will securely record it, check for duplicates, and use AI to prepare new entries for review—no token needed.</p>
-    <div class="form-group"><label>Software Name *</label><input type="text" id="f-name" placeholder="e.g. Figma"/></div>
+    <div class="form-group"><label for="f-name">Software Name *</label><input type="text" id="f-name" placeholder="e.g. Figma" autocomplete="off" maxlength="120"/></div>
     <div class="form-row">
       <div class="form-group">
-        <label>Category *</label>
+        <label for="f-category">Category *</label>
         <select id="f-category">
           <option value="">Let AI determine</option>
           <option>Open Source</option><option>Free for Home</option>
@@ -528,9 +541,9 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
           <option>Community Version</option>
         </select>
       </div>
-      <div class="form-group"><label>Official URL *</label><input type="url" id="f-url" placeholder="https://example.com"/></div>
+      <div class="form-group"><label for="f-url">Official URL *</label><input type="url" id="f-url" placeholder="https://example.com" inputmode="url"/></div>
     </div>
-    <div class="form-group"><label>Notes (optional)</label><textarea id="f-notes" placeholder="Brief licensing description…"></textarea></div>
+    <div class="form-group"><label for="f-notes">Notes (optional)</label><textarea id="f-notes" maxlength="1200" placeholder="Brief licensing description…"></textarea></div>
     
     <button class="submit-btn" id="submitBtn" onclick="submitSuggestion()">Submit Suggestion →</button>
     <p class="form-msg" id="formMsg"></p>
@@ -623,7 +636,14 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
 
   function makeBadge(category) {
     const cls = CAT_CLASS[category]||"ce";
-    return `<span class="badge ${cls}"><span class="badge-dot" style="background:${CAT_COLORS[cls]}"></span>${category}</span>`;
+    return `<span class="badge ${cls}"><span class="badge-dot" style="background:${CAT_COLORS[cls]}"></span>${escapeHtml(category||"Unclassified")}</span>`;
+  }
+
+  function safeExternalUrl(value) {
+    try {
+      const url = new URL(String(value||"").trim());
+      return url.protocol === "https:" && url.hostname.includes(".") ? url.href : "";
+    } catch (_) { return ""; }
   }
 
   // ── Table render ─────────────────────────────────────────
@@ -637,8 +657,11 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
       const name=r["Software Name"]||"—";
       const detailUrl="/software/"+softwareSlug(name)+"/";
       const link='<a href="'+detailUrl+'">'+escapeHtml(name)+'</a>';
-      const safeName=String(name).replace(/'/g,"&#39;").replace(/"/g,"&quot;");
-      return `<tr class="software-row" data-detail-url="${detailUrl}" tabindex="0" role="link" aria-label="View ${escapeHtml(name)} details" onclick="if(!event.target.closest('a,button'))window.location.href=this.dataset.detailUrl" onkeydown="if((event.key==='Enter'||event.key===' ')&&event.target===this){event.preventDefault();window.location.href=this.dataset.detailUrl}"><td class="name-cell"><div class="name-wrap">${link}<button class="flag-btn" type="button" onclick="openFlagModal('${safeName}')" title="Flag incorrect information">⚑ Flag error</button></div></td><td>${makeBadge(r["Category"])}</td><td>${r["License Status"]||"—"}</td><td class="notes-cell">${r["Notes"]||"—"}</td><td class="date-cell">${r["Last Updated"]||"—"}</td></tr>`;
+      const officialUrl=safeExternalUrl(r["Official URL"]);
+      const evidenceUrl=safeExternalUrl(r["Evidence URL"]);
+      const sourceLinks=[officialUrl?'<a href="'+escapeHtml(officialUrl)+'" target="_blank" rel="noopener noreferrer">Official ↗</a>':"",evidenceUrl?'<a href="'+escapeHtml(evidenceUrl)+'" target="_blank" rel="noopener noreferrer">License evidence ↗</a>':""].filter(Boolean).join(" · ")||"—";
+      const verified=String(r["Last Verified Date"]||"").trim();
+      return '<tr class="software-row" data-detail-url="'+escapeHtml(detailUrl)+'" tabindex="0" role="link" aria-label="View '+escapeHtml(name)+' details" onclick="if(!event.target.closest(\'a,button\'))window.location.href=this.dataset.detailUrl" onkeydown="if((event.key===\'Enter\'||event.key===\' \')&&event.target===this){event.preventDefault();window.location.href=this.dataset.detailUrl}"><td class="name-cell"><div class="name-wrap">'+link+'<button class="flag-btn" type="button" data-software-name="'+escapeHtml(name)+'" onclick="openFlagModal(this.dataset.softwareName)" title="Flag incorrect information">⚑ Flag error</button></div></td><td>'+makeBadge(r["Category"])+'</td><td>'+escapeHtml(r["License Status"]||"—")+'</td><td class="notes-cell">'+escapeHtml(r["Notes"]||"—")+'</td><td class="source-cell">'+sourceLinks+'</td><td class="date-cell">'+escapeHtml(verified||"Not recorded")+'</td><td class="date-cell">'+escapeHtml(r["Last Updated"]||"—")+'</td></tr>';
     }).join("");
     document.getElementById("pageInfo").textContent=`${start+1}–${Math.min(start+PAGE_SIZE,filtered.length)} of ${filtered.length} entries`;
     const btns=document.getElementById("pageBtns");btns.innerHTML="";
@@ -661,7 +684,8 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
   function applyFilter() {
     const q=document.getElementById("searchInput").value.toLowerCase();
     const cat=document.getElementById("categoryFilter").value;
-    filtered=allRows.filter(r=>(!q||Object.values(r).some(v=>v.toLowerCase().includes(q)))&&(!cat||r["Category"]===cat));
+    const source=document.getElementById("sourceFilter").value;
+    filtered=allRows.filter(r=>(!q||Object.values(r).some(v=>String(v||"").toLowerCase().includes(q)))&&(!cat||r["Category"]===cat)&&(!source||Boolean(safeExternalUrl(r["Evidence URL"]))));
     filtered.sort((a,b)=>{const va=(a[sortCol]||"").toLowerCase(),vb=(b[sortCol]||"").toLowerCase();return sortAsc?va.localeCompare(vb):vb.localeCompare(va);});
     currentPage=1;renderTable();
   }
@@ -676,6 +700,7 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
   });
   document.getElementById("searchInput").addEventListener("input",applyFilter);
   document.getElementById("categoryFilter").addEventListener("change",applyFilter);
+  document.getElementById("sourceFilter").addEventListener("change",applyFilter);
 
   // ── Search shortcuts / direct search tab ────────────────
   function openSearch(e){
@@ -702,7 +727,6 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
     document.getElementById("flag-name").value=name;
     document.getElementById("flag-notes").value="";
     document.getElementById("flag-url").value="";
-    document.getElementById("flag-token").value="";
     document.getElementById("flagMsg").textContent="";
     document.getElementById("flagMsg").className="form-msg";
     document.getElementById("flagSubmitBtn").disabled=false;
@@ -710,26 +734,23 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
   }
   function closeFlagModal(){document.getElementById("flagBackdrop").classList.remove("open");}
   function handleFlagBackdropClick(e){if(e.target===e.currentTarget)closeFlagModal();}
-  function setFlagMsg(text,type){const el=document.getElementById("flagMsg");el.textContent=text;el.className=`form-msg ${type}`;}
-  async function submitFlag(){
+  function setFlagMsg(text,type){const el=document.getElementById("flagMsg");el.textContent=text;el.className="form-msg "+type;}
+  function submitFlag(){
     const name=document.getElementById("flag-name").value.trim();
     const notes=document.getElementById("flag-notes").value.trim();
     const url=document.getElementById("flag-url").value.trim();
-    const token=document.getElementById("flag-token").value.trim();
-    if(!notes||!token){setFlagMsg("Please describe the error and provide a GitHub token.","error");return;}
-    if(url && !url.startsWith("http")){setFlagMsg("Please enter a valid source URL starting with https://","error");return;}
-    const btn=document.getElementById("flagSubmitBtn");btn.disabled=true;setFlagMsg("Submitting…","");
-    const issueBody=`## Software License Error Report\n\n| Field | Value |\n|---|---|\n| **Software Name** | ${name} |\n| **Reported Error** | ${notes} |\n| **Correct Information / Source** | ${url||"—"} |\n\n---\n_Submitted via IsItFree? flag error form._`;
-    try{
-      const res=await fetch(`https://api.github.com/repos/${GITHUB_REPO}/issues`,{
-        method:"POST",
-        headers:{"Authorization":`token ${token}`,"Content-Type":"application/json","Accept":"application/vnd.github.v3+json"},
-        body:JSON.stringify({title:`[License Error] ${name}`,body:issueBody,labels:["license-error"]})
-      });
-      if(res.status===201){const data=await res.json();setFlagMsg(`✅ Reported! Issue #${data.number} created.` ,"success");setTimeout(closeFlagModal,2500);}
-      else if(res.status===401){setFlagMsg("Invalid GitHub token.","error");btn.disabled=false;}
-      else{const err=await res.json();setFlagMsg(`Error: ${err.message||"Failed."}`,"error");btn.disabled=false;}
-    }catch(e){setFlagMsg("Network error. Please try again.","error");btn.disabled=false;}
+    if(!notes){setFlagMsg("Please describe the error you found.","error");return;}
+    const sourceUrl=safeExternalUrl(url);
+    if(url && !sourceUrl){setFlagMsg("Please enter a valid HTTPS source URL.","error");return;}
+    if(name.length>160||notes.length>2000){setFlagMsg("Please shorten the report and try again.","error");return;}
+    const btn=document.getElementById("flagSubmitBtn");
+    btn.disabled=true;
+    const title="[License Error] "+name;
+    const issueBody=["## Software License Error Report","","- **Software name:** "+name,"- **Reported issue:** "+notes,"- **Official source:** "+(sourceUrl||"Not provided"),"","Please verify the current publisher terms before changing the catalog.","","Submitted through the IsItFree? website."].join("\n");
+    const issueUrl="https://github.com/"+GITHUB_REPO+"/issues/new?title="+encodeURIComponent(title)+"&body="+encodeURIComponent(issueBody);
+    setFlagMsg("Opening GitHub to submit your report. Sign in if prompted; no personal access token is needed.","success");
+    window.open(issueUrl,"_blank","noopener,noreferrer");
+    btn.disabled=false;
   }
 
   // ── Show the most recent automated AI discovery check ────
@@ -742,19 +763,21 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
       if(!response.ok)throw new Error("HTTP "+response.status);
       const data=await response.json();
       const status=String(data.status||"").toLowerCase();
-      if(status!=="pass"&&status!=="fail")throw new Error("Unknown AI status");
+      const supported=["pass","no_additions","partial","fail"];
+      if(!supported.includes(status))throw new Error("Unknown AI status");
       badge.className="ai-status "+status;
-      badge.textContent=status==="pass"?"PASSED":"FAILED";
-      if(data.date){
-        const parsed=new Date(data.date);
-        dateEl.dateTime=Number.isNaN(parsed.getTime())?"":parsed.toISOString();
-        dateEl.textContent=Number.isNaN(parsed.getTime())?String(data.date):parsed.toLocaleString(undefined,{dateStyle:"medium",timeStyle:"short"});
-      }else{dateEl.textContent="Date unavailable";}
-      if(data.run_url){badge.title="Open the GitHub Actions run";badge.style.cursor="pointer";badge.onclick=()=>window.open(data.run_url,"_blank","noopener");}
+      const labels={pass:"CHECK PASSED",no_additions:"CHECKED · NO NEW ENTRIES",partial:"PARTIAL CHECK",fail:"UPDATE DELAYED"};
+      badge.textContent=labels[status];
+      const checked=data.date?new Date(data.date):null;
+      const checkedLabel=checked&&!Number.isNaN(checked.getTime())?checked.toLocaleString(undefined,{dateStyle:"medium",timeStyle:"short"}):"Date unavailable";
+      const success=data.last_successful_check?new Date(data.last_successful_check):null;
+      const successLabel=success&&!Number.isNaN(success.getTime())?success.toLocaleDateString(undefined,{dateStyle:"medium"}):"not recorded";
+      dateEl.dateTime=checked&&!Number.isNaN(checked.getTime())?checked.toISOString():"";
+      dateEl.textContent=status==="fail"?"Last check: "+checkedLabel+" · Last successful: "+successLabel:checkedLabel;
     }catch(err){
       badge.className="ai-status unknown";
-      badge.textContent="STATUS UNKNOWN";
-      dateEl.textContent="Could not load last run";
+      badge.textContent="STATUS UNAVAILABLE";
+      dateEl.textContent="Could not load check status";
       console.warn("Could not load AI check status",err);
     }
   }
@@ -775,6 +798,10 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
       document.getElementById("footerMeta").textContent=`${allRows.length} entries · ${lastDate}`;
       document.getElementById("homeLastUpdate").textContent=lastDate;
       document.getElementById("dirLastUpdate").textContent=lastDate;
+      const initialQuery=new URLSearchParams(window.location.search).get("q")||"";
+      document.getElementById("searchInput").value=initialQuery;
+      document.getElementById("homeSearchInput").value=initialQuery;
+      if(initialQuery)showPage("directory");
       applyFilter();
     } catch(err){
       document.getElementById("loadingMsg").textContent="⚠️ Could not load data.";
