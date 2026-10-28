@@ -510,9 +510,8 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
     <p class="modal-sub">Found incorrect licensing information? Tell us what needs to be corrected and we'll review it.</p>
     <div class="form-group"><label>Software Name</label><input type="text" id="flag-name" readonly /></div>
     <div class="form-group"><label>What is wrong? *</label><textarea id="flag-notes" placeholder="Example: The license status is outdated or the category is incorrect…"></textarea></div>
-    <div class="form-group"><label>Correct Information / Source URL (optional)</label><input type="url" id="flag-url" placeholder="https://official-site.com/licensing" /></div>
-    <div class="form-group"><label>GitHub Token *</label><input type="text" id="flag-token" placeholder="ghp_xxxxxxxxxxxx" /></div>
-    <button class="submit-btn" id="flagSubmitBtn" onclick="submitFlag()">Submit Error Report →</button>
+    <div class="form-group"><label for="flag-url">Correct Information / Source URL (optional)</label><input type="url" id="flag-url" placeholder="https://official-site.com/licensing" /></div>
+    <button class="submit-btn" id="flagSubmitBtn" onclick="submitFlag()">Continue to GitHub →</button>
     <p class="form-msg" id="flagMsg"></p>
   </div>
 </div>
@@ -721,7 +720,6 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
     document.getElementById("flag-name").value=name;
     document.getElementById("flag-notes").value="";
     document.getElementById("flag-url").value="";
-    document.getElementById("flag-token").value="";
     document.getElementById("flagMsg").textContent="";
     document.getElementById("flagMsg").className="form-msg";
     document.getElementById("flagSubmitBtn").disabled=false;
@@ -729,26 +727,23 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
   }
   function closeFlagModal(){document.getElementById("flagBackdrop").classList.remove("open");}
   function handleFlagBackdropClick(e){if(e.target===e.currentTarget)closeFlagModal();}
-  function setFlagMsg(text,type){const el=document.getElementById("flagMsg");el.textContent=text;el.className=`form-msg ${type}`;}
-  async function submitFlag(){
+  function setFlagMsg(text,type){const el=document.getElementById("flagMsg");el.textContent=text;el.className="form-msg "+type;}
+  function submitFlag(){
     const name=document.getElementById("flag-name").value.trim();
     const notes=document.getElementById("flag-notes").value.trim();
     const url=document.getElementById("flag-url").value.trim();
-    const token=document.getElementById("flag-token").value.trim();
-    if(!notes||!token){setFlagMsg("Please describe the error and provide a GitHub token.","error");return;}
-    if(url && !url.startsWith("http")){setFlagMsg("Please enter a valid source URL starting with https://","error");return;}
-    const btn=document.getElementById("flagSubmitBtn");btn.disabled=true;setFlagMsg("Submitting…","");
-    const issueBody=`## Software License Error Report\n\n| Field | Value |\n|---|---|\n| **Software Name** | ${name} |\n| **Reported Error** | ${notes} |\n| **Correct Information / Source** | ${url||"—"} |\n\n---\n_Submitted via IsItFree? flag error form._`;
-    try{
-      const res=await fetch(`https://api.github.com/repos/${GITHUB_REPO}/issues`,{
-        method:"POST",
-        headers:{"Authorization":`token ${token}`,"Content-Type":"application/json","Accept":"application/vnd.github.v3+json"},
-        body:JSON.stringify({title:`[License Error] ${name}`,body:issueBody,labels:["license-error"]})
-      });
-      if(res.status===201){const data=await res.json();setFlagMsg(`✅ Reported! Issue #${data.number} created.` ,"success");setTimeout(closeFlagModal,2500);}
-      else if(res.status===401){setFlagMsg("Invalid GitHub token.","error");btn.disabled=false;}
-      else{const err=await res.json();setFlagMsg(`Error: ${err.message||"Failed."}`,"error");btn.disabled=false;}
-    }catch(e){setFlagMsg("Network error. Please try again.","error");btn.disabled=false;}
+    if(!notes){setFlagMsg("Please describe the error you found.","error");return;}
+    const sourceUrl=safeExternalUrl(url);
+    if(url && !sourceUrl){setFlagMsg("Please enter a valid HTTPS source URL.","error");return;}
+    if(name.length>160||notes.length>2000){setFlagMsg("Please shorten the report and try again.","error");return;}
+    const btn=document.getElementById("flagSubmitBtn");
+    btn.disabled=true;
+    const title="[License Error] "+name;
+    const issueBody=["## Software License Error Report","","- **Software name:** "+name,"- **Reported issue:** "+notes,"- **Official source:** "+(sourceUrl||"Not provided"),"","Please verify the current publisher terms before changing the catalog.","","Submitted through the IsItFree? website."].join("\n");
+    const issueUrl="https://github.com/"+GITHUB_REPO+"/issues/new?title="+encodeURIComponent(title)+"&body="+encodeURIComponent(issueBody)+"&labels="+encodeURIComponent("license-error");
+    setFlagMsg("Opening GitHub to submit your report. Sign in if prompted; no personal access token is needed.","success");
+    window.open(issueUrl,"_blank","noopener,noreferrer");
+    btn.disabled=false;
   }
 
   // ── Show the most recent automated AI discovery check ────
