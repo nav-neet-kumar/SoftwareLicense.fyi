@@ -900,22 +900,22 @@
     ]
   },
   "microsoft-365": {
-    "input_hash": "c59a1524fd2a478d1bc5981a6b8e57eeb897f70ae6febe80d72d53d19834ccb4",
-    "generated_at": "2026-10-22",
-    "summary": "Microsoft 365 is a suite of productivity and collaboration tools designed for personal and business use.",
-    "what_it_does": "It offers a collection of applications like Word, Excel, PowerPoint, Outlook, and cloud services for document creation, communication, and data management.",
-    "best_for": "Individuals, families, and businesses seeking a comprehensive set of productivity applications and cloud services.",
-    "free_tier": "Information on a free tier is not explicitly provided; personal and business plans are subscription-based.",
-    "limitations": "Specific limitations depend on the chosen subscription plan. Please check the official documentation for details.",
-    "licensing_notes": "Requires a paid subscription for full access. Various plans are available for personal and business use.",
+    "input_hash": "34e066364ec95b163330be2c466cfd0d730834bb78643a86e564885d6207bd92",
+    "generated_at": "2026-10-28",
+    "summary": "Microsoft 365 is a subscription-based service offering a suite of productivity applications and cloud services. It requires a subscription for individuals, businesses, and enterprises.",
+    "what_it_does": "Provides a comprehensive collection of productivity applications like Word, Excel, and PowerPoint, along with cloud services such as OneDrive and Outlook.",
+    "best_for": "Individuals, businesses, and enterprises seeking a complete set of productivity tools and cloud-based collaboration features.",
+    "free_tier": "A free trial is available.",
+    "limitations": "Full access to all features and continued use beyond the trial period requires an active paid subscription.",
+    "licensing_notes": "Microsoft 365 operates on a subscription model, with various plans tailored for personal, business, and enterprise use.",
     "faq": [
       {
-        "question": "What applications are included in Microsoft 365?",
-        "answer": "Microsoft 365 typically includes applications such as Word, Excel, PowerPoint, Outlook, OneDrive, and Teams, with specific inclusions varying by plan."
+        "question": "Is there a free version of Microsoft 365?",
+        "answer": "A free trial is available for users to experience the service before committing to a subscription."
       },
       {
-        "question": "Is there a free version of Microsoft 365?",
-        "answer": "While some individual apps may have free web versions, the full Microsoft 365 suite requires a paid subscription. Details on any free trial or limited free access should be verified on their official site."
+        "question": "What kind of license does Microsoft 365 use?",
+        "answer": "Microsoft 365 requires a subscription, with different plans available for various user types. Please check the official documentation for details."
       }
     ]
   },
@@ -960,62 +960,62 @@
     ]
   },
   "jetbrains-intellij-idea": {
-    "input_hash": "138c6adeb13c498a3d4b742744074e29779d7cf5c91ea1bfd45de85e3657fadd",
-    "generated_at": "2026-10-22",
-    "summary": "IntelliJ IDEA is an integrated development environment (IDE) for Java, Kotlin, and other programming languages.",
-    "what_it_does": "It provides tools for code writing, debugging, testing, and refactoring to enhance developer productivity.",
-    "best_for": "Software developers working with Java, Kotlin, and other JVM languages who need a powerful IDE.",
-    "free_tier": "The Community Edition is free and open-source.",
-    "limitations": "The Ultimate Edition, which offers more features for web and enterprise development, requires a paid subscription.",
-    "licensing_notes": "The Community Edition is free under the Apache 2.0 license. The Ultimate Edition requires a paid subscription.",
+    "input_hash": "0966d47590cffe47339fea159688783b7bdd657641d86b64b7b5a559c2f532e1",
+    "generated_at": "2026-10-28",
+    "summary": "JetBrains IntelliJ IDEA is an integrated development environment (IDE) for Java and other JVM languages. It offers a free Community edition and a paid Ultimate edition with advanced features.",
+    "what_it_does": "Provides a powerful IDE for software development, particularly for Java and JVM-based applications, with intelligent coding assistance and developer tools.",
+    "best_for": "Developers working with Java, Kotlin, Groovy, and other JVM languages, from individual learners to professional teams.",
+    "free_tier": "The Community edition is available for free. A free 30-day trial is available for the Ultimate edition.",
+    "limitations": "The free Community edition has fewer features compared to the paid Ultimate edition. The Ultimate edition requires a paid subscription after its 30-day trial.",
+    "licensing_notes": "IntelliJ IDEA offers a free Community edition for basic development. The Ultimate edition, which includes advanced features, requires a paid subscription.",
     "faq": [
       {
-        "question": "What is the difference between IntelliJ IDEA Community and Ultimate editions?",
-        "answer": "The Community Edition is free and suitable for Java and Kotlin development. The Ultimate Edition includes advanced features for web, enterprise, and database development, and requires a paid subscription."
+        "question": "Is there a free version of IntelliJ IDEA?",
+        "answer": "Yes, the Community edition of IntelliJ IDEA is available for free. A 30-day free trial is also available for the Ultimate edition."
       },
       {
-        "question": "Is IntelliJ IDEA free?",
-        "answer": "The Community Edition of IntelliJ IDEA is free and open-source. The Ultimate Edition is a paid product."
+        "question": "What is the difference between Community and Ultimate editions?",
+        "answer": "The Community edition is free and open-source, while the Ultimate edition requires a paid subscription and offers additional features for professional development. Users should check official documentation for specific feature differences."
       }
     ]
   },
   "windows-11": {
-    "input_hash": "04c2fe8898efa04133c762581ebd84cf90cd6afc0caa832f682d1fa652c40f2a",
-    "generated_at": "2026-10-22",
-    "summary": "Windows 11 is a desktop operating system developed by Microsoft.",
-    "what_it_does": "It provides the core functionality for personal computers, enabling users to run applications, manage files, and connect to networks.",
-    "best_for": "Users of personal computers requiring a modern and feature-rich operating system.",
-    "free_tier": "Not applicable; a license is required for installation and use.",
-    "limitations": "Requires a valid license for installation and use. Specific hardware requirements must be met.",
-    "licensing_notes": "Requires a valid OEM or retail license for installation and use.",
+    "input_hash": "7827d22772559d1dae36a19194984dd5a410ef748daba1d4aebc66d9cb2f39f4",
+    "generated_at": "2026-10-28",
+    "summary": "Windows 11 is a proprietary operating system developed by Microsoft. It requires a license for activation and continued use.",
+    "what_it_does": "Serves as the core operating system for personal computers, managing hardware and software resources and providing a user interface.",
+    "best_for": "Users requiring a modern operating system for personal computing, gaming, productivity, and general use.",
+    "free_tier": "None available.",
+    "limitations": "Requires a valid license for full functionality, security updates, and continued use.",
+    "licensing_notes": "A license is required for Windows 11, typically obtained through OEM (Original Equipment Manufacturer) with a new PC or as a retail purchase.",
     "faq": [
       {
-        "question": "How do I get Windows 11?",
-        "answer": "Windows 11 is typically acquired through a retail purchase or comes pre-installed on new computers (OEM license)."
+        "question": "Is Windows 11 free to use?",
+        "answer": "No, Windows 11 requires a license for activation and continued use."
       },
       {
-        "question": "Do I need a license to use Windows 11?",
-        "answer": "Yes, a valid Windows 11 license is required for installation and ongoing use."
+        "question": "How do I get a license for Windows 11?",
+        "answer": "Licenses are typically included with new computers (OEM) or can be purchased separately as a retail license. Please check the official documentation for purchasing options."
       }
     ]
   },
   "slack-business": {
-    "input_hash": "16b9e4073213df93cbea37658d3e0a79ad93c8be780e1014f0d90576543805ef",
-    "generated_at": "2026-10-22",
-    "summary": "Slack is a channel-based messaging platform designed for team collaboration and communication.",
-    "what_it_does": "It allows teams to communicate through channels, direct messages, and calls, integrating with various other tools.",
-    "best_for": "Businesses and teams looking for a centralized platform for internal communication and collaboration.",
-    "free_tier": "A free tier is available with limitations on message history and integrations.",
-    "limitations": "The free tier has limitations on message history search and the number of app integrations. Paid plans offer more features.",
-    "licensing_notes": "Free tier available for basic use. Paid Pro and Business+ plans are required for advanced features and commercial use.",
+    "input_hash": "0dccbfca373326fce979bb8d2f36d4a7dc3e4af5a2572ecd0e8c6f98833c2101",
+    "generated_at": "2026-10-28",
+    "summary": "Slack is a communication platform designed for team collaboration. It offers a free tier with limitations and paid commercial plans for advanced features.",
+    "what_it_does": "Facilitates team communication, collaboration, and file sharing through channels, direct messages, and integrations, aiming to streamline workflow.",
+    "best_for": "Teams and businesses of all sizes needing a centralized platform for internal communication and project collaboration.",
+    "free_tier": "A free tier is available.",
+    "limitations": "The free tier has limitations compared to paid plans, such as message history, storage, and available integrations. Paid Pro plans offer advanced features for commercial use.",
+    "licensing_notes": "Slack offers a free tier for basic use. For commercial use and advanced features, paid Pro plans are available.",
     "faq": [
       {
-        "question": "What are the limitations of the free Slack plan?",
-        "answer": "The free plan offers limited message history search and a restricted number of app integrations. For full capabilities, paid plans are recommended."
+        "question": "Does Slack offer a free version for businesses?",
+        "answer": "Yes, Slack offers a free tier with certain limitations. Paid plans provide advanced features for commercial use."
       },
       {
-        "question": "Is Slack free for business use?",
-        "answer": "Slack offers a free tier suitable for small teams. For comprehensive business features and unlimited history, paid plans like Pro or Business+ are necessary."
+        "question": "What are the main differences between the free and paid Slack plans?",
+        "answer": "The free tier typically has limitations on message history, storage, and available integrations. Paid plans offer more extensive features and support. Users should check the official pricing page for details."
       }
     ]
   },
@@ -1060,22 +1060,22 @@
     ]
   },
   "github-copilot": {
-    "input_hash": "08a00bb581ff42ef670a18ed4b4101c689546342f425bb3e51d719b00212311e",
-    "generated_at": "2026-10-22",
-    "summary": "GitHub Copilot is an AI pair programmer that suggests code and entire functions in real-time.",
-    "what_it_does": "It analyzes the context of code being written and provides intelligent code suggestions to speed up development.",
-    "best_for": "Software developers looking to enhance their coding speed and efficiency through AI-powered suggestions.",
-    "free_tier": "A free trial is typically offered. Verified student developers and maintainers of popular open-source projects may be eligible for free access.",
-    "limitations": "Requires a subscription for continued use after the trial period. Specific usage limits may apply depending on the plan.",
-    "licensing_notes": "Available through individual, business, and enterprise subscription tiers. Free access may be available for students and open-source maintainers.",
+    "input_hash": "a2f855111bdf3d697741617c521dd813edf53dc468f48afd0027dab9ee22d9a3",
+    "generated_at": "2026-10-28",
+    "summary": "GitHub Copilot is an AI pair programmer that suggests code and entire functions in real-time. It requires a subscription for use.",
+    "what_it_does": "Provides AI-powered code suggestions and auto-completion to assist developers in writing code more efficiently across various programming languages and environments.",
+    "best_for": "Developers and programming teams looking to enhance productivity and accelerate coding workflows with AI assistance.",
+    "free_tier": "None available.",
+    "limitations": "Requires an active subscription for access and use.",
+    "licensing_notes": "GitHub Copilot requires a subscription for use. Information on plans and pricing, including GitHub Enterprise access, is available on the official website.",
     "faq": [
       {
-        "question": "Is GitHub Copilot free?",
-        "answer": "GitHub Copilot is a paid service, though a free trial is usually available. Verified students and maintainers of popular open-source projects may qualify for free access."
+        "question": "Is GitHub Copilot free to use?",
+        "answer": "No, GitHub Copilot requires a paid subscription for access."
       },
       {
-        "question": "What are the different plans for GitHub Copilot?",
-        "answer": "GitHub Copilot is offered in Individual, Business, and Enterprise tiers, catering to different user needs and organizational scales."
+        "question": "Where can I find pricing information for GitHub Copilot?",
+        "answer": "Pricing and plan details, including options for GitHub Enterprise, are available on the official GitHub Copilot website."
       }
     ]
   },
@@ -2260,22 +2260,22 @@
     ]
   },
   "burp-suite-professional": {
-    "input_hash": "f6290b8ce26a6665c06113d108f60da3440417ba602169c1ade0da42beae2aa1",
-    "generated_at": "2026-10-22",
-    "summary": "Burp Suite Professional is a leading web vulnerability scanner and penetration testing tool. It provides an integrated platform for security testing of web applications.",
-    "what_it_does": "It offers tools for intercepting, analyzing, and manipulating HTTP traffic, automating vulnerability scans, and performing manual penetration tests to identify security flaws.",
-    "best_for": "Cybersecurity professionals, penetration testers, and developers focused on identifying and exploiting vulnerabilities in web applications.",
-    "free_tier": "No free tier is offered for Burp Suite Professional; a paid annual subscription is required. A community edition with limited features may be available separately.",
-    "limitations": "Requires a paid annual subscription license per user for both personal and professional use. Functionality is restricted without a valid license.",
-    "licensing_notes": "Burp Suite Professional requires a paid annual subscription license per user for both personal and professional use.",
+    "input_hash": "ce57fe891019938868714f75d96a8d3a6dcbdc15a3389d404838f990f379ddf6",
+    "generated_at": "2026-10-28",
+    "summary": "Burp Suite Professional is a proprietary web vulnerability scanner and penetration testing tool. It requires a paid license for use.",
+    "what_it_does": "Provides a comprehensive set of tools for performing security testing of web applications, including proxying, scanning, and intrusion detection.",
+    "best_for": "Security professionals, penetration testers, and developers focused on identifying and exploiting vulnerabilities in web applications.",
+    "free_tier": "A free trial is available.",
+    "limitations": "Full access to features and continued use beyond the trial period requires a paid license.",
+    "licensing_notes": "Burp Suite Professional requires a paid license for commercial use. A free trial is available to evaluate the software.",
     "faq": [
       {
         "question": "Is there a free version of Burp Suite Professional?",
-        "answer": "No, Burp Suite Professional requires a paid annual subscription. A separate Burp Suite Community Edition is available for free with limited features."
+        "answer": "A free trial is available to evaluate Burp Suite Professional. Continued use requires a paid license."
       },
       {
-        "question": "Can I use Burp Suite Professional for personal learning?",
-        "answer": "While you can use it for personal learning, a paid annual subscription is still required for Burp Suite Professional, even for individual use."
+        "question": "Who is Burp Suite Professional designed for?",
+        "answer": "It is primarily designed for security professionals, penetration testers, and developers involved in web application security testing."
       }
     ]
   },
@@ -2960,22 +2960,22 @@
     ]
   },
   "1password": {
-    "input_hash": "cc9464f90d5debad5cacfb07774e43e3263a9f1579739614438120cfdd3e2546",
-    "generated_at": "2026-10-22",
-    "summary": "1Password is a password manager that securely stores and organizes passwords and other sensitive information. It helps create strong, unique passwords.",
-    "what_it_does": "It securely stores login credentials, credit card information, and other sensitive data, auto-filling them when needed and generating strong passwords.",
-    "best_for": "Individuals and teams looking to enhance security by managing passwords effectively and securely.",
-    "free_tier": "Offers a 14-day free trial.",
-    "limitations": "Requires a paid subscription for continued use after the trial period for both personal and commercial use.",
-    "licensing_notes": "Proprietary software requiring a paid subscription for use. A 14-day free trial is available.",
+    "input_hash": "f200f917c83533e5e7044bc212f4c3ab7afeb7dce295683815ca4b4c393bbb1a",
+    "generated_at": "2026-10-28",
+    "summary": "1Password is a proprietary password manager that securely stores and manages credentials and sensitive information. It requires a paid subscription for use.",
+    "what_it_does": "Securely stores passwords, credit card information, secure notes, and other sensitive data, and helps generate strong, unique passwords for various online services.",
+    "best_for": "Individuals, families, and businesses needing a secure and convenient solution for managing passwords and digital identities.",
+    "free_tier": "None available.",
+    "limitations": "Requires a paid subscription for all plans and continued use.",
+    "licensing_notes": "1Password operates on a proprietary subscription model, with various plans available for individuals, families, and enterprises.",
     "faq": [
       {
-        "question": "Is 1Password free?",
-        "answer": "1Password offers a 14-day free trial, after which a paid subscription is required for continued use."
+        "question": "Is there a free version of 1Password?",
+        "answer": "No, 1Password requires a paid subscription for all its plans."
       },
       {
-        "question": "What information can I store in 1Password?",
-        "answer": "You can securely store login credentials, credit card details, secure notes, software licenses, and other sensitive information."
+        "question": "What types of plans does 1Password offer?",
+        "answer": "1Password offers various paid subscription plans, including options for individuals, families, and enterprises. Users should check the official website for details."
       }
     ]
   },
@@ -3440,22 +3440,22 @@
     ]
   },
   "datagrip": {
-    "input_hash": "c13e19122f8fb0d3e879f061085aa263e6c337480191b45aa073acb517be9733",
-    "generated_at": "2026-10-23",
-    "summary": "DataGrip is a professional IDE for databases and SQL from JetBrains, designed for database developers and administrators.",
-    "what_it_does": "It provides a comprehensive environment for managing databases, writing SQL, analyzing schemas, and performing various database development tasks.",
-    "best_for": "Database developers, SQL analysts, and administrators who require an advanced, feature-rich IDE for working with multiple database systems.",
-    "free_tier": "There is no dedicated free tier; it offers a 30-day free trial.",
-    "limitations": "Requires a paid subscription for continued use after the 30-day trial period.",
-    "licensing_notes": "DataGrip is proprietary software requiring a paid subscription for both personal and commercial use.",
+    "input_hash": "1de409e6d3f993cc8b7aff8fc3f96d83c9b5caef5cfeb7da069ef8ea948ef0ff",
+    "generated_at": "2026-10-28",
+    "summary": "DataGrip is a proprietary database IDE from JetBrains. It requires a paid subscription for commercial use but is available free for non-commercial use.",
+    "what_it_does": "Provides a versatile IDE for database developers and administrators to manage multiple databases, write SQL, and explore schemas from a single interface.",
+    "best_for": "Database developers, SQL developers, and database administrators working with various database systems for both commercial and non-commercial projects.",
+    "free_tier": "Available free for non-commercial use.",
+    "limitations": "Commercial use requires a paid subscription.",
+    "licensing_notes": "DataGrip is proprietary software. It is available free for non-commercial use, but a paid subscription is required for commercial purposes.",
     "faq": [
       {
-        "question": "Is DataGrip available for free?",
-        "answer": "DataGrip offers a 30-day free trial, but a paid subscription is required for continued use after the trial period."
+        "question": "Is DataGrip free to use?",
+        "answer": "DataGrip is available free for non-commercial use. Commercial use requires a paid subscription."
       },
       {
-        "question": "What types of databases does DataGrip support?",
-        "answer": "DataGrip supports a wide range of database systems. Users should check the official documentation for the most current list of supported databases."
+        "question": "What kind of databases does DataGrip support?",
+        "answer": "DataGrip is designed to support various database systems. Users should check the official documentation for the full list of supported databases."
       }
     ]
   },
@@ -3480,22 +3480,22 @@
     ]
   },
   "internet-download-manager": {
-    "input_hash": "c2ef575601ee0a1138ca07fda238f3b76ddc3fa12b4e1f449075d6f8889a2ae7",
-    "generated_at": "2026-10-23",
-    "summary": "Internet Download Manager (IDM) is a tool designed to increase download speeds, resume, and schedule downloads.",
-    "what_it_does": "It accelerates downloads by segmenting files, manages download queues, and allows for resuming interrupted downloads from various sources.",
-    "best_for": "Users who frequently download large files and need to optimize download speeds, manage queues, and recover from interruptions.",
-    "free_tier": "There is no dedicated free tier; it offers a 30-day free trial.",
-    "limitations": "Requires a paid license to continue using the software after the 30-day trial period.",
-    "licensing_notes": "Internet Download Manager is proprietary shareware requiring a paid license after a 30-day trial.",
+    "input_hash": "df8c7e535917c7e3249e9e3b93da1543c209e5ea40ae8f0ee7060d4ef045818c",
+    "generated_at": "2026-10-28",
+    "summary": "Internet Download Manager (IDM) is proprietary shareware designed to accelerate download speeds. It offers a 30-day free trial, after which a paid license is required.",
+    "what_it_does": "Optimizes and manages file downloads, offering features like resuming broken downloads, scheduling, and categorizing files to improve download efficiency.",
+    "best_for": "Users who frequently download large files and want to improve download speeds and manage their downloads efficiently.",
+    "free_tier": "A 30-day free trial is available.",
+    "limitations": "After the 30-day trial, a paid license is required to continue using the software.",
+    "licensing_notes": "Internet Download Manager is proprietary shareware. It offers a 30-day free trial, after which a paid license must be purchased for continued use.",
     "faq": [
       {
-        "question": "Can I use Internet Download Manager for free permanently?",
-        "answer": "No, Internet Download Manager offers a 30-day free trial, after which a paid license is required for continued use."
+        "question": "Can I use Internet Download Manager for free?",
+        "answer": "Internet Download Manager offers a 30-day free trial. After this period, a paid license is required for continued use."
       },
       {
-        "question": "How does Internet Download Manager improve download speeds?",
-        "answer": "It improves speeds by segmenting files into multiple parts and downloading them simultaneously, optimizing bandwidth usage."
+        "question": "What happens after the 30-day trial ends?",
+        "answer": "After the 30-day trial, you will need to purchase a license to continue using Internet Download Manager."
       }
     ]
   },
@@ -3520,22 +3520,22 @@
     ]
   },
   "navicat-premium": {
-    "input_hash": "fcc0568374bb6618ba4b178fcce687653a8ebcb2766b9b23249e545cbe45ae03",
-    "generated_at": "2026-10-23",
-    "summary": "Navicat Premium is a database administration and development tool that allows connection to multiple database types.",
-    "what_it_does": "It provides a graphical interface for managing, developing, and maintaining databases, supporting various database systems in a single application.",
-    "best_for": "Database administrators and developers who work with multiple database systems and need a unified, powerful GUI tool.",
-    "free_tier": "There is no dedicated free tier; it offers a 14-day trial period.",
-    "limitations": "Requires a paid subscription or perpetual license for continued use after the 14-day trial period.",
-    "licensing_notes": "Navicat Premium is proprietary commercial software that requires a paid subscription or perpetual license for continued use following a 14-day trial period.",
+    "input_hash": "d7a7540214bf67b97d331ca0de615a9e897c73e2860ca644a4a9932022c8154e",
+    "generated_at": "2026-10-28",
+    "summary": "Navicat Premium is proprietary commercial software that allows users to connect to multiple database types simultaneously. It requires a paid license for use.",
+    "what_it_does": "Provides a graphical user interface for database administration and development, supporting various database systems from a single application.",
+    "best_for": "Database developers, administrators, and analysts who need to manage and develop across multiple database types efficiently.",
+    "free_tier": "None available.",
+    "limitations": "Requires a paid subscription or perpetual license for all use.",
+    "licensing_notes": "Navicat Premium is proprietary commercial software that requires a paid subscription or perpetual license for continued use.",
     "faq": [
       {
-        "question": "Is Navicat Premium free to use?",
-        "answer": "Navicat Premium offers a 14-day free trial, but a paid subscription or perpetual license is required for continued use."
+        "question": "Is there a free version of Navicat Premium?",
+        "answer": "No, Navicat Premium is proprietary commercial software that requires a paid license for use."
       },
       {
-        "question": "Which database systems does Navicat Premium support?",
-        "answer": "Navicat Premium supports multiple database systems. Users should check the official documentation for the most current list of supported databases."
+        "question": "What kind of licensing options are available for Navicat Premium?",
+        "answer": "Navicat Premium typically offers paid subscription or perpetual license options. Users should check the official website for current details."
       }
     ]
   },
@@ -3980,22 +3980,22 @@
     ]
   },
   "microsoft-visual-studio-community": {
-    "input_hash": "72597698db819fef966d81619a4eb92520e299df3486155addbaa1bcad8c88e1",
-    "generated_at": "2026-10-24",
-    "summary": "Microsoft Visual Studio Community is an integrated development environment (IDE). It is free for individual developers and small teams, but larger commercial enterprise organizations require paid editions.",
-    "what_it_does": "It provides a comprehensive set of tools for developing various applications, including desktop, web, and mobile, across different programming languages.",
-    "best_for": "Individual developers, students, open-source contributors, and small teams working on non-enterprise applications.",
-    "free_tier": "It is free for individual developers and small teams.",
-    "limitations": "Larger commercial enterprise organizations are required to purchase paid editions.",
-    "licensing_notes": "Visual Studio Community is free for personal use, academic use, and for small teams (up to 5 developers) in non-enterprise commercial settings. Larger commercial enterprise organizations must acquire paid editions.",
+    "input_hash": "38baa30d022a6e89b24d3496c43e989e4a33d4eca6bd1b4a2dd21965edc53cc1",
+    "generated_at": "2026-10-28",
+    "summary": "Microsoft Visual Studio Community is a free integrated development environment (IDE) for personal use and small teams. Paid enterprise licenses are available for larger commercial use.",
+    "what_it_does": "Provides a comprehensive IDE for developing various applications, including desktop, web, and mobile, across multiple programming languages.",
+    "best_for": "Individual developers, students, open-source contributors, and small teams for non-commercial or limited commercial development.",
+    "free_tier": "The Community edition is free.",
+    "limitations": "The Community edition has specific licensing terms that restrict its use in larger commercial organizations. Paid editions are required for broader commercial use.",
+    "licensing_notes": "Visual Studio Community is free for personal use, academic use, and small team open-source projects. A paid Enterprise license is required for larger commercial organizations. Users should check the official licensing terms for specific eligibility.",
     "faq": [
       {
-        "question": "Who can use Visual Studio Community for free?",
-        "answer": "It is free for individual developers, students, open-source contributors, and small teams."
+        "question": "Is Visual Studio Community truly free?",
+        "answer": "Yes, Visual Studio Community is free for personal use, academic use, and small team open-source projects, with specific commercial use limitations."
       },
       {
-        "question": "When is a paid license required for Visual Studio?",
-        "answer": "Larger commercial enterprise organizations are required to purchase paid editions of Visual Studio."
+        "question": "When would I need a paid Visual Studio license?",
+        "answer": "A paid license, such as the Enterprise edition, is typically required for larger commercial organizations or for use cases that exceed the Community edition's licensing terms. Please check the official documentation for details."
       }
     ]
   },
@@ -4140,22 +4140,22 @@
     ]
   },
   "sqlite": {
-    "input_hash": "5b47592076b5c05b77ceef426b796ca2e4ed47f651c10d7bd823cdcfca690304",
-    "generated_at": "2026-10-24",
-    "summary": "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. It is dedicated to the public domain, allowing unrestricted use.",
-    "what_it_does": "It provides a serverless, zero-configuration, transactional SQL database engine that can be embedded directly into applications.",
-    "best_for": "Embedded applications, mobile devices, desktop applications, and small to medium-sized websites that require a lightweight and self-contained database.",
-    "free_tier": "It is entirely free to use.",
-    "limitations": "Specific limitations are not detailed; please check the official documentation.",
-    "licensing_notes": "SQLite is dedicated to the public domain. This means it can be freely used, modified, and distributed for any purpose, whether commercial or non-commercial, without any licensing restrictions.",
+    "input_hash": "2c795e193ce97890989a7f786ecd9cee2646ee68e361716bea1709c94e27a696",
+    "generated_at": "2026-10-28",
+    "summary": "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. It is dedicated to the public domain.",
+    "what_it_does": "Provides a lightweight, embedded relational database management system that does not require a separate server process, storing data in a single file.",
+    "best_for": "Embedded systems, mobile applications, desktop applications, and small-scale web applications where a full-fledged database server is not needed.",
+    "free_tier": "Fully free and in the public domain.",
+    "limitations": "As an embedded database, it is not designed for high-concurrency, multi-user environments typical of client-server databases.",
+    "licensing_notes": "SQLite is dedicated to the public domain, meaning it can be freely used, modified, and distributed for any purpose, commercial or non-commercial, without requiring a license.",
     "faq": [
       {
-        "question": "Are there any restrictions on using SQLite for commercial projects?",
-        "answer": "No, SQLite is dedicated to the public domain and can be freely used, modified, and distributed for any purpose, commercial or non-commercial."
+        "question": "Can SQLite be used for commercial projects?",
+        "answer": "Yes, SQLite is in the public domain and can be freely used for any purpose, including commercial projects, without any licensing fees."
       },
       {
-        "question": "What kind of database is SQLite?",
-        "answer": "SQLite is a self-contained, serverless, zero-configuration, transactional SQL database engine that can be embedded directly into applications."
+        "question": "Does SQLite require a server?",
+        "answer": "No, SQLite is a self-contained, serverless database engine, meaning it does not require a separate server process to operate."
       }
     ]
   },
@@ -4480,22 +4480,22 @@
     ]
   },
   "winrar": {
-    "input_hash": "03562c8055065a40d325cb32e38ef9023653e84c0ee13ed4005bf3585f2f3df0",
-    "generated_at": "2026-10-25",
-    "summary": "WinRAR is a proprietary file archiver utility that supports RAR, ZIP, and other archive formats, requiring a paid commercial license after a 40-day evaluation period.",
-    "what_it_does": "It compresses and decompresses files, creates self-extracting archives, and can repair damaged archives. It is widely used for managing and transferring large files efficiently.",
-    "best_for": "Individuals and businesses who need a robust file compression and archiving tool and are willing to purchase a commercial license for continued use after the evaluation period.",
-    "free_tier": "WinRAR offers a 40-day evaluation period during which users can access its full functionality. There is no perpetual free tier for continued use.",
-    "limitations": "After the 40-day evaluation period, a paid commercial license is required for continued use. Without a license, the software will display reminders to purchase one, though it typically remains functional.",
-    "licensing_notes": "WinRAR is distributed as shareware. It provides a 40-day evaluation period for users to try the software. After this period, a paid commercial license is required for continued legal use. Users should consult the official website for current pricing and licensing terms.",
+    "input_hash": "7d2a9311cd0c143a0f356777cd9e26c2cde7a8c5cd55ab5c37da69c5b43ee6d8",
+    "generated_at": "2026-10-28",
+    "summary": "WinRAR is a proprietary file archiver utility for Windows. It offers a trial version before requiring a paid commercial license for continued use.",
+    "what_it_does": "Compresses and archives files into RAR or ZIP formats, and can unpack various archive file formats, helping to save disk space and facilitate file transfer.",
+    "best_for": "Windows users needing to compress, encrypt, and manage archive files efficiently.",
+    "free_tier": "A trial version is available.",
+    "limitations": "The trial version has a time limit, after which a paid commercial license is required for continued use.",
+    "licensing_notes": "WinRAR is proprietary software that offers a trial version. A paid commercial license is required for continued use after the trial period.",
     "faq": [
       {
-        "question": "Is WinRAR free to use indefinitely?",
-        "answer": "No, WinRAR is shareware and requires a paid commercial license after a 40-day evaluation period for continued legal use."
+        "question": "Can I use WinRAR for free indefinitely?",
+        "answer": "No, WinRAR offers a trial version, but a paid commercial license is required for continued use after the trial period."
       },
       {
-        "question": "What file formats does WinRAR support?",
-        "answer": "WinRAR primarily supports RAR and ZIP formats, and can also decompress many other archive formats."
+        "question": "What types of files can WinRAR handle?",
+        "answer": "WinRAR can create RAR and ZIP archives and unpack a wide variety of archive file formats. Please check the official documentation for the full list."
       }
     ]
   },
@@ -5540,22 +5540,22 @@
     ]
   },
   "mobaxterm": {
-    "input_hash": "5d24a5c44a640955ef2501ff25eff09cebbefd0585be22176c240692b151d2c9",
-    "generated_at": "2026-10-26",
-    "summary": "MobaXterm is an enhanced terminal for Windows with an X11 server, tabbed SSH client, network tools, and more. It offers a free Home Edition for personal use and a paid Professional Edition for commercial use.",
-    "what_it_does": "It provides a single portable executable for remote computing, including SSH, RDP, VNC, SFTP, and other network utilities, simplifying remote access tasks.",
-    "best_for": "Individuals needing a comprehensive remote computing toolbox for personal use, or professionals and organizations requiring advanced features and commercial support.",
-    "free_tier": "A free Home Edition is available for personal use.",
-    "limitations": "The free Home Edition is restricted to personal use. Commercial environments require a paid Professional Edition license. Specific feature limitations of the Home Edition should be checked in the official documentation.",
-    "licensing_notes": "MobaXterm offers a free Home Edition for personal use. A paid Professional Edition license is required for use in commercial environments.",
+    "input_hash": "59b629c436fd5d5dc094ca93632115f926ba8ebc3a54d121d7c9abe106c8e530",
+    "generated_at": "2026-10-28",
+    "summary": "MobaXterm is an enhanced terminal for Windows with an X11 server, tabbed SSH client, and network tools. It offers a free Home Edition for personal use and a paid Professional Edition for commercial use.",
+    "what_it_does": "Provides a comprehensive toolbox for remote computing, including SSH, RDP, VNC, FTP, and an X server for graphical applications, all within a single Windows application.",
+    "best_for": "System administrators, developers, and IT professionals who need a versatile terminal and remote computing solution on Windows.",
+    "free_tier": "The Home Edition is available for free for personal use.",
+    "limitations": "The free Home Edition is restricted to personal use. Commercial use requires a paid Professional Edition license.",
+    "licensing_notes": "MobaXterm offers a free Home Edition for personal use. Commercial use within a company requires a paid subscription to MobaXterm Professional Edition.",
     "faq": [
       {
-        "question": "Can I use MobaXterm for free?",
-        "answer": "Yes, a free Home Edition is available for personal use."
+        "question": "Can I use MobaXterm for free in my company?",
+        "answer": "No, the free Home Edition is for personal use only. Commercial use within a company requires a paid MobaXterm Professional Edition license."
       },
       {
-        "question": "Is MobaXterm free for commercial use?",
-        "answer": "No, a paid Professional Edition license is required for commercial environments."
+        "question": "What is included in MobaXterm?",
+        "answer": "MobaXterm includes an X11 server, a tabbed SSH client, and a suite of network tools for remote computing, among other features. Please check the official documentation for a complete list."
       }
     ]
   },
@@ -5580,22 +5580,22 @@
     ]
   },
   "tower": {
-    "input_hash": "b2caef191bf6607bd497e8e3575e5af3592b822ac814dbcde7c2b91ce3de94f5",
-    "generated_at": "2026-10-26",
-    "summary": "Tower is a powerful Git client for macOS and Windows, designed to make Git easier and more accessible. It requires a paid annual subscription after a 30-day free trial.",
-    "what_it_does": "It provides a graphical user interface for managing Git repositories, including committing, branching, merging, and pushing changes, simplifying complex Git operations.",
-    "best_for": "Developers and teams who prefer a robust graphical interface for managing their Git workflows and repositories.",
+    "input_hash": "3761bda144c5ec20f4a66ee23ae3065d09b7a4bc694601a8de3ab0f6a88edbb8",
+    "generated_at": "2026-10-28",
+    "summary": "Tower is a proprietary Git client for macOS and Windows. It requires a paid annual subscription after a 30-day free trial.",
+    "what_it_does": "Provides a powerful graphical user interface for managing Git repositories, simplifying complex Git operations and visualizing version control history.",
+    "best_for": "Developers and teams who prefer a visual interface for Git version control, aiming to streamline their workflow and improve productivity.",
     "free_tier": "A 30-day free trial is available.",
-    "limitations": "After the 30-day free trial, a paid annual subscription per user is required for continued use.",
-    "licensing_notes": "Tower is proprietary software. A paid annual subscription per user is required for continued use after a 30-day free trial.",
+    "limitations": "After the 30-day trial, a paid annual subscription is required per user for continued use.",
+    "licensing_notes": "Tower is proprietary software that requires a paid annual subscription per user after a 30-day free trial.",
     "faq": [
       {
-        "question": "Is there a free version of Tower?",
-        "answer": "A 30-day free trial is available. After this period, a paid annual subscription is required."
+        "question": "Is Tower free to use?",
+        "answer": "Tower offers a 30-day free trial. After the trial, a paid annual subscription is required for continued use."
       },
       {
-        "question": "What happens after the trial period?",
-        "answer": "A paid annual subscription per user is required to continue using Tower after the 30-day free trial."
+        "question": "What platforms does Tower support?",
+        "answer": "Tower is available for both macOS and Windows."
       }
     ]
   },
@@ -7496,6 +7496,306 @@
       {
         "question": "Can I use Houdini Apprentice for commercial projects?",
         "answer": "No, Houdini Apprentice is strictly for non-commercial, personal, or educational purposes. Commercial projects require a paid Houdini license."
+      }
+    ]
+  },
+  "transmit": {
+    "input_hash": "d7fcf1813c96f41a824513475a468ae304546a499738495c3039690a132db65a",
+    "generated_at": "2026-10-28",
+    "summary": "Transmit is a powerful FTP client for macOS, designed for efficient file transfers.",
+    "what_it_does": "It allows users to connect to and manage files on remote servers using various protocols like FTP, SFTP, and S3.",
+    "best_for": "Mac users who need a reliable and feature-rich application for uploading and downloading files to and from web servers.",
+    "free_tier": "A free trial is available, after which a paid license is required.",
+    "limitations": "Full functionality requires a paid license.",
+    "licensing_notes": "Requires a paid single-user license or subscription for both personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is Transmit free to use?",
+        "answer": "Transmit offers a free trial period. After the trial, a paid license is necessary for continued use."
+      },
+      {
+        "question": "What protocols does Transmit support?",
+        "answer": "Transmit supports FTP, SFTP, S3, WebDAV, and Amazon S3."
+      }
+    ]
+  },
+  "sophos-home": {
+    "input_hash": "8ca6699747dea8efdf434cf663436ad61c310a16d5b377242e5778e6e41bd1a5",
+    "generated_at": "2026-10-28",
+    "summary": "Sophos Home is an antivirus and security solution designed for home users.",
+    "what_it_does": "It provides protection against malware, ransomware, and other online threats for personal computers.",
+    "best_for": "Individuals seeking robust antivirus and web protection for their personal devices.",
+    "free_tier": "A 30-day free trial is available.",
+    "limitations": "The permanently free version has been discontinued; a paid subscription is now required for ongoing use.",
+    "licensing_notes": "Requires a paid subscription for use after the 30-day free trial.",
+    "faq": [
+      {
+        "question": "Is there a free version of Sophos Home?",
+        "answer": "Sophos Home no longer offers a permanently free version. A paid Premium subscription is required after a 30-day trial."
+      },
+      {
+        "question": "What kind of security does Sophos Home offer?",
+        "answer": "It offers protection against viruses, malware, ransomware, and malicious websites."
+      }
+    ]
+  },
+  "zbrush": {
+    "input_hash": "b6d694a61bee4e185fcab0e83b74854f6a83866042fc3ee09ccbc85c877d0bf3",
+    "generated_at": "2026-10-28",
+    "summary": "ZBrush is a powerful digital sculpting and painting program used for creating high-detail 3D models.",
+    "what_it_does": "It enables artists to sculpt, texture, and paint digital models with a natural, intuitive workflow.",
+    "best_for": "3D artists, modelers, and illustrators working on character design, concept art, and detailed digital sculptures.",
+    "free_tier": "No free tier is available; a trial may be offered.",
+    "limitations": "Full features require a paid subscription or perpetual license.",
+    "licensing_notes": "Requires a paid commercial subscription or perpetual license for standard use.",
+    "faq": [
+      {
+        "question": "How can I use ZBrush?",
+        "answer": "ZBrush is available through a paid subscription or a perpetual license. Check the official Maxon website for current options."
+      },
+      {
+        "question": "Is ZBrush suitable for beginners?",
+        "answer": "ZBrush has a steep learning curve due to its specialized tools, but it is widely used by professionals in the industry."
+      }
+    ]
+  },
+  "altium-designer": {
+    "input_hash": "f296ef2c1328d81b6c4083d1a2201f59f5bfdaac845aab89b2887e0d94ba72e8",
+    "generated_at": "2026-10-28",
+    "summary": "Altium Designer is a professional software suite for designing printed circuit boards (PCBs).",
+    "what_it_does": "It provides tools for schematic capture, PCB layout, routing, and design rule checking.",
+    "best_for": "Electronics engineers and PCB designers who need a comprehensive environment for schematic and layout design.",
+    "free_tier": "No free tier is mentioned; a trial may be available.",
+    "limitations": "Full functionality requires a paid license or subscription.",
+    "licensing_notes": "Requires a paid proprietary license or subscription for use.",
+    "faq": [
+      {
+        "question": "What is Altium Designer used for?",
+        "answer": "It is used for the complete electronic product design process, from schematic capture to PCB layout and manufacturing outputs."
+      },
+      {
+        "question": "Is Altium Designer free?",
+        "answer": "No, Altium Designer is commercial software and requires a paid license or subscription."
+      }
+    ]
+  },
+  "tableplus": {
+    "input_hash": "df7079b65e447a59eefc158088b08f911a1808789e2ffbd180dd8eb9d0c505e4",
+    "generated_at": "2026-10-28",
+    "summary": "TablePlus is a modern, native database management tool for relational databases.",
+    "what_it_does": "It allows users to connect to, query, and manage various SQL databases like MySQL, PostgreSQL, and SQLite.",
+    "best_for": "Developers and database administrators who need a user-friendly interface to interact with multiple database systems.",
+    "free_tier": "Offers a limited free tier.",
+    "limitations": "The free version has usage restrictions and lacks advanced features; a paid license unlocks the full experience.",
+    "licensing_notes": "A paid license key is required to unlock all features and remove usage restrictions.",
+    "faq": [
+      {
+        "question": "What databases does TablePlus support?",
+        "answer": "TablePlus supports MySQL, PostgreSQL, SQLite, Oracle, SQL Server, and many others."
+      },
+      {
+        "question": "Is TablePlus completely free?",
+        "answer": "TablePlus has a free version with limitations. A paid license is needed for full access to all features and unlimited use."
+      }
+    ]
+  },
+  "screaming-frog-seo-spider": {
+    "input_hash": "b3167dd371b6946e637bb3734084a61a60b09a90db246cfcea5c503df30ce308",
+    "generated_at": "2026-10-28",
+    "summary": "Screaming Frog SEO Spider is a website crawler that analyzes sites for SEO issues.",
+    "what_it_does": "It crawls websites from both an SEO and technical perspective, identifying broken links, duplicate content, and other optimization opportunities.",
+    "best_for": "SEO professionals and website owners looking to audit their site's technical health and identify areas for improvement.",
+    "free_tier": "The free version is limited to crawling 500 URLs.",
+    "limitations": "The free version has a 500 URL limit per crawl and lacks features like saving/re-opening crawls.",
+    "licensing_notes": "A paid annual license is required for unlimited crawling and advanced features.",
+    "faq": [
+      {
+        "question": "What are the limitations of the free version of Screaming Frog?",
+        "answer": "The free version is limited to crawling a maximum of 500 URLs per crawl."
+      },
+      {
+        "question": "Do I need a license for Screaming Frog?",
+        "answer": "A paid license is required to crawl more than 500 URLs, save crawls, and access all advanced features."
+      }
+    ]
+  },
+  "neovim": {
+    "input_hash": "f9758b4d04be43f0d8d773a00cc592fcb4674bb4f4ab4a1a299c1a1b346fef8e",
+    "generated_at": "2026-10-28",
+    "summary": "Neovim is a highly configurable and extensible text editor designed for efficiency.",
+    "what_it_does": "It provides a powerful command-line interface for editing code and text, with extensive customization options and plugin support.",
+    "best_for": "Developers and power users who prefer a modal editing experience and extensive customization for their text editing workflow.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "N/A (Open Source)",
+    "licensing_notes": "Free and open-source under the Apache 2.0 and Vim License, allowing for unrestricted personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is Neovim free to use?",
+        "answer": "Yes, Neovim is free and open-source software, available under permissive licenses."
+      },
+      {
+        "question": "What is Neovim?",
+        "answer": "Neovim is a fork of the Vim text editor, aiming to improve extensibility, maintainability, and user experience."
+      }
+    ]
+  },
+  "winscp": {
+    "input_hash": "3e91c46e8eb50fb63bf3563020daa67a94f1925496bce13afb884db46283fe9a",
+    "generated_at": "2026-10-28",
+    "summary": "WinSCP is a free and open-source SFTP, FTP, WebDAV, S3, and SCP client for Windows.",
+    "what_it_does": "It facilitates secure file transfers between a local and a remote computer, offering a graphical user interface.",
+    "best_for": "Windows users needing a reliable and free tool for transferring files securely over networks.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "N/A (Open Source)",
+    "licensing_notes": "Free and open-source under the GNU General Public License (GPL) version 3.",
+    "faq": [
+      {
+        "question": "Is WinSCP free?",
+        "answer": "Yes, WinSCP is completely free and open-source software."
+      },
+      {
+        "question": "What file transfer protocols does WinSCP support?",
+        "answer": "WinSCP supports SFTP, SCP, FTP, FTPS, WebDAV, and Amazon S3 protocols."
+      }
+    ]
+  },
+  "apache-superset": {
+    "input_hash": "ce477d91e3a725245847392ef9392bb63b8586b4181f7cfe1a8c0dd1b149d22a",
+    "generated_at": "2026-10-28",
+    "summary": "Apache Superset is a modern data exploration and visualization platform.",
+    "what_it_does": "It allows users to create interactive dashboards and visualizations from various data sources.",
+    "best_for": "Data analysts and business intelligence professionals who need to explore and visualize data without writing extensive code.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "N/A (Open Source)",
+    "licensing_notes": "Distributed under the permissive Apache License 2.0, making it free for commercial and non-commercial use.",
+    "faq": [
+      {
+        "question": "Is Apache Superset free?",
+        "answer": "Yes, Apache Superset is an open-source project and is free to use."
+      },
+      {
+        "question": "What is Apache Superset used for?",
+        "answer": "It is used for data exploration, visualization, and creating interactive dashboards."
+      }
+    ]
+  },
+  "brave-browser": {
+    "input_hash": "2c22065f7ffc3a51277a05aef2cce68735d1acf8defc90ff7de71897f30a9230",
+    "generated_at": "2026-10-28",
+    "summary": "Brave is a free, open-source web browser focused on privacy and speed.",
+    "what_it_does": "It blocks ads and trackers by default, offering a faster and more private browsing experience.",
+    "best_for": "Users who prioritize online privacy and want a faster browsing experience by blocking intrusive ads and trackers.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "N/A (Open Source)",
+    "licensing_notes": "The client code is open source, primarily licensed under the Mozilla Public License v2.0.",
+    "faq": [
+      {
+        "question": "Is Brave Browser free?",
+        "answer": "Yes, Brave Browser is free to download and use."
+      },
+      {
+        "question": "What makes Brave Browser different?",
+        "answer": "Brave blocks ads and trackers by default, aims for faster page loads, and includes privacy-focused features."
+      }
+    ]
+  },
+  "sketchup": {
+    "input_hash": "443aa9d4a58eb340ffec758c4d8fbe113c2af39591232fc7dcf9ab3bd34251a9",
+    "generated_at": "2026-10-28",
+    "summary": "SketchUp is a 3D modeling software used for architectural, interior design, and other creative projects.",
+    "what_it_does": "It provides intuitive tools for creating and modifying 3D models, with applications in design, visualization, and planning.",
+    "best_for": "Designers, architects, and hobbyists who need an easy-to-use tool for 3D modeling and visualization.",
+    "free_tier": "Offers a free web version for personal use.",
+    "limitations": "The free web version is limited to personal, non-commercial projects and lacks the full feature set of the paid versions.",
+    "licensing_notes": "A paid subscription is required for commercial use and access to advanced features.",
+    "faq": [
+      {
+        "question": "Can I use SketchUp for free?",
+        "answer": "Yes, there is a free web-based version available for personal, non-commercial use."
+      },
+      {
+        "question": "What is the difference between the free and paid versions of SketchUp?",
+        "answer": "The paid versions offer more features, are suitable for commercial projects, and include desktop applications."
+      }
+    ]
+  },
+  "royal-ts": {
+    "input_hash": "a311279367f4df373adc210ae9dbc55e974d7c062248ebeda5ff8618fd789308",
+    "generated_at": "2026-10-28",
+    "summary": "Royal TS is a cross-platform tool for managing remote connections and credentials.",
+    "what_it_does": "It allows users to securely store and organize credentials and connect to various remote systems like SSH, RDP, and VNC.",
+    "best_for": "IT professionals and system administrators who need a centralized and secure way to manage multiple remote access credentials.",
+    "free_tier": "An unactivated instance operates in a restricted shareware mode.",
+    "limitations": "The unactivated version is limited to 10 connections.",
+    "licensing_notes": "A paid license is required for unrestricted functionality beyond the initial connection limit.",
+    "faq": [
+      {
+        "question": "Is Royal TS free?",
+        "answer": "Royal TS can be used in a limited shareware mode without activation, but a paid license is required for full functionality and unlimited connections."
+      },
+      {
+        "question": "What types of connections can I manage with Royal TS?",
+        "answer": "It supports RDP, VNC, SSH, Telnet, Web, and other protocols."
+      }
+    ]
+  },
+  "adobe-lightroom": {
+    "input_hash": "6a14bffc3a311730b050b08fec82fc4d0beb10ed9c23e00ec4e94e5ec83a04b1",
+    "generated_at": "2026-10-28",
+    "summary": "Adobe Lightroom is a powerful photo editing and management software for photographers.",
+    "what_it_does": "It provides tools for organizing, editing, and sharing digital photographs, offering advanced color correction and retouching capabilities.",
+    "best_for": "Photographers of all levels who need to manage and enhance their photo collections efficiently.",
+    "free_tier": "No free tier is available; a trial may be offered.",
+    "limitations": "Full functionality requires a paid subscription.",
+    "licensing_notes": "Requires a paid Adobe Creative Cloud subscription for desktop and full feature access.",
+    "faq": [
+      {
+        "question": "How can I get Adobe Lightroom?",
+        "answer": "Adobe Lightroom is available through a paid subscription to the Adobe Creative Cloud."
+      },
+      {
+        "question": "What is the difference between Lightroom Classic and Lightroom (cloud-based)?",
+        "answer": "Lightroom Classic is a desktop-focused application, while Lightroom (cloud-based) synchronizes photos across devices."
+      }
+    ]
+  },
+  "toon-boom-harmony": {
+    "input_hash": "4c83620a35f662f4d64ce2769babe4d7a3de03f6ab20a6ca0b6e01bf57a503c5",
+    "generated_at": "2026-10-28",
+    "summary": "Toon Boom Harmony is a professional animation software for creating 2D animation.",
+    "what_it_does": "It offers a comprehensive set of tools for traditional, cutout, and paperless animation production.",
+    "best_for": "Professional animators, studios, and artists working on high-quality 2D animation projects.",
+    "free_tier": "A 21-day free trial is available.",
+    "limitations": "Full features and continued use require a paid license or subscription.",
+    "licensing_notes": "Requires a paid subscription or perpetual license for all uses.",
+    "faq": [
+      {
+        "question": "Is Toon Boom Harmony free?",
+        "answer": "No, Toon Boom Harmony requires a paid license or subscription. A 21-day free trial is available."
+      },
+      {
+        "question": "What kind of animation can be created with Harmony?",
+        "answer": "Harmony supports various animation techniques including traditional, cutout, and paperless animation."
+      }
+    ]
+  },
+  "snyk": {
+    "input_hash": "e03eb84e1f6814140ca77b6ea4cb5b78931e672e577e4d11b6814c67227414ee",
+    "generated_at": "2026-10-28",
+    "summary": "Snyk is a developer security platform that helps find and fix vulnerabilities in code and dependencies.",
+    "what_it_does": "It provides tools for scanning open-source libraries, container images, and IaC configurations for security issues.",
+    "best_for": "Development teams looking to integrate security scanning into their CI/CD pipelines and secure their applications.",
+    "free_tier": "Offers a limited free tier for individual developers.",
+    "limitations": "The free tier has usage limits; commercial and enterprise-scale usage requires a paid subscription.",
+    "licensing_notes": "Freemium SaaS model with paid commercial tiers available for advanced features and higher usage limits.",
+    "faq": [
+      {
+        "question": "Does Snyk have a free plan?",
+        "answer": "Yes, Snyk offers a free tier suitable for individual developers, with limitations on usage and features."
+      },
+      {
+        "question": "What does Snyk protect against?",
+        "answer": "Snyk helps identify and fix vulnerabilities in open-source dependencies, container images, and Infrastructure as Code."
       }
     ]
   }
