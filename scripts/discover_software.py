@@ -14,7 +14,12 @@ SOURCES_PATH = ROOT / "data" / "software_sources.json"
 MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 MODEL_CHAIN = [m.strip() for m in os.getenv("GEMINI_MODELS", f"{MODEL},gemini-2.5-flash-lite,gemini-2.0-flash").split(",") if m.strip()]
 MODEL_CHAIN = list(dict.fromkeys(MODEL_CHAIN))
-TARGET = int(os.getenv("NEW_PER_RUN", "15"))
+# No record quota; limits below constrain resource consumption only.
+TARGET = 0  # Legacy compatibility; intentionally unused.
+MAX_DISCOVERY_BATCHES = max(1, int(os.getenv("MAX_DISCOVERY_BATCHES", "20")))
+MAX_EMPTY_BATCHES = max(1, int(os.getenv("MAX_EMPTY_BATCHES", "3")))
+STATE_PATH = ROOT / "data" / "discovery_state.json"
+REPORT_PATH = ROOT / "data" / "discovery_report.json"
 CATEGORIES = {"Open Source", "Free for Home", "License Required", "License for Commercial", "Community Version"}
 COLUMNS = ["Software Name", "Category", "License Status", "Official URL", "Last Updated", "Notes"]
 KEY = os.getenv("GEMINI_API_KEY", "")
@@ -74,19 +79,56 @@ def domain(url):
     return host[4:] if host.startswith("www.") else host
 
 
+ALIAS_GROUPS = [
+    {"vs code", "visual studio code", "vscode"},
+    {"vlc", "vlc media player"},
+    {"gimp", "gnu image manipulation program"},
+    {"firefox", "mozilla firefox"},
+    {"google chrome", "chrome"},
+    {"7 zip", "7zip"},
+    {"libreoffice", "libre office"},
+]
+ALIAS_LOOKUP = {norm(alias): norm(max(group, key=len))
+                for group in ALIAS_GROUPS for alias in group}
+
+
+def canonical_name(value):
+    key = norm(value)
+    return ALIAS_LOOKUP.get(key, key)
+
+
+def canonical_url(url):
+    parsed = urlparse(str(url or "").strip())
+    if parsed.scheme.lower() not in {"http", "https"} or not parsed.hostname:
+        return ""
+    host = (parsed.hostname or "").lower()
+    if host.startswith("www."):
+        host = host[4:]
+    path = re.sub(r"/+", "/", parsed.path or "").rstrip("/")
+    return host + path
+
+
 def local_match(candidate, rows):
-    key = norm(candidate.get("software_name", ""))
-    exact = [r for r in rows if norm(r["Software Name"]) == key]
-    if exact:
-        return "same", exact[:3]
-    near = []
+    key = canonical_name(candidate.get("software_name", ""))
+    url_key = canonical_url(candidate.get("official_url", ""))
+    exact, near = [], []
     for row in rows:
-        other = norm(row["Software Name"])
-        score = difflib.SequenceMatcher(None, key, other).ratio() if other else 0
-        if score >= 0.76 or (len(key) >= 5 and (key in other or other in key)):
+        other = canonical_name(row.get("Software Name", ""))
+        existing_url = canonical_url(row.get("Official URL", ""))
+        if key and key == other:
+            exact.append(row)
+            continue
+        if url_key and existing_url and url_key == existing_url:
+            exact.append(row)
+            continue
+        score = difflib.SequenceMatcher(None, key, other).ratio() if key and other else 0
+        if score >= 0.78 or (len(key) >= 6 and (key in other or other in key)):
             near.append((score, row))
-    near.sort(key=lambda x: x[0], reverse=True)
-    return ("ambiguous", [r for _, r in near[:4]]) if near else ("new", [])
+    if exact:
+        return "same", exact[:4]
+    near.sort(key=lambda item: item[0], reverse=True)
+    return ("ambiguous", [row for _, row in near[:4]]) if near else ("new", [])
+
 
 
 def clarify(candidate, matches):
