@@ -310,7 +310,7 @@ class PublicSiteContractTests(unittest.TestCase):
         self.assertIn("actions/cache/restore@v4", workflow)
         self.assertIn("actions/cache/save@v4", workflow)
         self.assertIn("git add -A -- data/software_list.csv", workflow)
-        self.assertNotIn("git add -A\\n", workflow)
+        self.assertNotIn("          git add -A\n", workflow)
         self.assertNotIn("RUN_URL:", workflow)
 
     def test_public_error_report_and_privacy_policy_match(self):
