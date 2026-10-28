@@ -45,11 +45,15 @@ jobs:
       - name: Bootstrap private state from pre-cleanup snapshot
         if: steps.restore_state.outputs.cache-hit != 'true'
         run: |
-          if git cat-file -e backup/pre-site-trust-ui-latest-2026-10-29:data/discovery_state.json 2>/dev/null; then
-            mkdir -p data
-            git show backup/pre-site-trust-ui-latest-2026-10-29:data/discovery_state.json > data/discovery_state.json
+          if git fetch --no-tags --depth=1 origin backup/pre-site-trust-ui-latest-2026-10-29; then
+            if git cat-file -e FETCH_HEAD:data/discovery_state.json 2>/dev/null; then
+              mkdir -p data
+              git show FETCH_HEAD:data/discovery_state.json > data/discovery_state.json
+            else
+              echo "Snapshot has no pending state; starting with an empty queue."
+            fi
           else
-            echo "No migration snapshot available; starting with an empty queue."
+            echo "Migration snapshot is unavailable; starting with an empty queue."
           fi
 
       - name: 🔍 Discover and verify new software
