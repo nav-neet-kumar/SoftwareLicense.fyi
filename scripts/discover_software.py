@@ -258,6 +258,11 @@ def verify_resilient(candidates):
     try:
         return verify_batch(candidates), []
     except Exception as exc:
+        message = str(exc).lower()
+        # Do not fan out requests when the provider is down or quota is exhausted.
+        if any(token in message for token in ("all configured gemini models failed", "429", "resource_exhausted", "quota", "api key", "permission denied")):
+            print(f"[PENDING] Provider failure; preserving {len(candidates)} candidates for the next run.")
+            return [], candidates
         if len(candidates) == 1:
             print(f"[PENDING] Verification failed for {candidates[0].get('software_name')}: {str(exc)[:160]}")
             return [], candidates
@@ -458,6 +463,8 @@ def run():
         report["model_errors"].extend(error[:300] for error in technical_errors[-5:])
     if report["added"] > 0:
         report["status"] = "partial_with_errors" if technical_errors else "success"
+    elif technical_errors:
+        report["status"] = "technical_failure"
     elif successful_discovery_calls > 0:
         report["status"] = "no_additions"
     else:
