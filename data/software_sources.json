@@ -17,5 +17,20 @@
   "git": "https://git-scm.com/about/free-and-open-source",
   "red-hat-enterprise-linux": "https://www.redhat.com/en/store/red-hat-enterprise-linux-server",
   "microsoft-edge": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx",
-  "vscodium": "https://github.com/vscodium/vscodium/blob/master/LICENSE"
+  "vscodium": "https://github.com/vscodium/vscodium/blob/master/LICENSE",
+  "mirador": "https://github.com/sodre90/mirador",
+  "beadbox": "https://github.com/beadbox/beadbox",
+  "codevisor": "https://github.com/851-labs/codevisor",
+  "ha-desktop-widget": "https://github.com/Robertg761/HA-Desktop-Widget",
+  "ab-download-manager": "https://github.com/amir1376/ab-download-manager",
+  "escouade": "https://github.com/guillaume-gagnaire/escouade",
+  "chipwhisperer-studio": "https://github.com/keyuraghao/chipwhisperer-studio",
+  "vibelution": "https://github.com/CCDawn/Vibelution",
+  "lynn": "https://github.com/MerkyorLynn/Lynn",
+  "hackdesk": "https://github.com/EastSun5566/hackdesk",
+  "wproxy-v2ray": "https://github.com/Aliazadi-1776/WProxy-v2ray",
+  "incarnamind": "https://github.com/IncarnaMind/IncarnaMind",
+  "opsdeck": "https://github.com/LeoAlecksey/opsdeck",
+  "sextant": "https://github.com/FriendsOfKubernetes/sextant",
+  "herdr-gpui": "https://github.com/penso/herdr-gpui"
 }

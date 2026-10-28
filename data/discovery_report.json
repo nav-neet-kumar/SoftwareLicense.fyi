@@ -1,0 +1,26 @@
+{
+  "workflow": "Daily Software Discovery",
+  "date": "2026-10-28",
+  "status": "partial_with_errors",
+  "batches_attempted": 1,
+  "candidates_discovered": 60,
+  "duplicates_skipped": 0,
+  "review_required": 0,
+  "rejected": 0,
+  "added": 15,
+  "model_errors": [
+    "All configured Gemini models failed. gemini-2.5-flash: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor y",
+    "All configured Gemini models failed. gemini-2.0-flash: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactio",
+    "All configured Gemini models failed. gemini-2.5-flash: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor y"
+  ],
+  "review_candidates": [],
+  "token_usage": {
+    "requests": 19,
+    "retries": 0,
+    "prompt_tokens": 2141,
+    "output_tokens": 1798,
+    "total_tokens": 3939
+  },
+  "pending_candidates": 45,
+  "completed_at": "2026-10-28"
+}

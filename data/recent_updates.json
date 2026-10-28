@@ -169,5 +169,140 @@
     "category": "Open Source",
     "url": "https://vscodium.com/",
     "source": "https://github.com/vscodium/vscodium/blob/master/LICENSE"
+  },
+  {
+    "name": "mirador",
+    "slug": "mirador",
+    "type": "NEW",
+    "date": "2026-10-28",
+    "category": "Open Source",
+    "url": "https://github.com/sodre90/mirador",
+    "source": "https://github.com/sodre90/mirador"
+  },
+  {
+    "name": "beadbox",
+    "slug": "beadbox",
+    "type": "NEW",
+    "date": "2026-10-28",
+    "category": "Open Source",
+    "url": "https://github.com/beadbox/beadbox",
+    "source": "https://github.com/beadbox/beadbox"
+  },
+  {
+    "name": "codevisor",
+    "slug": "codevisor",
+    "type": "NEW",
+    "date": "2026-10-28",
+    "category": "Open Source",
+    "url": "https://github.com/851-labs/codevisor",
+    "source": "https://github.com/851-labs/codevisor"
+  },
+  {
+    "name": "HA-Desktop-Widget",
+    "slug": "ha-desktop-widget",
+    "type": "NEW",
+    "date": "2026-10-28",
+    "category": "Open Source",
+    "url": "https://github.com/Robertg761/HA-Desktop-Widget",
+    "source": "https://github.com/Robertg761/HA-Desktop-Widget"
+  },
+  {
+    "name": "ab-download-manager",
+    "slug": "ab-download-manager",
+    "type": "NEW",
+    "date": "2026-10-28",
+    "category": "Open Source",
+    "url": "https://github.com/amir1376/ab-download-manager",
+    "source": "https://github.com/amir1376/ab-download-manager"
+  },
+  {
+    "name": "escouade",
+    "slug": "escouade",
+    "type": "NEW",
+    "date": "2026-10-28",
+    "category": "Open Source",
+    "url": "https://github.com/guillaume-gagnaire/escouade",
+    "source": "https://github.com/guillaume-gagnaire/escouade"
+  },
+  {
+    "name": "chipwhisperer-studio",
+    "slug": "chipwhisperer-studio",
+    "type": "NEW",
+    "date": "2026-10-28",
+    "category": "Open Source",
+    "url": "https://github.com/keyuraghao/chipwhisperer-studio",
+    "source": "https://github.com/keyuraghao/chipwhisperer-studio"
+  },
+  {
+    "name": "Vibelution",
+    "slug": "vibelution",
+    "type": "NEW",
+    "date": "2026-10-28",
+    "category": "Open Source",
+    "url": "https://github.com/CCDawn/Vibelution",
+    "source": "https://github.com/CCDawn/Vibelution"
+  },
+  {
+    "name": "Lynn",
+    "slug": "lynn",
+    "type": "NEW",
+    "date": "2026-10-28",
+    "category": "Open Source",
+    "url": "https://github.com/MerkyorLynn/Lynn",
+    "source": "https://github.com/MerkyorLynn/Lynn"
+  },
+  {
+    "name": "hackdesk",
+    "slug": "hackdesk",
+    "type": "NEW",
+    "date": "2026-10-28",
+    "category": "Open Source",
+    "url": "https://github.com/EastSun5566/hackdesk",
+    "source": "https://github.com/EastSun5566/hackdesk"
+  },
+  {
+    "name": "WProxy-v2ray",
+    "slug": "wproxy-v2ray",
+    "type": "NEW",
+    "date": "2026-10-28",
+    "category": "Open Source",
+    "url": "https://github.com/Aliazadi-1776/WProxy-v2ray",
+    "source": "https://github.com/Aliazadi-1776/WProxy-v2ray"
+  },
+  {
+    "name": "IncarnaMind",
+    "slug": "incarnamind",
+    "type": "NEW",
+    "date": "2026-10-28",
+    "category": "Open Source",
+    "url": "https://github.com/IncarnaMind/IncarnaMind",
+    "source": "https://github.com/IncarnaMind/IncarnaMind"
+  },
+  {
+    "name": "opsdeck",
+    "slug": "opsdeck",
+    "type": "NEW",
+    "date": "2026-10-28",
+    "category": "Open Source",
+    "url": "https://github.com/LeoAlecksey/opsdeck",
+    "source": "https://github.com/LeoAlecksey/opsdeck"
+  },
+  {
+    "name": "sextant",
+    "slug": "sextant",
+    "type": "NEW",
+    "date": "2026-10-28",
+    "category": "Open Source",
+    "url": "https://github.com/FriendsOfKubernetes/sextant",
+    "source": "https://github.com/FriendsOfKubernetes/sextant"
+  },
+  {
+    "name": "herdr-gpui",
+    "slug": "herdr-gpui",
+    "type": "NEW",
+    "date": "2026-10-28",
+    "category": "Open Source",
+    "url": "https://github.com/penso/herdr-gpui",
+    "source": "https://github.com/penso/herdr-gpui"
   }
 ]
