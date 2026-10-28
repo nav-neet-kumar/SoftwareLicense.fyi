@@ -1,12 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://isitfree.webline.cloud/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/microsoft-365/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/jetbrains-intellij-idea/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/windows-11/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/slack-business/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/github-copilot/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/1password/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/burp-suite-professional/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/winrar/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/microsoft-visual-studio-community/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/sqlite/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/datagrip/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/internet-download-manager/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/navicat-premium/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/mobaxterm/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/tower/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/foundry-nuke/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/coreldraw/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/rhino-3d/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/memcached/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/capture-one/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/openvpn-community-edition/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/node-js/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/godot-engine/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/keycloak/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/fl-studio/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/ableton-live/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/freecad/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/macrium-reflect-home/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/cinema-4d/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/fork/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/scylladb-community-edition/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/filezilla/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/owasp-zap/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/apache-cassandra/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/zotero/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/debian/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/influxdb/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/logseq/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/strapi/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/meilisearch/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/kong-api-gateway/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/thingsboard/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/metasploit-framework/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/portainer/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/pulumi/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/rustdesk/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/valkey/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/home-assistant/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/balsamiq-wireframes/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/winzip/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/eclipse-mosquitto/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/redmine/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/k9s/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/adguard-home/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/apache-http-server/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/rawtherapee/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/zulip/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/dagster/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/heidisql/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/peazip/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/lmms/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/freefilesync/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/jetbrains-clion/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/little-snitch/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/proxifier/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/puppet/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/greenshot/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/jetbrains-rubymine/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/openshot-video-editor/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/apache-maven/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/utm-virtual-machine-host/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/excalidraw/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/telegram-desktop/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/lighttpd/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/panic-nova/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/fiddler-everywhere/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/pixelmator-pro/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/trivy/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/screenflow/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/mixxx/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/nitro-pdf-pro/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/gravitee-io/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/tor-browser/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/corel-paintshop-pro/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/standard-notes/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/araxis-merge/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/dgraph/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/eclipse-ide/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/bazel/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/qemu/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/okular/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/chart-js/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/mindmanager/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/kaleidoscope/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/acorn/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/balenaetcher/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/cleanshot-x/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/apache-couchdb/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/carbon-copy-cloner/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/hashcat/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/bettertouchtool/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/istio/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/cncf-harbor/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/rectangle/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/apache-solr/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/k3s/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/jitsi-meet/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/sapmachine/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/flux-cd/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/yara/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/chromadb/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/snipaste/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/renoise/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/dynatrace/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/displayfusion/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/ia-writer/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/aseprite/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/netlimiter/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/basecamp/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/pdf-xchange-editor/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/avid-pro-tools/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/expandrive/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/jetbrains-rustrover/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/marvelous-designer/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/fantastical/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/aqua-data-studio/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/presonus-studio-one/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/textpad/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/intellij-idea-ultimate-edition/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/microsoft-office-home-business/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/obs-studio/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/grafana/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/dbeaver/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/sonarqube/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/pycharm/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/metabase/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/posit-rstudio/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/glasswire/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/faststone-image-viewer/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/ngrok/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/nexus-repository/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/insomnia/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/teamcity/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/davinci-resolve/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/spybot-search-destroy/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/foxit-pdf-reader/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/daemon-tools-lite/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/irfanview/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/speccy/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/syncbackfree/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/avast-free-antivirus/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/houdini-apprentice/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/hwinfo/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/burnaware-free/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/burp-suite-community-edition/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/bandizip/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/beekeeper-studio/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/todoist/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/openproject/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/oracle-database-free/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/airtable/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://isitfree.webline.cloud/software/intellij-idea-community-edition/</loc><lastmod>2026-10-26</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/microsoft-edge/</loc><lastmod>2026-10-26</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/vscodium/</loc><lastmod>2026-10-26</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/git/</loc><lastmod>2026-10-25</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/red-hat-enterprise-linux/</loc><lastmod>2026-10-25</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/vagrant/</loc><lastmod>2026-10-24</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/microsoft-office-home-business/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/macos/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/tableau-public/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/gnucash/</loc><lastmod>2026-10-23</lastmod></url>
@@ -15,8 +176,6 @@
   <url><loc>https://isitfree.webline.cloud/software/github-desktop/</loc><lastmod>2026-10-23</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/wordpress/</loc><lastmod>2026-10-23</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/visual-studio-code/</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/intellij-idea-community-edition/</loc><lastmod>2026-10-22</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/intellij-idea-ultimate-edition/</loc><lastmod>2026-10-22</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/microsoft-sql-server-express/</loc><lastmod>2026-10-22</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/google-chrome/</loc><lastmod>2026-10-22</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/jira-software/</loc><lastmod>2026-10-22</lastmod></url>
@@ -28,11 +187,9 @@
   <url><loc>https://isitfree.webline.cloud/software/apache-flink/</loc><lastmod>2026-10-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/media-player-classic-home-cinema/</loc><lastmod>2026-10-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/keka/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/presonus-studio-one/</loc><lastmod>2026-10-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/vegas-pro/</loc><lastmod>2026-10-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/expressvpn/</loc><lastmod>2026-10-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/keyshot/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/textpad/</loc><lastmod>2026-10-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/jetbrains-dataspell/</loc><lastmod>2026-10-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/valentina-studio/</loc><lastmod>2026-10-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/emsisoft-emergency-kit/</loc><lastmod>2026-10-18</lastmod></url>
@@ -43,7 +200,6 @@
   <url><loc>https://isitfree.webline.cloud/software/panda-dome-free/</loc><lastmod>2026-10-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/iobit-uninstaller-free/</loc><lastmod>2026-10-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/substance-3d-designer/</loc><lastmod>2026-10-17</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/aqua-data-studio/</loc><lastmod>2026-10-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/backblaze/</loc><lastmod>2026-10-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/freecommander-xe/</loc><lastmod>2026-10-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/debut-video-capture/</loc><lastmod>2026-10-17</lastmod></url>
@@ -59,7 +215,6 @@
   <url><loc>https://isitfree.webline.cloud/software/screenpal/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/growthbook/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/lightdash/</loc><lastmod>2026-10-11</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/fantastical/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/guitar-pro/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/mindnode/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/eset-nod32-antivirus/</loc><lastmod>2026-10-11</lastmod></url>
@@ -75,9 +230,7 @@
   <url><loc>https://isitfree.webline.cloud/software/framer/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/datadog/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/cobalt-strike/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/marvelous-designer/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/avid-sibelius/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/airtable/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/zapier/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/loom/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/kibana/</loc><lastmod>2026-10-05</lastmod></url>
@@ -91,7 +244,6 @@
   <url><loc>https://isitfree.webline.cloud/software/corel-painter/</loc><lastmod>2026-10-04</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/hitmanpro/</loc><lastmod>2026-10-04</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/espresso/</loc><lastmod>2026-10-04</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/jetbrains-rustrover/</loc><lastmod>2026-10-04</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/onshape/</loc><lastmod>2026-10-04</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/evernote/</loc><lastmod>2026-10-04</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/ibm-db2-community-edition/</loc><lastmod>2026-10-04</lastmod></url>
@@ -102,28 +254,20 @@
   <url><loc>https://isitfree.webline.cloud/software/trilium-notes/</loc><lastmod>2026-10-03</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/xcp-ng/</loc><lastmod>2026-10-03</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/matomo/</loc><lastmod>2026-10-03</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/pdf-xchange-editor/</loc><lastmod>2026-10-03</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/easeus-data-recovery-wizard/</loc><lastmod>2026-10-03</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/bandicam/</loc><lastmod>2026-10-03</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/roam-research/</loc><lastmod>2026-10-03</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/avid-pro-tools/</loc><lastmod>2026-10-03</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/nordvpn/</loc><lastmod>2026-10-03</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/expandrive/</loc><lastmod>2026-10-03</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/embarcadero-delphi/</loc><lastmod>2026-10-03</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/oracle-database-free/</loc><lastmod>2026-10-03</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/bun/</loc><lastmod>2026-09-26</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/ia-writer/</loc><lastmod>2026-09-26</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/aseprite/</loc><lastmod>2026-09-26</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/cubase/</loc><lastmod>2026-09-26</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/rufus/</loc><lastmod>2026-09-26</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/liquibase/</loc><lastmod>2026-09-26</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/netlimiter/</loc><lastmod>2026-09-26</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/rethinkdb/</loc><lastmod>2026-09-26</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/ultravnc/</loc><lastmod>2026-09-26</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/vite/</loc><lastmod>2026-09-26</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/smartftp/</loc><lastmod>2026-09-26</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/enpass/</loc><lastmod>2026-09-26</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/basecamp/</loc><lastmod>2026-09-26</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/librewolf/</loc><lastmod>2026-09-26</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/nomachine/</loc><lastmod>2026-09-26</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/helix/</loc><lastmod>2026-09-20</lastmod></url>
@@ -131,7 +275,6 @@
   <url><loc>https://isitfree.webline.cloud/software/foobar2000/</loc><lastmod>2026-09-20</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/cascadeur/</loc><lastmod>2026-09-20</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/spine/</loc><lastmod>2026-09-20</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/dynatrace/</loc><lastmod>2026-09-20</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/discourse/</loc><lastmod>2026-09-20</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/microsoft-build-of-openjdk/</loc><lastmod>2026-09-20</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/plausible-analytics/</loc><lastmod>2026-09-20</lastmod></url>
@@ -139,10 +282,8 @@
   <url><loc>https://isitfree.webline.cloud/software/pdfsam-basic/</loc><lastmod>2026-09-20</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/apache-druid/</loc><lastmod>2026-09-20</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/openmediavault/</loc><lastmod>2026-09-20</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/displayfusion/</loc><lastmod>2026-09-20</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/wezterm/</loc><lastmod>2026-09-20</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/orbstack/</loc><lastmod>2026-09-16</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/snipaste/</loc><lastmod>2026-09-16</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/directory-opus/</loc><lastmod>2026-09-16</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/magnet/</loc><lastmod>2026-09-16</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/graalvm-community-edition/</loc><lastmod>2026-09-16</lastmod></url>
@@ -151,73 +292,37 @@
   <url><loc>https://isitfree.webline.cloud/software/dbgate/</loc><lastmod>2026-09-16</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/textmate/</loc><lastmod>2026-09-16</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/wings-3d/</loc><lastmod>2026-09-16</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/renoise/</loc><lastmod>2026-09-16</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/sniffnet/</loc><lastmod>2026-09-16</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/kamal/</loc><lastmod>2026-09-16</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/popclip/</loc><lastmod>2026-09-16</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/john-the-ripper/</loc><lastmod>2026-09-16</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/apache-solr/</loc><lastmod>2026-09-15</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/clip-studio-paint/</loc><lastmod>2026-09-15</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/k3s/</loc><lastmod>2026-09-15</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/singlestore/</loc><lastmod>2026-09-15</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/jitsi-meet/</loc><lastmod>2026-09-15</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/sapmachine/</loc><lastmod>2026-09-15</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/bartender/</loc><lastmod>2026-09-15</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/acunetix/</loc><lastmod>2026-09-15</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/flux-cd/</loc><lastmod>2026-09-15</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/goodsync/</loc><lastmod>2026-09-15</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/omniplan/</loc><lastmod>2026-09-15</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/yara/</loc><lastmod>2026-09-15</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/daisydisk/</loc><lastmod>2026-09-15</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/chromadb/</loc><lastmod>2026-09-15</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/screentogif/</loc><lastmod>2026-09-15</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/balenaetcher/</loc><lastmod>2026-09-14</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/cleanshot-x/</loc><lastmod>2026-09-14</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/apache-couchdb/</loc><lastmod>2026-09-14</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/carbon-copy-cloner/</loc><lastmod>2026-09-14</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/hashcat/</loc><lastmod>2026-09-14</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/bettertouchtool/</loc><lastmod>2026-09-14</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/istio/</loc><lastmod>2026-09-14</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/macs-fan-control/</loc><lastmod>2026-09-14</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/geekbench/</loc><lastmod>2026-09-14</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/hazel/</loc><lastmod>2026-09-14</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/cncf-harbor/</loc><lastmod>2026-09-14</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/mountain-duck/</loc><lastmod>2026-09-14</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/seq/</loc><lastmod>2026-09-14</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/pdf-expert/</loc><lastmod>2026-09-14</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/rectangle/</loc><lastmod>2026-09-14</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/eclipse-ide/</loc><lastmod>2026-09-13</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/bazel/</loc><lastmod>2026-09-13</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/qemu/</loc><lastmod>2026-09-13</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/okular/</loc><lastmod>2026-09-13</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/chart-js/</loc><lastmod>2026-09-13</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/bulk-rename-utility/</loc><lastmod>2026-09-13</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/driver-easy/</loc><lastmod>2026-09-13</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/visual-paradigm-community-edition/</loc><lastmod>2026-09-13</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/mindmanager/</loc><lastmod>2026-09-13</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/adobe-audition/</loc><lastmod>2026-09-13</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/jprofiler/</loc><lastmod>2026-09-13</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/kaleidoscope/</loc><lastmod>2026-09-13</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/acorn/</loc><lastmod>2026-09-13</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/rasa/</loc><lastmod>2026-09-13</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/sensu-go/</loc><lastmod>2026-09-13</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/openscad/</loc><lastmod>2026-09-12</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/highcharts/</loc><lastmod>2026-09-12</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/odoo/</loc><lastmod>2026-09-12</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/ibm-spss-statistics/</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/trivy/</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/screenflow/</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/mixxx/</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/nitro-pdf-pro/</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/gravitee-io/</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/tor-browser/</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/corel-paintshop-pro/</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/standard-notes/</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/araxis-merge/</loc><lastmod>2026-09-12</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/dgraph/</loc><lastmod>2026-09-12</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/superduper/</loc><lastmod>2026-09-12</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/zed/</loc><lastmod>2026-09-11</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/pixelmator-pro/</loc><lastmod>2026-09-11</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/opnsense/</loc><lastmod>2026-09-11</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/apache-tomcat/</loc><lastmod>2026-09-11</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/lightworks/</loc><lastmod>2026-09-11</lastmod></url>
@@ -231,36 +336,15 @@
   <url><loc>https://isitfree.webline.cloud/software/mumble/</loc><lastmod>2026-09-11</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/vectorworks/</loc><lastmod>2026-09-11</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/percona-server-for-mysql/</loc><lastmod>2026-09-11</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/greenshot/</loc><lastmod>2026-09-10</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/jetbrains-rubymine/</loc><lastmod>2026-09-10</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/openshot-video-editor/</loc><lastmod>2026-09-10</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/apache-maven/</loc><lastmod>2026-09-10</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/utm-virtual-machine-host/</loc><lastmod>2026-09-10</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/excalidraw/</loc><lastmod>2026-09-10</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/telegram-desktop/</loc><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/ravendb/</loc><lastmod>2026-09-10</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/lighttpd/</loc><lastmod>2026-09-10</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/panic-nova/</loc><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/mullvad-vpn/</loc><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/gamemaker/</loc><lastmod>2026-09-10</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/fiddler-everywhere/</loc><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/bellsoft-liberica-jdk/</loc><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/redash/</loc><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/qbittorrent/</loc><lastmod>2026-09-09</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/rawtherapee/</loc><lastmod>2026-09-09</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/zulip/</loc><lastmod>2026-09-09</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/dagster/</loc><lastmod>2026-09-09</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/heidisql/</loc><lastmod>2026-09-09</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/peazip/</loc><lastmod>2026-09-09</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/lmms/</loc><lastmod>2026-09-09</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/bitdefender-antivirus-free/</loc><lastmod>2026-09-09</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/freefilesync/</loc><lastmod>2026-09-09</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/jetbrains-clion/</loc><lastmod>2026-09-09</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/adobe-indesign/</loc><lastmod>2026-09-09</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/little-snitch/</loc><lastmod>2026-09-09</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/proxifier/</loc><lastmod>2026-09-09</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/soapui/</loc><lastmod>2026-09-09</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/puppet/</loc><lastmod>2026-09-09</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/ffmpeg/</loc><lastmod>2026-09-08</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/apache-netbeans/</loc><lastmod>2026-09-08</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/restic/</loc><lastmod>2026-09-08</lastmod></url>
@@ -281,14 +365,8 @@
   <url><loc>https://isitfree.webline.cloud/software/envoy-proxy/</loc><lastmod>2026-09-08</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/microsoft-power-bi-desktop/</loc><lastmod>2026-09-08</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/monday-com/</loc><lastmod>2026-09-08</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/redmine/</loc><lastmod>2026-09-08</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/k9s/</loc><lastmod>2026-09-08</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/todoist/</loc><lastmod>2026-09-08</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/openproject/</loc><lastmod>2026-09-08</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/gns3/</loc><lastmod>2026-09-08</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/adguard-home/</loc><lastmod>2026-09-08</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/adobe-acrobat-pro/</loc><lastmod>2026-09-08</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/apache-http-server/</loc><lastmod>2026-09-08</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/fastcopy/</loc><lastmod>2026-09-08</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/s3-browser/</loc><lastmod>2026-09-08</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/jellyfin/</loc><lastmod>2026-09-07</lastmod></url>
@@ -313,7 +391,6 @@
   <url><loc>https://isitfree.webline.cloud/software/qdrant/</loc><lastmod>2026-09-06</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/cryptomator/</loc><lastmod>2026-09-05</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/scrivener/</loc><lastmod>2026-09-05</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/eclipse-mosquitto/</loc><lastmod>2026-09-05</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/fmod-studio/</loc><lastmod>2026-09-05</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/prefect/</loc><lastmod>2026-09-05</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/shotcut/</loc><lastmod>2026-09-05</lastmod></url>
@@ -329,7 +406,6 @@
   <url><loc>https://isitfree.webline.cloud/software/cleanmymac-x/</loc><lastmod>2026-09-04</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/logic-pro/</loc><lastmod>2026-09-04</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/studio-3t-free/</loc><lastmod>2026-09-04</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/beekeeper-studio/</loc><lastmod>2026-09-04</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/emqx/</loc><lastmod>2026-09-04</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/darktable/</loc><lastmod>2026-09-03</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/minitool-partition-wizard-free/</loc><lastmod>2026-09-03</lastmod></url>
@@ -362,7 +438,6 @@
   <url><loc>https://isitfree.webline.cloud/software/dashlane/</loc><lastmod>2026-09-01</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/jfrog-artifactory/</loc><lastmod>2026-09-01</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/apache-airflow/</loc><lastmod>2026-08-31</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/bandizip/</loc><lastmod>2026-08-31</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/procreate/</loc><lastmod>2026-08-31</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/total-commander/</loc><lastmod>2026-08-31</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/hasura/</loc><lastmod>2026-08-31</lastmod></url>
@@ -376,7 +451,6 @@
   <url><loc>https://isitfree.webline.cloud/software/superantispyware/</loc><lastmod>2026-08-30</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/techsmith-camtasia/</loc><lastmod>2026-08-30</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/bbedit/</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/winzip/</loc><lastmod>2026-08-30</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/treesize-free/</loc><lastmod>2026-08-30</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/resilio-sync/</loc><lastmod>2026-08-30</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/timescaledb/</loc><lastmod>2026-08-30</lastmod></url>
@@ -386,12 +460,9 @@
   <url><loc>https://isitfree.webline.cloud/software/process-lasso/</loc><lastmod>2026-08-29</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/easeus-todo-backup-home/</loc><lastmod>2026-08-29</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/vmware-fusion/</loc><lastmod>2026-08-29</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/burp-suite-community-edition/</loc><lastmod>2026-08-29</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/rocket-chat/</loc><lastmod>2026-08-29</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/final-cut-pro/</loc><lastmod>2026-08-29</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/balsamiq-wireframes/</loc><lastmod>2026-08-29</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/enterprise-architect/</loc><lastmod>2026-08-29</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/home-assistant/</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/solidworks/</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/graylog/</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/plex-media-server/</loc><lastmod>2026-08-28</lastmod></url>
@@ -401,26 +472,15 @@
   <url><loc>https://isitfree.webline.cloud/software/adobe-after-effects/</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/suricata/</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/alfred/</loc><lastmod>2026-08-28</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/metasploit-framework/</loc><lastmod>2026-08-27</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/portainer/</loc><lastmod>2026-08-27</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/pulumi/</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/affinity-photo/</loc><lastmod>2026-08-27</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/burnaware-free/</loc><lastmod>2026-08-27</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/rustdesk/</loc><lastmod>2026-08-27</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/valkey/</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/nessus/</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/adobe-substance-3d-painter/</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/transmit/</loc><lastmod>2026-08-27</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/logseq/</loc><lastmod>2026-08-26</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/strapi/</loc><lastmod>2026-08-26</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/meilisearch/</loc><lastmod>2026-08-26</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/sophos-home/</loc><lastmod>2026-08-26</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/zbrush/</loc><lastmod>2026-08-26</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/altium-designer/</loc><lastmod>2026-08-26</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/tableplus/</loc><lastmod>2026-08-26</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/screaming-frog-seo-spider/</loc><lastmod>2026-08-26</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/kong-api-gateway/</loc><lastmod>2026-08-26</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/thingsboard/</loc><lastmod>2026-08-26</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/neovim/</loc><lastmod>2026-08-25</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/winscp/</loc><lastmod>2026-08-25</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/apache-superset/</loc><lastmod>2026-08-25</lastmod></url>
@@ -429,7 +489,6 @@
   <url><loc>https://isitfree.webline.cloud/software/royal-ts/</loc><lastmod>2026-08-25</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/adobe-lightroom/</loc><lastmod>2026-08-25</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/toon-boom-harmony/</loc><lastmod>2026-08-25</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/influxdb/</loc><lastmod>2026-08-25</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/snyk/</loc><lastmod>2026-08-25</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/notepad/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/nextcloud/</loc><lastmod>2026-08-24</lastmod></url>
@@ -437,74 +496,41 @@
   <url><loc>https://isitfree.webline.cloud/software/ida-pro/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/joplin/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/veeam-backup-replication-community-edition/</loc><lastmod>2026-08-24</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/hwinfo/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/xmind/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/minio/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/element/</loc><lastmod>2026-08-24</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/debian/</loc><lastmod>2026-08-23</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/calibre/</loc><lastmod>2026-08-23</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/duckdb/</loc><lastmod>2026-08-23</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/avast-free-antivirus/</loc><lastmod>2026-08-23</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/houdini-apprentice/</loc><lastmod>2026-08-23</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/raycast/</loc><lastmod>2026-08-23</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/autodesk-maya/</loc><lastmod>2026-08-23</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/sublime-merge/</loc><lastmod>2026-08-23</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/parallels-desktop/</loc><lastmod>2026-08-23</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/posthog/</loc><lastmod>2026-08-23</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/freecad/</loc><lastmod>2026-08-22</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/macrium-reflect-home/</loc><lastmod>2026-08-22</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/cinema-4d/</loc><lastmod>2026-08-22</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/fork/</loc><lastmod>2026-08-22</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/scylladb-community-edition/</loc><lastmod>2026-08-22</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/filezilla/</loc><lastmod>2026-08-22</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/atlassian-confluence/</loc><lastmod>2026-08-22</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/owasp-zap/</loc><lastmod>2026-08-22</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/apache-cassandra/</loc><lastmod>2026-08-22</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/zotero/</loc><lastmod>2026-08-22</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/ansible/</loc><lastmod>2026-08-21</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/daemon-tools-lite/</loc><lastmod>2026-08-21</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/rhino-3d/</loc><lastmod>2026-08-21</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/gitkraken/</loc><lastmod>2026-08-21</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/irfanview/</loc><lastmod>2026-08-21</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/memcached/</loc><lastmod>2026-08-21</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/capture-one/</loc><lastmod>2026-08-21</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/openvpn-community-edition/</loc><lastmod>2026-08-21</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/linear/</loc><lastmod>2026-08-21</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/aida64/</loc><lastmod>2026-08-21</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/node-js/</loc><lastmod>2026-08-21</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/godot-engine/</loc><lastmod>2026-08-21</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/keycloak/</loc><lastmod>2026-08-21</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/speccy/</loc><lastmod>2026-08-21</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/syncbackfree/</loc><lastmod>2026-08-21</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/termius/</loc><lastmod>2026-08-21</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/staruml/</loc><lastmod>2026-08-21</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/fl-studio/</loc><lastmod>2026-08-21</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/ableton-live/</loc><lastmod>2026-08-21</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/octopus-deploy/</loc><lastmod>2026-08-21</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/apache-kafka/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/kubernetes/</loc><lastmod>2026-08-19</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/mobaxterm/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/unreal-engine/</loc><lastmod>2026-08-19</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/tower/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/rancher-desktop/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/proton-vpn/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/snort/</loc><lastmod>2026-08-19</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/davinci-resolve/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/cockroachdb/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/affinity-designer/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/microk8s/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/opensearch/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/system-informer/</loc><lastmod>2026-08-19</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/spybot-search-destroy/</loc><lastmod>2026-08-19</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/foundry-nuke/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/caddy-web-server/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/argo-cd/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/azul-zulu-openjdk/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/wireguard/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/supabase/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/rabbitmq/</loc><lastmod>2026-08-19</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/coreldraw/</loc><lastmod>2026-08-19</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/foxit-pdf-reader/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/typora/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/jenkins/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/mariadb-community-server/</loc><lastmod>2026-08-18</lastmod></url>
@@ -519,13 +545,10 @@
   <url><loc>https://isitfree.webline.cloud/software/proxmox-virtual-environment/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/opentofu/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/oracle-vm-virtualbox-extension-pack/</loc><lastmod>2026-08-18</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/glasswire/</loc><lastmod>2026-08-18</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/winrar/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/beyond-compare/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/techsmith-snagit/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/atlassian-jira/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/figma/</loc><lastmod>2026-08-18</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/microsoft-visual-studio-community/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/anaconda-distribution/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/unity-engine/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/postman/</loc><lastmod>2026-08-18</lastmod></url>
@@ -533,29 +556,20 @@
   <url><loc>https://isitfree.webline.cloud/software/prtg-network-monitor/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/putty/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/veracrypt/</loc><lastmod>2026-08-18</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/sqlite/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/mozilla-thunderbird/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/handbrake/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/amazon-corretto/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/cyberduck/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/zabbix/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/xnview/</loc><lastmod>2026-08-18</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/faststone-image-viewer/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/hwmonitor/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/vmware-workstation-pro/</loc><lastmod>2026-08-18</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/datagrip/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/charles-proxy/</loc><lastmod>2026-08-18</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/internet-download-manager/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/matlab/</loc><lastmod>2026-08-18</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/navicat-premium/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/tailscale/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/splunk-enterprise/</loc><lastmod>2026-08-18</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/ngrok/</loc><lastmod>2026-08-18</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/nexus-repository/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/hashicorp-vault/</loc><lastmod>2026-08-18</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/insomnia/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/sentry/</loc><lastmod>2026-08-18</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/teamcity/</loc><lastmod>2026-08-18</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/blender/</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/wireshark/</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/postgresql/</loc><lastmod>2026-08-17</lastmod></url>
@@ -563,8 +577,6 @@
   <url><loc>https://isitfree.webline.cloud/software/ccleaner/</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/docker-desktop/</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/anydesk/</loc><lastmod>2026-08-17</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/sonarqube/</loc><lastmod>2026-08-17</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/1password/</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/tableau-desktop/</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/inkscape/</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/audacity/</loc><lastmod>2026-08-17</lastmod></url>
@@ -574,16 +586,12 @@
   <url><loc>https://isitfree.webline.cloud/software/malwarebytes/</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/autodesk-fusion-360/</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/adobe-illustrator/</loc><lastmod>2026-08-17</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/burp-suite-professional/</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/sketch/</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/sublime-text/</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/obsidian/</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/lens-desktop/</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/realvnc-connect/</loc><lastmod>2026-08-17</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/pycharm/</loc><lastmod>2026-08-17</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/metabase/</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/neo4j/</loc><lastmod>2026-08-17</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/posit-rstudio/</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/bitwarden/</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/mattermost/</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/vs-code/</loc><lastmod>2025-01-01</lastmod></url>
@@ -595,20 +603,12 @@
   <url><loc>https://isitfree.webline.cloud/software/zoom/</loc><lastmod>2025-01-01</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/slack/</loc><lastmod>2025-01-01</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/notion/</loc><lastmod>2025-01-01</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/obs-studio/</loc><lastmod>2025-01-01</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/microsoft-365/</loc><lastmod>2025-01-01</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/adobe-photoshop/</loc><lastmod>2025-01-01</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/autocad/</loc><lastmod>2025-01-01</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/jetbrains-intellij-idea/</loc><lastmod>2025-01-01</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/windows-11/</loc><lastmod>2025-01-01</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/slack-business/</loc><lastmod>2025-01-01</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/zoom-business/</loc><lastmod>2025-01-01</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/canva/</loc><lastmod>2025-01-01</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/github-copilot/</loc><lastmod>2025-01-01</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/elasticsearch/</loc><lastmod>2025-01-01</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/mysql/</loc><lastmod>2025-01-01</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/mongodb/</loc><lastmod>2025-01-01</lastmod></url>
   <url><loc>https://isitfree.webline.cloud/software/gitlab/</loc><lastmod>2025-01-01</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/grafana/</loc><lastmod>2025-01-01</lastmod></url>
-  <url><loc>https://isitfree.webline.cloud/software/dbeaver/</loc><lastmod>2025-01-01</lastmod></url>
 </urlset>
