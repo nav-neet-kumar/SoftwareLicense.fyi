@@ -32,12 +32,25 @@ jobs:
 
       # Keep resumable candidate state in the private Actions cache, not public repository files.
       - name: Restore private discovery state
+        id: restore_state
         uses: actions/cache/restore@v4
         with:
           path: data/discovery_state.json
           key: software-discovery-state-${{ github.ref_name }}-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: |
             software-discovery-state-${{ github.ref_name }}-
+
+      # One-time migration: preserve the pending queue from the pre-cleanup snapshot
+      # if no private cache exists yet. The state is not added to the repository.
+      - name: Bootstrap private state from pre-cleanup snapshot
+        if: steps.restore_state.outputs.cache-hit != 'true'
+        run: |
+          if git cat-file -e backup/pre-site-trust-ui-latest-2026-10-29:data/discovery_state.json 2>/dev/null; then
+            mkdir -p data
+            git show backup/pre-site-trust-ui-latest-2026-10-29:data/discovery_state.json > data/discovery_state.json
+          else
+            echo "No migration snapshot available; starting with an empty queue."
+          fi
 
       - name: 🔍 Discover and verify new software
         id: ai_check
