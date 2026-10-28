@@ -293,7 +293,7 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
         <input type="search" id="homeSearchInput" placeholder="Search software tools…" aria-label="Search software" onclick="openSearch(event)" />
         <span class="search-shortcut">/</span>
       </div>
-      <div class="last-ai-update">Latest record update: <strong id="homeLastUpdate">Loading…</strong></div>
+      <div class="last-ai-update" aria-label="Directory audit and update dates">Last audited: <strong id="homeLastAudit">Loading…</strong> · Last updated: <strong id="homeLastUpdate">Loading…</strong></div>
       <div class="ai-check-line" aria-live="polite">Last AI check: <span id="aiCheckStatus" class="ai-status unknown">Checking…</span><time id="aiCheckDate" class="ai-status-date">Loading date…</time></div>
     </div>
     <div class="hero-btns">
@@ -442,7 +442,7 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
   <div class="dir-hero">
     <h1>Software License Directory</h1>
     <p>Licensing summaries for <span id="entryCount">—</span> software tools. Check the official terms for the current license and permitted use.</p>
-    <div class="last-ai-update">Latest record update: <strong id="dirLastUpdate">Loading…</strong></div>
+    <div class="last-ai-update" aria-label="Directory audit and update dates">Last audited: <strong id="dirLastAudit">Loading…</strong> · Last updated: <strong id="dirLastUpdate">Loading…</strong></div>
   </div>
 
   <div class="controls">
@@ -792,10 +792,14 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
       document.getElementById("loadingMsg").style.display="none";
       const dates=allRows.map(r=>r["Last Updated"]).filter(Boolean).sort();
       const lastDate=dates.at(-1)||"unknown";
+      const auditDates=allRows.map(r=>String(r["Last Verified Date"]||"").trim()).filter(d=>/^\d{4}-\d{2}-\d{2}$/.test(d)).sort();
+      const lastAuditDate=auditDates.at(-1)||"not recorded";
       document.getElementById("navMeta").textContent=`${allRows.length} entries`;
       document.getElementById("entryCount").textContent=allRows.length;
       document.getElementById("statEntries").textContent=allRows.length+"+";
       document.getElementById("footerMeta").textContent=`${allRows.length} entries · ${lastDate}`;
+      document.getElementById("homeLastAudit").textContent=lastAuditDate;
+      document.getElementById("dirLastAudit").textContent=lastAuditDate;
       document.getElementById("homeLastUpdate").textContent=lastDate;
       document.getElementById("dirLastUpdate").textContent=lastDate;
       const initialQuery=new URLSearchParams(window.location.search).get("q")||"";
