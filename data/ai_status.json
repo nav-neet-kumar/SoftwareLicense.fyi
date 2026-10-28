@@ -1,6 +1,10 @@
 {
-  "status": "fail",
-  "date": "2026-10-28T14:54:42+00:00",
-  "run_url": "https://github.com/nav-neet-kumar/SoftwareLicense.fyi/actions/runs/40710275032",
+  "status": "partial",
+  "discovery_status": "partial_with_errors",
+  "added": 15,
+  "duplicates_skipped": 0,
+  "pending_candidates": 45,
+  "date": "2026-10-28T21:34:02+00:00",
+  "run_url": "https://github.com/nav-neet-kumar/SoftwareLicense.fyi/actions/runs/40772901019",
   "workflow": "Daily Software Discovery"
 }
