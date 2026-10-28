@@ -274,3 +274,46 @@ class StaticPageTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class PublicSiteContractTests(unittest.TestCase):
+    def test_error_reporting_never_requests_a_personal_access_token(self):
+        page = (ROOT / "index.html").read_text(encoding="utf-8")
+        self.assertNotIn('id="flag-token"', page)
+        self.assertNotIn('Authorization', page)
+        self.assertIn("no personal access token is needed", page)
+        self.assertIn("issues/new?title=", page)
+
+    def test_public_status_supports_every_workflow_outcome_without_run_urls(self):
+        status = json.loads((ROOT / "data" / "ai_status.json").read_text(encoding="utf-8"))
+        self.assertIn(status.get("status"), {"pass", "no_additions", "partial", "fail"})
+        self.assertNotIn("run_url", status)
+        page = (ROOT / "index.html").read_text(encoding="utf-8")
+        for outcome in ("pass", "no_additions", "partial", "fail"):
+            self.assertIn(outcome, page)
+
+    def test_catalog_ui_uses_existing_optional_schema_fields(self):
+        import csv
+        with (ROOT / "data" / "software_list.csv").open(encoding="utf-8", newline="") as handle:
+            columns = set(next(csv.reader(handle)))
+        self.assertIn("Evidence URL", columns)
+        self.assertIn("Last Verified Date", columns)
+        page = (ROOT / "index.html").read_text(encoding="utf-8")
+        self.assertIn('r["Evidence URL"]', page)
+        self.assertIn('r["Last Verified Date"]', page)
+        generator = (ROOT / "scripts" / "generate_software_pages.py").read_text(encoding="utf-8")
+        self.assertIn('row.get("Last Verified Date", "")', generator)
+        self.assertIn("Last licensing verification recorded", generator)
+
+    def test_discovery_state_is_cached_not_added_to_public_git_changes(self):
+        workflow = (ROOT / ".github" / "workflows" / "discover_daily.yml").read_text(encoding="utf-8")
+        self.assertIn("actions/cache/restore@v4", workflow)
+        self.assertIn("actions/cache/save@v4", workflow)
+        self.assertIn("git add -A -- data/software_list.csv", workflow)
+        self.assertNotIn("          git add -A\n", workflow)
+        self.assertNotIn("RUN_URL:", workflow)
+
+    def test_public_error_report_and_privacy_policy_match(self):
+        privacy = (ROOT / "privacy.html").read_text(encoding="utf-8")
+        self.assertIn("does not ask for, receive, or store a GitHub personal access token", privacy)
+        self.assertIn("may be public on GitHub", privacy)
