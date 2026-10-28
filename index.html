@@ -747,7 +747,7 @@ body[data-theme="light"] .flag-btn{background:#fff1f3;color:#b32f4a;border-color
     btn.disabled=true;
     const title="[License Error] "+name;
     const issueBody=["## Software License Error Report","","- **Software name:** "+name,"- **Reported issue:** "+notes,"- **Official source:** "+(sourceUrl||"Not provided"),"","Please verify the current publisher terms before changing the catalog.","","Submitted through the IsItFree? website."].join("\n");
-    const issueUrl="https://github.com/"+GITHUB_REPO+"/issues/new?title="+encodeURIComponent(title)+"&body="+encodeURIComponent(issueBody)+;
+    const issueUrl="https://github.com/"+GITHUB_REPO+"/issues/new?title="+encodeURIComponent(title)+"&body="+encodeURIComponent(issueBody);
     setFlagMsg("Opening GitHub to submit your report. Sign in if prompted; no personal access token is needed.","success");
     window.open(issueUrl,"_blank","noopener,noreferrer");
     btn.disabled=false;
