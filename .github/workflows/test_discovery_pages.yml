@@ -27,6 +27,42 @@ jobs:
           cache-dependency-path: scripts/requirements.txt
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
+      - name: Set up Node for inline JavaScript validation
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Validate inline website JavaScript
+        run: |
+          python - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+
+          class InlineScripts(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.current = None
+                  self.scripts = []
+              def handle_starttag(self, tag, attrs):
+                  if tag != "script":
+                      return
+                  attrs = dict(attrs)
+                  if "src" not in attrs and attrs.get("type", "").lower() != "application/ld+json":
+                      self.current = []
+              def handle_data(self, data):
+                  if self.current is not None:
+                      self.current.append(data)
+              def handle_endtag(self, tag):
+                  if tag == "script" and self.current is not None:
+                      self.scripts.append("".join(self.current))
+                      self.current = None
+
+          parser = InlineScripts()
+          parser.feed(Path("index.html").read_text(encoding="utf-8"))
+          Path("/tmp/isitfree-inline.js").write_text("\\n;\\n".join(parser.scripts), encoding="utf-8")
+          assert parser.scripts, "No inline JavaScript found to validate"
+          print(f"Extracted {len(parser.scripts)} inline JavaScript blocks.")
+          PY
+          node --check /tmp/isitfree-inline.js
       - name: Compile Python scripts
         run: python -m py_compile scripts/discover_software.py scripts/generate_software_pages.py scripts/update_licenses.py
       - name: Run unit tests (mocked API; no Gemini quota)
