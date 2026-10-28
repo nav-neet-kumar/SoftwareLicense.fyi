@@ -221,7 +221,7 @@ class DiscoveryHelpersTests(unittest.TestCase):
             discovery.MAX_DISCOVERY_BATCHES = 3
             discovery.MAX_EMPTY_BATCHES = 3
             try:
-                with mock.patch.object(discovery, "discover", return_value=[]):
+                with mock.patch.object(discovery, "discover", return_value=[]), mock.patch.object(discovery, "discover_github_candidates", return_value=[]):
                     self.assertEqual(discovery.run(), 0)
                 self.assertEqual(csv_path.read_bytes(), before)
                 self.assertFalse(discovery.RECENT_PATH.exists())
