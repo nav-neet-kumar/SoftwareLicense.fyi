@@ -881,7 +881,7 @@ footer{background:#fff;border-top-color:#e4e7f2;color:#68718a}
       document.getElementById("loadingMsg").style.display="none";
       const dates=allRows.map(r=>r["Last Updated"]).filter(Boolean).sort();
       const lastDate=dates.at(-1)||"unknown";
-      const auditDates=allRows.map(r=>String(r["Last Verified Date"]||"").trim()).filter(d=>/^\\d{4}-\\d{2}-\\d{2}$/.test(d)).sort();
+      const auditDates=allRows.map(r=>String(r["Last Verified Date"]||"").trim()).filter(d=>/^\d{4}-\d{2}-\d{2}$/.test(d)).sort();
       const lastAuditDate=auditDates.at(-1)||"not recorded";
       document.getElementById("navMeta").textContent=`${allRows.length} entries`;
       document.getElementById("entryCount").textContent=allRows.length;
