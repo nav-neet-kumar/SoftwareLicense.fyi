@@ -389,7 +389,7 @@ def run():
     accepted_keys = set()
     technical_errors = []
     successful_discovery_calls = 0
-    no_progress_batches = 0
+    empty_candidate_batches = 0
 
     def process_batch(candidates):
         nonlocal rows, pending
@@ -520,10 +520,13 @@ def run():
             print(f"[ERROR] Discovery batch {batch}: {str(exc)[:220]}")
             save_state_and_report(pending, report)
             break
-        added = process_batch(candidates)
-        no_progress_batches = no_progress_batches + 1 if added == 0 else 0
-        if no_progress_batches >= MAX_EMPTY_BATCHES:
-            print(f"[STOP] {MAX_EMPTY_BATCHES} consecutive batches produced no new verified entries.")
+        if candidates:
+            empty_candidate_batches = 0
+        else:
+            empty_candidate_batches += 1
+        process_batch(candidates)
+        if empty_candidate_batches >= MAX_EMPTY_BATCHES:
+            print(f"[STOP] {MAX_EMPTY_BATCHES} consecutive discovery batches returned no candidates.")
             break
 
     if technical_errors:
