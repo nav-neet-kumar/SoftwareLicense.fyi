@@ -107,6 +107,44 @@ class DiscoveryHelpersTests(unittest.TestCase):
     def test_canonical_url_ignores_www_and_trailing_slash(self):
         self.assertEqual(discovery.canonical_url("https://www.example.com/app/"), discovery.canonical_url("https://example.com/app"))
 
+    def test_provider_failure_preserves_batch_without_retry_storm(self):
+        candidates = [{"software_name": "Tool A"}, {"software_name": "Tool B"}, {"software_name": "Tool C"}]
+        with mock.patch.object(discovery, "verify_batch", side_effect=RuntimeError("All configured Gemini models failed. quota")) as verify:
+            verified, pending = discovery.verify_resilient(candidates)
+        self.assertEqual(verified, [])
+        self.assertEqual(pending, candidates)
+        verify.assert_called_once()
+
+    def test_github_source_returns_only_nonfork_repos_with_license_metadata(self):
+        class FakeResponse:
+            def raise_for_status(self):
+                return None
+            def json(self):
+                return {"items": [
+                    {
+                        "full_name": "example/tool-a", "name": "tool-a",
+                        "html_url": "https://github.com/example/tool-a",
+                        "description": "A desktop utility application",
+                        "fork": False, "archived": False, "disabled": False,
+                        "stargazers_count": 100, "topics": ["desktop-app", "utility"],
+                        "owner": {"login": "example"},
+                        "license": {"spdx_id": "MIT", "name": "MIT License"}
+                    },
+                    {
+                        "full_name": "example/no-license", "name": "no-license",
+                        "html_url": "https://github.com/example/no-license",
+                        "description": "A desktop utility application",
+                        "fork": False, "archived": False, "disabled": False,
+                        "stargazers_count": 100, "topics": ["desktop-app"],
+                        "owner": {"login": "example"}, "license": None
+                    }
+                ]}
+        with mock.patch.object(discovery.requests, "get", return_value=FakeResponse()):
+            candidates = discovery.discover_github_candidates(limit=10)
+        self.assertTrue(candidates)
+        self.assertEqual(candidates[0]["software_name"], "tool-a")
+        self.assertIn("MIT", candidates[0]["notes"])
+
     def test_similar_but_distinct_products_require_clarification(self):
         rows = [{"Software Name": "Visual Studio", "Official URL": "https://visualstudio.microsoft.com", "Category": "Community Version", "Notes": ""}]
         status, matches = discovery.local_match({"software_name": "Visual Studio Code", "official_url": "https://code.visualstudio.com"}, rows)
