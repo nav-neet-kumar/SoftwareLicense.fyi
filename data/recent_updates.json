@@ -1,257 +1,5 @@
 [
   {
-    "name": "Visual Studio Code",
-    "slug": "visual-studio-code",
-    "type": "NEW",
-    "date": "2026-10-22",
-    "category": "Open Source",
-    "url": "https://code.visualstudio.com/",
-    "source": "https://github.com/microsoft/vscode/blob/main/LICENSE.txt"
-  },
-  {
-    "name": "IntelliJ IDEA Community Edition",
-    "slug": "intellij-idea-community-edition",
-    "type": "NEW",
-    "date": "2026-10-22",
-    "category": "Community Version",
-    "url": "https://www.jetbrains.com/idea/",
-    "source": "https://www.jetbrains.com/idea/download/"
-  },
-  {
-    "name": "IntelliJ IDEA Ultimate Edition",
-    "slug": "intellij-idea-ultimate-edition",
-    "type": "NEW",
-    "date": "2026-10-22",
-    "category": "License for Commercial",
-    "url": "https://www.jetbrains.com/idea/",
-    "source": "https://www.jetbrains.com/idea/buy/"
-  },
-  {
-    "name": "Microsoft SQL Server Express",
-    "slug": "microsoft-sql-server-express",
-    "type": "NEW",
-    "date": "2026-10-22",
-    "category": "Free for Home",
-    "url": "https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
-    "source": "https://www.microsoft.com/en-us/sql-server/sql-server-downloads"
-  },
-  {
-    "name": "Google Chrome",
-    "slug": "google-chrome",
-    "type": "NEW",
-    "date": "2026-10-22",
-    "category": "Free for Home",
-    "url": "https://www.google.com/chrome/",
-    "source": "https://www.google.com/chrome/terms/"
-  },
-  {
-    "name": "Jira Software",
-    "slug": "jira-software",
-    "type": "NEW",
-    "date": "2026-10-22",
-    "category": "License for Commercial",
-    "url": "https://www.atlassian.com/software/jira",
-    "source": "https://www.atlassian.com/software/jira/pricing"
-  },
-  {
-    "name": "GnuCash",
-    "slug": "gnucash",
-    "type": "NEW",
-    "date": "2026-10-23",
-    "category": "Open Source",
-    "url": "https://www.gnucash.org/",
-    "source": "https://www.gnucash.org/about.phtml"
-  },
-  {
-    "name": "GParted",
-    "slug": "gparted",
-    "type": "NEW",
-    "date": "2026-10-23",
-    "category": "Open Source",
-    "url": "https://gparted.org/",
-    "source": "https://gparted.org/about.php"
-  },
-  {
-    "name": "Kodi",
-    "slug": "kodi",
-    "type": "NEW",
-    "date": "2026-10-23",
-    "category": "Open Source",
-    "url": "https://kodi.tv/",
-    "source": "https://kodi.tv/about/software-license"
-  },
-  {
-    "name": "GitHub Desktop",
-    "slug": "github-desktop",
-    "type": "NEW",
-    "date": "2026-10-23",
-    "category": "Open Source",
-    "url": "https://desktop.github.com/",
-    "source": "https://github.com/desktop/desktop/blob/HEAD/LICENSE"
-  },
-  {
-    "name": "WordPress",
-    "slug": "wordpress",
-    "type": "NEW",
-    "date": "2026-10-23",
-    "category": "Open Source",
-    "url": "https://wordpress.org/",
-    "source": "https://wordpress.org/about/license/"
-  },
-  {
-    "name": "Vagrant",
-    "slug": "vagrant",
-    "type": "NEW",
-    "date": "2026-10-24",
-    "category": "Open Source",
-    "url": "https://www.vagrantup.com/",
-    "source": "https://github.com/hashicorp/vagrant/blob/main/LICENSE"
-  },
-  {
-    "name": "Microsoft Office Home & Business",
-    "slug": "microsoft-office-home-business",
-    "type": "NEW",
-    "date": "2026-10-24",
-    "category": "License for Commercial",
-    "url": "https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products",
-    "source": "https://www.microsoft.com/en-us/microsoft-365/business/compare-all-microsoft-365-business-products"
-  },
-  {
-    "name": "macOS",
-    "slug": "macos",
-    "type": "NEW",
-    "date": "2026-10-24",
-    "category": "License Required",
-    "url": "https://www.apple.com/macos/",
-    "source": "https://www.apple.com/legal/sla/docs/macOS13.pdf"
-  },
-  {
-    "name": "Tableau Public",
-    "slug": "tableau-public",
-    "type": "NEW",
-    "date": "2026-10-24",
-    "category": "Free for Home",
-    "url": "https://public.tableau.com/",
-    "source": "https://public.tableau.com/app/profile/tableau.public.team/viz/TableauPublicFAQ/FAQ"
-  },
-  {
-    "name": "Git",
-    "slug": "git",
-    "type": "NEW",
-    "date": "2026-10-25",
-    "category": "Open Source",
-    "url": "https://git-scm.com/",
-    "source": "https://git-scm.com/about/free-and-open-source"
-  },
-  {
-    "name": "Red Hat Enterprise Linux",
-    "slug": "red-hat-enterprise-linux",
-    "type": "NEW",
-    "date": "2026-10-25",
-    "category": "License for Commercial",
-    "url": "https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux",
-    "source": "https://www.redhat.com/en/store/red-hat-enterprise-linux-server"
-  },
-  {
-    "name": "Microsoft Edge",
-    "slug": "microsoft-edge",
-    "type": "NEW",
-    "date": "2026-10-26",
-    "category": "Free for Home",
-    "url": "https://www.microsoft.com/edge",
-    "source": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx"
-  },
-  {
-    "name": "VSCodium",
-    "slug": "vscodium",
-    "type": "NEW",
-    "date": "2026-10-26",
-    "category": "Open Source",
-    "url": "https://vscodium.com/",
-    "source": "https://github.com/vscodium/vscodium/blob/master/LICENSE"
-  },
-  {
-    "name": "mirador",
-    "slug": "mirador",
-    "type": "NEW",
-    "date": "2026-10-28",
-    "category": "Open Source",
-    "url": "https://github.com/sodre90/mirador",
-    "source": "https://github.com/sodre90/mirador"
-  },
-  {
-    "name": "beadbox",
-    "slug": "beadbox",
-    "type": "NEW",
-    "date": "2026-10-28",
-    "category": "Open Source",
-    "url": "https://github.com/beadbox/beadbox",
-    "source": "https://github.com/beadbox/beadbox"
-  },
-  {
-    "name": "codevisor",
-    "slug": "codevisor",
-    "type": "NEW",
-    "date": "2026-10-28",
-    "category": "Open Source",
-    "url": "https://github.com/851-labs/codevisor",
-    "source": "https://github.com/851-labs/codevisor"
-  },
-  {
-    "name": "HA-Desktop-Widget",
-    "slug": "ha-desktop-widget",
-    "type": "NEW",
-    "date": "2026-10-28",
-    "category": "Open Source",
-    "url": "https://github.com/Robertg761/HA-Desktop-Widget",
-    "source": "https://github.com/Robertg761/HA-Desktop-Widget"
-  },
-  {
-    "name": "ab-download-manager",
-    "slug": "ab-download-manager",
-    "type": "NEW",
-    "date": "2026-10-28",
-    "category": "Open Source",
-    "url": "https://github.com/amir1376/ab-download-manager",
-    "source": "https://github.com/amir1376/ab-download-manager"
-  },
-  {
-    "name": "escouade",
-    "slug": "escouade",
-    "type": "NEW",
-    "date": "2026-10-28",
-    "category": "Open Source",
-    "url": "https://github.com/guillaume-gagnaire/escouade",
-    "source": "https://github.com/guillaume-gagnaire/escouade"
-  },
-  {
-    "name": "chipwhisperer-studio",
-    "slug": "chipwhisperer-studio",
-    "type": "NEW",
-    "date": "2026-10-28",
-    "category": "Open Source",
-    "url": "https://github.com/keyuraghao/chipwhisperer-studio",
-    "source": "https://github.com/keyuraghao/chipwhisperer-studio"
-  },
-  {
-    "name": "Vibelution",
-    "slug": "vibelution",
-    "type": "NEW",
-    "date": "2026-10-28",
-    "category": "Open Source",
-    "url": "https://github.com/CCDawn/Vibelution",
-    "source": "https://github.com/CCDawn/Vibelution"
-  },
-  {
-    "name": "Lynn",
-    "slug": "lynn",
-    "type": "NEW",
-    "date": "2026-10-28",
-    "category": "Open Source",
-    "url": "https://github.com/MerkyorLynn/Lynn",
-    "source": "https://github.com/MerkyorLynn/Lynn"
-  },
-  {
     "name": "hackdesk",
     "slug": "hackdesk",
     "type": "NEW",
@@ -304,5 +52,851 @@
     "category": "Open Source",
     "url": "https://github.com/penso/herdr-gpui",
     "source": "https://github.com/penso/herdr-gpui"
+  },
+  {
+    "name": "terraform-provider-newrelic",
+    "slug": "terraform-provider-newrelic",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/newrelic/terraform-provider-newrelic",
+    "source": "https://github.com/newrelic/terraform-provider-newrelic"
+  },
+  {
+    "name": "Girru",
+    "slug": "girru",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/Dpro-at/Girru",
+    "source": "https://github.com/Dpro-at/Girru"
+  },
+  {
+    "name": "dsh-desktop",
+    "slug": "dsh-desktop",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/vibeinging/dsh-desktop",
+    "source": "https://github.com/vibeinging/dsh-desktop"
+  },
+  {
+    "name": "open-astravia",
+    "slug": "open-astravia",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/maomaochong-ai/open-astravia",
+    "source": "https://github.com/maomaochong-ai/open-astravia"
+  },
+  {
+    "name": "shep",
+    "slug": "shep",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/shep-ai/shep",
+    "source": "https://github.com/shep-ai/shep"
+  },
+  {
+    "name": "rea",
+    "slug": "rea",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/morluto/rea",
+    "source": "https://github.com/morluto/rea"
+  },
+  {
+    "name": "coral",
+    "slug": "coral",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/subgentic/coral",
+    "source": "https://github.com/subgentic/coral"
+  },
+  {
+    "name": "blaze",
+    "slug": "blaze",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/indexable-inc/blaze",
+    "source": "https://github.com/indexable-inc/blaze"
+  },
+  {
+    "name": "agentbox",
+    "slug": "agentbox",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/savannahfeder/agentbox",
+    "source": "https://github.com/savannahfeder/agentbox"
+  },
+  {
+    "name": "awesome-korean-agent-skills",
+    "slug": "awesome-korean-agent-skills",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/J-nowcow/awesome-korean-agent-skills",
+    "source": "https://github.com/J-nowcow/awesome-korean-agent-skills"
+  },
+  {
+    "name": "hive",
+    "slug": "hive",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/hivecommons/hive",
+    "source": "https://github.com/hivecommons/hive"
+  },
+  {
+    "name": "kandev",
+    "slug": "kandev",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/kdlbs/kandev",
+    "source": "https://github.com/kdlbs/kandev"
+  },
+  {
+    "name": "omnigent",
+    "slug": "omnigent",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/omnigent-ai/omnigent",
+    "source": "https://github.com/omnigent-ai/omnigent"
+  },
+  {
+    "name": "sweet-search",
+    "slug": "sweet-search",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/mrsladoje/sweet-search",
+    "source": "https://github.com/mrsladoje/sweet-search"
+  },
+  {
+    "name": "newrelic-client-go",
+    "slug": "newrelic-client-go",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/newrelic/newrelic-client-go",
+    "source": "https://github.com/newrelic/newrelic-client-go"
+  },
+  {
+    "name": "lerd",
+    "slug": "lerd",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/lerd-env/lerd",
+    "source": "https://github.com/lerd-env/lerd"
+  },
+  {
+    "name": "appsmith",
+    "slug": "appsmith",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/appsmithorg/appsmith",
+    "source": "https://github.com/appsmithorg/appsmith"
+  },
+  {
+    "name": "archify",
+    "slug": "archify",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/tt-a1i/archify",
+    "source": "https://github.com/tt-a1i/archify"
+  },
+  {
+    "name": "streamlit",
+    "slug": "streamlit",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/streamlit/streamlit",
+    "source": "https://github.com/streamlit/streamlit"
+  },
+  {
+    "name": "repo-harness",
+    "slug": "repo-harness",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/Ancienttwo/repo-harness",
+    "source": "https://github.com/Ancienttwo/repo-harness"
+  },
+  {
+    "name": "stim",
+    "slug": "stim",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/appandflow/stim",
+    "source": "https://github.com/appandflow/stim"
+  },
+  {
+    "name": "PortOS",
+    "slug": "portos",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/atomantic/PortOS",
+    "source": "https://github.com/atomantic/PortOS"
+  },
+  {
+    "name": "App-Store-Connect-CLI",
+    "slug": "app-store-connect-cli",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/rorkai/App-Store-Connect-CLI",
+    "source": "https://github.com/rorkai/App-Store-Connect-CLI"
+  },
+  {
+    "name": "enola",
+    "slug": "enola",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/enola-labs/enola",
+    "source": "https://github.com/enola-labs/enola"
+  },
+  {
+    "name": "brigade",
+    "slug": "brigade",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/escoffier-labs/brigade",
+    "source": "https://github.com/escoffier-labs/brigade"
+  },
+  {
+    "name": "dagger",
+    "slug": "dagger",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/dagger/dagger",
+    "source": "https://github.com/dagger/dagger"
+  },
+  {
+    "name": "flisk",
+    "slug": "flisk",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/flisk-sh/flisk",
+    "source": "https://github.com/flisk-sh/flisk"
+  },
+  {
+    "name": "atmos",
+    "slug": "atmos",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/cloudposse/atmos",
+    "source": "https://github.com/cloudposse/atmos"
+  },
+  {
+    "name": "devopness",
+    "slug": "devopness",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/devopness/devopness",
+    "source": "https://github.com/devopness/devopness"
+  },
+  {
+    "name": "pipedash",
+    "slug": "pipedash",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/hcavarsan/pipedash",
+    "source": "https://github.com/hcavarsan/pipedash"
+  },
+  {
+    "name": "gatus",
+    "slug": "gatus",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/TwiN/gatus",
+    "source": "https://github.com/TwiN/gatus"
+  },
+  {
+    "name": "mirrord",
+    "slug": "mirrord",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/metalbear-co/mirrord",
+    "source": "https://github.com/metalbear-co/mirrord"
+  },
+  {
+    "name": "WiFi-Widget",
+    "slug": "wifi-widget",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/w2sv/WiFi-Widget",
+    "source": "https://github.com/w2sv/WiFi-Widget"
+  },
+  {
+    "name": "ai-platform-engineering",
+    "slug": "ai-platform-engineering",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/caipe-io/ai-platform-engineering",
+    "source": "https://github.com/caipe-io/ai-platform-engineering"
+  },
+  {
+    "name": "dokku",
+    "slug": "dokku",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/dokku/dokku",
+    "source": "https://github.com/dokku/dokku"
+  },
+  {
+    "name": "sandpolis",
+    "slug": "sandpolis",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/cilki/sandpolis",
+    "source": "https://github.com/cilki/sandpolis"
+  },
+  {
+    "name": "labtether",
+    "slug": "labtether",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/labtether/labtether",
+    "source": "https://github.com/labtether/labtether"
+  },
+  {
+    "name": "querytuner",
+    "slug": "querytuner",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/AutoShiftOps/querytuner",
+    "source": "https://github.com/AutoShiftOps/querytuner"
+  },
+  {
+    "name": "maester",
+    "slug": "maester",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/maester365/maester",
+    "source": "https://github.com/maester365/maester"
+  },
+  {
+    "name": "skills",
+    "slug": "skills",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/starslingdev/skills",
+    "source": "https://github.com/starslingdev/skills"
+  },
+  {
+    "name": "circleci-cli",
+    "slug": "circleci-cli",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/CircleCI-Public/circleci-cli",
+    "source": "https://github.com/CircleCI-Public/circleci-cli"
+  },
+  {
+    "name": "betterleaks",
+    "slug": "betterleaks",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/betterleaks/betterleaks",
+    "source": "https://github.com/betterleaks/betterleaks"
+  },
+  {
+    "name": "floci",
+    "slug": "floci",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/floci-io/floci",
+    "source": "https://github.com/floci-io/floci"
+  },
+  {
+    "name": "LemonSees",
+    "slug": "lemonsees",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/Altumptic/LemonSees",
+    "source": "https://github.com/Altumptic/LemonSees"
+  },
+  {
+    "name": "infrahub",
+    "slug": "infrahub",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/opsmill/infrahub",
+    "source": "https://github.com/opsmill/infrahub"
+  },
+  {
+    "name": "mu",
+    "slug": "mu",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/qybaihe/mu",
+    "source": "https://github.com/qybaihe/mu"
+  },
+  {
+    "name": "emailops",
+    "slug": "emailops",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/emailops/emailops",
+    "source": "https://github.com/emailops/emailops"
+  },
+  {
+    "name": "Tavotto",
+    "slug": "tavotto",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/Tavotto/Tavotto",
+    "source": "https://github.com/Tavotto/Tavotto"
+  },
+  {
+    "name": "lite",
+    "slug": "lite",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/ultralytics/lite",
+    "source": "https://github.com/ultralytics/lite"
+  },
+  {
+    "name": "runner",
+    "slug": "runner",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/yicheng47/runner",
+    "source": "https://github.com/yicheng47/runner"
+  },
+  {
+    "name": "openidea",
+    "slug": "openidea",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/l0ng-ai/openidea",
+    "source": "https://github.com/l0ng-ai/openidea"
+  },
+  {
+    "name": "Yagua-Image-Processor",
+    "slug": "yagua-image-processor",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/GuilleBouix/Yagua-Image-Processor",
+    "source": "https://github.com/GuilleBouix/Yagua-Image-Processor"
+  },
+  {
+    "name": "skillshare",
+    "slug": "skillshare",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/runkids/skillshare",
+    "source": "https://github.com/runkids/skillshare"
+  },
+  {
+    "name": "nuclear",
+    "slug": "nuclear",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/nukeop/nuclear",
+    "source": "https://github.com/nukeop/nuclear"
+  },
+  {
+    "name": "tesseract",
+    "slug": "tesseract",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/surakin/tesseract",
+    "source": "https://github.com/surakin/tesseract"
+  },
+  {
+    "name": "cc-switch",
+    "slug": "cc-switch",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/farion1231/cc-switch",
+    "source": "https://github.com/farion1231/cc-switch"
+  },
+  {
+    "name": "PhotoSort",
+    "slug": "photosort",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/duartebarbosadev/PhotoSort",
+    "source": "https://github.com/duartebarbosadev/PhotoSort"
+  },
+  {
+    "name": "GitComet",
+    "slug": "gitcomet",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/Auto-Explore/GitComet",
+    "source": "https://github.com/Auto-Explore/GitComet"
+  },
+  {
+    "name": "oxi",
+    "slug": "oxi",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/maziluiosif/oxi",
+    "source": "https://github.com/maziluiosif/oxi"
+  },
+  {
+    "name": "threadlines",
+    "slug": "threadlines",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/Threadlines/threadlines",
+    "source": "https://github.com/Threadlines/threadlines"
+  },
+  {
+    "name": "Relatum",
+    "slug": "relatum",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/yamibk/Relatum",
+    "source": "https://github.com/yamibk/Relatum"
+  },
+  {
+    "name": "Nomi",
+    "slug": "nomi",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/aqm857886159/Nomi",
+    "source": "https://github.com/aqm857886159/Nomi"
+  },
+  {
+    "name": "mqlens-mongodb",
+    "slug": "mqlens-mongodb",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/mqlens/mqlens-mongodb",
+    "source": "https://github.com/mqlens/mqlens-mongodb"
+  },
+  {
+    "name": "awesome-swift-macos-apps",
+    "slug": "awesome-swift-macos-apps",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/jaywcjlove/awesome-swift-macos-apps",
+    "source": "https://github.com/jaywcjlove/awesome-swift-macos-apps"
+  },
+  {
+    "name": "kangentic",
+    "slug": "kangentic",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/Kangentic/kangentic",
+    "source": "https://github.com/Kangentic/kangentic"
+  },
+  {
+    "name": "o8",
+    "slug": "o8",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/o8-run/o8",
+    "source": "https://github.com/o8-run/o8"
+  },
+  {
+    "name": "openharness",
+    "slug": "openharness",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/autonomous-ai/openharness",
+    "source": "https://github.com/autonomous-ai/openharness"
+  },
+  {
+    "name": "intent",
+    "slug": "intent",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/intent-hq/intent",
+    "source": "https://github.com/intent-hq/intent"
+  },
+  {
+    "name": "Neon-Vision-Editor",
+    "slug": "neon-vision-editor",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/h3pdesign/Neon-Vision-Editor",
+    "source": "https://github.com/h3pdesign/Neon-Vision-Editor"
+  },
+  {
+    "name": "jjfx",
+    "slug": "jjfx",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/Jarvvski/jjfx",
+    "source": "https://github.com/Jarvvski/jjfx"
+  },
+  {
+    "name": "ccstatusline",
+    "slug": "ccstatusline",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/sirmalloc/ccstatusline",
+    "source": "https://github.com/sirmalloc/ccstatusline"
+  },
+  {
+    "name": "parallel-code",
+    "slug": "parallel-code",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/johannesjo/parallel-code",
+    "source": "https://github.com/johannesjo/parallel-code"
+  },
+  {
+    "name": "agents-fleet",
+    "slug": "agents-fleet",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/Bil0000/agents-fleet",
+    "source": "https://github.com/Bil0000/agents-fleet"
+  },
+  {
+    "name": "LynxPrompt",
+    "slug": "lynxprompt",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/GeiserX/LynxPrompt",
+    "source": "https://github.com/GeiserX/LynxPrompt"
+  },
+  {
+    "name": "open-source",
+    "slug": "open-source",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/Arnon-hs/open-source",
+    "source": "https://github.com/Arnon-hs/open-source"
+  },
+  {
+    "name": "adhdev",
+    "slug": "adhdev",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/vilmire/adhdev",
+    "source": "https://github.com/vilmire/adhdev"
+  },
+  {
+    "name": "ExplainThisRepo",
+    "slug": "explainthisrepo",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/calchiwo/ExplainThisRepo",
+    "source": "https://github.com/calchiwo/ExplainThisRepo"
+  },
+  {
+    "name": "px0",
+    "slug": "px0",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/px0-ai/px0",
+    "source": "https://github.com/px0-ai/px0"
+  },
+  {
+    "name": "agent-message-queue",
+    "slug": "agent-message-queue",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/avivsinai/agent-message-queue",
+    "source": "https://github.com/avivsinai/agent-message-queue"
+  },
+  {
+    "name": "clopen",
+    "slug": "clopen",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/myrialabs/clopen",
+    "source": "https://github.com/myrialabs/clopen"
+  },
+  {
+    "name": "levelrail",
+    "slug": "levelrail",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/glincker/levelrail",
+    "source": "https://github.com/glincker/levelrail"
+  },
+  {
+    "name": "lfops",
+    "slug": "lfops",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/Linuxfabrik/lfops",
+    "source": "https://github.com/Linuxfabrik/lfops"
+  },
+  {
+    "name": "awesome-stacks",
+    "slug": "awesome-stacks",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/ethibox/awesome-stacks",
+    "source": "https://github.com/ethibox/awesome-stacks"
+  },
+  {
+    "name": "go-carbon",
+    "slug": "go-carbon",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/go-graphite/go-carbon",
+    "source": "https://github.com/go-graphite/go-carbon"
+  },
+  {
+    "name": "curie",
+    "slug": "curie",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/curie-eng/curie",
+    "source": "https://github.com/curie-eng/curie"
+  },
+  {
+    "name": "pacto",
+    "slug": "pacto",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/TrianaLab/pacto",
+    "source": "https://github.com/TrianaLab/pacto"
+  },
+  {
+    "name": "ybkkasi",
+    "slug": "ybkkasi",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/01men/ybkkasi",
+    "source": "https://github.com/01men/ybkkasi"
+  },
+  {
+    "name": "centreon",
+    "slug": "centreon",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/centreon/centreon",
+    "source": "https://github.com/centreon/centreon"
+  },
+  {
+    "name": "mcp-context-forge",
+    "slug": "mcp-context-forge",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/IBM/mcp-context-forge",
+    "source": "https://github.com/IBM/mcp-context-forge"
+  },
+  {
+    "name": "sortie",
+    "slug": "sortie",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/sortie-ai/sortie",
+    "source": "https://github.com/sortie-ai/sortie"
+  },
+  {
+    "name": "blog-devto",
+    "slug": "blog-devto",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/Pwd9000-ML/blog-devto",
+    "source": "https://github.com/Pwd9000-ML/blog-devto"
+  },
+  {
+    "name": "TestOPS",
+    "slug": "testops",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/qsumm/TestOPS",
+    "source": "https://github.com/qsumm/TestOPS"
+  },
+  {
+    "name": "ansible-devops",
+    "slug": "ansible-devops",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/ibm-mas/ansible-devops",
+    "source": "https://github.com/ibm-mas/ansible-devops"
+  },
+  {
+    "name": "unleash",
+    "slug": "unleash",
+    "type": "NEW",
+    "date": "2026-10-29",
+    "category": "Open Source",
+    "url": "https://github.com/Unleash/unleash",
+    "source": "https://github.com/Unleash/unleash"
   }
 ]

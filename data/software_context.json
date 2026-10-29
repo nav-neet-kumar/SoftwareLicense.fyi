@@ -8098,5 +8098,605 @@
         "answer": "It is available through a paid subscription plan or potentially a perpetual license, depending on current Adobe offerings. Please check Adobe's website for details."
       }
     ]
+  },
+  "terraform-provider-newrelic": {
+    "input_hash": "222144ee9b6699ed0709be3879fe8255536eb524ac81c39d82b7d767969aef02",
+    "generated_at": "2026-10-29",
+    "summary": "This is an open-source Terraform provider designed to manage New Relic resources. It allows infrastructure as code practices for New Relic configurations.",
+    "what_it_does": "It provides a set of resources and data sources for Terraform, enabling users to define, deploy, and manage New Relic entities like alerts, dashboards, and synthetic monitors using HashiCorp Terraform.",
+    "best_for": "DevOps engineers, SREs, and teams who use Terraform to automate their infrastructure and want to manage their New Relic configurations programmatically.",
+    "free_tier": "As open-source software, terraform-provider-newrelic is generally free to use under its MPL-2.0 license. Any costs associated with New Relic services themselves are separate, and users should check New Relic's official documentation.",
+    "limitations": "Specific limitations regarding supported New Relic resources or Terraform versions should be checked in the official documentation.",
+    "licensing_notes": "This software is licensed under the Mozilla Public License 2.0 (MPL-2.0). Users should review the full license text for specific permissions and obligations.",
+    "faq": [
+      {
+        "question": "What is the primary purpose of terraform-provider-newrelic?",
+        "answer": "Its primary purpose is to allow users to manage New Relic resources and configurations using Terraform, enabling infrastructure as code for New Relic."
+      },
+      {
+        "question": "Where can I find the official documentation for this Terraform provider?",
+        "answer": "The official documentation and source code are available on its GitHub repository at https://github.com/newrelic/terraform-provider-newrelic."
+      }
+    ]
+  },
+  "girru": {
+    "input_hash": "a51f1a5ca5bb7f951ce9a1a7cd4ec6e56fbd51df45859846a5eb26e22ac28d10",
+    "generated_at": "2026-10-29",
+    "summary": "Girru is an open-source software project. For a detailed understanding of its purpose and functionality, users should consult the official documentation.",
+    "what_it_does": "The specific functions of Girru are not provided in the input. Visitors should check the official documentation for details on what it does.",
+    "best_for": "Without specific product details, it is not possible to determine who Girru is best for. Visitors should check the official documentation.",
+    "free_tier": "As open-source software, Girru is generally free to use under its MIT License. For any associated services or commercial offerings, visitors should check the official documentation.",
+    "limitations": "Specific limitations of Girru are not provided. Visitors should check the official documentation.",
+    "licensing_notes": "This software is licensed under the MIT License (MIT). Users should review the full license text for specific permissions and obligations.",
+    "faq": [
+      {
+        "question": "Is Girru free to use?",
+        "answer": "As an open-source project, Girru is generally free to use under its specified MIT License. For specific terms, refer to the full license text."
+      },
+      {
+        "question": "Where can I find more detailed information about Girru?",
+        "answer": "For comprehensive details on features, usage, and system requirements, please refer to the official documentation available at https://github.com/Dpro-at/Girru."
+      }
+    ]
+  },
+  "dsh-desktop": {
+    "input_hash": "fcac07bbea7e8fd619cceca4abeeb6d2536b28d071aab4937b93e38ebda6f3b6",
+    "generated_at": "2026-10-29",
+    "summary": "dsh-desktop is an open-source software project. For a detailed understanding of its purpose and functionality, users should consult the official documentation.",
+    "what_it_does": "The specific functions of dsh-desktop are not provided in the input. Visitors should check the official documentation for details on what it does.",
+    "best_for": "Without specific product details, it is not possible to determine who dsh-desktop is best for. Visitors should check the official documentation.",
+    "free_tier": "As open-source software, dsh-desktop is generally free to use under its MIT License. For any associated services or commercial offerings, visitors should check the official documentation.",
+    "limitations": "Specific limitations of dsh-desktop are not provided. Visitors should check the official documentation.",
+    "licensing_notes": "This software is licensed under the MIT License (MIT). Users should review the full license text for specific permissions and obligations.",
+    "faq": [
+      {
+        "question": "Is dsh-desktop free to use?",
+        "answer": "As an open-source project, dsh-desktop is generally free to use under its specified MIT License. For specific terms, refer to the full license text."
+      },
+      {
+        "question": "Where can I find more detailed information about dsh-desktop?",
+        "answer": "For comprehensive details on features, usage, and system requirements, please refer to the official documentation available at https://github.com/vibeinging/dsh-desktop."
+      }
+    ]
+  },
+  "open-astravia": {
+    "input_hash": "ff9add277e5a0fd843033342decc6f05bb5b7d701fce3aa2b0854b74e9eecdb8",
+    "generated_at": "2026-10-29",
+    "summary": "open-astravia is an open-source software project. For a detailed understanding of its purpose and functionality, users should consult the official documentation.",
+    "what_it_does": "The specific functions of open-astravia are not provided in the input. Visitors should check the official documentation for details on what it does.",
+    "best_for": "Without specific product details, it is not possible to determine who open-astravia is best for. Visitors should check the official documentation.",
+    "free_tier": "As open-source software, open-astravia is generally free to use under its Apache License 2.0. For any associated services or commercial offerings, visitors should check the official documentation.",
+    "limitations": "Specific limitations of open-astravia are not provided. Visitors should check the official documentation.",
+    "licensing_notes": "This software is licensed under the Apache License 2.0 (Apache-2.0). Users should review the full license text for specific permissions and obligations.",
+    "faq": [
+      {
+        "question": "Is open-astravia free to use?",
+        "answer": "As an open-source project, open-astravia is generally free to use under its specified Apache License 2.0. For specific terms, refer to the full license text."
+      },
+      {
+        "question": "Where can I find more detailed information about open-astravia?",
+        "answer": "For comprehensive details on features, usage, and system requirements, please refer to the official documentation available at https://github.com/maomaochong-ai/open-astravia."
+      }
+    ]
+  },
+  "shep": {
+    "input_hash": "242d28a95bfb297186718950305a848716088359044bfc8f1fae5389c310d4b5",
+    "generated_at": "2026-10-29",
+    "summary": "shep is an open-source software project. For a detailed understanding of its purpose and functionality, users should consult the official documentation.",
+    "what_it_does": "The specific functions of shep are not provided in the input. Visitors should check the official documentation for details on what it does.",
+    "best_for": "Without specific product details, it is not possible to determine who shep is best for. Visitors should check the official documentation.",
+    "free_tier": "As open-source software, shep is generally free to use under its MIT License. For any associated services or commercial offerings, visitors should check the official documentation.",
+    "limitations": "Specific limitations of shep are not provided. Visitors should check the official documentation.",
+    "licensing_notes": "This software is licensed under the MIT License (MIT). Users should review the full license text for specific permissions and obligations.",
+    "faq": [
+      {
+        "question": "Is shep free to use?",
+        "answer": "As an open-source project, shep is generally free to use under its specified MIT License. For specific terms, refer to the full license text."
+      },
+      {
+        "question": "Where can I find more detailed information about shep?",
+        "answer": "For comprehensive details on features, usage, and system requirements, please refer to the official documentation available at https://github.com/shep-ai/shep."
+      }
+    ]
+  },
+  "rea": {
+    "input_hash": "edd4598a70b07d7f3000ed005066a316ee3c577d119d3fd27696bcd1429e5da1",
+    "generated_at": "2026-10-29",
+    "summary": "rea is an open-source software project. For a detailed understanding of its purpose and functionality, users should consult the official documentation.",
+    "what_it_does": "The specific functions of rea are not provided in the input. Visitors should check the official documentation for details on what it does.",
+    "best_for": "Without specific product details, it is not possible to determine who rea is best for. Visitors should check the official documentation.",
+    "free_tier": "As open-source software, rea is generally free to use under its MIT License. For any associated services or commercial offerings, visitors should check the official documentation.",
+    "limitations": "Specific limitations of rea are not provided. Visitors should check the official documentation.",
+    "licensing_notes": "This software is licensed under the MIT License (MIT). Users should review the full license text for specific permissions and obligations.",
+    "faq": [
+      {
+        "question": "Is rea free to use?",
+        "answer": "As an open-source project, rea is generally free to use under its specified MIT License. For specific terms, refer to the full license text."
+      },
+      {
+        "question": "Where can I find more detailed information about rea?",
+        "answer": "For comprehensive details on features, usage, and system requirements, please refer to the official documentation available at https://github.com/morluto/rea."
+      }
+    ]
+  },
+  "coral": {
+    "input_hash": "7782ce716497c25c0f5fd1edaad4810e4928c8363d70ceac8109c8f939e6124f",
+    "generated_at": "2026-10-29",
+    "summary": "coral is an open-source software project. For a detailed understanding of its purpose and functionality, users should consult the official documentation.",
+    "what_it_does": "The specific functions of coral are not provided in the input. Visitors should check the official documentation for details on what it does.",
+    "best_for": "Without specific product details, it is not possible to determine who coral is best for. Visitors should check the official documentation.",
+    "free_tier": "As open-source software, coral is generally free to use under its Apache License 2.0. For any associated services or commercial offerings, visitors should check the official documentation.",
+    "limitations": "Specific limitations of coral are not provided. Visitors should check the official documentation.",
+    "licensing_notes": "This software is licensed under the Apache License 2.0 (Apache-2.0). Users should review the full license text for specific permissions and obligations.",
+    "faq": [
+      {
+        "question": "Is coral free to use?",
+        "answer": "As an open-source project, coral is generally free to use under its specified Apache License 2.0. For specific terms, refer to the full license text."
+      },
+      {
+        "question": "Where can I find more detailed information about coral?",
+        "answer": "For comprehensive details on features, usage, and system requirements, please refer to the official documentation available at https://github.com/subgentic/coral."
+      }
+    ]
+  },
+  "blaze": {
+    "input_hash": "189e1b662159792f9994ed48ee6f915516d5c27a72e2fff968190978202d3ea2",
+    "generated_at": "2026-10-29",
+    "summary": "blaze is an open-source software project. For a detailed understanding of its purpose and functionality, users should consult the official documentation.",
+    "what_it_does": "The specific functions of blaze are not provided in the input. Visitors should check the official documentation for details on what it does.",
+    "best_for": "Without specific product details, it is not possible to determine who blaze is best for. Visitors should check the official documentation.",
+    "free_tier": "As open-source software, blaze is generally free to use under its Apache License 2.0. For any associated services or commercial offerings, visitors should check the official documentation.",
+    "limitations": "Specific limitations of blaze are not provided. Visitors should check the official documentation.",
+    "licensing_notes": "This software is licensed under the Apache License 2.0 (Apache-2.0). Users should review the full license text for specific permissions and obligations.",
+    "faq": [
+      {
+        "question": "Is blaze free to use?",
+        "answer": "As an open-source project, blaze is generally free to use under its specified Apache License 2.0. For specific terms, refer to the full license text."
+      },
+      {
+        "question": "Where can I find more detailed information about blaze?",
+        "answer": "For comprehensive details on features, usage, and system requirements, please refer to the official documentation available at https://github.com/indexable-inc/blaze."
+      }
+    ]
+  },
+  "agentbox": {
+    "input_hash": "a48020d2a07fd9f9fde4088916c48c7e01c9bd8db03941e51ef665fee4c70f0d",
+    "generated_at": "2026-10-29",
+    "summary": "agentbox is an open-source software project. For a detailed understanding of its purpose and functionality, users should consult the official documentation.",
+    "what_it_does": "The specific functions of agentbox are not provided in the input. Visitors should check the official documentation for details on what it does.",
+    "best_for": "Without specific product details, it is not possible to determine who agentbox is best for. Visitors should check the official documentation.",
+    "free_tier": "As open-source software, agentbox is generally free to use under its GNU General Public License v3.0. For any associated services or commercial offerings, visitors should check the official documentation.",
+    "limitations": "Specific limitations of agentbox are not provided. Visitors should check the official documentation.",
+    "licensing_notes": "This software is licensed under the GNU General Public License v3.0 (GPL-3.0). Users should review the full license text for specific permissions and obligations.",
+    "faq": [
+      {
+        "question": "Is agentbox free to use?",
+        "answer": "As an open-source project, agentbox is generally free to use under its specified GNU General Public License v3.0. For specific terms, refer to the full license text."
+      },
+      {
+        "question": "Where can I find more detailed information about agentbox?",
+        "answer": "For comprehensive details on features, usage, and system requirements, please refer to the official documentation available at https://github.com/savannahfeder/agentbox."
+      }
+    ]
+  },
+  "awesome-korean-agent-skills": {
+    "input_hash": "76df51f9045a83bdbf569c94114336a34d4e0b8988824d67b61c7918a0c597c3",
+    "generated_at": "2026-10-29",
+    "summary": "awesome-korean-agent-skills is an open-source software project. For a detailed understanding of its purpose and functionality, users should consult the official documentation.",
+    "what_it_does": "The specific functions of awesome-korean-agent-skills are not provided in the input. Visitors should check the official documentation for details on what it does.",
+    "best_for": "Without specific product details, it is not possible to determine who awesome-korean-agent-skills is best for. Visitors should check the official documentation.",
+    "free_tier": "As open-source software, awesome-korean-agent-skills is generally free to use under its Creative Commons Zero v1.0 Universal license. For any associated services or commercial offerings, visitors should check the official documentation.",
+    "limitations": "Specific limitations of awesome-korean-agent-skills are not provided. Visitors should check the official documentation.",
+    "licensing_notes": "This software is licensed under the Creative Commons Zero v1.0 Universal (CC0-1.0). Users should review the full license text for specific permissions and obligations.",
+    "faq": [
+      {
+        "question": "Is awesome-korean-agent-skills free to use?",
+        "answer": "As an open-source project, awesome-korean-agent-skills is generally free to use under its specified Creative Commons Zero v1.0 Universal. For specific terms, refer to the full license text."
+      },
+      {
+        "question": "Where can I find more detailed information about awesome-korean-agent-skills?",
+        "answer": "For comprehensive details on features, usage, and system requirements, please refer to the official documentation available at https://github.com/J-nowcow/awesome-korean-agent-skills."
+      }
+    ]
+  },
+  "hive": {
+    "input_hash": "d61c8d7a20733dd35978afc60e13f48d866da0d93c726206a208c7b0e8cd667d",
+    "generated_at": "2026-10-29",
+    "summary": "hive is an open-source software project. For a detailed understanding of its purpose and functionality, users should consult the official documentation.",
+    "what_it_does": "The specific functions of hive are not provided in the input. Visitors should check the official documentation for details on what it does.",
+    "best_for": "Without specific product details, it is not possible to determine who hive is best for. Visitors should check the official documentation.",
+    "free_tier": "As open-source software, hive is generally free to use under its Apache License 2.0. For any associated services or commercial offerings, visitors should check the official documentation.",
+    "limitations": "Specific limitations of hive are not provided. Visitors should check the official documentation.",
+    "licensing_notes": "This software is licensed under the Apache License 2.0 (Apache-2.0). Users should review the full license text for specific permissions and obligations.",
+    "faq": [
+      {
+        "question": "Is hive free to use?",
+        "answer": "As an open-source project, hive is generally free to use under its specified Apache License 2.0. For specific terms, refer to the full license text."
+      },
+      {
+        "question": "Where can I find more detailed information about hive?",
+        "answer": "For comprehensive details on features, usage, and system requirements, please refer to the official documentation available at https://github.com/hivecommons/hive."
+      }
+    ]
+  },
+  "kandev": {
+    "input_hash": "a082415e75c48be634bb2047d35dfc851fd0966a10c7591100839cee63368341",
+    "generated_at": "2026-10-29",
+    "summary": "kandev is an open-source software project. For a detailed understanding of its purpose and functionality, users should consult the official documentation.",
+    "what_it_does": "The specific functions of kandev are not provided in the input. Visitors should check the official documentation for details on what it does.",
+    "best_for": "Without specific product details, it is not possible to determine who kandev is best for. Visitors should check the official documentation.",
+    "free_tier": "As open-source software, kandev is generally free to use under its GNU Affero General Public License v3.0. For any associated services or commercial offerings, visitors should check the official documentation.",
+    "limitations": "Specific limitations of kandev are not provided. Visitors should check the official documentation.",
+    "licensing_notes": "This software is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). Users should review the full license text for specific permissions and obligations.",
+    "faq": [
+      {
+        "question": "Is kandev free to use?",
+        "answer": "As an open-source project, kandev is generally free to use under its specified GNU Affero General Public License v3.0. For specific terms, refer to the full license text."
+      },
+      {
+        "question": "Where can I find more detailed information about kandev?",
+        "answer": "For comprehensive details on features, usage, and system requirements, please refer to the official documentation available at https://github.com/kdlbs/kandev."
+      }
+    ]
+  },
+  "omnigent": {
+    "input_hash": "d6fa6adfa6b11e2df19363bb76252a476eaf6a14e6256c13ee19ec32750dfd47",
+    "generated_at": "2026-10-29",
+    "summary": "omnigent is an open-source software project. For a detailed understanding of its purpose and functionality, users should consult the official documentation.",
+    "what_it_does": "The specific functions of omnigent are not provided in the input. Visitors should check the official documentation for details on what it does.",
+    "best_for": "Without specific product details, it is not possible to determine who omnigent is best for. Visitors should check the official documentation.",
+    "free_tier": "As open-source software, omnigent is generally free to use under its Apache License 2.0. For any associated services or commercial offerings, visitors should check the official documentation.",
+    "limitations": "Specific limitations of omnigent are not provided. Visitors should check the official documentation.",
+    "licensing_notes": "This software is licensed under the Apache License 2.0 (Apache-2.0). Users should review the full license text for specific permissions and obligations.",
+    "faq": [
+      {
+        "question": "Is omnigent free to use?",
+        "answer": "As an open-source project, omnigent is generally free to use under its specified Apache License 2.0. For specific terms, refer to the full license text."
+      },
+      {
+        "question": "Where can I find more detailed information about omnigent?",
+        "answer": "For comprehensive details on features, usage, and system requirements, please refer to the official documentation available at https://github.com/omnigent-ai/omnigent."
+      }
+    ]
+  },
+  "sweet-search": {
+    "input_hash": "331eb9a4d486e7e5be8bb68295475f219816942e58d858a201f0375e48762f42",
+    "generated_at": "2026-10-29",
+    "summary": "sweet-search is an open-source software project. For a detailed understanding of its purpose and functionality, users should consult the official documentation.",
+    "what_it_does": "The specific functions of sweet-search are not provided in the input. Visitors should check the official documentation for details on what it does.",
+    "best_for": "Without specific product details, it is not possible to determine who sweet-search is best for. Visitors should check the official documentation.",
+    "free_tier": "As open-source software, sweet-search is generally free to use under its Apache License 2.0. For any associated services or commercial offerings, visitors should check the official documentation.",
+    "limitations": "Specific limitations of sweet-search are not provided. Visitors should check the official documentation.",
+    "licensing_notes": "This software is licensed under the Apache License 2.0 (Apache-2.0). Users should review the full license text for specific permissions and obligations.",
+    "faq": [
+      {
+        "question": "Is sweet-search free to use?",
+        "answer": "As an open-source project, sweet-search is generally free to use under its specified Apache License 2.0. For specific terms, refer to the full license text."
+      },
+      {
+        "question": "Where can I find more detailed information about sweet-search?",
+        "answer": "For comprehensive details on features, usage, and system requirements, please refer to the official documentation available at https://github.com/mrsladoje/sweet-search."
+      }
+    ]
+  },
+  "newrelic-client-go": {
+    "input_hash": "62b8b096f54e1f54731893ac6fcf99b43081675f3ae6de167e559094dbedf21e",
+    "generated_at": "2026-10-29",
+    "summary": "This is an open-source Go client library for interacting with the New Relic API. It simplifies programmatic access to New Relic services for Go developers.",
+    "what_it_does": "It provides a Go-idiomatic way to communicate with the New Relic platform, allowing developers to build applications or scripts that automate New Relic tasks, retrieve data, or manage configurations.",
+    "best_for": "Go developers and teams who need to integrate New Relic functionality into their Go applications, scripts, or automation workflows.",
+    "free_tier": "As open-source software, newrelic-client-go is generally free to use under its Apache-2.0 license. Any costs associated with New Relic services themselves are separate, and users should check New Relic's official documentation.",
+    "limitations": "Specific limitations regarding API coverage, rate limits, or Go version compatibility should be checked in the official documentation.",
+    "licensing_notes": "This software is licensed under the Apache License 20 (Apache-2.0). Users should review the full license text for specific permissions and obligations.",
+    "faq": [
+      {
+        "question": "What is newrelic-client-go used for?",
+        "answer": "It is a Go client library designed to facilitate interaction with the New Relic API, enabling programmatic management and data retrieval from New Relic services."
+      },
+      {
+        "question": "Where can I find examples or usage guides for this Go client?",
+        "answer": "The official documentation and examples are typically found within its GitHub repository at https://github.com/newrelic/newrelic-client-go."
+      }
+    ]
+  },
+  "clamav": {
+    "input_hash": "5fe33f1c2c62f8d8c33e8a87bb48133b52fce2fc41a6ee17f6ac3d8a4a88b234",
+    "generated_at": "2026-10-29",
+    "summary": "ClamAV is an open-source antivirus engine designed for detecting various types of malicious software. It is completely free and licensed under the GNU General Public License v2.",
+    "what_it_does": "It provides a command-line scanner, a daemon, and a freshclam tool for automatic updates, primarily used for scanning email gateways and file servers for viruses and malware.",
+    "best_for": "Users and organizations seeking a free, open-source solution for malware detection, especially for server-side scanning and email gateway protection.",
+    "free_tier": "ClamAV is entirely free and open-source, offering full functionality without any paid tiers or feature restrictions.",
+    "limitations": "As an open-source project, it relies on community contributions for development and support. Specific platform support or real-time protection capabilities should be verified with official documentation.",
+    "licensing_notes": "ClamAV is licensed under the GNU General Public License v2 (GPLv2), making it free to use, distribute, and modify.",
+    "faq": [
+      {
+        "question": "Is ClamAV truly free?",
+        "answer": "Yes, ClamAV is completely free and open-source software."
+      },
+      {
+        "question": "What is the license for ClamAV?",
+        "answer": "ClamAV is licensed under the GNU General Public License v2 (GPLv2)."
+      }
+    ]
+  },
+  "vim": {
+    "input_hash": "b86a5080d410c79d990fccf0b1feda545a318ff4ec6a1d55787a5947313ec489",
+    "generated_at": "2026-10-29",
+    "summary": "Vim is a highly configurable, free, and open-source text editor known for its efficiency and powerful command-line interface. It is distributed under the GPL-compatible Vim charityware license.",
+    "what_it_does": "It allows users to create and edit text files efficiently, offering extensive features for programming, scripting, and general text manipulation through keyboard commands.",
+    "best_for": "Developers, system administrators, and power users who prefer a keyboard-driven workflow and require a highly customizable text editing environment.",
+    "free_tier": "Vim is entirely free and open-source, providing full functionality without any paid versions or feature limitations.",
+    "limitations": "Its steep learning curve can be a barrier for new users accustomed to graphical user interfaces. Specific platform support should be verified with official documentation.",
+    "licensing_notes": "Vim is distributed under the GPL-compatible Vim License, which is a charityware license. While free to use, users are encouraged to donate to children in Uganda.",
+    "faq": [
+      {
+        "question": "Is Vim free to use?",
+        "answer": "Yes, Vim is free and open-source software."
+      },
+      {
+        "question": "What is the Vim License?",
+        "answer": "The Vim License is a GPL-compatible charityware license, encouraging users to donate to charity."
+      }
+    ]
+  },
+  "penpot": {
+    "input_hash": "3dd56135633004f9e6957513e955921d245414f02052e34898eaacd1563306c9",
+    "generated_at": "2026-10-29",
+    "summary": "Penpot is a web-based, open-source design and prototyping tool that operates entirely in the browser. It is licensed under the Mozilla Public License 2.0 (MPL 2.0).",
+    "what_it_does": "It enables designers and developers to create user interfaces, prototypes, and design systems collaboratively directly within a web browser.",
+    "best_for": "Design teams, developers, and individuals looking for a free, open-source, and collaborative web-based solution for UI/UX design and prototyping.",
+    "free_tier": "Penpot is fully open-source and free to use, offering all its features without any paid tiers.",
+    "limitations": "As a web-based tool, its performance and offline capabilities may depend on browser and internet connection. Specific feature parity with proprietary tools should be verified with official documentation.",
+    "licensing_notes": "Penpot is open-source software licensed under the Mozilla Public License 2.0 (MPL 2.0), allowing for free use, modification, and distribution.",
+    "faq": [
+      {
+        "question": "Is Penpot free to use?",
+        "answer": "Yes, Penpot is completely free and open-source."
+      },
+      {
+        "question": "What is Penpot's license?",
+        "answer": "Penpot is licensed under the Mozilla Public License 2.0 (MPL 2.0)."
+      }
+    ]
+  },
+  "superantispyware": {
+    "input_hash": "8366862921243cabed2828c4f8cc41cb998a5ba91022e2bcc8951864024fa77a",
+    "generated_at": "2026-10-29",
+    "summary": "SUPERAntiSpyware is an anti-spyware solution offering a Free Edition for personal, non-commercial use, with a paid Professional license available for advanced features and commercial deployment.",
+    "what_it_does": "It scans, detects, and removes various forms of malware, including spyware, adware, trojans, and worms, from Windows computers.",
+    "best_for": "Individual home users seeking a free tool for on-demand malware scanning and removal. Businesses or users needing real-time protection and advanced features would opt for the Professional version.",
+    "free_tier": "A Free Edition is available for personal, non-commercial use, providing on-demand scanning and removal of malware.",
+    "limitations": "The Free Edition lacks real-time protection, automatic updates, and scheduled scanning. These and other advanced features are reserved for the paid Professional license.",
+    "licensing_notes": "SUPERAntiSpyware offers a Free Edition for personal, non-commercial use. A paid Professional license is required to unlock real-time protection, automatic updates, and commercial use.",
+    "faq": [
+      {
+        "question": "Is SUPERAntiSpyware free?",
+        "answer": "Yes, a Free Edition is available for personal, non-commercial use."
+      },
+      {
+        "question": "What features are missing from the Free Edition?",
+        "answer": "The Free Edition does not include real-time protection, automatic updates, or scheduled scanning."
+      }
+    ]
+  },
+  "techsmith-camtasia": {
+    "input_hash": "95149064aa8c0a3c7feea7bc3f16b4a783e46677cdf2b321d8d4ed7e6d20fa02",
+    "generated_at": "2026-10-29",
+    "summary": "TechSmith Camtasia is a proprietary commercial software for video recording and editing, requiring a paid license for full functionality after a limited free trial.",
+    "what_it_does": "It allows users to record screen activity, webcam footage, and audio, then edit these recordings into professional-looking videos with various effects, transitions, and annotations.",
+    "best_for": "Educators, content creators, and businesses who need a comprehensive tool for creating tutorials, presentations, and marketing videos.",
+    "free_tier": "A limited free trial is typically available, but full standard usage requires a paid license or subscription.",
+    "limitations": "Full features and commercial use are locked behind a paid license. The free trial period is limited in duration and may have feature restrictions.",
+    "licensing_notes": "TechSmith Camtasia is proprietary commercial software. A paid license or subscription is required for standard usage, following a limited free trial period.",
+    "faq": [
+      {
+        "question": "Is TechSmith Camtasia free to use?",
+        "answer": "No, it is paid commercial software, though a limited free trial is usually available."
+      },
+      {
+        "question": "Do I need a license for Camtasia?",
+        "answer": "Yes, a paid license or subscription is required for standard usage after the trial period."
+      }
+    ]
+  },
+  "bbedit": {
+    "input_hash": "1e52b1e1a78dc144d4cc69de92f1a0f07328c0a404a421c7dedf51097368300d",
+    "generated_at": "2026-10-29",
+    "summary": "BBEdit is a proprietary commercial text and code editor for macOS, offering a 30-day full-featured trial that reverts to a limited free mode if not licensed.",
+    "what_it_does": "It provides powerful tools for editing text, HTML, and code, including features like syntax highlighting, grep pattern matching, and FTP/SFTP integration.",
+    "best_for": "macOS developers, web designers, and writers who require a robust, feature-rich text editor for coding, scripting, and prose.",
+    "free_tier": "After a 30-day full-featured evaluation, BBEdit reverts to a limited free mode that retains core text editing capabilities.",
+    "limitations": "The free mode has reduced functionality compared to the licensed version, with advanced features like FTP/SFTP, project management, and advanced text manipulation requiring a paid license.",
+    "licensing_notes": "BBEdit is proprietary commercial software. A 30-day full-featured trial is available, after which a paid license is needed to unlock advanced features permanently. It can be used in a limited free mode without a license.",
+    "faq": [
+      {
+        "question": "Is there a free version of BBEdit?",
+        "answer": "Yes, after a 30-day full-featured trial, it reverts to a limited free mode."
+      },
+      {
+        "question": "What features require a paid license in BBEdit?",
+        "answer": "Advanced features like FTP/SFTP integration and full project management require a paid license."
+      }
+    ]
+  },
+  "treesize-free": {
+    "input_hash": "059e5a611e6af034ef95e67223ee1918be7fdc35d14403c98c001bcab3c29658",
+    "generated_at": "2026-10-29",
+    "summary": "TreeSize Free is a proprietary freeware utility designed to analyze disk space usage on Windows systems. It is free for both personal and commercial use.",
+    "what_it_does": "It scans hard drives and displays folder sizes in a tree-like structure, helping users identify large files and directories consuming disk space.",
+    "best_for": "Any Windows user, whether personal or commercial, who needs to quickly visualize and manage disk space usage to free up storage.",
+    "free_tier": "TreeSize Free is entirely freeware, offering its core disk space analysis features without any cost for personal or commercial use.",
+    "limitations": "As the \"Free\" edition, it has fewer features compared to the paid TreeSize Personal or Professional versions, which offer more advanced analysis, reporting, and management options.",
+    "licensing_notes": "TreeSize Free is proprietary freeware, meaning it is free to use for both personal and commercial purposes without requiring a license purchase.",
+    "faq": [
+      {
+        "question": "Is TreeSize Free truly free?",
+        "answer": "Yes, TreeSize Free is freeware and can be used without cost."
+      },
+      {
+        "question": "Can I use TreeSize Free for commercial purposes?",
+        "answer": "Yes, TreeSize Free is explicitly free for both personal and commercial use."
+      }
+    ]
+  },
+  "resilio-sync": {
+    "input_hash": "57986bb7e1cf0a9332798919f2cf9b5d82c19d8bbb7807d125d516115900b64b",
+    "generated_at": "2026-10-29",
+    "summary": "Resilio Sync is a file synchronization solution that offers a free basic tier for personal use and requires a paid license for commercial and business deployments.",
+    "what_it_does": "It enables direct, peer-to-peer file synchronization across multiple devices without relying on cloud servers, ensuring data privacy and speed.",
+    "best_for": "Individuals needing private, fast file synchronization across their personal devices. Businesses and organizations requiring robust, scalable, and managed file synchronization will need the paid commercial version.",
+    "free_tier": "A free basic version is available for personal use, offering core file synchronization capabilities.",
+    "limitations": "The free basic tier is restricted to personal use and may have limitations on features, number of folders, or advanced controls. Commercial and business deployments require a paid Sync Business subscription.",
+    "licensing_notes": "Resilio Sync offers a free basic tier for personal use. A paid Sync Business subscription license is required for commercial and business deployments.",
+    "faq": [
+      {
+        "question": "Is Resilio Sync free?",
+        "answer": "A free basic version is available for personal use."
+      },
+      {
+        "question": "Can I use Resilio Sync for my business for free?",
+        "answer": "No, commercial and business deployments require a paid Sync Business subscription license."
+      }
+    ]
+  },
+  "timescaledb": {
+    "input_hash": "a02f97f09aa521c6cc45bea1e131ce190563121ec14b76c9345585f53d430114",
+    "generated_at": "2026-10-29",
+    "summary": "TimescaleDB is a time-series database built on PostgreSQL, dual-licensed with its core under Apache License 2.0 and advanced community features under the source-available Timescale License.",
+    "what_it_does": "It provides powerful SQL for time-series data, enabling efficient storage, querying, and analysis of large volumes of time-stamped information.",
+    "best_for": "Developers and organizations working with time-series data, such as IoT, monitoring, and financial data, who benefit from PostgreSQL compatibility and specialized time-series features.",
+    "free_tier": "The core database is open-source under Apache License 2.0, and advanced community features are available free of charge under the Timescale License.",
+    "limitations": "While community features are free, enterprise-grade features, support, and managed services typically require a paid offering. Users should check official documentation for specific feature distinctions.",
+    "licensing_notes": "TimescaleDB is dual-licensed. Its core is under the permissive Apache License 2.0, while advanced community features are available under the source-available Timescale License, free of charge.",
+    "faq": [
+      {
+        "question": "Is TimescaleDB open source?",
+        "answer": "Its core is open source under Apache License 2.0, and community features are available under the source-available Timescale License."
+      },
+      {
+        "question": "Are there any free versions of TimescaleDB?",
+        "answer": "Yes, both the Apache 2.0 core and the advanced community features under the Timescale License are available free of charge."
+      }
+    ]
+  },
+  "camunda": {
+    "input_hash": "8aa16e2f4a51226d2785e7d637ca1d69ccc5a9afaf6b4f22fd5ded1b0ea3f704",
+    "generated_at": "2026-10-29",
+    "summary": "Camunda is a process automation platform that offers free use for development and non-production environments, while commercial production deployments require a paid license.",
+    "what_it_does": "It provides tools for designing, automating, and monitoring business processes and decisions using BPMN and DMN standards.",
+    "best_for": "Developers and organizations looking to automate complex business processes. The free tier is suitable for development and testing, while the paid license is for commercial production use.",
+    "free_tier": "Camunda offers free use for development and non-production environments under its source-available license.",
+    "limitations": "Commercial production environments require a paid license. The free tier is explicitly for non-production use.",
+    "licensing_notes": "Camunda uses a source-available license that permits free use for non-production and development purposes. A paid license is required for commercial production environments.",
+    "faq": [
+      {
+        "question": "Can I use Camunda for free?",
+        "answer": "Yes, it is free for development and non-production use."
+      },
+      {
+        "question": "Is a license required for commercial use of Camunda?",
+        "answer": "Yes, a paid license is required for commercial production environments."
+      }
+    ]
+  },
+  "apache-spark": {
+    "input_hash": "be463eb3d20a7d976a031bb96f7396fef20f77f2559b8605d5fa944cb8062ca8",
+    "generated_at": "2026-10-29",
+    "summary": "Apache Spark is a powerful open-source unified analytics engine for large-scale data processing. It is distributed under the permissive Apache License 2.0.",
+    "what_it_does": "It provides an in-memory computing framework for big data, enabling fast data processing, machine learning, stream processing, and graph computations.",
+    "best_for": "Data engineers, data scientists, and organizations dealing with big data analytics, machine learning, and real-time data processing.",
+    "free_tier": "Apache Spark is entirely free and open-source, offering full functionality without any paid tiers or feature restrictions.",
+    "limitations": "While the software itself is free, deploying and managing large-scale Spark clusters can require significant infrastructure and expertise. Specific platform support should be verified with official documentation.",
+    "licensing_notes": "Apache Spark is open-source software distributed under the Apache License 2.0, which permits unrestricted commercial and personal use.",
+    "faq": [
+      {
+        "question": "Is Apache Spark free to use?",
+        "answer": "Yes, Apache Spark is completely free and open-source."
+      },
+      {
+        "question": "Can Apache Spark be used commercially?",
+        "answer": "Yes, the Apache License 2.0 allows for unrestricted commercial and personal use."
+      }
+    ]
+  },
+  "ghidra": {
+    "input_hash": "af018831024fbf936b5d981653a634cff66c9bd6c326d3b2346d8aa2c5bd386e",
+    "generated_at": "2026-10-29",
+    "summary": "Ghidra is a free and open-source software reverse engineering (SRE) framework developed by the NSA. It is released under the Apache License 2.0.",
+    "what_it_does": "It helps analysts understand compiled code by providing features like disassembly, assembly, decompilation, graphing, and scripting capabilities for various processor instruction sets.",
+    "best_for": "Cybersecurity professionals, reverse engineers, malware analysts, and researchers who need a powerful and free tool for analyzing compiled software.",
+    "free_tier": "Ghidra is entirely free and open-source, offering its full suite of reverse engineering tools without any cost or feature limitations.",
+    "limitations": "As a complex reverse engineering tool, it requires specialized knowledge and experience to use effectively. Specific platform support should be verified with official documentation.",
+    "licensing_notes": "Ghidra is free, open-source software released under the Apache License 2.0, allowing for unrestricted commercial and personal use.",
+    "faq": [
+      {
+        "question": "Is Ghidra free?",
+        "answer": "Yes, Ghidra is free and open-source software."
+      },
+      {
+        "question": "What is Ghidra's license?",
+        "answer": "Ghidra is released under the Apache License 2.0."
+      }
+    ]
+  },
+  "process-lasso": {
+    "input_hash": "6b66d2aa509222a3130f25ed3a17dbf54234ad3ac86559ff4dd9ef72b7240b76",
+    "generated_at": "2026-10-29",
+    "summary": "Process Lasso is a Windows process automation and optimization tool that offers a free edition for personal home use with core functionality, and a paid Pro license for advanced features and commercial use.",
+    "what_it_does": "It optimizes CPU affinity, process priorities, and power plans dynamically to improve system responsiveness and stability, especially under heavy load.",
+    "best_for": "Individual home users seeking to improve their PC's performance and responsiveness. Businesses or power users needing advanced features and commercial deployment will require the Pro version.",
+    "free_tier": "A free edition is available for personal home use, providing core process optimization functionalities.",
+    "limitations": "The free edition is restricted to personal home use and lacks advanced features and settings available in the paid Pro license. Commercial use requires a Pro license.",
+    "licensing_notes": "Process Lasso offers a free edition for personal home use with core functionality. A paid Pro license is required to unlock all advanced features and for commercial use.",
+    "faq": [
+      {
+        "question": "Is Process Lasso free?",
+        "answer": "Yes, a free edition is available for personal home use."
+      },
+      {
+        "question": "Can I use Process Lasso for my business?",
+        "answer": "Commercial use requires a paid Pro license."
+      }
+    ]
+  },
+  "easeus-todo-backup-home": {
+    "input_hash": "b94ce99a7d14432b4463d120be63d82c31f80db275acf2d6ebe642fc89382274",
+    "generated_at": "2026-10-29",
+    "summary": "EaseUS Todo Backup Home is a proprietary backup software designed for home users, requiring a paid commercial license for full access to its features.",
+    "what_it_does": "It provides comprehensive backup and recovery solutions for home users, including system backup, file backup, disk imaging, and disaster recovery.",
+    "best_for": "Home users who need a reliable and feature-rich solution for backing up their operating system, files, and entire disks.",
+    "free_tier": "No explicit free tier is mentioned for the \"Home\" edition; users should check the official documentation for trial availability or other free versions.",
+    "limitations": "Full home backup features require a purchased license key. Without a license, functionality may be limited or unavailable.",
+    "licensing_notes": "EaseUS Todo Backup Home is a paid edition that requires a purchased commercial license key to access its full suite of home backup features.",
+    "faq": [
+      {
+        "question": "Is EaseUS Todo Backup Home free?",
+        "answer": "No, it is a paid edition requiring a purchased license key."
+      },
+      {
+        "question": "What is required to use EaseUS Todo Backup Home?",
+        "answer": "A paid commercial license key is required for full home backup features."
+      }
+    ]
+  },
+  "vmware-fusion": {
+    "input_hash": "7010f8ce099d5517cce0e76793ed6acf999f110449f9453c13d18f453710c579",
+    "generated_at": "2026-10-29",
+    "summary": "VMware Fusion is a virtualization software for macOS that allows users to run Windows, Linux, and other operating systems as virtual machines. It is now free for both personal and commercial use.",
+    "what_it_does": "It enables macOS users to create and run virtual machines, facilitating software development, testing, and running applications that require different operating systems.",
+    "best_for": "macOS users, developers, and IT professionals who need to run multiple operating systems concurrently on their Mac for personal or commercial purposes.",
+    "free_tier": "VMware Fusion is now entirely free for both personal and commercial use, offering its full virtualization capabilities without cost.",
+    "limitations": "While the software is free, running guest operating systems may require separate licenses for those OSes. Performance can depend on host hardware resources.",
+    "licensing_notes": "VMware Fusion is free for both personal and commercial use, as announced by Broadcom in November 2024.",
+    "faq": [
+      {
+        "question": "Is VMware Fusion free?",
+        "answer": "Yes, VMware Fusion is now free for both personal and commercial use."
+      },
+      {
+        "question": "Can I use VMware Fusion for commercial purposes without a license?",
+        "answer": "Yes, it is free for both personal and commercial use."
+      }
+    ]
   }
 }
