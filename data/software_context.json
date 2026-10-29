@@ -4900,22 +4900,22 @@
     ]
   },
   "foundry-nuke": {
-    "input_hash": "1838f97a70dacd9f6439ce40e245af99c85b79d4771d1b03d89fb051d8c49bd6",
-    "generated_at": "2026-10-26",
-    "summary": "Foundry Nuke is proprietary commercial software for visual effects, requiring a paid license for professional use, with a restricted Non-Commercial version available for personal learning.",
-    "what_it_does": "It is a powerful node-based compositing software used in film, television, and animation for visual effects production.",
-    "best_for": "Professional visual effects artists, compositors, and studios working on high-end film and television productions.",
-    "free_tier": "A restricted Non-Commercial version is available for personal learning and non-commercial projects. Full commercial use requires a paid license.",
-    "limitations": "The Non-Commercial version has restrictions, which users should verify on the official website. Full commercial functionality and professional projects require a paid license.",
-    "licensing_notes": "Foundry Nuke is proprietary commercial software that requires a paid license for professional and commercial use. A separate, restricted Non-Commercial version is available for personal learning purposes.",
+    "input_hash": "0ae9578c4bb45e5f787e024dd0d1a321aa08077f31a5ac42c22f91afa12a4940",
+    "generated_at": "2026-10-29",
+    "summary": "Foundry Nuke is commercial visual effects software used in high-end film and television post-production.",
+    "what_it_does": "It provides advanced tools for compositing, editorial, and finishing, enabling artists to create complex visual effects.",
+    "best_for": "Professional visual effects artists, compositors, and studios working on feature films, television shows, and commercials.",
+    "free_tier": "A 'Try for free' option is available for evaluation.",
+    "limitations": "The 'Try for free' option likely has time or feature limitations. Users should check the official documentation for specific details.",
+    "licensing_notes": "Foundry Nuke is proprietary commercial software that requires a paid license for full use.",
     "faq": [
       {
-        "question": "Is there a free version of Foundry Nuke?",
-        "answer": "Yes, a restricted Non-Commercial version is available for personal learning, but professional use requires a paid license."
+        "question": "Is Foundry Nuke free to use?",
+        "answer": "No, Foundry Nuke is proprietary commercial software requiring a paid license. A 'Try for free' option is available for evaluation."
       },
       {
-        "question": "What is Foundry Nuke primarily used for?",
-        "answer": "Foundry Nuke is a leading node-based compositing software used extensively in the visual effects industry for film and television."
+        "question": "What kind of license does Foundry Nuke use?",
+        "answer": "It uses a proprietary commercial license. Specifics regarding license types (e.g., perpetual, subscription) should be checked on the official website."
       }
     ]
   },
@@ -5040,22 +5040,22 @@
     ]
   },
   "coreldraw": {
-    "input_hash": "664846f999a1cd4d10fd98b77f8661b75e6763eecf6f81e4cc4cece490e5ace7",
-    "generated_at": "2026-10-26",
-    "summary": "CorelDRAW is a commercial graphic design software suite that requires a paid subscription or a full license purchase for use.",
-    "what_it_does": "It provides a comprehensive set of tools for vector illustration, layout, photo editing, and typography.",
-    "best_for": "Professional graphic designers, artists, and businesses needing a robust suite for vector graphics and desktop publishing.",
-    "free_tier": "There is no free tier for full, unrestricted use; a paid subscription or license purchase is required. Users should check the official website for trial availability.",
-    "limitations": "Full functionality requires a paid subscription or license. Users should check official documentation for specific feature sets or platform support.",
-    "licensing_notes": "CorelDRAW is paid commercial software. Users must acquire a paid subscription or make a one-time license purchase to use the software.",
+    "input_hash": "ea33f9afcbcfbd9e96d5f6d62dbdeb45f50328b56b8bb77fd599f125254d2888",
+    "generated_at": "2026-10-29",
+    "summary": "CorelDRAW is a commercial graphic design software suite offering tools for vector illustration and page layout.",
+    "what_it_does": "It provides a comprehensive set of applications for creating professional designs, from logos and web graphics to multi-page brochures.",
+    "best_for": "Graphic designers, illustrators, and artists needing a complete suite for vector graphics, layout, and photo editing.",
+    "free_tier": "A 'Try free' option is available for evaluation.",
+    "limitations": "The 'Try free' option likely has time or feature limitations. Users should check the official documentation for specific details.",
+    "licensing_notes": "CorelDRAW is paid commercial software. Different editions are available, which may offer varying feature sets and pricing.",
     "faq": [
       {
-        "question": "Is CorelDRAW available for free?",
-        "answer": "No, CorelDRAW is commercial software that requires a paid subscription or a full license purchase."
+        "question": "Can I use CorelDRAW for free?",
+        "answer": "CorelDRAW is paid commercial software, but a 'Try free' option is available for evaluation."
       },
       {
-        "question": "What types of design work is CorelDRAW suitable for?",
-        "answer": "CorelDRAW is suitable for a wide range of graphic design tasks, including vector illustration, page layout, and photo editing."
+        "question": "Are there different versions of CorelDRAW?",
+        "answer": "Yes, the notes mention different editions such as Go, Standard, and Graphics Suite Professional, which likely offer varying features."
       }
     ]
   },
@@ -5440,42 +5440,42 @@
     ]
   },
   "fl-studio": {
-    "input_hash": "d4a466d27df2c9d5c5b143f1343a4c6586c8881bdde1a114a2370ceb2b0e2999",
-    "generated_at": "2026-10-26",
-    "summary": "FL Studio is a digital audio workstation (DAW) for music production. It requires a paid license for full functionality and commercial production.",
-    "what_it_does": "It provides tools for composing, arranging, recording, editing, mixing, and mastering music, suitable for various genres and production styles.",
-    "best_for": "Music producers, artists, and sound engineers who need a comprehensive DAW for commercial and personal music production.",
-    "free_tier": "FL Studio requires a paid license for full functionality. Check official documentation for trial availability.",
-    "limitations": "Without a paid license, full functionality and commercial production capabilities are not available. Specific limitations of any trial version should be checked in the official documentation.",
-    "licensing_notes": "FL Studio requires a paid license for full functionality and commercial production. This paid license typically includes lifetime free updates.",
+    "input_hash": "48c492d35be036e2a784891ddbcc42ca365c9cf292bc447332cab625a8c949c7",
+    "generated_at": "2026-10-29",
+    "summary": "FL Studio is commercial digital audio workstation (DAW) software.",
+    "what_it_does": "It provides a complete software music production environment for composing, arranging, recording, editing, mixing, and mastering music.",
+    "best_for": "Music producers, DJs, and musicians looking for a comprehensive platform to create and produce electronic music and other genres.",
+    "free_tier": "A 'Try for free' option is available for evaluation.",
+    "limitations": "The 'Try for free' option likely has functional or time limitations. Users should check the official documentation for specific details.",
+    "licensing_notes": "FL Studio is paid commercial software. The notes indicate it includes lifetime free updates with a paid license.",
     "faq": [
       {
-        "question": "Can I use FL Studio for free?",
-        "answer": "FL Studio requires a paid license for full functionality. Please check the official documentation for any trial versions."
+        "question": "Is FL Studio free?",
+        "answer": "No, FL Studio is paid commercial music production software. A 'Try for free' option is available for evaluation."
       },
       {
-        "question": "What does a paid FL Studio license include?",
-        "answer": "A paid license provides full functionality for commercial production and typically includes lifetime free updates."
+        "question": "Does FL Studio offer lifetime updates?",
+        "answer": "The notes indicate that paid licenses include lifetime free updates."
       }
     ]
   },
   "ableton-live": {
-    "input_hash": "c092762a9abfedb6d78fbe6be1d3e1f9f2027539ab4fea86a5a4ae8f99d348b0",
-    "generated_at": "2026-10-26",
-    "summary": "Ableton Live is commercial digital audio software known for its intuitive interface and performance capabilities. It requires a paid user license following a trial period.",
-    "what_it_does": "It enables users to create, produce, and perform music, offering features for composition, recording, mixing, and live electronic music performance.",
-    "best_for": "Musicians, producers, and live performers seeking a versatile DAW for studio production and live electronic music performance.",
-    "free_tier": "A trial period is available before a paid license is required. Specific duration should be checked in official documentation.",
-    "limitations": "Full functionality and continued use require a paid license after the trial period. Specific limitations of the trial should be checked in the official documentation.",
-    "licensing_notes": "Ableton Live is commercial software that requires a paid user license for continued use. A trial period is typically offered before purchase.",
+    "input_hash": "71bcf62472abded17123c33e4dc7213f379342df165e7677400c23a0ac61a849",
+    "generated_at": "2026-10-29",
+    "summary": "Ableton Live is commercial digital audio workstation (DAW) software.",
+    "what_it_does": "It is used for music creation, production, and live performance, offering a unique session view for improvisation and arrangement.",
+    "best_for": "Musicians, producers, and live performers who need a versatile tool for both studio production and stage performance.",
+    "free_tier": "A 'Live Lite' version is mentioned, which is typically a limited free version. 'Rent-to-own' options are also noted.",
+    "limitations": "The 'Live Lite' version likely has feature or track count limitations. Users should check official documentation for specifics on 'Live Lite' and 'rent-to-own' terms.",
+    "licensing_notes": "Ableton Live is paid commercial software. 'Live 12 Suite' is available for purchase, and 'rent-to-own' options are mentioned.",
     "faq": [
       {
-        "question": "Is there a free version of Ableton Live?",
-        "answer": "A trial period is available, after which a paid user license is required for continued use."
+        "question": "Is Ableton Live free?",
+        "answer": "Ableton Live is commercial software, but a 'Live Lite' version is mentioned, which is typically a limited free version."
       },
       {
-        "question": "Can I use Ableton Live for commercial projects?",
-        "answer": "Yes, with a paid user license, it is suitable for commercial production."
+        "question": "What licensing options are available for Ableton Live?",
+        "answer": "It is available for purchase, and 'rent-to-own' options are also mentioned."
       }
     ]
   },
@@ -6040,22 +6040,22 @@
     ]
   },
   "rhino-3d": {
-    "input_hash": "5c52c6fb51c0ee935d36c5a96fc9272dbf27ca860dc01881fcb440eec39707f4",
-    "generated_at": "2026-10-26",
-    "summary": "Rhino 3D is a commercial CAD software used for 3D modeling, design, and manufacturing. It offers powerful tools for creating, editing, analyzing, and rendering complex 3D models.",
-    "what_it_does": "Provides comprehensive 3D modeling capabilities for product design, architecture, engineering, and manufacturing.",
-    "best_for": "Designers, architects, engineers, and manufacturers who need advanced 3D modeling tools.",
-    "free_tier": "Offers a 90-day evaluation trial.",
-    "limitations": "A paid commercial or educational license is required after the 90-day trial period for continued use.",
-    "licensing_notes": "Paid commercial license required after a 90-day trial period.",
+    "input_hash": "4734c74dcd322d23422b4826c9b03f6e80b5d64d4f772894b3e8ffcaf4eef4cf",
+    "generated_at": "2026-10-29",
+    "summary": "Rhino 3D is commercial 3D modeling software known for its versatility and precision.",
+    "what_it_does": "It enables users to create, edit, analyze, document, render, animate, and translate NURBS curves, surfaces, and solids.",
+    "best_for": "Designers, architects, engineers, and artists who require robust tools for complex 3D modeling and design.",
+    "free_tier": "A 90-day free evaluation trial is available.",
+    "limitations": "After the 90-day trial period, a paid license is required for continued use.",
+    "licensing_notes": "A paid commercial or student perpetual license is required after the evaluation trial period.",
     "faq": [
       {
         "question": "Is Rhino 3D free?",
-        "answer": "Rhino 3D offers a 90-day evaluation trial. After the trial, a paid license is required for continued use."
+        "answer": "Rhino 3D offers a 90-day free evaluation trial. After this period, a paid license is required for continued use."
       },
       {
-        "question": "What types of licenses are available for Rhino 3D?",
-        "answer": "Rhino 3D offers commercial and educational licenses. Please visit the official website for details on license types and pricing."
+        "question": "What kind of license does Rhino 3D offer?",
+        "answer": "It offers paid commercial or student perpetual licenses."
       }
     ]
   },
@@ -6100,62 +6100,62 @@
     ]
   },
   "memcached": {
-    "input_hash": "926f12050d196793f0127435f3b355d327d85c20e1d296800378a77fe6b67ec7",
-    "generated_at": "2026-10-26",
-    "summary": "Memcached is a high-performance, distributed memory object caching system. It's designed to speed up dynamic web applications by alleviating database load.",
-    "what_it_does": "Caches data in RAM to reduce the number of times data must be read from a slower storage system, improving application performance.",
-    "best_for": "Web developers and system administrators looking to improve the performance of database-driven applications.",
-    "free_tier": "N/A (Open Source)",
-    "limitations": "Please check the official documentation for specific limitations or considerations.",
-    "licensing_notes": "Permissive Open Source (3-Clause BSD License), allowing free use, modification, and distribution for both commercial and non-commercial purposes.",
+    "input_hash": "e050c6589865ce22258cec12310d58d085c0370d189d8cece8b26123f76a4022",
+    "generated_at": "2026-10-29",
+    "summary": "Memcached is a free and open-source distributed memory caching system.",
+    "what_it_does": "It is designed to speed up dynamic web applications by caching data and objects in RAM, reducing the load on databases.",
+    "best_for": "Developers and system administrators looking to improve the performance and scalability of web applications and services.",
+    "free_tier": "Memcached is free and open-source software.",
+    "limitations": "As an open-source project, official commercial support might not be directly provided by the core project, though community support is available.",
+    "licensing_notes": "It is distributed under the permissive 3-Clause BSD License, allowing free use, modification, and distribution for both commercial and non-commercial purposes.",
     "faq": [
       {
         "question": "Is Memcached free to use?",
-        "answer": "Yes, Memcached is free and open-source under the 3-Clause BSD License, which permits free use for both commercial and non-commercial purposes."
+        "answer": "Yes, Memcached is free and open-source software."
       },
       {
-        "question": "What is the primary purpose of Memcached?",
-        "answer": "Memcached's primary purpose is to speed up dynamic web applications by caching database query results and other objects in RAM, reducing database load."
+        "question": "What license does Memcached use?",
+        "answer": "It is distributed under the permissive 3-Clause BSD License."
       }
     ]
   },
   "capture-one": {
-    "input_hash": "1d6749e5081027e713ee7cdccdbf8507953ee70e8881acc492cb0f77e03fd048",
-    "generated_at": "2026-10-26",
-    "summary": "Capture One is a professional photo editing software known for its advanced RAW image processing, color editing tools, and tethered shooting capabilities.",
-    "what_it_does": "Provides tools for professional photo editing, including RAW conversion, color grading, layer editing, and asset management.",
-    "best_for": "Professional photographers and serious enthusiasts who require high-end image editing and RAW processing capabilities.",
-    "free_tier": "No free tier is currently available. Previously offered free Express editions have been retired.",
-    "limitations": "Requires a paid subscription or perpetual license for use. Please check the official website for current pricing and feature details.",
-    "licensing_notes": "Proprietary paid subscription or perpetual license required.",
+    "input_hash": "ebe960544a28531af32a9ddc83e98963b89fb4edf53be84e48926b092e75ef2e",
+    "generated_at": "2026-10-29",
+    "summary": "Capture One is commercial professional photo editing and tethering software.",
+    "what_it_does": "It provides advanced tools for raw image processing, photo editing, cataloging, and tethered capture for photographers.",
+    "best_for": "Professional photographers and studios requiring high-quality image processing, color grading, and efficient workflow management.",
+    "free_tier": "A 'Try for free' option is available for evaluation.",
+    "limitations": "The 'Try for free' option likely has time or feature limitations. Users should check the official documentation for specific details.",
+    "licensing_notes": "Capture One is proprietary software requiring a paid subscription or a perpetual license.",
     "faq": [
       {
         "question": "Is Capture One free?",
-        "answer": "No, Capture One requires a paid subscription or perpetual license for use. Free Express editions have been retired."
+        "answer": "No, Capture One is proprietary commercial software. A 'Try for free' option is available for evaluation."
       },
       {
-        "question": "What are the main features of Capture One?",
-        "answer": "Capture One offers advanced RAW editing, powerful color tools, layers, tethered capture, and asset management. For a comprehensive list, please refer to the official Capture One website."
+        "question": "What kind of license does Capture One offer?",
+        "answer": "It requires a paid subscription or a perpetual license."
       }
     ]
   },
   "openvpn-community-edition": {
-    "input_hash": "f50dc9a232fc7114b57e45fd338516650440a5ea6b855943081241333ea95ef6",
-    "generated_at": "2026-10-26",
-    "summary": "OpenVPN Community Edition is a robust and highly scalable open-source VPN solution. It allows users to create secure point-to-point or site-to-site connections.",
-    "what_it_does": "Enables the creation of secure, encrypted network connections (VPNs) over the internet for remote access and site-to-site connectivity.",
-    "best_for": "Individuals and organizations needing a secure and flexible VPN solution for remote access or network bridging.",
-    "free_tier": "N/A (Open Source)",
-    "limitations": "Please check the official documentation for specific limitations or configuration requirements.",
-    "licensing_notes": "Free and open-source under the GNU General Public License version 2 (GPLv2), making it free to use for both personal and commercial purposes.",
+    "input_hash": "4246f633425ece82aae890828d2ea154a7dffc489902eeb47e2c51dcec53787a",
+    "generated_at": "2026-10-29",
+    "summary": "OpenVPN Community Edition is a free and open-source software application that implements virtual private network (VPN) techniques.",
+    "what_it_does": "It creates secure point-to-point or site-to-site connections in routed or bridged configurations and remote access facilities.",
+    "best_for": "Individuals and organizations seeking a customizable and secure open-source VPN solution for network security and remote access.",
+    "free_tier": "OpenVPN Community Edition is free and open-source software.",
+    "limitations": "As a community edition, it relies on community support and may require more technical expertise to set up compared to commercial VPN solutions.",
+    "licensing_notes": "It is licensed under the GNU General Public License version 2 (GPLv2), making it free to use for both personal and commercial purposes.",
     "faq": [
       {
         "question": "Is OpenVPN Community Edition free?",
-        "answer": "Yes, OpenVPN Community Edition is free and open-source under the GPLv2 license, usable for both personal and commercial purposes."
+        "answer": "Yes, it is free and open-source software."
       },
       {
-        "question": "What is OpenVPN used for?",
-        "answer": "OpenVPN is used to create secure virtual private networks (VPNs) to encrypt internet traffic, provide secure remote access to networks, and connect geographically separated sites."
+        "question": "What license does OpenVPN Community Edition use?",
+        "answer": "It is licensed under the GNU General Public License version 2 (GPLv2)."
       }
     ]
   },
@@ -6200,62 +6200,62 @@
     ]
   },
   "node-js": {
-    "input_hash": "0f657a7cd214036b7b57ee535acb1f45e19c9be63cf07a39044999d51b23cb0c",
-    "generated_at": "2026-10-26",
-    "summary": "Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to build scalable network applications. It enables server-side JavaScript execution.",
-    "what_it_does": "Provides a runtime environment for executing JavaScript code outside of a web browser, enabling server-side development and building fast, scalable applications.",
-    "best_for": "Developers building server-side applications, APIs, real-time services, and microservices using JavaScript.",
-    "free_tier": "N/A (Open Source)",
-    "limitations": "Please check the official documentation for specific limitations or considerations.",
-    "licensing_notes": "MIT License, allowing free use for both personal and commercial applications.",
+    "input_hash": "4a6f4af966f8de564011a66e0349d90e794bcb7b17bfe5c9944257de4d0e78b1",
+    "generated_at": "2026-10-29",
+    "summary": "Node.js is a free and open-source JavaScript runtime environment.",
+    "what_it_does": "It allows developers to execute JavaScript code outside a web browser, commonly used for building scalable network applications.",
+    "best_for": "Web developers building server-side applications, APIs, and real-time services using JavaScript.",
+    "free_tier": "Node.js is free and open-source software.",
+    "limitations": "As an open-source project, support is primarily community-driven.",
+    "licensing_notes": "It is distributed under the permissive open-source MIT License, allowing free use for both personal and commercial applications.",
     "faq": [
       {
         "question": "Is Node.js free to use?",
-        "answer": "Yes, Node.js is free and open-source under the permissive MIT License, allowing its use in both personal and commercial projects."
+        "answer": "Yes, Node.js is free and open-source software."
       },
       {
-        "question": "What is Node.js used for?",
-        "answer": "Node.js is primarily used for building server-side applications, APIs, microservices, real-time applications (like chat apps), and command-line tools."
+        "question": "What license does Node.js use?",
+        "answer": "It is distributed under the permissive MIT License."
       }
     ]
   },
   "godot-engine": {
-    "input_hash": "aebbaa2cd7ba2124f05fdec9c2cb4a28d476822868cf939c55b188539b819f58",
-    "generated_at": "2026-10-26",
-    "summary": "Godot Engine is a free and open-source, cross-platform game engine for creating 2D and 3D games. It offers a complete suite of tools for game development.",
-    "what_it_does": "Provides a comprehensive environment for designing and developing games, including a scene editor, scripting capabilities, and rendering engine.",
-    "best_for": "Game developers of all levels, from hobbyists to professionals, looking for a powerful, free, and open-source game engine.",
-    "free_tier": "N/A (Open Source)",
-    "limitations": "Please check the official documentation for specific limitations or considerations.",
-    "licensing_notes": "Free and open-source under the MIT License, allowing unrestricted commercial and non-commercial use without royalties.",
+    "input_hash": "4234ca3fcffad8b418945440455f6355e242c660e51d0d8519d6e5ce9cfb0b54",
+    "generated_at": "2026-10-29",
+    "summary": "Godot Engine is a free and open-source 2D and 3D game engine.",
+    "what_it_does": "It provides a comprehensive set of tools for game development, including a visual editor, scripting, and physics engine.",
+    "best_for": "Game developers, from hobbyists to professionals, looking for a flexible and royalty-free game development platform.",
+    "free_tier": "Godot Engine is completely free and open-source.",
+    "limitations": "As an open-source project, community support is the primary channel for assistance.",
+    "licensing_notes": "It is completely free and open-source under the permissive MIT License, allowing unrestricted commercial and non-commercial use without royalties.",
     "faq": [
       {
-        "question": "Is Godot Engine free?",
-        "answer": "Yes, Godot Engine is completely free and open-source under the MIT License, with no royalties or hidden fees."
+        "question": "Is Godot Engine free to use?",
+        "answer": "Yes, Godot Engine is completely free and open-source."
       },
       {
-        "question": "What kind of games can be made with Godot Engine?",
-        "answer": "Godot Engine can be used to create both 2D and 3D games for various platforms, including desktop, mobile, and web. Please refer to the official website for more details on supported features."
+        "question": "Are there any royalties for games made with Godot Engine?",
+        "answer": "No, the MIT License allows unrestricted commercial and non-commercial use without royalties."
       }
     ]
   },
   "keycloak": {
-    "input_hash": "c9aeb0fa916381c126b9398d41767d90df1ac2c53abb46b7ef01963d8be771d4",
-    "generated_at": "2026-10-26",
-    "summary": "Keycloak is an open-source Identity and Access Management solution. It provides authentication and access management features for modern applications and services.",
-    "what_it_does": "Manages user identities, authentication, and authorization for applications and services, simplifying security management.",
-    "best_for": "Developers and organizations needing a robust, self-hosted solution for managing user authentication and authorization.",
-    "free_tier": "N/A (Open Source)",
-    "limitations": "Please check the official documentation for specific limitations or deployment considerations.",
-    "licensing_notes": "Apache License 2.0, a permissive open-source license.",
+    "input_hash": "478f32ae6c792ad22d3aa7dbb9d9ad630c19cb3e50623eeb99711f81480d0f2a",
+    "generated_at": "2026-10-29",
+    "summary": "Keycloak is a free and open-source identity and access management solution.",
+    "what_it_does": "It provides features like single sign-on (SSO), identity brokering, and user federation for applications and services.",
+    "best_for": "Developers and organizations needing to secure applications and services with robust authentication and authorization capabilities.",
+    "free_tier": "Keycloak is fully open-source and free to use.",
+    "limitations": "As an open-source project, support is primarily community-driven, though commercial support options may exist from third parties.",
+    "licensing_notes": "It is a fully open-source solution distributed under the Apache License 2.0.",
     "faq": [
       {
         "question": "Is Keycloak free to use?",
-        "answer": "Yes, Keycloak is a fully open-source solution distributed under the Apache License 2.0, making it free to use for any purpose."
+        "answer": "Yes, Keycloak is a fully open-source identity and access management solution."
       },
       {
-        "question": "What is Keycloak used for?",
-        "answer": "Keycloak is used for single sign-on (SSO), identity brokering, social login, user federation, and fine-grained authorization for applications and services."
+        "question": "What license does Keycloak use?",
+        "answer": "It is distributed under the Apache License 2.0."
       }
     ]
   },
@@ -6700,82 +6700,82 @@
     ]
   },
   "freecad": {
-    "input_hash": "b3ea5ccd5c4df89db021cce95ba08c5eb194a89ed200dc4cd6643ea83e025b2a",
-    "generated_at": "2026-10-26",
-    "summary": "FreeCAD is free and open-source software licensed under LGPLv2+. It allows free use, modification, and distribution for both personal and commercial purposes.",
-    "what_it_does": "FreeCAD is a parametric 3D CAD modeler primarily designed for mechanical engineering and product design.",
-    "best_for": "Engineers, designers, and hobbyists who need a free and open-source parametric 3D CAD tool for personal or commercial projects.",
-    "free_tier": "FreeCAD is entirely free and open-source software.",
-    "limitations": "As open-source software, its capabilities are driven by community development. Users should check official documentation for specific feature sets and platform support.",
-    "licensing_notes": "FreeCAD is licensed under LGPLv2+, which permits free use, modification, and distribution for both personal and commercial purposes.",
+    "input_hash": "0bc07c19f7db7a5dd428bbb593bcf710949cb0297c12f64e35334298d729e443",
+    "generated_at": "2026-10-29",
+    "summary": "FreeCAD is a free and open-source parametric 3D CAD modeler.",
+    "what_it_does": "It allows users to design real-life objects of any size, with features for mechanical engineering, product design, and architecture.",
+    "best_for": "Engineers, architects, designers, and hobbyists needing a free tool for 3D modeling and design with parametric capabilities.",
+    "free_tier": "FreeCAD is free and open-source software.",
+    "limitations": "As an open-source project, official commercial support might not be directly provided by the core project, though community support is available.",
+    "licensing_notes": "It is licensed under LGPLv2+, allowing free use, modification, and distribution for both personal and commercial purposes.",
     "faq": [
       {
-        "question": "Is FreeCAD truly free for all uses?",
-        "answer": "Yes, FreeCAD is free and open-source software licensed under LGPLv2+, allowing free use, modification, and distribution for personal and commercial purposes."
+        "question": "Is FreeCAD free to use?",
+        "answer": "Yes, FreeCAD is free and open-source software."
       },
       {
-        "question": "What kind of license does FreeCAD use?",
-        "answer": "FreeCAD is licensed under the GNU Lesser General Public License version 2 or later (LGPLv2+)."
+        "question": "What license does FreeCAD use?",
+        "answer": "It is licensed under LGPLv2+, allowing free use for personal and commercial purposes."
       }
     ]
   },
   "macrium-reflect-home": {
-    "input_hash": "c41ecaa68b4f5ecafbf1dd0e2217d3c3f515bcbd35c574648ad9ba548a9166f7",
-    "generated_at": "2026-10-26",
-    "summary": "Macrium Reflect Home is paid commercial software that requires a license or active subscription. The previously available free edition has been retired.",
-    "what_it_does": "Macrium Reflect Home is a disk imaging and backup solution for personal use, designed to protect data and restore systems.",
-    "best_for": "Home users who need a reliable solution for backing up their data, creating disk images, and recovering their systems.",
-    "free_tier": "There is no free tier available for Macrium Reflect Home, as the free edition has been retired.",
-    "limitations": "A paid license or active subscription is required for all uses of Macrium Reflect Home.",
-    "licensing_notes": "Macrium Reflect Home is paid commercial software. It requires a purchased license or an active subscription for use, as its free edition is no longer available. Consult the official documentation for current licensing options.",
+    "input_hash": "43edc5f3f40a15b2ea6d08cfa51cb276bab1885026fbb7e1627e11964ebda884",
+    "generated_at": "2026-10-29",
+    "summary": "Macrium Reflect Home is commercial backup and recovery software designed for home users.",
+    "what_it_does": "It creates accurate and reliable disk images and backups of operating systems, applications, and data to protect against data loss.",
+    "best_for": "Home users needing to protect their data and system with reliable backup, disk imaging, and disaster recovery solutions.",
+    "free_tier": "The notes do not explicitly mention a free tier for the Home edition. Users should check the official documentation for any free trial or limited versions.",
+    "limitations": "As paid commercial software, full functionality requires a license. Any trial versions would have time or feature limitations.",
+    "licensing_notes": "Macrium Reflect Home is paid commercial software requiring a license. It offers specific options tailored 'For Home Users'.",
     "faq": [
       {
-        "question": "Is there a free version of Macrium Reflect Home?",
-        "answer": "No, the free edition of Macrium Reflect has been retired. Macrium Reflect Home now requires a paid license or active subscription."
+        "question": "Is Macrium Reflect Home free?",
+        "answer": "No, Macrium Reflect Home is paid commercial software requiring a license. Users should check the official documentation for any trial options."
       },
       {
-        "question": "What kind of license does Macrium Reflect Home require?",
-        "answer": "Macrium Reflect Home requires a paid commercial license or an active subscription."
+        "question": "What is Macrium Reflect Home used for?",
+        "answer": "It is commercial backup and recovery software designed to protect data and systems for home users."
       }
     ]
   },
   "cinema-4d": {
-    "input_hash": "9d90121888dff0e150e5e8ae568f2fd0cf3e1a51dfc8946a51e19c879ab66361",
-    "generated_at": "2026-10-26",
-    "summary": "Cinema 4D is commercial proprietary software that requires a paid subscription or license for general use.",
-    "what_it_does": "Cinema 4D is a professional 3D modeling, animation, simulation, and rendering software.",
-    "best_for": "3D artists, motion graphics designers, and visual effects professionals who need a powerful and intuitive tool for creating high-quality 3D content.",
-    "free_tier": "There is no perpetual free tier for Cinema 4D. Users should check the official documentation for any trial options.",
-    "limitations": "A paid subscription or license is required for all general use of Cinema 4D.",
-    "licensing_notes": "Cinema 4D is commercial proprietary software. A paid subscription or license is required for general use. Refer to the official documentation for current pricing and licensing models.",
+    "input_hash": "eb8087c194d2e5d6fdd55b5fbd72bfdd960107a8ddadf845b481e91bcd8c44d0",
+    "generated_at": "2026-10-29",
+    "summary": "Cinema 4D is commercial 3D modeling, animation, simulation, and rendering software.",
+    "what_it_does": "It provides tools for creating advanced 3D graphics, motion graphics, visual effects, and architectural visualizations.",
+    "best_for": "3D artists, motion graphic designers, and visual effects professionals seeking a powerful and intuitive 3D creation suite.",
+    "free_tier": "The notes indicate it is paid commercial software. Users should check the official documentation for any free trial or evaluation options.",
+    "limitations": "As proprietary commercial software, full functionality requires a paid license or subscription.",
+    "licensing_notes": "Cinema 4D is proprietary commercial software requiring a paid subscription or license. Mentions of 'Plan includes' and 'Redshift subscription' suggest subscription-based models.",
     "faq": [
       {
-        "question": "Is Cinema 4D available for free?",
-        "answer": "No, Cinema 4D is commercial proprietary software that requires a paid subscription or license for general use."
+        "question": "Is Cinema 4D free to use?",
+        "answer": "No, Cinema 4D is proprietary commercial software that requires a paid subscription or license. Users should check the official documentation for any trial options."
       },
       {
-        "question": "What type of license does Cinema 4D use?",
-        "answer": "Cinema 4D uses a paid proprietary license, typically offered as a subscription or a perpetual license."
+        "question": "What kind of licensing does Cinema 4D offer?",
+        "answer": "It requires a paid subscription or license, with mentions of plans and Redshift subscriptions."
       }
     ]
   },
   "fork": {
-    "input_hash": "dddcd76c022443f26591eeb672cb7e94c2dce56615d560be899d3a685fd7f0c2",
-    "generated_at": "2026-10-26",
-    "summary": "Fork is commercial proprietary software that requires a purchased license for continued use after a free evaluation period.",
-    "what_it_does": "Fork is a fast and friendly Git client for macOS and Windows, designed to simplify version control tasks.",
-    "best_for": "Developers who prefer a graphical user interface for managing their Git repositories and need a robust client for daily version control tasks.",
-    "free_tier": "A free evaluation period is available.",
-    "limitations": "A purchased license is required for continued use after the evaluation period.",
-    "licensing_notes": "Fork is commercial proprietary software. It offers a free evaluation period, after which a purchased license is required for continued use. Check the official documentation for current pricing and licensing terms.",
+    "input_hash": "1e3375c55c444999964a8dc9728a262a0a630626852d0983f38b60500ed932fe",
+    "generated_at": "2026-10-29",
+    "summary": "Fork is commercial proprietary Git client software.",
+    "what_it_does": "It provides a user-friendly graphical interface for managing Git repositories, commits, branches, and merges.",
+    "best_for": "Developers and teams working with Git for version control who prefer a visual and intuitive interface.",
+    "free_tier": "A free evaluation period is offered.",
+    "limitations": "After the free evaluation period, a paid license is required for continued use.",
+    "licensing_notes": "Fork is proprietary commercial software that costs $59.99 after a free evaluation period.",
     "faq": [
       {
-        "question": "Can I use Fork for free indefinitely?",
-        "answer": "Fork offers a free evaluation period. A purchased license is required for continued use after this period."
+        "question": "Is Fork free to use?",
+        "answer": "Fork offers a free evaluation period, after which a paid license is required for continued use."
       },
       {
-        "question": "What kind of license does Fork require?",
-        "answer": "Fork is commercial proprietary software that requires a purchased license for continued use."
+        "question": "What is the cost of Fork?",
+        "answer": "After the free evaluation period, a license costs $59.99."
       }
     ]
   },
@@ -7796,6 +7796,306 @@
       {
         "question": "What does Snyk protect against?",
         "answer": "Snyk helps identify and fix vulnerabilities in open-source dependencies, container images, and Infrastructure as Code."
+      }
+    ]
+  },
+  "rocket-chat": {
+    "input_hash": "6f8cdcc64931d98154a016a36249fef839b433bd41eb7939d5c30753a9a0b21c",
+    "generated_at": "2026-10-29",
+    "summary": "Rocket.Chat is an open-source communication platform for teams. It offers real-time chat, video conferencing, and file sharing capabilities.",
+    "what_it_does": "Provides a self-hostable or cloud-hosted platform for team communication, including chat, voice and video calls, and file sharing.",
+    "best_for": "Organizations seeking a customizable and self-hosted communication solution with advanced enterprise features available through add-ons.",
+    "free_tier": "The core platform is open-source and free to use.",
+    "limitations": "Advanced enterprise capabilities and hosted cloud plans require a commercial license.",
+    "licensing_notes": "The core platform is open-source under the MIT License. Commercial enterprise add-ons and hosted plans require a separate license.",
+    "faq": [
+      {
+        "question": "Is Rocket.Chat free to use?",
+        "answer": "The core Rocket.Chat platform is open-source and free. However, premium enterprise features and hosted cloud plans require a commercial license."
+      },
+      {
+        "question": "What kind of support is available?",
+        "answer": "Support details and options depend on the chosen license and plan. For specific support information, please check the official documentation."
+      }
+    ]
+  },
+  "final-cut-pro": {
+    "input_hash": "1425ba14601c363cf88d195d38a7f3ab496ae1c9ec11bd6ea074d9535e3427ea",
+    "generated_at": "2026-10-29",
+    "summary": "Final Cut Pro is a professional video editing software for macOS and iPadOS. It offers advanced tools for editing, color grading, and audio mixing.",
+    "what_it_does": "Enables professional video editing, motion graphics, and audio post-production on Apple devices.",
+    "best_for": "Video editors and content creators on Mac and iPad who need powerful, professional-grade editing tools.",
+    "free_tier": "Offers a 90-day free trial.",
+    "limitations": "Requires a paid purchase for Mac or a paid subscription for iPad after the trial period.",
+    "licensing_notes": "Proprietary paid software. A one-time purchase is required for the Mac version, and a subscription is needed for the iPad version.",
+    "faq": [
+      {
+        "question": "Is there a free version of Final Cut Pro?",
+        "answer": "Final Cut Pro offers a 90-day free trial. After the trial, a paid purchase or subscription is required."
+      },
+      {
+        "question": "What platforms does Final Cut Pro support?",
+        "answer": "Final Cut Pro is available for macOS and iPadOS."
+      }
+    ]
+  },
+  "enterprise-architect": {
+    "input_hash": "422496f57271fd5e6b123d28b14e41b8a678d317880860115dd81c71d2e14b06",
+    "generated_at": "2026-10-29",
+    "summary": "Enterprise Architect is a comprehensive UML modeling and design tool. It supports business process modeling, software design, and enterprise architecture.",
+    "what_it_does": "Facilitates the design, visualization, and documentation of complex systems and business processes using various modeling languages.",
+    "best_for": "Software architects, business analysts, and system engineers who need a robust tool for modeling and design.",
+    "free_tier": "No free tier is mentioned; a paid license is required.",
+    "limitations": "Requires a paid license per user for full functionality.",
+    "licensing_notes": "Commercial software requiring a paid license per user.",
+    "faq": [
+      {
+        "question": "Is there a free trial for Enterprise Architect?",
+        "answer": "Information regarding a free trial is not provided. Please check the official documentation for details."
+      },
+      {
+        "question": "What types of modeling does Enterprise Architect support?",
+        "answer": "It supports UML, BPMN, ArchiMate, and other modeling standards for software and enterprise architecture."
+      }
+    ]
+  },
+  "solidworks": {
+    "input_hash": "4143315701565a1a04e9ef788db1b3cf56bd263b1ff07a94fa394ca0526f17b0",
+    "generated_at": "2026-10-29",
+    "summary": "SolidWorks is a 3D CAD software for product design and engineering. It enables users to create, simulate, and manage designs.",
+    "what_it_does": "Provides tools for 3D design, simulation, data management, and technical communication for product development.",
+    "best_for": "Engineers, designers, and manufacturers requiring powerful 3D modeling and simulation capabilities.",
+    "free_tier": "No free tier is mentioned; a paid license is required for all editions.",
+    "limitations": "Requires a paid license for commercial, educational, and personal maker editions.",
+    "licensing_notes": "Proprietary paid software. Licenses are required for all usage tiers.",
+    "faq": [
+      {
+        "question": "Can I use SolidWorks for free?",
+        "answer": "SolidWorks requires a paid license for all its editions, including commercial, educational, and personal maker versions."
+      },
+      {
+        "question": "What are the system requirements for SolidWorks?",
+        "answer": "System requirements vary depending on the version. Please refer to the official SolidWorks website for detailed specifications."
+      }
+    ]
+  },
+  "graylog": {
+    "input_hash": "68139f248ba9ddcfa17e2fd0c64949c5a009965dce4acda4930a5b229d6a1923",
+    "generated_at": "2026-10-29",
+    "summary": "Graylog is a log management platform that helps collect, index, and analyze machine data. It offers a free core version and paid enterprise tiers.",
+    "what_it_does": "Collects, stores, indexes, and analyzes log data from various sources to aid in troubleshooting, security monitoring, and operational insights.",
+    "best_for": "IT operations, security teams, and developers needing to manage and analyze large volumes of log data.",
+    "free_tier": "Graylog Open is a free core edition.",
+    "limitations": "Advanced features, scalability, and support are available through paid enterprise licenses.",
+    "licensing_notes": "The core version (Graylog Open) is licensed under the SSPL. Enterprise features require paid licenses.",
+    "faq": [
+      {
+        "question": "Is Graylog free?",
+        "answer": "Graylog offers a free core edition called Graylog Open. However, advanced features and enterprise capabilities require paid licenses."
+      },
+      {
+        "question": "What is the SSPL license?",
+        "answer": "The Server Side Public License (SSPL) is a free and open-source license that requires users who offer the software as a service to make the source code available."
+      }
+    ]
+  },
+  "plex-media-server": {
+    "input_hash": "8199fae453b80e096802d7d34b8f5baf026463abf6d2512259f2c5d085b8602f",
+    "generated_at": "2026-10-29",
+    "summary": "Plex Media Server is a media server that organizes personal media libraries and streams them to various devices. It's free for personal use with optional paid features.",
+    "what_it_does": "Organizes personal video, music, and photo collections and streams them to clients on various devices over a network or the internet.",
+    "best_for": "Individuals and families who want to manage and stream their personal media content across multiple devices.",
+    "free_tier": "Free for personal home use.",
+    "limitations": "Premium features like hardware acceleration, mobile sync, and live TV/DVR require a paid Plex Pass subscription or one-time unlock.",
+    "licensing_notes": "Freemium model. Free for personal use, with optional paid subscription (Plex Pass) for premium features.",
+    "faq": [
+      {
+        "question": "Is Plex Media Server free?",
+        "answer": "Plex Media Server is free for personal home use. However, certain premium features require a paid Plex Pass subscription."
+      },
+      {
+        "question": "What devices can I stream to with Plex?",
+        "answer": "Plex supports a wide range of devices including smart TVs, streaming boxes, game consoles, smartphones, and web browsers."
+      }
+    ]
+  },
+  "trello": {
+    "input_hash": "86024c87cdbe18bf26cac0214dc30439e37172e7c70908d93e3f400eb39a1e3e",
+    "generated_at": "2026-10-29",
+    "summary": "Trello is a visual collaboration tool that organizes projects into boards, lists, and cards. It offers a free tier for basic use and paid plans for advanced features.",
+    "what_it_does": "Allows users to manage projects and tasks visually using a Kanban-style board interface.",
+    "best_for": "Individuals and teams looking for a flexible and visual way to organize tasks and projects.",
+    "free_tier": "Offers a basic free tier with core features.",
+    "limitations": "Advanced features, unlimited boards, and enterprise management capabilities require a paid subscription.",
+    "licensing_notes": "Proprietary freemium SaaS. A paid subscription is required for advanced features and higher usage limits.",
+    "faq": [
+      {
+        "question": "Is Trello free?",
+        "answer": "Trello offers a free tier with essential features for individuals and small teams. Paid plans unlock advanced functionality and higher limits."
+      },
+      {
+        "question": "What are the benefits of a paid Trello plan?",
+        "answer": "Paid plans offer features like unlimited boards, advanced checklists, custom fields, enhanced security, and administrative controls."
+      }
+    ]
+  },
+  "unraid": {
+    "input_hash": "74ec20ba5c9da2242e2662b24c0412a4a03839fee06bd6025a43ec434f5e9d8e",
+    "generated_at": "2026-10-29",
+    "summary": "Unraid is a versatile operating system for managing data, applications, and virtual machines. It requires a paid license after a trial period.",
+    "what_it_does": "Provides a flexible NAS solution for home users and small businesses, enabling storage pooling, application deployment via Docker, and VM hosting.",
+    "best_for": "Users looking to build a custom NAS, media server, or home lab with flexible storage and application capabilities.",
+    "free_tier": "Offers a 30-day free trial.",
+    "limitations": "A paid license key is required for continued use beyond the 30-day trial period.",
+    "licensing_notes": "Proprietary software requiring a paid license key for all continued use after the 30-day trial.",
+    "faq": [
+      {
+        "question": "Is Unraid free?",
+        "answer": "Unraid offers a 30-day free trial. After the trial, a paid license is required for continued use."
+      },
+      {
+        "question": "What is Unraid used for?",
+        "answer": "Unraid is used for building Network Attached Storage (NAS) devices, media servers, application servers (via Docker), and virtual machines."
+      }
+    ]
+  },
+  "gitea": {
+    "input_hash": "3df47814d0594492a5aab435a52023d632d56720bd9e7fc3ad4efbde6a5ea3ef",
+    "generated_at": "2026-10-29",
+    "summary": "Gitea is a lightweight, self-hosted Git service. It is written in Go and is designed to be easy to install and run.",
+    "what_it_does": "Provides a self-hosted Git repository management solution with features like issue tracking, pull requests, and wikis.",
+    "best_for": "Developers and teams seeking a simple, fast, and self-hosted alternative to platforms like GitHub or GitLab.",
+    "free_tier": "Fully open-source and free to use.",
+    "limitations": "As a self-hosted solution, limitations are primarily dependent on the user's server resources and configuration.",
+    "licensing_notes": "Distributed under the permissive MIT License, allowing free use for personal and commercial purposes.",
+    "faq": [
+      {
+        "question": "Is Gitea free?",
+        "answer": "Yes, Gitea is completely free and open-source software under the MIT License."
+      },
+      {
+        "question": "Can I use Gitea for commercial projects?",
+        "answer": "Yes, the MIT License allows for free use in both personal and commercial projects."
+      }
+    ]
+  },
+  "adobe-after-effects": {
+    "input_hash": "2956dde645816d3382f0521f9eb48b3757cee2db441cd272d7c662a29237a80a",
+    "generated_at": "2026-10-29",
+    "summary": "Adobe After Effects is a powerful motion graphics and visual effects software. It is used for creating animated titles, intros, and visual effects for film, TV, and web.",
+    "what_it_does": "Enables the creation of sophisticated motion graphics, visual effects, and compositing for video content.",
+    "best_for": "Motion graphics designers, visual effects artists, and video editors needing professional tools for animation and VFX.",
+    "free_tier": "Offers a free trial, typically 7 days.",
+    "limitations": "Requires a paid subscription to Adobe Creative Cloud for continued use.",
+    "licensing_notes": "Proprietary software requiring a paid subscription through Adobe Creative Cloud.",
+    "faq": [
+      {
+        "question": "Is there a free version of Adobe After Effects?",
+        "answer": "Adobe After Effects offers a free trial period. After the trial, a paid subscription is required."
+      },
+      {
+        "question": "What is Adobe Creative Cloud?",
+        "answer": "Adobe Creative Cloud is a subscription service that provides access to a collection of Adobe software applications, including After Effects."
+      }
+    ]
+  },
+  "suricata": {
+    "input_hash": "b1bba9b3cc1eed986083425b60224422bd42bad27468ef9759b2d8e9f94e30ae",
+    "generated_at": "2026-10-29",
+    "summary": "Suricata is an open-source threat detection engine for network security. It provides intrusion detection, prevention, and network security monitoring.",
+    "what_it_does": "Analyzes network traffic in real-time to detect and alert on malicious activity, vulnerabilities, and policy violations.",
+    "best_for": "Network security professionals and organizations needing a robust, open-source solution for intrusion detection and prevention.",
+    "free_tier": "Free and open-source.",
+    "limitations": "As an open-source tool, limitations are primarily related to implementation, configuration, and the need for skilled personnel.",
+    "licensing_notes": "Licensed under the GNU General Public License version 2 (GPLv2).",
+    "faq": [
+      {
+        "question": "Is Suricata free to use?",
+        "answer": "Yes, Suricata is free and open-source software licensed under the GPLv2."
+      },
+      {
+        "question": "What is the primary function of Suricata?",
+        "answer": "Suricata functions as a network threat detection engine, providing intrusion detection, intrusion prevention, and network security monitoring capabilities."
+      }
+    ]
+  },
+  "alfred": {
+    "input_hash": "29dfe9505db289763fcd47df9757d2d0521994d78f8b8e1d4f7888646e0f5030",
+    "generated_at": "2026-10-29",
+    "summary": "Alfred is a productivity application for macOS that enhances the default Spotlight search. It offers a free version with basic features and a paid Powerpack for advanced functionality.",
+    "what_it_does": "Acts as a powerful app launcher, web search tool, and file finder, with advanced features like custom workflows and snippets available via an add-on.",
+    "best_for": "macOS users seeking to improve their productivity through a faster and more versatile application launcher and search tool.",
+    "free_tier": "The core Alfred app launcher is free to download and use.",
+    "limitations": "Advanced features such as Workflows, Snippets, and Themes require the purchase of the Powerpack license.",
+    "licensing_notes": "Freemium model. The basic launcher is free; advanced features require a paid Powerpack license.",
+    "faq": [
+      {
+        "question": "Is Alfred free?",
+        "answer": "The core Alfred application, including its basic launcher and search functions, is free. Advanced features require the paid Powerpack."
+      },
+      {
+        "question": "What is the Alfred Powerpack?",
+        "answer": "The Powerpack is a paid license for Alfred that unlocks advanced features like Workflows, Snippets, Themes, and more powerful customization options."
+      }
+    ]
+  },
+  "affinity-photo": {
+    "input_hash": "14b3439c8977c29c988a9167a2231044805ab42815b28ae2754c8ffd54db9d13",
+    "generated_at": "2026-10-29",
+    "summary": "Affinity Photo is a professional raster graphics editor for macOS, Windows, and iPadOS. It offers advanced photo editing and manipulation tools.",
+    "what_it_does": "Provides a comprehensive suite of tools for photo editing, retouching, compositing, and graphic design.",
+    "best_for": "Photographers, designers, and artists looking for a powerful, affordable alternative to other professional photo editing software.",
+    "free_tier": "No free tier is mentioned; a paid license is required.",
+    "limitations": "Requires a paid perpetual license for both personal and commercial use.",
+    "licensing_notes": "Proprietary paid software with a one-time purchase for a perpetual license.",
+    "faq": [
+      {
+        "question": "Is Affinity Photo free?",
+        "answer": "Affinity Photo is not free; it requires a paid one-time purchase for a perpetual license."
+      },
+      {
+        "question": "Can I use Affinity Photo for commercial work?",
+        "answer": "Yes, the perpetual license allows for both personal and commercial use."
+      }
+    ]
+  },
+  "nessus": {
+    "input_hash": "c72cbe9aea22016e23e5ed6b8f880198cb2171dcc6a720acdbde854b59d46937",
+    "generated_at": "2026-10-29",
+    "summary": "Nessus is a popular vulnerability scanner used for security auditing. It offers a free limited version for non-commercial use and paid versions for commercial use.",
+    "what_it_does": "Scans systems and networks to identify vulnerabilities, misconfigurations, and potential security threats.",
+    "best_for": "Security professionals, IT auditors, and system administrators for vulnerability assessment and compliance checks.",
+    "free_tier": "Nessus Essentials is free for non-commercial use, limited to 16 IP addresses.",
+    "limitations": "Commercial use requires a paid subscription to Nessus Professional or Expert, which offer more features and higher IP limits.",
+    "licensing_notes": "Proprietary subscription-based software. A free limited tier exists for non-commercial evaluation.",
+    "faq": [
+      {
+        "question": "Is Nessus free?",
+        "answer": "Nessus Essentials is free for non-commercial use, supporting up to 16 IP addresses. Commercial use requires a paid subscription."
+      },
+      {
+        "question": "What is the difference between Nessus Essentials and Nessus Professional?",
+        "answer": "Nessus Essentials is for non-commercial use with a limit of 16 IPs. Nessus Professional is a paid product for commercial use with broader capabilities and higher limits."
+      }
+    ]
+  },
+  "adobe-substance-3d-painter": {
+    "input_hash": "c07f35c0472c2a749b305d2dc548c90a7009cf88dc61e1a090f3f314b2af1c9c",
+    "generated_at": "2026-10-29",
+    "summary": "Adobe Substance 3D Painter is a specialized 3D texturing software. It allows artists to paint textures directly onto 3D models with advanced features.",
+    "what_it_does": "Enables the creation of high-quality textures for 3D models used in games, film, and design, with features for PBR material creation.",
+    "best_for": "3D artists, game developers, and VFX professionals who need to create realistic and detailed textures for 3D assets.",
+    "free_tier": "Offers a free trial period.",
+    "limitations": "Requires a paid subscription or perpetual license for continued use.",
+    "licensing_notes": "Proprietary commercial software requiring a paid plan (subscription or perpetual license).",
+    "faq": [
+      {
+        "question": "Is Adobe Substance 3D Painter free?",
+        "answer": "Adobe Substance 3D Painter offers a free trial. Continued use requires a paid subscription or perpetual license."
+      },
+      {
+        "question": "What kind of licenses are available for Substance 3D Painter?",
+        "answer": "It is available through a paid subscription plan or potentially a perpetual license, depending on current Adobe offerings. Please check Adobe's website for details."
       }
     ]
   }
