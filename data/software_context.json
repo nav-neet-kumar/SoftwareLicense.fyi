@@ -8698,5 +8698,605 @@
         "answer": "Yes, it is free for both personal and commercial use."
       }
     ]
+  },
+  "storyforge": {
+    "input_hash": "dcc0907bcc2bb54833237c4c7852bfaef9cfd6a97fbb5cb9afb0559eba4fe740",
+    "generated_at": "2026-10-31",
+    "summary": "StoryForge is an open-source desktop application designed for creative and fiction writing, leveraging AI agents and Large Language Models (LLMs). It aims to provide a local-first environment for writers.",
+    "what_it_does": "It functions as a desktop application that assists with creative and fiction writing by integrating AI agents and LLMs. It features a Monaco editor for text input and processing.",
+    "best_for": "Creative writers, fiction authors, and individuals interested in using AI tools for writing in a local-first desktop environment.",
+    "free_tier": "As an open-source project under the MIT License, StoryForge is generally free to use. Users should consult the official documentation for specific usage terms.",
+    "limitations": "The provided information does not specify any limitations. Users should check the official documentation for details.",
+    "licensing_notes": "StoryForge is released under the MIT License. Users should consult the official license file for the full terms and conditions.",
+    "faq": [
+      {
+        "question": "Is StoryForge free to use?",
+        "answer": "Yes, StoryForge is an open-source project released under the MIT License, making it generally free to use."
+      },
+      {
+        "question": "What platforms does StoryForge support?",
+        "answer": "StoryForge is described as a 'desktop-app,' suggesting it runs on desktop operating systems. Users should check the official documentation for specific platform support."
+      }
+    ]
+  },
+  "javinizer-go": {
+    "input_hash": "a44ac6023fabf8cecbbe708535305edb1eec0a8328d1be077402edd4b9553909",
+    "generated_at": "2026-10-31",
+    "summary": "Javinizer-go is an open-source media organizer and metadata scraper, implemented in Go, available as a CLI tool and a desktop application. It also provides a REST API and Docker support.",
+    "what_it_does": "It helps organize media files and scrapes metadata, offering both a command-line interface and a desktop application for user interaction. It can be deployed via Docker and exposes a REST API.",
+    "best_for": "Users who need to organize media collections, scrape metadata, and prefer a tool with CLI, desktop, and API options, potentially for automation or integration.",
+    "free_tier": "As an open-source project under the MIT License, javinizer-go is generally free to use. Users should consult the official documentation for specific usage terms.",
+    "limitations": "The provided information does not specify any limitations. Users should check the official documentation for details.",
+    "licensing_notes": "Javinizer-go is released under the MIT License. Users should consult the official license file for the full terms and conditions.",
+    "faq": [
+      {
+        "question": "Is javinizer-go free to use?",
+        "answer": "Yes, javinizer-go is an open-source project released under the MIT License, making it generally free to use."
+      },
+      {
+        "question": "What platforms does javinizer-go support?",
+        "answer": "Javinizer-go is available as a 'desktop-app' and a 'cli' tool, and supports 'docker.' Users should check the official documentation for specific platform compatibility."
+      }
+    ]
+  },
+  "tuvis": {
+    "input_hash": "b2beeee0e0ffa88edfd06f5f5cd3bd118d3b8d7e7a66d4ae36e7164427b74771",
+    "generated_at": "2026-10-31",
+    "summary": "Tuvis is an open-source, cross-platform desktop application designed as an agent harness and manager for AI agents. It supports integration with models like Claude and Codex.",
+    "what_it_does": "It provides a framework or environment to manage and utilize AI agents, specifically mentioning support for Claude and Codex models. It operates as a desktop application across multiple platforms.",
+    "best_for": "Developers and users working with AI agents, particularly those utilizing Claude or Codex, who need a desktop-based, cross-platform management tool.",
+    "free_tier": "As an open-source project under the MIT License, tuvis is generally free to use. Users should consult the official documentation for specific usage terms.",
+    "limitations": "The provided information does not specify any limitations. Users should check the official documentation for details.",
+    "licensing_notes": "Tuvis is released under the MIT License. Users should consult the official license file for the full terms and conditions.",
+    "faq": [
+      {
+        "question": "Is tuvis free to use?",
+        "answer": "Yes, tuvis is an open-source project released under the MIT License, making it generally free to use."
+      },
+      {
+        "question": "What platforms does tuvis support?",
+        "answer": "Tuvis is described as a 'cross-platform' 'desktop-app,' indicating support for multiple desktop operating systems. Users should check the official documentation for specific platform compatibility."
+      }
+    ]
+  },
+  "rolle": {
+    "input_hash": "b39b3ebb9341f791e5ad7f5e2cb64e853f454a36697c11c1131d8209b54207cb",
+    "generated_at": "2026-10-31",
+    "summary": "Rolle is an open-source desktop application and CLI tool designed to manage cloud credentials, specifically for assuming roles in AWS, including AWS SSO, and potentially Azure.",
+    "what_it_does": "It facilitates the management and assumption of cloud roles and credentials, supporting AWS (including SSO) and Azure environments. It offers both a graphical desktop interface and a command-line interface.",
+    "best_for": "Cloud professionals, developers, and system administrators who frequently work with AWS and Azure, needing a tool to manage and assume roles and credentials efficiently.",
+    "free_tier": "As an open-source project under the GNU General Public License v3.0, rolle is generally free to use. Users should consult the official documentation for specific usage terms.",
+    "limitations": "The provided information does not specify any limitations. Users should check the official documentation for details.",
+    "licensing_notes": "Rolle is released under the GNU General Public License v3.0. Users should consult the official license file for the full terms and conditions.",
+    "faq": [
+      {
+        "question": "Is rolle free to use?",
+        "answer": "Yes, rolle is an open-source project released under the GNU General Public License v3.0, making it generally free to use."
+      },
+      {
+        "question": "What platforms does rolle support?",
+        "answer": "Rolle is available as a 'desktop-app' and a 'cli' tool. Users should check the official documentation for specific platform compatibility."
+      }
+    ]
+  },
+  "corum-harness": {
+    "input_hash": "d5a1234117812de53b631cc5e3e7368d86763abca57ec09cd0b3c8a7fd97ece8",
+    "generated_at": "2026-10-31",
+    "summary": "Corum-Harness is an open-source desktop application built with Electron, functioning as a harness for AI agents and an agent operating system. It appears to be based on Deepseek-Harness.",
+    "what_it_does": "It provides an environment or framework (harness) for running and managing AI agents, potentially acting as an 'agent-os.' It is implemented as an Electron-based desktop application.",
+    "best_for": "Developers and researchers working with AI agents who need a desktop-based harness or operating system for agent development and deployment.",
+    "free_tier": "As an open-source project under the Apache License 2.0, Corum-Harness is generally free to use. Users should consult the official documentation for specific usage terms.",
+    "limitations": "The provided information does not specify any limitations. Users should check the official documentation for details.",
+    "licensing_notes": "Corum-Harness is released under the Apache License 2.0. Users should consult the official license file for the full terms and conditions.",
+    "faq": [
+      {
+        "question": "Is Corum-Harness free to use?",
+        "answer": "Yes, Corum-Harness is an open-source project released under the Apache License 2.0, making it generally free to use."
+      },
+      {
+        "question": "What platforms does Corum-Harness support?",
+        "answer": "Corum-Harness is described as a 'desktop-app' built with 'electron.' Users should check the official documentation for specific platform compatibility."
+      }
+    ]
+  },
+  "facenox": {
+    "input_hash": "6f396790a1919ba827aede221daf8e99995308dfb9cb26578d9ed139d6add14f",
+    "generated_at": "2026-10-31",
+    "summary": "Facenox is an open-source attendance software system that incorporates anti-spoofing technology. It is designed to track attendance reliably.",
+    "what_it_does": "It functions as an attendance system, likely using facial recognition or similar methods, and includes anti-spoofing measures to ensure accuracy and prevent fraudulent entries.",
+    "best_for": "Organizations or businesses needing an open-source attendance tracking system with robust anti-spoofing capabilities.",
+    "free_tier": "As an open-source project under the GNU Affero General Public License v3.0, facenox is generally free to use. Users should consult the official documentation for specific usage terms.",
+    "limitations": "The provided information does not specify any limitations. Users should check the official documentation for details.",
+    "licensing_notes": "Facenox is released under the GNU Affero General Public License v3.0. Users should consult the official license file for the full terms and conditions.",
+    "faq": [
+      {
+        "question": "Is facenox free to use?",
+        "answer": "Yes, facenox is an open-source project released under the GNU Affero General Public License v3.0, making it generally free to use."
+      },
+      {
+        "question": "What platforms does facenox support?",
+        "answer": "The provided information does not specify platform support for facenox. Users should check the official documentation for details."
+      }
+    ]
+  },
+  "spotifast": {
+    "input_hash": "344bfdf5848acac8a332a3a42681ca030addf9b71d322aa8cfb97b4bb31282a5",
+    "generated_at": "2026-10-31",
+    "summary": "Spotifast is an open-source, cross-platform desktop application that provides a native and fast Spotify client experience. It utilizes librespot and a GUI built with egui.",
+    "what_it_does": "It offers an alternative, native, and performant client for Spotify, allowing users to access Spotify's audio services through a desktop application. It supports Linux and macOS.",
+    "best_for": "Spotify users on Linux and macOS who desire a native, fast, and open-source desktop client experience.",
+    "free_tier": "As an open-source project under the MIT License, spotifast is generally free to use. Users should consult the official documentation for specific usage terms.",
+    "limitations": "The provided information does not specify any limitations beyond its function as a Spotify client. Users should check the official documentation for details.",
+    "licensing_notes": "Spotifast is released under the MIT License. Users should consult the official license file for the full terms and conditions.",
+    "faq": [
+      {
+        "question": "Is spotifast free to use?",
+        "answer": "Yes, spotifast is an open-source project released under the MIT License, making it generally free to use."
+      },
+      {
+        "question": "What platforms does spotifast support?",
+        "answer": "Spotifast is a 'cross-platform' 'desktop-app' explicitly supporting 'linux' and 'macos.' Users should check the official documentation for full platform compatibility."
+      }
+    ]
+  },
+  "napcatqq-desktop": {
+    "input_hash": "94855da0a8735f90ac6f2f48483833ec4d4c7bf8a9cd3957ff4adab1cce3e3a2",
+    "generated_at": "2026-10-31",
+    "summary": "NapCatQQ-Desktop is an open-source desktop application related to NapCat and the OneBot SDK, specifically OneBot v11. It provides a desktop interface for these functionalities.",
+    "what_it_does": "It serves as a desktop client or interface for the NapCat ecosystem, integrating with the OneBot SDK (v11). It enables desktop users to interact with services or features provided by NapCat and OneBot.",
+    "best_for": "Users and developers involved with NapCat and OneBot v11 who require a dedicated desktop application for interaction.",
+    "free_tier": "As an open-source project under the GNU General Public License v3.0, NapCatQQ-Desktop is generally free to use. Users should consult the official documentation for specific usage terms.",
+    "limitations": "The provided information does not specify any limitations. Users should check the official documentation for details.",
+    "licensing_notes": "NapCatQQ-Desktop is released under the GNU General Public License v3.0. Users should consult the official license file for the full terms and conditions.",
+    "faq": [
+      {
+        "question": "Is NapCatQQ-Desktop free to use?",
+        "answer": "Yes, NapCatQQ-Desktop is an open-source project released under the GNU General Public License v3.0, making it generally free to use."
+      },
+      {
+        "question": "What platforms does NapCatQQ-Desktop support?",
+        "answer": "NapCatQQ-Desktop is described as a 'desktop-app.' Users should check the official documentation for specific platform compatibility."
+      }
+    ]
+  },
+  "superagent-desktop": {
+    "input_hash": "a353fc5c06cfbea75595aea18018a969deb9ad1a291c17742b1ae8d2cbb1a37e",
+    "generated_at": "2026-10-31",
+    "summary": "Superagent-desktop is an open-source desktop application focused on agentic AI, serving as an AI agent and coding assistant. It supports browser automation and integrates with models like Claude.",
+    "what_it_does": "It provides a desktop environment for developing and using AI agents, offering features like AI coding assistance and browser automation. It leverages AI models such as Claude.",
+    "best_for": "Developers, researchers, and users interested in agentic AI, AI coding assistance, and browser automation, particularly those working with Claude models.",
+    "free_tier": "As an open-source project under the MIT License, superagent-desktop is generally free to use. Users should consult the official documentation for specific usage terms.",
+    "limitations": "The provided information does not specify any limitations. Users should check the official documentation for details.",
+    "licensing_notes": "Superagent-desktop is released under the MIT License. Users should consult the official license file for the full terms and conditions.",
+    "faq": [
+      {
+        "question": "Is superagent-desktop free to use?",
+        "answer": "Yes, superagent-desktop is an open-source project released under the MIT License, making it generally free to use."
+      },
+      {
+        "question": "What platforms does superagent-desktop support?",
+        "answer": "Superagent-desktop is described as a 'desktop-app.' Users should check the official documentation for specific platform compatibility."
+      }
+    ]
+  },
+  "floe": {
+    "input_hash": "75ddd9dd12285fba500edfbd4fece7af5ac9c9ad0d9c6425d93f1c82b8b52484",
+    "generated_at": "2026-10-31",
+    "summary": "Floe is an open-source desktop application built with Golang, Next.js, and Node.js, designed for encrypted file sharing and transfer. It prioritizes secure data exchange.",
+    "what_it_does": "It enables users to share and transfer files securely, incorporating encryption to protect data during transit. It functions as a desktop application.",
+    "best_for": "Individuals and teams who need a secure, open-source solution for encrypted file sharing and transfer via a desktop application.",
+    "free_tier": "As an open-source project under the MIT License, floe is generally free to use. Users should consult the official documentation for specific usage terms.",
+    "limitations": "The provided information does not specify any limitations. Users should check the official documentation for details.",
+    "licensing_notes": "Floe is released under the MIT License. Users should consult the official license file for the full terms and conditions.",
+    "faq": [
+      {
+        "question": "Is floe free to use?",
+        "answer": "Yes, floe is an open-source project released under the MIT License, making it generally free to use."
+      },
+      {
+        "question": "What platforms does floe support?",
+        "answer": "Floe is described as a 'desktop-app.' Users should check the official documentation for specific platform compatibility."
+      }
+    ]
+  },
+  "gonavi": {
+    "input_hash": "ccd5316e34e3cae75129414226289f5529a19ffe5096c22ee71612298b9492ff",
+    "generated_at": "2026-10-31",
+    "summary": "GoNavi is an open-source, cross-platform desktop application that serves as a database client with a GUI, incorporating AI features. It is designed as a developer tool.",
+    "what_it_does": "It provides a graphical user interface for interacting with databases, functioning as a database client. It also includes AI capabilities and is built as a cross-platform desktop application for developers.",
+    "best_for": "Developers and database administrators who need a cross-platform, GUI-based database client with integrated AI features.",
+    "free_tier": "As an open-source project under the Apache License 2.0, GoNavi is generally free to use. Users should consult the official documentation for specific usage terms.",
+    "limitations": "The provided information does not specify any limitations. Users should check the official documentation for details.",
+    "licensing_notes": "GoNavi is released under the Apache License 2.0. Users should consult the official license file for the full terms and conditions.",
+    "faq": [
+      {
+        "question": "Is GoNavi free to use?",
+        "answer": "Yes, GoNavi is an open-source project released under the Apache License 2.0, making it generally free to use."
+      },
+      {
+        "question": "What platforms does GoNavi support?",
+        "answer": "GoNavi is described as a 'cross-platform' 'desktop-app.' Users should check the official documentation for specific platform compatibility."
+      }
+    ]
+  },
+  "openlore": {
+    "input_hash": "aa2aedc89c75451679dc522f4f59830f98f5ba255c67f0f59f0edb904856cc25",
+    "generated_at": "2026-10-31",
+    "summary": "OpenLore is an open-source tool focused on codebase analysis, code navigation, and managing agentic workflows with AI agents. It supports Architectural Decision Records (ADR).",
+    "what_it_does": "It helps developers understand and navigate codebases, performs analysis, and facilitates agentic workflows using AI coding agents. It also supports the documentation of architectural decisions.",
+    "best_for": "Software developers, architects, and teams who need tools for codebase analysis, code navigation, and integrating AI agents into their development workflows.",
+    "free_tier": "As an open-source project under the MIT License, OpenLore is generally free to use. Users should consult the official documentation for specific usage terms.",
+    "limitations": "The provided information does not specify any limitations. Users should check the official documentation for details.",
+    "licensing_notes": "OpenLore is released under the MIT License. Users should consult the official license file for the full terms and conditions.",
+    "faq": [
+      {
+        "question": "Is OpenLore free to use?",
+        "answer": "Yes, OpenLore is an open-source project released under the MIT License, making it generally free to use."
+      },
+      {
+        "question": "What platforms does OpenLore support?",
+        "answer": "The provided information does not specify platform support for OpenLore. Users should check the official documentation for details."
+      }
+    ]
+  },
+  "zeroshot": {
+    "input_hash": "a6223f9057ff4981ea0089b9bc3da4219816b793bef70a0344f742557e664200",
+    "generated_at": "2026-10-31",
+    "summary": "Zeroshot is an open-source project designed for agent orchestration, managing agent loops, and facilitating agentic workflows with AI agents. It also supports AI code review.",
+    "what_it_does": "It provides a framework or tools for orchestrating and managing AI agents, enabling complex agentic workflows and supporting tasks like AI-powered code review.",
+    "best_for": "Developers and teams working with AI agents, needing tools for agent orchestration, managing agent loops, and implementing AI-driven code review processes.",
+    "free_tier": "As an open-source project under the MIT License, zeroshot is generally free to use. Users should consult the official documentation for specific usage terms.",
+    "limitations": "The provided information does not specify any limitations. Users should check the official documentation for details.",
+    "licensing_notes": "Zeroshot is released under the MIT License. Users should consult the official license file for the full terms and conditions.",
+    "faq": [
+      {
+        "question": "Is zeroshot free to use?",
+        "answer": "Yes, zeroshot is an open-source project released under the MIT License, making it generally free to use."
+      },
+      {
+        "question": "What platforms does zeroshot support?",
+        "answer": "The provided information does not specify platform support for zeroshot. Users should check the official documentation for details."
+      }
+    ]
+  },
+  "dev-3-0": {
+    "input_hash": "db526c9bbb0ee840c731e73d7ccfcc4ff29248ca442f5ca25151ff71d26d50e6",
+    "generated_at": "2026-10-31",
+    "summary": "Dev-3.0 is an open-source developer tool focused on agent orchestration and AI coding with AI agents. It integrates with models like Claude Code and Codex, and uses Bun.",
+    "what_it_does": "It provides functionalities for orchestrating AI agents and assisting with AI-powered coding tasks. It leverages specific AI models and is built with Bun as a developer tool.",
+    "best_for": "Developers interested in AI-driven coding, agent orchestration, and utilizing AI agents for various development tasks, particularly those using Claude Code or Codex.",
+    "free_tier": "As an open-source project under the Apache License 2.0, dev-3.0 is generally free to use. Users should consult the official documentation for specific usage terms.",
+    "limitations": "The provided information does not specify any limitations. Users should check the official documentation for details.",
+    "licensing_notes": "Dev-3.0 is released under the Apache License 2.0. Users should consult the official license file for the full terms and conditions.",
+    "faq": [
+      {
+        "question": "Is dev-3.0 free to use?",
+        "answer": "Yes, dev-3.0 is an open-source project released under the Apache License 2.0, making it generally free to use."
+      },
+      {
+        "question": "What platforms does dev-3.0 support?",
+        "answer": "The provided information does not specify platform support for dev-3.0. Users should check the official documentation for details."
+      }
+    ]
+  },
+  "holon": {
+    "input_hash": "20def53029c53aad774a77559956f803b6b50e82226315f268ceb2f1a18d9c35",
+    "generated_at": "2026-10-31",
+    "summary": "Holon is an open-source, local-first developer tool providing an agent runtime and AI infrastructure for AI agents. It aims to support the development and deployment of AI agents.",
+    "what_it_does": "It offers a runtime environment and infrastructure components for building and running AI agents, emphasizing a local-first approach. It serves as a developer tool for AI agent creation.",
+    "best_for": "Developers and researchers building and deploying AI agents who prefer a local-first approach and need a dedicated agent runtime and infrastructure.",
+    "free_tier": "As an open-source project under the Apache License 2.0, holon is generally free to use. Users should consult the official documentation for specific usage terms.",
+    "limitations": "The provided information does not specify any limitations. Users should check the official documentation for details.",
+    "licensing_notes": "Holon is released under the Apache License 2.0. Users should consult the official license file for the full terms and conditions.",
+    "faq": [
+      {
+        "question": "Is holon free to use?",
+        "answer": "Yes, holon is an open-source project released under the Apache License 2.0, making it generally free to use."
+      },
+      {
+        "question": "What platforms does holon support?",
+        "answer": "The provided information does not specify platform support for holon. Users should check the official documentation for details."
+      }
+    ]
+  },
+  "zeek": {
+    "input_hash": "fffb8a35d4a4939a90ff7114f531de61e86a131a84c57f3e79cee66839055d9e",
+    "generated_at": "2026-10-31",
+    "summary": "Zeek is open-source network security monitoring software. It is released under the permissive BSD 3-Clause License, allowing free use for both non-commercial and commercial purposes.",
+    "what_it_does": "Zeek functions as a network security monitor, providing deep inspection of network traffic. It can be used for security monitoring, intrusion detection, and traffic analysis.",
+    "best_for": "Security professionals, network administrators, and organizations requiring robust network traffic analysis and intrusion detection capabilities.",
+    "free_tier": "Yes, it is entirely free and open-source.",
+    "limitations": "None inherent to the software itself due to its open-source nature.",
+    "licensing_notes": "Zeek is open-source software released under the permissive BSD 3-Clause License. This license allows free use for both non-commercial and commercial purposes.",
+    "faq": [
+      {
+        "question": "Is Zeek free to use?",
+        "answer": "Yes, Zeek is entirely free and open-source software, licensed under the permissive BSD 3-Clause License, which permits both non-commercial and commercial use."
+      },
+      {
+        "question": "What are the primary use cases for Zeek?",
+        "answer": "Zeek is primarily used for network security monitoring, deep packet inspection, intrusion detection, and comprehensive network traffic analysis by security professionals and network administrators."
+      }
+    ]
+  },
+  "potplayer": {
+    "input_hash": "56b3156ed2283ce20f402c637ae71715f8b9708e290fc692be25b494ae72899f",
+    "generated_at": "2026-10-31",
+    "summary": "PotPlayer is a proprietary media player developed by Kakao. It is available free of charge for personal and home use.",
+    "what_it_does": "PotPlayer plays various media files, supporting a wide range of audio and video formats. It offers extensive customization options for playback.",
+    "best_for": "Individual users seeking a feature-rich and customizable media player for personal and home entertainment.",
+    "free_tier": "Yes, it is free for personal and home use.",
+    "limitations": "Commercial use is not permitted under the freeware license.",
+    "licensing_notes": "PotPlayer is freeware for personal and home use. It is a proprietary media player developed by Kakao.",
+    "faq": [
+      {
+        "question": "Is PotPlayer free to use?",
+        "answer": "Yes, PotPlayer is freeware and can be used free of charge for personal and home purposes. Commercial use is not permitted."
+      },
+      {
+        "question": "What are the primary use cases for PotPlayer?",
+        "answer": "PotPlayer is best suited for individual users who want a versatile and customizable media player to play various audio and video files for personal and home entertainment."
+      }
+    ]
+  },
+  "jetbrains-rider": {
+    "input_hash": "572c6f81988ddce692dbca4f4d013acb7d92ee8430808d3e01ae9e0641e289e7",
+    "generated_at": "2026-10-31",
+    "summary": "JetBrains Rider is an integrated development environment (IDE) primarily for .NET development. It is free for non-commercial use, but a paid license is required for commercial purposes.",
+    "what_it_does": "Rider provides a comprehensive environment for developing applications using .NET, .NET Core, ASP.NET, Xamarin, and Unity. It offers features like code analysis, debugging, and refactoring.",
+    "best_for": ".NET developers, especially those working on cross-platform projects, for both personal and professional development.",
+    "free_tier": "Yes, it is free for non-commercial use.",
+    "limitations": "Commercial use requires a paid license.",
+    "licensing_notes": "JetBrains Rider is free for non-commercial use. A paid license is required for any commercial use of the software.",
+    "faq": [
+      {
+        "question": "Is JetBrains Rider free to use?",
+        "answer": "JetBrains Rider is free for non-commercial use. However, a paid license is required for any commercial development or use."
+      },
+      {
+        "question": "What are the primary use cases for JetBrains Rider?",
+        "answer": "JetBrains Rider is an IDE best suited for .NET developers working on various applications, including cross-platform projects, offering tools for coding, debugging, and refactoring."
+      }
+    ]
+  },
+  "miro": {
+    "input_hash": "65286b57752ce94f3f32c42ff5e5998b51b23dfa72bd626374e3663fe6a9b6eb",
+    "generated_at": "2026-10-31",
+    "summary": "Miro is a proprietary online collaborative whiteboard platform. It operates on a freemium model, offering a restricted free tier with paid subscriptions for full features.",
+    "what_it_does": "Miro provides a digital whiteboard for teams to collaborate visually, brainstorm ideas, plan projects, and conduct workshops remotely.",
+    "best_for": "Teams and individuals needing a collaborative online whiteboard for brainstorming, project planning, design thinking, and remote workshops.",
+    "free_tier": "Yes, a restricted free tier is available.",
+    "limitations": "The free tier typically has feature restrictions, board limits, or lacks advanced collaboration tools. Full features require a paid subscription.",
+    "licensing_notes": "Miro is a proprietary software offered under a freemium model. While a restricted free tier is available, a paid subscription license is required for full features, unlimited boards, and advanced organizational collaboration.",
+    "faq": [
+      {
+        "question": "Is Miro free to use?",
+        "answer": "Miro offers a restricted free tier. However, a paid subscription is required to access full features, unlimited boards, and advanced organizational collaboration capabilities."
+      },
+      {
+        "question": "What are the primary use cases for Miro?",
+        "answer": "Miro is best for teams and individuals who need a collaborative online whiteboard for visual brainstorming, project planning, design thinking, and facilitating remote workshops."
+      }
+    ]
+  },
+  "adobe-premiere-pro": {
+    "input_hash": "e45299ac5fa9eeb1b820d6da776a025add809510e063512bb17dcc4bbd0ce705",
+    "generated_at": "2026-10-31",
+    "summary": "Adobe Premiere Pro is proprietary video editing software. It requires a paid Creative Cloud subscription for all types of use.",
+    "what_it_does": "Premiere Pro is used for professional video editing, allowing users to import, edit, and export video footage, add effects, and create high-quality productions.",
+    "best_for": "Professional video editors, filmmakers, content creators, and anyone requiring advanced tools for video production.",
+    "free_tier": "No, a paid Creative Cloud subscription is required.",
+    "limitations": "Requires a continuous paid Creative Cloud subscription to use the software.",
+    "licensing_notes": "Adobe Premiere Pro is proprietary software that requires a paid Creative Cloud subscription. This subscription is necessary for both personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is Adobe Premiere Pro free to use?",
+        "answer": "No, Adobe Premiere Pro is proprietary software that requires a paid Creative Cloud subscription for both personal and commercial use."
+      },
+      {
+        "question": "What are the primary use cases for Adobe Premiere Pro?",
+        "answer": "Adobe Premiere Pro is best for professional video editing, filmmaking, and content creation, offering advanced tools for importing, editing, and exporting high-quality video productions."
+      }
+    ]
+  },
+  "dashlane": {
+    "input_hash": "4445391bb666fab11cee90bb9e800e6a6331b697f3189b9efdc0bea8f357f488",
+    "generated_at": "2026-10-31",
+    "summary": "Dashlane is a proprietary password manager and digital wallet application. As of January 2024, it requires a paid subscription for all users.",
+    "what_it_does": "Dashlane securely stores and manages passwords, personal information, and payment details, offering features like autofill, password generation, and dark web monitoring.",
+    "best_for": "Individuals and businesses seeking a secure and convenient solution for managing passwords and sensitive personal information.",
+    "free_tier": "No, the free plan was discontinued in January 2024. A paid subscription is now required.",
+    "limitations": "Requires a paid subscription for all functionalities and continued use.",
+    "licensing_notes": "Dashlane is proprietary software that requires a paid subscription. Its free tier was discontinued in January 2024, making a paid subscription necessary for both personal and business use.",
+    "faq": [
+      {
+        "question": "Is Dashlane free to use?",
+        "answer": "No, Dashlane discontinued its free tier in January 2024. A paid subscription is now required for both personal and business use."
+      },
+      {
+        "question": "What are the primary use cases for Dashlane?",
+        "answer": "Dashlane is best for individuals and businesses needing a secure password manager and digital wallet to store, generate, and autofill passwords and other sensitive information."
+      }
+    ]
+  },
+  "jfrog-artifactory": {
+    "input_hash": "455b50964d57f345dbf592af3b926081254a450130e9740917259c3de50c5902",
+    "generated_at": "2026-10-31",
+    "summary": "JFrog Artifactory is a proprietary universal artifact repository manager. It offers a limited free cloud tier, but paid commercial subscriptions are required for Pro and Enterprise editions.",
+    "what_it_does": "Artifactory manages and optimizes the storage, distribution, and management of binary artifacts throughout the software development lifecycle.",
+    "best_for": "Development teams and organizations requiring a robust solution for managing software packages, dependencies, and build artifacts across various technologies.",
+    "free_tier": "Yes, a limited free cloud tier is offered.",
+    "limitations": "The free cloud tier is limited in features and capacity. Pro and Enterprise editions, with full capabilities, require a paid commercial subscription.",
+    "licensing_notes": "JFrog Artifactory is proprietary software. While a limited free cloud tier is available, paid commercial subscription licenses are required for its Pro and Enterprise editions.",
+    "faq": [
+      {
+        "question": "Is JFrog Artifactory free to use?",
+        "answer": "JFrog Artifactory offers a limited free cloud tier. However, paid commercial subscription licenses are required for the full-featured Pro and Enterprise editions."
+      },
+      {
+        "question": "What are the primary use cases for JFrog Artifactory?",
+        "answer": "JFrog Artifactory is best for development teams and organizations to manage, store, and distribute binary artifacts and dependencies across their software development lifecycle."
+      }
+    ]
+  },
+  "apache-airflow": {
+    "input_hash": "e804d19605768e699472915d16487eedb60615e83667621a8b6a5e1669e99b42",
+    "generated_at": "2026-10-31",
+    "summary": "Apache Airflow is an open-source platform for programmatically authoring, scheduling, and monitoring workflows. It is licensed under the permissive Apache License 2.0, allowing free commercial and personal use.",
+    "what_it_does": "Airflow allows users to define workflows as Directed Acyclic Graphs (DAGs) of tasks, schedule them, and monitor their execution.",
+    "best_for": "Data engineers, data scientists, and developers needing to programmatically manage and orchestrate complex data pipelines and batch jobs.",
+    "free_tier": "Yes, it is entirely free and open-source.",
+    "limitations": "None inherent to the software itself due to its open-source nature. Users might seek commercial support or managed services for enterprise deployments.",
+    "licensing_notes": "Apache Airflow is an open-source project released under the permissive Apache License 2.0. This license allows free use for both commercial and personal purposes.",
+    "faq": [
+      {
+        "question": "Is Apache Airflow free to use?",
+        "answer": "Yes, Apache Airflow is entirely free and open-source software, licensed under the permissive Apache License 2.0, which permits both commercial and personal use."
+      },
+      {
+        "question": "What are the primary use cases for Apache Airflow?",
+        "answer": "Apache Airflow is best for data engineers and developers to programmatically author, schedule, and monitor complex data pipelines and batch workflows."
+      }
+    ]
+  },
+  "procreate": {
+    "input_hash": "d8589856efb1e07dd106ef1a99a238763abb055051849a170691bcd1c41ca37d",
+    "generated_at": "2026-10-31",
+    "summary": "Procreate is a proprietary digital illustration and painting app. It is available as a one-time paid purchase on the Apple App Store.",
+    "what_it_does": "Procreate provides a comprehensive suite of tools for digital artists to sketch, paint, and illustrate on iPad devices.",
+    "best_for": "Digital artists, illustrators, and designers who use iPad devices for creating artwork, sketches, and paintings.",
+    "free_tier": "No, it requires a one-time paid purchase.",
+    "limitations": "Requires a one-time paid purchase from the Apple App Store. It is exclusively available on iPad devices.",
+    "licensing_notes": "Procreate is a proprietary app available as a one-time paid purchase on the Apple App Store. This purchase allows for both personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is Procreate free to use?",
+        "answer": "No, Procreate is a proprietary app that requires a one-time paid purchase from the Apple App Store for both personal and commercial use."
+      },
+      {
+        "question": "What are the primary use cases for Procreate?",
+        "answer": "Procreate is best for digital artists, illustrators, and designers who use iPad devices to create sketches, paintings, and other digital artwork."
+      }
+    ]
+  },
+  "total-commander": {
+    "input_hash": "3d53e220233831a5f890030c2c16d41f042bc2e9309a6a548bd949c459f4b331",
+    "generated_at": "2026-10-31",
+    "summary": "Total Commander is a shareware file manager for Windows. It offers a 30-day evaluation period, after which a paid license is required for continued use.",
+    "what_it_does": "Total Commander provides advanced file management capabilities, including file copying, moving, deleting, archiving, and FTP client functionality.",
+    "best_for": "Windows users, power users, and system administrators who need an efficient and feature-rich file management tool.",
+    "free_tier": "Yes, it offers a 30-day evaluation period.",
+    "limitations": "After the 30-day evaluation period, a paid license is required for continued use.",
+    "licensing_notes": "Total Commander is shareware. It provides a 30-day evaluation period, after which a paid license is required for continued use by both home and commercial users.",
+    "faq": [
+      {
+        "question": "Is Total Commander free to use?",
+        "answer": "Total Commander offers a 30-day evaluation period. After this period, a paid license is required for continued use by both home and commercial users."
+      },
+      {
+        "question": "What are the primary use cases for Total Commander?",
+        "answer": "Total Commander is best for Windows users, power users, and system administrators who require an efficient and feature-rich file manager for tasks like copying, moving, archiving, and FTP."
+      }
+    ]
+  },
+  "hasura": {
+    "input_hash": "dbc94bbe200bb9cc0ef25febb049e7a7fae302df64360fab6d3ddcc47e764d5a",
+    "generated_at": "2026-10-31",
+    "summary": "Hasura offers a GraphQL Engine, with a Community Edition that is open source under Apache 2.0. Commercial licenses are required for Enterprise and Cloud tiers.",
+    "what_it_does": "Hasura instantly provides a GraphQL API over new or existing databases, enabling developers to build modern applications quickly.",
+    "best_for": "Developers and organizations building GraphQL-powered applications, especially those needing real-time data access and rapid API development.",
+    "free_tier": "Yes, the Community Edition is entirely free and open-source.",
+    "limitations": "Enterprise and Cloud tiers, which may offer advanced features, support, and scalability, require commercial licenses.",
+    "licensing_notes": "The Hasura GraphQL Engine Community Edition is open source under the Apache License 2.0. Enterprise and Cloud tiers are commercially licensed and require a paid subscription.",
+    "faq": [
+      {
+        "question": "Is Hasura free to use?",
+        "answer": "Yes, the Hasura GraphQL Engine Community Edition is entirely free and open-source under the Apache License 2.0. However, Enterprise and Cloud tiers require commercial licenses."
+      },
+      {
+        "question": "What are the primary use cases for Hasura?",
+        "answer": "Hasura is best for developers and organizations looking to instantly get a GraphQL API over their databases, facilitating rapid application development and real-time data access."
+      }
+    ]
+  },
+  "traefik-proxy": {
+    "input_hash": "756a8107292ae94f7a1cc4d5e5df5ecb66b47337224092d34465e1e4f7bcffac",
+    "generated_at": "2026-10-31",
+    "summary": "Traefik Proxy is an open-source edge router that makes publishing services easy. It is fully open source under the permissive MIT License, allowing free commercial and non-commercial use.",
+    "what_it_does": "Traefik Proxy simplifies network routing for microservices, automatically discovering services and configuring routes.",
+    "best_for": "Developers, DevOps teams, and organizations deploying microservices and containerized applications, needing dynamic and automated routing.",
+    "free_tier": "Yes, it is entirely free and open-source.",
+    "limitations": "None inherent to the software itself due to its open-source nature.",
+    "licensing_notes": "Traefik Proxy is fully open-source software released under the permissive MIT License. This license allows free use for both commercial and non-commercial purposes.",
+    "faq": [
+      {
+        "question": "Is Traefik Proxy free to use?",
+        "answer": "Yes, Traefik Proxy is entirely free and open-source software, licensed under the permissive MIT License, which permits both commercial and non-commercial use."
+      },
+      {
+        "question": "What are the primary use cases for Traefik Proxy?",
+        "answer": "Traefik Proxy is best for developers and DevOps teams deploying microservices and containerized applications, providing dynamic and automated routing capabilities."
+      }
+    ]
+  },
+  "keepassxc": {
+    "input_hash": "f1f5529743988f024ca4169f7890989dc08510137015d0e5798f3220b479320a",
+    "generated_at": "2026-10-31",
+    "summary": "KeePassXC is an entirely free and open-source password manager. It is licensed under the GNU General Public License (GPL).",
+    "what_it_does": "KeePassXC securely stores passwords and other sensitive information in an encrypted database, helping users manage their digital credentials.",
+    "best_for": "Individuals and organizations seeking a secure, offline, and open-source solution for managing passwords and sensitive data.",
+    "free_tier": "Yes, it is entirely free and open-source.",
+    "limitations": "None inherent to the software itself due to its open-source nature.",
+    "licensing_notes": "KeePassXC is entirely free and open-source software. It is licensed under the GNU General Public License (GPL-2.0 or GPL-3.0).",
+    "faq": [
+      {
+        "question": "Is KeePassXC free to use?",
+        "answer": "Yes, KeePassXC is entirely free and open-source software, licensed under the GNU General Public License (GPL), allowing free use for all purposes."
+      },
+      {
+        "question": "What are the primary use cases for KeePassXC?",
+        "answer": "KeePassXC is best for individuals and organizations who need a secure, offline, and open-source password manager to store and manage sensitive digital credentials."
+      }
+    ]
+  },
+  "n8n": {
+    "input_hash": "62fb472ad912a412bb1c409f23c65e52917685fad80a3153be13090ad15243fb",
+    "generated_at": "2026-10-31",
+    "summary": "n8n is a workflow automation tool that uses a Sustainable Use License. It is free for personal and internal business self-hosting, but a paid commercial license is required for managed services or enterprise features.",
+    "what_it_does": "n8n allows users to automate workflows by connecting various applications and services without writing code.",
+    "best_for": "Developers, businesses, and individuals looking to automate tasks and integrate applications through a visual workflow builder.",
+    "free_tier": "Yes, it is free for personal and internal business self-hosting.",
+    "limitations": "A paid commercial license is required for offering n8n as a managed service or for accessing enterprise features.",
+    "licensing_notes": "n8n uses the Sustainable Use License (fair-code). It is free for personal and internal business self-hosting. However, a paid commercial license is required for offering n8n as a managed service or for accessing enterprise features.",
+    "faq": [
+      {
+        "question": "Is n8n free to use?",
+        "answer": "Yes, n8n is free for personal and internal business self-hosting under the Sustainable Use License. A paid commercial license is required for offering it as a managed service or for enterprise features."
+      },
+      {
+        "question": "What are the primary use cases for n8n?",
+        "answer": "n8n is best for developers, businesses, and individuals who want to automate workflows and integrate various applications and services using a visual, low-code approach."
+      }
+    ]
+  },
+  "winmerge": {
+    "input_hash": "89ffb577ede5d953dd2dcbf8d88a99b103cce04be6ba469247a74993bdcae80f",
+    "generated_at": "2026-10-31",
+    "summary": "WinMerge is a free and open-source differencing and merging tool for Windows. It is licensed under the GNU General Public License version 2 or later, allowing free use for both personal and commercial purposes.",
+    "what_it_does": "WinMerge compares files and folders, displaying differences visually and allowing users to merge changes.",
+    "best_for": "Developers, writers, and anyone needing to compare and merge text files, source code, or folders on Windows.",
+    "free_tier": "Yes, it is entirely free and open-source.",
+    "limitations": "None inherent to the software itself due to its open-source nature.",
+    "licensing_notes": "WinMerge is free and open-source software. It is licensed under the GNU General Public License version 2 or later, making it completely free for both personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is WinMerge free to use?",
+        "answer": "Yes, WinMerge is entirely free and open-source software, licensed under the GNU General Public License (GPLv2+), which permits both personal and commercial use."
+      },
+      {
+        "question": "What are the primary use cases for WinMerge?",
+        "answer": "WinMerge is best for developers, writers, and anyone on Windows who needs to compare and merge text files, source code, or entire folders to identify and reconcile differences."
+      }
+    ]
   }
 }
