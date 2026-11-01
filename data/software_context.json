@@ -9298,5 +9298,605 @@
         "answer": "WinMerge is best for developers, writers, and anyone on Windows who needs to compare and merge text files, source code, or entire folders to identify and reconcile differences."
       }
     ]
+  },
+  "lich": {
+    "input_hash": "aa7db3be9ca940d4d946c90a3e3855a3af0474f1914d14e312acf24b04c2d400",
+    "generated_at": "2026-11-01",
+    "summary": "Lich is an open-source project available on GitHub. It is licensed under the AGPL-3.0 license.",
+    "what_it_does": "The specific functionality of Lich is not detailed in the provided information. Please refer to the official documentation for details.",
+    "best_for": "Users looking for open-source software licensed under AGPL-3.0.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "No specific limitations are mentioned. Please check the official documentation for details.",
+    "licensing_notes": "Licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).",
+    "faq": [
+      {
+        "question": "What is the license for Lich?",
+        "answer": "Lich is licensed under the AGPL-3.0 license."
+      },
+      {
+        "question": "Where can I find more information about Lich?",
+        "answer": "You can find more information on the official GitHub repository: https://github.com/lichdotdev/lich"
+      }
+    ]
+  },
+  "kaman-ai-translator": {
+    "input_hash": "7ebd0b32ba038a694bb5d20b80504b11ec7594d6f8898083bf0df7353a9accb2",
+    "generated_at": "2026-11-01",
+    "summary": "Kaman AI Translator is an open-source project hosted on GitHub, licensed under the MIT License.",
+    "what_it_does": "This software is an AI translator. For detailed information on its features and how it works, please consult the official documentation.",
+    "best_for": "Users seeking an open-source AI translation tool.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "Specific limitations are not provided. Please refer to the official documentation for more details.",
+    "licensing_notes": "Licensed under the MIT License.",
+    "faq": [
+      {
+        "question": "What license does Kaman AI Translator use?",
+        "answer": "Kaman AI Translator is distributed under the MIT License."
+      },
+      {
+        "question": "How can I learn more about Kaman AI Translator?",
+        "answer": "Further details can be found on its official GitHub page: https://github.com/Mohammad-Hasan-Kaman/kaman-ai-translator"
+      }
+    ]
+  },
+  "zapfast": {
+    "input_hash": "fb7a8a47b4cd664b420ef8ba08e813fa1e393b6a1a868ae72e2dc0b5c3476c7d",
+    "generated_at": "2026-11-01",
+    "summary": "Zapfast is an open-source project available on GitHub, licensed under the MIT License.",
+    "what_it_does": "The specific purpose and functionality of Zapfast are not detailed in the provided information. Please check the official documentation for more details.",
+    "best_for": "Developers interested in open-source tools licensed under MIT.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "No limitations are specified. Refer to the official documentation for comprehensive information.",
+    "licensing_notes": "Licensed under the MIT License.",
+    "faq": [
+      {
+        "question": "What is the licensing for Zapfast?",
+        "answer": "Zapfast is licensed under the MIT License."
+      },
+      {
+        "question": "Where can I find more information on Zapfast?",
+        "answer": "The official GitHub repository for Zapfast is: https://github.com/crmne/zapfast"
+      }
+    ]
+  },
+  "anymodelbot": {
+    "input_hash": "89e62424eb5c89da47bae4a166bc4336c1b2a8cf71a949462440f16ccfb89cd4",
+    "generated_at": "2026-11-01",
+    "summary": "AnyModelBot is an open-source project on GitHub, operating under the MIT License.",
+    "what_it_does": "The exact functionalities of AnyModelBot are not described in the provided data. For a detailed understanding, please consult the official documentation.",
+    "best_for": "Users looking for an open-source solution with MIT licensing.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "No specific limitations are mentioned. Please check the official documentation for further details.",
+    "licensing_notes": "Licensed under the MIT License.",
+    "faq": [
+      {
+        "question": "What license governs AnyModelBot?",
+        "answer": "AnyModelBot is licensed under the MIT License."
+      },
+      {
+        "question": "Where can I find more details about AnyModelBot?",
+        "answer": "More information is available on its official GitHub repository: https://github.com/modelflare-ai/AnyModelBot"
+      }
+    ]
+  },
+  "af-media-bar": {
+    "input_hash": "ba11dc5b902f5319afafdd441ded6939e28a07a4cadfbdf86783ece274c20c64",
+    "generated_at": "2026-11-01",
+    "summary": "AF-Media-Bar is an open-source project found on GitHub, licensed under the MIT License.",
+    "what_it_does": "The specific features and use cases for AF-Media-Bar are not detailed here. Please refer to the official documentation for more information.",
+    "best_for": "Individuals seeking open-source media bar solutions with MIT licensing.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "No limitations are specified in the provided information. Consult the official documentation for details.",
+    "licensing_notes": "Licensed under the MIT License.",
+    "faq": [
+      {
+        "question": "What is the license for AF-Media-Bar?",
+        "answer": "AF-Media-Bar is licensed under the MIT License."
+      },
+      {
+        "question": "Where can I find more information about AF-Media-Bar?",
+        "answer": "The official GitHub repository is located at: https://github.com/Fervent-Tempo/AF-Media-Bar"
+      }
+    ]
+  },
+  "swarmai": {
+    "input_hash": "9bd0ad8f10576d31e784334e50e7d2b3f00a2b8b64f6fea73e65ab101b50c518",
+    "generated_at": "2026-11-01",
+    "summary": "SwarmAI is an open-source project hosted on GitHub, distributed under the MIT License.",
+    "what_it_does": "The specific functionalities of SwarmAI are not detailed in the provided notes. Please consult the official documentation for more information.",
+    "best_for": "Users interested in open-source AI projects with MIT licensing.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "No specific limitations are mentioned. Refer to the official documentation for details.",
+    "licensing_notes": "Licensed under the MIT License.",
+    "faq": [
+      {
+        "question": "What license is SwarmAI released under?",
+        "answer": "SwarmAI is licensed under the MIT License."
+      },
+      {
+        "question": "Where can I find more information about SwarmAI?",
+        "answer": "You can find SwarmAI on GitHub: https://github.com/xg-gh-25/SwarmAI"
+      }
+    ]
+  },
+  "horizon": {
+    "input_hash": "02e75ddcca8109d3c7cbfdea3a7dfdbd75cb14109fda9374192375668d3a821a",
+    "generated_at": "2026-11-01",
+    "summary": "Horizon is an open-source project on GitHub, licensed under the MIT License, and features topics like AI agents and browser automation.",
+    "what_it_does": "Horizon is described as an AI agent and browser automation tool. For detailed functionality, please refer to the official documentation.",
+    "best_for": "Developers working with AI agents and browser automation, looking for an MIT-licensed solution.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "No specific limitations are mentioned. Please check the official documentation for details.",
+    "licensing_notes": "Licensed under the MIT License.",
+    "faq": [
+      {
+        "question": "What is the license for Horizon?",
+        "answer": "Horizon is licensed under the MIT License."
+      },
+      {
+        "question": "What kind of projects is Horizon related to?",
+        "answer": "Horizon is associated with topics such as AI agents, browser automation, and coding agents."
+      }
+    ]
+  },
+  "poracode": {
+    "input_hash": "13d8a5f3477d0331b9d4d8a092453f0dde5ee342b4b5416549a31a586797706f",
+    "generated_at": "2026-11-01",
+    "summary": "Poracode is an open-source project on GitHub, licensed under the Apache License 2.0, focusing on AI and AI agents.",
+    "what_it_does": "Poracode is related to AI, AI agents, and AI coding. For specific details on its capabilities, please refer to the official documentation.",
+    "best_for": "Users interested in AI agent development tools licensed under Apache 2.0.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "No specific limitations are mentioned. Please consult the official documentation for more information.",
+    "licensing_notes": "Licensed under the Apache License 2.0.",
+    "faq": [
+      {
+        "question": "What license does Poracode use?",
+        "answer": "Poracode is licensed under the Apache License 2.0."
+      },
+      {
+        "question": "What are the main topics associated with Poracode?",
+        "answer": "Poracode is associated with AI, AI agents, and AI coding."
+      }
+    ]
+  },
+  "flacidal": {
+    "input_hash": "20adc81a5ba9476dc24117829a81f4ec38f66fe55b518bf90827de3d4cdda195",
+    "generated_at": "2026-11-01",
+    "summary": "FLACidal is an open-source desktop application available on GitHub, licensed under the MIT License, designed for handling FLAC audio files.",
+    "what_it_does": "FLACidal is a desktop application for lossless audio, specifically FLAC files. For detailed features, please refer to the official documentation.",
+    "best_for": "Users looking for an open-source desktop app to manage FLAC audio files.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "No specific limitations are mentioned. Please check the official documentation for details.",
+    "licensing_notes": "Licensed under the MIT License.",
+    "faq": [
+      {
+        "question": "What is the license for FLACidal?",
+        "answer": "FLACidal is licensed under the MIT License."
+      },
+      {
+        "question": "What is FLACidal used for?",
+        "answer": "FLACidal is a desktop application for lossless audio, particularly FLAC files."
+      }
+    ]
+  },
+  "inkdoc": {
+    "input_hash": "3b4b242b5f28b4a2944cd2c2793a5051035954e8864ad3b11b82d27ce09682fa",
+    "generated_at": "2026-11-01",
+    "summary": "InkDoc is an open-source, cross-platform desktop application on GitHub, licensed under the MIT License, focused on document conversion.",
+    "what_it_does": "InkDoc is a desktop application that handles document conversion, including formats like DOCX to Markdown and HTML to Markdown. For more details, please refer to the official documentation.",
+    "best_for": "Users needing an open-source tool for document conversion, especially between DOCX and Markdown.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "No specific limitations are mentioned. Please check the official documentation for details.",
+    "licensing_notes": "Licensed under the MIT License.",
+    "faq": [
+      {
+        "question": "What license does InkDoc use?",
+        "answer": "InkDoc is licensed under the MIT License."
+      },
+      {
+        "question": "What are the main functions of InkDoc?",
+        "answer": "InkDoc is a desktop application for document conversion, supporting formats like DOCX to Markdown and HTML to Markdown."
+      }
+    ]
+  },
+  "xopc": {
+    "input_hash": "f735680ae93e246b69e58b86b6721f18d7c171fabcdead6acc987bf41ac22d33",
+    "generated_at": "2026-11-01",
+    "summary": "Xopc is an open-source AI assistant and automation tool available on GitHub, licensed under the MIT License.",
+    "what_it_does": "Xopc is described as an AI agent, AI assistant, and automation tool with browser automation capabilities. For detailed functionality, please refer to the official documentation.",
+    "best_for": "Users looking for an open-source AI assistant and automation tool with MIT licensing.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "No specific limitations are mentioned. Please check the official documentation for details.",
+    "licensing_notes": "Licensed under the MIT License.",
+    "faq": [
+      {
+        "question": "What is the license for Xopc?",
+        "answer": "Xopc is licensed under the MIT License."
+      },
+      {
+        "question": "What are the key features of Xopc?",
+        "answer": "Xopc is an AI agent, AI assistant, and automation tool, including browser automation."
+      }
+    ]
+  },
+  "paneflow": {
+    "input_hash": "6843f2e911556e3c97cb59c591468d91a40b64004526a0f7b04ac62fbec62807",
+    "generated_at": "2026-11-01",
+    "summary": "Paneflow is an open-source project on GitHub, licensed under the GNU GPL v3.0, focused on agent orchestration and AI agents.",
+    "what_it_does": "Paneflow is designed for agent orchestration and AI agents. For detailed information on its capabilities, please refer to the official documentation.",
+    "best_for": "Developers working with AI agents and agent orchestration who prefer GPL-3.0 licensed software.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "No specific limitations are mentioned. Please check the official documentation for details.",
+    "licensing_notes": "Licensed under the GNU General Public License v3.0 (GPL-3.0).",
+    "faq": [
+      {
+        "question": "What license is Paneflow distributed under?",
+        "answer": "Paneflow is licensed under the GNU General Public License v3.0."
+      },
+      {
+        "question": "What is the primary focus of Paneflow?",
+        "answer": "Paneflow focuses on agent orchestration and AI agents."
+      }
+    ]
+  },
+  "codenomad": {
+    "input_hash": "ad7258cf06ce8a1a36c4d553ecaeccc24799b8475e929e48398bd5e6778f8a3d",
+    "generated_at": "2026-11-01",
+    "summary": "CodeNomad is an open-source desktop application on GitHub, licensed under the MIT License, designed for agentic coding and developer tools.",
+    "what_it_does": "CodeNomad is an agentic coding tool for developers, utilizing LLMs. For detailed functionality, please refer to the official documentation.",
+    "best_for": "Developers looking for an MIT-licensed tool for agentic coding and AI-assisted development.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "No specific limitations are mentioned. Please check the official documentation for details.",
+    "licensing_notes": "Licensed under the MIT License.",
+    "faq": [
+      {
+        "question": "What license does CodeNomad use?",
+        "answer": "CodeNomad is licensed under the MIT License."
+      },
+      {
+        "question": "What is CodeNomad used for?",
+        "answer": "CodeNomad is an agentic coding tool that assists developers, often using LLMs."
+      }
+    ]
+  },
+  "openhands": {
+    "input_hash": "7380ca98fd15c5907eb62a8825e16f8e9b461541402251855259181aca9fb2e6",
+    "generated_at": "2026-11-01",
+    "summary": "OpenHands is a popular open-source project on GitHub, licensed under the MIT License, focused on AI, artificial intelligence, and LLMs.",
+    "what_it_does": "OpenHands is described as an AI tool related to artificial intelligence and LLMs, with CLI capabilities. For detailed functionality, please refer to the official documentation.",
+    "best_for": "Users interested in open-source AI and LLM tools, particularly those with CLI interfaces.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "No specific limitations are mentioned. Please check the official documentation for details.",
+    "licensing_notes": "Licensed under the MIT License.",
+    "faq": [
+      {
+        "question": "What license is OpenHands released under?",
+        "answer": "OpenHands is licensed under the MIT License."
+      },
+      {
+        "question": "What is the main purpose of OpenHands?",
+        "answer": "OpenHands is an open-source project focused on AI, artificial intelligence, and LLMs, with CLI support."
+      }
+    ]
+  },
+  "commonly": {
+    "input_hash": "463cdd24d88f44e2f8733e46cfd7350ece1de8e489e81320843856cf1206aba0",
+    "generated_at": "2026-11-01",
+    "summary": "Commonly is an open-source agent framework available on GitHub, licensed under the Apache License 2.0, designed for agentic AI.",
+    "what_it_does": "Commonly is an agent framework and harness for agentic AI. For detailed information on its features and usage, please refer to the official documentation.",
+    "best_for": "Developers building agentic AI applications who prefer an Apache 2.0 licensed framework.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "No specific limitations are mentioned. Please check the official documentation for details.",
+    "licensing_notes": "Licensed under the Apache License 2.0.",
+    "faq": [
+      {
+        "question": "What license does Commonly use?",
+        "answer": "Commonly is licensed under the Apache License 2.0."
+      },
+      {
+        "question": "What is Commonly used for?",
+        "answer": "Commonly is an agent framework and harness for agentic AI."
+      }
+    ]
+  },
+  "questdb": {
+    "input_hash": "4427c7a3d8b4ca843460ca132d1e31c44b98d78e33470063497228353f4ea4c9",
+    "generated_at": "2026-11-01",
+    "summary": "QuestDB is an open-source time-series database designed for high-performance data ingestion and querying.",
+    "what_it_does": "It efficiently stores and retrieves time-series data, making it suitable for applications like IoT, financial analysis, and real-time monitoring.",
+    "best_for": "Developers and organizations needing a fast, scalable, and open-source time-series database.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "Please refer to the official documentation for any specific limitations.",
+    "licensing_notes": "Distributed under the Apache License 2.0.",
+    "faq": [
+      {
+        "question": "What kind of data does QuestDB excel at handling?",
+        "answer": "QuestDB is optimized for time-series data, which includes data points indexed by time, commonly found in IoT, financial markets, and application monitoring."
+      },
+      {
+        "question": "Is QuestDB suitable for production environments?",
+        "answer": "Yes, QuestDB is designed for high-performance and scalability, making it suitable for production use cases."
+      }
+    ]
+  },
+  "omnigraffle": {
+    "input_hash": "e6ffd72adc23461dd15eec14b490aa77daca9656af7ced40e112e9fc408cacbf",
+    "generated_at": "2026-11-01",
+    "summary": "OmniGraffle is a diagramming and wireframing application for macOS and iOS.",
+    "what_it_does": "It allows users to create flowcharts, mind maps, network diagrams, and other visual representations of information.",
+    "best_for": "Designers, developers, and project managers who need to create professional-quality diagrams and mockups.",
+    "free_tier": "Offers a 14-day free trial.",
+    "limitations": "Commercial use requires a paid license or subscription. Please check the official website for current pricing and feature tiers.",
+    "licensing_notes": "Proprietary commercial software.",
+    "faq": [
+      {
+        "question": "What platforms is OmniGraffle available on?",
+        "answer": "OmniGraffle is available for macOS and iOS devices. Please check the official website for specific version compatibility."
+      },
+      {
+        "question": "How long is the free trial for OmniGraffle?",
+        "answer": "OmniGraffle offers a 14-day free trial period."
+      }
+    ]
+  },
+  "rocky-linux": {
+    "input_hash": "dd432bd751d75fa6dcf7d00d7154fbf4f59e72e437a1f3cdf261837c6a51a565",
+    "generated_at": "2026-11-01",
+    "summary": "Rocky Linux is a community-driven, enterprise-grade Linux distribution.",
+    "what_it_does": "It provides a stable and secure operating system for servers and workstations, aiming to be a long-term support alternative.",
+    "best_for": "System administrators and organizations seeking a reliable, free, and open-source Linux distribution for enterprise environments.",
+    "free_tier": "N/A (Free and Open Source)",
+    "limitations": "As an open-source OS, there are no inherent usage restrictions. Support and specific enterprise features may vary based on community or third-party providers.",
+    "licensing_notes": "Distributed under various open-source licenses, primarily the GNU General Public License (GPL).",
+    "faq": [
+      {
+        "question": "What is the primary goal of Rocky Linux?",
+        "answer": "Rocky Linux aims to be a community-driven, 1:1 binary compatible fork of Red Hat Enterprise Linux, providing a stable and free alternative for enterprise use."
+      },
+      {
+        "question": "Is there a cost associated with using Rocky Linux?",
+        "answer": "No, Rocky Linux is free and open-source, with no subscription fees or usage restrictions."
+      }
+    ]
+  },
+  "autodesk-revit": {
+    "input_hash": "d78977cfa12af1bd455cba02c2727784b49bcfadae48923612ab56ecb5d7f7bc",
+    "generated_at": "2026-11-01",
+    "summary": "Autodesk Revit is a powerful building information modeling (BIM) software.",
+    "what_it_does": "It enables architects, engineers, and contractors to design, build, and manage buildings and infrastructure with greater speed and accuracy.",
+    "best_for": "Professionals in the architecture, engineering, and construction (AEC) industries for BIM workflows.",
+    "free_tier": "Offers free access for eligible educational users. Please check Autodesk's website for details.",
+    "limitations": "Requires a paid subscription for standard commercial use. Specific features and capabilities may vary by subscription plan.",
+    "licensing_notes": "Proprietary software requiring a paid subscription for commercial use.",
+    "faq": [
+      {
+        "question": "Who can use Autodesk Revit for free?",
+        "answer": "Autodesk provides free access to Revit for eligible students, educators, and academic institutions. Details can be found on the official Autodesk website."
+      },
+      {
+        "question": "What is Building Information Modeling (BIM)?",
+        "answer": "BIM is a process that involves creating and managing digital representations of physical and functional characteristics of places. Revit is a tool that facilitates BIM workflows."
+      }
+    ]
+  },
+  "avira-free-security": {
+    "input_hash": "cfa7c7110ca34b7addfe77809d438647fd953fa917b15cb70c9cf13ef018f668",
+    "generated_at": "2026-11-01",
+    "summary": "Avira Free Security is an antivirus and system optimization suite for personal use.",
+    "what_it_does": "It provides essential protection against malware, viruses, and other online threats, along with tools to improve system performance.",
+    "best_for": "Home users seeking free, reliable antivirus protection and basic system maintenance tools.",
+    "free_tier": "Free for personal and non-commercial use.",
+    "limitations": "Commercial or business use requires a paid license. Advanced features may be available in paid versions.",
+    "licensing_notes": "Free for personal, non-commercial use. Commercial use requires a paid license.",
+    "faq": [
+      {
+        "question": "Can I use Avira Free Security for my business?",
+        "answer": "No, Avira Free Security is strictly for personal and non-commercial use. A paid license is required for business or commercial deployment."
+      },
+      {
+        "question": "What kind of protection does Avira Free Security offer?",
+        "answer": "It offers real-time antivirus protection, web protection, and system optimization tools to safeguard your computer and enhance its performance."
+      }
+    ]
+  },
+  "ghost": {
+    "input_hash": "5d52ba5838cd5902efa5ee2445043d2e033729a387055fca8fb3355e28a34873",
+    "generated_at": "2026-11-01",
+    "summary": "Ghost is an open-source platform for building and running online publications.",
+    "what_it_does": "It provides tools for creating and managing websites, blogs, and newsletters with a focus on content creation and publishing.",
+    "best_for": "Writers, bloggers, publishers, and businesses looking for a modern, fast, and user-friendly platform to manage their online content.",
+    "free_tier": "N/A (Open Source core software). Managed hosting (Ghost(Pro)) is a paid service.",
+    "limitations": "The open-source software is free to self-host. Managed hosting plans have associated costs and features. Please check the official website for details on Ghost(Pro).",
+    "licensing_notes": "The core software is free and open-source under the MIT License.",
+    "faq": [
+      {
+        "question": "What is the difference between self-hosting Ghost and using Ghost(Pro)?",
+        "answer": "Self-hosting Ghost uses the free, open-source software on your own servers, requiring technical management. Ghost(Pro) is a managed service that handles hosting, maintenance, and support for a fee."
+      },
+      {
+        "question": "Can I use Ghost for e-commerce?",
+        "answer": "While Ghost is primarily a publishing platform, its flexibility and integrations allow for e-commerce functionalities. Please check the official documentation for current capabilities and recommended approaches."
+      }
+    ]
+  },
+  "cpanel": {
+    "input_hash": "05e5e31b7d309ff3c77da7b60d919b8918a3dcab59cc51238c43b6766969e040",
+    "generated_at": "2026-11-01",
+    "summary": "cPanel is a popular web hosting control panel that simplifies website and server management.",
+    "what_it_does": "It provides a graphical interface for managing websites, domains, databases, email accounts, and other server-related tasks.",
+    "best_for": "Web hosting providers and individuals managing multiple websites who need an intuitive interface for server administration.",
+    "free_tier": "No free tier available. A paid license is required for all use cases.",
+    "limitations": "Requires a paid subscription license for use. Please consult the cPanel website for pricing and licensing details.",
+    "licensing_notes": "Proprietary commercial software requiring a paid license.",
+    "faq": [
+      {
+        "question": "Is there a free version of cPanel?",
+        "answer": "No, cPanel is commercial software and requires a paid license for all users. There are no free or community editions available."
+      },
+      {
+        "question": "What are the main benefits of using cPanel?",
+        "answer": "cPanel offers a user-friendly graphical interface to manage web hosting tasks, making it easier to set up websites, manage domains, create email accounts, and monitor server performance without needing extensive command-line knowledge."
+      }
+    ]
+  },
+  "perforce-helix-core": {
+    "input_hash": "1fa7783d06c95e39cf9fa6104cae4bd4f4c21905baaa09a242da5df5baaf541b",
+    "generated_at": "2026-11-01",
+    "summary": "Perforce Helix Core is a powerful, scalable version control system for managing large digital assets and codebases.",
+    "what_it_does": "It provides robust version control, collaboration, and asset management capabilities for distributed teams working on complex projects.",
+    "best_for": "Game development studios, semiconductor companies, and other organizations managing large binary files, complex codebases, and distributed teams.",
+    "free_tier": "Free tier available for up to 5 users and 20 workspaces.",
+    "limitations": "Requires a paid subscription license for teams larger than 5 users or for advanced features. Please check the Perforce website for detailed plan information.",
+    "licensing_notes": "Proprietary commercial license required for more than 5 users. A free tier is available.",
+    "faq": [
+      {
+        "question": "What is the limit for the free tier of Perforce Helix Core?",
+        "answer": "The free tier of Perforce Helix Core supports up to 5 users and 20 workspaces. For larger teams or more extensive usage, a paid license is required."
+      },
+      {
+        "question": "Is Perforce Helix Core suitable for managing game assets?",
+        "answer": "Yes, Perforce Helix Core is widely used in the game development industry for its ability to efficiently manage large binary assets, code, and collaborate across distributed teams."
+      }
+    ]
+  },
+  "prusaslicer": {
+    "input_hash": "02827db8e043ee021bf5c49a51ec40dd8442da83cb3e58bc8e8579f9f0e52aaf",
+    "generated_at": "2026-11-01",
+    "summary": "PrusaSlicer is a feature-rich, open-source 3D printing slicer application.",
+    "what_it_does": "It converts 3D models into G-code instructions that 3D printers can understand, offering advanced features for print optimization.",
+    "best_for": "3D printing enthusiasts and professionals using FDM printers, especially those with Prusa printers, who want fine control over print settings.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "As an open-source software, it is free to use. Please refer to the GNU AGPLv3.0 license for terms of use and distribution.",
+    "licensing_notes": "Open source under the GNU AGPLv3.0 license, allowing free use for personal and commercial purposes.",
+    "faq": [
+      {
+        "question": "Can I use PrusaSlicer for commercial 3D printing?",
+        "answer": "Yes, PrusaSlicer is licensed under the GNU AGPLv3.0, which permits its use for both personal and commercial purposes."
+      },
+      {
+        "question": "What is a 'slicer' in the context of 3D printing?",
+        "answer": "A slicer is software that takes a 3D model (like an STL file) and 'slices' it into thin horizontal layers, generating the G-code instructions that a 3D printer follows to build the object layer by layer."
+      }
+    ]
+  },
+  "splashtop-personal": {
+    "input_hash": "d27fba2cb0d51b974254f3baedd4f546a3a68a5c9248cb3db28651fa84214835",
+    "generated_at": "2026-11-01",
+    "summary": "Splashtop Personal is a remote desktop application for personal use.",
+    "what_it_does": "It allows users to remotely access their computers from other devices, primarily within a local network.",
+    "best_for": "Individuals needing to access their home computers from other devices on the same network for personal tasks.",
+    "free_tier": "Free for non-commercial use on a local network.",
+    "limitations": "Requires a paid subscription for remote access over the internet or for commercial use. Please check the Splashtop website for details on subscription plans.",
+    "licensing_notes": "Free for non-commercial use on a local network. Commercial use requires a paid subscription.",
+    "faq": [
+      {
+        "question": "Can I use Splashtop Personal to access my work computer from home?",
+        "answer": "Splashtop Personal is intended for non-commercial use on a local network. For remote access over the internet or for business purposes, you would need a commercial Splashtop product."
+      },
+      {
+        "question": "What are the limitations of the free version of Splashtop Personal?",
+        "answer": "The free version is limited to non-commercial use and typically restricted to access within your local network. Internet-based remote access and commercial usage require a paid subscription."
+      }
+    ]
+  },
+  "haproxy": {
+    "input_hash": "c9571323791b65dd40ed594a982e30e922c283ec36973a83fd1d82e58cdd7cc3",
+    "generated_at": "2026-11-01",
+    "summary": "HAProxy is a high-performance open-source TCP/HTTP load balancer and proxying solution.",
+    "what_it_does": "It distributes network traffic across multiple servers, improving application availability, performance, and reliability.",
+    "best_for": "System administrators and DevOps engineers needing a robust, efficient, and scalable solution for load balancing and proxying.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "As open-source software, it is free to use. Enterprise support and advanced features may be available through commercial offerings from partners. Please check the official website for details.",
+    "licensing_notes": "Licensed under the GNU General Public License v2 (GPLv2) and parts under LGPLv2.1.",
+    "faq": [
+      {
+        "question": "What is load balancing?",
+        "answer": "Load balancing is the process of distributing incoming network traffic across multiple backend servers to ensure no single server becomes overwhelmed, thereby improving responsiveness and availability."
+      },
+      {
+        "question": "Can HAProxy be used for SSL/TLS termination?",
+        "answer": "Yes, HAProxy supports SSL/TLS termination, allowing it to handle encrypted connections and forward unencrypted traffic to backend servers, simplifying certificate management."
+      }
+    ]
+  },
+  "acronis-cyber-protect-home-office": {
+    "input_hash": "0af57ba9e721151a46b8c8819cca0f73eac0bb4fb6b1452bc9291944cb43ce7f",
+    "generated_at": "2026-11-01",
+    "summary": "Acronis Cyber Protect Home Office is a comprehensive cybersecurity and data protection solution for individuals.",
+    "what_it_does": "It combines backup, disaster recovery, and advanced cybersecurity features like antivirus, anti-malware, and anti-ransomware protection.",
+    "best_for": "Home users seeking integrated protection for their data and devices against cyber threats and data loss.",
+    "free_tier": "Offers a 30-day free trial.",
+    "limitations": "Requires a paid annual subscription after the trial period. Features and storage options vary by plan. Please check the Acronis website for details.",
+    "licensing_notes": "Proprietary software requiring a paid annual subscription.",
+    "faq": [
+      {
+        "question": "What is included in Acronis Cyber Protect Home Office?",
+        "answer": "It integrates data backup and recovery with advanced cybersecurity features such as antivirus, anti-malware, anti-ransomware, and web filtering to provide all-around protection for your digital life."
+      },
+      {
+        "question": "How long is the free trial for Acronis Cyber Protect Home Office?",
+        "answer": "Acronis Cyber Protect Home Office offers a 30-day free trial."
+      }
+    ]
+  },
+  "gnu-emacs": {
+    "input_hash": "8fe25d4df70595ad74229ab36fb353ae13bf4a7d53f076b189de1fe956e6d10e",
+    "generated_at": "2026-11-01",
+    "summary": "GNU Emacs is a highly extensible and customizable text editor.",
+    "what_it_does": "It provides a powerful environment for writing and editing code, text, and performing various computing tasks through its extensive features and customization options.",
+    "best_for": "Programmers, writers, and users who need a powerful, customizable text editing environment and are comfortable with a learning curve.",
+    "free_tier": "N/A (Free Software / Open Source)",
+    "limitations": "As free software, there are no functional limitations imposed by the license. User experience may require time to master its extensive features.",
+    "licensing_notes": "Licensed under the GNU General Public License version 3 or later (GNU GPLv3+).",
+    "faq": [
+      {
+        "question": "What makes GNU Emacs 'extensible'?",
+        "answer": "Emacs is extensible through Emacs Lisp, a dialect of Lisp. Users can write or install extensions (packages) to add new features, customize existing ones, or even change how Emacs behaves entirely."
+      },
+      {
+        "question": "Is GNU Emacs only for programming?",
+        "answer": "No, while Emacs is very popular among programmers for its code editing capabilities, it can be used for a wide range of tasks including writing documents, managing email, browsing the web, and much more, thanks to its extensive customization options."
+      }
+    ]
+  },
+  "ultimaker-cura": {
+    "input_hash": "6e838e1c927aeba7cf86f15738a684aa1407dc317a924cc5b8e291d354160d88",
+    "generated_at": "2026-11-01",
+    "summary": "UltiMaker Cura is a popular open-source slicing software for 3D printing.",
+    "what_it_does": "It prepares 3D models for printing by slicing them into layers and generating the necessary G-code, while offering extensive customization options.",
+    "best_for": "3D printing users of all levels, compatible with a wide range of FDM 3D printers.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "As open-source software, it is free to use. Please refer to the LGPLv3 license for terms of use and distribution.",
+    "licensing_notes": "Open Source, primarily licensed under the GNU Lesser General Public License v3.0 (LGPLv3).",
+    "faq": [
+      {
+        "question": "Is UltiMaker Cura compatible with printers other than UltiMaker?",
+        "answer": "Yes, UltiMaker Cura supports a vast number of 3D printers from various manufacturers. You can add custom printer profiles if your specific model is not listed by default."
+      },
+      {
+        "question": "What is the main function of UltiMaker Cura?",
+        "answer": "Its primary function is to 'slice' a 3D model into thin layers and generate the G-code instructions that a 3D printer uses to build the object layer by layer. It also allows for detailed control over print settings."
+      }
+    ]
+  },
+  "hoppscotch": {
+    "input_hash": "dddc4a16e60f258fd38d5f4722a37bc4cbe59a522e3eb92c9273642e60502763",
+    "generated_at": "2026-11-01",
+    "summary": "Hoppscotch is an open-source, web-based API development ecosystem.",
+    "what_it_does": "It provides a user-friendly interface for making HTTP requests, inspecting responses, and managing API documentation, streamlining the API development and testing process.",
+    "best_for": "Developers and testers who need a free, accessible, and collaborative tool for working with APIs.",
+    "free_tier": "N/A (Open Source)",
+    "limitations": "As open-source software, it is free to use. Please refer to the MIT License for terms of use and distribution.",
+    "licensing_notes": "Distributed under the permissive MIT License.",
+    "faq": [
+      {
+        "question": "What kind of APIs can I test with Hoppscotch?",
+        "answer": "Hoppscotch supports testing various types of APIs, including RESTful APIs, GraphQL APIs, and WebSocket APIs, by allowing you to construct and send HTTP requests and analyze the responses."
+      },
+      {
+        "question": "Is Hoppscotch available as a desktop application?",
+        "answer": "Hoppscotch is primarily a web-based application accessible through a browser. While it can be used offline after initial loading, it does not have a separate desktop application in the traditional sense. Please check the official website for the latest deployment options."
+      }
+    ]
   }
 }

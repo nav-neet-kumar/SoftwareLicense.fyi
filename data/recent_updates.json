@@ -1,902 +1,902 @@
 [
   {
-    "name": "ai-platform-engineering",
-    "slug": "ai-platform-engineering",
+    "name": "pyrig",
+    "slug": "pyrig",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/caipe-io/ai-platform-engineering",
-    "source": "https://github.com/caipe-io/ai-platform-engineering"
+    "url": "https://github.com/Winipedia/pyrig",
+    "source": "https://github.com/Winipedia/pyrig"
   },
   {
-    "name": "dokku",
-    "slug": "dokku",
+    "name": "addon-controller",
+    "slug": "addon-controller",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/dokku/dokku",
-    "source": "https://github.com/dokku/dokku"
+    "url": "https://github.com/projectsveltos/addon-controller",
+    "source": "https://github.com/projectsveltos/addon-controller"
   },
   {
-    "name": "sandpolis",
-    "slug": "sandpolis",
+    "name": "NexTerm",
+    "slug": "nexterm",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/cilki/sandpolis",
-    "source": "https://github.com/cilki/sandpolis"
+    "url": "https://github.com/Hello-CTF/NexTerm",
+    "source": "https://github.com/Hello-CTF/NexTerm"
   },
   {
-    "name": "labtether",
-    "slug": "labtether",
+    "name": "OpsiMate",
+    "slug": "opsimate",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/labtether/labtether",
-    "source": "https://github.com/labtether/labtether"
+    "url": "https://github.com/OpsiMate/OpsiMate",
+    "source": "https://github.com/OpsiMate/OpsiMate"
   },
   {
-    "name": "querytuner",
-    "slug": "querytuner",
+    "name": "temps",
+    "slug": "temps",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/AutoShiftOps/querytuner",
-    "source": "https://github.com/AutoShiftOps/querytuner"
+    "url": "https://github.com/gotempsh/temps",
+    "source": "https://github.com/gotempsh/temps"
   },
   {
-    "name": "maester",
-    "slug": "maester",
+    "name": "diffinery",
+    "slug": "diffinery",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/maester365/maester",
-    "source": "https://github.com/maester365/maester"
+    "url": "https://github.com/codician-team/diffinery",
+    "source": "https://github.com/codician-team/diffinery"
   },
   {
-    "name": "skills",
-    "slug": "skills",
+    "name": "holmesgpt",
+    "slug": "holmesgpt",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/starslingdev/skills",
-    "source": "https://github.com/starslingdev/skills"
+    "url": "https://github.com/HolmesGPT/holmesgpt",
+    "source": "https://github.com/HolmesGPT/holmesgpt"
   },
   {
-    "name": "circleci-cli",
-    "slug": "circleci-cli",
+    "name": "meho",
+    "slug": "meho",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/CircleCI-Public/circleci-cli",
-    "source": "https://github.com/CircleCI-Public/circleci-cli"
+    "url": "https://github.com/evoila/meho",
+    "source": "https://github.com/evoila/meho"
   },
   {
-    "name": "betterleaks",
-    "slug": "betterleaks",
+    "name": "Directus",
+    "slug": "directus",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/betterleaks/betterleaks",
-    "source": "https://github.com/betterleaks/betterleaks"
+    "url": "https://directus.io/",
+    "source": "https://directus.io/"
   },
   {
-    "name": "floci",
-    "slug": "floci",
+    "name": "Medusa",
+    "slug": "medusa",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/floci-io/floci",
-    "source": "https://github.com/floci-io/floci"
+    "url": "https://www.medusajs.com/",
+    "source": "https://www.medusajs.com/"
   },
   {
-    "name": "LemonSees",
-    "slug": "lemonsees",
+    "name": "AppFlowy",
+    "slug": "appflowy",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/Altumptic/LemonSees",
-    "source": "https://github.com/Altumptic/LemonSees"
+    "url": "https://www.appflowy.io/",
+    "source": "https://www.appflowy.io/"
   },
   {
-    "name": "infrahub",
-    "slug": "infrahub",
+    "name": "Plane",
+    "slug": "plane",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/opsmill/infrahub",
-    "source": "https://github.com/opsmill/infrahub"
+    "url": "https://plane.so/",
+    "source": "https://plane.so/"
   },
   {
-    "name": "mu",
-    "slug": "mu",
+    "name": "NocoDB",
+    "slug": "nocodb",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/qybaihe/mu",
-    "source": "https://github.com/qybaihe/mu"
+    "url": "https://www.nocodb.com/",
+    "source": "https://www.nocodb.com/"
   },
   {
-    "name": "emailops",
-    "slug": "emailops",
+    "name": "Cal.com",
+    "slug": "cal-com",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/emailops/emailops",
-    "source": "https://github.com/emailops/emailops"
+    "url": "https://cal.com/",
+    "source": "https://cal.com/"
   },
   {
-    "name": "Tavotto",
-    "slug": "tavotto",
+    "name": "Webiny",
+    "slug": "webiny",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/Tavotto/Tavotto",
-    "source": "https://github.com/Tavotto/Tavotto"
+    "url": "https://www.webiny.com/",
+    "source": "https://www.webiny.com/"
   },
   {
-    "name": "lite",
-    "slug": "lite",
+    "name": "ToolJet",
+    "slug": "tooljet",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/ultralytics/lite",
-    "source": "https://github.com/ultralytics/lite"
+    "url": "https://tooljet.com/",
+    "source": "https://tooljet.com/"
   },
   {
-    "name": "runner",
-    "slug": "runner",
+    "name": "Budibase",
+    "slug": "budibase",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/yicheng47/runner",
-    "source": "https://github.com/yicheng47/runner"
+    "url": "https://budibase.com/",
+    "source": "https://budibase.com/"
   },
   {
-    "name": "openidea",
-    "slug": "openidea",
+    "name": "diagrams.net",
+    "slug": "diagrams-net",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/l0ng-ai/openidea",
-    "source": "https://github.com/l0ng-ai/openidea"
+    "url": "https://www.diagrams.net/",
+    "source": "https://www.diagrams.net/"
   },
   {
-    "name": "Yagua-Image-Processor",
-    "slug": "yagua-image-processor",
+    "name": "PlantUML",
+    "slug": "plantuml",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/GuilleBouix/Yagua-Image-Processor",
-    "source": "https://github.com/GuilleBouix/Yagua-Image-Processor"
+    "url": "https://plantuml.com/",
+    "source": "https://plantuml.com/"
   },
   {
-    "name": "skillshare",
-    "slug": "skillshare",
+    "name": "Ventoy",
+    "slug": "ventoy",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/runkids/skillshare",
-    "source": "https://github.com/runkids/skillshare"
+    "url": "https://www.ventoy.net/",
+    "source": "https://www.ventoy.net/"
   },
   {
-    "name": "nuclear",
-    "slug": "nuclear",
+    "name": "WizTree",
+    "slug": "wiztree",
     "type": "NEW",
-    "date": "2026-10-29",
-    "category": "Open Source",
-    "url": "https://github.com/nukeop/nuclear",
-    "source": "https://github.com/nukeop/nuclear"
+    "date": "2026-11-01",
+    "category": "Free for Home",
+    "url": "https://diskanalyzer.com/",
+    "source": "https://diskanalyzer.com/"
   },
   {
-    "name": "tesseract",
-    "slug": "tesseract",
+    "name": "Process Explorer",
+    "slug": "process-explorer",
     "type": "NEW",
-    "date": "2026-10-29",
-    "category": "Open Source",
-    "url": "https://github.com/surakin/tesseract",
-    "source": "https://github.com/surakin/tesseract"
+    "date": "2026-11-01",
+    "category": "Free for Home",
+    "url": "https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer",
+    "source": "https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer"
   },
   {
-    "name": "cc-switch",
-    "slug": "cc-switch",
+    "name": "Everything",
+    "slug": "everything",
     "type": "NEW",
-    "date": "2026-10-29",
-    "category": "Open Source",
-    "url": "https://github.com/farion1231/cc-switch",
-    "source": "https://github.com/farion1231/cc-switch"
+    "date": "2026-11-01",
+    "category": "Free for Home",
+    "url": "https://www.voidtools.com/",
+    "source": "https://www.voidtools.com/"
   },
   {
-    "name": "PhotoSort",
-    "slug": "photosort",
+    "name": "f.lux",
+    "slug": "f-lux",
     "type": "NEW",
-    "date": "2026-10-29",
-    "category": "Open Source",
-    "url": "https://github.com/duartebarbosadev/PhotoSort",
-    "source": "https://github.com/duartebarbosadev/PhotoSort"
+    "date": "2026-11-01",
+    "category": "Free for Home",
+    "url": "https://justgetflux.com/",
+    "source": "https://justgetflux.com/"
   },
   {
-    "name": "GitComet",
-    "slug": "gitcomet",
+    "name": "Lutris",
+    "slug": "lutris",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/Auto-Explore/GitComet",
-    "source": "https://github.com/Auto-Explore/GitComet"
+    "url": "https://lutris.net/",
+    "source": "https://lutris.net/"
   },
   {
-    "name": "oxi",
-    "slug": "oxi",
+    "name": "Heroic Games Launcher",
+    "slug": "heroic-games-launcher",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/maziluiosif/oxi",
-    "source": "https://github.com/maziluiosif/oxi"
+    "url": "https://heroicgameslauncher.com/",
+    "source": "https://heroicgameslauncher.com/"
   },
   {
-    "name": "threadlines",
-    "slug": "threadlines",
+    "name": "Bottles",
+    "slug": "bottles",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/Threadlines/threadlines",
-    "source": "https://github.com/Threadlines/threadlines"
+    "url": "https://usebottles.com/",
+    "source": "https://usebottles.com/"
   },
   {
-    "name": "Relatum",
-    "slug": "relatum",
+    "name": "PowerToys",
+    "slug": "powertoys",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/yamibk/Relatum",
-    "source": "https://github.com/yamibk/Relatum"
+    "url": "https://learn.microsoft.com/en-us/windows/powertoys/",
+    "source": "https://learn.microsoft.com/en-us/windows/powertoys/"
   },
   {
-    "name": "Nomi",
-    "slug": "nomi",
+    "name": "WinGet",
+    "slug": "winget",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/aqm857886159/Nomi",
-    "source": "https://github.com/aqm857886159/Nomi"
+    "url": "https://learn.microsoft.com/en-us/windows/package-manager/",
+    "source": "https://learn.microsoft.com/en-us/windows/package-manager/"
   },
   {
-    "name": "mqlens-mongodb",
-    "slug": "mqlens-mongodb",
+    "name": "Chocolatey",
+    "slug": "chocolatey",
     "type": "NEW",
-    "date": "2026-10-29",
-    "category": "Open Source",
-    "url": "https://github.com/mqlens/mqlens-mongodb",
-    "source": "https://github.com/mqlens/mqlens-mongodb"
+    "date": "2026-11-01",
+    "category": "Community Version",
+    "url": "https://chocolatey.org/",
+    "source": "https://chocolatey.org/"
   },
   {
-    "name": "awesome-swift-macos-apps",
-    "slug": "awesome-swift-macos-apps",
+    "name": "Homebrew",
+    "slug": "homebrew",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/jaywcjlove/awesome-swift-macos-apps",
-    "source": "https://github.com/jaywcjlove/awesome-swift-macos-apps"
+    "url": "https://brew.sh/",
+    "source": "https://brew.sh/"
   },
   {
-    "name": "kangentic",
-    "slug": "kangentic",
+    "name": "Vivaldi",
+    "slug": "vivaldi",
     "type": "NEW",
-    "date": "2026-10-29",
-    "category": "Open Source",
-    "url": "https://github.com/Kangentic/kangentic",
-    "source": "https://github.com/Kangentic/kangentic"
+    "date": "2026-11-01",
+    "category": "Free for Home",
+    "url": "https://vivaldi.com/",
+    "source": "https://vivaldi.com/"
   },
   {
-    "name": "o8",
-    "slug": "o8",
+    "name": "Arc Browser",
+    "slug": "arc-browser",
     "type": "NEW",
-    "date": "2026-10-29",
-    "category": "Open Source",
-    "url": "https://github.com/o8-run/o8",
-    "source": "https://github.com/o8-run/o8"
+    "date": "2026-11-01",
+    "category": "Free for Home",
+    "url": "https://arc.net/",
+    "source": "https://arc.net/"
   },
   {
-    "name": "openharness",
-    "slug": "openharness",
+    "name": "Pop!_OS",
+    "slug": "pop-os",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/autonomous-ai/openharness",
-    "source": "https://github.com/autonomous-ai/openharness"
+    "url": "https://pop.system76.com/",
+    "source": "https://pop.system76.com/"
   },
   {
-    "name": "intent",
-    "slug": "intent",
+    "name": "Ollama",
+    "slug": "ollama",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/intent-hq/intent",
-    "source": "https://github.com/intent-hq/intent"
+    "url": "https://ollama.com/",
+    "source": "https://ollama.com/"
   },
   {
-    "name": "Neon-Vision-Editor",
-    "slug": "neon-vision-editor",
+    "name": "LM Studio",
+    "slug": "lm-studio",
     "type": "NEW",
-    "date": "2026-10-29",
-    "category": "Open Source",
-    "url": "https://github.com/h3pdesign/Neon-Vision-Editor",
-    "source": "https://github.com/h3pdesign/Neon-Vision-Editor"
+    "date": "2026-11-01",
+    "category": "Free for Home",
+    "url": "https://lmstudio.ai/",
+    "source": "https://lmstudio.ai/"
   },
   {
-    "name": "jjfx",
-    "slug": "jjfx",
+    "name": "Natron",
+    "slug": "natron",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/Jarvvski/jjfx",
-    "source": "https://github.com/Jarvvski/jjfx"
+    "url": "https://natron.fr/",
+    "source": "https://natron.fr/"
   },
   {
-    "name": "ccstatusline",
-    "slug": "ccstatusline",
+    "name": "KeeWeb",
+    "slug": "keeweb",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/sirmalloc/ccstatusline",
-    "source": "https://github.com/sirmalloc/ccstatusline"
+    "url": "https://keeweb.info/",
+    "source": "https://github.com/keeweb/keeweb"
   },
   {
-    "name": "parallel-code",
-    "slug": "parallel-code",
+    "name": "Tauri",
+    "slug": "tauri",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/johannesjo/parallel-code",
-    "source": "https://github.com/johannesjo/parallel-code"
+    "url": "https://tauri.app/",
+    "source": "https://github.com/tauri-apps/tauri"
   },
   {
-    "name": "agents-fleet",
-    "slug": "agents-fleet",
+    "name": "Podman Desktop",
+    "slug": "podman-desktop",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/Bil0000/agents-fleet",
-    "source": "https://github.com/Bil0000/agents-fleet"
+    "url": "https://podman-desktop.io/",
+    "source": "https://github.com/containers/podman-desktop"
   },
   {
-    "name": "LynxPrompt",
-    "slug": "lynxprompt",
+    "name": "NixOS",
+    "slug": "nixos",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/GeiserX/LynxPrompt",
-    "source": "https://github.com/GeiserX/LynxPrompt"
+    "url": "https://nixos.org/",
+    "source": "https://github.com/NixOS/nixpkgs"
   },
   {
-    "name": "open-source",
-    "slug": "open-source",
+    "name": "Wallabag",
+    "slug": "wallabag",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/Arnon-hs/open-source",
-    "source": "https://github.com/Arnon-hs/open-source"
+    "url": "https://www.wallabag.it/en",
+    "source": "https://github.com/wallabag/wallabag"
   },
   {
-    "name": "adhdev",
-    "slug": "adhdev",
+    "name": "Immich",
+    "slug": "immich",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/vilmire/adhdev",
-    "source": "https://github.com/vilmire/adhdev"
+    "url": "https://immich.app/",
+    "source": "https://github.com/immich-app/immich"
   },
   {
-    "name": "ExplainThisRepo",
-    "slug": "explainthisrepo",
+    "name": "BookStack",
+    "slug": "bookstack",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/calchiwo/ExplainThisRepo",
-    "source": "https://github.com/calchiwo/ExplainThisRepo"
+    "url": "https://www.bookstackapp.com/",
+    "source": "https://github.com/BookStackApp/BookStack"
   },
   {
-    "name": "px0",
-    "slug": "px0",
+    "name": "Actual Budget",
+    "slug": "actual-budget",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/px0-ai/px0",
-    "source": "https://github.com/px0-ai/px0"
+    "url": "https://actualbudget.com/",
+    "source": "https://github.com/actualbudget/actual"
   },
   {
-    "name": "agent-message-queue",
-    "slug": "agent-message-queue",
+    "name": "Dashy",
+    "slug": "dashy",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/avivsinai/agent-message-queue",
-    "source": "https://github.com/avivsinai/agent-message-queue"
+    "url": "https://dashy.to/",
+    "source": "https://github.com/Lissy93/dashy"
   },
   {
-    "name": "clopen",
-    "slug": "clopen",
+    "name": "iTerm2",
+    "slug": "iterm2",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/myrialabs/clopen",
-    "source": "https://github.com/myrialabs/clopen"
+    "url": "https://iterm2.com/",
+    "source": "https://github.com/gnachman/iTerm2/blob/master/LICENSE"
   },
   {
-    "name": "levelrail",
-    "slug": "levelrail",
+    "name": "Windows Terminal",
+    "slug": "windows-terminal",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/glincker/levelrail",
-    "source": "https://github.com/glincker/levelrail"
+    "url": "https://learn.microsoft.com/en-us/windows/terminal/",
+    "source": "https://github.com/microsoft/terminal/blob/main/LICENSE"
   },
   {
-    "name": "lfops",
-    "slug": "lfops",
+    "name": "Hyper",
+    "slug": "hyper",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/Linuxfabrik/lfops",
-    "source": "https://github.com/Linuxfabrik/lfops"
+    "url": "https://hyper.is/",
+    "source": "https://github.com/vercel/hyper/blob/main/LICENSE.md"
   },
   {
-    "name": "awesome-stacks",
-    "slug": "awesome-stacks",
+    "name": "Tabby",
+    "slug": "tabby",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/ethibox/awesome-stacks",
-    "source": "https://github.com/ethibox/awesome-stacks"
+    "url": "https://tabby.sh/",
+    "source": "https://github.com/Eugeny/tabby/blob/master/LICENSE"
   },
   {
-    "name": "go-carbon",
-    "slug": "go-carbon",
+    "name": "Rye",
+    "slug": "rye",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/go-graphite/go-carbon",
-    "source": "https://github.com/go-graphite/go-carbon"
+    "url": "https://rye-up.com/",
+    "source": "https://github.com/mitsuhiko/rye/blob/main/LICENSE"
   },
   {
-    "name": "curie",
-    "slug": "curie",
+    "name": "Poetry",
+    "slug": "poetry",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/curie-eng/curie",
-    "source": "https://github.com/curie-eng/curie"
+    "url": "https://python-poetry.org/",
+    "source": "https://github.com/python-poetry/poetry/blob/master/LICENSE"
   },
   {
-    "name": "pacto",
-    "slug": "pacto",
+    "name": "pnpm",
+    "slug": "pnpm",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/TrianaLab/pacto",
-    "source": "https://github.com/TrianaLab/pacto"
+    "url": "https://pnpm.io/",
+    "source": "https://github.com/pnpm/pnpm/blob/main/LICENSE"
   },
   {
-    "name": "ybkkasi",
-    "slug": "ybkkasi",
+    "name": "Turborepo",
+    "slug": "turborepo",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/01men/ybkkasi",
-    "source": "https://github.com/01men/ybkkasi"
+    "url": "https://turbo.build/repo",
+    "source": "https://github.com/vercel/turbo/blob/main/LICENSE"
   },
   {
-    "name": "centreon",
-    "slug": "centreon",
+    "name": "Nx",
+    "slug": "nx",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/centreon/centreon",
-    "source": "https://github.com/centreon/centreon"
+    "url": "https://nx.dev/",
+    "source": "https://github.com/nrwl/nx/blob/master/LICENSE.md"
   },
   {
-    "name": "mcp-context-forge",
-    "slug": "mcp-context-forge",
+    "name": "Biome",
+    "slug": "biome",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/IBM/mcp-context-forge",
-    "source": "https://github.com/IBM/mcp-context-forge"
+    "url": "https://biomejs.dev/",
+    "source": "https://github.com/biomejs/biome/blob/main/LICENSE"
   },
   {
-    "name": "sortie",
-    "slug": "sortie",
+    "name": "Ruff",
+    "slug": "ruff",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/sortie-ai/sortie",
-    "source": "https://github.com/sortie-ai/sortie"
+    "url": "https://docs.astral.sh/ruff/",
+    "source": "https://github.com/astral-sh/ruff/blob/main/LICENSE"
   },
   {
-    "name": "blog-devto",
-    "slug": "blog-devto",
+    "name": "Pydantic",
+    "slug": "pydantic",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/Pwd9000-ML/blog-devto",
-    "source": "https://github.com/Pwd9000-ML/blog-devto"
+    "url": "https://pydantic.dev/",
+    "source": "https://github.com/pydantic/pydantic/blob/main/LICENSE"
   },
   {
-    "name": "TestOPS",
-    "slug": "testops",
+    "name": "Hono",
+    "slug": "hono",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/qsumm/TestOPS",
-    "source": "https://github.com/qsumm/TestOPS"
+    "url": "https://hono.dev/",
+    "source": "https://github.com/honojs/hono/blob/main/LICENSE"
   },
   {
-    "name": "ansible-devops",
-    "slug": "ansible-devops",
+    "name": "Valetudo",
+    "slug": "valetudo",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/ibm-mas/ansible-devops",
-    "source": "https://github.com/ibm-mas/ansible-devops"
+    "url": "https://valetudo.cloud/",
+    "source": "https://github.com/Hypfer/Valetudo/blob/master/LICENSE"
   },
   {
-    "name": "unleash",
-    "slug": "unleash",
+    "name": "Stable Diffusion",
+    "slug": "stable-diffusion",
     "type": "NEW",
-    "date": "2026-10-29",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/Unleash/unleash",
-    "source": "https://github.com/Unleash/unleash"
+    "url": "https://stability.ai/stable-diffusion",
+    "source": "https://github.com/Stability-AI/stablediffusion/blob/main/LICENSE"
   },
   {
-    "name": "StoryForge",
-    "slug": "storyforge",
+    "name": "LlamaIndex",
+    "slug": "llamaindex",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/XZZKANY/StoryForge",
-    "source": "https://github.com/XZZKANY/StoryForge"
+    "url": "https://www.llamaindex.ai/",
+    "source": "https://github.com/run-llama/llama_index/blob/main/LICENSE"
   },
   {
-    "name": "javinizer-go",
-    "slug": "javinizer-go",
+    "name": "LangChain",
+    "slug": "langchain",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/javinizer/javinizer-go",
-    "source": "https://github.com/javinizer/javinizer-go"
+    "url": "https://www.langchain.com/",
+    "source": "https://github.com/langchain-ai/langchain/blob/master/LICENSE"
   },
   {
-    "name": "tuvis",
-    "slug": "tuvis",
+    "name": "Open Interpreter",
+    "slug": "open-interpreter",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/jarvislee90s-dot/tuvis",
-    "source": "https://github.com/jarvislee90s-dot/tuvis"
+    "url": "https://openinterpreter.com/",
+    "source": "https://github.com/KillianLucas/open-interpreter/blob/main/LICENSE"
   },
   {
-    "name": "rolle",
-    "slug": "rolle",
+    "name": "Miniforge",
+    "slug": "miniforge",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/nateships/rolle",
-    "source": "https://github.com/nateships/rolle"
+    "url": "https://github.com/conda-forge/miniforge",
+    "source": "https://github.com/conda-forge/miniforge/blob/main/LICENSE"
   },
   {
-    "name": "Corum-Harness",
-    "slug": "corum-harness",
+    "name": "Mamba",
+    "slug": "mamba",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/kukucaiCndy/Corum-Harness",
-    "source": "https://github.com/kukucaiCndy/Corum-Harness"
+    "url": "https://mamba.readthedocs.io/",
+    "source": "https://github.com/mamba-org/mamba/blob/main/LICENSE"
   },
   {
-    "name": "facenox",
-    "slug": "facenox",
+    "name": "eza",
+    "slug": "eza",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/facenox/facenox",
-    "source": "https://github.com/facenox/facenox"
+    "url": "https://eza.rocks/",
+    "source": "https://github.com/eza-community/eza/blob/main/LICENSE"
   },
   {
-    "name": "spotifast",
-    "slug": "spotifast",
+    "name": "bat",
+    "slug": "bat",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/crmne/spotifast",
-    "source": "https://github.com/crmne/spotifast"
+    "url": "https://github.com/sharkdp/bat",
+    "source": "https://github.com/sharkdp/bat/blob/master/LICENSE"
   },
   {
-    "name": "NapCatQQ-Desktop",
-    "slug": "napcatqq-desktop",
+    "name": "fd",
+    "slug": "fd",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/NapNeko/NapCatQQ-Desktop",
-    "source": "https://github.com/NapNeko/NapCatQQ-Desktop"
+    "url": "https://github.com/sharkdp/fd",
+    "source": "https://github.com/sharkdp/fd/blob/master/LICENSE"
   },
   {
-    "name": "superagent-desktop",
-    "slug": "superagent-desktop",
+    "name": "ripgrep",
+    "slug": "ripgrep",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/pungme/superagent-desktop",
-    "source": "https://github.com/pungme/superagent-desktop"
+    "url": "https://github.com/BurntSushi/ripgrep",
+    "source": "https://github.com/BurntSushi/ripgrep/blob/master/LICENSE-MIT"
   },
   {
-    "name": "floe",
-    "slug": "floe",
+    "name": "Netdata",
+    "slug": "netdata",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/jannskiee/floe",
-    "source": "https://github.com/jannskiee/floe"
+    "url": "https://www.netdata.cloud/",
+    "source": "https://github.com/netdata/netdata/blob/master/LICENSE"
   },
   {
-    "name": "GoNavi",
-    "slug": "gonavi",
+    "name": "Uptime Kuma",
+    "slug": "uptime-kuma",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/Syngnat/GoNavi",
-    "source": "https://github.com/Syngnat/GoNavi"
+    "url": "https://github.com/louislam/uptime-kuma",
+    "source": "https://github.com/louislam/uptime-kuma/blob/master/LICENSE"
   },
   {
-    "name": "OpenLore",
-    "slug": "openlore",
+    "name": "Shutter Encoder",
+    "slug": "shutter-encoder",
     "type": "NEW",
-    "date": "2026-10-31",
-    "category": "Open Source",
-    "url": "https://github.com/clay-good/OpenLore",
-    "source": "https://github.com/clay-good/OpenLore"
+    "date": "2026-11-01",
+    "category": "Free for Home",
+    "url": "https://www.shutterencoder.com/",
+    "source": "https://www.shutterencoder.com/"
   },
   {
-    "name": "zeroshot",
-    "slug": "zeroshot",
+    "name": "LosslessCut",
+    "slug": "losslesscut",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/the-open-engine/zeroshot",
-    "source": "https://github.com/the-open-engine/zeroshot"
+    "url": "https://github.com/mifi/lossless-cut",
+    "source": "https://github.com/mifi/lossless-cut/blob/master/LICENSE"
   },
   {
-    "name": "dev-3.0",
-    "slug": "dev-3-0",
+    "name": "CrystalDiskInfo",
+    "slug": "crystaldiskinfo",
     "type": "NEW",
-    "date": "2026-10-31",
-    "category": "Open Source",
-    "url": "https://github.com/h0x91b/dev-3.0",
-    "source": "https://github.com/h0x91b/dev-3.0"
+    "date": "2026-11-01",
+    "category": "Free for Home",
+    "url": "https://crystalmark.info/en/software/crystaldiskinfo/",
+    "source": "https://crystalmark.info/en/software/crystaldiskinfo/"
   },
   {
-    "name": "holon",
-    "slug": "holon",
+    "name": "Duplicati",
+    "slug": "duplicati",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/holon-run/holon",
-    "source": "https://github.com/holon-run/holon"
+    "url": "https://www.duplicati.com/",
+    "source": "https://www.duplicati.com/download"
   },
   {
-    "name": "scythe",
-    "slug": "scythe",
+    "name": "ownCloud",
+    "slug": "owncloud",
     "type": "NEW",
-    "date": "2026-10-31",
-    "category": "Open Source",
-    "url": "https://github.com/Goldziher/scythe",
-    "source": "https://github.com/Goldziher/scythe"
+    "date": "2026-11-01",
+    "category": "Community Version",
+    "url": "https://owncloud.com/",
+    "source": "https://owncloud.com/download/"
   },
   {
-    "name": "Ctxo",
-    "slug": "ctxo",
+    "name": "Coda",
+    "slug": "coda",
     "type": "NEW",
-    "date": "2026-10-31",
-    "category": "Open Source",
-    "url": "https://github.com/alperhankendi/Ctxo",
-    "source": "https://github.com/alperhankendi/Ctxo"
+    "date": "2026-11-01",
+    "category": "Free for Home",
+    "url": "https://coda.io/",
+    "source": "https://coda.io/pricing"
   },
   {
-    "name": "cross-review",
-    "slug": "cross-review",
+    "name": "Craft",
+    "slug": "craft",
     "type": "NEW",
-    "date": "2026-10-31",
-    "category": "Open Source",
-    "url": "https://github.com/lploc94/cross-review",
-    "source": "https://github.com/lploc94/cross-review"
+    "date": "2026-11-01",
+    "category": "Free for Home",
+    "url": "https://www.craft.do/",
+    "source": "https://www.craft.do/pricing"
   },
   {
-    "name": "qwen-code",
-    "slug": "qwen-code",
+    "name": "Lapce",
+    "slug": "lapce",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/QwenLM/qwen-code",
-    "source": "https://github.com/QwenLM/qwen-code"
+    "url": "https://lapce.dev/",
+    "source": "https://github.com/lapce/lapce/blob/main/LICENSE"
   },
   {
-    "name": "intentic",
-    "slug": "intentic",
+    "name": "Tekton",
+    "slug": "tekton",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/intentic/intentic",
-    "source": "https://github.com/intentic/intentic"
+    "url": "https://tekton.dev/",
+    "source": "https://github.com/tektoncd/pipeline/blob/main/LICENSE"
   },
   {
-    "name": "entroly",
-    "slug": "entroly",
+    "name": "Spinnaker",
+    "slug": "spinnaker",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/juyterman1000/entroly",
-    "source": "https://github.com/juyterman1000/entroly"
+    "url": "https://spinnaker.io/",
+    "source": "https://github.com/spinnaker/spinnaker/blob/master/LICENSE"
   },
   {
-    "name": "trace-mcp",
-    "slug": "trace-mcp",
+    "name": "KEDA (Kubernetes Event-driven Autoscaling)",
+    "slug": "keda-kubernetes-event-driven-autoscaling",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/nikolai-vysotskyi/trace-mcp",
-    "source": "https://github.com/nikolai-vysotskyi/trace-mcp"
+    "url": "https://keda.sh/",
+    "source": "https://github.com/kedacore/keda/blob/main/LICENSE"
   },
   {
-    "name": "home-ops",
-    "slug": "home-ops",
+    "name": "Linkerd",
+    "slug": "linkerd",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/buroa/home-ops",
-    "source": "https://github.com/buroa/home-ops"
+    "url": "https://linkerd.io/",
+    "source": "https://github.com/linkerd/linkerd2/blob/main/LICENSE"
   },
   {
-    "name": "agentops",
-    "slug": "agentops",
+    "name": "Cilium",
+    "slug": "cilium",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/boshu2/agentops",
-    "source": "https://github.com/boshu2/agentops"
+    "url": "https://cilium.io/",
+    "source": "https://github.com/cilium/cilium/blob/main/LICENSE"
   },
   {
-    "name": "zanadir",
-    "slug": "zanadir",
+    "name": "Falco",
+    "slug": "falco",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/MustacheCase/zanadir",
-    "source": "https://github.com/MustacheCase/zanadir"
+    "url": "https://falco.org/",
+    "source": "https://github.com/falcosecurity/falco/blob/main/LICENSE"
   },
   {
-    "name": "woodpecker",
-    "slug": "woodpecker",
+    "name": "Kyverno",
+    "slug": "kyverno",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/woodpecker-ci/woodpecker",
-    "source": "https://github.com/woodpecker-ci/woodpecker"
+    "url": "https://kyverno.io/",
+    "source": "https://github.com/kyverno/kyverno/blob/main/LICENSE"
   },
   {
-    "name": "jekyll-github-deploy",
-    "slug": "jekyll-github-deploy",
+    "name": "Open Policy Agent (OPA)",
+    "slug": "open-policy-agent-opa",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/yegor256/jekyll-github-deploy",
-    "source": "https://github.com/yegor256/jekyll-github-deploy"
+    "url": "https://www.openpolicyagent.org/",
+    "source": "https://github.com/open-policy-agent/opa/blob/main/LICENSE"
   },
   {
-    "name": "sandbase-harness",
-    "slug": "sandbase-harness",
+    "name": "Crossplane",
+    "slug": "crossplane",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/sandbaseai/sandbase-harness",
-    "source": "https://github.com/sandbaseai/sandbase-harness"
+    "url": "https://crossplane.io/",
+    "source": "https://github.com/crossplane/crossplane/blob/master/LICENSE"
   },
   {
-    "name": "MCP-Airflow-API",
-    "slug": "mcp-airflow-api",
+    "name": "KubeVela",
+    "slug": "kubevela",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/call518/MCP-Airflow-API",
-    "source": "https://github.com/call518/MCP-Airflow-API"
+    "url": "https://kubevela.io/",
+    "source": "https://github.com/kubevela/kubevela/blob/master/LICENSE"
   },
   {
-    "name": "wootty",
-    "slug": "wootty",
+    "name": "PlanetScale",
+    "slug": "planetscale",
     "type": "NEW",
-    "date": "2026-10-31",
-    "category": "Open Source",
-    "url": "https://github.com/icoretech/wootty",
-    "source": "https://github.com/icoretech/wootty"
+    "date": "2026-11-01",
+    "category": "Free for Home",
+    "url": "https://planetscale.com/",
+    "source": "https://planetscale.com/pricing"
   },
   {
-    "name": "dagu",
-    "slug": "dagu",
+    "name": "Neon",
+    "slug": "neon",
     "type": "NEW",
-    "date": "2026-10-31",
-    "category": "Open Source",
-    "url": "https://github.com/dagucloud/dagu",
-    "source": "https://github.com/dagucloud/dagu"
+    "date": "2026-11-01",
+    "category": "Free for Home",
+    "url": "https://neon.tech/",
+    "source": "https://neon.tech/pricing"
   },
   {
-    "name": "JayantGoel001",
-    "slug": "jayantgoel001",
+    "name": "MLflow",
+    "slug": "mlflow",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/JayantGoel001/JayantGoel001",
-    "source": "https://github.com/JayantGoel001/JayantGoel001"
+    "url": "https://mlflow.org/",
+    "source": "https://github.com/mlflow/mlflow/blob/master/LICENSE"
   },
   {
-    "name": "glsec",
-    "slug": "glsec",
+    "name": "Weights & Biases",
+    "slug": "weights-biases",
     "type": "NEW",
-    "date": "2026-10-31",
-    "category": "Open Source",
-    "url": "https://github.com/glsec/glsec",
-    "source": "https://github.com/glsec/glsec"
+    "date": "2026-11-01",
+    "category": "Free for Home",
+    "url": "https://wandb.ai/",
+    "source": "https://wandb.ai/site/pricing"
   },
   {
-    "name": "aidevops",
-    "slug": "aidevops",
+    "name": "OpenVAS",
+    "slug": "openvas",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/marcusquinn/aidevops",
-    "source": "https://github.com/marcusquinn/aidevops"
+    "url": "https://www.openvas.org/",
+    "source": "https://www.openvas.org/"
   },
   {
-    "name": "compose-lint",
-    "slug": "compose-lint",
+    "name": "Portmaster",
+    "slug": "portmaster",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/tmatens/compose-lint",
-    "source": "https://github.com/tmatens/compose-lint"
+    "url": "https://safing.io/portmaster/",
+    "source": "https://safing.io/portmaster/"
   },
   {
-    "name": "Linux-Notes",
-    "slug": "linux-notes",
+    "name": "KeePassDX",
+    "slug": "keepassdx",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/djeada/Linux-Notes",
-    "source": "https://github.com/djeada/Linux-Notes"
+    "url": "https://www.keepassdx.com/",
+    "source": "https://github.com/Kunzisoft/KeePassDX/blob/master/LICENSE"
   },
   {
-    "name": "preflight",
-    "slug": "preflight",
+    "name": "Plexamp",
+    "slug": "plexamp",
     "type": "NEW",
-    "date": "2026-10-31",
-    "category": "Open Source",
-    "url": "https://github.com/vertti/preflight",
-    "source": "https://github.com/vertti/preflight"
+    "date": "2026-11-01",
+    "category": "License Required",
+    "url": "https://plexamp.com/",
+    "source": "https://plexamp.com/"
   },
   {
-    "name": "homelab",
-    "slug": "homelab",
+    "name": "Photopea",
+    "slug": "photopea",
     "type": "NEW",
-    "date": "2026-10-31",
-    "category": "Open Source",
-    "url": "https://github.com/ionfury/homelab",
-    "source": "https://github.com/ionfury/homelab"
+    "date": "2026-11-01",
+    "category": "Free for Home",
+    "url": "https://www.photopea.com/",
+    "source": "https://www.photopea.com/"
   },
   {
-    "name": "evnx",
-    "slug": "evnx",
+    "name": "Mermaid",
+    "slug": "mermaid",
     "type": "NEW",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "category": "Open Source",
-    "url": "https://github.com/urwithajit9/evnx",
-    "source": "https://github.com/urwithajit9/evnx"
+    "url": "https://mermaid.js.org/",
+    "source": "https://github.com/mermaid-js/mermaid/blob/develop/LICENSE"
   }
 ]
