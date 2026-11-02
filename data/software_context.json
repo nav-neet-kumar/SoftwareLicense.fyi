@@ -9898,5 +9898,601 @@
         "answer": "Hoppscotch is primarily a web-based application accessible through a browser. While it can be used offline after initial loading, it does not have a separate desktop application in the traditional sense. Please check the official website for the latest deployment options."
       }
     ]
+  },
+  "xenon": {
+    "input_hash": "9c0db3ed3de7ef592c79cd121b7830bdc26b52ea88cb3eed934b937d8b05aaa4",
+    "generated_at": "2026-11-02",
+    "summary": "Xenon is an open-source agent framework designed to assist developers with AI-powered coding tasks. It functions as a coding agent, likely leveraging AI models like DeepSeek.",
+    "what_it_does": "It provides a framework and harness for building and running AI agents, specifically focusing on coding assistance. It appears to offer a command-line interface (CLI) for interaction.",
+    "best_for": "Developers looking to integrate AI coding assistants into their workflow or build custom AI agents for development tasks, especially those interested in DeepSeek integration.",
+    "free_tier": "As an open-source project, the software itself is free to use under its license. Specific free-tier limits for any potential hosted service are not provided; visitors should check the official documentation.",
+    "limitations": "Information regarding specific limitations is not provided; visitors should check the official documentation.",
+    "licensing_notes": "Xenon is released under the MIT License, which is a permissive open-source license.",
+    "faq": [
+      {
+        "question": "What is its primary purpose?",
+        "answer": "It functions as a coding agent, providing a framework for building and running AI agents for development."
+      }
+    ]
+  },
+  "marfa": {
+    "input_hash": "e3134d16af1737e54a957590374ac693a76eb8c00616e8dacafea29172e9df1e",
+    "generated_at": "2026-11-02",
+    "summary": "Marfa is an open-source developer tool built with Rust, providing an API and CLI for managing typed data, particularly personal data. It supports self-hosted deployments.",
+    "what_it_does": "It offers a data layer for handling typed data, likely with a focus on personal data management. Developers can interact with it via an API or a command-line interface.",
+    "best_for": "Developers and organizations needing a self-hosted solution for managing typed data, especially personal data, with a preference for Rust-based tools and API/CLI access.",
+    "free_tier": "As an open-source project, the software itself is free to use under its license. Specific free-tier limits for any potential hosted service are not provided; visitors should check the official documentation.",
+    "limitations": "Information regarding specific limitations is not provided; visitors should check the official documentation.",
+    "licensing_notes": "Marfa is released under the Apache License 2.0, a permissive open-source license.",
+    "faq": [
+      {
+        "question": "What is marfa?",
+        "answer": "Marfa is an open-source developer tool built with Rust for managing typed data, including personal data."
+      },
+      {
+        "question": "Can marfa be self-hosted?",
+        "answer": "Yes, marfa is designed to be self-hosted and offers API and CLI access."
+      }
+    ]
+  },
+  "pisper": {
+    "input_hash": "e1326299e532823ba7a7104e0a8a824c890019f727d146748b206717ee0ad46d",
+    "generated_at": "2026-11-02",
+    "summary": "Pisper is an open-source multi-agent application built with Rust and TypeScript, leveraging Tauri for cross-platform compatibility, including mobile. It focuses on AI agents and developer tools.",
+    "what_it_does": "It provides a multi-agent application environment, likely for AI-driven tasks, accessible via a terminal or as a mobile application. The use of Tauri suggests it's a desktop application that can also target mobile.",
+    "best_for": "Developers interested in multi-agent AI applications, cross-platform development (desktop/mobile), and tools built with Rust and TypeScript, especially those who prefer terminal-based interaction.",
+    "free_tier": "As an open-source project, the software itself is free to use under its license. Specific free-tier limits for any potential hosted service are not provided; visitors should check the official documentation.",
+    "limitations": "Information regarding specific limitations is not provided; visitors should check the official documentation.",
+    "licensing_notes": "Pisper is released under the MIT License, which is a permissive open-source license.",
+    "faq": [
+      {
+        "question": "What is pisper?",
+        "answer": "Pisper is an open-source multi-agent application for AI agents and developer tools, built with Rust and TypeScript."
+      },
+      {
+        "question": "What platforms does pisper support?",
+        "answer": "It is a multi-agent app leveraging Tauri, suggesting support for desktop and mobile platforms."
+      }
+    ]
+  },
+  "ai-driven-development": {
+    "input_hash": "ff39f8de9f426933e7a12fc76f7b54b43394c8cc3427ff77168782f29f36f4ff",
+    "generated_at": "2026-11-02",
+    "summary": "This open-source project focuses on AI-driven development, incorporating concepts of agent safety and skills for AI coding. It appears to involve AI models like Claude.",
+    "what_it_does": "It explores and implements principles for developing software using AI, with an emphasis on ensuring agent safety and defining agent skills. It might involve scripting with Bash.",
+    "best_for": "Researchers, developers, and organizations interested in the methodology and practical application of AI-driven development, particularly concerning AI agent safety and skill management, potentially with Claude.",
+    "free_tier": "As an open-source project, the software itself is free to use under its license. Specific free-tier limits for any potential hosted service are not provided; visitors should check the official documentation.",
+    "limitations": "Information regarding specific limitations is not provided; visitors should check the official documentation.",
+    "licensing_notes": "This project is released under the MIT License, which is a permissive open-source license.",
+    "faq": [
+      {
+        "question": "What is the focus of ai-driven-development?",
+        "answer": "This open-source project focuses on the principles and implementation of AI-driven development, including agent safety and skills."
+      },
+      {
+        "question": "What AI models might be involved?",
+        "answer": "The project topics suggest involvement with AI models like Claude."
+      }
+    ]
+  },
+  "codemap": {
+    "input_hash": "16fb93db39681f666deef5fb26a1e79ce266c397d1d0e162a9c2975c23f6049b",
+    "generated_at": "2026-11-02",
+    "summary": "Codemap is an open-source developer tool that acts as a \"project brain,\" likely for managing context and information related to coding projects. It integrates with AI models like Claude and Codex.",
+    "what_it_does": "It helps developers organize and manage the context of their coding projects, potentially using AI to understand and process code. It offers a command-line interface (CLI) and integrates with AI coding tools.",
+    "best_for": "Developers seeking a tool to manage project context and leverage AI coding assistants like Claude and Codex, especially those who prefer CLI-based workflows.",
+    "free_tier": "As an open-source project, the software itself is free to use under its license. Specific free-tier limits for any potential hosted service are not provided; visitors should check the official documentation.",
+    "limitations": "Information regarding specific limitations is not provided; visitors should check the official documentation.",
+    "licensing_notes": "Codemap is released under the MIT License, which is a permissive open-source license.",
+    "faq": [
+      {
+        "question": "What is codemap?",
+        "answer": "Codemap is an open-source developer tool that functions as a \"project brain\" for managing coding project context."
+      },
+      {
+        "question": "Does codemap integrate with AI?",
+        "answer": "Yes, it integrates with AI models like Claude and Codex for coding assistance."
+      }
+    ]
+  },
+  "ghfind": {
+    "input_hash": "1c487622d23a95ca38462697a2024bf2fdbbfec33266ec6d31c84c1661549f64",
+    "generated_at": "2026-11-02",
+    "summary": "Ghfind is an open-source tool focused on developer discovery and code quality, potentially using AI to assess developer scores. It is designed for developer tools.",
+    "what_it_does": "It likely helps in finding and evaluating developers or code contributions, possibly by analyzing code quality and assigning a \"developer score\" using AI.",
+    "best_for": "Teams or individuals interested in developer discovery, assessing code quality, or evaluating developer contributions, potentially with AI-driven metrics.",
+    "free_tier": "As an open-source project, the software itself is free to use under its license. Specific free-tier limits for any potential hosted service are not provided; visitors should check the official documentation.",
+    "limitations": "Information regarding specific limitations is not provided; visitors should check the official documentation.",
+    "licensing_notes": "Ghfind is released under the GNU Affero General Public License v3.0 (AGPL-3.0), a strong copyleft license that requires users who run modified versions as a network service to make the source code available.",
+    "faq": [
+      {
+        "question": "What is ghfind used for?",
+        "answer": "Ghfind is an open-source tool for developer discovery and assessing code quality, potentially using AI."
+      },
+      {
+        "question": "What is the license for ghfind?",
+        "answer": "Ghfind is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0)."
+      }
+    ]
+  },
+  "context-attachment-manager": {
+    "input_hash": "4343fbf054acecda45bad9ab8162865d88ba530fa498dcaf3bf3f076bf9f0553",
+    "generated_at": "2026-11-02",
+    "summary": "This open-source project is a context attachment manager, designed to integrate with various AI models like ChatGPT, Claude, and Anthropic, particularly for AI art and image generation. It also supports Claude code plugins and desktop integration.",
+    "what_it_does": "It manages and attaches context for AI interactions, facilitating the use of different AI models for tasks such as AI art, image generation, and potentially code-related functions through plugins.",
+    "best_for": "Developers and creators working with multiple AI models (ChatGPT, Claude, Anthropic) who need a unified way to manage context for AI art, image generation, and potentially AI coding tasks.",
+    "free_tier": "As an open-source project, the software itself is free to use under its license. Specific free-tier limits for any potential hosted service are not provided; visitors should check the official documentation.",
+    "limitations": "Information regarding specific limitations is not provided; visitors should check the official documentation.",
+    "licensing_notes": "This project is released under the MIT License, which is a permissive open-source license.",
+    "faq": [
+      {
+        "question": "What is context-attachment-manager?",
+        "answer": "It is an open-source tool for managing context attachments, integrating with AI models like ChatGPT and Claude for various tasks."
+      },
+      {
+        "question": "What kind of AI tasks does it support?",
+        "answer": "It supports AI art, AI image generation, and potentially code-related functions via Claude code plugins."
+      }
+    ]
+  },
+  "nnn": {
+    "input_hash": "9037ac98ba232828accfab6cb90c207d87506e6e6ea5882794320e6e35cf4f5a",
+    "generated_at": "2026-11-02",
+    "summary": "Nnn is a highly popular open-source command-line file manager, written in C, offering features like batch renaming and disk usage analysis. It is designed as a developer tool and supports Android.",
+    "what_it_does": "It provides a fast and efficient file management experience directly from the command line, including utilities for batch operations and analyzing disk space.",
+    "best_for": "Developers, power users, and system administrators who prefer a minimalist, fast, and feature-rich command-line file manager, especially those working on Linux-like systems or Android.",
+    "free_tier": "As an open-source project, the software itself is free to use under its license. Specific free-tier limits for any potential hosted service are not provided; visitors should check the official documentation.",
+    "limitations": "Information regarding specific limitations is not provided; visitors should check the official documentation.",
+    "licensing_notes": "Nnn is released under the BSD 2-Clause \"Simplified\" License, a permissive open-source license.",
+    "faq": [
+      {
+        "question": "What is nnn?",
+        "answer": "Nnn is a fast, open-source command-line file manager written in C."
+      },
+      {
+        "question": "What are some key features of nnn?",
+        "answer": "Key features include batch renaming, disk usage analysis, and command-line interface (CLI) operation."
+      }
+    ]
+  },
+  "deja-vu": {
+    "input_hash": "37f89b45d98bbfa0ca0e5fcc09c68ffa66209b2f024233a02e91b5b55b11140e",
+    "generated_at": "2026-11-02",
+    "summary": "Deja-vu is an open-source project providing coding agent memory, specifically designed for AI models like Claude and Codex. It leverages AI agents and techniques like BM25.",
+    "what_it_does": "It implements a memory system for AI coding agents, allowing them to retain and recall context or past interactions, which is crucial for effective AI-assisted coding. It supports a command-line interface.",
+    "best_for": "Developers building or working with AI coding agents, particularly those using Claude or Codex, who need to implement robust memory and context management for their agents.",
+    "free_tier": "As an open-source project, the software itself is free to use under its license. Specific free-tier limits for any potential hosted service are not provided; visitors should check the official documentation.",
+    "limitations": "Information regarding specific limitations is not provided; visitors should check the official documentation.",
+    "licensing_notes": "Deja-vu is released under the MIT License, which is a permissive open-source license.",
+    "faq": [
+      {
+        "question": "What is deja-vu?",
+        "answer": "Deja-vu is an open-source project that provides coding agent memory for AI models like Claude and Codex."
+      },
+      {
+        "question": "How does deja-vu help AI coding agents?",
+        "answer": "It helps agents retain and recall context and past interactions, improving their effectiveness."
+      }
+    ]
+  },
+  "smithers": {
+    "input_hash": "cbf49febe9bbe36deb48b9cb6b980b4c03affa44f074355383b088d1adcdd7c6",
+    "generated_at": "2026-11-02",
+    "summary": "Smithers is an open-source developer tool focused on agent orchestration and durable execution for AI agents, including background agents. It integrates with AI coding models like Claude Code and Codex.",
+    "what_it_does": "It provides capabilities for managing and coordinating multiple AI agents, ensuring their execution is durable and can run in the background. This is particularly useful for AI-powered development tasks.",
+    "best_for": "Developers and teams building complex AI agent systems, especially those needing robust orchestration, background processing, and durable execution for AI coding tasks with models like Claude Code and Codex.",
+    "free_tier": "As an open-source project, the software itself is free to use under its license. Specific free-tier limits for any potential hosted service are not provided; visitors should check the official documentation.",
+    "limitations": "Information regarding specific limitations is not provided; visitors should check the official documentation.",
+    "licensing_notes": "Smithers is released under the MIT License, which is a permissive open-source license.",
+    "faq": [
+      {
+        "question": "What is smithers?",
+        "answer": "Smithers is an open-source developer tool for agent orchestration and durable execution of AI agents."
+      },
+      {
+        "question": "What AI models does smithers integrate with?",
+        "answer": "It integrates with AI coding models such as Claude Code and Codex."
+      }
+    ]
+  },
+  "mjolnir": {
+    "input_hash": "a6ecc8c9c5f3a37777f103563b6602cc81935e43eed09858e1fe8bbb5180efb7",
+    "generated_at": "2026-11-02",
+    "summary": "Mjolnir is an open-source AI agent and coding automation tool that supports the Agent Client Protocol (ACP). It is designed for AI-powered coding and integrates with models like Claude Code.",
+    "what_it_does": "It enables automation of coding tasks through AI agents, adhering to the Agent Client Protocol for communication. It facilitates AI-driven development workflows.",
+    "best_for": "Developers and teams looking to automate coding tasks using AI agents, especially those interested in the Agent Client Protocol and integration with AI models like Claude Code.",
+    "free_tier": "As an open-source project, the software itself is free to use under its license. Specific free-tier limits for any potential hosted service are not provided; visitors should check the official documentation.",
+    "limitations": "Information regarding specific limitations is not provided; visitors should check the official documentation.",
+    "licensing_notes": "Mjolnir is released under the GNU General Public License v3.0 (GPL-3.0), a strong copyleft license.",
+    "faq": [
+      {
+        "question": "What is mjolnir?",
+        "answer": "Mjolnir is an open-source AI agent and coding automation tool that supports the Agent Client Protocol."
+      },
+      {
+        "question": "What kind of tasks can mjolnir help with?",
+        "answer": "It can help automate coding tasks using AI agents, particularly with AI-powered coding."
+      }
+    ]
+  },
+  "agentconnect": {
+    "input_hash": "018a11fcc57965577b629ad4f5e8ecc2a230032fcd0c613094c21cef08ece70e",
+    "generated_at": "2026-11-02",
+    "summary": "Agentconnect is an open-source project that implements the Agent Client Protocol, providing an agent sandbox for AI agents. It supports features like code review and offers alternatives for Claude tags.",
+    "what_it_does": "It facilitates communication and interaction between AI agents using the Agent Client Protocol, offering a secure sandbox environment for their operation. It also aids in code review processes.",
+    "best_for": "Developers and researchers working with AI agents who need a standardized communication protocol (ACP), a secure sandbox environment, and tools for code review, potentially with Claude integration.",
+    "free_tier": "As an open-source project, the software itself is free to use under its license. Specific free-tier limits for any potential hosted service are not provided; visitors should check the official documentation.",
+    "limitations": "Information regarding specific limitations is not provided; visitors should check the official documentation.",
+    "licensing_notes": "Agentconnect is released under the Apache License 2.0, a permissive open-source license.",
+    "faq": [
+      {
+        "question": "What is agentconnect?",
+        "answer": "Agentconnect is an open-source project implementing the Agent Client Protocol, providing an agent sandbox for AI agents."
+      },
+      {
+        "question": "What features does agentconnect offer?",
+        "answer": "It offers an agent sandbox, support for the Agent Client Protocol, and features for code review."
+      }
+    ]
+  },
+  "awesome-free-ai-coding": {
+    "input_hash": "4ea6c17c080e46de9812ef276eee99691e5b41c5a8420c83a868e5bc0a8b5ad8",
+    "generated_at": "2026-11-02",
+    "summary": "Awesome-free-ai-coding is an open-source \"awesome list\" curating free AI coding resources, tools, and coding agents. It includes resources related to AI models like Claude and Claude Code.",
+    "what_it_does": "It serves as a comprehensive collection of links and descriptions for various free AI coding tools, projects, and agents, helping developers discover relevant resources.",
+    "best_for": "Developers, students, and researchers looking for free AI coding tools, coding agents, and related resources, especially those interested in Claude and Claude Code.",
+    "free_tier": "As an open-source project, the software itself is free to use under its license. Specific free-tier limits for any potential hosted service are not provided; visitors should check the official documentation.",
+    "limitations": "Information regarding specific limitations is not provided; visitors should check the official documentation.",
+    "licensing_notes": "This project is released under the MIT License, which is a permissive open-source license.",
+    "faq": [
+      {
+        "question": "What is awesome-free-ai-coding?",
+        "answer": "It is an open-source \"awesome list\" that curates free AI coding resources, tools, and coding agents."
+      },
+      {
+        "question": "What kind of resources can I find here?",
+        "answer": "You can find resources related to AI coding, coding agents, and AI models like Claude and Claude Code."
+      }
+    ]
+  },
+  "wmux": {
+    "input_hash": "446f43a0bf643a40d16ce35279fcb9fa1e6b3c739c6c294dc90aa25c70a942ac",
+    "generated_at": "2026-11-02",
+    "summary": "Wmux is an open-source Agent Development Environment (ADE) focused on agentic AI, AI agents, and automation, including browser automation. It integrates with AI models like Claude Code.",
+    "what_it_does": "It provides an environment for developing and managing AI agents, facilitating automation tasks, particularly those involving browser interaction. It supports agentic AI principles.",
+    "best_for": "Developers and researchers building AI agents and agentic AI systems, especially those requiring browser automation capabilities and integration with AI models like Claude Code.",
+    "free_tier": "As an open-source project, the software itself is free to use under its license. Specific free-tier limits for any potential hosted service are not provided; visitors should check the official documentation.",
+    "limitations": "Information regarding specific limitations is not provided; visitors should check the official documentation.",
+    "licensing_notes": "Wmux is released under the MIT License, which is a permissive open-source license.",
+    "faq": [
+      {
+        "question": "What is wmux?",
+        "answer": "Wmux is an open-source Agent Development Environment (ADE) for agentic AI and AI agents."
+      },
+      {
+        "question": "What kind of automation does wmux support?",
+        "answer": "It supports automation, including browser automation, for AI agents."
+      }
+    ]
+  },
+  "repowise": {
+    "input_hash": "842b80bdb96225afa2a10407b73e1d1893fa1681fb4c3fb66da7278d084fb8e6",
+    "generated_at": "2026-11-02",
+    "summary": "Repowise is an open-source project. Based on its license, it is likely a software application or library.",
+    "what_it_does": "Specific functionality for Repowise is not provided; visitors should check the official documentation.",
+    "best_for": "Information regarding the best use cases for Repowise is not provided; visitors should check the official documentation.",
+    "free_tier": "As an open-source project, the software itself is free to use under its license. Specific free-tier limits for any potential hosted service are not provided; visitors should check the official documentation.",
+    "limitations": "Information regarding specific limitations is not provided; visitors should check the official documentation.",
+    "licensing_notes": "Repowise is released under the GNU Affero General Public License v3.0 (AGPL-3.0), a strong copyleft license that requires users who run modified versions as a network service to make the source code available.",
+    "faq": [
+      {
+        "question": "What is repowise?",
+        "answer": "Repowise is an open-source project. Its specific functionality is not detailed in the provided information."
+      },
+      {
+        "question": "What is the license for repowise?",
+        "answer": "Repowise is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0)."
+      }
+    ]
+  },
+  "sharex": {
+    "input_hash": "5a4613c66fc48a95a8447dce36fd99e3cc60ac612f688896af99a85931aa0f07",
+    "generated_at": "2026-11-02",
+    "summary": "ShareX is a free and open-source screen capture and file sharing tool. It allows users to capture screenshots, record screen activity, and share files easily.",
+    "what_it_does": "It captures screenshots, records screen activity, and uploads images, text, or other files to various supported destinations. It also offers a wide range of annotation and editing tools.",
+    "best_for": "Users who need a versatile and customizable tool for screen capture, screen recording, and file sharing, suitable for both personal and commercial use.",
+    "free_tier": "ShareX is entirely free to use.",
+    "limitations": "No explicit limitations on features or usage are mentioned for its free version.",
+    "licensing_notes": "ShareX is free and open-source software distributed under the GNU General Public License v3.0 (GPL-3.0), allowing both personal and commercial use without cost.",
+    "faq": [
+      {
+        "question": "Is ShareX truly free?",
+        "answer": "Yes, ShareX is completely free and open-source software."
+      },
+      {
+        "question": "Can I use ShareX for commercial purposes?",
+        "answer": "Yes, ShareX can be used for both personal and commercial purposes under its GPLv3 license."
+      }
+    ]
+  },
+  "avg-antivirus-free": {
+    "input_hash": "7f7839506f42553687b64e36a351999efe29918b7fd7b3fc39d9c034e1150f6c",
+    "generated_at": "2026-11-02",
+    "summary": "AVG AntiVirus Free provides essential antivirus protection for personal and non-commercial home use. It helps safeguard your computer against various online threats.",
+    "what_it_does": "It scans for and removes viruses, malware, and other threats to protect your computer. It offers real-time protection and scheduled scans.",
+    "best_for": "Individuals seeking basic, free antivirus protection for their personal, non-commercial home computers.",
+    "free_tier": "A free version is available for personal and non-commercial home use.",
+    "limitations": "The free version is strictly limited to personal and non-commercial home use. Commercial or business deployment requires a paid subscription.",
+    "licensing_notes": "AVG AntiVirus Free is provided at no cost for personal and non-commercial home use. A paid subscription is required for business or commercial deployment.",
+    "faq": [
+      {
+        "question": "Is AVG AntiVirus Free truly free?",
+        "answer": "Yes, AVG AntiVirus Free is available at no cost for personal and non-commercial home use."
+      },
+      {
+        "question": "Can I use AVG AntiVirus Free for commercial purposes?",
+        "answer": "No, commercial or business deployment of AVG AntiVirus Free requires a paid subscription."
+      }
+    ]
+  },
+  "aomei-backupper-standard": {
+    "input_hash": "d07a57641cc0221f373414ba8756473d837879a5b97f457935d622ba544be555",
+    "generated_at": "2026-11-02",
+    "summary": "AOMEI Backupper Standard is a freeware backup and recovery solution designed for personal and non-commercial home use. It helps protect data by creating backups of systems, disks, and files.",
+    "what_it_does": "It allows users to create system backups, disk backups, partition backups, and file backups. It also supports restoring data from these backups.",
+    "best_for": "Home users and individuals who need a free solution for backing up their personal computers and data.",
+    "free_tier": "The Standard edition is available free of charge for personal and non-commercial home use.",
+    "limitations": "The free Standard edition is restricted to personal and non-commercial home use. Business or commercial environments require a paid license edition.",
+    "licensing_notes": "AOMEI Backupper Standard is freeware for personal and non-commercial home use. Commercial or business deployment necessitates a paid license edition.",
+    "faq": [
+      {
+        "question": "Is AOMEI Backupper Standard truly free?",
+        "answer": "Yes, the Standard edition is free for personal and non-commercial home use."
+      },
+      {
+        "question": "Can I use AOMEI Backupper Standard for commercial purposes?",
+        "answer": "No, business or commercial use of AOMEI Backupper Standard requires a paid license edition."
+      }
+    ]
+  },
+  "cleanmymac-x": {
+    "input_hash": "ba97268d096b6145fdd91d4b3efbdd97ecf7b03d7ea44ed713bbb097b9461b6e",
+    "generated_at": "2026-11-02",
+    "summary": "CleanMyMac X is a proprietary utility designed to clean, optimize, and protect macOS systems. It requires a paid license for full functionality.",
+    "what_it_does": "It scans for junk files, malware, and performance issues on macOS, offering tools to free up space, improve speed, and enhance security.",
+    "best_for": "macOS users looking for a comprehensive tool to maintain their system's performance and cleanliness, willing to purchase a license.",
+    "free_tier": "No perpetual free tier is available. A limited free trial is offered, but full functionality requires a paid license.",
+    "limitations": "Full functionality of CleanMyMac X requires a paid annual subscription or a one-time purchase license after the limited free trial.",
+    "licensing_notes": "CleanMyMac X is proprietary software that requires a paid annual subscription or a one-time purchase license for full functionality.",
+    "faq": [
+      {
+        "question": "Is CleanMyMac X truly free?",
+        "answer": "No, CleanMyMac X requires a paid license for full functionality, though a limited free trial may be available."
+      },
+      {
+        "question": "Can I use CleanMyMac X for commercial purposes?",
+        "answer": "The provided information does not specify commercial use restrictions; please check the official documentation for details on commercial licensing."
+      }
+    ]
+  },
+  "logic-pro": {
+    "input_hash": "c7966c791b2a0013e5b99d34da2c7e9f39dd396d4c19418d650ffb41e9197736",
+    "generated_at": "2026-11-02",
+    "summary": "Logic Pro is a professional digital audio workstation (DAW) developed by Apple. It is commercial proprietary software requiring a paid license.",
+    "what_it_does": "It provides tools for music composition, recording, editing, and mixing, offering a comprehensive environment for audio production.",
+    "best_for": "Professional musicians, audio engineers, and music producers using Apple devices (macOS or iPadOS) who require advanced audio production capabilities.",
+    "free_tier": "No perpetual free tier is available. It requires a paid purchase or subscription.",
+    "limitations": "Logic Pro is commercial software that requires a paid purchase on macOS or a paid subscription on iPadOS for use.",
+    "licensing_notes": "Logic Pro is proprietary commercial software that requires a paid purchase for macOS or a paid subscription for iPadOS.",
+    "faq": [
+      {
+        "question": "Is Logic Pro truly free?",
+        "answer": "No, Logic Pro is commercial software that requires a paid purchase or subscription."
+      },
+      {
+        "question": "Can I use Logic Pro for commercial purposes?",
+        "answer": "Yes, Logic Pro is designed for professional use, implying it can be used for commercial purposes once a license is purchased."
+      }
+    ]
+  },
+  "studio-3t-free": {
+    "input_hash": "9ce2a9b28cec4bc6266b689c488c7ebaabe27f7b16bea1e540c0da06ababf4d0",
+    "generated_at": "2026-11-02",
+    "summary": "Studio 3T Free is the free community edition of the Studio 3T MongoDB GUI. It offers core features for managing MongoDB databases.",
+    "what_it_does": "It provides a graphical user interface for interacting with MongoDB databases, allowing users to browse, query, and manage data.",
+    "best_for": "Individual developers and students working with MongoDB who need a free GUI for basic database management and exploration.",
+    "free_tier": "A free community edition is available, offering core features for MongoDB management.",
+    "limitations": "The free edition provides core features, with premium and advanced capabilities reserved for paid license tiers.",
+    "licensing_notes": "Studio 3T Free is a free community edition. Commercial use and access to advanced features require a paid license for the full Studio 3T product.",
+    "faq": [
+      {
+        "question": "Is Studio 3T Free truly free?",
+        "answer": "Yes, Studio 3T Free is a free community edition offering core features for MongoDB management."
+      },
+      {
+        "question": "Can I use Studio 3T Free for commercial purposes?",
+        "answer": "The free edition provides core features; commercial use and access to premium capabilities typically require a paid license for the full Studio 3T product."
+      }
+    ]
+  },
+  "emqx": {
+    "input_hash": "818d03ec579b71f4034f1b1b42fdaf3829088b74c536f3212d742754cb473000",
+    "generated_at": "2026-11-02",
+    "summary": "EMQX is an open-source MQTT broker designed for IoT applications. Its core edition is available under the Apache License 2.0.",
+    "what_it_does": "It facilitates real-time communication between IoT devices by implementing the MQTT protocol, enabling high-performance message routing and processing.",
+    "best_for": "Developers and organizations building IoT solutions that require a scalable and reliable MQTT broker, especially those utilizing its open-source core.",
+    "free_tier": "The core edition of EMQX is open source and free to use.",
+    "limitations": "While the core edition is open source, enterprise features are available only via commercial licensing.",
+    "licensing_notes": "The core edition of EMQX is open source under the Apache License 2.0. Enterprise features are available through commercial licensing.",
+    "faq": [
+      {
+        "question": "Is EMQX truly free?",
+        "answer": "Yes, the core edition of EMQX is open source and free to use under the Apache License 2.0."
+      },
+      {
+        "question": "Can I use EMQX for commercial purposes?",
+        "answer": "Yes, the open-source core edition can be used for commercial purposes under the Apache License 2.0. Enterprise features require commercial licensing."
+      }
+    ]
+  },
+  "darktable": {
+    "input_hash": "9160bec917b18e05eb01011adeb2fe59edd90183b8cd67313df6247f1d8750be",
+    "generated_at": "2026-11-02",
+    "summary": "Darktable is a free and open-source photography workflow application and raw developer. It provides tools for managing and processing digital negatives.",
+    "what_it_does": "It allows photographers to manage their digital negatives in a database, view them on a zoomable lighttable, and develop raw images with a wide range of non-destructive editing tools.",
+    "best_for": "Photographers and enthusiasts who need a free, open-source alternative to commercial raw image processing software, offering advanced editing capabilities.",
+    "free_tier": "Darktable is entirely free to use.",
+    "limitations": "No explicit limitations on features or usage are mentioned for its free version.",
+    "licensing_notes": "Darktable is free and open-source software licensed under the GNU General Public License version 3 or later (GPL v3+).",
+    "faq": [
+      {
+        "question": "Is Darktable truly free?",
+        "answer": "Yes, Darktable is completely free and open-source software."
+      },
+      {
+        "question": "Can I use Darktable for commercial purposes?",
+        "answer": "The GPL v3 or later license generally permits commercial use; however, users should consult the full license text for specific details."
+      }
+    ]
+  },
+  "minitool-partition-wizard-free": {
+    "input_hash": "d46717885d1133ffcc3c12e7cf1b56c77d797084b3b98fe954c7bcf8b822af0f",
+    "generated_at": "2026-11-02",
+    "summary": "MiniTool Partition Wizard Free is a disk partition management tool available for non-commercial personal use. It helps users manage hard disk partitions.",
+    "what_it_does": "It allows users to create, delete, format, resize, move, and copy disk partitions. It also supports converting disk types and checking file system errors.",
+    "best_for": "Home users and individuals who need a free tool for basic disk partition management on their personal computers.",
+    "free_tier": "A free edition is available for non-commercial personal use.",
+    "limitations": "The free edition is strictly restricted to personal, non-commercial home use. Commercial or business environments require a paid edition.",
+    "licensing_notes": "MiniTool Partition Wizard Free is available at no cost for non-commercial personal use. Commercial or business environments require a paid edition.",
+    "faq": [
+      {
+        "question": "Is MiniTool Partition Wizard Free truly free?",
+        "answer": "Yes, a free edition is available for non-commercial personal use."
+      },
+      {
+        "question": "Can I use MiniTool Partition Wizard Free for commercial purposes?",
+        "answer": "No, the free edition is strictly for non-commercial personal use; commercial or business environments require a paid edition."
+      }
+    ]
+  },
+  "jetbrains-webstorm": {
+    "input_hash": "90c2af85cbdd066933e27a96c70e0f7151a6c2ba8ddc6d7e9f4b2517496ab2f5",
+    "generated_at": "2026-11-02",
+    "summary": "JetBrains WebStorm is a powerful integrated development environment (IDE) specifically for JavaScript, HTML, and CSS. It is free for non-commercial use, with commercial development requiring a paid subscription.",
+    "what_it_does": "It provides a comprehensive set of tools for web development, including intelligent code completion, error detection, refactoring, and debugging.",
+    "best_for": "Web developers working with JavaScript, HTML, and CSS, especially those engaged in non-commercial projects or willing to subscribe for commercial development.",
+    "free_tier": "WebStorm is free for non-commercial use.",
+    "limitations": "Commercial development with WebStorm requires a paid subscription.",
+    "licensing_notes": "WebStorm is free for non-commercial use. Commercial development requires a paid subscription.",
+    "faq": [
+      {
+        "question": "Is JetBrains WebStorm truly free?",
+        "answer": "Yes, WebStorm is free for non-commercial use."
+      },
+      {
+        "question": "Can I use JetBrains WebStorm for commercial purposes?",
+        "answer": "No, commercial development with WebStorm requires a paid subscription."
+      }
+    ]
+  },
+  "smartgit": {
+    "input_hash": "32f67bc252b02baf8528cc7cc641e253d9533e6c10fe457e7ce7c81b4af3b507",
+    "generated_at": "2026-11-02",
+    "summary": "SmartGit is a graphical Git client that simplifies Git, Mercurial, and SVN workflows. It is free for non-commercial use, but commercial work requires a paid license.",
+    "what_it_does": "It provides an intuitive graphical interface for managing repositories, committing changes, branching, merging, and resolving conflicts across Git, Mercurial, and SVN.",
+    "best_for": "Developers and teams who prefer a GUI for managing their version control systems, suitable for non-commercial projects or those with a paid commercial license.",
+    "free_tier": "SmartGit is free for non-commercial purposes, such as learning or contributing to open-source projects.",
+    "limitations": "Commercial work with SmartGit requires a paid license.",
+    "licensing_notes": "SmartGit is free for non-commercial purposes (e.g., learning, open-source contributions). A paid license is required for commercial use.",
+    "faq": [
+      {
+        "question": "Is SmartGit truly free?",
+        "answer": "Yes, SmartGit is free for non-commercial purposes like learning or contributing to open-source projects."
+      },
+      {
+        "question": "Can I use SmartGit for commercial purposes?",
+        "answer": "No, commercial work with SmartGit requires a paid license."
+      }
+    ]
+  },
+  "surrealdb": {
+    "input_hash": "df985a3ec4ff28eb408dc88b6f7e73ea4c8271b540b65344b83b1d2b21a27c08",
+    "generated_at": "2026-11-02",
+    "summary": "SurrealDB is a multi-model database designed for web, mobile, and serverless applications. It is licensed under the Business Source License 1.1 (BSL 1.1).",
+    "what_it_does": "It provides a unified database solution with support for various data models, real-time capabilities, and a query language for building modern applications.",
+    "best_for": "Developers and organizations building applications that require a flexible, real-time, multi-model database, especially those not offering it as a managed service.",
+    "free_tier": "SurrealDB allows free use for most applications under BSL 1.1.",
+    "limitations": "A commercial license is required if you intend to offer SurrealDB as a managed service.",
+    "licensing_notes": "SurrealDB is licensed under the Business Source License 1.1 (BSL 1.1), which permits free use for most applications. A commercial license is required to offer it as a managed service.",
+    "faq": [
+      {
+        "question": "Is SurrealDB truly free?",
+        "answer": "Yes, SurrealDB allows free use for most applications under its Business Source License 1.1."
+      },
+      {
+        "question": "Can I use SurrealDB for commercial purposes?",
+        "answer": "Yes, it can be used for most commercial applications. However, offering it as a managed service requires a commercial license."
+      }
+    ]
+  },
+  "kdenlive": {
+    "input_hash": "f3e7715acd220ce84154566ef08f5942baed296fb98bf418392c25a941ff1d75",
+    "generated_at": "2026-11-02",
+    "summary": "Kdenlive is a free and open-source video editing software. It provides a non-linear video editing environment for various creative projects.",
+    "what_it_does": "It allows users to edit videos with multiple audio and video tracks, apply effects and transitions, and export projects in various formats.",
+    "best_for": "Video editors, content creators, and enthusiasts looking for a powerful, free, and open-source non-linear video editing solution.",
+    "free_tier": "Kdenlive is entirely free to use.",
+    "limitations": "No explicit limitations on features or usage are mentioned for its free version.",
+    "licensing_notes": "Kdenlive is free and open-source software distributed under the GNU General Public License v3.0 or later (GPLv3+).",
+    "faq": [
+      {
+        "question": "Is Kdenlive truly free?",
+        "answer": "Yes, Kdenlive is completely free and open-source software."
+      },
+      {
+        "question": "Can I use Kdenlive for commercial purposes?",
+        "answer": "The GPLv3+ license generally permits commercial use; however, users should consult the full license text for specific details."
+      }
+    ]
+  },
+  "ultraedit": {
+    "input_hash": "fb7339efb306e2d02edf3ba28df9b8d888d1dbe0c503bf33a1b5915281d5577b",
+    "generated_at": "2026-11-02",
+    "summary": "UltraEdit is a powerful, proprietary text editor designed for programmers, web developers, and writers. It requires a paid license for continued use after a trial.",
+    "what_it_does": "It offers advanced text editing features, including syntax highlighting for multiple languages, code folding, column editing, and large file handling.",
+    "best_for": "Professionals and power users who need a robust and feature-rich text editor for coding, data manipulation, or general text editing, and are willing to purchase a license.",
+    "free_tier": "No perpetual free tier is available. A free trial period is offered, but a paid license is required for continued use.",
+    "limitations": "UltraEdit requires a paid subscription or perpetual license for both personal and commercial use after the free trial period.",
+    "licensing_notes": "UltraEdit is proprietary software that requires a paid subscription or a perpetual license for both personal and commercial use.",
+    "faq": [
+      {
+        "question": "Is UltraEdit truly free?",
+        "answer": "No, UltraEdit requires a paid subscription or perpetual license for continued use after a free trial period."
+      },
+      {
+        "question": "Can I use UltraEdit for commercial purposes?",
+        "answer": "Yes, UltraEdit can be used for commercial purposes once a paid subscription or perpetual license is acquired."
+      }
+    ]
+  },
+  "aomei-partition-assistant-standard": {
+    "input_hash": "17218ab0c54d2b3943d6b938fe9f4aff268fdf0767f4d640343d997b2bdd9523",
+    "generated_at": "2026-11-02",
+    "summary": "AOMEI Partition Assistant Standard is a freeware disk partition manager for personal and home use. It helps users manage their hard disk partitions effectively.",
+    "what_it_does": "It provides tools to resize, move, merge, create, delete, and format partitions. It also supports converting disk types and migrating OS to SSD.",
+    "best_for": "Home users and individuals who need a free and reliable tool for basic to intermediate disk partition management on their personal computers.",
+    "free_tier": "The Standard edition is available free of charge for personal and home use.",
+    "limitations": "The free Standard edition is restricted to personal and home use. Business and advanced usage require paid commercial licenses.",
+    "licensing_notes": "AOMEI Partition Assistant Standard is freeware for personal and home use. Business and advanced usage require paid commercial licenses.",
+    "faq": [
+      {
+        "question": "Is AOMEI Partition Assistant Standard truly free?",
+        "answer": "Yes, the Standard edition is available free of charge for personal and home use."
+      },
+      {
+        "question": "Can I use AOMEI Partition Assistant Standard for commercial purposes?",
+        "answer": "No, business and advanced usage of AOMEI Partition Assistant Standard require paid commercial licenses."
+      }
+    ]
   }
 }
