@@ -1,338 +1,5 @@
 [
   {
-    "name": "pyrig",
-    "slug": "pyrig",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://github.com/Winipedia/pyrig",
-    "source": "https://github.com/Winipedia/pyrig"
-  },
-  {
-    "name": "addon-controller",
-    "slug": "addon-controller",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://github.com/projectsveltos/addon-controller",
-    "source": "https://github.com/projectsveltos/addon-controller"
-  },
-  {
-    "name": "NexTerm",
-    "slug": "nexterm",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://github.com/Hello-CTF/NexTerm",
-    "source": "https://github.com/Hello-CTF/NexTerm"
-  },
-  {
-    "name": "OpsiMate",
-    "slug": "opsimate",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://github.com/OpsiMate/OpsiMate",
-    "source": "https://github.com/OpsiMate/OpsiMate"
-  },
-  {
-    "name": "temps",
-    "slug": "temps",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://github.com/gotempsh/temps",
-    "source": "https://github.com/gotempsh/temps"
-  },
-  {
-    "name": "diffinery",
-    "slug": "diffinery",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://github.com/codician-team/diffinery",
-    "source": "https://github.com/codician-team/diffinery"
-  },
-  {
-    "name": "holmesgpt",
-    "slug": "holmesgpt",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://github.com/HolmesGPT/holmesgpt",
-    "source": "https://github.com/HolmesGPT/holmesgpt"
-  },
-  {
-    "name": "meho",
-    "slug": "meho",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://github.com/evoila/meho",
-    "source": "https://github.com/evoila/meho"
-  },
-  {
-    "name": "Directus",
-    "slug": "directus",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://directus.io/",
-    "source": "https://directus.io/"
-  },
-  {
-    "name": "Medusa",
-    "slug": "medusa",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://www.medusajs.com/",
-    "source": "https://www.medusajs.com/"
-  },
-  {
-    "name": "AppFlowy",
-    "slug": "appflowy",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://www.appflowy.io/",
-    "source": "https://www.appflowy.io/"
-  },
-  {
-    "name": "Plane",
-    "slug": "plane",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://plane.so/",
-    "source": "https://plane.so/"
-  },
-  {
-    "name": "NocoDB",
-    "slug": "nocodb",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://www.nocodb.com/",
-    "source": "https://www.nocodb.com/"
-  },
-  {
-    "name": "Cal.com",
-    "slug": "cal-com",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://cal.com/",
-    "source": "https://cal.com/"
-  },
-  {
-    "name": "Webiny",
-    "slug": "webiny",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://www.webiny.com/",
-    "source": "https://www.webiny.com/"
-  },
-  {
-    "name": "ToolJet",
-    "slug": "tooljet",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://tooljet.com/",
-    "source": "https://tooljet.com/"
-  },
-  {
-    "name": "Budibase",
-    "slug": "budibase",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://budibase.com/",
-    "source": "https://budibase.com/"
-  },
-  {
-    "name": "diagrams.net",
-    "slug": "diagrams-net",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://www.diagrams.net/",
-    "source": "https://www.diagrams.net/"
-  },
-  {
-    "name": "PlantUML",
-    "slug": "plantuml",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://plantuml.com/",
-    "source": "https://plantuml.com/"
-  },
-  {
-    "name": "Ventoy",
-    "slug": "ventoy",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://www.ventoy.net/",
-    "source": "https://www.ventoy.net/"
-  },
-  {
-    "name": "WizTree",
-    "slug": "wiztree",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Free for Home",
-    "url": "https://diskanalyzer.com/",
-    "source": "https://diskanalyzer.com/"
-  },
-  {
-    "name": "Process Explorer",
-    "slug": "process-explorer",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Free for Home",
-    "url": "https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer",
-    "source": "https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer"
-  },
-  {
-    "name": "Everything",
-    "slug": "everything",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Free for Home",
-    "url": "https://www.voidtools.com/",
-    "source": "https://www.voidtools.com/"
-  },
-  {
-    "name": "f.lux",
-    "slug": "f-lux",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Free for Home",
-    "url": "https://justgetflux.com/",
-    "source": "https://justgetflux.com/"
-  },
-  {
-    "name": "Lutris",
-    "slug": "lutris",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://lutris.net/",
-    "source": "https://lutris.net/"
-  },
-  {
-    "name": "Heroic Games Launcher",
-    "slug": "heroic-games-launcher",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://heroicgameslauncher.com/",
-    "source": "https://heroicgameslauncher.com/"
-  },
-  {
-    "name": "Bottles",
-    "slug": "bottles",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://usebottles.com/",
-    "source": "https://usebottles.com/"
-  },
-  {
-    "name": "PowerToys",
-    "slug": "powertoys",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://learn.microsoft.com/en-us/windows/powertoys/",
-    "source": "https://learn.microsoft.com/en-us/windows/powertoys/"
-  },
-  {
-    "name": "WinGet",
-    "slug": "winget",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://learn.microsoft.com/en-us/windows/package-manager/",
-    "source": "https://learn.microsoft.com/en-us/windows/package-manager/"
-  },
-  {
-    "name": "Chocolatey",
-    "slug": "chocolatey",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Community Version",
-    "url": "https://chocolatey.org/",
-    "source": "https://chocolatey.org/"
-  },
-  {
-    "name": "Homebrew",
-    "slug": "homebrew",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://brew.sh/",
-    "source": "https://brew.sh/"
-  },
-  {
-    "name": "Vivaldi",
-    "slug": "vivaldi",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Free for Home",
-    "url": "https://vivaldi.com/",
-    "source": "https://vivaldi.com/"
-  },
-  {
-    "name": "Arc Browser",
-    "slug": "arc-browser",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Free for Home",
-    "url": "https://arc.net/",
-    "source": "https://arc.net/"
-  },
-  {
-    "name": "Pop!_OS",
-    "slug": "pop-os",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://pop.system76.com/",
-    "source": "https://pop.system76.com/"
-  },
-  {
-    "name": "Ollama",
-    "slug": "ollama",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://ollama.com/",
-    "source": "https://ollama.com/"
-  },
-  {
-    "name": "LM Studio",
-    "slug": "lm-studio",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Free for Home",
-    "url": "https://lmstudio.ai/",
-    "source": "https://lmstudio.ai/"
-  },
-  {
-    "name": "Natron",
-    "slug": "natron",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://natron.fr/",
-    "source": "https://natron.fr/"
-  },
-  {
     "name": "KeeWeb",
     "slug": "keeweb",
     "type": "NEW",
@@ -898,5 +565,338 @@
     "category": "Open Source",
     "url": "https://mermaid.js.org/",
     "source": "https://github.com/mermaid-js/mermaid/blob/develop/LICENSE"
+  },
+  {
+    "name": "Agentero",
+    "slug": "agentero",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/poco-ai/Agentero",
+    "source": "https://github.com/poco-ai/Agentero"
+  },
+  {
+    "name": "NekoTime",
+    "slug": "nekotime",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/redtidev1918/NekoTime",
+    "source": "https://github.com/redtidev1918/NekoTime"
+  },
+  {
+    "name": "geo-downloader",
+    "slug": "geo-downloader",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/gaopengbin/geo-downloader",
+    "source": "https://github.com/gaopengbin/geo-downloader"
+  },
+  {
+    "name": "fmess",
+    "slug": "fmess",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/toanbku/fmess",
+    "source": "https://github.com/toanbku/fmess"
+  },
+  {
+    "name": "dota2-mod-manager",
+    "slug": "dota2-mod-manager",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/dota2modmanager/dota2-mod-manager",
+    "source": "https://github.com/dota2modmanager/dota2-mod-manager"
+  },
+  {
+    "name": "photocraft-companion",
+    "slug": "photocraft-companion",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/kobaltgit/photocraft-companion",
+    "source": "https://github.com/kobaltgit/photocraft-companion"
+  },
+  {
+    "name": "open-science",
+    "slug": "open-science",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/aipoch/open-science",
+    "source": "https://github.com/aipoch/open-science"
+  },
+  {
+    "name": "Noosphere",
+    "slug": "noosphere",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/2722039978-source/Noosphere",
+    "source": "https://github.com/2722039978-source/Noosphere"
+  },
+  {
+    "name": "bleachbit",
+    "slug": "bleachbit",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/bleachbit/bleachbit",
+    "source": "https://github.com/bleachbit/bleachbit"
+  },
+  {
+    "name": "lizzieyzy-next",
+    "slug": "lizzieyzy-next",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/wimi321/lizzieyzy-next",
+    "source": "https://github.com/wimi321/lizzieyzy-next"
+  },
+  {
+    "name": "enowx",
+    "slug": "enowx",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/enowdev/enowx",
+    "source": "https://github.com/enowdev/enowx"
+  },
+  {
+    "name": "antumi",
+    "slug": "antumi",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/flyhero/antumi",
+    "source": "https://github.com/flyhero/antumi"
+  },
+  {
+    "name": "aiwg",
+    "slug": "aiwg",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/jmagly/aiwg",
+    "source": "https://github.com/jmagly/aiwg"
+  },
+  {
+    "name": "proc-cli",
+    "slug": "proc-cli",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/yazeed/proc-cli",
+    "source": "https://github.com/yazeed/proc-cli"
+  },
+  {
+    "name": "social-sdk",
+    "slug": "social-sdk",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/opencoredev/social-sdk",
+    "source": "https://github.com/opencoredev/social-sdk"
+  },
+  {
+    "name": "happier",
+    "slug": "happier",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/happier-dev/happier",
+    "source": "https://github.com/happier-dev/happier"
+  },
+  {
+    "name": "kontext",
+    "slug": "kontext",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/kontext-security/kontext",
+    "source": "https://github.com/kontext-security/kontext"
+  },
+  {
+    "name": "console",
+    "slug": "console",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/graphql-hive/console",
+    "source": "https://github.com/graphql-hive/console"
+  },
+  {
+    "name": "FinderRight",
+    "slug": "finderright",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/funny-dog/FinderRight",
+    "source": "https://github.com/funny-dog/FinderRight"
+  },
+  {
+    "name": "rtk",
+    "slug": "rtk",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/rtk-ai/rtk",
+    "source": "https://github.com/rtk-ai/rtk"
+  },
+  {
+    "name": "cognicore-env",
+    "slug": "cognicore-env",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/cognicore-dev/cognicore-env",
+    "source": "https://github.com/cognicore-dev/cognicore-env"
+  },
+  {
+    "name": "fluentci-engine",
+    "slug": "fluentci-engine",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/fluentci-io/fluentci-engine",
+    "source": "https://github.com/fluentci-io/fluentci-engine"
+  },
+  {
+    "name": "future-os",
+    "slug": "future-os",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/futuregene/future-os",
+    "source": "https://github.com/futuregene/future-os"
+  },
+  {
+    "name": "pebrel",
+    "slug": "pebrel",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/Kuddev/pebrel",
+    "source": "https://github.com/Kuddev/pebrel"
+  },
+  {
+    "name": "fallow",
+    "slug": "fallow",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/fallow-rs/fallow",
+    "source": "https://github.com/fallow-rs/fallow"
+  },
+  {
+    "name": "gentle-ai",
+    "slug": "gentle-ai",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/Gentleman-Programming/gentle-ai",
+    "source": "https://github.com/Gentleman-Programming/gentle-ai"
+  },
+  {
+    "name": "cloudnative-pg",
+    "slug": "cloudnative-pg",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/cloudnative-pg/cloudnative-pg",
+    "source": "https://github.com/cloudnative-pg/cloudnative-pg"
+  },
+  {
+    "name": "purple",
+    "slug": "purple",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/erickochen/purple",
+    "source": "https://github.com/erickochen/purple"
+  },
+  {
+    "name": "bigpowers",
+    "slug": "bigpowers",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/danielvm-git/bigpowers",
+    "source": "https://github.com/danielvm-git/bigpowers"
+  },
+  {
+    "name": "VyManager",
+    "slug": "vymanager",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/Community-VyProjects/VyManager",
+    "source": "https://github.com/Community-VyProjects/VyManager"
+  },
+  {
+    "name": "OpenSwarm",
+    "slug": "openswarm",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/Intrect-io/OpenSwarm",
+    "source": "https://github.com/Intrect-io/OpenSwarm"
+  },
+  {
+    "name": "zuke",
+    "slug": "zuke",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/zuke-build/zuke",
+    "source": "https://github.com/zuke-build/zuke"
+  },
+  {
+    "name": "cloudbridge",
+    "slug": "cloudbridge",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/JetSquirrel/cloudbridge",
+    "source": "https://github.com/JetSquirrel/cloudbridge"
+  },
+  {
+    "name": "ai-infra-performance-learning",
+    "slug": "ai-infra-performance-learning",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/ai-infra-curriculum/ai-infra-performance-learning",
+    "source": "https://github.com/ai-infra-curriculum/ai-infra-performance-learning"
+  },
+  {
+    "name": "dynatrace-for-ai",
+    "slug": "dynatrace-for-ai",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/Dynatrace/dynatrace-for-ai",
+    "source": "https://github.com/Dynatrace/dynatrace-for-ai"
+  },
+  {
+    "name": "ai-infra-engineer-learning",
+    "slug": "ai-infra-engineer-learning",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/ai-infra-curriculum/ai-infra-engineer-learning",
+    "source": "https://github.com/ai-infra-curriculum/ai-infra-engineer-learning"
+  },
+  {
+    "name": "ai-infra-junior-engineer-learning",
+    "slug": "ai-infra-junior-engineer-learning",
+    "type": "NEW",
+    "date": "2026-11-03",
+    "category": "Open Source",
+    "url": "https://github.com/ai-infra-curriculum/ai-infra-junior-engineer-learning",
+    "source": "https://github.com/ai-infra-curriculum/ai-infra-junior-engineer-learning"
   }
 ]

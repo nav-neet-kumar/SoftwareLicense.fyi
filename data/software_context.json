@@ -10494,5 +10494,605 @@
         "answer": "No, business and advanced usage of AOMEI Partition Assistant Standard require paid commercial licenses."
       }
     ]
+  },
+  "agentero": {
+    "input_hash": "a2868606d091908ee4b8a122974de2760f292c5025c4de522f5a7cfe2bbbbf41",
+    "generated_at": "2026-11-03",
+    "summary": "Agentero is an open-source software project. The provided information does not detail its specific purpose or functionality.",
+    "what_it_does": "The specific functionality of Agentero is not detailed in the provided information. Users should consult the official documentation for more details.",
+    "best_for": "Developers or organizations interested in an open-source project, but specific use cases require further investigation of its features.",
+    "free_tier": "As an open-source project, Agentero is generally free to use. Users should check the official documentation for any potential costs related to deployment or specific services.",
+    "limitations": "Specific limitations are not provided. Users should refer to the official documentation.",
+    "licensing_notes": "Agentero is released under the MIT License, which is a permissive open-source license. It generally allows users to freely use, modify, and distribute the software, provided the original copyright and license notice are included.",
+    "faq": [
+      {
+        "question": "Is Agentero free to use?",
+        "answer": "Yes, Agentero is an open-source project and is generally free to use. Users should consult the official documentation for any associated costs or usage terms."
+      },
+      {
+        "question": "What is the license for Agentero?",
+        "answer": "Agentero is licensed under the MIT License."
+      }
+    ]
+  },
+  "nekotime": {
+    "input_hash": "e52b602214c423b9139d89b4c5482d39bd432315dc2fb80047b490b243097347",
+    "generated_at": "2026-11-03",
+    "summary": "NekoTime is an open-source software project. The provided information does not detail its specific purpose or functionality.",
+    "what_it_does": "The specific functionality of NekoTime is not detailed in the provided information. Users should consult the official documentation for more details.",
+    "best_for": "Developers or organizations interested in an open-source project, but specific use cases require further investigation of its features.",
+    "free_tier": "As an open-source project, NekoTime is generally free to use. Users should check the official documentation for any potential costs related to deployment or specific services.",
+    "limitations": "Specific limitations are not provided. Users should refer to the official documentation.",
+    "licensing_notes": "NekoTime is released under the MIT License, which is a permissive open-source license. It generally allows users to freely use, modify, and distribute the software, provided the original copyright and license notice are included.",
+    "faq": [
+      {
+        "question": "Is NekoTime free to use?",
+        "answer": "Yes, NekoTime is an open-source project and is generally free to use. Users should consult the official documentation for any associated costs or usage terms."
+      },
+      {
+        "question": "What is the license for NekoTime?",
+        "answer": "NekoTime is licensed under the MIT License."
+      }
+    ]
+  },
+  "geo-downloader": {
+    "input_hash": "29a7c0a900e88ee112677eaef6e497a0a21fc1eb7b4ecb05cd2a5bf3ab50467b",
+    "generated_at": "2026-11-03",
+    "summary": "geo-downloader is an open-source software project. The provided information does not detail its specific purpose or functionality.",
+    "what_it_does": "The specific functionality of geo-downloader is not detailed in the provided information. Users should consult the official documentation for more details.",
+    "best_for": "Developers or organizations interested in an open-source project, but specific use cases require further investigation of its features.",
+    "free_tier": "As an open-source project, geo-downloader is generally free to use. Users should check the official documentation for any potential costs related to deployment or specific services.",
+    "limitations": "Specific limitations are not provided. Users should refer to the official documentation.",
+    "licensing_notes": "geo-downloader is released under the MIT License, which is a permissive open-source license. It generally allows users to freely use, modify, and distribute the software, provided the original copyright and license notice are included.",
+    "faq": [
+      {
+        "question": "Is geo-downloader free to use?",
+        "answer": "Yes, geo-downloader is an open-source project and is generally free to use. Users should consult the official documentation for any associated costs or usage terms."
+      },
+      {
+        "question": "What is the license for geo-downloader?",
+        "answer": "geo-downloader is licensed under the MIT License."
+      }
+    ]
+  },
+  "fmess": {
+    "input_hash": "8ce92fd05e2265b19ee82ba573374318a4c1e6ed04bda61cc63dcabcf5d557f8",
+    "generated_at": "2026-11-03",
+    "summary": "fmess is an open-source software project. The provided information does not detail its specific purpose or functionality.",
+    "what_it_does": "The specific functionality of fmess is not detailed in the provided information. Users should consult the official documentation for more details.",
+    "best_for": "Developers or organizations interested in an open-source project, but specific use cases require further investigation of its features.",
+    "free_tier": "As an open-source project, fmess is generally free to use. Users should check the official documentation for any potential costs related to deployment or specific services.",
+    "limitations": "Specific limitations are not provided. Users should refer to the official documentation.",
+    "licensing_notes": "fmess is released under the MIT License, which is a permissive open-source license. It generally allows users to freely use, modify, and distribute the software, provided the original copyright and license notice are included.",
+    "faq": [
+      {
+        "question": "Is fmess free to use?",
+        "answer": "Yes, fmess is an open-source project and is generally free to use. Users should consult the official documentation for any associated costs or usage terms."
+      },
+      {
+        "question": "What is the license for fmess?",
+        "answer": "fmess is licensed under the MIT License."
+      }
+    ]
+  },
+  "dota2-mod-manager": {
+    "input_hash": "46978d8495bfb806524f56a3f5196d6697e353668e56edb9815dd3876ed0ff81",
+    "generated_at": "2026-11-03",
+    "summary": "dota2-mod-manager is an open-source tool designed for managing modifications for the game Dota 2.",
+    "what_it_does": "This software provides functionality to manage and apply various modifications to the Dota 2 game, simplifying the process for users.",
+    "best_for": "Dota 2 players and mod enthusiasts who want an easier way to organize and use game modifications.",
+    "free_tier": "As an open-source project, dota2-mod-manager is generally free to use. Users should check the official documentation for any potential costs related to deployment or specific services.",
+    "limitations": "Specific limitations are not provided. Users should refer to the official documentation.",
+    "licensing_notes": "dota2-mod-manager is released under the GNU General Public License v3.0 (GPL-3.0). This is a strong copyleft license, meaning that any derivative works must also be released under the GPL-3.0 license.",
+    "faq": [
+      {
+        "question": "Is dota2-mod-manager free to use?",
+        "answer": "Yes, dota2-mod-manager is an open-source project and is generally free to use. Users should consult the official documentation for any associated costs or usage terms."
+      },
+      {
+        "question": "What is the license for dota2-mod-manager?",
+        "answer": "dota2-mod-manager is licensed under the GNU General Public License v3.0 (GPL-3.0)."
+      }
+    ]
+  },
+  "photocraft-companion": {
+    "input_hash": "107730617113f7c8856cc6c6d4a762fb5a530808b7a9c1c1438dd7e24cc66cac",
+    "generated_at": "2026-11-03",
+    "summary": "photocraft-companion is an open-source software project. The provided information does not detail its specific purpose or functionality.",
+    "what_it_does": "The specific functionality of photocraft-companion is not detailed in the provided information. Users should consult the official documentation for more details.",
+    "best_for": "Developers or organizations interested in an open-source project, but specific use cases require further investigation of its features.",
+    "free_tier": "As an open-source project, photocraft-companion is generally free to use. Users should check the official documentation for any potential costs related to deployment or specific services.",
+    "limitations": "Specific limitations are not provided. Users should refer to the official documentation.",
+    "licensing_notes": "photocraft-companion is released under the MIT License, which is a permissive open-source license. It generally allows users to freely use, modify, and distribute the software, provided the original copyright and license notice are included.",
+    "faq": [
+      {
+        "question": "Is photocraft-companion free to use?",
+        "answer": "Yes, photocraft-companion is an open-source project and is generally free to use. Users should consult the official documentation for any associated costs or usage terms."
+      },
+      {
+        "question": "What is the license for photocraft-companion?",
+        "answer": "photocraft-companion is licensed under the MIT License."
+      }
+    ]
+  },
+  "open-science": {
+    "input_hash": "8bb017fca02cd2ed57ae9e65a8b55c5dde811c057a1adba77107427b6d83ae5c",
+    "generated_at": "2026-11-03",
+    "summary": "open-science is an open-source software project. The provided information does not detail its specific purpose or functionality.",
+    "what_it_does": "The specific functionality of open-science is not detailed in the provided information. Users should consult the official documentation for more details.",
+    "best_for": "Developers or organizations interested in an open-source project, but specific use cases require further investigation of its features.",
+    "free_tier": "As an open-source project, open-science is generally free to use. Users should check the official documentation for any potential costs related to deployment or specific services.",
+    "limitations": "Specific limitations are not provided. Users should refer to the official documentation.",
+    "licensing_notes": "open-science is released under the Apache License 2.0. This is a permissive open-source license that grants users broad rights to use, modify, and distribute the software, while also providing patent protection to contributors.",
+    "faq": [
+      {
+        "question": "Is open-science free to use?",
+        "answer": "Yes, open-science is an open-source project and is generally free to use. Users should consult the official documentation for any associated costs or usage terms."
+      },
+      {
+        "question": "What is the license for open-science?",
+        "answer": "open-science is licensed under the Apache License 2.0."
+      }
+    ]
+  },
+  "noosphere": {
+    "input_hash": "249c83dba19638d0fa90ec2693969f144c445aa6875cfd156abbd19e333a825e",
+    "generated_at": "2026-11-03",
+    "summary": "Noosphere is an open-source software project. The provided information does not detail its specific purpose or functionality.",
+    "what_it_does": "The specific functionality of Noosphere is not detailed in the provided information. Users should consult the official documentation for more details.",
+    "best_for": "Developers or organizations interested in an open-source project, but specific use cases require further investigation of its features.",
+    "free_tier": "As an open-source project, Noosphere is generally free to use. Users should check the official documentation for any potential costs related to deployment or specific services.",
+    "limitations": "Specific limitations are not provided. Users should refer to the official documentation.",
+    "licensing_notes": "Noosphere is released under the MIT License, which is a permissive open-source license. It generally allows users to freely use, modify, and distribute the software, provided the original copyright and license notice are included.",
+    "faq": [
+      {
+        "question": "Is Noosphere free to use?",
+        "answer": "Yes, Noosphere is an open-source project and is generally free to use. Users should consult the official documentation for any associated costs or usage terms."
+      },
+      {
+        "question": "What is the license for Noosphere?",
+        "answer": "Noosphere is licensed under the MIT License."
+      }
+    ]
+  },
+  "bleachbit": {
+    "input_hash": "94dd380eca4146525fb487f54237da594eb64fa39c6b44666c7087f6c81f9f67",
+    "generated_at": "2026-11-03",
+    "summary": "BleachBit is an open-source system cleaner designed to free up disk space and maintain privacy on your computer.",
+    "what_it_does": "It identifies and deletes unnecessary files, clears cache, cookies, internet history, and temporary files from various applications and the operating system.",
+    "best_for": "Users looking to reclaim disk space, improve system performance, and enhance privacy by securely deleting sensitive data.",
+    "free_tier": "As an open-source project, BleachBit is generally free to use. Users should check the official documentation for any potential costs related to deployment or specific services.",
+    "limitations": "Specific limitations are not provided. Users should refer to the official documentation.",
+    "licensing_notes": "BleachBit is released under the GNU General Public License v3.0 (GPL-3.0). This is a strong copyleft license, meaning that any derivative works must also be released under the GPL-3.0 license.",
+    "faq": [
+      {
+        "question": "Is BleachBit free to use?",
+        "answer": "Yes, BleachBit is an open-source project and is generally free to use. Users should consult the official documentation for any associated costs or usage terms."
+      },
+      {
+        "question": "What is the license for BleachBit?",
+        "answer": "BleachBit is licensed under the GNU General Public License v3.0 (GPL-3.0)."
+      }
+    ]
+  },
+  "lizzieyzy-next": {
+    "input_hash": "98c68c42c5b6eb5de78a7d04aa902e31e683310e3b0622ff1241f2c79c1987fb",
+    "generated_at": "2026-11-03",
+    "summary": "lizzieyzy-next is an open-source software project. The provided information does not detail its specific purpose or functionality.",
+    "what_it_does": "The specific functionality of lizzieyzy-next is not detailed in the provided information. Users should consult the official documentation for more details.",
+    "best_for": "Developers or organizations interested in an open-source project, but specific use cases require further investigation of its features.",
+    "free_tier": "As an open-source project, lizzieyzy-next is generally free to use. Users should check the official documentation for any potential costs related to deployment or specific services.",
+    "limitations": "Specific limitations are not provided. Users should refer to the official documentation.",
+    "licensing_notes": "lizzieyzy-next is released under the GNU General Public License v3.0 (GPL-3.0). This is a strong copyleft license, meaning that any derivative works must also be released under the GPL-3.0 license.",
+    "faq": [
+      {
+        "question": "Is lizzieyzy-next free to use?",
+        "answer": "Yes, lizzieyzy-next is an open-source project and is generally free to use. Users should consult the official documentation for any associated costs or usage terms."
+      },
+      {
+        "question": "What is the license for lizzieyzy-next?",
+        "answer": "lizzieyzy-next is licensed under the GNU General Public License v3.0 (GPL-3.0)."
+      }
+    ]
+  },
+  "enowx": {
+    "input_hash": "8ccb6edc6f1fb5e77371ea54455a3fb88a7a9e06095d7e93a95d1a1fd0a0e850",
+    "generated_at": "2026-11-03",
+    "summary": "enowx is an open-source desktop application designed for agent orchestration and AI-powered coding.",
+    "what_it_does": "It functions as a desktop application that supports the orchestration of AI agents, facilitating AI-assisted coding and development tasks, potentially leveraging models like Claude and Codex.",
+    "best_for": "Developers and programmers looking for a desktop tool to manage AI agents, enhance coding workflows, and experiment with AI-driven development.",
+    "free_tier": "As an open-source project, enowx is generally free to use. Users should check the official documentation for any potential costs related to deployment or specific services, especially if integrating with paid AI models.",
+    "limitations": "Specific limitations are not provided. Users should refer to the official documentation.",
+    "licensing_notes": "enowx is released under the MIT License, a permissive open-source license that allows for free use, modification, and distribution, typically requiring retention of the original copyright and license notice.",
+    "faq": [
+      {
+        "question": "Is enowx free to use?",
+        "answer": "Yes, enowx is an open-source project and is generally free to use, though costs for integrated third-party AI services may apply. Users should consult the official documentation for details."
+      },
+      {
+        "question": "What is the license for enowx?",
+        "answer": "enowx is licensed under the MIT License."
+      }
+    ]
+  },
+  "antumi": {
+    "input_hash": "9d5a5bb9892d7011e9ae70242664e496be47569984226ebd047c284d7d203270",
+    "generated_at": "2026-11-03",
+    "summary": "antumi is an open-source project focused on agent orchestration and AI-driven coding assistance.",
+    "what_it_does": "It supports the orchestration of AI agents and provides coding assistance, potentially integrating with tools like Claude and Codex to enhance development workflows.",
+    "best_for": "Developers and coding professionals seeking to leverage AI agents and advanced coding assistants in their projects.",
+    "free_tier": "As an open-source project, antumi is generally free to use. Users should check the official documentation for any potential costs related to deployment or specific services, especially if integrating with paid AI models.",
+    "limitations": "Specific limitations are not provided. Users should refer to the official documentation.",
+    "licensing_notes": "antumi is released under the Apache License 2.0. This is a permissive open-source license that grants users broad rights to use, modify, and distribute the software, while also providing patent protection to contributors.",
+    "faq": [
+      {
+        "question": "Is antumi free to use?",
+        "answer": "Yes, antumi is an open-source project and is generally free to use, though costs for integrated third-party AI services may apply. Users should consult the official documentation for details."
+      },
+      {
+        "question": "What is the license for antumi?",
+        "answer": "antumi is licensed under the Apache License 2.0."
+      }
+    ]
+  },
+  "aiwg": {
+    "input_hash": "bad0a2411ba645864566e3948dfecf1df883d1acfb0633967d5ba54726272c35",
+    "generated_at": "2026-11-03",
+    "summary": "aiwg is an open-source project focused on agentic AI and AI agent skills, supporting context engineering and AI-driven coding.",
+    "what_it_does": "It provides tools and frameworks for developing and managing AI agents, enhancing their skills, and facilitating context engineering for AI-powered coding, potentially with tools like Claude and Codex.",
+    "best_for": "AI developers, researchers, and engineers working on agentic AI systems, AI agent skill development, and advanced AI-assisted coding solutions.",
+    "free_tier": "As an open-source project, aiwg is generally free to use. Users should check the official documentation for any potential costs related to deployment or specific services, especially if integrating with paid AI models.",
+    "limitations": "Specific limitations are not provided. Users should refer to the official documentation.",
+    "licensing_notes": "aiwg is released under the MIT License, a permissive open-source license that allows for free use, modification, and distribution, typically requiring retention of the original copyright and license notice.",
+    "faq": [
+      {
+        "question": "Is aiwg free to use?",
+        "answer": "Yes, aiwg is an open-source project and is generally free to use, though costs for integrated third-party AI services may apply. Users should consult the official documentation for details."
+      },
+      {
+        "question": "What is the license for aiwg?",
+        "answer": "aiwg is licensed under the MIT License."
+      }
+    ]
+  },
+  "proc-cli": {
+    "input_hash": "35b39bec8baa9ddff58b69a86fc4d9047fa72aba07811dd76a030a15f607e20c",
+    "generated_at": "2026-11-03",
+    "summary": "proc-cli is an open-source command-line interface (CLI) tool designed for developers, focusing on AI agents and developer tools.",
+    "what_it_does": "It provides command-line utilities that support AI agents and developer workflows, potentially integrating with AI models like Claude to enhance development tasks.",
+    "best_for": "Developers and command-line users who want to integrate AI agent capabilities and advanced developer tools into their terminal-based workflows.",
+    "free_tier": "As an open-source project, proc-cli is generally free to use. Users should check the official documentation for any potential costs related to deployment or specific services, especially if integrating with paid AI models.",
+    "limitations": "Specific limitations are not provided. Users should refer to the official documentation.",
+    "licensing_notes": "proc-cli is released under the MIT License, a permissive open-source license that allows for free use, modification, and distribution, typically requiring retention of the original copyright and license notice.",
+    "faq": [
+      {
+        "question": "Is proc-cli free to use?",
+        "answer": "Yes, proc-cli is an open-source project and is generally free to use, though costs for integrated third-party AI services may apply. Users should consult the official documentation for details."
+      },
+      {
+        "question": "What is the license for proc-cli?",
+        "answer": "proc-cli is licensed under the MIT License."
+      }
+    ]
+  },
+  "social-sdk": {
+    "input_hash": "179fbdaa3f25d983274569b310db9fe284da52645f3d1c7236628bcd3c9c0523",
+    "generated_at": "2026-11-03",
+    "summary": "social-sdk is an open-source developer toolkit for API integration with social platforms like Bluesky, Instagram, and LinkedIn.",
+    "what_it_does": "It provides a typed TypeScript SDK for integrating with various social media APIs, including AT Protocol (atproto) and Bluesky, facilitating development of social applications.",
+    "best_for": "Developers building social applications or integrating social media functionalities into their projects, particularly those working with Node.js and TypeScript.",
+    "free_tier": "As an open-source project, social-sdk is generally free to use. Users should check the official documentation for any potential costs related to deployment or specific services, especially if integrating with paid social media APIs.",
+    "limitations": "Specific limitations are not provided. Users should refer to the official documentation.",
+    "licensing_notes": "social-sdk is released under the MIT License, a permissive open-source license that allows for free use, modification, and distribution, typically requiring retention of the original copyright and license notice.",
+    "faq": [
+      {
+        "question": "Is social-sdk free to use?",
+        "answer": "Yes, social-sdk is an open-source project and is generally free to use, though costs for integrated third-party social media APIs may apply. Users should consult the official documentation for details."
+      },
+      {
+        "question": "What is the license for social-sdk?",
+        "answer": "social-sdk is licensed under the MIT License."
+      }
+    ]
+  },
+  "clickup": {
+    "input_hash": "edba410cbd8c11e878e4bdd8b395ad42dc4fcaed893bdfcaeef733ad63cb6385",
+    "generated_at": "2026-11-03",
+    "summary": "ClickUp is a proprietary SaaS platform designed for project management and team collaboration. It offers a range of tools to help teams organize tasks, manage projects, and streamline workflows.",
+    "what_it_does": "It provides features for task management, document creation, goal tracking, time management, and team communication, aiming to centralize work in one platform.",
+    "best_for": "Teams and businesses looking for a comprehensive project management and productivity solution.",
+    "free_tier": "A limited free tier is available. For specific features and usage limits, visitors should check the official documentation.",
+    "limitations": "The free tier has limitations, and full commercial and enterprise functionality requires a paid subscription. Specific limitations are not provided; visitors should check the official documentation.",
+    "licensing_notes": "ClickUp operates on a proprietary subscription model, offering paid plans in addition to its limited free tier.",
+    "faq": [
+      {
+        "question": "Is ClickUp free to use?",
+        "answer": "ClickUp offers a limited free tier. For details on what's included and any restrictions, please refer to the official documentation."
+      },
+      {
+        "question": "What kind of license does ClickUp use?",
+        "answer": "ClickUp is a proprietary SaaS platform that uses a subscription-based licensing model, with paid plans available for full functionality."
+      }
+    ]
+  },
+  "bitwig-studio": {
+    "input_hash": "c50a23f38ae093e88671eb03f3305dd807dd110f178454c1e5cda9cf0c7d3707",
+    "generated_at": "2026-11-03",
+    "summary": "Bitwig Studio is a proprietary digital audio workstation (DAW) for music creation and performance. It offers tools for recording, arranging, mixing, and mastering audio.",
+    "what_it_does": "It allows users to compose, record, arrange, mix, and master music using a flexible modular system, instruments, and effects.",
+    "best_for": "Musicians, producers, and sound designers looking for a creative and flexible digital audio workstation.",
+    "free_tier": "Information about a free tier is not provided. Visitors should check the official documentation for trial versions or free options.",
+    "limitations": "A license purchase is required to save and export projects. For other potential limitations, visitors should check the official documentation.",
+    "licensing_notes": "Bitwig Studio is proprietary paid software, requiring a license purchase for full functionality, specifically to save and export projects.",
+    "faq": [
+      {
+        "question": "Can I use Bitwig Studio without purchasing a license?",
+        "answer": "Bitwig Studio is proprietary paid software. A license is required to save and export projects. For trial options, please check the official documentation."
+      },
+      {
+        "question": "What is Bitwig Studio best suited for?",
+        "answer": "Bitwig Studio is designed for musicians, producers, and sound designers who need a comprehensive digital audio workstation for music creation and performance."
+      }
+    ]
+  },
+  "greenbone-community-edition": {
+    "input_hash": "8084201ea26d0cd751af78e0bc4c4efd28fc14fce0c6ef131bc78f7a458720a6",
+    "generated_at": "2026-11-03",
+    "summary": "Greenbone Community Edition is an open-source vulnerability management solution. It provides tools for scanning and managing security vulnerabilities.",
+    "what_it_does": "It enables users to perform vulnerability scans on networks and systems, identify security weaknesses, and manage the remediation process. It includes a free community feed for vulnerability updates.",
+    "best_for": "Organizations and individuals seeking an open-source solution for vulnerability scanning and management.",
+    "free_tier": "As open-source software, the Greenbone Community Edition is free to use. It also includes a free community feed.",
+    "limitations": "Specific limitations compared to commercial offerings are not provided. Visitors should check the official documentation for details.",
+    "licensing_notes": "Greenbone Community Edition is free and open-source software, licensed under the GNU General Public License (GPL).",
+    "faq": [
+      {
+        "question": "Is Greenbone Community Edition free?",
+        "answer": "Yes, Greenbone Community Edition is free and open-source software, licensed under the GNU GPL, and includes a free community feed."
+      },
+      {
+        "question": "What is the primary purpose of Greenbone Community Edition?",
+        "answer": "Its primary purpose is to provide an open-source solution for vulnerability management, allowing users to scan for and manage security weaknesses."
+      }
+    ]
+  },
+  "qdrant": {
+    "input_hash": "cf8c1aae161868eb7162bcf3494895e6337c7ee9fd3d31ee9a97b3a32b6d83ba",
+    "generated_at": "2026-11-03",
+    "summary": "Qdrant is an open-source vector database and vector similarity search engine. It is designed for storing, searching, and managing high-dimensional vectors.",
+    "what_it_does": "It provides a fast and scalable solution for vector similarity search, enabling applications like semantic search, recommendation systems, and anomaly detection.",
+    "best_for": "Developers and organizations working with AI applications that require efficient storage and retrieval of vector embeddings.",
+    "free_tier": "As open-source software, the core engine of Qdrant is free to use.",
+    "limitations": "Specific limitations are not provided. Visitors should check the official documentation for details on potential commercial offerings or managed services.",
+    "licensing_notes": "The core engine of Qdrant is open-source software, licensed under the Apache License 2.0.",
+    "faq": [
+      {
+        "question": "Is Qdrant free to use?",
+        "answer": "Yes, the core engine of Qdrant is open-source software licensed under the Apache 2.0 license, making it free to use."
+      },
+      {
+        "question": "What is Qdrant used for?",
+        "answer": "Qdrant is a vector database and similarity search engine, primarily used for storing and searching high-dimensional vectors in AI applications."
+      }
+    ]
+  },
+  "cryptomator": {
+    "input_hash": "db28475336b77e12f50293596c2f32c8a8c7b53e6fceaa977d916e142bbf4cb9",
+    "generated_at": "2026-11-03",
+    "summary": "Cryptomator is an open-source tool for encrypting files and folders. It helps users protect their data in cloud storage services.",
+    "what_it_does": "It creates encrypted vaults that can be stored in cloud services like Dropbox or Google Drive, ensuring that files remain secure and private.",
+    "best_for": "Individuals who want to encrypt their files before uploading them to cloud storage, enhancing data privacy and security.",
+    "free_tier": "The desktop version of Cryptomator is free and open-source.",
+    "limitations": "Mobile applications for Cryptomator require a separate purchase. For other potential limitations, visitors should check the official documentation.",
+    "licensing_notes": "The desktop version of Cryptomator is free and open-source under the GNU General Public License v3. Mobile apps require a separate purchase.",
+    "faq": [
+      {
+        "question": "Is Cryptomator completely free?",
+        "answer": "The desktop version of Cryptomator is free and open-source. However, its mobile applications require a separate purchase."
+      },
+      {
+        "question": "What is Cryptomator's main function?",
+        "answer": "Cryptomator's main function is to provide client-side encryption for files and folders, particularly for data stored in cloud services."
+      }
+    ]
+  },
+  "scrivener": {
+    "input_hash": "2ba1de06cf82a7dc45a6e5dbded261b43c45e3ede438e69585d6a3c384cece7b",
+    "generated_at": "2026-11-03",
+    "summary": "Scrivener is commercial proprietary software designed for writers to compose, edit, and organize long-form documents. It provides tools for structuring complex writing projects.",
+    "what_it_does": "It offers a project-based environment where users can manage research, notes, and multiple document sections, facilitating the writing process for novels, screenplays, and academic papers.",
+    "best_for": "Authors, screenwriters, academics, and anyone undertaking extensive writing projects that require detailed organization and structuring.",
+    "free_tier": "A 30-day free trial is available.",
+    "limitations": "After the 30-day free trial, a purchased standard license key is required for continued use. For other potential limitations, visitors should check the official documentation.",
+    "licensing_notes": "Scrivener is commercial proprietary software that requires a purchased standard license key after a 30-day free trial.",
+    "faq": [
+      {
+        "question": "Is there a free version of Scrivener?",
+        "answer": "Scrivener offers a 30-day free trial. After the trial period, a purchased license key is required for continued use."
+      },
+      {
+        "question": "Who is Scrivener designed for?",
+        "answer": "Scrivener is designed for writers, including authors, screenwriters, and academics, who need tools to organize and manage long-form writing projects."
+      }
+    ]
+  },
+  "fmod-studio": {
+    "input_hash": "0f1c722e0c877d82fff4616b7764249851e31d24d26bcea4f35346a7a93b8443",
+    "generated_at": "2026-11-03",
+    "summary": "FMOD Studio is a proprietary audio middleware solution for video games and interactive applications. It provides tools for creating and integrating adaptive audio.",
+    "what_it_does": "It allows sound designers and developers to create complex soundscapes, manage audio assets, and implement interactive music and sound effects within games.",
+    "best_for": "Game developers, sound designers, and studios working on video games and interactive media that require advanced audio implementation.",
+    "free_tier": "FMOD Studio is free for indie projects with development budgets under a specific threshold.",
+    "limitations": "A paid license is required for commercial products that exceed specific revenue or budget limits. For exact thresholds and other limitations, visitors should check the official documentation.",
+    "licensing_notes": "FMOD Studio is free for indie projects below a certain budget threshold, but a paid license is required for commercial use exceeding specified revenue or budget limits.",
+    "faq": [
+      {
+        "question": "Can I use FMOD Studio for free?",
+        "answer": "FMOD Studio is free for indie projects with development budgets below a specific threshold. Commercial products exceeding certain revenue or budget limits require a paid license."
+      },
+      {
+        "question": "What is FMOD Studio primarily used for?",
+        "answer": "FMOD Studio is primarily used as an audio middleware solution for video games and interactive applications, enabling the creation and integration of adaptive audio."
+      }
+    ]
+  },
+  "prefect": {
+    "input_hash": "c7eedcd5ab5d39d04ef3f030e76859f3bb691cc6a15cd4d80fe30d019b969110",
+    "generated_at": "2026-11-03",
+    "summary": "Prefect is an open-source workflow orchestration platform designed for building, running, and monitoring data pipelines. It helps manage complex dataflows.",
+    "what_it_does": "It provides tools to define, schedule, and observe data workflows, making them more robust and reliable, particularly for data engineering and machine learning operations.",
+    "best_for": "Data engineers, data scientists, and MLOps teams who need to orchestrate and manage complex data pipelines and workflows.",
+    "free_tier": "The core Prefect workflow orchestration platform is open source and free to use.",
+    "limitations": "Specific limitations are not provided. Visitors should check the official documentation for details on potential commercial offerings or managed services.",
+    "licensing_notes": "The core Prefect workflow orchestration platform is open source and licensed under the Apache License 2.0.",
+    "faq": [
+      {
+        "question": "Is Prefect free to use?",
+        "answer": "Yes, the core Prefect workflow orchestration platform is open source and licensed under the Apache License 2.0, making it free to use."
+      },
+      {
+        "question": "What is Prefect used for?",
+        "answer": "Prefect is used for workflow orchestration, helping users build, run, and monitor data pipelines and complex dataflows."
+      }
+    ]
+  },
+  "shotcut": {
+    "input_hash": "2f61627dee71863e128692ee63352cd217ff63d5d9d678d8bc8367667223510e",
+    "generated_at": "2026-11-03",
+    "summary": "Shotcut is a free, open-source, and cross-platform video editor. It provides tools for editing videos, applying effects, and exporting in various formats.",
+    "what_it_does": "It allows users to perform non-linear video editing, including cutting, trimming, adding filters, and mixing audio, supporting a wide range of video, audio, and image formats.",
+    "best_for": "Individuals and content creators looking for a free and capable video editing solution across different operating systems.",
+    "free_tier": "Shotcut is entirely free and open-source.",
+    "limitations": "Specific limitations are not provided. Visitors should check the official documentation for details.",
+    "licensing_notes": "Shotcut is free and open-source software, licensed under the GNU General Public License v3.0.",
+    "faq": [
+      {
+        "question": "Is Shotcut truly free?",
+        "answer": "Yes, Shotcut is a free and open-source video editor, licensed under the GNU General Public License v3.0."
+      },
+      {
+        "question": "What platforms does Shotcut support?",
+        "answer": "Shotcut is a cross-platform video editor, meaning it supports multiple operating systems. For specific platform compatibility, please check the official documentation."
+      }
+    ]
+  },
+  "istat-menus": {
+    "input_hash": "1ff226bae665b2ec7246e06f4672343db5359e71764e147f108870e908b1327e",
+    "generated_at": "2026-11-03",
+    "summary": "iStat Menus is proprietary paid software designed to monitor various system statistics on macOS. It provides real-time information about your computer's performance.",
+    "what_it_does": "It displays detailed information about CPU, GPU, memory, disk usage, network activity, sensors, battery, and more directly in the macOS menu bar.",
+    "best_for": "macOS users who want comprehensive, real-time monitoring of their system's performance and health.",
+    "free_tier": "A 14-day free trial is available.",
+    "limitations": "After the 14-day free trial, a paid license must be purchased for continued use. For other potential limitations, visitors should check the official documentation.",
+    "licensing_notes": "iStat Menus is proprietary paid software that requires a license purchase after a 14-day free trial for continued use.",
+    "faq": [
+      {
+        "question": "Can I try iStat Menus before buying?",
+        "answer": "Yes, iStat Menus offers a 14-day free trial. After this period, a paid license is required for continued use."
+      },
+      {
+        "question": "What kind of information does iStat Menus provide?",
+        "answer": "iStat Menus provides real-time monitoring of various system statistics, such as CPU, memory, disk usage, network activity, and sensor temperatures, displayed in the macOS menu bar."
+      }
+    ]
+  },
+  "easeus-partition-master-free": {
+    "input_hash": "ab2ba20f23ed8efc6221b244e39c58b38ec17fb4c1396ca2317c3864e637b159",
+    "generated_at": "2026-11-03",
+    "summary": "EaseUS Partition Master Free is a freeware tool for managing disk partitions on Windows. It allows users to resize, move, create, and delete partitions.",
+    "what_it_does": "It helps users optimize disk space, manage hard drives, and perform various partition operations without data loss, specifically for non-commercial home use.",
+    "best_for": "Home users who need to manage and optimize disk partitions on their personal computers for non-commercial purposes.",
+    "free_tier": "A free edition is available, strictly licensed for non-commercial home use.",
+    "limitations": "The free edition is strictly limited to non-commercial home use. Commercial environments require a paid Pro or Server license. For specific feature limitations of the free version, visitors should check the official documentation.",
+    "licensing_notes": "The free edition of EaseUS Partition Master is freeware restricted to personal and home use only. Commercial use requires a paid Pro or Server license.",
+    "faq": [
+      {
+        "question": "Can I use EaseUS Partition Master Free for my business?",
+        "answer": "No, the free edition of EaseUS Partition Master is strictly licensed for non-commercial home use. Commercial environments require a paid Pro or Server license."
+      },
+      {
+        "question": "What can I do with EaseUS Partition Master Free?",
+        "answer": "It allows home users to perform basic disk partition management tasks such as resizing, moving, creating, and deleting partitions."
+      }
+    ]
+  },
+  "axure-rp": {
+    "input_hash": "51fef40d15f9d6e5e98c2399fc2543ca6fb23796e71db945cf47c1252ccc393e",
+    "generated_at": "2026-11-03",
+    "summary": "Axure RP is proprietary commercial software for creating interactive prototypes and specifications. It helps designers and product managers visualize and document user experiences.",
+    "what_it_does": "It enables users to design wireframes, create highly interactive prototypes, and generate detailed documentation for web and mobile applications.",
+    "best_for": "UX/UI designers, product managers, and business analysts who need to create detailed wireframes, interactive prototypes, and specifications for digital products.",
+    "free_tier": "A limited-time free trial is available.",
+    "limitations": "After the limited-time free trial, a paid license per user is required for both personal and commercial use. For specific trial limitations, visitors should check the official documentation.",
+    "licensing_notes": "Axure RP is proprietary commercial software that requires a paid license per user for both personal and commercial use after a limited-time free trial.",
+    "faq": [
+      {
+        "question": "Is there a free version of Axure RP?",
+        "answer": "Axure RP offers a limited-time free trial. After the trial, a paid license per user is required for continued use."
+      },
+      {
+        "question": "Who typically uses Axure RP?",
+        "answer": "Axure RP is typically used by UX/UI designers, product managers, and business analysts for creating interactive prototypes and detailed specifications."
+      }
+    ]
+  },
+  "sourcegraph": {
+    "input_hash": "a05d6b150ab4b01123d8fdb4e12ce37dc090d44cf17163384e0de96849e52b30",
+    "generated_at": "2026-11-03",
+    "summary": "Sourcegraph is a proprietary code intelligence platform designed for large-scale code search and navigation. It helps developers understand and manage their codebase.",
+    "what_it_does": "It provides universal code search, code navigation, and code insights across all repositories, enabling developers to find, understand, and fix code faster.",
+    "best_for": "Enterprise development teams and organizations managing large, complex codebases that require advanced code intelligence capabilities.",
+    "free_tier": "Information about a free tier is not provided. The self-hosted free Community Edition has been retired. Visitors should check the official documentation for current offerings.",
+    "limitations": "A commercial Enterprise license is required for deployment. Specific limitations of any available trials or free options are not provided; visitors should check the official documentation.",
+    "licensing_notes": "Sourcegraph uses a proprietary Enterprise license. Its self-hosted free Community Edition has been retired, and a commercial license is required for enterprise deployment.",
+    "faq": [
+      {
+        "question": "Is there a free version of Sourcegraph available for self-hosting?",
+        "answer": "The self-hosted free Community Edition of Sourcegraph has been retired. A commercial Enterprise license is now required for deployment."
+      },
+      {
+        "question": "What is Sourcegraph primarily used for?",
+        "answer": "Sourcegraph is primarily used as a code intelligence platform for large-scale code search, navigation, and understanding across an organization's entire codebase."
+      }
+    ]
+  },
+  "bruno": {
+    "input_hash": "e6716fd2d731fecfa4a4aefd38d4221ed6691a755eabda0cb8e598bbe01655f9",
+    "generated_at": "2026-11-03",
+    "summary": "Bruno is an open-source API client designed for testing and documenting APIs. It offers a local-first approach to API development.",
+    "what_it_does": "It allows developers to create, test, and organize API requests, supporting various protocols and enabling collaboration through Git-friendly file storage.",
+    "best_for": "Developers and teams looking for an open-source, local-first API client for testing, documenting, and collaborating on API development.",
+    "free_tier": "The core Bruno application is open-source and free to use.",
+    "limitations": "Optional paid \"Golden Edition perks\" are available, implying some features are not included in the free open-source version. Specific limitations are not provided; visitors should check the official documentation.",
+    "licensing_notes": "Bruno's core application is open-source under the MIT License. Optional paid \"Golden Edition perks\" are available.",
+    "faq": [
+      {
+        "question": "Is Bruno free to use?",
+        "answer": "Yes, the core Bruno application is open-source under the MIT License and is free to use. There are optional paid \"Golden Edition perks\" available."
+      },
+      {
+        "question": "What is Bruno's main purpose?",
+        "answer": "Bruno is an open-source API client primarily used by developers for testing, documenting, and collaborating on API requests with a local-first approach."
+      }
+    ]
+  },
+  "helm": {
+    "input_hash": "96659593cff673b6a96d3391a444d845fcb52350964b9ac1f8339817101aee6e",
+    "generated_at": "2026-11-03",
+    "summary": "Helm is an open-source package manager for Kubernetes. It simplifies the deployment and management of applications on Kubernetes clusters.",
+    "what_it_does": "It allows users to define, install, and upgrade even the most complex Kubernetes applications using \"charts,\" which are packages of pre-configured Kubernetes resources.",
+    "best_for": "Developers and operations teams working with Kubernetes who need to streamline the deployment, management, and scaling of applications.",
+    "free_tier": "Helm is entirely open-source and free to use.",
+    "limitations": "Specific limitations are not provided. Visitors should check the official documentation for details.",
+    "licensing_notes": "Helm is entirely open-source software, released under the Apache License 2.0.",
+    "faq": [
+      {
+        "question": "Is Helm free to use?",
+        "answer": "Yes, Helm is entirely open-source software, licensed under the Apache License 2.0, and is free to use."
+      },
+      {
+        "question": "What is Helm used for in Kubernetes?",
+        "answer": "Helm serves as a package manager for Kubernetes, simplifying the deployment, management, and upgrading of applications on Kubernetes clusters using \"charts.\""
+      }
+    ]
   }
 }
