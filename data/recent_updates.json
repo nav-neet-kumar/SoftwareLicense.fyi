@@ -1,14 +1,5 @@
 [
   {
-    "name": "KeeWeb",
-    "slug": "keeweb",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://keeweb.info/",
-    "source": "https://github.com/keeweb/keeweb"
-  },
-  {
     "name": "Tauri",
     "slug": "tauri",
     "type": "NEW",
@@ -898,5 +889,14 @@
     "category": "Open Source",
     "url": "https://github.com/ai-infra-curriculum/ai-infra-junior-engineer-learning",
     "source": "https://github.com/ai-infra-curriculum/ai-infra-junior-engineer-learning"
+  },
+  {
+    "name": "Cursor",
+    "slug": "cursor",
+    "type": "NEW",
+    "date": "2026-11-04",
+    "category": "Community Version",
+    "url": "https://cursor.sh/",
+    "source": "https://cursor.sh/pricing"
   }
 ]
