@@ -11094,5 +11094,305 @@
         "answer": "Helm serves as a package manager for Kubernetes, simplifying the deployment, management, and upgrading of applications on Kubernetes clusters using \"charts.\""
       }
     ]
+  },
+  "happier": {
+    "input_hash": "83b4c6d8bcf72aa4e67cd40b15fef4cc94dc6bf53dbbc98ab2b8ea57e0f79155",
+    "generated_at": "2026-11-04",
+    "summary": "Happier is an AI agent IDE designed for orchestrating AI agents. It supports various AI models and coding agents.",
+    "what_it_does": "Provides an integrated development environment for building and managing AI agents, facilitating tasks like coding assistance and orchestration.",
+    "best_for": "Developers and researchers working with AI agents, particularly those focused on coding and orchestration tasks.",
+    "free_tier": "As an open-source project, the software is generally free to use under its license terms. Specific usage limits are not detailed.",
+    "limitations": "Specific limitations are not detailed in the provided information. Users should consult the official documentation for more details.",
+    "licensing_notes": "Distributed under the MIT License.",
+    "faq": [
+      {
+        "question": "What kind of AI agents does Happier support?",
+        "answer": "Happier supports a range of AI agents, including those for coding, and is compatible with models like Claude and Codex. For a full list, please check the official documentation."
+      },
+      {
+        "question": "Is Happier suitable for web development?",
+        "answer": "The provided notes mention 'Web', suggesting potential web-related capabilities. For detailed information on web development features, consult the official documentation."
+      }
+    ]
+  },
+  "kontext": {
+    "input_hash": "aa8448fffb5aff0faddafc17aeef5146ef6ee80eb55c9c6c8a835d93585909ca",
+    "generated_at": "2026-11-04",
+    "summary": "Kontext is an open-source tool focused on AI agents and security, specifically for managing authorization and audit logging.",
+    "what_it_does": "Helps in managing AI agent permissions and provides audit logging capabilities, contributing to the security of applications.",
+    "best_for": "Developers and security professionals working with AI agents who need to control access and track actions.",
+    "free_tier": "As an open-source project, Kontext is free to use under the MIT License. No specific free-tier limits are mentioned.",
+    "limitations": "The provided information does not detail specific limitations. Please refer to the official documentation for comprehensive details.",
+    "licensing_notes": "Distributed under the MIT License.",
+    "faq": [
+      {
+        "question": "What are the main features of Kontext?",
+        "answer": "Kontext focuses on AI agents, authorization, and audit logging. It is built using Golang and is intended for runtime use."
+      },
+      {
+        "question": "Is Kontext suitable for developer tools?",
+        "answer": "Yes, Kontext is listed under developer tools and focuses on security aspects like authorization and audit logging for AI agents."
+      }
+    ]
+  },
+  "console": {
+    "input_hash": "8a40c0406631fd5a8c6894673b788a21d1df2f55185c3d6de1228f8e6579ba40",
+    "generated_at": "2026-11-04",
+    "summary": "Console is an open-source tool for managing GraphQL APIs, focusing on composition and federation.",
+    "what_it_does": "Facilitates the management and composition of GraphQL APIs, supporting features like GraphQL Federation.",
+    "best_for": "Developers working with GraphQL APIs, especially those using or implementing GraphQL Federation.",
+    "free_tier": "Being an open-source project under the MIT License, it is free to use. No specific free-tier limitations are provided.",
+    "limitations": "Specific limitations are not detailed in the provided notes. Please consult the official documentation for more information.",
+    "licensing_notes": "Distributed under the MIT License.",
+    "faq": [
+      {
+        "question": "What is the primary function of the Console tool?",
+        "answer": "The Console tool is designed for managing GraphQL APIs, with a focus on API composition and supporting GraphQL Federation."
+      },
+      {
+        "question": "What technologies is Console built with?",
+        "answer": "The project is associated with Node.js and is relevant for API and developer tools."
+      }
+    ]
+  },
+  "finderright": {
+    "input_hash": "ef1a9cc879247a99ecc1f78ea1cd611c0d235102d30f99b7effdb146ec185931",
+    "generated_at": "2026-11-04",
+    "summary": "FinderRight is a macOS utility that enhances the Finder context menu with additional options.",
+    "what_it_does": "Extends the macOS Finder's right-click context menu, providing quick access to various tools and actions.",
+    "best_for": "macOS users looking to customize and improve their file management workflow through the context menu.",
+    "free_tier": "As an open-source project under the MIT License, FinderRight is free to use. No specific free-tier limits are mentioned.",
+    "limitations": "The provided information does not specify any limitations. Please refer to the official documentation for further details.",
+    "licensing_notes": "Distributed under the MIT License.",
+    "faq": [
+      {
+        "question": "What operating system does FinderRight support?",
+        "answer": "FinderRight is specifically designed for macOS."
+      },
+      {
+        "question": "How does FinderRight improve productivity?",
+        "answer": "It enhances productivity by adding custom options to the Finder's context menu, making common actions more accessible."
+      }
+    ]
+  },
+  "rtk": {
+    "input_hash": "d3fd3db08c0ba90be9a2bb35ccdc52208270eabe469a211e51033becc4e3fdc9",
+    "generated_at": "2026-11-04",
+    "summary": "RTK is a powerful AI coding tool that assists developers with various coding tasks, including agentic coding.",
+    "what_it_does": "Provides AI-powered assistance for coding, supporting agentic coding workflows and interacting with models like Claude.",
+    "best_for": "Developers seeking AI assistance for coding, especially those interested in agentic coding or using command-line tools.",
+    "free_tier": "RTK is an open-source project under the Apache License 2.0, making it free to use. Specific free-tier limits are not detailed.",
+    "limitations": "The provided notes mention 'cost-red', which might imply cost-reduction features, but specific limitations of the tool itself are not detailed. Consult the official documentation.",
+    "licensing_notes": "Distributed under the Apache License 2.0.",
+    "faq": [
+      {
+        "question": "What is RTK primarily used for?",
+        "answer": "RTK is an AI coding tool that assists with agentic coding tasks and can be used as a command-line tool."
+      },
+      {
+        "question": "Does RTK support specific AI models?",
+        "answer": "Yes, it is mentioned as supporting models like Anthropic's Claude-Code."
+      }
+    ]
+  },
+  "cognicore-env": {
+    "input_hash": "45b91764985873b91db4902ad16885e7a9ec743477fe04ae3c24bf2413354471",
+    "generated_at": "2026-11-04",
+    "summary": "Cognicore-env is an AI agent tool focused on persistent memory and developer tools.",
+    "what_it_does": "Provides functionalities for AI agents, including persistent memory management and integration with developer tools.",
+    "best_for": "Developers building AI agents that require memory persistence and integration with development workflows.",
+    "free_tier": "As an open-source project under the MIT License, it is free to use. No specific free-tier limits are mentioned.",
+    "limitations": "The provided notes do not detail specific limitations. Please refer to the official documentation for more information.",
+    "licensing_notes": "Distributed under the MIT License.",
+    "faq": [
+      {
+        "question": "What is the main purpose of cognicore-env?",
+        "answer": "Cognicore-env focuses on providing persistent memory for AI agents and integrates with developer tools, supporting models like Claude."
+      },
+      {
+        "question": "Can cognicore-env be used with Cursor?",
+        "answer": "The topics list includes 'cursor', suggesting potential integration or compatibility with the Cursor IDE. For confirmation, check the official documentation."
+      }
+    ]
+  },
+  "fluentci-engine": {
+    "input_hash": "d2694ab23c6188c5f48257e51f75e54b4d81847695dd7745b6475709e2d5460c",
+    "generated_at": "2026-11-04",
+    "summary": "Fluentci-engine is an open-source engine for CI/CD and developer tools, enabling Devbox functionalities.",
+    "what_it_does": "Powers continuous integration and continuous delivery pipelines, acting as a Devbox for development environments.",
+    "best_for": "Teams looking to streamline their CI/CD processes and manage development environments efficiently.",
+    "free_tier": "This is an open-source project under the Mozilla Public License 2.0, making it free to use. Specific free-tier limits are not detailed.",
+    "limitations": "The provided notes do not specify any limitations. Please consult the official documentation for more details.",
+    "licensing_notes": "Distributed under the Mozilla Public License 2.0.",
+    "faq": [
+      {
+        "question": "What does fluentci-engine do?",
+        "answer": "It is an engine for CI/CD, supporting continuous delivery and integration, and functions as a Devbox."
+      },
+      {
+        "question": "What are the key topics associated with fluentci-engine?",
+        "answer": "Key topics include CI/CD, continuous delivery, continuous integration, Devbox, and developer tools."
+      }
+    ]
+  },
+  "future-os": {
+    "input_hash": "33473fcc9481072526139c53d1a7303f40fdaab583479ef5c6745930d39242fe",
+    "generated_at": "2026-11-04",
+    "summary": "Future-OS is an open-source AI agent framework designed to act as a personal AI assistant.",
+    "what_it_does": "Provides a framework for building AI agents and assistants, potentially serving as a personal AI.",
+    "best_for": "Developers interested in creating AI-powered personal assistants or exploring agent frameworks.",
+    "free_tier": "As an open-source project under the MIT License, it is free to use. No specific free-tier limits are mentioned.",
+    "limitations": "The provided notes do not detail specific limitations. Please refer to the official documentation for more information.",
+    "licensing_notes": "Distributed under the MIT License.",
+    "faq": [
+      {
+        "question": "What is the main goal of Future-OS?",
+        "answer": "Future-OS aims to be an AI agent framework and a personal AI assistant, offering an alternative to systems like OpenClaw."
+      },
+      {
+        "question": "What kind of AI agents does it support?",
+        "answer": "It is designed for AI agents and AI assistants, likely leveraging LLMs. For specific model support, consult the official documentation."
+      }
+    ]
+  },
+  "pebrel": {
+    "input_hash": "0514478c03511454ecc723659b3a9c1bfb98c3a65c247fc0c56ca0f4b5b34f6b",
+    "generated_at": "2026-11-04",
+    "summary": "Pebrel is an AI-powered command-line interface tool that enhances terminal interactions.",
+    "what_it_does": "Integrates AI capabilities into the terminal, offering features like AI-CLI and AI-terminal functionalities, potentially with GPU acceleration.",
+    "best_for": "Users who want to leverage AI within their command-line workflows, including developers and power users.",
+    "free_tier": "Pebrel is distributed under the GNU General Public License v3.0, making it free to use. Specific free-tier limits are not detailed.",
+    "limitations": "The provided notes do not specify any limitations. Please refer to the official documentation for more details.",
+    "licensing_notes": "Distributed under the GNU General Public License v3.0.",
+    "faq": [
+      {
+        "question": "What does Pebrel offer for terminal users?",
+        "answer": "Pebrel provides AI-powered features for the terminal, acting as an AI-CLI and AI-terminal tool, and mentions GPU acceleration."
+      },
+      {
+        "question": "What AI models or technologies does Pebrel integrate with?",
+        "answer": "It is associated with AI-CLI, AI-terminal, Claude-Code, and Codex, suggesting integration with AI coding and language models."
+      }
+    ]
+  },
+  "fallow": {
+    "input_hash": "c05dba944d15ee0b8533cfb1042f77c47e20b60e65610e2306bc96a0dfe92c83",
+    "generated_at": "2026-11-04",
+    "summary": "Fallow is a Rust-based tool for analyzing codebases to identify architectural issues like circular dependencies and code duplication.",
+    "what_it_does": "Analyzes codebases to detect and report on code health, quality, circular dependencies, and duplication.",
+    "best_for": "Software architects, developers, and teams focused on maintaining code quality and understanding codebase architecture.",
+    "free_tier": "As an open-source project under the MIT License, Fallow is free to use. No specific free-tier limits are mentioned.",
+    "limitations": "The provided notes do not detail specific limitations. Please consult the official documentation for more information.",
+    "licensing_notes": "Distributed under the MIT License.",
+    "faq": [
+      {
+        "question": "What kind of code analysis does Fallow perform?",
+        "answer": "Fallow focuses on architectural analysis, identifying circular dependencies, code duplication, and assessing code health and quality."
+      },
+      {
+        "question": "What programming languages does Fallow support?",
+        "answer": "The provided notes do not specify supported languages. Please check the official documentation for language compatibility."
+      }
+    ]
+  },
+  "gentle-ai": {
+    "input_hash": "6170153fa47d142d52ad542e0705e1f5d40ba45fcaa5c65af000310be062c3a4",
+    "generated_at": "2026-11-04",
+    "summary": "Gentle AI is an open-source tool designed to assist with AI coding tasks, including code review and agent skills.",
+    "what_it_does": "Provides AI-powered assistance for coding, code review, and managing agent skills, supporting models like Claude.",
+    "best_for": "Developers looking for AI assistance in coding, code review, and managing AI agent capabilities.",
+    "free_tier": "As an open-source project under the MIT License, Gentle AI is free to use. No specific free-tier limits are detailed.",
+    "limitations": "The provided notes do not detail specific limitations. Please refer to the official documentation for more information.",
+    "licensing_notes": "Distributed under the MIT License.",
+    "faq": [
+      {
+        "question": "What are the primary functions of Gentle AI?",
+        "answer": "Gentle AI assists with AI coding, code review, and managing agent skills, supporting models like Claude-Code and Codex."
+      },
+      {
+        "question": "Is Gentle AI suitable for Copilot users?",
+        "answer": "The topics list includes 'copilot', suggesting it may offer similar or complementary functionality. For direct comparisons, consult the official documentation."
+      }
+    ]
+  },
+  "cloudnative-pg": {
+    "input_hash": "4a54735689ae8ab949be4e532c404f86d21bec2f80929d8319960ad2293a9fa2",
+    "generated_at": "2026-11-04",
+    "summary": "CloudNativePG is an open-source project focused on managing PostgreSQL databases in cloud-native environments.",
+    "what_it_does": "Provides tools and operators for automated failover, business continuity, and database management for PostgreSQL in cloud environments.",
+    "best_for": "DevOps engineers and database administrators managing PostgreSQL databases in cloud-native infrastructures.",
+    "free_tier": "As an open-source project under the Apache License 2.0, CloudNativePG is free to use. No specific free-tier limits are mentioned.",
+    "limitations": "The provided notes do not detail specific limitations. Please refer to the official documentation for more information.",
+    "licensing_notes": "Distributed under the Apache License 2.0.",
+    "faq": [
+      {
+        "question": "What is the main purpose of CloudNativePG?",
+        "answer": "It focuses on managing PostgreSQL databases in cloud-native environments, ensuring automated failover and business continuity."
+      },
+      {
+        "question": "What are the key benefits of using CloudNativePG?",
+        "answer": "Key benefits include automated failover, business continuity, and simplified database management for DevOps practices."
+      }
+    ]
+  },
+  "purple": {
+    "input_hash": "49c6c8a0bc8c9a59d3cd454c2a67e936414d9fb84f49c0e572cfab76e1c4c71d",
+    "generated_at": "2026-11-04",
+    "summary": "Purple is an open-source command-line tool for cloud synchronization and DevOps tasks.",
+    "what_it_does": "Facilitates cloud synchronization and supports various DevOps tools like Docker and HashiCorp Vault.",
+    "best_for": "Developers and operations teams involved in DevOps, managing cloud resources, and using containerization technologies.",
+    "free_tier": "Purple is an open-source project under the MIT License, making it free to use. No specific free-tier limits are detailed.",
+    "limitations": "The provided notes do not detail specific limitations. Please consult the official documentation for more information.",
+    "licensing_notes": "Distributed under the MIT License.",
+    "faq": [
+      {
+        "question": "What is Purple used for?",
+        "answer": "Purple is a CLI tool for cloud synchronization and DevOps tasks, supporting technologies like Docker and Podman."
+      },
+      {
+        "question": "Is Purple suitable for homelab environments?",
+        "answer": "Yes, 'homelab' is listed as a topic, suggesting it can be useful in personal or self-hosted environments."
+      }
+    ]
+  },
+  "bigpowers": {
+    "input_hash": "ea845a0891033d6a7c27d103151e432e9320e412b409bdf117fc13032c72d693",
+    "generated_at": "2026-11-04",
+    "summary": "Bigpowers is an AI agent framework focused on automation, clean code, and DevOps practices.",
+    "what_it_does": "Provides tools and frameworks for AI agents, supporting automation, clean code principles, and DevOps workflows.",
+    "best_for": "Developers and teams building AI agents that require automation, adherence to clean code standards, and integration with DevOps.",
+    "free_tier": "As an open-source project under the MIT License, Bigpowers is free to use. No specific free-tier limits are mentioned.",
+    "limitations": "The provided notes do not detail specific limitations. Please refer to the official documentation for more information.",
+    "licensing_notes": "Distributed under the MIT License.",
+    "faq": [
+      {
+        "question": "What are the main areas Bigpowers focuses on?",
+        "answer": "Bigpowers focuses on AI agents, automation, clean code, and DevOps practices, including documentation-as-code."
+      },
+      {
+        "question": "Does Bigpowers support specific AI models?",
+        "answer": "The notes mention 'claude-code', suggesting compatibility with Claude models for coding tasks. For a full list, consult the official documentation."
+      }
+    ]
+  },
+  "vymanager": {
+    "input_hash": "705e40862443a2edf02240d959a9b48537eb9a11df4ebf75daeade12423fa3d4",
+    "generated_at": "2026-11-04",
+    "summary": "VyManager is an open-source tool for central management, deployment, and monitoring of firewalls and other network services.",
+    "what_it_does": "Provides a dashboard for central management, deployment, and monitoring, particularly for firewalls, using technologies like Docker and GraphQL.",
+    "best_for": "Network administrators and IT professionals managing firewall deployments and network infrastructure.",
+    "free_tier": "VyManager is distributed under the GNU General Public License v3.0, making it free to use. Specific free-tier limits are not detailed.",
+    "limitations": "The provided notes do not detail specific limitations. Please consult the official documentation for more information.",
+    "licensing_notes": "Distributed under the GNU General Public License v3.0.",
+    "faq": [
+      {
+        "question": "What is the primary function of VyManager?",
+        "answer": "VyManager offers central management, deployment, and monitoring capabilities, with a focus on firewalls and related network services."
+      },
+      {
+        "question": "What technologies are associated with VyManager?",
+        "answer": "It is associated with central management, dashboards, deployment, DevOps, Docker, and GraphQL."
+      }
+    ]
   }
 }
