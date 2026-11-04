@@ -163,10 +163,18 @@ def discover(batch, existing_names=()):
     # Send names only, not the full catalog records, to control token usage.
     names = list(dict.fromkeys(str(n).strip() for n in existing_names if str(n).strip()))
     catalog_context = json.dumps(names, ensure_ascii=False, separators=(",", ":"))
-    prompt = f"""Discover genuinely new software products for IsItFree? (batch {batch}).
-Return up to 30 real, distinct applications, software tools, desktop/mobile apps, SaaS products, or developer/admin utilities.
+    prompt = f"""Discover established MARKET SOFTWARE PRODUCTS that developers, IT engineers, and businesses actually use (batch {batch}).
+Return up to 30 distinct products: commercial software, freemium tools, freeware, open-source applications, SaaS platforms, desktop apps, and developer/admin utilities.
+Rotate across these categories: IDEs and code editors; AI coding assistants; DevOps, cloud and CI/CD; containers and virtualization; databases and data platforms; API clients and testing; cybersecurity; monitoring and observability; remote access and SSH clients; Windows/Linux administration; networking; productivity and documentation; design and collaboration.
+Examples of product types/names to consider (only if absent from catalog): Visual Studio, IntelliJ IDEA, PyCharm, Cursor, Windsurf, Zed, Sublime Text, Android Studio, Docker Desktop, Terraform, Ansible, Jenkins, Postman, Insomnia, DBeaver, DataGrip, TablePlus, pgAdmin, MongoDB Compass, Redis Insight, Burp Suite, OWASP ZAP, Fiddler, SonarQube, Snyk, Wireshark, Datadog, New Relic, Splunk, Grafana, Prometheus, Sentry, PuTTY, MobaXterm, Termius, WinSCP, FileZilla, Jira, Confluence, Linear, Notion, Obsidian, Figma, GitKraken.
 Existing catalog names (aliases may differ): {catalog_context}
 STRICT RULES:
+- Only list actual end-user software, developer tools, SaaS products, platforms, or installable utilities with a distinct product identity.
+- Never list raw GitHub repositories, sample projects, starter kits, templates, libraries, SDKs, frameworks, source-code demos, or random open-source projects as software products.
+- Every candidate must have a dedicated official product/publisher website. GitHub repository URLs are NOT valid official URLs or evidence.
+- Use the publisher's official product, pricing, licensing, terms, or download page as evidence.
+- Prefer established products used in real developer/IT workflows, not obscure repositories.
+- Do not invent product names, official URLs, publishers, or licensing evidence.
 - Do not repeat existing products under abbreviations, alternate spellings, former names, vendor-prefixed names, or renamed names.
 - Examples: VS Code = Visual Studio Code; VLC = VLC Media Player; Firefox = Mozilla Firefox; GIMP = GNU Image Manipulation Program.
 - Distinct products from the same vendor are allowed: Visual Studio is not Visual Studio Code; VSCodium is a distinct distribution.
