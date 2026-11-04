@@ -252,7 +252,7 @@ def discover_github_candidates(limit=60):
 
 def verify_batch(candidates):
     compact = [{"software_name": c.get("software_name", ""), "official_url": c.get("official_url", ""), "suggested_category": c.get("category", ""), "notes": str(c.get("notes", ""))[:180], "evidence_url": c.get("evidence_url", "")} for c in candidates]
-    prompt = """Verify these software records. Return a JSON array with one object per candidate: software_name, category, license_status, official_url, evidence_url, notes, confidence (high|medium|low). Category must be one of """ + json.dumps(sorted(CATEGORIES)) + """. Do not invent license terms or commercial-use permissions. Use high confidence only when evidence supports the status; keep notes concise. Candidates: """ + json.dumps(compact, ensure_ascii=False)
+    prompt = """Verify these software records. Return a JSON array with one object per candidate: software_name, category, license_status, official_url, evidence_url, notes, confidence (high|medium|low). Category must be one of """ + json.dumps(sorted(CATEGORIES)) + """. Reject libraries, SDKs, frameworks, templates, demos, starter repositories, and projects without a distinct product identity. official_url must be the publisher product website, never github.com. evidence_url must be an official product pricing, licensing, terms, or download page on the publisher website, never a GitHub repository. Do not invent license terms or commercial-use permissions. Use high confidence only when official evidence supports the status; keep notes concise. Candidates: """ + json.dumps(compact, ensure_ascii=False)
     data = parse_json(ask(prompt))
     if not isinstance(data, list):
         raise ValueError("Verification response must be a JSON array")
@@ -407,7 +407,7 @@ def run():
             name = str(candidate.get("software_name", "")).strip()
             key = canonical_name(name)
             url = str(candidate.get("official_url", "")).strip()
-            if not key or not url.startswith("https://") or not domain(url):
+            if not key or not url.startswith("https://") or not domain(url) or domain(url) == "github.com" or domain(url).endswith(".github.com"):
                 report["rejected"] += 1
                 print(f"[SKIP] Invalid name or HTTPS URL: {name or '(empty)'}")
                 continue
@@ -467,7 +467,7 @@ def run():
                 report["rejected"] += 1
                 print(f"[SKIP] Official URL failed validation: {name}")
                 continue
-            if not evidence.startswith("https://") or not domain(evidence):
+            if not evidence.startswith("https://") or not domain(evidence) or domain(evidence) == "github.com" or domain(evidence).endswith(".github.com"):
                 report["rejected"] += 1
                 print(f"[SKIP] No HTTPS license/evidence URL: {name}")
                 continue
