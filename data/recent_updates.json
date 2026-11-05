@@ -1,239 +1,5 @@
 [
   {
-    "name": "Tauri",
-    "slug": "tauri",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://tauri.app/",
-    "source": "https://github.com/tauri-apps/tauri"
-  },
-  {
-    "name": "Podman Desktop",
-    "slug": "podman-desktop",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://podman-desktop.io/",
-    "source": "https://github.com/containers/podman-desktop"
-  },
-  {
-    "name": "NixOS",
-    "slug": "nixos",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://nixos.org/",
-    "source": "https://github.com/NixOS/nixpkgs"
-  },
-  {
-    "name": "Wallabag",
-    "slug": "wallabag",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://www.wallabag.it/en",
-    "source": "https://github.com/wallabag/wallabag"
-  },
-  {
-    "name": "Immich",
-    "slug": "immich",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://immich.app/",
-    "source": "https://github.com/immich-app/immich"
-  },
-  {
-    "name": "BookStack",
-    "slug": "bookstack",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://www.bookstackapp.com/",
-    "source": "https://github.com/BookStackApp/BookStack"
-  },
-  {
-    "name": "Actual Budget",
-    "slug": "actual-budget",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://actualbudget.com/",
-    "source": "https://github.com/actualbudget/actual"
-  },
-  {
-    "name": "Dashy",
-    "slug": "dashy",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://dashy.to/",
-    "source": "https://github.com/Lissy93/dashy"
-  },
-  {
-    "name": "iTerm2",
-    "slug": "iterm2",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://iterm2.com/",
-    "source": "https://github.com/gnachman/iTerm2/blob/master/LICENSE"
-  },
-  {
-    "name": "Windows Terminal",
-    "slug": "windows-terminal",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://learn.microsoft.com/en-us/windows/terminal/",
-    "source": "https://github.com/microsoft/terminal/blob/main/LICENSE"
-  },
-  {
-    "name": "Hyper",
-    "slug": "hyper",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://hyper.is/",
-    "source": "https://github.com/vercel/hyper/blob/main/LICENSE.md"
-  },
-  {
-    "name": "Tabby",
-    "slug": "tabby",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://tabby.sh/",
-    "source": "https://github.com/Eugeny/tabby/blob/master/LICENSE"
-  },
-  {
-    "name": "Rye",
-    "slug": "rye",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://rye-up.com/",
-    "source": "https://github.com/mitsuhiko/rye/blob/main/LICENSE"
-  },
-  {
-    "name": "Poetry",
-    "slug": "poetry",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://python-poetry.org/",
-    "source": "https://github.com/python-poetry/poetry/blob/master/LICENSE"
-  },
-  {
-    "name": "pnpm",
-    "slug": "pnpm",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://pnpm.io/",
-    "source": "https://github.com/pnpm/pnpm/blob/main/LICENSE"
-  },
-  {
-    "name": "Turborepo",
-    "slug": "turborepo",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://turbo.build/repo",
-    "source": "https://github.com/vercel/turbo/blob/main/LICENSE"
-  },
-  {
-    "name": "Nx",
-    "slug": "nx",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://nx.dev/",
-    "source": "https://github.com/nrwl/nx/blob/master/LICENSE.md"
-  },
-  {
-    "name": "Biome",
-    "slug": "biome",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://biomejs.dev/",
-    "source": "https://github.com/biomejs/biome/blob/main/LICENSE"
-  },
-  {
-    "name": "Ruff",
-    "slug": "ruff",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://docs.astral.sh/ruff/",
-    "source": "https://github.com/astral-sh/ruff/blob/main/LICENSE"
-  },
-  {
-    "name": "Pydantic",
-    "slug": "pydantic",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://pydantic.dev/",
-    "source": "https://github.com/pydantic/pydantic/blob/main/LICENSE"
-  },
-  {
-    "name": "Hono",
-    "slug": "hono",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://hono.dev/",
-    "source": "https://github.com/honojs/hono/blob/main/LICENSE"
-  },
-  {
-    "name": "Valetudo",
-    "slug": "valetudo",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://valetudo.cloud/",
-    "source": "https://github.com/Hypfer/Valetudo/blob/master/LICENSE"
-  },
-  {
-    "name": "Stable Diffusion",
-    "slug": "stable-diffusion",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://stability.ai/stable-diffusion",
-    "source": "https://github.com/Stability-AI/stablediffusion/blob/main/LICENSE"
-  },
-  {
-    "name": "LlamaIndex",
-    "slug": "llamaindex",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://www.llamaindex.ai/",
-    "source": "https://github.com/run-llama/llama_index/blob/main/LICENSE"
-  },
-  {
-    "name": "LangChain",
-    "slug": "langchain",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://www.langchain.com/",
-    "source": "https://github.com/langchain-ai/langchain/blob/master/LICENSE"
-  },
-  {
-    "name": "Open Interpreter",
-    "slug": "open-interpreter",
-    "type": "NEW",
-    "date": "2026-11-01",
-    "category": "Open Source",
-    "url": "https://openinterpreter.com/",
-    "source": "https://github.com/KillianLucas/open-interpreter/blob/main/LICENSE"
-  },
-  {
     "name": "Miniforge",
     "slug": "miniforge",
     "type": "NEW",
@@ -898,5 +664,239 @@
     "category": "Community Version",
     "url": "https://cursor.sh/",
     "source": "https://cursor.sh/pricing"
+  },
+  {
+    "name": "Microsoft Visual Studio Professional",
+    "slug": "microsoft-visual-studio-professional",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "License for Commercial",
+    "url": "https://visualstudio.microsoft.com/vs/professional/",
+    "source": "https://visualstudio.microsoft.com/vs/pricing/"
+  },
+  {
+    "name": "Android Studio",
+    "slug": "android-studio",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "Free for Home",
+    "url": "https://developer.android.com/studio",
+    "source": "https://developer.android.com/studio"
+  },
+  {
+    "name": "New Relic",
+    "slug": "new-relic",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "Free for Home",
+    "url": "https://newrelic.com/",
+    "source": "https://newrelic.com/pricing"
+  },
+  {
+    "name": "CircleCI",
+    "slug": "circleci",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "Free for Home",
+    "url": "https://circleci.com/",
+    "source": "https://circleci.com/pricing/"
+  },
+  {
+    "name": "MongoDB Compass",
+    "slug": "mongodb-compass",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "Free for Home",
+    "url": "https://www.mongodb.com/products/compass",
+    "source": "https://www.mongodb.com/products/compass"
+  },
+  {
+    "name": "Redis Insight",
+    "slug": "redis-insight",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "Free for Home",
+    "url": "https://redis.com/redis-enterprise/redis-insight/",
+    "source": "https://redis.com/redis-enterprise/redis-insight/"
+  },
+  {
+    "name": "Tenable.io",
+    "slug": "tenable-io",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "License for Commercial",
+    "url": "https://www.tenable.com/products/tenable-io",
+    "source": "https://www.tenable.com/products/tenable-io"
+  },
+  {
+    "name": "AppDynamics",
+    "slug": "appdynamics",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "License for Commercial",
+    "url": "https://www.appdynamics.com/",
+    "source": "https://www.appdynamics.com/pricing"
+  },
+  {
+    "name": "WinDirStat",
+    "slug": "windirstat",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "Open Source",
+    "url": "https://windirstat.net/",
+    "source": "https://windirstat.net/"
+  },
+  {
+    "name": "Zenmap",
+    "slug": "zenmap",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "Open Source",
+    "url": "https://nmap.org/zenmap/",
+    "source": "https://nmap.org/zenmap/"
+  },
+  {
+    "name": "Webflow",
+    "slug": "webflow",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "Free for Home",
+    "url": "https://webflow.com/",
+    "source": "https://webflow.com/pricing"
+  },
+  {
+    "name": "Tabnine",
+    "slug": "tabnine",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "Free for Home",
+    "url": "https://www.tabnine.com/",
+    "source": "https://www.tabnine.com/pricing"
+  },
+  {
+    "name": "Codeium",
+    "slug": "codeium",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "Free for Home",
+    "url": "https://www.codeium.com/",
+    "source": "https://www.codeium.com/pricing"
+  },
+  {
+    "name": "Azure DevOps",
+    "slug": "azure-devops",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "Free for Home",
+    "url": "https://azure.microsoft.com/en-us/products/devops/",
+    "source": "https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/"
+  },
+  {
+    "name": "Multipass",
+    "slug": "multipass",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "Open Source",
+    "url": "https://multipass.run/",
+    "source": "https://multipass.run/"
+  },
+  {
+    "name": "SecureCRT",
+    "slug": "securecrt",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "License for Commercial",
+    "url": "https://www.vandyke.com/products/securecrt/",
+    "source": "https://www.vandyke.com/products/securecrt/"
+  },
+  {
+    "name": "Remmina",
+    "slug": "remmina",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "Open Source",
+    "url": "https://remmina.org/",
+    "source": "https://remmina.org/"
+  },
+  {
+    "name": "Iperf",
+    "slug": "iperf",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "Open Source",
+    "url": "https://iperf.fr/",
+    "source": "https://iperf.fr/"
+  },
+  {
+    "name": "Slite",
+    "slug": "slite",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "Free for Home",
+    "url": "https://slite.com/",
+    "source": "https://slite.com/pricing"
+  },
+  {
+    "name": "Zoho Projects",
+    "slug": "zoho-projects",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "Free for Home",
+    "url": "https://www.zoho.com/projects/",
+    "source": "https://www.zoho.com/projects/pricing.html"
+  },
+  {
+    "name": "Cisco Packet Tracer",
+    "slug": "cisco-packet-tracer",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "Community Version",
+    "url": "https://www.netacad.com/courses/packet-tracer",
+    "source": "https://www.netacad.com/courses/packet-tracer"
+  },
+  {
+    "name": "Azure Data Studio",
+    "slug": "azure-data-studio",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "Open Source",
+    "url": "https://learn.microsoft.com/en-us/sql/azure-data-studio/",
+    "source": "https://learn.microsoft.com/en-us/sql/azure-data-studio/what-is-azure-data-studio"
+  },
+  {
+    "name": "Logstash",
+    "slug": "logstash",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "Open Source",
+    "url": "https://www.elastic.co/logstash",
+    "source": "https://www.elastic.co/logstash"
+  },
+  {
+    "name": "VMware Workstation Player",
+    "slug": "vmware-workstation-player",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "Free for Home",
+    "url": "https://www.vmware.com/products/workstation-player.html",
+    "source": "https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html"
+  },
+  {
+    "name": "JetBrains Gateway",
+    "slug": "jetbrains-gateway",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "License Required",
+    "url": "https://www.jetbrains.com/remote-development/gateway/",
+    "source": "https://www.jetbrains.com/remote-development/gateway/"
+  },
+  {
+    "name": "Quip",
+    "slug": "quip",
+    "type": "NEW",
+    "date": "2026-11-05",
+    "category": "License for Commercial",
+    "url": "https://quip.com/",
+    "source": "https://quip.com/pricing"
   }
 ]
